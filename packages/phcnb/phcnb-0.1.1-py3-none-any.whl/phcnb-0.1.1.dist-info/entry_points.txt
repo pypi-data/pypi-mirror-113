@@ -1,0 +1,3 @@
+[console_scripts]
+pdm=phcnb.cli:cli
+

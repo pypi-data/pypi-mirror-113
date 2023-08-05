@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: tull
+Version: 0.8
+Summary: tull helps you to Teleport Ur Logs with Love
+Home-page: https://github.com/l0k3ndr/tull
+Author: Lokendra Sharma
+Author-email: lokendra.sharma.one@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.0.1)
+Requires-Dist: itsdangerous (==2.0.1)
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: Werkzeug (==2.0.1)
+Requires-Dist: Flask (==2.0.1)
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.1)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: idna (==3.2)
+Requires-Dist: importlib-metadata (==4.6.1)
+Requires-Dist: keyring (==23.0.1)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: Pygments (==2.9.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: readme-renderer (==29.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tqdm (==4.61.2)
+Requires-Dist: twine (==3.4.1)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.5.0)
+
+# `T`eleport `U`r `L`ogs with `L`ove
+
+```
+            .----------------.  .----------------.  .----------------.  .----------------.   
+           | .--------------. || .--------------. || .--------------. || .--------------. |  
+           | |  _________   | || | _____  _____ | || |   _____      | || |   _____      | |  
+           | | |  _   _  |  | || ||_   _||_   _|| || |  |_   _|     | || |  |_   _|     | |  
+           | | |_/ | | \_|  | || |  | |    | |  | || |    | |       | || |    | |       | |  
+           | |     | |      | || |  | '    ' |  | || |    | |   _   | || |    | |   _   | |  
+           | |    _| |_     | || |   \ `--' /   | || |   _| |__/ |  | || |   _| |__/ |  | |  
+           | |   |_____|    | || |    `.__.'    | || |  |________|  | || |  |________|  | |  
+           | |              | || |              | || |              | || |              | |  
+           | '--------------' || '--------------' || '--------------' || '--------------' |  
+            '----------------'  '----------------'  '----------------'  '----------------'   
+```
+Whatever you pipe into `tull`, will get a unique UUID and the data gets stored locally - accessible via a flask server with simple endpoints. You can use ngrok or localtunnel then to share it outside LAN as well. It won't break the console as it also redirects the stream transparently to stdout.
+
+### Installion
+
+`pip install tull`
+
+OR
+
+1. clone the repo
+2. create a venv and activate it
+3. pip install -r requirements.txt
+
+### Usage
+
+**STDIN Test:**
+Execute `tull web` and it will give you few urls. Open the one with TULL_WEB_URL in front.
+For each session `tull` generates a ID, and that ID is used to associate the data of that session.
+Type anything into the active terminal. On the web also on the correponding ID page it will reflect.
+Exit with Ctrl-D. (Currently Ctrl-C is causing the flask server to stop as well along with stream caputre, working on it)
+
+**Actual Use Case**
+Execute `ps ax | tull` ; you can see the output of your command but also the logs are saved with a unique id. Go to TULL_WEB_URL(found via `tull web` earlier)
+
+Outcome:
+1. you have your logs stored for future reference in an organized manner
+2. you can share the url to anyone having access to your server via http. 
+
+[youtube demo](https://www.youtube.com/watch?v=AQ6V2fIx1tw)
+
+What I do generally is hook it up with the ngrok tunnel. ngrok is a tool which you can use to create secure tunnels from your local ports in one-liner. So just do ```ngrok http 17171``` and you can share these logs with anyone on the other side of internet.
+
+### Disclaimer
+
+This is a personal project, don't use this in production or anywhere where you are not sure of security impacts. Until a v1.0 everything is considered unstable. :)
+
+### Future Roadmap
+
+ 1. Security - add basic auth 
+ 2. Better UI for /web interface - make it easier to search/navigage/organize logs
+ 3. API pagination for /api interface
+ 4. Streaming for /raw interface - also, how to read last n lines fast!
+ 5. Make readme look good
+
+### How it works
+
+When you run this, it creates a folder .tull in your user home directory. Also, at the same time it starts a background process which runs the flask server with some simple apis if it is already not started. Then whenever any data is piped into it, or it is invoked from command line, it creates a unique ID, and starts storing the pipe stream data into that file and also transparently writing it to stdout. That way it doesn't break your existing flow, saves the logs with unique ID and allows you to browse them later. Not too fancy, but useful.
+
+

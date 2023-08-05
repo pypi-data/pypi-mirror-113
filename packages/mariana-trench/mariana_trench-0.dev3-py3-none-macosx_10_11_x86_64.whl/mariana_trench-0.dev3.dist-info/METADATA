@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mariana-trench
+Version: 0.dev3
+Summary: A security focused static analysis platform targeting Android.
+Home-page: https://mariana-tren.ch/
+Author: Facebook
+Author-email: pyre@fb.com
+Maintainer: Facebook
+Maintainer-email: pyre@fb.com
+License: MIT
+Download-URL: https://github.com/facebook/mariana-trench
+Keywords: security,taint,flow,static,analysis,android,java
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: C++
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyre-extensions
+Requires-Dist: fb-sapp
+
+# Mariana Trench
+
+![logo](https://github.com/facebookincubator/mariana-trench/blob/master/logo.png?raw=true)
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
+[![.github/workflows/tests.yml](https://github.com/facebook/mariana-trench/actions/workflows/tests.yml/badge.svg)](https://github.com/facebook/mariana-trench/actions/workflows/tests.yml)
+
+Mariana Trench is a security focused static analysis platform targeting Android.
+
+## License
+
+Mariana Trench is licensed under the MIT license.
+
+

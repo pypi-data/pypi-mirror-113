@@ -1,0 +1,12 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/mtoc.1.gz
+src/mtoc/__init__.py
+src/mtoc/main.py
+src/pnu_mtoc.egg-info/PKG-INFO
+src/pnu_mtoc.egg-info/SOURCES.txt
+src/pnu_mtoc.egg-info/dependency_links.txt
+src/pnu_mtoc.egg-info/entry_points.txt
+src/pnu_mtoc.egg-info/top_level.txt

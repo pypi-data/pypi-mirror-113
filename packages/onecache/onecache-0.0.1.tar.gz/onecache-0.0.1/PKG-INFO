@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: onecache
+Version: 0.0.1
+Summary: Python cache for sync and async code
+Home-page: UNKNOWN
+Author: Johanderson Mogollon
+Author-email: johander1822@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test

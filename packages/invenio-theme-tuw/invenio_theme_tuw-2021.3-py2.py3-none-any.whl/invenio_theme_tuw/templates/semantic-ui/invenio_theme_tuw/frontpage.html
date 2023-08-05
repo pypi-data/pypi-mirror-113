@@ -1,0 +1,175 @@
+{# -*- coding: utf-8 -*-
+
+  Copyright (C) 2019 - 2021 CERN.
+  Copyright (C) 2019 - 2021 Northwestern University.
+  Copyright (C) 2020 - 2021 TU Wien.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+{%- extends "invenio_theme/frontpage.html" %}
+
+{%- block page_header %}
+{%- include "invenio_theme_tuw/header_frontpage.html" %}
+{%- endblock page_header %}
+
+{%- block page_body %}
+  <section id="welcome" class="ui container grey">
+    <h2 class="blue">Welcome!</h2>
+    <p>
+      TU Data is an institutional repository of TU Wien to enable storing, sharing and publishing of digital objects,
+      in particular research data. It facilitates the funders' requirements for open access to research data and the
+      FAIR principles by making research output findable, accessible, interoperable and re-usable. This service is
+      developed by the <span class="bold">TU Wien Center for Research Data Management</span> and hosted by
+      <span class="bold">TU.it</span>.
+    </p>
+    <p>
+      Please note that TU Data is still under development and has limited functionality. We will add more
+      functionality as development progresses.
+    </p>
+  </section>
+
+  <section id="features" class="ui four column stackable grid container">
+    <h2 class="hidden">Features</h2>
+    <div class="column">
+      <div class="feature-icon box-shaddow">
+        <a href="{{ url_for('invenio_search_ui.search') }}">
+          <img src="{{ url_for('static', filename='images/magnifying-glass.png') }}" alt="Magnifying glass icon" />
+        </a>
+      </div>
+      <div class="feature-text">
+        <p>Search datasets published by other users.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="feature-icon box-shaddow">
+        <a href="{{ url_for('invenio_app_rdm_records.deposit_create') }}">
+          <img src="{{ url_for('static', filename='images/upload-file.png') }}" alt="File upload icon" />
+        </a>
+      </div>
+      <div class="feature-text">
+        <p>Publish research outputs openly. A landing page provides information on your digital objects. </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="feature-icon box-shaddow">
+        <a href="mailto:tudata@tuwien.ac.at?subject=About TU Data...">
+          <img src="{{ url_for('static', filename='images/rating.png') }}" alt="Rating icon" />
+        </a>
+      </div>
+      <div class="feature-text">
+        <p>Restrict access and share data by link, e.g. for peer-review of data underlying publications.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="feature-icon box-shaddow">
+        <a href="mailto:tudata@tuwien.ac.at?subject=About TU Data...">
+          <img src="{{ url_for('static', filename='images/reuse.png') }}" alt="Reuse icon" />
+        </a>
+      </div>
+      <div class="feature-text">
+        <p>Deposit your data to make it FAIR. The process can be automated with a use of APIs provided by TU Data.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planned-features" class="ui container">
+    <div id="pf-link">
+      <a id="pf-link-a">Learn more about planned features...</a>
+    </div>
+    <div id="pf-list" class="hidden">
+      <h2>Planned Features:</h2>
+      <div id="pf-hide-link">
+        <a id="pf-list-a">(hide)</a>
+      </div>
+      <div class="ui stackable vertically padded grid">
+        <div class="two wide center aligned column">
+          <div class="ui tiny image">
+            <img src="{{ url_for('static', filename='images/planned-features/user.png') }}" alt="user icon" />
+          </div>
+        </div>
+        <div class="fourteen wide middle aligned column">
+          <div class="planned-feature-text box-shaddow">
+            <p>
+              <span class="bold">Self-upload</span><br />
+              Upload content directly using the graphical user interface.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="ui stackable vertically padded grid">
+        <div class="two wide center aligned column">
+          <div class="ui tiny image">
+            <img src="{{ url_for('static', filename='images/planned-features/group.png') }}" alt="group icon" />
+          </div>
+        </div>
+        <div class="fourteen wide middle aligned column">
+          <div class="planned-feature-text box-shaddow">
+            <p>
+              <span class="bold">Showcase for project output</span><br />
+              Create your "Communities" with a collection of datasets and supplementary materials.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="ui stackable vertically padded grid">
+        <div class="two wide center aligned  column">
+          <div class="ui tiny image">
+            <img src="{{ url_for('static', filename='images/planned-features/version.png') }}"
+              alt="version control icon" />
+          </div>
+        </div>
+        <div class="fourteen wide middle aligned column">
+          <div class="planned-feature-text box-shaddow">
+            <p>
+              <span class="bold">GitLab integration</span><br />
+              Easily preserve your GitLab repository in TU Data and get a DOI for your code.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="ui stackable vertically padded grid">
+        <div class="two wide center aligned  column">
+          <div class="ui tiny image">
+            <img src="{{ url_for('static', filename='images/planned-features/analytics.png') }}" alt="analytics icon" />
+          </div>
+        </div>
+        <div class="fourteen wide middle aligned column">
+          <div class="planned-feature-text box-shaddow">
+            <p>
+              <span class="bold">Usage statistics</span><br />
+              All uploads display standards compliant with usage statistics.
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="ui stackable vertically padded grid">
+        <div class="two wide center aligned column">
+          <div class="ui tiny image">
+            <img src="{{ url_for('static', filename='images/planned-features/connection.png') }}"
+              alt="collaboration icon" />
+          </div>
+        </div>
+        <div class="fourteen wide middle aligned column">
+          <div class="planned-feature-text box-shaddow">
+            <p>
+              <span class="bold">Upload rights for external users</span><br />
+              Offer TU Data as repository for cross-university and international collaboration.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+{%- endblock page_body%}
+
+{%- block javascript %}
+  {{ super() }}
+  {{ webpack["invenio-theme-tuw-planned-features.js"] }}
+{%- endblock %}

@@ -1,0 +1,4 @@
+[pennylane.plugins]
+synqs.mqs = pennylane_ls:MultiQuditDevice
+synqs.sqs = pennylane_ls:SingleQuditDevice
+

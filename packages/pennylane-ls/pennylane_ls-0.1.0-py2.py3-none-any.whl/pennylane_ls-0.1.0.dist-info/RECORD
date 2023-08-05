@@ -1,0 +1,12 @@
+pennylane_ls/MultiQuditDevice.py,sha256=ecND1VrkHb5JhOZjckaRtqRw19UvM4mH5-Tr35ozR8U,4525
+pennylane_ls/MultiQuditOps.py,sha256=zaMvfbIN6DVje1fShb4bDlAQfqOzVVsyGjI6I8HmtwU,3407
+pennylane_ls/SingleQuditDevice.py,sha256=USWE4pwm6BfGVyyQKhdlrv7YO8D6umV9heu_S3DfGS0,4273
+pennylane_ls/SingleQuditOps.py,sha256=v787aeMnUoQy-dNm7BATxpkbfSk4oiEvj6vm_H1cfLE,2876
+pennylane_ls/__init__.py,sha256=XYLpaZhMoxHV8vKkRgqXCoZdDbX_cl1ywhZ82PNkncI,185
+pennylane_ls/_version.py,sha256=hvx3DLU9M05DCqr0KEPY8XLrZdV0OqMQW9LnYWfOxyo,102
+pennylane_ls-0.1.0.dist-info/LICENSE,sha256=kXgG7r2G0DMyCGpDLPNvCCbY_Dy5LiHfPibofPPpMp0,1335
+pennylane_ls-0.1.0.dist-info/METADATA,sha256=4ltTatjECXRnZpuenqd9leTlJ5MfdbFuqa2A6lo6jfU,357
+pennylane_ls-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pennylane_ls-0.1.0.dist-info/entry_points.txt,sha256=tXC2lTtTnQ4sWljaGle9Kta9u2pZ7WNjCaMVrVvDS6Y,106
+pennylane_ls-0.1.0.dist-info/top_level.txt,sha256=TWH6hwQ4v2c5FuMIpC_KHUirHiG-9Wthn-O5fG7uFc4,13
+pennylane_ls-0.1.0.dist-info/RECORD,,

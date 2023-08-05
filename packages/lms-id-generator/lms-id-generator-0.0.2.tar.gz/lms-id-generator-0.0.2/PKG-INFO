@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: lms-id-generator
+Version: 0.0.2
+Summary: ID generator for lms
+Home-page: https://github.com/WisdomGardenInc/lms-id-generator
+Author: ZhangJianli
+Author-email: zhangjianli@wisdomgarden.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/WisdomGardenInc/lms-id-generator/issues
+Project-URL: Source, https://github.com/WisdomGardenInc/lms-id-generator
+Description: UNKNOWN
+Keywords: lms
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6

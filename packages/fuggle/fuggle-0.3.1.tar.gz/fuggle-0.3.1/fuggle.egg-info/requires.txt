@@ -1,0 +1,14 @@
+fugue[dask,spark,sql]==0.6.0
+tune[all]==0.0.6
+notebook
+kaggle
+seaborn
+qpd
+dask[dataframe]
+pandavro
+
+[blazing]
+fugue-blazing==0.0.3
+
+[dasksql]
+dask-sql!=0.3.4

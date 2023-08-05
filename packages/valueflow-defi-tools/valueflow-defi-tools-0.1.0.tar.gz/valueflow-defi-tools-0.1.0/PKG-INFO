@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: valueflow-defi-tools
+Version: 0.1.0
+Summary: Defi tools
+Home-page: https://github.com/valueflowever/DefiTools
+Author: valueflow
+Author-email: valueflow@163.com
+License: MIT Licence
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

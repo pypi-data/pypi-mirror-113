@@ -1,0 +1,4 @@
+web3==5.19.0
+websockets==8.1
+requests==2.25.1
+PyYAML==5.4.1

@@ -1,0 +1,5 @@
+click==7.1.2
+colorama
+pygments
+pyreadline
+prompt-toolkit==2.0.10

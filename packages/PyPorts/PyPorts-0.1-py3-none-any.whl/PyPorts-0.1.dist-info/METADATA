@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyPorts
+Version: 0.1
+Summary: quick way to integrate a port scanner
+Home-page: UNKNOWN
+Author: Basic-ScriptKiddie
+License: UNKNOWN
+Keywords: python,port,scanner,port scaner,ip,sockets
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+quick and easy way integrate a port scanner in one line of code
+
+

@@ -1,0 +1,7 @@
+requests
+aiohttp
+
+[speed]
+brotli
+cchardet
+aiodns

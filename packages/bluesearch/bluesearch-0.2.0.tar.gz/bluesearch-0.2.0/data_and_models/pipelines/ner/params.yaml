@@ -1,0 +1,33 @@
+entities:
+  - cell_compartment
+  - cell_type
+  - chemical
+  - disease
+  - drug
+  - organ
+  - organism
+  - pathway
+  - protein
+train:
+  corpora:
+    dev_size: 0.1  # (float) Proportion. | (int) Number of samples.
+    shuffle_seed: 0  # (int) Shuffling applied before the split.
+eval:
+  disease:
+    etype_name: DISEASE
+  cell_compartment:
+    etype_name: CELL_COMPARTMENT
+  drug:
+    etype_name: DRUG
+  organ:
+    etype_name: ORGAN
+  chemical:
+    etype_name: CHEMICAL
+  organism:
+    etype_name: ORGANISM
+  cell_type:
+    etype_name: CELL_TYPE
+  protein:
+    etype_name: PROTEIN
+  pathway:
+    etype_name: PATHWAY

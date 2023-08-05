@@ -1,0 +1,20 @@
+from setuptools import setup
+
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+    
+setup(name='logi',
+      version='1.2.1',
+      description='a loging library',
+      packages=['logi'],
+      license='MPL-2.0 License',
+      author = 'hiikion',
+      url='https://github.com/hiikion/logi',
+      install_requires=[ 
+          'os',
+          'time'
+      ],
+      author_email='mishptitsin@yandex.ru',
+      zip_safe=False)

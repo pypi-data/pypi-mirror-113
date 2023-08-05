@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kafka-lmdc
+Version: 2.0.5
+Summary: Esta biblioteca tem como objetivo a facilitação do uso de Kerberos e Kafka em Python. (Agregando max.poll.interval.ms no consumer na versao 2.0.5)
+Home-page: https://github.com/LMDC-UFF/kafka-python
+Author: LMDC-UFF
+Author-email: opensource@lmdc.uff.br
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: confluent-kafka
+
+# Python-Kafka
+
+Esta biblioteca tem como objetivo a facilitaÃ§Ã£o do uso de Kerberos e Kafka em Python.
+
+
+## Como usar localmente
+
+Para utilizar esta biblioteca localmente, Ã© necessÃ¡rio clonÃ¡-la para o diretÃ³rio onde se encontra o arquivo no qual vocÃª deseja importar a mesma. Isto farÃ¡ com que a biblioteca esteja somente disponÃ­vel para tal diretÃ³rio. 
+
+## Como usar globalmente
+
+Para utilizar esta biblioteca globalmente, Ã© necessÃ¡rio clonÃ¡-la para o diretÃ³rio de bibliotecas do Python. Caso nÃ£o saiba onde fica este diretÃ³rio, basta:
+
+- Abre a IDLE do Python (ou cmd)
+- Importe a biblioteca sys: 
+> import sys
+- E digite: 
+> print(sys.path)
+- A saÃ­da do programa serÃ¡ algo parecido com: 
+> C:\\Users\\marcos\\AppData\\Local\\Programs\\Python\\Python38-32\\lib\\site-packages] (saÃ­da obtida atrÃ¡ves do Windows)
+
+Assim, esta biblioteca deve estar dentro do diretÃ³rio **site-packages**. 
+
+

@@ -1,0 +1,14 @@
+{% extends "portfolio:portfolio/portfolio_base.html" %}
+{% block base_href %}
+    <base href = "/portfolio/">
+{% endblock base_href %}
+
+{% block title %}Accounts{% endblock %}
+
+{% block angular-app %}
+    ng-app="portfolio" ng-strict-di
+{% endblock angular-app %}
+
+{% block content %}
+    <div ng-view></div>
+{% endblock %}

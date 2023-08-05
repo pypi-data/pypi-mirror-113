@@ -1,0 +1,23 @@
+<div>
+<table class="table">
+  <thead class="thead-dark">
+      <tr>
+	  <th> Account name </th>
+	  <th></th>
+	  <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr ng-repeat="account in vm.accounts"">
+	  <td>
+	      <a href="accounts/{{account.id}}/">
+		  {{ account.name }}
+	      </a>
+	  </td>
+	  <td> Edit </td>
+	  <td> Delete </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+<a href="account/{{a.id}}">{{a.name}}

@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+fsPacker/__init__.py
+fsPacker/__main__.py
+fsPacker/fsPacker.py
+python_fspacker.egg-info/PKG-INFO
+python_fspacker.egg-info/SOURCES.txt
+python_fspacker.egg-info/dependency_links.txt
+python_fspacker.egg-info/not-zip-safe
+python_fspacker.egg-info/top_level.txt

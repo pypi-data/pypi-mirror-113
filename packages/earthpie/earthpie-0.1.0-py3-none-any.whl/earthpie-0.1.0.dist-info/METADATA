@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: earthpie
+Version: 0.1.0
+Summary: Specialised version of open source earthpy package that does not plot img directly but returns array to use with plt.imshow
+Home-page: UNKNOWN
+Author: Anon and credits to author of earthpy
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: rasterio
+Requires-Dist: matplotlib
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: geopandas
+Requires-Dist: scikit-image
+
+UNKNOWN
+

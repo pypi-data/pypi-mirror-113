@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+ClassTenPhysics/__init__.py
+ClassTenPhysics/electricity.py
+ClassTenPhysics/light_reflection.py
+ClassTenPhysics/motion.py
+ClassTenPhysics/work.py
+ClassTenPhysics.egg-info/PKG-INFO
+ClassTenPhysics.egg-info/SOURCES.txt
+ClassTenPhysics.egg-info/dependency_links.txt
+ClassTenPhysics.egg-info/top_level.txt

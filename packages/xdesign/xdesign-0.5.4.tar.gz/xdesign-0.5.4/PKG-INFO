@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: xdesign
+Version: 0.5.4
+Summary: Benchmarking and optimization tools for tomography.
+Home-page: http://github.com/tomography/xdesign.git
+Author: Daniel Ching, Doga Gursoy
+Author-email: UNKNOWN
+License: BSD-3
+Description: UNKNOWN
+Keywords: xdesign,tomography
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers

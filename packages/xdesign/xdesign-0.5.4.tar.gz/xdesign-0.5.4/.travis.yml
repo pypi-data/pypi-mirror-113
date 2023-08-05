@@ -1,0 +1,19 @@
+dist: xenial
+sudo: false
+
+language: python
+python:
+  - "3.6"
+  - "3.7"
+
+install:
+  - pip install -r requirements.txt nose python-coveralls
+  - pip install .
+
+script:
+  - xvfb-run -a nosetests
+
+after_success:
+  - if [[ "$TRAVIS_PYTHON_VERSION" == "3.6" ]]; then
+      coveralls;
+    fi

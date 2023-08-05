@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: plover-debugging-console
+Version: 0.1.0
+Summary: A IPython debugging console for Plover.
+Home-page: https://github.com/user202729/plover-debugging-console
+Author: user202729
+License: GNU General Public License v3 or later (GPLv3+)
+Description: # plover-debugging-console
+        A IPython debugging console for Plover.
+        
+        ### Usage
+        
+        * Install the plugin.
+        * Enable the extension plugin in Plover.
+        * Run the command `plover-debugging-console-connect` (or `plover -s plover-debugging-console-connect`)
+        in a terminal.
+        
+        The global variable `engine` is given. Other objects can be accessed from `engine` as public
+        or private members.
+        
+        Alternatively, `plover-debugging-console-connect qtconsole` can be used to launch a console-style application using Qt.
+        See documentation of `jupyter qtconsole` for more details.
+        
+        ### Note
+        
+        * Once started, the kernel is not stopped until Plover exits.
+        * Any `print` commands are printed on Plover's console, not IPython's console.
+        
+        ### Implementation details
+        
+        * The kernel can be connected to manually with `ipython console --existing <file>`
+        or `jupyter console --existing <file>`.
+        * The IPython/Jupyter connection file path is stored in `connection_path_container`, which is
+        `plover_debugging_console_path` in the temp folder in the current version.
+        * `background_zmq_ipython` package is used, which requires `jupyter`
+        
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

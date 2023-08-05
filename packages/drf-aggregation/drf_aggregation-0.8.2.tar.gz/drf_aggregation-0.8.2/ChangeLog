@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.2
+-----
+
+* Remove sort from queryset before aggregation

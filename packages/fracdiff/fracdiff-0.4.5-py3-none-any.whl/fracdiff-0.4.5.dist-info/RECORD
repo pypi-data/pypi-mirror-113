@@ -1,0 +1,10 @@
+fracdiff/__init__.py,sha256=3XjJCgxQQz7s9Fk0Qr6a_21JhLZIKwz2VILwK85kBSo,94
+fracdiff/base.py,sha256=rZ9OXcMY-jG4GgaFcaAaziVrGXVXa-xUbfqNM7N11do,5493
+fracdiff/fracdiff.py,sha256=TLgDqpzJx4ilSez1I60nx10f8fN4zd9-_NWWfouTLPI,4478
+fracdiff/fracdiffstat.py,sha256=XZvzbYYl-jCbhTkwOHAAyGOmb3Ri72ckRr3qU_CEAz8,6597
+fracdiff/stat.py,sha256=Nq5UpjhSsd5xkD8sB-49GggkyuQ62wqSHr0mjCjtv8E,2157
+fracdiff/tol.py,sha256=K2wOmGHTBqJwJIYCqPkLlYzOmHTRJJZOnMV4L4Vg7o0,2194
+fracdiff-0.4.5.dist-info/LICENSE,sha256=N-L588nMCMO2lk3oyAzVcO0JQL01NGGIITU-cd0z1LU,1516
+fracdiff-0.4.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+fracdiff-0.4.5.dist-info/METADATA,sha256=CoJaui3QHmuB16Xm75T3L7FRUwmYSWXr8ZqyeKZnvvw,745
+fracdiff-0.4.5.dist-info/RECORD,,

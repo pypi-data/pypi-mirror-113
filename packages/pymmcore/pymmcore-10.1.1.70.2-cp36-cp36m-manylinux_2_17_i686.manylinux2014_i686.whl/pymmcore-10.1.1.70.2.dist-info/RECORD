@@ -1,0 +1,10 @@
+pymmcore/_pymmcore_swig.cpython-36m-i386-linux-gnu.so,sha256=YyxE1RZZ-9Gtoyn4x5yXV1M_8KcyVA-hCSle2oucl7I,2859808
+pymmcore/__init__.py,sha256=8px3MtJql2p1KQixgytUBaOG1Eholxb4DKpHfNZZ680,29
+pymmcore/pymmcore_swig.py,sha256=GmRFV9zkoFfYOiQfTQP2I_sQHK-uDbyDDQGdrp0YP1Q,2158
+pymmcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore/__init__.pyi,sha256=kv9YAw3QUfczCMMgJbY1j54Dv0mbNJaufhSXsFQ-2hI,52763
+pymmcore-10.1.1.70.2.dist-info/METADATA,sha256=TXtIoshXEgmhMeAv8yk4-AiF2zDpdWI3pTweQC30HCE,6424
+pymmcore-10.1.1.70.2.dist-info/top_level.txt,sha256=LLsniaDErduTM0iXWVmNp19PlgsFeVo4qI8_Vucc0LM,9
+pymmcore-10.1.1.70.2.dist-info/RECORD,,
+pymmcore-10.1.1.70.2.dist-info/LICENSE.txt,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+pymmcore-10.1.1.70.2.dist-info/WHEEL,sha256=67AIeFZ7DCgB-TWBit6pRQYmdJlT4mboUOUpXcMVKNY,146

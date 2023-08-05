@@ -1,0 +1,14 @@
+bronzebeard/__init__.py,sha256=2KhwdVI7UJxb9WeYEgmHKGrEcpzdaci5fn_c31h7rVM,72
+bronzebeard/asm.py,sha256=G63qLxGZJgpApf_gzTZ8c0WJBZlEjfATo9mV9I_MYko,102275
+bronzebeard/dfu.py,sha256=loLjWqXK4nKlA5c8TgNLz_yMP5hbfT0r0GDgdFIyvRc,10425
+bronzebeard/chips/FE310-G002.asm,sha256=36ok6JGJ7DnOOSo_O8VGVMb-roFmfHPF9rcV8NB_8LU,286
+bronzebeard/chips/GD32VF103.asm,sha256=uoXf2cBKS9IfYR-j0HPMGiw2K-kJwxiyXOVC9Pn79Hg,14956
+bronzebeard/libs/libusb-1.0.dll,sha256=s4Cug5CrPPXnSfwjNX5wpuQdEgoWVmj3i75AYpDPX84,289620
+bronzebeard/peripherals/ESP8266.asm,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bronzebeard/peripherals/ST7735S.asm,sha256=CrlavmKkewyUudggaIyeLR3yREepDz9eFca0HkOnAXQ,490
+bronzebeard-0.1.13.dist-info/LICENSE,sha256=dg6VE-tIGHzfaGLj3K1O-r1E3bv-emLUTYSSh2J7GJo,1070
+bronzebeard-0.1.13.dist-info/METADATA,sha256=FTIBB1fCXEY122qouIFhq9_MLxmCDbmMBw7YToVflHQ,3837
+bronzebeard-0.1.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bronzebeard-0.1.13.dist-info/entry_points.txt,sha256=RgOfD6Lv2jJWpV2qrV41AvTOgDXeq8B1EsRnXv_W-ks,101
+bronzebeard-0.1.13.dist-info/top_level.txt,sha256=9-OUqF5CM0DtAyi61BQZm3u_ixHrtN3Z9HAimmcyefA,12
+bronzebeard-0.1.13.dist-info/RECORD,,

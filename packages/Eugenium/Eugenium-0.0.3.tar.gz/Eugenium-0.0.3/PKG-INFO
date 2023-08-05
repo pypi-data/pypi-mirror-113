@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: Eugenium
+Version: 0.0.3
+Summary: Classes to create and deploy selenium processes on google cloud platform
+Home-page: https://github.com/efbbrown/eugenium
+Author: Eugene Brown
+Author-email: efbbrown@gmail.com
+License: MIT
+Download-URL: https://github.com/efbbrown/eugenium/archive/v.0.0.3-alpha.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

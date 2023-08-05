@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dslearn/__init__.py
+src/dslearn/core.py
+src/dslearn.egg-info/PKG-INFO
+src/dslearn.egg-info/SOURCES.txt
+src/dslearn.egg-info/dependency_links.txt
+src/dslearn.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: darbiadev-sanmar
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Bradley Reynolds
+Author-email: bradley.reynolds@darbia.dev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-benedict (>=0.24.0,<0.25.0)
+Requires-Dist: suds-community (>=0.8.5,<0.9.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)

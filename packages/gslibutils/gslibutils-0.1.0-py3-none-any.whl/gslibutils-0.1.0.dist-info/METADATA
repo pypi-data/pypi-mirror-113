@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: gslibutils
+Version: 0.1.0
+Summary: Contains utilities to load/save GSLIB files, such as
+Home-page: https://github.com/exepulveda/gslibutils
+Author: Exequiel Sepúlveda
+Author-email: esepulveda@protonmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: typer >= 0.3.0
+Requires-Dist: numpy >= 1.19.0
+Requires-Dist: pandas >= 1.3.0
+Requires-Dist: colorama >=0.4.3,<0.5.0 ; extra == "all"
+Requires-Dist: shellingham >=1.3.0,<2.0.0 ; extra == "all"
+Requires-Dist: autoflake >=1.3.1,<2.0.0 ; extra == "dev"
+Requires-Dist: flake8 >=3.8.3,<4.0.0 ; extra == "dev"
+Requires-Dist: mkdocs >=1.1.2,<2.0.0 ; extra == "doc"
+Requires-Dist: mkdocs-material >=5.4.0,<6.0.0 ; extra == "doc"
+Requires-Dist: markdown-include >=0.5.1,<0.6.0 ; extra == "doc"
+Requires-Dist: pytest >=4.4.0,<5.4.0 ; extra == "test"
+Requires-Dist: pytest-cov >=2.10.0,<3.0.0 ; extra == "test"
+Requires-Dist: coverage >=5.2,<6.0 ; extra == "test"
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# gslibutils
+Python utilities for GSLIB parameter, input and output files
+
+GSLIB executables use parameter, input and output files in a specific format.
+gslibutils comes with the modules for importing/exporting those files and with
+CLI commands for pipeline executions.
+
+## Install
+
+```bash
+python -m pip install gslibutils
+```
+
+## Usage as Python package
+
+For the use of gslibutils as a Python package, a simple example is:
+
+```python
+from gslibutils.parser import load_input_df
+
+title, df = load_input_df("data/simple.gslib")
+
+print(df["var1"])
+
+0      1.0
+1     10.0
+2    100.0
+Name: var1, dtype: float64
+```
+## Usage as CLI
+
+gslibutils can run as CLI to facilitate pipelines.
+To covert a gslib file into a CSV:
+```bash
+gslib2csv data/simple.gslib
+gslib2csv data/simple.gslib --delimiter " "
+gslib2csv data/simple.gslib --delimiter "," > my.csv
+gslib2csv data/simple.gslib --delimiter "," --output my.csv
+```

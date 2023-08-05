@@ -1,0 +1,12 @@
+chatdollkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatdollkit/app.py,sha256=XO96Br-l3Uv8PF5DUwJJ6_gQCMDJ0UprsHI2dWH6mac,2704
+chatdollkit/models.py,sha256=ED2O4Pnknvz9EhgcRnMXh5broYCEqDRMgvHTmy4EMgA,9170
+chatdollkit/version.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+chatdollkit/controllers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatdollkit/controllers/fastapi_controller.py,sha256=UHHEoHffwG1mJrxWuM-kdX33u0D3cjc7MIZB1YB7QJ0,4059
+chatdollkit/controllers/flask_controller.py,sha256=Luo3MqlLbtZifS1nW5iFbG2R1nmqsoFhsEasq7CPvsI,3450
+chatdollkit-0.3.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+chatdollkit-0.3.0.dist-info/METADATA,sha256=1AAs8_HAuN5tPdE_1-HH6VeCf8uKwfTyoEaLijk4e1o,4050
+chatdollkit-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+chatdollkit-0.3.0.dist-info/top_level.txt,sha256=jrQybY5FRLrTCjothNlIgv_4KByq9sV5hw29PosrlfI,12
+chatdollkit-0.3.0.dist-info/RECORD,,

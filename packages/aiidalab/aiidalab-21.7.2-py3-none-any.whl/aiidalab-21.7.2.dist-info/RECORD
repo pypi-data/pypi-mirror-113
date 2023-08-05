@@ -1,0 +1,12 @@
+aiidalab/__init__.py,sha256=UDgA_yfxuUrCMuRzKhwRfXtXgyymuBdyqykh_slmwuA,130
+aiidalab/__main__.py,sha256=L1wUzEo3e2GfOwiKCCW04fJkX1a5XS2nenJYtfGg9Sc,15605
+aiidalab/app.py,sha256=z-yl5yOU8L7rPIdzNQ884REOEqnknDb4PChNn0uFFG4,20174
+aiidalab/config.py,sha256=7UhAzSWwTmnbataL4fyHjpCiXYlk8b-AnXi-ljS_GRw,1992
+aiidalab/git_util.py,sha256=zfkKNxHVxFRzPKgayddrkcp1XJcg7PkFcMsBm7GgjGo,3686
+aiidalab/utils.py,sha256=Fews33Z8ROERR6klaKnUvF6b9FtWWt44K7KQiztLFuY,5055
+aiidalab-21.7.2.dist-info/LICENSE,sha256=OfGsdIeBYzKr-empA9u27nkSkDin4ARQZ3RGz--Eblw,1070
+aiidalab-21.7.2.dist-info/METADATA,sha256=usw4rUESCUjZf4WoRvglNd5jwgeezpAKXWZnJeJytQ8,2978
+aiidalab-21.7.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aiidalab-21.7.2.dist-info/entry_points.txt,sha256=TPQhDqhwsl2p8txSl1x4RuTtdS9IfeAOEsxQLEiaapQ,52
+aiidalab-21.7.2.dist-info/top_level.txt,sha256=A-LKEBmd11VTJCzGgKK8YABff_W2VBqmSNQ4vyOyIr4,9
+aiidalab-21.7.2.dist-info/RECORD,,

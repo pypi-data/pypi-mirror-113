@@ -1,0 +1,14 @@
+soxr/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soxr/__init__.py,sha256=_LgN29YTmV8wtUAcDhuBp3vQ2-h4QfqjdwfLnEg1yJw,5224
+soxr/csoxr.pxd,sha256=Gbczme-cveuzURqqmpK-DIS9Xbu9cBserLKBmDTAMwA,2008
+soxr/cysoxr.c,sha256=gt0PoA0iMPaRBolD0keRLo90GbGZW5J3sHJG8KLC3Qs,1575852
+soxr/cysoxr.cpython-37m-darwin.so,sha256=umcfSyZpKJp_jFtEE_sIn6KC_ASZds1oZUjiCmwNykA,566208
+soxr/cysoxr.pyx,sha256=_h3nht6_gvjgG3_DnCPxqF6jKqLhK5WwxZjIVaUQuzg,8076
+soxr/soxr-config.h,sha256=v37avwRpkz2I68XmLgIeDXS_kLUsya6pw8jSckgCW1E,490
+soxr/version.py,sha256=7Tv5KcFrUi9pBxqT_B35TCdR7vBvjNUgkvpi6fGwPdU,142
+soxr-0.2.5.dist-info/COPYING.LGPL,sha256=8vEYuQKewYcblTY57MRmUbL8e2LilebPPvKsTJoFizM,26432
+soxr-0.2.5.dist-info/LICENSE.txt,sha256=8vfyQpNkBK7U-Th0BncCPg5RillIE12Zo6tqi3p-Ljo,3778
+soxr-0.2.5.dist-info/METADATA,sha256=3LXQ9ZSj2V7V8QuTHWhuuc3sYmvH-n_IeIihYQqnq7I,4770
+soxr-0.2.5.dist-info/WHEEL,sha256=WVG6A_oY5zUoNXUyvfLMOSXC-hqC5VZacUL1MeSOz70,110
+soxr-0.2.5.dist-info/top_level.txt,sha256=hKgwfQsbwN5KovL0oYn-hpTVQIIyWMxYyGNzZqs_w-o,5
+soxr-0.2.5.dist-info/RECORD,,

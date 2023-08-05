@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: 3y
+Version: 2.5.4.1
+Summary: 三圆计算器,cmd或命令行 python -m main 命令开始运行
+Home-page: UNKNOWN
+Author: 神秘的·
+Author-email: 3046479366@qq.com
+License: MIT
+Keywords: 3y
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
+# 3yzh
+
+A three-circle calculator, It contains Circle Circles and Cylinders.
+It is in Chinese.If you konw how to speak and write or mean these,you can use
+Now,you can Download and input python -m main and then it will running
+
+Please comply with local laws and regulations, 
+User only has the right to use 
+The final interpretation belongs to the author 
+For mainland China only. 
+You can see or read the log in log.py
+This means that you have read and agreed to all the above regulations. 
+Welcome Download and use!
+

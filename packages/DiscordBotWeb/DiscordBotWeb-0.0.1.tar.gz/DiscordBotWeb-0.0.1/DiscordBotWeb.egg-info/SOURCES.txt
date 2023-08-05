@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+DiscordBotWeb.egg-info/PKG-INFO
+DiscordBotWeb.egg-info/SOURCES.txt
+DiscordBotWeb.egg-info/dependency_links.txt
+DiscordBotWeb.egg-info/requires.txt
+DiscordBotWeb.egg-info/top_level.txt
+botweb/__init__.py

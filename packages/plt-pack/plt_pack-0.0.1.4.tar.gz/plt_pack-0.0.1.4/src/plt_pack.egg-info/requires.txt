@@ -1,0 +1,5 @@
+numpy
+msgpack>=1.0.0
+msgpack-numpy>=0.4.7.1
+matplotlib
+packaging

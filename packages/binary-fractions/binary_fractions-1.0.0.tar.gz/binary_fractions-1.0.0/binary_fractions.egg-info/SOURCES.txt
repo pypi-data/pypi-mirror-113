@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+binary_fractions/binary.py
+binary_fractions/binary_sample.py
+binary_fractions/binary_test.py
+binary_fractions.egg-info/PKG-INFO
+binary_fractions.egg-info/SOURCES.txt
+binary_fractions.egg-info/dependency_links.txt
+binary_fractions.egg-info/top_level.txt

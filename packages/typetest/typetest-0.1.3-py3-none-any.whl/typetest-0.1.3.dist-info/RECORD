@@ -1,0 +1,13 @@
+typetest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typetest/__main__.py,sha256=MmSDQtA9gAcr04Yt0D21wZbwAnnyXVaD4kp_ymJqzps,9872
+typetest/analyse.py,sha256=pMjL1IYD0hYvhCk_Di9f19MUL7yMlRWHCtNDarO7HxI,9562
+typetest/results/placeholder,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typetest/tests/common_1000,sha256=b5Mo-AdW2sO4qmwAknKPOEwH-dJUJZ40Q9E2_vtYBKY,5942
+typetest/tests/common_300,sha256=26ECdEnN4y-2fHnzYtX4SBytnLXbVTTx8OnyHF1hfE4,1567
+typetest/tests/no_double_letters,sha256=JhXm7KJ_yalEXimilv0WVR1zwf8qGqQ9xZ_V0qIEXcY,4982
+typetest/utils.py,sha256=Plpc70-N2-jNUloH8raOA3OKVG1RjycIQ3ndxBsb-0k,1093
+typetest-0.1.3.dist-info/entry_points.txt,sha256=za00KTL3RhC4o97WaYXm2b_KDHn8uBtx_mn8F1RgCqE,88
+typetest-0.1.3.dist-info/LICENSE,sha256=wvEec5_YT5PfWjKFj56xrdWrfWQJ4DCFWW09KB69PL4,1073
+typetest-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+typetest-0.1.3.dist-info/METADATA,sha256=0wG8sjXlejkJifBJqt0GvW6xvf2ijDH_3Rv8EFNWq2A,4820
+typetest-0.1.3.dist-info/RECORD,,

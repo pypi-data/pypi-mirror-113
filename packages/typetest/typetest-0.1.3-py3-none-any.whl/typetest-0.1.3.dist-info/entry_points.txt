@@ -1,0 +1,4 @@
+[console_scripts]
+typetest=typetest.__main__:run
+typetest-analyse=typetest.analyse:run
+

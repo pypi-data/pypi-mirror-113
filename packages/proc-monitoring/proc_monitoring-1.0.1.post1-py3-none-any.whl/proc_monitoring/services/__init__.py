@@ -1,0 +1,2 @@
+from proc_monitoring.services.kafka_consumer import KafkaConsumer
+from proc_monitoring.services.kafka_producer import KafkaProducer

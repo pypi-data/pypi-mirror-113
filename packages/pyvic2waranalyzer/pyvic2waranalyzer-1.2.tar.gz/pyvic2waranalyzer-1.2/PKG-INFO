@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pyvic2waranalyzer
+Version: 1.2
+Summary: Victoria 2 War Analyzer written in Python!
+Home-page: https://github.com/InternetExplorer404/PyVic2WarAnalyzer
+Author: Alvaro
+Author-email: UNKNOWN
+License: Unlicense
+Download-URL: https://github.com/InternetExplorer404/PyVic2WarAnalyzer/archive/refs/tags/v1.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

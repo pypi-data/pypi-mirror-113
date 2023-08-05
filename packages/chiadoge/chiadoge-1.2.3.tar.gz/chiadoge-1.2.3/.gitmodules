@@ -1,0 +1,8 @@
+[submodule "chiadogecoin-gui"]
+	path = chiadogecoin-gui
+	url = https://github.com/Chiadoge-Network/chiadogecoin/chiadogecoin-gui.git
+	branch = pools
+[submodule "mozilla-ca"]
+	path = mozilla-ca
+	url = https://github.com/Chiadoge-Network/mozilla-ca.git
+        branch = main

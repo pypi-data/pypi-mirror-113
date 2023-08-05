@@ -1,0 +1,16 @@
+matrix_reminder_bot/__init__.py,sha256=WgCpR5RZz8utD5Bsu60Z81pYPOKlXk5jOh6zlS8Rhuo,209
+matrix_reminder_bot/bot_commands.py,sha256=vlbTiUYOqKf3OXqSWyoVDFXC06B8srHxvSc3WeGHJew,22451
+matrix_reminder_bot/callbacks.py,sha256=mi1KXMRWE6nPZpUwtBumB46m-Hr0FioTXYoNxqnGCpM,5644
+matrix_reminder_bot/chat_functions.py,sha256=Rdjar4i50NKrvnvBiIofwHaFZm26f12dOVA-fnJwRH4,1227
+matrix_reminder_bot/config.py,sha256=dc4Tr526ECweYyljnLgxyxOlzbGW79xsqN5GdUXA70Y,5376
+matrix_reminder_bot/errors.py,sha256=tZYXmfBjBKSog3XnsMFui4Ig1eytspguNgMwi3WLkV8,696
+matrix_reminder_bot/functions.py,sha256=fLZlB6KpwN7MyHjYT8Lqr8vC1xjJEaV7sRQiruv7IiI,3809
+matrix_reminder_bot/main.py,sha256=Wts4O6gH-sE1qW2cW_xlYcwt8CLSInxel-ZvQR7TUoE,4112
+matrix_reminder_bot/reminder.py,sha256=trmQE56ZrZ6Nop2FuHjOoW0XILJR_9BNmT-9k1Qic2Q,7337
+matrix_reminder_bot/storage.py,sha256=d34OY-Ac6FeH_U4MTWEUvdZmSy5soI4OMrtjG70pNuQ,12621
+matrix_reminder_bot-0.2.1.data/scripts/matrix-reminder-bot,sha256=FMj7o4-CTTm2V3Y0pefjCfOfnJPoUnpQ0uXGSODerJM,256
+matrix_reminder_bot-0.2.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+matrix_reminder_bot-0.2.1.dist-info/METADATA,sha256=ss0eP05rlh_2_RwhuwbQhwPuGtVD-cfalAGFhWD4pio,7563
+matrix_reminder_bot-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+matrix_reminder_bot-0.2.1.dist-info/top_level.txt,sha256=hq7x7sqR1wR8XHQ5QWmFmPSA8g7B96Rd_KgBrcpz4hA,20
+matrix_reminder_bot-0.2.1.dist-info/RECORD,,

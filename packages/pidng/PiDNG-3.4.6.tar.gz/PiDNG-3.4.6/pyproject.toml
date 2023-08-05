@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "PiDNG"
+version = "3.4.6"
+description = "Python utility for converting Raspberry Pi Camera RAW images into Adobe DNG Format."
+readme = "docs/README.md"
+authors = ["Csaba Nagy"]
+repository = "https://github.com/schoolpost/PiDNG"
+homepage = "https://github.com/schoolpost/PiDNG"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+numpy = "^1.14"
+exifread = "^2.3.2"
+
+[tool.poetry.dev-dependencies]
+twine = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

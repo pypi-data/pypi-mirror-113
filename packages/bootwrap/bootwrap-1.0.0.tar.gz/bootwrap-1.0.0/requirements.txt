@@ -1,0 +1,11 @@
+Flask
+beautifulsoup4
+PyYAML
+wheel
+build
+twine
+pylint
+flake8
+pytest
+pytest-cov
+setuptools

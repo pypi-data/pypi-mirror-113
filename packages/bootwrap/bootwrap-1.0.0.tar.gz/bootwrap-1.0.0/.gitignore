@@ -1,0 +1,42 @@
+# Exclude all.
+
+*
+
+# Except GitHub workflow
+
+!.github/
+!.github/**/
+!.github/**/*.yml
+
+# Except main bootwrap modules
+
+!bootwrap/
+!bootwrap/**/
+!bootwrap/**/*.py
+
+# Except test bootwrap modules
+
+!docs/
+!docs/**/
+!docs/**/*.yaml
+!docs/**/*.py
+!docs/**/*.png
+!docs/**/*.ico
+!docs/**/*.html
+
+!demo/
+!demo/**/
+!demo/**/*.py
+
+!tests/
+!tests/**/
+!tests/**/*.py
+
+!helper.sh
+!LICENSE
+!main.py
+!setup.py
+!README.md
+!CONTRIBUTING.md
+!requirements.txt
+!pytest.ini

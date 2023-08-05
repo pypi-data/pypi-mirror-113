@@ -1,0 +1,5 @@
+setup.py
+arcticdata.egg-info/PKG-INFO
+arcticdata.egg-info/SOURCES.txt
+arcticdata.egg-info/dependency_links.txt
+arcticdata.egg-info/top_level.txt

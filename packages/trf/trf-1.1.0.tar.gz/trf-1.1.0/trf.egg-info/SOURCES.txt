@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+trf/Entry.py
+trf/Player.py
+trf/Tournament.py
+trf/TrfException.py
+trf/__init__.py
+trf.egg-info/PKG-INFO
+trf.egg-info/SOURCES.txt
+trf.egg-info/dependency_links.txt
+trf.egg-info/top_level.txt

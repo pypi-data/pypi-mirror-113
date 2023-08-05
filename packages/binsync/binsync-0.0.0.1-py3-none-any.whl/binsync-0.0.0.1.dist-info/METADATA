@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: binsync
+Version: 0.0.0.1
+Summary: Collaboration framework for binary analysis tasks.
+Home-page: https://github.com/angr/binsync
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: sortedcontainers
+Requires-Dist: toml
+Requires-Dist: GitPython
+Requires-Dist: filelock
+Requires-Dist: sip
+
+UNKNOWN
+

@@ -1,0 +1,10 @@
+app_paths/__init__.py,sha256=QbBoEIDnihnU7TXxod35V4UCz1XEJTri55yz3syOdPM,127
+app_paths/base.py,sha256=DaZciAbSZT-eA-KFCbpZJJH56FmoMuNpM4HVOoqsX_I,553
+app_paths/io.py,sha256=5v6JUCyhmLo55JRoH-afj422HsD1x9N3BS6BPQgpQ7s,1469
+app_paths/paths.py,sha256=RfYcofstmqvgz90nrvHgCa2OAxCowetj9y59Yc872F4,6142
+app_paths-0.0.5.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+app_paths-0.0.5.dist-info/METADATA,sha256=6reB6h8V9ruiF3_9UapT7WNCmjDcfU6iaHijyxP8vVI,5074
+app_paths-0.0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+app_paths-0.0.5.dist-info/top_level.txt,sha256=JYbXq6NKjhuat8LXO49W_wNSUwRwjUwyWuLQ_l2ia_U,10
+app_paths-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+app_paths-0.0.5.dist-info/RECORD,,

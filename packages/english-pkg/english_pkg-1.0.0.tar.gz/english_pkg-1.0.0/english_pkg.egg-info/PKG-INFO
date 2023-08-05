@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: english-pkg
+Version: 1.0.0
+Summary: A small example package of proccessing Docx
+Home-page: https://github.com/pypa/sampleproject
+Author: 小董老师
+Author-email: 1261475772@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# 另外还需安装python-docx包 才可以使用此包
+# 安装库的命令 pip install python-docx
+

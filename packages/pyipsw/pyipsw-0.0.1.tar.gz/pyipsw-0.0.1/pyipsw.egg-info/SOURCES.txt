@@ -1,0 +1,14 @@
+LICENSE
+README.md
+requirements.txt
+setup.py
+pyipsw/__init__.py
+pyipsw/__main__.py
+pyipsw/cli.py
+pyipsw/pyipsw.py
+pyipsw.egg-info/PKG-INFO
+pyipsw.egg-info/SOURCES.txt
+pyipsw.egg-info/dependency_links.txt
+pyipsw.egg-info/entry_points.txt
+pyipsw.egg-info/requires.txt
+pyipsw.egg-info/top_level.txt

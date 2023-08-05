@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+coreSpellchecker.egg-info/PKG-INFO
+coreSpellchecker.egg-info/SOURCES.txt
+coreSpellchecker.egg-info/dependency_links.txt
+coreSpellchecker.egg-info/top_level.txt

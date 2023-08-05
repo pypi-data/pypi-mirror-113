@@ -1,0 +1,3 @@
+[console_scripts]
+xpore = xpore.scripts.xpore:main
+

@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+__init__.py
+packageTest.py
+setup.py
+asheembasiccalculator/__init__.py
+asheembasiccalculator.egg-info/PKG-INFO
+asheembasiccalculator.egg-info/SOURCES.txt
+asheembasiccalculator.egg-info/dependency_links.txt
+asheembasiccalculator.egg-info/top_level.txt

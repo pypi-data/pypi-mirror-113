@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: asheembasiccalculator
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Asheem Chhetri
+Author-email: achhetri@alumni.purdue.edu
+License: MIT
+Description: # Calculator
+        
+        ### A very simple calculator, and using it as base to learn how to publish to pypi
+        
+        Author: Asheem Chhetri
+        
+        Change Log
+        ==========
+        
+        0.0.1 (07/16/2021)
+        ------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

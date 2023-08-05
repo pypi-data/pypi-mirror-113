@@ -1,0 +1,5 @@
+crcmod
+Pillow
+
+[dev]
+check-manifest

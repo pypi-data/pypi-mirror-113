@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mallows-models
+Version: 0.1.0
+Summary: A python package to for Mallows Model with top-$k$ and complete rankings using both Kendall's tau and Hamming distances.
+Home-page: https://github.com/ekhiru/top-k-mallows
+Author: Ahmed Boujaada and Ekhine Irurozki
+Author-email: aboujaada@bcamath.org
+License: UNKNOWN
+Keywords: Mallows models,Top-k rankings,Permutations,Kendall's tau distance,Hamming distance,Rankings,Complete rankings
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+
+UNKNOWN
+

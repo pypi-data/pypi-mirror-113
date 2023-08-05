@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mallows_models/__init__.py
+mallows_models/mallows_hamming.py
+mallows_models/mallows_kendall.py
+mallows_models/mallows_model.py
+mallows_models/permutil.py
+mallows_models.egg-info/PKG-INFO
+mallows_models.egg-info/SOURCES.txt
+mallows_models.egg-info/dependency_links.txt
+mallows_models.egg-info/requires.txt
+mallows_models.egg-info/top_level.txt

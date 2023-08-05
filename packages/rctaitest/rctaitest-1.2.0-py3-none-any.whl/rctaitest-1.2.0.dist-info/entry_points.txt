@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    rctaitest = rctaitest.cli.__main__:main
+    

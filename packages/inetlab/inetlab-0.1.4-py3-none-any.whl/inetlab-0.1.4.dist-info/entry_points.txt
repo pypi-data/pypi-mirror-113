@@ -1,0 +1,3 @@
+[console_scripts]
+inetlab-send-test = inetlab.mail.xmail:test
+

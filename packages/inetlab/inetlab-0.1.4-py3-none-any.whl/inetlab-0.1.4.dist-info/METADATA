@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: inetlab
+Version: 0.1.4
+Summary: Python helper libraries for Web/GAE/Flask, HTML manipulation and command line tools
+Home-page: https://github.com/kign/pkg-inetlab
+Author: Konstantin Ignatiev
+Author-email: kostya@inet-lab.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kign/pkg-inetlab/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pkg-inetlab
+Python helper libraries for Web/GAE/Flask, HTML manipulation and command line tools
+
+

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ionburst-sdk-python
+Version: 1.0.3
+Summary: Ionburst SDK for Python
+Home-page: https://gitlab.com/ionburst/ionburst-sdk-python/
+Author: Ionburst Limited
+Author-email: sdk@ionburst.io
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README
+

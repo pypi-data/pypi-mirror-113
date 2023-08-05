@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: binary4fun
+Version: 0.2.0
+Summary: binary4fun is a small game, which tries to guess a number between 1 and 100 by binary search.
+Home-page: https://github.com/moritzkoerber/binary4fun
+Author: Moritz Körber
+Author-email: moritz.koerber@gmail.com
+License: UNKNOWN
+Keywords: game,binary search
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: sh ; extra == 'tests'
+
+# binary4fun
+
+binary4fun is a small game written in Python that can be played in the cli. The game basically tries to guess a number between 1 and 100 by binary search.
+
+## Installation
+### pip
+
+You can install binary4fun from PyPI using pip:
+```
+$ pip install binary4fun
+```
+
+## Usage
+
+To start the game, just run `binary4fun` in the command line:
+```
+$ binary4fun
+```
+
+## Release History
+
+* 0.2.0: Allow running the game directly from the command line, switch to setuptools_scm for versioning
+* 0.1.0: First release
+
+The package on PyPI: https://pypi.org/project/binary4fun
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+

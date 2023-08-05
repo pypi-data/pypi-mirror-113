@@ -1,0 +1,11 @@
+binary4fun/__init__.py,sha256=uoGG7jquzZxNZib106LOB_gED-6hLWhKaHcXYzfPrv0,196
+binary4fun/__main__.py,sha256=YDvRJCAWWg3D1ujSlx31jRg11IlGvyD0WxurWzoICnA,1637
+binary4fun/_version.py,sha256=g0RU_Fiae76hPEUjU6lGnapa9IZoqGcB4oFcTnsoMbM,142
+binary4fun/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binary4fun/utils/clear_screen.py,sha256=NBZHp04itGh3fZ7FszW2zbIJxkaKVeZBdJOj_xghcbo,127
+binary4fun-0.2.0.dist-info/LICENSE,sha256=y42ZH5Du1HpaYFvPCcRyzECZijVcA4B1Lu6OtVPmc5I,1071
+binary4fun-0.2.0.dist-info/METADATA,sha256=THbWuqCCHre3FM20CnneMiJTkcnz3KiEOWpkpmvXZ9M,1315
+binary4fun-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+binary4fun-0.2.0.dist-info/entry_points.txt,sha256=begY9T5YgRKSrnTsqp4ERPysMl440OqCvNaPQIm0aSo,57
+binary4fun-0.2.0.dist-info/top_level.txt,sha256=_cqaXyfv3NI15aSGbZQpLwWKnQc9s4yzlwhnO41qh70,11
+binary4fun-0.2.0.dist-info/RECORD,,

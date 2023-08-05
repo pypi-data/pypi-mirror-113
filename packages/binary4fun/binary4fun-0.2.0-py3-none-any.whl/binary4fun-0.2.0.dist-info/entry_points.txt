@@ -1,0 +1,3 @@
+[console_scripts]
+binary4fun = binary4fun.__main__:main
+

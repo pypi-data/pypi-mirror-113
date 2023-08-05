@@ -1,0 +1,69 @@
+CHANGES
+=======
+
+1.1.0
+-----
+
+* Add packet rate related resource classes
+* [doc] Redirect people to #openstack-nova
+* Update doc after freenode -> OFTC move
+* Switch to newer openstackdocstheme and reno versions
+* Fix hacking min version to 3.0.1
+* Cleanup py27 support
+
+1.0.0
+-----
+
+* Switch to hacking 2.x
+* setup.cfg: Configure 'python-requires'
+* Stop testing with py2
+* Switch to Ussuri jobs
+* Bump the openstackdocstheme extension to 1.20
+* Update the constraints url
+* Build pdf docs
+* Update bug link in docs to point to storyboard
+* Update api-ref link to canonical location
+* Sync Sphinx requirement
+* Update api-ref location
+
+0.5.0
+-----
+
+* Propose FPGA and PGPU resource classes
+* Add Python 3 Train unit tests
+
+0.4.0
+-----
+
+* Replace git.openstack.org URLs with opendev.org URLs
+* Add MEM\_ENCRYPTION\_CONTEXT resource class
+* Add missing upper-constraints.txt to deps in docs testenv
+* Use py3 for all\* tox targets
+* Dropping the py35 testing
+* OpenDev Migration Patch
+* Update master for stable/stein
+* Update bug links for storyboard
+
+0.3.0
+-----
+
+* Add normalize\_name utility
+
+0.2.0
+-----
+
+* Add PCPU standard resource class
+* Update author-email in setup.cfg
+* Don't use upper-constraints when installing package
+
+0.1.0
+-----
+
+* Tune up documentation to be more useful
+* Sync STANDARDS with placement/nova rc\_fields
+* Rename ORDERED\_CLASSES to STANDARDS
+* Initial automated testing for os-resource-classes
+* fix formatting in README
+* Set some real tests for the ids in ORDERED\_CLASSES
+* Initial tuning from cookiecutter start
+* Initial Cookiecutter Commit

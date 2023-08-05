@@ -1,0 +1,8 @@
+README.md
+setup.py
+rainbow/__init__.py
+rainbow/rainbow_console.py
+rainbow_console.egg-info/PKG-INFO
+rainbow_console.egg-info/SOURCES.txt
+rainbow_console.egg-info/dependency_links.txt
+rainbow_console.egg-info/top_level.txt

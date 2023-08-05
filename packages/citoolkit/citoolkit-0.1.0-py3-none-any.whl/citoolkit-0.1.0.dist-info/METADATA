@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: citoolkit
+Version: 0.1.0
+Summary: A library containing tools to create and solve instances of the Control Improvisation problem and its extensions. Primarily maintained by Eric Vin <evin@ucsc.edu>
+Author: Eric Vin
+Author-email: evin@ucsc.edu
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9

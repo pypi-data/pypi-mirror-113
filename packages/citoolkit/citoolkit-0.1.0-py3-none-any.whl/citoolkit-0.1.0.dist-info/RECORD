@@ -1,0 +1,11 @@
+citoolkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citoolkit/improvisers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citoolkit/improvisers/classic_ci.py,sha256=14VbKfiov92WyH7AoU-CSTF9JwYVtlOROMKO1RtUN5E,4212
+citoolkit/improvisers/improviser.py,sha256=81h9IBlWvXya99xpCkS8u_TZEdNCHr8AzzRWPP3Ewjc,860
+citoolkit/specifications/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citoolkit/specifications/dfa.py,sha256=PPgdsEbDHSZUfJxKIpo7oEejQ3L8PIyv_ZjqUrZEeSw,31701
+citoolkit/specifications/spec.py,sha256=cKNTrVJ6x6kA16dWz5dZlCiy8URVj1YjmUFXrXJnNfI,13159
+citoolkit-0.1.0.dist-info/LICENSE,sha256=cU94qg5JNs5lIzZk3mGW1wPB8Dhnm2_8sV-628j1fBg,1088
+citoolkit-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+citoolkit-0.1.0.dist-info/METADATA,sha256=-9oESltTqwd44Fg0p8QdUma96wFRA1XkMrxy3pOk4-M,396
+citoolkit-0.1.0.dist-info/RECORD,,

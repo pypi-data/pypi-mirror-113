@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+up2s3.py
+up2s3.egg-info/PKG-INFO
+up2s3.egg-info/SOURCES.txt
+up2s3.egg-info/dependency_links.txt
+up2s3.egg-info/not-zip-safe
+up2s3.egg-info/requires.txt
+up2s3.egg-info/top_level.txt

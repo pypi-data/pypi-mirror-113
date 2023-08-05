@@ -1,0 +1,9 @@
+aws_py/__init__.py,sha256=_hCTlqLZxJXCaK3R2iZvpg9vn3Ig_hinQzfqQdrtIX4,25
+aws_py/awspy.py,sha256=Ob4qxSprlXqzxLaWdK7aec3PFIrgRe2pDpt-4XZdsIs,577
+aws_py/ecs/__init__.py,sha256=H8-CtQk_UPYenPP9d6P6r8pwwiWL-sCi6oJVTJp-XY0,29
+aws_py/ecs/fargate.py,sha256=SgyIgGQzY7teKKDuceqZzgRqlwrAqAe2mVfAo0EaV_M,2167
+awspy-0.2.0.dist-info/LICENSE,sha256=QFB6uhp5OiTE5aKOQlBICFfPgwkXkeU32NjzLvLFCgI,1067
+awspy-0.2.0.dist-info/METADATA,sha256=5-pcSZXJ5GCGqBxEs2MDwr4uiJdOz25nvrv4DJuMl54,1960
+awspy-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awspy-0.2.0.dist-info/top_level.txt,sha256=SNbCSbwRDuUvVj6IQfJgFBf1nBuk6olu3ZqONm3s_ys,7
+awspy-0.2.0.dist-info/RECORD,,

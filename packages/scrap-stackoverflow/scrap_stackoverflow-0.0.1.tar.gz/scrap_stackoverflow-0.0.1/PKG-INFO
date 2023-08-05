@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: scrap_stackoverflow
+Version: 0.0.1
+Summary: A package to scrap Stackoverflow website
+Home-page: https://github.com/komus/stackoverflow-classification/tree/pypi_scrapping
+Author: Oyindolapo Komolafe
+Author-email: oyindolapokomolafe@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Scrap Stack Overflow
+The project is to scrap stack overflow website. 
+
+
+# Usage
+This libary can be used when the key interest is to retrieve information from stackoverflow questions page. 
+
+The package has enums for each of the available stack overflow questions tabs and scrapes 50 questions per page
+
+## Sample codes
+```python
+from scrapso import StackTab, ScrapStackOverflow
+
+ #get questions from ACTIVE TAB
+ st = ScrapStackOverflow(tab=StackTab.ACTIVE)
+ #pagestart option is defaulted to 1, but pagination can be supplied
+ data = st.scrap(100000, pagestart=2001)
+
+ #to return the scrapped url
+ st.scrapped_url
+```
+

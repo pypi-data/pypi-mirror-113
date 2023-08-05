@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+config.py
+requirements.txt
+setup.py
+src/scrapso.py
+src/scrap_stackoverflow.egg-info/PKG-INFO
+src/scrap_stackoverflow.egg-info/SOURCES.txt
+src/scrap_stackoverflow.egg-info/dependency_links.txt
+src/scrap_stackoverflow.egg-info/requires.txt
+src/scrap_stackoverflow.egg-info/top_level.txt

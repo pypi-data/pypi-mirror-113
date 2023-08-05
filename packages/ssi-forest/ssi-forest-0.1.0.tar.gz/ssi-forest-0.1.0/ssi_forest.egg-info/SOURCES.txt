@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ssi_forest/__init__.py
+ssi_forest/semi_supervised_isolation_forest.py
+ssi_forest.egg-info/PKG-INFO
+ssi_forest.egg-info/SOURCES.txt
+ssi_forest.egg-info/dependency_links.txt
+ssi_forest.egg-info/requires.txt
+ssi_forest.egg-info/top_level.txt

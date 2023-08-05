@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ssi-forest
+Version: 0.1.0
+Summary: Semi-supervised isolation forest
+Home-page: https://github.com/hombit/ssi-forest
+Author: Konstantin Malanchev
+Author-email: hombit@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Semi-supervised isolation forest
+
+The variant of the Isolation Forest (Liu et al 2008) which introduces artificial changes of depths of leaves containing labeled data.
+
+

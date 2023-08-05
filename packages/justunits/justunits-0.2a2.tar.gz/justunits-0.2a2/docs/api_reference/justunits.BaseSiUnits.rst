@@ -1,0 +1,4 @@
+﻿BaseSiUnits
+=====================
+
+.. autoclass:: justunits.BaseSiUnits

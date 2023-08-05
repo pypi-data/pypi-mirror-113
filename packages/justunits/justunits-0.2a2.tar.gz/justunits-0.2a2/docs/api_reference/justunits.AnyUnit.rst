@@ -1,0 +1,4 @@
+﻿DerivedUnit
+=================
+
+.. autoclass:: justunits.DerivedUnit

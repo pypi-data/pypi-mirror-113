@@ -1,0 +1,4 @@
+﻿UnknownUnit
+=====================
+
+.. autoclass:: justunits.UnknownUnit

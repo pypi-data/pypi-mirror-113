@@ -1,0 +1,4 @@
+﻿StyledDetection
+=========================
+
+.. autoclass:: justunits.StyledDetection

@@ -1,0 +1,4 @@
+﻿BareUnit
+==================
+
+.. autoclass:: justunits.BareUnit

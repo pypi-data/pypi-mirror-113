@@ -1,0 +1,4 @@
+﻿UnitSeparationStyle
+=============================
+
+.. autoclass:: justunits.UnitSeparationStyle

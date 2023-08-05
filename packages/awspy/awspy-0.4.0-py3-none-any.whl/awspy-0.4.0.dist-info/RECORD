@@ -1,0 +1,13 @@
+aws_py/__init__.py,sha256=_hCTlqLZxJXCaK3R2iZvpg9vn3Ig_hinQzfqQdrtIX4,25
+aws_py/awspy.py,sha256=Ob4qxSprlXqzxLaWdK7aec3PFIrgRe2pDpt-4XZdsIs,577
+aws_py/ecs/__init__.py,sha256=H8-CtQk_UPYenPP9d6P6r8pwwiWL-sCi6oJVTJp-XY0,29
+aws_py/ecs/fargate.py,sha256=LAehQfaj9_6sJIyfcUUma3jClrcLbGnFGgtDEn4X1kY,2166
+awspy/__init__.py,sha256=_hCTlqLZxJXCaK3R2iZvpg9vn3Ig_hinQzfqQdrtIX4,25
+awspy/awspy.py,sha256=Ob4qxSprlXqzxLaWdK7aec3PFIrgRe2pDpt-4XZdsIs,577
+awspy/ecs/__init__.py,sha256=H8-CtQk_UPYenPP9d6P6r8pwwiWL-sCi6oJVTJp-XY0,29
+awspy/ecs/fargate.py,sha256=Ry-zLiBVyuVDhk5H9ZyI_U2cje1ZBxWWQAvtXfWVa_4,2098
+awspy-0.4.0.dist-info/LICENSE,sha256=QFB6uhp5OiTE5aKOQlBICFfPgwkXkeU32NjzLvLFCgI,1067
+awspy-0.4.0.dist-info/METADATA,sha256=5JLpRWDOUTeHgdxU3Sf-Ve5D-psOZ8duIClUSLaB9YQ,2046
+awspy-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+awspy-0.4.0.dist-info/top_level.txt,sha256=hfmLbJKrehlQZE590pVANRxs__lbGfBqOklCELiTzaU,6
+awspy-0.4.0.dist-info/RECORD,,

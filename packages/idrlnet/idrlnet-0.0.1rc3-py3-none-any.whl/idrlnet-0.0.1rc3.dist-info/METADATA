@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: idrlnet
+Version: 0.0.1rc3
+Summary: IDRLnet
+Home-page: https://github.com/idrl-lab/idrlnet
+Author: Intelligent Design & Robust Learning lab
+Author-email: weipeng@deepinfar.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: transforms3d
+Requires-Dist: typing
+Requires-Dist: numpy
+Requires-Dist: keras
+Requires-Dist: h5py
+Requires-Dist: pandas
+Requires-Dist: zipfile36
+Requires-Dist: scikit-optimize
+Requires-Dist: pytest
+Requires-Dist: sphinx
+Requires-Dist: matplotlib
+Requires-Dist: myst-parser
+Requires-Dist: sphinx-markdown-parser
+Requires-Dist: sphinx-rtd-theme (==0.5.2)
+Requires-Dist: tensorboard (==2.4.1)
+Requires-Dist: sympy (==1.5.1)
+Requires-Dist: pyevtk (==1.1.1)
+Requires-Dist: flask (==1.1.2)
+Requires-Dist: requests (==2.25.0)
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: networkx (==2.5.1)
+
+[![License](https://img.shields.io/github/license/analysiscenter/pydens.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Python](https://img.shields.io/badge/python-3.8-blue.svg)](https://python.org)
+[![Documentation Status](https://readthedocs.org/projects/idrlnet/badge/?version=latest)](https://idrlnet.readthedocs.io/en/latest/?badge=latest)
+
+# IDRLnet
+
+
+**IDRLnet** is a machine learning library on top of [PyTorch](https://pytorch.org/). Use IDRLnet if you need a machine
+learning library that solves both forward and inverse differential equations via physics-informed neural
+networks (PINN). IDRLnet is a flexible framework inspired by [Nvidia Simnet](https://developer.nvidia.com/simnet>).
+
+## Installation
+
+Choose one of the following installation methods.
+
+### PyPI
+
+Simple installation from PyPI
+
+```bash
+pip install -U idrlnet
+```
+
+Note: To avoid version conflicts, please use some tools to create a virtual environment first.
+
+### Docker
+
+```bash
+docker pull idrl/idrlnet:latest
+```
+
+### Anaconda
+
+
+
+### From Source
+
+```
+git clone https://github.com/idrl-lab/idrlnet
+cd idrlnet
+pip install -e .
+```
+
+
+## Features
+
+IDRLnet supports
+
+-  complex domain geometries without mesh generation. Provided geometries include interval, triangle, rectangle, polygon,
+   circle, sphere... Other geometries can be constructed using three boolean operations: union, difference, and
+   intersection;
+
+-  sampling in the interior of the defined geometry or on the boundary with given conditions.
+
+-  enables the user code to be structured. Data sources, operations, constraints are all represented by ``Node``. The graph
+   will be automatically constructed via label symbols of each node. Getting rid of the explicit construction via
+   explicit expressions, users model problems more naturally.
+
+-  solving variational minimization problem;
+
+-  solving integral differential equation;
+
+-  adaptive resampling;
+
+-  recover unknown parameters of PDEs from noisy measurement data.
+
+It is also easy to customize IDRLnet to meet new demands.
+
+-  Main Dependencies
+
+    -  [Matplotlib](https://matplotlib.org/)
+    -  [NumPy](http://www.numpy.org/)
+    -  [Sympy](https://https://www.sympy.org/)==1.5.1
+    -  [pytorch](https://www.tensorflow.org/)>=1.7.0
+
+## Contributing to IDRLnet
+
+First off, thanks for taking the time to contribute!
+
+-  **Reporting bugs.** To report a bug, simply open an issue in the GitHub "Issues" section.
+
+-  **Suggesting enhancements.** To submit an enhancement suggestion for IDRLnet, including completely new features and
+   minor improvements to existing functionality, let us know by opening an issue.
+
+-  **Pull requests.** If you made improvements to IDRLnet, fixed a bug, or had a new example, feel free to send us a
+   pull-request.
+
+-  **Asking questions.** To get help on how to use IDRLnet or its functionalities, you can as well open an issue.
+
+-  **Answering questions.** If you know the answer to any question in the "Issues", you are welcomed to answer.
+
+## The Team
+
+IDRLnet was originally developed by IDRL lab.
+
+## Citation
+Feel free to cite this library.
+
+```bibtex
+@article{peng2021idrlnet,
+      title={IDRLnet: A Physics-Informed Neural Network Library}, 
+      author={Wei Peng and Jun Zhang and Weien Zhou and Xiaoyu Zhao and Wen Yao and Xiaoqian Chen},
+      year={2021},
+      eprint={2107.04320},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
+

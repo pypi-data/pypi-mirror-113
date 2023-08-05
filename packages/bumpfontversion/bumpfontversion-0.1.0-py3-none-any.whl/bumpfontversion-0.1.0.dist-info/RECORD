@@ -1,0 +1,8 @@
+bumpfontversion/__init__.py,sha256=VVXBq4ZJE6JsHd3JnEDeaSh7X923TG-kBPiACOUkirk,42
+bumpfontversion/__main__.py,sha256=1skF-vUm9_gfK02Va0s_5NIBQZ62JIJik0qszOrtSWM,5701
+bumpfontversion/glyphshandler.py,sha256=vUB4JZ3uXI3lV3WqWQku0zOckSukjhZBurCyJ5B8KrM,1102
+bumpfontversion/ufohandler.py,sha256=tziQ63IIZFTDzmz9L2Jo_JYv0o5_h4J8Y3YtE1FGNSM,813
+bumpfontversion-0.1.0.dist-info/entry_points.txt,sha256=aBlOFRjlDB9W57J96u8g7L3UK3d-PzEpB7pDR518SLM,56
+bumpfontversion-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+bumpfontversion-0.1.0.dist-info/METADATA,sha256=AvilLSuha9kBGE1lheHBfse8udg97sPGNCTGpWdLoVY,1916
+bumpfontversion-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+iso8601/__init__.py,sha256=2fxA8Xny1V5PTJR49nA43wY6rHrMKswvqblfGyngt2k,23
+iso8601/iso8601.py,sha256=c0mMSWDLRRAlzNsIpYHi3rLf7X6BLXLm7pE81dEp5DI,4623
+iso8601/test_iso8601.py,sha256=rCJSYw45K_pnc9yRAAOEnL8rjKNk-n6v1qlvEQ1SWkI,10420
+iso8601-1.0.0a1.dist-info/LICENSE,sha256=EW02jRSozwBhAnyUTGDuILR2zkKBSBin1ic5aQZ2HxY,1065
+iso8601-1.0.0a1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+iso8601-1.0.0a1.dist-info/METADATA,sha256=wu15uYo7znLUM9VsFuu5UwBnzuS-CwK_PsVIUip2VY0,8693
+iso8601-1.0.0a1.dist-info/RECORD,,

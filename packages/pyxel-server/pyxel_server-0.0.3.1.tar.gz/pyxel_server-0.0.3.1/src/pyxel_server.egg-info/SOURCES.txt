@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/pyxel_server/__init__.py
+src/pyxel_server/client.py
+src/pyxel_server/connection.py
+src/pyxel_server/data.py
+src/pyxel_server/pyxelobj.py
+src/pyxel_server/server.py
+src/pyxel_server.egg-info/PKG-INFO
+src/pyxel_server.egg-info/SOURCES.txt
+src/pyxel_server.egg-info/dependency_links.txt
+src/pyxel_server.egg-info/top_level.txt

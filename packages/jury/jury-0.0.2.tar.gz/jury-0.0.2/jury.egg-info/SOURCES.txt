@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jury/__init__.py
+jury/cli.py
+jury/definitions.py
+jury/pipeline.py
+jury/utils.py
+jury.egg-info/PKG-INFO
+jury.egg-info/SOURCES.txt
+jury.egg-info/dependency_links.txt
+jury.egg-info/entry_points.txt
+jury.egg-info/requires.txt
+jury.egg-info/top_level.txt

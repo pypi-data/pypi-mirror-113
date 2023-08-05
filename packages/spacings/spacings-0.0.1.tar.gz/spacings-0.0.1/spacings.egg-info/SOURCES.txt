@@ -1,0 +1,10 @@
+README.md
+setup.py
+spacings/__init__.py
+spacings/moran.py
+spacings/rps.py
+spacings.egg-info/PKG-INFO
+spacings.egg-info/SOURCES.txt
+spacings.egg-info/dependency_links.txt
+spacings.egg-info/requires.txt
+spacings.egg-info/top_level.txt

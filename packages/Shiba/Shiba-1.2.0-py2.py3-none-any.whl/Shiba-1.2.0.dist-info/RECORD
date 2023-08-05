@@ -1,0 +1,17 @@
+shiba/__init__.py,sha256=SbuGrljO50jEfpL6F7IQCGE19s9hdNNoq4UNdI8Qu3g,44
+shiba/accountingmanagement.py,sha256=ExRfLzpnknHijWWtn34vJ3HADczjuNr0ASVr0eJXDww,2059
+shiba/compat.py,sha256=Scxmv9ORkErnSW0eZF4uDlJtPRJPisf2Ue-WdOVU1bk,2272
+shiba/inventorymanagement.py,sha256=3PKmK3QBcXs-C8_nqUr3iVXH_VlgxEd0fHE5arGVC3s,3808
+shiba/marketplacemanagement.py,sha256=FCnWS3sV0QI1rWjqRWxAlaw2Oez41eLCbVlKXHUepNQ,2614
+shiba/salesmanagement.py,sha256=WYiz-TPAH1eeVztbKLKBD_pKcnm_fZvPiiBtm_IAIqo,8450
+shiba/shibaconnection.py,sha256=kd5YzLkEvVNUMsqLoRCwgcoa0qs-H2qwwzHid_YHXl0,5285
+shiba/shibaexceptions.py,sha256=s9QK0dgRk_iqDFw9skj9SRQnXyPaOLGsXsgnDHK9Vps,1836
+shiba/shibaresponseobject.py,sha256=-DTlAjZENXl9wGCFJbT0gD6i2a91QXyfXXBLSiOcTPY,886
+shiba/shibatools.py,sha256=_TU6r7JJ4UC-TH9L_9XGy-UXcgno6zBemMP8KoD40Tk,8105
+Shiba-1.2.0.dist-info/AUTHORS.rst,sha256=7QyU30gb4714mkh1TIKzWf3KxEH1YHe4kDZnY4DRlKA,197
+Shiba-1.2.0.dist-info/LICENSE.txt,sha256=GNASdQfhQkngUdkBWl-u-Yxt8ibXKZ3aQERtf9K7-18,781
+Shiba-1.2.0.dist-info/METADATA,sha256=kwFffc4USsuK-ecdyvSWsF_L9r__3o2sQXLzjXsfRxA,3539
+Shiba-1.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+Shiba-1.2.0.dist-info/top_level.txt,sha256=Izm0Q89L8LW7Y_dt_5rTB6qNHL3o_wNP2feY-_7uq4Q,6
+Shiba-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Shiba-1.2.0.dist-info/RECORD,,

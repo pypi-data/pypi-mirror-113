@@ -1,0 +1,16 @@
+javascript/__init__.py,sha256=LhCEZXsMwvKXq57tinLc8iQELZ2dIAkI-KX6l6pJ1ZM,2794
+javascript/__main__.py,sha256=78sUdS7hup78HEXjQRgl0COfX7vfjx9X78UVDyKmr_M,681
+javascript/config.py,sha256=I7qp17Iuiq8SnDpWZVlQooQFpl9GJlDMwUxEVYMGQsM,443
+javascript/connection.py,sha256=8okke5KG1bbyOijmrMFbh7Sr4K3w8lrFXBo0uLtO7MM,3061
+javascript/errors.py,sha256=zJVHjimNuLihkG6mrhm4_Z1XpXeq_kUy-S9p05FivqM,4909
+javascript/events.py,sha256=UJ4wfKn1FVrjYxMOfPUPgsdJv83K480nq9xIaNr21-E,6286
+javascript/json_patch.py,sha256=ieLxy3ttwZICJrntQtee2Tcm3xnMNxO-23z7x8pEplI,570
+javascript/proxy.py,sha256=BY2hNqJRX0OGRkIkB_n9EAS03bh5460fVmnGm3WfblQ,10337
+javascript/pyi.py,sha256=Mvwekj35xgoSWxWuUtQPXCzl_qO-6WSfR4IuuzJmhJo,9091
+javascript/js/bridge.js,sha256=aMgWR_Dw-DsQdlXPOnGGHsk1r3yb1dmnJYd5rc6ETXU,7831
+javascript/js/deps.js,sha256=IuGCJ5R_q7po3SOSyMxWo01YfgGPvzUFVBR6z4AYSRk,4648
+javascript/js/pyi.js,sha256=WNC5S-fTkUsNlcbSCayo5H-Co-Kv1nna8_zLntL4reg,9950
+javascript-1!0.2.2.dist-info/METADATA,sha256=silUdJJuD0uVPHyf84309244WS2vp_uYupJICN8CKGM,12909
+javascript-1!0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+javascript-1!0.2.2.dist-info/top_level.txt,sha256=gK3UG7V5bfPdRU7HgE81iB5fuqOqGtLZ2X0R7b8A8rs,11
+javascript-1!0.2.2.dist-info/RECORD,,

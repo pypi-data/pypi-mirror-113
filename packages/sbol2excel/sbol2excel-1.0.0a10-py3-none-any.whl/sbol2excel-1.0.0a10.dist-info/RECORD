@@ -1,0 +1,11 @@
+sbol2excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sbol2excel/column_methods.py,sha256=BiSLupeIIMdTKPmGpU15cCCl0rIJvdjjTY29uBYEr3s,4467
+sbol2excel/converter.py,sha256=oL6L8V-BdeuU-udUjFy2Thmd0_Pn-vgD1RhAOM1GWFA,1424
+sbol2excel/helper_functions.py,sha256=7v4u-1lM3sFJ-ZzL1JL6MNQjKYQiVsj4KwZCX36rHdc,2837
+sbol2excel/ontology_methods.py,sha256=lekBO89KSNFbIXjXSiLZiVP4dGEpgc21ETwvmeqF3hI,3937
+sbol2excel/sheet_methods.py,sha256=yPj3WO3krgs1R_PhtFW4V6QSIRjZHjKiC965JGyRpS8,4987
+sbol2excel/temp.py,sha256=Zv9hRVqtTSX3S9td05Ep5l70Aj4q-JkYUNdzx4zpZ5E,271
+sbol2excel-1.0.0a10.dist-info/METADATA,sha256=2qkuvj6NIrh7VtCGq4-5jB3gI_tU3K8PPC_riy-MPYw,1565
+sbol2excel-1.0.0a10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sbol2excel-1.0.0a10.dist-info/top_level.txt,sha256=ySn6-03zl_ITnJaB35E9b4pEfT-gq-XRX0NANQG0uWE,11
+sbol2excel-1.0.0a10.dist-info/RECORD,,

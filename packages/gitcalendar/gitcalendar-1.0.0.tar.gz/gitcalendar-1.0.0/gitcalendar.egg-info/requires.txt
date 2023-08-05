@@ -1,0 +1,11 @@
+python-gitlab>=2.5.0
+ics>=0.7
+
+[develop]
+reuse>=0.12.1
+wheel
+twine
+pytest>=6.2
+
+[test]
+pytest>=6.2

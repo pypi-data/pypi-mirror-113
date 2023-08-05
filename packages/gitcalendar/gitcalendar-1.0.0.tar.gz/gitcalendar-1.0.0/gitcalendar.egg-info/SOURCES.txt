@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+gitlab-config.ini.example
+setup.py
+gitcalendar/__init__.py
+gitcalendar/gitcalendar.py
+gitcalendar.egg-info/PKG-INFO
+gitcalendar.egg-info/SOURCES.txt
+gitcalendar.egg-info/dependency_links.txt
+gitcalendar.egg-info/entry_points.txt
+gitcalendar.egg-info/requires.txt
+gitcalendar.egg-info/top_level.txt

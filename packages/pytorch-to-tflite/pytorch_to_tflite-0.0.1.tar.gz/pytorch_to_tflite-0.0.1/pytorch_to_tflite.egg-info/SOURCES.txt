@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+pytorch_to_tflite/__init__.py
+pytorch_to_tflite/_nbdev.py
+pytorch_to_tflite/core.py
+pytorch_to_tflite.egg-info/PKG-INFO
+pytorch_to_tflite.egg-info/SOURCES.txt
+pytorch_to_tflite.egg-info/dependency_links.txt
+pytorch_to_tflite.egg-info/entry_points.txt
+pytorch_to_tflite.egg-info/not-zip-safe
+pytorch_to_tflite.egg-info/requires.txt
+pytorch_to_tflite.egg-info/top_level.txt

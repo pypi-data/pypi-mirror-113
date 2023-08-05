@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tracardi-time-blocker
+Version: 0.1
+Summary: Tracardi Plugin Time Blocker
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tracardi-plugin-sdk
+
+# Time blocker
+
+It blocks execution of workflow within given time.
+
+# Configuration
+
+```json
+{
+   "block":  {
+      "start": null,
+       "end": null
+   }
+}
+```
+

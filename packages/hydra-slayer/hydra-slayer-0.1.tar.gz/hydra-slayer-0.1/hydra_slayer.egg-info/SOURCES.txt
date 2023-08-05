@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+hydra_slayer/__init__.py
+hydra_slayer/__version__.py
+hydra_slayer.egg-info/PKG-INFO
+hydra_slayer.egg-info/SOURCES.txt
+hydra_slayer.egg-info/dependency_links.txt
+hydra_slayer.egg-info/requires.txt
+hydra_slayer.egg-info/top_level.txt
+requirements/requirements.txt

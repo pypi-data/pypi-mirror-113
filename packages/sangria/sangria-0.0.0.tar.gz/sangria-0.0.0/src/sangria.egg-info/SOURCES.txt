@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sangria/__init__.py
+src/sangria/sample.py
+src/sangria/version.py
+src/sangria.egg-info/PKG-INFO
+src/sangria.egg-info/SOURCES.txt
+src/sangria.egg-info/dependency_links.txt
+src/sangria.egg-info/requires.txt
+src/sangria.egg-info/top_level.txt

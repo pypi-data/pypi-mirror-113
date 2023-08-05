@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sangria
+Version: 0.0.0
+Summary: Coming Soon
+Home-page: UNKNOWN
+Author: Abhilash Kishore
+Author-email: abhilash1in@gmail.com
+License: MIT
+Project-URL: GitHub, https://github.com/abhilash1in/sangria
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+## Sangria
+Coming Soon!
+

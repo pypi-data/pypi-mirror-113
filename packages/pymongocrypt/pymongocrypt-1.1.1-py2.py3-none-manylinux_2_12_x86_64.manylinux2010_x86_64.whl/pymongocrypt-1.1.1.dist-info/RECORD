@@ -1,0 +1,17 @@
+pymongocrypt/mongocrypt.py,sha256=644k2fvEPOPuO_hHraYJGGwzoMYgiACtJGJP7TtrTAE,23433
+pymongocrypt/libmongocrypt.so,sha256=wMeK059YiKQ57obDyPK-DY-AJNEQ0S81aa2agjABR2s,1032329
+pymongocrypt/version.py,sha256=GDhRJdvTWuGGPto55SA0od4gJRycTTqwd-8_dIe2pGA,642
+pymongocrypt/crypto.py,sha256=yiudsD6rmZeyHRerxwx7dM_9jbtXGAhOXYSgrnc3Jxw,5107
+pymongocrypt/binding.py,sha256=vNRQPl3nlSal-HRH1zQo2wKxghJV4JDF1ybxMf83h9A,38157
+pymongocrypt/binary.py,sha256=ARnUuqNGqsJ0BHmspd830v3KR-BiXX_siXlbQE80Yns,3142
+pymongocrypt/compat.py,sha256=Rcq-AjBH6varW97v0yp7DBQ-uhkIa0xpEn-PbHo0uRg,2073
+pymongocrypt/auto_encrypter.py,sha256=x-J8-YopmWIbYKzKQ1fdSHC63yzUyP2l-zPjkDaxIY4,2053
+pymongocrypt/errors.py,sha256=TNkJyXG6om5BRedPEfELwxUoZBQ7cRSRRcGtaLqYY9s,1393
+pymongocrypt/explicit_encrypter.py,sha256=YiT-pa1b8Ovf6Pvk-bCjTTwPgsAlSbqQURuJRvNRl5o,7573
+pymongocrypt/state_machine.py,sha256=6KSq6D2cWjAfeFx9QAi6U55oLwPe7A-sGrw5drGgmIQ,4670
+pymongocrypt/__init__.py,sha256=kvt0JU9xTiJzq4Q7EolAym9yBjZKWY1HByLXLicazzg,687
+pymongocrypt-1.1.1.dist-info/WHEEL,sha256=lSKYfV29d0qeReNl6jDELgUWaLE8vCzo9A_TX64Fe3o,239
+pymongocrypt-1.1.1.dist-info/METADATA,sha256=KSogyHdxhKk-P_gMNRROnzeW5La2KAH4InpmYiHk7x4,8819
+pymongocrypt-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymongocrypt-1.1.1.dist-info/RECORD,,
+pymongocrypt-1.1.1.dist-info/top_level.txt,sha256=v_62iS35DBkk_ii55PQ3lzMOw-swzRIFFiQpcb0_o_U,13

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: aiodag
+Version: 0.3
+Summary: Build and execute AsyncIO powered DAGs.
+Home-page: https://github.com/aa1371/aiodag
+Author: aa1371
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/aa1371/aiodag/archive/refs/tags/v0.3.tar.gz
+Description: UNKNOWN
+Keywords: dag,asyncio,aiodag
+Platform: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: AsyncIO

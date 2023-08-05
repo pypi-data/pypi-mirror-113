@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+aiodag/__init__.py
+aiodag/task_decorator.py
+aiodag.egg-info/PKG-INFO
+aiodag.egg-info/SOURCES.txt
+aiodag.egg-info/dependency_links.txt
+aiodag.egg-info/top_level.txt

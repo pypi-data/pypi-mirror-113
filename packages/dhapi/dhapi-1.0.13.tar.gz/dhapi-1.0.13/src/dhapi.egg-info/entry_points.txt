@@ -1,0 +1,3 @@
+[console_scripts]
+dhapi = dhapi:main
+

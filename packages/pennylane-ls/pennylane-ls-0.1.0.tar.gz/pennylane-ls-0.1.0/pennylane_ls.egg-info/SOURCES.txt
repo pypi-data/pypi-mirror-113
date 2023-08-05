@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pennylane_ls/MultiQuditDevice.py
+pennylane_ls/MultiQuditOps.py
+pennylane_ls/SingleQuditDevice.py
+pennylane_ls/SingleQuditOps.py
+pennylane_ls/__init__.py
+pennylane_ls/_version.py
+pennylane_ls.egg-info/PKG-INFO
+pennylane_ls.egg-info/SOURCES.txt
+pennylane_ls.egg-info/dependency_links.txt
+pennylane_ls.egg-info/entry_points.txt
+pennylane_ls.egg-info/not-zip-safe
+pennylane_ls.egg-info/requires.txt
+pennylane_ls.egg-info/top_level.txt

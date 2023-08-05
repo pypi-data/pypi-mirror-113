@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pennylane-ls
+Version: 0.1.0
+Summary: A Pennylane plugin for cold atom quantum simulators
+Home-page: https://www.github.com/synqs/pennylane-ls
+Author: Fred Jendrzejewski
+Author-email: fnj@kip.uni-heidelberg.de
+License: BSD-2
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

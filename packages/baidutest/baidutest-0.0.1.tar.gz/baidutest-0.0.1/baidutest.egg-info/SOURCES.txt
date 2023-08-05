@@ -1,0 +1,13 @@
+setup.py
+baidutest/__init__.py
+baidutest/main.py
+baidutest/myMath.py
+baidutest/myfunction.py
+baidutest/test.py
+baidutest/testSql.py
+baidutest/unitDemo.py
+baidutest/unitMyMath.py
+baidutest.egg-info/PKG-INFO
+baidutest.egg-info/SOURCES.txt
+baidutest.egg-info/dependency_links.txt
+baidutest.egg-info/top_level.txt

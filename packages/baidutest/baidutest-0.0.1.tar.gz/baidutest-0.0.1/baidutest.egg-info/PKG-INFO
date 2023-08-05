@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: baidutest
+Version: 0.0.1
+Summary: test pip module-wxp
+Home-page: https://wxp.com
+Author: MySoul
+Author-email: 1813057526@qq.com
+License: MIT
+Description: test how to define pip module and upload to pypi-wxp
+Keywords: pip,baidutest
+Platform: any

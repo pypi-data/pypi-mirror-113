@@ -1,0 +1,4 @@
+[console_scripts]
+hippunfold = hippunfold.run:main
+hippunfold_download_models = hippunfold.download_models:main
+

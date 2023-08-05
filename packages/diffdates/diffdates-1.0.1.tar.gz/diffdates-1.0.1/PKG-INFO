@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: diffdates
+Version: 1.0.1
+Summary: A command line utility to get the difference between two dates in a given input line.
+License: GNU GPLv3
+Author: Nick Rushton
+Author-email: rushton.nicholas@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ciso8601 (>=2.1.3,<3.0.0)

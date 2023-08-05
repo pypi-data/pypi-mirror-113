@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+saphyre/saphyre.egg-info/PKG-INFO
+saphyre/saphyre.egg-info/SOURCES.txt
+saphyre/saphyre.egg-info/dependency_links.txt
+saphyre/saphyre.egg-info/requires.txt
+saphyre/saphyre.egg-info/top_level.txt

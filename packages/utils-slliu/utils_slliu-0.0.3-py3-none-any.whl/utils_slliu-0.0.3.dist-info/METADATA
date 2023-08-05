@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: utils-slliu
+Version: 0.0.3
+Summary: The python package of liushuailong for high quality code.
+Home-page: https://github.com/liushuailong/utils_slliu
+Author: liushuailong
+Author-email: liushuailong001@163.com
+Maintainer: liushuailong
+Maintainer-email: liushuailong001@163.com
+License: MIT
+Platform: linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: click
+Requires-Dist: chinese-calendar
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: ensemble-outlier-sample-detection
+Version: 0.1.0
+Summary: You can do outlier detection.
+Home-page: https://github.com/yu-9824/ensemble_outlier_sample_detection/
+Author: yu9824
+Author-email: yu.9824.job@gmail.com
+Maintainer: yu9824
+Maintainer-email: yu.9824.job@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: optuna (>=0.19.0)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+
+# ensemble_outlier_sample_detection
+A method for removing outlier samples.
+
+## How to use.
+You can see more details in the [example](https://github.com/yu-9824/ensemble_outlier_sample_detection/tree/main/example).
+```python
+from ensemble_outlier_sample_detection import EnsembleOutlierSampleDetector
+
+elo = EnsembleOutlierSampleDetector(random_state = 334, n_jobs = -1)
+elo.fit(X, y)
+elo.outlier_support_    # boolean(np.ndarray)
+```
+
+## Reference
+### Paper
+* https://www.sciencedirect.com/science/article/abs/pii/S0169743917305919?via%3Dihub
+
+### Sites
+* https://github.com/hkaneko1985/ensemble_outlier_sample_detection
+* https://datachemeng.com/outlier_samples_detectionc_python/
+
+
+## LICENSE
+Copyright © 2021 yu9824
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+

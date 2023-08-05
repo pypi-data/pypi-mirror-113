@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: speedevo
+Version: 0.0.3
+Summary: Pacote utilizado para realizar teste na velocidade de internet e salvando os dados em um .xlxs
+Home-page: https://github.com/gersonjr2
+Author: Gerson Jr
+Author-email: gersonjunior100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gersonjr2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+speedevo
+==============
+
+#### Esse é um pacote que faz teste de velocidade na sua internet e gera um arquivo em .xlsx com as informação do teste.
+
+## Instalação:
+
+```
+pip install speedevo
+```
+
+## Como usar:
+
+```
+from speedevo import speedevo
+s = speedevo.Speedevo()
+s.speed_test('nomeDoArquivo')
+
+Para a utilização do line e histogram, precisa antes ser gerado o arquivo .xlxs do speed_test
+s.line('nomeDoArquivo')
+s.histogram('nomeDoArquivo')
+```
+
+

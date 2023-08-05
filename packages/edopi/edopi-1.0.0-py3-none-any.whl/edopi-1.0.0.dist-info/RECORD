@@ -1,0 +1,13 @@
+edopi/__init__.py,sha256=utt4a1xEoTaUAmmapHG7CxIrgd4vttlB-Ow7q8_UGfs,91
+edopi/domain/__init__.py,sha256=lY8mpAbPNHKwonBCY4bcwBlHPtgCg_q2ly3mQrW6A7Y,219
+edopi/domain/balzano_diagram.py,sha256=p15z-D8CflbydNXDr7DVTfeufx2vkhfxkEK8M5PYHPU,5862
+edopi/domain/chroma.py,sha256=FT-72RipU8QvVteIIMvd60mIQkJB_oOc0Yf211QuRIM,3140
+edopi/domain/gcycle.py,sha256=6rdKy9ZHJTg6iATkxGw4H7_5_t2SoizvpSY3_6t7cVo,3161
+edopi/domain/scale.py,sha256=FGoSs5J9viIYuOZ5pvOFZFc6GRzUBizLEJ_nSavyL-4,8354
+edopi/domain/tonal_system.py,sha256=9YMUoYbN0GsNI6El7T4arnyAmCPYK6p9XPADVGLX1T0,3254
+edopi/domain/utils.py,sha256=s5_yyek5cyNx1fcu0jgMmsHjVuKK2PVSYZv28nTjv5w,428
+edopi-1.0.0.dist-info/LICENSE.txt,sha256=MAQqK2BtfSC_M3qAWyKIv9ugxzUAnkTOl6IaTGDsEM0,1068
+edopi-1.0.0.dist-info/METADATA,sha256=zW-qlGdDg635WAX65xGDkLoWnUjEeJ5vt99M0erKE_w,1013
+edopi-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+edopi-1.0.0.dist-info/top_level.txt,sha256=kH0oNCnvrAs89EMncaF_e-qGSPjgZHU9vqoGtb12Ejw,6
+edopi-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: starlette-core
+Version: 0.0.1
+Summary: Starlette Core.
+Home-page: https://github.com/accent-starlette/starlette-core
+Author: Stuart George
+Author-email: stuart@accentdesign.co.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: starlette
+Requires-Dist: typing
+Requires-Dist: wtforms
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+
+[![Sourcery](https://img.shields.io/badge/Sourcery-refactored-blueviolet.svg)](https://sourcery.ai)
+![](https://github.com/accent-starlette/starlette-core/workflows/Testing%20Workflow/badge.svg?branch=master)
+![](https://github.com/accent-starlette/starlette-core/workflows/Deploy%20to%20GitHub%20Pages/badge.svg?branch=master)
+![](https://codecov.io/gh/accent-starlette/starlette-core/branch/master/graph/badge.svg)
+
+---
+
+**Documentation**: [https://accent-starlette.github.io/starlette-core/](https://accent-starlette.github.io/starlette-core/)
+
+---
+
+# Starlette Core
+
+

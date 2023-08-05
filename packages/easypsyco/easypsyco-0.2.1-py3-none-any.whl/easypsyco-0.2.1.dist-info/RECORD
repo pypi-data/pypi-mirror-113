@@ -1,0 +1,9 @@
+easypsyco/__init__.py,sha256=1gZrBlyRuGgYbOPzWWwMicd3rgr7JyDT-DXlxT47sJs,215
+easypsyco/__pkginfo__.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+easypsyco/easypsyco.py,sha256=ApYqS7WQyRb6xTbX841u2Oo_0i-DzSMePxYHIQR3R7w,10818
+tests/__init__.py,sha256=iTw_teUZxYB_s7S7Pm3oHt6-VBZ3S3gn3bnOxxMnATY,64
+tests/test_mocks.py,sha256=Nr37Wn5t1IXiI9pwUD-xjNakzEbe8Uw1VOzysMEqX6o,725
+easypsyco-0.2.1.dist-info/METADATA,sha256=WWj-8JuYMhs9aaPA_qG4p5mcvB7BO9vtdadxIPBj0jg,501
+easypsyco-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+easypsyco-0.2.1.dist-info/top_level.txt,sha256=_NFp8qno1IzCthkXdSoJrCpARfJE5fydN7vuL6i43xU,16
+easypsyco-0.2.1.dist-info/RECORD,,

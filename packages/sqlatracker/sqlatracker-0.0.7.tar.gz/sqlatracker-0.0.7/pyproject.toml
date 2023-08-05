@@ -1,0 +1,42 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "sqlatracker"
+author = "Ed__xu__Ed"
+author-email = "m.tofu@qq.com"
+home-page = "https://github.com/Ed-XCF/sqlatracker"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.md"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+known_third_party = ["SQLAlchemy"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v -s -p no:warnings"
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+omit = ["tests/*"]
+
+[tool.coverage.report]
+omit = [".tox/*"]
+exclude_lines = ["raise NotImplementedError", "pass", "raise"]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py38
+
+[testenv]
+deps = -rrequirements_dev.txt
+commands =
+    coverage run -m pytest
+    coverage report
+"""

@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: sqlatracker
+Version: 0.0.7
+Summary: trace your model field change log
+Home-page: https://github.com/Ed-XCF/sqlatracker
+Author: Ed__xu__Ed
+Author-email: m.tofu@qq.com

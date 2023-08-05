@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+repo2env/__init__.py
+repo2env/__main__.py
+repo2env/environment.py
+repo2env/fetch.py
+repo2env/git_util.py
+repo2env.egg-info/PKG-INFO
+repo2env.egg-info/SOURCES.txt
+repo2env.egg-info/dependency_links.txt
+repo2env.egg-info/entry_points.txt
+repo2env.egg-info/requires.txt
+repo2env.egg-info/top_level.txt

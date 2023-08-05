@@ -1,0 +1,7 @@
+click~=7.1
+dulwich~=0.20.15
+requests~=2.24
+
+[dev]
+bump2version==1.0.1
+pre-commit==2.12.1

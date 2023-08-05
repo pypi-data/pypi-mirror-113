@@ -1,0 +1,14 @@
+soxr/__init__.pxd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soxr/version.py,sha256=s_MSuXWJat4p6EpVooNKKyaslbK3WUHQUXdMYSDQmKw,148
+soxr/__init__.py,sha256=_LgN29YTmV8wtUAcDhuBp3vQ2-h4QfqjdwfLnEg1yJw,5224
+soxr/cysoxr.cpython-38-x86_64-linux-gnu.so,sha256=8soh1OPZOqQcg1RWNGkFvyok2sRs-tLmsN9qOpGKXlE,3972224
+soxr/cysoxr.pyx,sha256=_h3nht6_gvjgG3_DnCPxqF6jKqLhK5WwxZjIVaUQuzg,8076
+soxr/csoxr.pxd,sha256=Gbczme-cveuzURqqmpK-DIS9Xbu9cBserLKBmDTAMwA,2008
+soxr/soxr-config.h,sha256=v37avwRpkz2I68XmLgIeDXS_kLUsya6pw8jSckgCW1E,490
+soxr/cysoxr.c,sha256=vxxJ-RqM8f9wL3jEvwr0p1omzAorq-5TVgykytqR6R4,1575540
+soxr-0.2.5a4.dist-info/WHEEL,sha256=Dh4w5P6PPWbqyqoE6MHlzbFQwZXlM-voWJDf2WUsS2g,108
+soxr-0.2.5a4.dist-info/top_level.txt,sha256=hKgwfQsbwN5KovL0oYn-hpTVQIIyWMxYyGNzZqs_w-o,5
+soxr-0.2.5a4.dist-info/LICENSE.txt,sha256=8vfyQpNkBK7U-Th0BncCPg5RillIE12Zo6tqi3p-Ljo,3778
+soxr-0.2.5a4.dist-info/METADATA,sha256=Jlrhk9JfdYgA3ZnvCFYBM92Yku9ajlBDbykvsCMoJDo,4618
+soxr-0.2.5a4.dist-info/RECORD,,
+soxr-0.2.5a4.dist-info/COPYING.LGPL,sha256=8vEYuQKewYcblTY57MRmUbL8e2LilebPPvKsTJoFizM,26432

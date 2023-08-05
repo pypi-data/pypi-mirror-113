@@ -1,0 +1,9 @@
+paginator/__init__.py,sha256=2UhkYKA9sWUE_vdnbIYy1QoCYUZ_EpqdBH3lLJT4fm8,321
+paginator/errors.py,sha256=eek4-cxwRS7p_yeh8Tq1VedlJB4BtQCTpiYVhajnzEo,46
+paginator/objects.py,sha256=mmSDtuKwsjFPygW7de8mpYddTl-O7gOrJAuokNDfm8w,1395
+paginator/paginator.py,sha256=CHJzOGutg_1cF22yRo5dsywe-Tx8KErZ3K9XO71Fd9Y,6813
+paginator.py-0.3.dist-info/LICENSE,sha256=x6FgQX_hcPlzYuP6mi1prIccJVlawDbn_kPHV_ZqIFo,1084
+paginator.py-0.3.dist-info/METADATA,sha256=cwODTcw_Q3ZS4k_thuqFO_ZSu95Q2eqy-uXz9FO-cSw,3177
+paginator.py-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+paginator.py-0.3.dist-info/top_level.txt,sha256=-wb-dnz7oj9cLsgNjw96SAhnKb4ca0-mEbfxcVjzVDI,10
+paginator.py-0.3.dist-info/RECORD,,

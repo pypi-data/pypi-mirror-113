@@ -1,0 +1,8 @@
+README.rst
+setup.py
+happymongo/__init__.py
+happymongo_py3.egg-info/PKG-INFO
+happymongo_py3.egg-info/SOURCES.txt
+happymongo_py3.egg-info/dependency_links.txt
+happymongo_py3.egg-info/requires.txt
+happymongo_py3.egg-info/top_level.txt

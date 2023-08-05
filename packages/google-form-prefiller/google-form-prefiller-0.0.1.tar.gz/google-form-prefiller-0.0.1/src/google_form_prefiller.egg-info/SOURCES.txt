@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/google_form_prefiller/__init__.py
+src/google_form_prefiller/google_form_prefiller.py
+src/google_form_prefiller.egg-info/PKG-INFO
+src/google_form_prefiller.egg-info/SOURCES.txt
+src/google_form_prefiller.egg-info/dependency_links.txt
+src/google_form_prefiller.egg-info/entry_points.txt
+src/google_form_prefiller.egg-info/top_level.txt

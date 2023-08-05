@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "python-paseto"
+version = "0.1.0"
+description = "Platform-Agnostic Security Tokens for Python"
+authors = []
+license = "MIT"
+packages = [{ include = "paseto" }]
+readme = "README.md"
+homepage = "https://github.com/purificant/python-paseto"
+repository = "https://github.com/purificant/python-paseto"
+documentation = "https://github.com/purificant/python-paseto"
+keywords = ["paseto", "token", "security", "crypto"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<3.10"
+pynacl = "^1.4.0"
+pysodium = "^0.7.9"
+cython = "^0.29.24"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.6b0"
+pylama = "^7.7.1"
+tox = "^3.24.0"
+coverage = "^5.5"
+mypy = "^0.910"
+coveralls = "^3.1.0"
+isort = "^5.9.2"
+pylint = "^2.9.3"
+pytest-benchmark = "^3.4.1"
+
+[tool.black]
+exclude = '/(submodules|.tox)/'
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

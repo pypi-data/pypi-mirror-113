@@ -1,0 +1,11 @@
+playwbot/Playwbot.py,sha256=R1pBiwvvUpeu8wW8qYJBmwir5a7fodSKbOO9ifphht0,48417
+playwbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playwbot/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playwbot/src/browser.py,sha256=wbb5_MrmU6LwWi22KOYODuHXeH80aUknp2dtgOdpq14,2019
+playwbot/src/context.py,sha256=nPr1eVxb8nz4um9n6xqrsOo1qiyMXDpHdl5OaMq-_ak,2634
+playwbot/src/handle.py,sha256=pCJFizh16QzENJtZLr0__Px2TRwnROMpw5Ol1KlD21g,6077
+playwbot/src/page.py,sha256=Ytn6fzQh0BCAjqc-3qU2VOR2Sc7vecRJg72Igac5nWM,4694
+playwbot/src/utils.py,sha256=-2xb67NkQfHIV7RwelSpzoinlTZPtgU6oa62ag_i5fQ,984
+playwbot-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+playwbot-0.3.0.dist-info/METADATA,sha256=2DPoqXAgY2_5Oj2IzIO58T9l_MN-BGvJyAWCOd0fS28,2219
+playwbot-0.3.0.dist-info/RECORD,,

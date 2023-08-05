@@ -1,0 +1,12 @@
+codec_Watteco/Decoding_Functions.py,sha256=zEHpRCW9X8pvAfUzCjMvy05z8jmUB25Jc1v0lllVwn4,2760
+codec_Watteco/Main.py,sha256=kMdddKjH-qf6fSEKKZVNsbGGls1XPLrnFmNdF7xmen8,1683
+codec_Watteco/Scroll_Decoding_Functions.py,sha256=sqWbEEpnqbrhxzAVuFw6UW9HUtH98bpYAc9lZT89lnk,3664
+codec_Watteco/WTC_CodecTools.py,sha256=BA2Ff2X3JCr87BJGlivFlBkUOxteR9ZUuXRx12xLe4Q,4386
+codec_Watteco/ZCL.py,sha256=QNBadvveolAKN-nrac4xsB0JumwI8t1x_yfzFkRnnDM,34747
+codec_Watteco/ZCL_FRAME.py,sha256=JIV9xGNGEo6uTwDD1lJxeXZsBL-UNcUjmyuoOc1wFak,3815
+codec_Watteco/__init__.py,sha256=NpzPDSOae41MzMfYMKblX94_PnfCPNa52DJ2Lcxl_VQ,69
+codec_Watteco-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+codec_Watteco-0.0.3.dist-info/METADATA,sha256=MjMNo1F6IfCwv3SA3c7dCBZVvgZQ40S5Z6tLXo8gxyg,593
+codec_Watteco-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codec_Watteco-0.0.3.dist-info/top_level.txt,sha256=VFD-VTPyerSv9dEgud6fv7hVC6ePaJwyeXxnu6ex0xw,14
+codec_Watteco-0.0.3.dist-info/RECORD,,

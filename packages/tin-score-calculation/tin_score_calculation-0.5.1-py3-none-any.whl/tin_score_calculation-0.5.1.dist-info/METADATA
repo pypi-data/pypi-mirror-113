@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tin-score-calculation
+Version: 0.5.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: tin-score-calculation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: bx-python (>=0.8.10)
+Requires-Dist: matplotlib (>=3.3.4)
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: psutil (>=5.8.0)
+Requires-Dist: pysam (>=0.16.0.1)
+Requires-Dist: RSeQC (>=3.0.1)
+
+UNKNOWN
+
+

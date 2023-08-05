@@ -1,0 +1,15 @@
+JSPyBridge/__init__.py,sha256=LhCEZXsMwvKXq57tinLc8iQELZ2dIAkI-KX6l6pJ1ZM,2794
+JSPyBridge/config.py,sha256=I7qp17Iuiq8SnDpWZVlQooQFpl9GJlDMwUxEVYMGQsM,443
+JSPyBridge/connection.py,sha256=8okke5KG1bbyOijmrMFbh7Sr4K3w8lrFXBo0uLtO7MM,3061
+JSPyBridge/errors.py,sha256=Aj4ZHup4ZEAUjG3pME1XqAPy8cxdHXLvSR_6yeRXtT0,4909
+JSPyBridge/events.py,sha256=UJ4wfKn1FVrjYxMOfPUPgsdJv83K480nq9xIaNr21-E,6286
+JSPyBridge/json_patch.py,sha256=ieLxy3ttwZICJrntQtee2Tcm3xnMNxO-23z7x8pEplI,570
+JSPyBridge/proxy.py,sha256=BY2hNqJRX0OGRkIkB_n9EAS03bh5460fVmnGm3WfblQ,10337
+JSPyBridge/pyi.py,sha256=Mvwekj35xgoSWxWuUtQPXCzl_qO-6WSfR4IuuzJmhJo,9091
+JSPyBridge/js/bridge.js,sha256=aMgWR_Dw-DsQdlXPOnGGHsk1r3yb1dmnJYd5rc6ETXU,7831
+JSPyBridge/js/deps.js,sha256=pbi3cwDwodlQGqZsdKwCXbBPzNEvu_8ePT1UHjQhrQg,4451
+JSPyBridge/js/pyi.js,sha256=WNC5S-fTkUsNlcbSCayo5H-Co-Kv1nna8_zLntL4reg,9950
+javascript-1!0.2.1.dist-info/METADATA,sha256=KxwDNFtODTU_UFEwtPY8Y30OWmpVsnK-R2TcM7fbPBI,11948
+javascript-1!0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+javascript-1!0.2.1.dist-info/top_level.txt,sha256=ER4AfDjARHU8Yi44VGD58piU67-jXCiEQraMbzmrh7M,11
+javascript-1!0.2.1.dist-info/RECORD,,

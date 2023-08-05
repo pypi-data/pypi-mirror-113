@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ActivitySourceGenerator"
+  },
+  {
+    "name": "AndroidIntentLaunchSinkGenerator"
+  },
+  {
+    "name": "CodeExecutionSinkGenerator"
+  },
+  {
+    "name": "content_provider_generator"
+  },
+  {
+    "name": "ContextFeature"
+  },
+  {
+    "name": "DataCastFeatureGenerator"
+  },
+  {
+    "name": "ExplicitIntentFeatureGenerator"
+  },
+  {
+    "name": "FileSinkGenerator"
+  },
+  {
+    "name": "ImplicitIntentSourceGenerator"
+  },
+  {
+    "name": "SQLiteDatabaseSinksGenerator"
+  }
+]

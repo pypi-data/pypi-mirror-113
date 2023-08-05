@@ -1,0 +1,65 @@
+{# -*- coding: utf-8 -*-
+
+Copyright (C) 2019 - 2021 CERN.
+Copyright (C) 2019 - 2021 Northwestern University.
+Copyright (C) 2020 - 2021 TU Wien.
+
+Invenio is free software; you can redistribute it and/or modify it
+under the terms of the MIT License; see LICENSE file for more details.
+#}
+<footer class="footer-global">
+  <div id="sitemap">
+    <div class="ui stackable three column container grid">
+      <div class="column">
+        <h3 class="white">TU Data</h3>
+        <ul>
+          {%- set policy_file=_("TU_Data_Policy_20210511_en.pdf") -%}
+          {%- set policy_url=url_for("static", filename=("documents/" + policy_file)) -%}
+          {%- set terms_of_use_file=_("TU_Data_Terms_of_Use_20210511_en.pdf") -%}
+          {%- set terms_of_use_url=url_for("static", filename=("documents/" + terms_of_use_file)) -%}
+          {%- set privacy_statement_file=_("TU_Data_Privacy_Statement_20210406_de.pdf") -%}
+          {%- set privacy_statement_url=url_for("static", filename=("documents/" + privacy_statement_file)) -%}
+          <li><a href="{{policy_url}}" target="_blank">Policy</a></li>
+          <li><a href="{{terms_of_use_url}}" target="_blank">Terms of Use</a></li>
+          <li><a href="{{privacy_statement_url}}" target="_blank">Privacy Statement</a></li>
+          <li><a href="mailto:tudata@tuwien.ac.at?subject=About TU Data...">Contact</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3 class="white">TU Wien</h3>
+        <ul>
+          <li>
+            <a href="https://www.tuwien.at/en/research/rti-support/research-data/">Center for <abbr title="Research Data Management">RDM</abbr></a>
+          </li>
+          <li>
+            <a href="https://www.tuwien.at/en/research/rti-support/research-data/research-data-management/policy/"><abbr title="Research Data Management">RDM</abbr> Policy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3 class="white">FAIR Data Austria</h3>
+        <ul>
+          <li>
+            <a href="https://forschungsdaten.at/en/fair-data-austria/">FAIR Data Austria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="logos">
+    <div class="ui container grid">
+      <div class="three wide column textlogo">
+        <a>Powered by</a>
+        <a href="https://inveniosoftware.org/products/rdm/">
+          <img src="{{ url_for('static', filename='images/rdmlogo.png') }}" alt="InvenioRDM" />
+        </a>
+      </div>
+      <div class="three wide column textlogo">
+        <a>Enabled by</a>
+        <a href="https://forschungsdaten.at/en/fair-data-austria/"><img
+            src="{{ url_for('static', filename='images/fair-data-austria.png') }}" alt="FAIR Data Austria" />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>

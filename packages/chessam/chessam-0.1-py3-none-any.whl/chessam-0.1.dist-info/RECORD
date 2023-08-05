@@ -1,0 +1,15 @@
+chessam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessam/src/Pieces.py,sha256=ctXa0J55LxkhJ3cF8-WptFv1lHHjP2OMr00SM0F1QLc,17391
+chessam/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessam/src/board_functions.py,sha256=6szm79GryJ9I4OKyh0uzi7TrRxp1X86LTR7qcZk3EDo,7642
+chessam/src/bot_vs_bot.py,sha256=aPXvt7LX7nKl-a6o44kaNk_yzrkB3GWJR_qiC6uSFeU,113
+chessam/src/gui.py,sha256=MVykwhjvx80Y3y_H8BhF32NZxKcfJBivC1HiHZPMwwQ,18851
+chessam/src/human_vs_bot.py,sha256=2_0jtn9jLI95Am4rqJxB7JeYxfaq1hxrfL5jx6e5_vA,5569
+chessam/src/human_vs_human.py,sha256=jTqQmUXA_fFMPmJPRq4Uq_g2gd56q5u9CjDGDqa09Ew,2086
+chessam/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chessam/utilities/image_resizing.py,sha256=XbFrbIadoxw0fGu4zU9zECCF_zzladFOnBJS5uF6AGE,544
+chessam/utilities/images_dict.py,sha256=K_3OENNpbP32r24J3HX__t4_0TnA-tHZGzAO7_iI5fw,1249
+chessam-0.1.dist-info/METADATA,sha256=un1L45PXysreGPY6SbpfcKDsV0gVkiex0mTfJWVYK5c,266
+chessam-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chessam-0.1.dist-info/top_level.txt,sha256=kzJwzGcBRHe-ZTrDJYrRE2PyKmhbiS_fGl7z1LDciuM,8
+chessam-0.1.dist-info/RECORD,,

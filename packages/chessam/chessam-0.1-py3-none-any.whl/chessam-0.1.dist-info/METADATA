@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chessam
+Version: 0.1
+Summary: basic chess gui connected to stockfish.
+Home-page: UNKNOWN
+Author: Samuel Rodriguez
+Author-email: samrolopez@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: chess
+
+UNKNOWN
+

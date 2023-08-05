@@ -1,0 +1,14 @@
+click
+joblib
+pandas
+matplotlib
+numpy
+scipy
+torch
+termcolor
+python_dateutil
+gym
+future
+sklearn
+pyproj
+pytest

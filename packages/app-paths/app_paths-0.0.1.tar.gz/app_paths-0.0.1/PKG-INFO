@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: app_paths
+Version: 0.0.1
+Summary: 📂 Like appdirs but with Paths, path creation and async support.
+Home-page: UNKNOWN
+License: AGPL-3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# App Paths
+Like `appdirs` but with Paths, path creation and async support.
+
+

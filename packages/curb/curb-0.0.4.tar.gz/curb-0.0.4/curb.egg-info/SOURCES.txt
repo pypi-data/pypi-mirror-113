@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+curb/Config.py
+curb/Wrappers.py
+curb/__init__.py
+curb/__main__.py
+curb.egg-info/PKG-INFO
+curb.egg-info/SOURCES.txt
+curb.egg-info/dependency_links.txt
+curb.egg-info/requires.txt
+curb.egg-info/top_level.txt

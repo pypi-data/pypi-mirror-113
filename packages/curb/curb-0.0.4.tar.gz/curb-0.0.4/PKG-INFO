@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: curb
+Version: 0.0.4
+Summary: A minimalist module to containerize child processes
+Home-page: https://github.com/raghavmecheri/curb
+Author: Raghav Mecheri
+Author-email: raghav@binit.in
+License: MIT
+Download-URL: https://github.com/raghavmecheri/curb/archive/curb-0.0.4
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# Curb
+A lightweight and simple hardware virtualisation CLI for resource consumption management.
+
+## Use Cases:
+1. I'm developing a web app and my staging/prod VM has limits set on CPU/RAM - I want to test my app out locally with the same limits to make sure nothing goes wrong
+2. I want to run a process, and I don't want it to consume resources past a certain limit on my computer
+
+## Usage:
+### Sample Call
+`python -m curb --cmd="python scripts/empty.py"`
+### Sample Call With Limits
+`python -m curb --cmd="python scripts/empty.py" --cpu="100%" --ram="512mb"`
+### More Information
+`python -m curb --help`
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+cfn = cloudfn.core.cli:main
+

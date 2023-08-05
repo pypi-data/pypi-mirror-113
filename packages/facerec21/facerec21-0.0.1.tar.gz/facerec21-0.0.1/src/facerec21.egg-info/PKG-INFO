@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: facerec21
+Version: 0.0.1
+Summary: This package contains code for face recogition based attendance system with temperature monitoring
+Home-page: https://github.com/projectGroup21/facerec21
+Author: Harshitha,Harshitha,Kavya
+Author-email: harshithakavya21@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/projectGroup21/facerec21/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Facerec21
+
+This package uses face_recognition library to implement face recognition and smBus2 library to monitor temperature
+using MLX90614.
+
+## How to install it?
+
+## Windows
+
+```
+pip install facerec21
+
+```
+
+## Linux
+
+```
+sudo pip3 install facerec21
+
+```
+
+## How to use it?
+
+``` 
+import facerec21
+
+facerec()
+
+```
+

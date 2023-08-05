@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: binpickle
+Version: 0.3.4
+Summary: Optimized format for pickling binary data.
+Home-page: https://binpickle.lenskit.org
+Author: Michael Ekstrand
+Author-email: michaelekstrand@boisestate.edu

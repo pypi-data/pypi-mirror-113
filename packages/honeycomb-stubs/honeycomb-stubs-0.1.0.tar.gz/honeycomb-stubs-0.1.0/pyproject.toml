@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "honeycomb-stubs"
+version = "0.1.0"
+description = "Type stubs for the libhoney and beeline packages"
+authors = ["Nikhil Benesch <nikhil.benesch@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+packages = [
+    { include = "libhoney-stubs" },
+    { include = "beeline-stubs" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+honeycomb-beeline = "^2.17.0"
+libhoney = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+isort = "^5.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

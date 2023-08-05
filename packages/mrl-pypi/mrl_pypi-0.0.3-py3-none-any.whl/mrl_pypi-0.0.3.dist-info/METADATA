@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: mrl-pypi
+Version: 0.0.3
+Summary: Molecular reinforcement learning
+Home-page: https://github.com/DarkMatterAI/mrl/tree/main/
+Author: Karl Heyer
+Author-email: karl@darkmatterai.co
+License: MIT License
+Keywords: machine learning,cheminformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: fastprogress
+Requires-Dist: selfies
+Requires-Dist: scikit-learn
+Requires-Dist: networkx
+Requires-Dist: requests
+Requires-Dist: rdkit-pypi
+Requires-Dist: torch (>=1.8.0)
+
+# Molecular Reinforcement Learning
+> Unlocking reinforcement learning for drug design
+
+
+MRL is an open source python library designed to unlock the potential of drug design with reinforcement learning. 
+
+MRL bridges the gap between generative models and practical drug discovery by enabling fine-tuned control over chemical spaces. Control what structures are generated and where they occur.
+
+MRL is suitable for all stages of drug discovery, from high diversity hit expansion screens to hyper-focused lead optimization
+
+<img src="nbs/files/mols.png" width="800" alt="rgroup optimization" style="max-width: 800px">
+
+## Use Cases
+
+MRL can be applied to:
+- Small molecule design
+- Peptide design
+
+View our [tutorials](https://darkmatterai.github.io/mrl/tutorials.html) for more examples
+
+## Install
+
+Package coming soon
+
+## How to use
+
+## Contributing
+
+## Acknowledgements
+
+

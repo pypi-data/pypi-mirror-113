@@ -1,0 +1,9 @@
+tiresias/__init__.py,sha256=Q0ycDYM9kD8bSaOzencGb24IL-YDhoJemR6b3AxRz7A,31
+tiresias/__main__.py,sha256=5wBNfzq8XIiS9ujw6HMVSgNknRufoQfBTzV0zEqJt3g,5535
+tiresias/preprocessor.py,sha256=i_yOiGqothNBhk1DwaTTRZ39ggLo2LOPz3VLDr806xA,19260
+tiresias/tiresias.py,sha256=w0v-HqPax0txU2ZP5A8gRib8PI8ZyFEl-0dwyDhMILk,8781
+tiresias-0.0.1.dist-info/LICENSE,sha256=1iS6Xtxj-mrvctSTJfkBZDQD_AiAY6-r39voyWxF-CM,1067
+tiresias-0.0.1.dist-info/METADATA,sha256=Y8n3HM1XCe_47QHshO4q3CH9uJAE-xf7Z17l2XYxihE,3753
+tiresias-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tiresias-0.0.1.dist-info/top_level.txt,sha256=7tcDOAiyyGrPlMpZahoYplB5l9ZENADiK-tLEBy8Y1o,9
+tiresias-0.0.1.dist-info/RECORD,,

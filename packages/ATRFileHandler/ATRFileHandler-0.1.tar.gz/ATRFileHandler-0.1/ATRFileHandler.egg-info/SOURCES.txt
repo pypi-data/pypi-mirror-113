@@ -1,0 +1,7 @@
+README.md
+setup.py
+ATRFileHandler/__init__.py
+ATRFileHandler.egg-info/PKG-INFO
+ATRFileHandler.egg-info/SOURCES.txt
+ATRFileHandler.egg-info/dependency_links.txt
+ATRFileHandler.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+kinesis/__init__.py,sha256=xcKcN8lFa2mPF-j2igrTUhOywM5t0BxxywQIXSr2pSM,459
+kinesis/aggregators.py,sha256=AVH1ftEamGNcsPGMlMAu1s-CW3Z4zSxfvgtoy_EPfts,6161
+kinesis/base.py,sha256=2KbRvEzidVeQ4aZ0LMMznnV26MOY9tp0MKnshFzYm-c,8982
+kinesis/checkpointers.py,sha256=ocWWEZmR6GRuR-Gvz95p4Z1g72HCKNwBnk3QkmyZ6NU,8017
+kinesis/consumer.py,sha256=sE8rGcDAWt9MS3rCobkNgsRWtLlj6jJ-C2Z-I6zl5m0,14112
+kinesis/exceptions.py,sha256=hmwc4bhSeAa58qIFl_dP5ZKyQT7xjfI8LKKJWQIUBcE,320
+kinesis/processors.py,sha256=0GMMsfXKDLXQtFIFN_nRaP72MAUE8mKx_g_W9syhzxU,806
+kinesis/producer.py,sha256=m2iOpE58N_yoRw-3fKTAegySmatQ1wqj8cprSrQeS1w,11237
+kinesis/serializers.py,sha256=xYY-liPvn6So7htoxQtstdViMHFQpiN3NUBmrCss4Tg,884
+kinesis/utils.py,sha256=XDeHYeAHW87GBkkL8r7Nx-7iWQLG1pZ1SqQrPBgiZcM,2083
+async_kinesis-1.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+async_kinesis-1.1.5.dist-info/METADATA,sha256=NRPYWG4VFjtNTx9SiSmx5r7OEYZxMq5dGkf3XQxwcvk,9636
+async_kinesis-1.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+async_kinesis-1.1.5.dist-info/top_level.txt,sha256=Sq3kNf5BBPqAZdGJP9-qevQIUMkLuWe9b7Yw9GY6gjM,8
+async_kinesis-1.1.5.dist-info/RECORD,,

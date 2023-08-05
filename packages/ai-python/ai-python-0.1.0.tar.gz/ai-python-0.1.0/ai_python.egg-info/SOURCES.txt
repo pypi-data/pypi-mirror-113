@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ai-python/__init__.py
+ai_python.egg-info/PKG-INFO
+ai_python.egg-info/SOURCES.txt
+ai_python.egg-info/dependency_links.txt
+ai_python.egg-info/not-zip-safe
+ai_python.egg-info/requires.txt
+ai_python.egg-info/top_level.txt

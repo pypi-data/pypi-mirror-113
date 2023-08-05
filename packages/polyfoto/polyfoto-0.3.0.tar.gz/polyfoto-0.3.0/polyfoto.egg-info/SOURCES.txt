@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+polyfoto.egg-info/PKG-INFO
+polyfoto.egg-info/SOURCES.txt
+polyfoto.egg-info/dependency_links.txt
+polyfoto.egg-info/requires.txt
+polyfoto.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+diffdates=diffdates.main:main
+

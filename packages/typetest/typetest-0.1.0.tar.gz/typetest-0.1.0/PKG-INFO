@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: typetest
+Version: 0.1.0
+Summary: Test your typing speed without leaving the terminal.
+License: MIT
+Author: MasterMedo
+Author-email: mislav.vuletic@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: blessed (>=1.18.1,<2.0.0)

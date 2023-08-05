@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: comics-down
+Version: 0.2.0
+Summary: A command line tool for download comics from website.
+Home-page: https://github.com/snakeclub/comics-down
+Author: 黎慧剑
+Author-email: snakeclub@163.com
+Maintainer: 黎慧剑
+Maintainer-email: snakeclub@163.com
+License: Mozilla Public License 2.0
+Keywords: comics download Tool
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: HiveNetLib (>=0.8.8)
+Requires-Dist: prompt-toolkit (>=2.0.0)
+Requires-Dist: Crypto
+Requires-Dist: m3u8
+Requires-Dist: selenium
+Requires-Dist: mitmproxy (==5.0.1)
+
+comics-down is a command line tool for download comics from website
+
+

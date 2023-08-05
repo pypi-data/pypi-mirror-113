@@ -1,0 +1,13 @@
+readstr/__init__.py,sha256=RgznnVs-6y5agLilIYGAesv3JmQVQOM1Sb3oP_2_SGY,262
+readstr/__pkginfo__.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+readstr/base64.py,sha256=Zk4jEe7esBzSBqrmqnSsBEfNZUdrkySablv05qZvxfY,772
+readstr/readable_uuid.py,sha256=jkYetESEaeoM4wQ58pAb4mYiFfC58gp1gfh_8QBZsYw,464
+readstr/readstr.py,sha256=mHxXAzVIvUBUdxJ58GW-S9EbAVLp4wraLDmhkITyLaM,5250
+tests/__init__.py,sha256=iTw_teUZxYB_s7S7Pm3oHt6-VBZ3S3gn3bnOxxMnATY,64
+tests/test_readstr.py,sha256=jI6fQ_FMN39JssoDTHGkvoGhUlcSY_KScp5bY5LegLw,4691
+tests/test_uuids.py,sha256=aYqkPj3IdemBMn4gcZEJYk_2ne6IzEB23yjFsa99c-E,360
+readstr-0.6.0.dist-info/LICENSE,sha256=ZeK0oK-ap2QtMPGLN6nSsBr3xAK5XjCF17som2VaCZM,1073
+readstr-0.6.0.dist-info/METADATA,sha256=gdXBzBXnSl-LZbaS78az9lutAs9JOY0YlCLmj4RG_b4,1087
+readstr-0.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+readstr-0.6.0.dist-info/top_level.txt,sha256=bivWm1hX5aJ7ZqGByCdtZVTFMgSMq09-cetoZtZNxT8,14
+readstr-0.6.0.dist-info/RECORD,,

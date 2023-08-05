@@ -1,0 +1,11 @@
+MANIFEST.in
+requirements.txt
+setup.py
+applicability_domain/__init__.py
+applicability_domain/applicability_domain.py
+applicability_domain/test.py
+applicability_domain.egg-info/PKG-INFO
+applicability_domain.egg-info/SOURCES.txt
+applicability_domain.egg-info/dependency_links.txt
+applicability_domain.egg-info/requires.txt
+applicability_domain.egg-info/top_level.txt

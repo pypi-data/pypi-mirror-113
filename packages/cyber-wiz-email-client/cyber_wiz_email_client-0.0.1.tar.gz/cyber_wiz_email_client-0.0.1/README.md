@@ -1,0 +1,32 @@
+# cyber-wiz-email-client
+
+cyber-wiz-email-client is a Python library to interact with email.cyber-wiz.com.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install cyber-wiz-email-client.
+
+```bash
+pip install cyber-wiz-email-client
+```
+
+## Usage
+
+```python
+from cyber_wiz_api import EmailClient
+
+# create a client object
+client = EmailClient()
+
+# returns search results that matches search term with domainname
+client.get_domain_search_results(search_term="cyber-wiz.com", limit=10)
+
+# returns search results that matched search term with username
+client.get_user_name_search_results(search_term='cyber', limit=10)
+
+# returns search results that matches search term with email
+client.get_generic_search_results(search_term='cyber', limit=10)
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please contact us:info@cyber-wiz.com.

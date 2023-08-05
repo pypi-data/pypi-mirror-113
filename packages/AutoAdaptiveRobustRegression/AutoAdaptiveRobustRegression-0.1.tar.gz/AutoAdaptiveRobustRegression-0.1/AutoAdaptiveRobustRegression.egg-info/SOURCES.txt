@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+AutoAdaptiveRobustRegression/AdaptiveRobustRegression.dll
+AutoAdaptiveRobustRegression/__init__.py
+AutoAdaptiveRobustRegression/internal.py
+AutoAdaptiveRobustRegression/libopenblas.dll
+AutoAdaptiveRobustRegression.egg-info/PKG-INFO
+AutoAdaptiveRobustRegression.egg-info/SOURCES.txt
+AutoAdaptiveRobustRegression.egg-info/dependency_links.txt
+AutoAdaptiveRobustRegression.egg-info/requires.txt
+AutoAdaptiveRobustRegression.egg-info/top_level.txt

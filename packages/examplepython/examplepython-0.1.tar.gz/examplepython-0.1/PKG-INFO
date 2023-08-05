@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: examplepython
+Version: 0.1
+Summary: Módulo teste para PyTools
+Home-page: https://github.com/victorsmorais/examplepython
+Author: Victor Morais
+Author-email: victorsanmorais@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # examplepython
+        MÃ³dulo para treinar PyTools
+        
+        [![Build Status](https://www.travis-ci.com/victorsmorais/examplepython.svg?branch=master)](https://www.travis-ci.com/victorsmorais/examplepython)
+        [![Updates](https://pyup.io/repos/github/victorsmorais/examplepython/shield.svg)](https://pyup.io/repos/github/victorsmorais/examplepython/)
+        [![Python 3](https://pyup.io/repos/github/victorsmorais/examplepython/python-3-shield.svg)](https://pyup.io/repos/github/victorsmorais/examplepython/) 
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

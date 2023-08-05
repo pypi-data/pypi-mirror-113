@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+examplepython/__init__.py
+examplepython/github_api.py
+examplepython.egg-info/PKG-INFO
+examplepython.egg-info/SOURCES.txt
+examplepython.egg-info/dependency_links.txt
+examplepython.egg-info/not-zip-safe
+examplepython.egg-info/requires.txt
+examplepython.egg-info/top_level.txt

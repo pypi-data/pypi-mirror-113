@@ -1,0 +1,9 @@
+sqlalchemy
+sqlalchemy-utils
+starlette
+typing
+wtforms
+
+[docs]
+mkdocs
+mkdocs-material

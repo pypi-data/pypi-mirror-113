@@ -1,0 +1,7 @@
+bcbio_gff
+biopython>=1.5
+matplotlib>=3.0
+numpy>=1.10
+pandas>=0.24
+pyfaidx
+pyvcf>=0.6

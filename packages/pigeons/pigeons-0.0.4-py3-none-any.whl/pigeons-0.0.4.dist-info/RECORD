@@ -1,0 +1,11 @@
+pigeons/__init__.py,sha256=_sAZaWev2aiEffo76Ix-AFkW7LLQbKNvXZqGGKbmeFc,85
+pigeons/dispatcher.py,sha256=LfUuIZIhRwry9957BNy0gx3lU8Vf2OH7_Dx3XkICbGc,2969
+pigeons/filter.py,sha256=JJrthlRWX0ogAviDd_8Cb_PJ4os2XnRuO0hHZ1ua9ZI,2021
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dispatcher.py,sha256=8fHQg0Jwv1UGolw3sYQpAVbOoxuhnInJJGkTR3hS-8U,1652
+tests/test_filter.py,sha256=8ZXHj2-aYH8d0nD3NSPX5m-aTE0-FCmfDqFlMOs_brA,2339
+pigeons-0.0.4.dist-info/LICENSE,sha256=K63FCcLsvTaGqf1KpGTUisYDbZjgunF25AFRePqErJ0,1089
+pigeons-0.0.4.dist-info/METADATA,sha256=cXmTA9PY1doWTE2dP2eW_5rs1sx2pteBGOsLWGj-aeY,3619
+pigeons-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pigeons-0.0.4.dist-info/top_level.txt,sha256=-SytQ7p1gCvqIuSyQEzOMeSoyP0RsfmwD-0QGaeX0Ok,14
+pigeons-0.0.4.dist-info/RECORD,,

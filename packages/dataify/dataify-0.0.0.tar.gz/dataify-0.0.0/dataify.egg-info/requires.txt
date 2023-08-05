@@ -1,0 +1,12 @@
+numpy>=1.17.1
+scipy>=0.19.1
+requests>=2.9.1
+pandas>=0.24.2
+anndata==0.7.5
+nibabel>=2.4.0
+scikit-image==0.15.0
+scikit-learn>=0.21.3
+nilearn>=0.5.2
+boto3>=1.12.27
+torch>=1.8.1
+torchvision>=0.9.1

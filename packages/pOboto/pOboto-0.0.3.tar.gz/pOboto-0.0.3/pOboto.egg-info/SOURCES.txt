@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pOboto/__init__.py
+pOboto/pOcloudWatch.py
+pOboto/pOglue.py
+pOboto/pOparameterStore.py
+pOboto/pOredshiftDataAPIService.py
+pOboto/pOs3.py
+pOboto/pOsecretsManager.py
+pOboto.egg-info/PKG-INFO
+pOboto.egg-info/SOURCES.txt
+pOboto.egg-info/dependency_links.txt
+pOboto.egg-info/requires.txt
+pOboto.egg-info/top_level.txt

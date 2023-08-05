@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pOboto
+Version: 0.0.3
+Summary: It's pip... pO Boto Wrapper.
+Home-page: https://github.com/Justin-productOps/pO-boto
+Author: jujbates
+Author-email: justin.bates@productops.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# pO-boto
+Boto3 Wrapper
+
+

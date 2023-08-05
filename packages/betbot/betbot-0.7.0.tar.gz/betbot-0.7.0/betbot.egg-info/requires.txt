@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+puffotter
+scikit-learn
+joblib
+selenium

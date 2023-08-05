@@ -1,0 +1,17 @@
+cssdeadwood/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cssdeadwood/app.py,sha256=yxiw66DZR5PrfS6Rt3GjFsUaL-LDFawJfSpncDCD3B0,10114
+cssdeadwood/css_extract.py,sha256=a_sKbaw2TL4keyNnaRT3fsGyDlwagx99Evyyu0h2jRo,2090
+cssdeadwood/dom_match.py,sha256=aFHd-od-uoJhKJiL77E7Qvo-x1L2NUPDkuiIW4q5ECA,3189
+cssdeadwood/utils.py,sha256=xtrTK6ngYGv-LCzp2t1zW7zHNf61bstQ7WLnRy_Q1F4,1338
+cssdeadwood/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cssdeadwood/test/css_extract_test.py,sha256=9eu0Xtp4aJFbV8RQcYi59Mrxf4l_OvSQa--QCJ88rIU,4552
+cssdeadwood/test/css_match_test.py,sha256=n-jvoPJfDEBGaqD0khkpKERbYBiFdv_ywXi_MAV4nB4,2941
+cssdeadwood/test/files/css/css001.css,sha256=G5W4bbe3HkAHaC62BzjKzhRluv3WLYPyYUG_aZMD_Ng,163
+cssdeadwood/test/files/html/html001.html,sha256=M29HEC_z499TRljIAR1-RvdJd7BHpzmFulKjQ3MVfFQ,396
+cssdeadwood/test/files/python/python001.py,sha256=-OhEnUW8Q-l3MErMtJh1PStfF6bIyOv81RR5EkkFTwg,77
+CssDeadwood-0.3.0.dist-info/LICENCE.txt,sha256=hvBYwgb1zuLWMA4nvdMIO5Lj_O8APPcl_AQd6hX-md4,1058
+CssDeadwood-0.3.0.dist-info/METADATA,sha256=lfj35tLlDH5-DEZyKDMSE9YCIe630RUpa-VDSI6C4ZI,2792
+CssDeadwood-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CssDeadwood-0.3.0.dist-info/entry_points.txt,sha256=IDt0gUqAUoatmhnFDJqrr4mO-Rl2G6JggVsA5RcT1_Y,54
+CssDeadwood-0.3.0.dist-info/top_level.txt,sha256=F9bWJLncrMRivHx3QTVUn-v2m-zL6t4KXjr3MP1Mjpc,12
+CssDeadwood-0.3.0.dist-info/RECORD,,

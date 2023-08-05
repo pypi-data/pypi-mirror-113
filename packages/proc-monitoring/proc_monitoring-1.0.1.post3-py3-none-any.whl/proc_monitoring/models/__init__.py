@@ -1,0 +1,1 @@
+from proc_monitoring.models.message_grafana import MessageGrafana

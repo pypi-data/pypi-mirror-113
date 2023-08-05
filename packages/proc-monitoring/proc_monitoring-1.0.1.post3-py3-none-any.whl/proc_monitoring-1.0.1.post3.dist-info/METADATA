@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: proc-monitoring
+Version: 1.0.1.post3
+Summary: Implements methods and models for remote monitoring with Kafka and Grafana.
+Home-page: UNKNOWN
+Author: The_Crazy_Sys_Admin
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: PyYaml
+Requires-Dist: requests
+Requires-Dist: paramiko
+Requires-Dist: kafka-python
+Requires-Dist: core-commons (<2,>=1.0.2)
+Provides-Extra: windows_socket_inet
+Requires-Dist: win-inet-pton ; extra == 'windows_socket_inet'
+
+
+# Monitorización
+
+Este proyecto incluye un módulo empaquetado "**proc_monitoring**", el cual contiene métodos para enviar métricas hacia sistemas Kafka.
+
+## Requisitos
+Los requisitos para instalar y ejecutar el proyecto son:
+- Un IDE o un editor de código:
+  - IDE: *PyCharm*
+  - Editores de Código: *Visual Studio Code*, *Notepad++*, *VIM*
+
+
+- Un entorno de *Python 3.6.8* mínimo con las siguientes librerías:
+    - `PyYAML`
+    - `requests`
+    - `paramiko`
+    - `kafka-python`
+    - `library-commons`
+
+
+- Si se utiliza en Windows, también instalar los paquetes:
+    - `win-inet-python`
+
+
+- Opcionalmente, si se requiere ejecutar un entorno local de kafka para realizar pruebas, se pueden utilizar las siguientes imágenes docker para construir el entorno:
+  - `confluentinc/cp-zookeeper`
+  - `confluentinc/cp-kafka`  
+  En el directorio "**docker**" hay un fichero para construir el entorno local de kafka con docker.
+
+
+## Instalación
+Para instalar el programa localmente o en un Linux remoto:
+
+1. Descargar o clonar el proyecto desde el repositorio.
+2. Asegurarse de tener un entorno de Python funcional con la versión requerida y los paquetes necesarios.
+3. Activar el entorno de Python que fue creado.
+4. Instalar el módulo ejecutando este comando en la ruta del proyecto:
+~~~bash
+python setup.py install
+~~~
+
+> Se puede instalar docker y ejecutar el comando `docker-compose up` en el directorio "**docker**" para crear un entorno de pruebas con Kafka instalado y así depurar fallos en el envío de métricas a Kafka.
+
+## Configuration
+Los argumentos para linea de comandos del script principal **executor.py** son:
+
+- `-cf`/`--config-file`: Describe los nodos lanzados en la ejecución y su configuración.
+- `-w`/`--whatif`: Si se establece, el script se ejecutará normalmente pero no cambiará ningún dato persistente.
+- `-i`/`--info`: Si se establece, mostrará en pantalla la información de cada uno de los pasos del lanzamiento del script.
+- `-d`/`--debug`: Si se establece, aumentará el nivel de información mostrada en pantalla, generalmente solo se usa para depurar errores.
+- `-h`/`--help`: Muestra un mensage de ayuda del script.
+
+Para configurar los nodos a monitorizar o modificar el servidor Kafka al que se envían las métricas, modificar el fichero `configuration.yaml`.
+Este fichero está dividido en 3 objetos principales, "**nodos**", "**argumentos**" y "**conexiones**":
+
+- **Nodos(`nodes`)**: En esta sección los nodos son declarados y configurados. Para añadir un nodo, simplemente añadir una entrada a la lista de nodos, con el parámetro `type` especificando el nombre completo de la clase a la que debería de ser instanciada, y el parámetro `args` especificando el diccionario de argumentos que se pasaría a la clase. Cada tipo de nodo que se defina en un futuro, debería de estar documentado en el directorio `docs`.
+
+- **Argumentos(`args`)**: En esta sección los argumentos son creados y definidos. El valor de estos argumentos, es obtenido posteriormente desde la clase nodo concreta para ser utilizado.
+
+- **Conexiones(`connection_refs`)**: En esta sección se definen las conexiones necesarias para recabar métricas y enviarlas, como por ejemplo, la uri de la API de NSX y sus credenciales, o la IP del servidor Kafka al que se van a envíar las métricas. Posteriormente se accede a estás conexiones definidas desde la sección `args` de cada nodo.
+

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: kaldifeat
+Version: 1.1
+Summary: UNKNOWN
+Home-page: https://github.com/csukuangfj/kaldifeat
+Author: Fangjun Kuang
+Author-email: csukuangfj@gmail.com
+License: Apache licensed, as found in the LICENSE file
+Platform: UNKNOWN
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.8.1)
+
+# kaldifeat
+
+Wrap kaldi's feature computations to Python with PyTorch support.
+
+# Installation
+
+## From PyPi with pip
+
+If you install `kaldifeat` using `pip`, it will also install
+PyTorch 1.8.1. If this is not what you want, please install `kaldifeat`
+from source (see below).
+
+```bash
+pip install kaldifeat
+```
+
+## From source
+
+The following are the commands to compile `kaldifeat` from source.
+We assume that you have installed `cmake` and PyTorch.
+cmake 3.11 is known to work. Other cmake versions may also work.
+PyTorch 1.8.1 is known to work. Other PyTorch versions may also work.
+
+```bash
+mkdir /some/path
+git clone https://github.com/csukuangfj/kaldifeat.git
+cd kaldifeat
+python setup.py install
+```
+
+To test whether `kaldifeat` was installed successfully, you can run:
+```
+python3 -c "import kaldifeat; print(kaldifeat.__version__)"
+```
+
+## Usage
+
+Please refer to <https://kaldifeat.readthedocs.io/en/latest/usage.html>
+for how to use `kaldifeat`.
+
+

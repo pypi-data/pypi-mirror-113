@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nino
+Version: 0.2.0
+Summary: A small unofficial AniList API wrapper made for python
+Home-page: https://github.com/an-dyy/nino
+License: MIT
+Keywords: AniList
+Author: Andy
+Author-email: yrisxl@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/an-dyy/nino
+Description-Content-Type: text/markdown
+
+# Basic examples
+
+# Anime search
+```py
+from nino import Client
+
+with Client() as client:
+    paginator = client.anime_search("Overlord")
+    print(paginator.animes)
+```
+
+# Character search
+```py
+from nino import Client
+
+with Client() as client:
+    paginator = client.character_search("Nino")
+    print(paginator.characters)
+```

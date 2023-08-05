@@ -1,0 +1,3 @@
+[console_scripts]
+ews-builder = ews_builder.__main__:main
+

@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyschemavalidator/__init__.py
+pyschemavalidator/parameters.py
+pyschemavalidator/validators.py
+pyschemavalidator.egg-info/PKG-INFO
+pyschemavalidator.egg-info/SOURCES.txt
+pyschemavalidator.egg-info/dependency_links.txt
+pyschemavalidator.egg-info/top_level.txt

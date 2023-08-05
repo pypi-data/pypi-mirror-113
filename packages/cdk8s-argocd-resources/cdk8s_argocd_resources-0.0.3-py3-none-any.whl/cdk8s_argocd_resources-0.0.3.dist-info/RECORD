@@ -1,0 +1,10 @@
+cdk8s_argocd_resources/__init__.py,sha256=dU3E07al5eKfk3j_xgUmyKLXeBc4PMie9a9_QAQNDhI,39515
+cdk8s_argocd_resources/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk8s_argocd_resources/_jsii/__init__.py,sha256=WqjrN14_Pao-S5rkCjVk5IUV6Jx3dgAPiFV_qOrB4KA,426
+cdk8s_argocd_resources/_jsii/cdk8s-argocd-resources@0.0.3.jsii.tgz,sha256=WfJUqjwFzcgCD3M11vdrQkY_byFuBsuzMNozo_hLvBI,407626
+cdk8s_argocd_resources/k8s/__init__.py,sha256=54nudDvwJLLXh-Jb1eihBYkejZ5aVab52jzKDbmVQ_c,2105440
+cdk8s_argocd_resources-0.0.3.dist-info/LICENSE,sha256=3_qQCtMX9YFh9Wjrso30bhoKVMsr88hrBPEVIrngitU,11345
+cdk8s_argocd_resources-0.0.3.dist-info/METADATA,sha256=h0pnss-T33BSEpttP_KlGc7b_cN6Pi3STucQefaC93Q,4745
+cdk8s_argocd_resources-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdk8s_argocd_resources-0.0.3.dist-info/top_level.txt,sha256=wNB6pFHel9LYB34VUHULAZb1b_tZgv9M8HnqHFitx7w,23
+cdk8s_argocd_resources-0.0.3.dist-info/RECORD,,

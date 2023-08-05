@@ -1,0 +1,12 @@
+sxm/__init__.py,sha256=539HoaMaAZZ7jacaUfmSor_4czvhPzGckNFbKONzbQM,475
+sxm/__main__.py,sha256=Zb3LjWS4nEvEYGEC_fEwtUnwsBIrT6_h4iHmO5ch_Cs,265
+sxm/cli.py,sha256=2jo1WnNMxcRV3e60OSbxglOrKXq2sOO95rblzm7NOmg,2213
+sxm/client.py,sha256=TjekNrB6nQ5zdBcGBL7n6laEo3KK1l9PSOEhzEm0nZ8,26725
+sxm/http.py,sha256=6abRwS7Mv2Atc5QfglTeWdq-x1ZuH55hs4TEe3fFrlM,3755
+sxm/models.py,sha256=i1ovPN_Y6Ucc9n7FoHqLfuDQMjcVzgIqBoq-WHz6pYU,13885
+sxm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sxm-0.2.4.dist-info/entry_points.txt,sha256=t2721G5nt9ZnlB8GjsgDRL2xGNc11-3CaIrf_IobJgc,42
+sxm-0.2.4.dist-info/LICENSE,sha256=Donu2uc3fW02AYXaAio6AqfTcU7Py1MbKnnlhBeZhbo,1072
+sxm-0.2.4.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+sxm-0.2.4.dist-info/METADATA,sha256=izB0wu9HzvV1JyRGPLDE_whzkOwWCxbwrilYvBUZPuA,4518
+sxm-0.2.4.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: phcnb
+Version: 0.1.2
+Summary: UNKNOWN
+License: MIT
+Author-email: Anthony Roach <anthony.roach@lifeomic.com>
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click~=8.0
+Requires-Dist: papermill~=2.3
+Requires-Dist: phc~=0.22
+Requires-Dist: pyyaml~=5.4
+Project-URL: Repository, https://github.com/lifeomic/phc-notebook-tools
+Project-URL: homepage, https://github.com/lifeomic/phc-notebook-tools

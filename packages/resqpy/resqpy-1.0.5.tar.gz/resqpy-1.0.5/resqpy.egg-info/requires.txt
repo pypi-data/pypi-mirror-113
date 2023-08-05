@@ -1,0 +1,16 @@
+numpy
+pandas
+h5py
+lxml
+lasio
+
+[docs]
+sphinx
+sphinx_rtd_theme
+autoclasstoc
+
+[tests]
+pytest
+pytest-cov
+flake8
+yapf

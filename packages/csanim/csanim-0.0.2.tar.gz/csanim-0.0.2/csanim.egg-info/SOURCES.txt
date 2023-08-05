@@ -1,0 +1,14 @@
+setup.py
+csanim/__init__.py
+csanim/constants.py
+csanim/consts_gen.py
+csanim/lib.py
+csanim/scene.py
+csanim/transition.py
+csanim/utils.py
+csanim/video.py
+csanim.egg-info/PKG-INFO
+csanim.egg-info/SOURCES.txt
+csanim.egg-info/dependency_links.txt
+csanim.egg-info/requires.txt
+csanim.egg-info/top_level.txt

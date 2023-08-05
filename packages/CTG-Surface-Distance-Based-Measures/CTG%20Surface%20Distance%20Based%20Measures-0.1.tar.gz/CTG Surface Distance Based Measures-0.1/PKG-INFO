@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: CTG Surface Distance Based Measures
+Version: 0.1
+Summary: Library containing utilities to compute performance metrics for segmentation
+Home-page: https://github.com/capitaltg/surface-distance
+Author: DeepMind
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

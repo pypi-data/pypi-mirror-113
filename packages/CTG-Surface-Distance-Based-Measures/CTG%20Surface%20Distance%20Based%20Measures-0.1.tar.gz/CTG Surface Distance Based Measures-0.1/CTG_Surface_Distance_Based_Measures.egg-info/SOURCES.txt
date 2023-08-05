@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CTG_Surface_Distance_Based_Measures.egg-info/PKG-INFO
+CTG_Surface_Distance_Based_Measures.egg-info/SOURCES.txt
+CTG_Surface_Distance_Based_Measures.egg-info/dependency_links.txt
+CTG_Surface_Distance_Based_Measures.egg-info/requires.txt
+CTG_Surface_Distance_Based_Measures.egg-info/top_level.txt
+surface_distance/__init__.py
+surface_distance/lookup_tables.py
+surface_distance/metrics.py

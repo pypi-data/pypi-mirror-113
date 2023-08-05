@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scripts/calculate-tin.py
+scripts/merge-tin.py
+scripts/plot-tin.py
+tin_score_calculation.egg-info/PKG-INFO
+tin_score_calculation.egg-info/SOURCES.txt
+tin_score_calculation.egg-info/dependency_links.txt
+tin_score_calculation.egg-info/requires.txt
+tin_score_calculation.egg-info/top_level.txt

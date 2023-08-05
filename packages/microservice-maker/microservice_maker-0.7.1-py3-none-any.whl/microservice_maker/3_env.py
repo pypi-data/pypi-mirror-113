@@ -1,0 +1,9 @@
+POSTGRES_USER=[postgres_user]
+POSTGRES_PASSWORD=[postgres_password]
+POSTGRES_DB=[postgres_db]
+DB_NAME=[postgres_db]
+DB_USER=[postgres_user]
+DB_PASSWORD=[postgres_password]
+DB_HOST=db
+DB_PORT=[postgres_port]
+DEBUG=True

@@ -1,0 +1,9 @@
+django==2.1.7
+djangorestframework==3.9.2
+psycopg2-binary
+django-cors-headers==2.5.2
+pytz==2018.9
+flake8==3.9.2
+coverage==5.5
+pytest==6.2.4
+pytest-django==4.3.0

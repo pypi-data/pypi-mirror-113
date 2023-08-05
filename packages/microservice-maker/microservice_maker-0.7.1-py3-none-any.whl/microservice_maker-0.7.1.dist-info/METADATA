@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: microservice-maker
+Version: 0.7.1
+Summary: Lib to create python microservices with django and flask
+Home-page: https://gitlab.com/victorhdcoelho/make_django
+Author: Victor Coelho
+Author-email: victorhdcoelho@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: PySimpleGUI
+Requires-Dist: tqdm
+
+## Projeto micro serviço
+
+Projeto para criar micro serviços de forma mais otimizada. Para isso tem que
+ ter certeza que todas as dependências do da biblioteca PySide6 estejam cumpridas.
+
+[PySimpleGui](https://pypi.org/project/PySimpleGUI/)
+
+Tem que instalar na mão o fork do django responsável pela aplicação
+
+`pip install git+https://github.com/victorhdcoelho/django.git`
+
+Para utilizar a biblioteca basta baixar com pip:
+
+`pip install microservice-maker`
+
+Para rodar a biblioteca basta escrever
+
+`python3 -m make-microservice` ou
+
+`make-microservice`
+
+Siga o passo a passo e no final terá o que deseja
+
+

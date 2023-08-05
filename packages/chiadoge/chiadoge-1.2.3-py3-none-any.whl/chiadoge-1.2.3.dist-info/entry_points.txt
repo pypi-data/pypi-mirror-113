@@ -1,0 +1,11 @@
+[console_scripts]
+chiadoge = chiadoge.cmds.chiadoge:main
+chiadoge_farmer = chiadoge.server.start_farmer:main
+chiadoge_full_node = chiadoge.server.start_full_node:main
+chiadoge_full_node_simulator = chiadoge.simulator.start_simulator:main
+chiadoge_harvester = chiadoge.server.start_harvester:main
+chiadoge_introducer = chiadoge.server.start_introducer:main
+chiadoge_timelord = chiadoge.server.start_timelord:main
+chiadoge_timelord_launcher = chiadoge.timelord.timelord_launcher:main
+chiadoge_wallet = chiadoge.server.start_wallet:main
+

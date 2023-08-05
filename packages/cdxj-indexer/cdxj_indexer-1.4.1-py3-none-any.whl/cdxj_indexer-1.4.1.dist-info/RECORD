@@ -1,0 +1,11 @@
+cdxj_indexer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdxj_indexer/amf.py,sha256=g49dDEyTN_IFdZ7BCf2uFVRW9CTGO9WKUPH5fdDHNEM,2802
+cdxj_indexer/main.py,sha256=M_7TKMQXgcfqYbFnSbVzBpj-KTt3pnQOcmRGBPiXutw,18063
+cdxj_indexer/postquery.py,sha256=fiuRT2zLBDRx81U7DwY3YC6MGqfiFefpZS7jcpS34dM,4295
+cdxj_indexer-1.4.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+cdxj_indexer-1.4.1.dist-info/METADATA,sha256=9kFN97Vdr70vx2WoVpfV503FcsOsvrarGIXYbBt06Nk,3453
+cdxj_indexer-1.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdxj_indexer-1.4.1.dist-info/entry_points.txt,sha256=i3BP7au8UJcsZUPELizlS8QmnAEfbpet0YcjZYLNtI4,75
+cdxj_indexer-1.4.1.dist-info/top_level.txt,sha256=Jbwv4iLtr1mfJ0t5ItLHliRVTmh8P-F_y2C1BhvTLCg,13
+cdxj_indexer-1.4.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdxj_indexer-1.4.1.dist-info/RECORD,,

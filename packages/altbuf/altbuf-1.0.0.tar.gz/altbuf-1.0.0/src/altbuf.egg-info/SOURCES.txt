@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/altbuf/__init__.py
+src/altbuf/altbuf.py
+src/altbuf.egg-info/PKG-INFO
+src/altbuf.egg-info/SOURCES.txt
+src/altbuf.egg-info/dependency_links.txt
+src/altbuf.egg-info/top_level.txt

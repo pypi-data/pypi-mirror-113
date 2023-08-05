@@ -1,0 +1,7 @@
+include *.lock
+include .coveragerc
+include Pipfile
+include pytest.ini
+recursive-include src *.json
+recursive-include src *.txt
+recursive-include tests *.py

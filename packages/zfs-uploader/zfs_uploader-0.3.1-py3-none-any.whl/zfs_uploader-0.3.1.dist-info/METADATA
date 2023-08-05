@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: zfs-uploader
+Version: 0.3.1
+Summary: ZFS snapshot to S3 uploader.
+Home-page: https://github.com/ddebeau/zfs_uploader
+Author: David Debeau
+Author-email: ddebeau@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ddebeau/zfs_uploader/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: apscheduler (>=3.6.3)
+Requires-Dist: boto3 (>=1.16.20)
+Requires-Dist: click (>=7.0)
+
+# zfs_uploader
+Work in progress. Use at your own risk!
+
+## Release Instructions
+1. Increment version in `__init__.py` file
+2. Update `CHANGELOG.md` with new version
+3. Tag release in GitHub when ready. Add changelog items to release 
+   description. GitHub Action workflow will automatically build and push 
+   the release to PyPi.
+
+

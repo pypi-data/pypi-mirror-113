@@ -1,0 +1,12 @@
+LICENSE,sha256=I_S5ZEshM2pZZI37oln5N9LBkJFi4yuLam4rsNIU4e8,1062
+nino/__init__.py,sha256=h0l4zOgpQ4OjycEPkdeGGfdE2OMNeSkiKJktzrDuEts,123
+nino/client.py,sha256=HjAzSIfAKt0eO5yXCIvB0CG3Lal64w01oRsrgSOhkKI,3783
+nino/http.py,sha256=kbVVgqgaRFZ6YGZuLvZYZZgcyGdTGUC0FvAPsxLY_SY,3739
+nino/models.py,sha256=BlOcpQrqWClQ_fD8u11BuR9NVQ7fFQav_XqzZcTJZ64,11319
+nino/paginator.py,sha256=0nRucbER3YD41y2uOwpZeHDQ3o4G67ONk-A5EXbD06E,5079
+nino/query.py,sha256=hG3TU_UpwT1M5oxC5fQCytR9JeJplqzyMfypxmuUlpI,4219
+nino/ratelimiter.py,sha256=AODw8AuFKTs5erV_rBG4dyyvndhxP4KVHTEeGiQLajI,977
+nino-0.2.0.dist-info/LICENSE,sha256=I_S5ZEshM2pZZI37oln5N9LBkJFi4yuLam4rsNIU4e8,1062
+nino-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nino-0.2.0.dist-info/METADATA,sha256=sgbK62RgdbAbHErJmS2II6Jwpf0k7rfGdUUpDQFL5eo,1024
+nino-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aimrocks
+Version: 0.0.1
+Summary: RocksDB wrapper implemented in Cython.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: pandas (>=1.3.0)
+Requires-Dist: Cython (>=0.20)
+
+UNKNOWN
+
+

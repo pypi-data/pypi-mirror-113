@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "fretraj"
+version = "0.2.3"
+description = "Predicting FRET with accessible-contact volumes"
+authors = [
+    "Fabio Steffen <fabio.steffen@chem.uzh.ch>", 
+    "Roland K.O. Sigel <roland.sigel@chem.uzh.ch>", 
+    "Richard Börner <richard.boerner@hs-mittweida.de>"]
+maintainers = ["Fabio Steffen <fabio.steffen@chem.uzh.ch>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://rna-fretools.github.io/"
+repository = "https://github.com/RNA-FRETools/fretraj"
+documentation = "https://rna-fretools.github.io/fretraj/"
+keywords = ["FRET", "single-molecule", "molecular dynamics", "PDB", "structure prediction"]
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Framework :: Jupyter",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+include = [{path = "src/fretraj/*.py", format=["wheel", "sdist"]},
+           {path = "src/fretraj/*.json", format=["wheel", "sdist"]},
+           {path = "src/fretraj/skripts", format=["wheel", "sdist"]},
+           {path = "src/fretraj/examples", format=["wheel", "sdist"]},
+           {path = "src/fretraj/UI", format=["wheel", "sdist"]},
+           {path = "tests", format=["wheel", "sdist"]},
+           {path = "CHANGELOG.md", format=["wheel", "sdist"]},
+           {path = "src/fretraj/*.cpp", format=["sdist"]},
+           {path = "src/fretraj/*.so", format="wheel"},
+           {path = "src/fretraj/*.pyd", format="wheel"}
+           ]
+
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.10"
+numpy = [
+    {version = "^1.21.0", python = ">=3.7"},
+    {version = "<=1.19.5", python = "<=3.7"}
+]
+pandas = [
+    {version = "^1.3.0", python = ">=3.7.1"},
+    {version = "<=0.25.3", python = "<=3.7.1"}
+] 
+numba = "^0.53.1"
+importlib-metadata = "^4.6.1"
+mdtraj = "^1.9.6"
+PyQt5 = "^5.12.3"
+tqdm = "^4.59.0"
+jsonschema = "^3.2.0"
+nglview = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+pybind11 = "^2.6.2"
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+pytest-mock = "^3.6.1"
+jupyter-book = "^0.11.2"
+matplotlib = [
+    {version = "^3.4.2", python = ">=3.7"},
+    {version = "<=3.2.2", python = "<=3.7"}
+] 
+seaborn = "^0.11.1"
+
+
+[tool.poetry.scripts]
+fretraj = "fretraj.cloud:main"
+fretraj_gui = "fretraj.fretraj_gui:main"
+pymol_vis = "fretraj.console:pymol_vis"
+vmd_vis = "fretraj.console:vmd_vis"
+
+
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0a9", "pybind11>=2.6.2"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120

@@ -1,0 +1,6 @@
+baiduscraper.py
+setup.py
+jcproj_baiduscraper.egg-info/PKG-INFO
+jcproj_baiduscraper.egg-info/SOURCES.txt
+jcproj_baiduscraper.egg-info/dependency_links.txt
+jcproj_baiduscraper.egg-info/top_level.txt

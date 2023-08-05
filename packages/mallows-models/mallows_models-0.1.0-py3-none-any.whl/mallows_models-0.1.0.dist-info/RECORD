@@ -1,0 +1,10 @@
+mallows_models/__init__.py,sha256=ajz1GSNU9xYVrFEDSz6Xwg7amWQ_yvW75tQa1ZvRIWc,3
+mallows_models/mallows_hamming.py,sha256=mEm8iwidN6z91B01lQaJTR105stuPISjdnhhjJuLLc0,6431
+mallows_models/mallows_kendall.py,sha256=BMI79FMHK74yzzmqImFFBExLV6iBoJd6yIkG4j6aV2k,27948
+mallows_models/mallows_model.py,sha256=6srN_fIAdxjG8wvCs_49lmusyVChJLE9kitj3Q6aY2I,1686
+mallows_models/permutil.py,sha256=SaJwT6GsQpZPad6C-Ed_kRkefrNqOhq5-0rGBjESrAo,5274
+mallows_models-0.1.0.dist-info/LICENSE,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+mallows_models-0.1.0.dist-info/METADATA,sha256=K7oMEX6GXeJsfEWwu6xscPR64oThs6UC1th0Uqm2WHM,988
+mallows_models-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mallows_models-0.1.0.dist-info/top_level.txt,sha256=9-bAp8TNmGEm11Cj1FdaobHzPNOMh-5I-H_6XFlIBjs,15
+mallows_models-0.1.0.dist-info/RECORD,,

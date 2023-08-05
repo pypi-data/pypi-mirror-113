@@ -1,0 +1,145 @@
+{# -*- coding: utf-8 -*-
+
+Copyright (C) 2019 - 2021 CERN.
+Copyright (C) 2019 - 2021 Northwestern University.
+Copyright (C) 2020 - 2021 TU Wien.
+
+Invenio is free software; you can redistribute it and/or modify it
+under the terms of the MIT License; see LICENSE file for more details.
+#}
+{%- extends config.BASE_TEMPLATE %}
+
+{%- block body %}
+    {%- block page_header %}
+    {% include config.THEME_HEADER_TEMPLATE %}
+    {%- endblock %}
+    {%- block body_inner %}
+        {%- block page_body %}
+        <div id="sidebar">
+            {%- if config.ACCOUNTS %}
+            <a href="{{ url_for_security('login', next=request.path) }}" class="login-btn">
+            <span><i class="user icon"></i> Anmelden</span>
+            </a>
+            {%- else %}
+            <a href=" {{ url_for_security('logout') }}" class="login-btn">
+            <span><i class="sign out icon"></i> Abmelden</span>
+            </a>
+            {%- endif %}
+            {%- for item in current_menu.submenu('main').children|sort(attribute='order') if item.visible recursive %}
+            <a href="{{ item.url }}" class="sidebar item">{{ item.text|safe }}</a>
+            {%- endfor %}
+
+            {%- if not config.ACCOUNTS %}
+            {%- for item in current_menu.submenu('settings').children if item.visible %}
+                <a href="{{ item.url }}" class="sidebar item">{{ item.text|safe }}</a>
+            {%- endfor %}
+            {%- endif %}
+        </div>
+        <div id="sitewrapper">
+        <section id="hero" style="flex-shrink: 0;">
+            <form>
+                <div id="searchbar" class="ui action input">
+                    <input class="huge" type="text" placeholder="Type and press enter to search...">
+                    <button class="ui icon button huge">
+                        <i class="search icon"></i>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section id="welcome" class="ui container">
+
+            <h1>Welcome to TU Data</h1>
+            <p>
+                TU Data is an institutional repository of TU Wien to enable storing, sharing and publishing of digital objects, in particular research data. It facilitates the funders' requirements for open access to research data and the FAIR principles by making research
+                output findable, accessible, interoperable and re-usable. This service is developed by the <strong>TU
+                    Wien
+                    Center for Research Data Management</strong> and hosted by <strong>TU.it</strong>.
+            </p>
+            <p>
+                Please note that this service is still under development and has limited functionality. We will add more functionality as development progresses.
+            </p>
+
+        </section>
+
+        <section id="features" class="ui container">
+
+            <a href="{{ url_for('invenio_search_ui.search') }}">
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="static/images/upload-file.png">
+                </div>
+                <div class="feature-text">
+                    <a>Publish research outputs openly. A landing page provides information on your digital objects,
+                        download links, license and persistent identifier.</a>
+                </div>
+            </div>
+            </a>
+
+            <a href="{{ url_for('invenio_app_rdm_records.deposit_create') }}">
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="static/images/magnifying-glass.png">
+                </div>
+                <div class="feature-text">
+                    <a>Search datasets published by other users.</a>
+                </div>
+            </div>
+            </a>
+
+            <a href="mailto:tudata@tuwien.ac.at?subject=About TU Data...">
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="static/images/rating.png">
+                </div>
+                <div class="feature-text">
+                    <a>Restrict access and share data by link, e.g. for peer-review of data underling publications.</a>
+                </div>
+            </div>
+            </a>
+
+            <a href="mailto:tudata@tuwien.ac.at?subject=About TU Data...">
+            <div class="feature">
+                <div class="feature-icon">
+                    <img src="static/images/reuse.png">
+                </div>
+                <div class="feature-text">
+                    <a>Deposit your data to make it FAIR. The process can be automated with a use of APIs provided by
+                        the TU
+                        Data.</a>
+                </div>
+            </div>
+            </a>
+        </section>
+
+        <div id="sitemap-wrapper">
+            <section id="sitemap" class="ui container">
+                <div class="sitemap-menu">
+                    <h3>TU Wien</h3>
+                    <ul>
+                        <li><a href="#">Center for Research Data Management</a></li>
+                        <li><a href="#">Policy for Research Data Management</a></li>
+                    </ul>
+                </div>
+                <div class="sitemap-menu">
+                    <h3>FAIR Data Austria</h3>
+                    <ul>
+                        <li><a href="#">FAIR Data Austria</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        {%- endblock page_body %}
+        {%- block page_footer %}
+            {% include config.THEME_FOOTER_TEMPLATE %}
+        {%- endblock page_footer %}
+    {%- endblock body_inner %}
+    {%- block javascript %}
+    {{ super() }}
+    {{ webpack["invenio-theme-tuw-planned-features.js"] }}
+    {{ webpack["invenio-theme-tuw-mobilemenu.js"] }}
+    {%- endblock javascript %}
+    {%- block trackingcode %}{% include config.THEME_TRACKINGCODE_TEMPLATE %}
+    {%- endblock %}
+    </div>
+{%- endblock body %}

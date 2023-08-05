@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+genea.egg-info/PKG-INFO
+genea.egg-info/SOURCES.txt
+genea.egg-info/dependency_links.txt
+genea.egg-info/requires.txt
+genea.egg-info/top_level.txt

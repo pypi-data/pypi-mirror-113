@@ -1,0 +1,13 @@
+fast_pony_crud/__init__.py,sha256=_zLAmS8bMw4PCmotprvteDp4laAgaLqDFiQArigbX6o,197
+fast_pony_crud/api_delete.py,sha256=ISbF1cLaPL3xpQCJ5PQxPAf9yjwRPu1VBFl93qK6R3w,486
+fast_pony_crud/api_get.py,sha256=Ev9GJdTL8tpWUg79Bi9lkw7qVg1_e1atkiFWGAGL9Hk,1521
+fast_pony_crud/api_model.py,sha256=6g89XwV8fyfpESrcN7AoYNM_BXc4V7sjg6wHqxEYGNY,2628
+fast_pony_crud/api_post.py,sha256=O4VM6NaP9xrizR_jVDmE-DI27TNrs8a7-eCtmboal-A,777
+fast_pony_crud/api_put.py,sha256=Iq2FmLYm8D6xpO8QzI4BlkNM1by9KU1Ofju6FYbdzi4,857
+fast_pony_crud/security.py,sha256=nBaCyRf5ZK6GE_lf99Co5Tx9sj7ATzE1PF4nEvGQv8Y,541
+fast_pony_crud/table_crud.py,sha256=xld2W49cB-PNdxOL0_t1fhVLRlTh2A1PHoxud01ADw8,3640
+fast_pony_crud-0.0.8.dist-info/LICENCE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+fast_pony_crud-0.0.8.dist-info/METADATA,sha256=drtCSb8wLlnzJRuLBoOBWhd8bZAlNWCUhQsrMDX6YNU,2804
+fast_pony_crud-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fast_pony_crud-0.0.8.dist-info/top_level.txt,sha256=eImU7NnXAKUwv5BwThpKbE278IYTYXiLhKylt4OVpss,15
+fast_pony_crud-0.0.8.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pytorchfi/pytorchfi.egg-info/PKG-INFO
+pytorchfi/pytorchfi.egg-info/SOURCES.txt
+pytorchfi/pytorchfi.egg-info/dependency_links.txt
+pytorchfi/pytorchfi.egg-info/top_level.txt

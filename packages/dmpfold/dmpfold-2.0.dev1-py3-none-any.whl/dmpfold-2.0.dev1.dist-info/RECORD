@@ -1,0 +1,11 @@
+dmpfold/__init__.py,sha256=ZY7ksyKhzvotWsOm0J5pCbAlO04G4UsnjAIgBUFgAfI,48
+dmpfold/network.py,sha256=l76m5Tdruz4fJZl4Z-wF1Vp5CtVJvxKfoU7lk6SjB1E,11376
+dmpfold/predict.py,sha256=_z66jhrfeW_rJt-5T-5fpS9fDezt_fPeOMHxq6lYdFY,7810
+dmpfold/example/3FGX.pdb,sha256=_tkwdKajgiv0FVp1GqjwA286uV_E5QljS9xy5glzlAo,159165
+dmpfold/example/PF10963.aln,sha256=XXN7D-RKk727y2ym6uBLKaGSpM8twoHLed4kScMCfWg,20916
+dmpfold-2.0.dev1.data/scripts/dmpfold,sha256=4OmyJuVvJw-QS77r9Gdq0aY7ojtdBO1DleAPLY3aCOk,57
+dmpfold-2.0.dev1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dmpfold-2.0.dev1.dist-info/METADATA,sha256=xBt02ldDgNdVfsnajTBpbOM1Oxo60w4DLT64Q4Uv27M,4090
+dmpfold-2.0.dev1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dmpfold-2.0.dev1.dist-info/top_level.txt,sha256=4s6Gd-pJmhxFKTw8SPsa8GggNDvJmH2YefM9U6Pt4q8,8
+dmpfold-2.0.dev1.dist-info/RECORD,,

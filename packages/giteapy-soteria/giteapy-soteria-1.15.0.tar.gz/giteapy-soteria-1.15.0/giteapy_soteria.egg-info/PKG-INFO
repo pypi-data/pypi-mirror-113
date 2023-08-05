@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: giteapy-soteria
+Version: 1.15.0
+Summary: Gitea API.
+Home-page: UNKNOWN
+Author-email: 
+License: UNKNOWN
+Keywords: Swagger,Gitea API.
+Platform: UNKNOWN
+
+    This documentation describes the Gitea API.  # noqa: E501
+    
+

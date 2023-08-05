@@ -1,0 +1,17 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+pyilt2report.1
+requirements.txt
+setup.py
+pyilt2/__init__.py
+pyilt2/proplist.py
+pyilt2/report.py
+pyilt2/version.py
+pyilt22.egg-info/PKG-INFO
+pyilt22.egg-info/SOURCES.txt
+pyilt22.egg-info/dependency_links.txt
+pyilt22.egg-info/entry_points.txt
+pyilt22.egg-info/requires.txt
+pyilt22.egg-info/top_level.txt

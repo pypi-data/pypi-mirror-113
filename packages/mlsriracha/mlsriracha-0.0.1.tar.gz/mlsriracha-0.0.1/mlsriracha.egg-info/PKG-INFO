@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mlsriracha
+Version: 0.0.1
+Summary: A project to abstract the boilerplate required to deploy jobs in MLOps systems
+Home-page: https://github.com/awcchungster/mlsriracha
+Author: Alex Chung
+Author-email: alex@socialg.tech
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

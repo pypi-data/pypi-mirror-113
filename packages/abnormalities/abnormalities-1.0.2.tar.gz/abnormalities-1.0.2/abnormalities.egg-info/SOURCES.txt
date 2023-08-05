@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+abnormalities/__init__.py
+abnormalities.egg-info/PKG-INFO
+abnormalities.egg-info/SOURCES.txt
+abnormalities.egg-info/dependency_links.txt
+abnormalities.egg-info/top_level.txt

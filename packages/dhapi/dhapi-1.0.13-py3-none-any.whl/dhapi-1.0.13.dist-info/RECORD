@@ -1,0 +1,11 @@
+dhapi/__init__.py,sha256=Q4yDbVC1LDdIS4mwTu-ZPqatX8K-dEUu_gsVwg_AUG0,77
+dhapi/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhapi/lib/auth.py,sha256=NzjYZ5Vm1TtPwfQvdrpMQsIgvcfTPbcYZr8DNAWe97w,3677
+dhapi/lib/controller.py,sha256=t2jj7bhLYeYhCjBTeU-WhuUp9hH73_Binhg2C_Sb6_M,1563
+dhapi/lib/lotto645.py,sha256=MywqkwwPjqq_ddhQUXXJwIftxy7rqK7UhlRVj4KEdRI,5026
+dhapi-1.0.13.dist-info/LICENSE.txt,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dhapi-1.0.13.dist-info/METADATA,sha256=wT_dNYGbjdgBCA8GJ00AEXUXUiRTy-86Q_8d2sUW4V8,3033
+dhapi-1.0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dhapi-1.0.13.dist-info/entry_points.txt,sha256=9oa-mc-og2Jn29sCeVCFZlalwpuHk2dLNp0O2jxfSR0,38
+dhapi-1.0.13.dist-info/top_level.txt,sha256=SZSoKLPVEmWVbWoFfjzYR_Eq-VLTSbg7mSYGjzInW9U,6
+dhapi-1.0.13.dist-info/RECORD,,

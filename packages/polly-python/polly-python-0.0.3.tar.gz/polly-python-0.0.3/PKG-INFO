@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: polly-python
+Version: 0.0.3
+Summary: Polly SDK
+Home-page: https://github.com/ElucidataInc/polly-python
+License: UNKNOWN
+Download-URL: https://github.com/ElucidataInc/PublicAssets/raw/master/builds/polly_python-0.0.3-py3-none-any.whl
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# How to setup 
+
+## From requirements.txt
+
+1. ` python -m venv venv `
+2. ` source venv/bin/activate `
+3. ` pip install -r requirements.txt `
+4.  
+    - ` PYTHONPATH="." python examples/<EXAMPLE-FILE>.py ` OR 
+    - ` export PYTHONPATH="."; python examples/<EXAMPLE-FILE>.py `
+
+## Using Wheel 
+
+1. `python -m venv venv` 
+2. `source venv/bin/activate` 
+3. `pip install <path-to-wheel>`
+4. `python examples/<EXAMPLE-FILE>.py `
+

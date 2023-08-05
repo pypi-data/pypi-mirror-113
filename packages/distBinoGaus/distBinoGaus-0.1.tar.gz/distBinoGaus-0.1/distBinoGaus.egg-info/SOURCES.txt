@@ -1,0 +1,13 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+distBinoGaus/Binomialdistribution.py
+distBinoGaus/Gaussiandistribution.py
+distBinoGaus/Generaldistribution.py
+distBinoGaus/__init__.py
+distBinoGaus.egg-info/PKG-INFO
+distBinoGaus.egg-info/SOURCES.txt
+distBinoGaus.egg-info/dependency_links.txt
+distBinoGaus.egg-info/not-zip-safe
+distBinoGaus.egg-info/top_level.txt

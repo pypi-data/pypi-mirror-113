@@ -1,0 +1,6 @@
+setup.py
+webcrawl_pack.py
+crawl_web_page_script.egg-info/PKG-INFO
+crawl_web_page_script.egg-info/SOURCES.txt
+crawl_web_page_script.egg-info/dependency_links.txt
+crawl_web_page_script.egg-info/top_level.txt

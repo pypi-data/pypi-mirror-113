@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: invenio-saml
+Version: 1.0.0a1
+Summary: Invenio module that provides SAML integration.
+Home-page: https://github.com/inveniosoftware/invenio-saml
+Author: Esteban J. Garcia Gabancho
+Author-email: info@inveniosoftware.org
+License: MIT
+Keywords: invenio SSO SAML
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 3 - Alpha
+Requires-Dist: flask-sso-saml (>=0.1.0)
+Requires-Dist: invenio-accounts (>=1.4.5)
+Requires-Dist: uritools (>=2.2.0)
+Provides-Extra: all
+Requires-Dist: Sphinx (<3.4,>=3.3.1) ; extra == 'all'
+Requires-Dist: invenio-app (>=1.3.0) ; extra == 'all'
+Requires-Dist: invenio-mail (>=1.0.0) ; extra == 'all'
+Requires-Dist: invenio-userprofiles (>=1.0.0) ; extra == 'all'
+Requires-Dist: mock (>=2.0.0) ; extra == 'all'
+Requires-Dist: redis (>=2.10.5) ; extra == 'all'
+Requires-Dist: pytest-invenio (>=1.4.0) ; extra == 'all'
+Requires-Dist: invenio-oauthclient (>=1.5.1) ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: Sphinx (<3.4,>=3.3.1) ; extra == 'docs'
+Provides-Extra: mysql
+Requires-Dist: invenio-db[mysql] (>=1.0.9) ; extra == 'mysql'
+Provides-Extra: postgresql
+Requires-Dist: invenio-db[postgresql] (>=1.0.9) ; extra == 'postgresql'
+Provides-Extra: sqlite
+Requires-Dist: invenio-db (>=1.0.9) ; extra == 'sqlite'
+Provides-Extra: tests
+Requires-Dist: invenio-app (>=1.3.0) ; extra == 'tests'
+Requires-Dist: invenio-mail (>=1.0.0) ; extra == 'tests'
+Requires-Dist: invenio-userprofiles (>=1.0.0) ; extra == 'tests'
+Requires-Dist: mock (>=2.0.0) ; extra == 'tests'
+Requires-Dist: redis (>=2.10.5) ; extra == 'tests'
+Requires-Dist: pytest-invenio (>=1.4.0) ; extra == 'tests'
+Requires-Dist: invenio-oauthclient (>=1.5.1) ; extra == 'tests'
+
+..
+    Copyright (C) 2019 Esteban J. Garcia Gabancho.
+
+    Invenio-SAML is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
+
+==============
+ Invenio-SAML
+==============
+
+.. image:: https://github.com/inveniosoftware/invenio-saml/workflows/CI/badge.svg
+        :target: https://github.com/inveniosoftware/invenio-saml/actions?query=workflow%3ACI
+
+.. image:: https://img.shields.io/coveralls/inveniosoftware/invenio-saml.svg
+        :target: https://coveralls.io/r/inveniosoftware/invenio-saml
+
+.. image:: https://img.shields.io/github/tag/inveniosoftware/invenio-saml.svg
+        :target: https://github.com/inveniosoftware/invenio-saml/releases
+
+.. image:: https://img.shields.io/pypi/dm/invenio-saml.svg
+        :target: https://pypi.python.org/pypi/invenio-saml
+
+.. image:: https://img.shields.io/github/license/inveniosoftware/invenio-saml.svg
+        :target: https://github.com/inveniosoftware/invenio-saml/blob/master/LICENSE
+
+Invenio module that provides SAML integration.
+
+TODO: Please provide feature overview of module
+
+Further documentation is available on
+https://invenio-saml.readthedocs.io/
+
+
+..
+    Copyright (C) 2021 CERN.
+    Copyright (C) 2019 Esteban J. Garcia Gabancho.
+
+    Invenio-SAML is free software; you can redistribute it and/or modify it
+    under the terms of the MIT License; see LICENSE file for more details.
+
+Changes
+=======
+
+Version 1.0.0a1 (released 2021-07-15)
+
+- Marking strings for translation
+- Adds german translation
+
+Version 1.0.0a0 (released 2021-05-27)
+
+- Module refactoring.
+
+Version 0.1.0 (released TBD)
+
+- Initial public release.
+
+

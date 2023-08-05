@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sval/__init__.py
+sval/hand_representation.py
+sval/hand_strengths.py
+sval/lookup7card.dat.gz
+sval/tests.py
+sval.egg-info/PKG-INFO
+sval.egg-info/SOURCES.txt
+sval.egg-info/dependency_links.txt
+sval.egg-info/requires.txt
+sval.egg-info/top_level.txt

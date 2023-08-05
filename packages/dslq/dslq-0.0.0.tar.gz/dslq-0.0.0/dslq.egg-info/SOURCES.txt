@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+dslq/__init__.py
+dslq.egg-info/PKG-INFO
+dslq.egg-info/SOURCES.txt
+dslq.egg-info/dependency_links.txt
+dslq.egg-info/not-zip-safe
+dslq.egg-info/top_level.txt

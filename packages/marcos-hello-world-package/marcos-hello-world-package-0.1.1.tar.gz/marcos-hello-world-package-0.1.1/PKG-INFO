@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: marcos-hello-world-package
+Version: 0.1.1
+Summary: Package to publish to PyPI that says 'Hello World'.
+Author: Marco Gancitano
+Author-email: marco.gancitano97@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Marco's Hello World Package
+
+Package to publish to PyPI that says 'Hello World'.

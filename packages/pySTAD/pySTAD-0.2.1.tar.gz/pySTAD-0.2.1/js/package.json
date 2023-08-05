@@ -1,0 +1,91 @@
+{
+  "name": "jupyter_stad",
+  "version": "0.2.0",
+  "description": "A Jupyter widget for interactive network visualization",
+  "author": {
+    "name": "Jelmer Bot",
+    "email": "jelmer.bot+gitlab@uhasselt.be"
+  },
+  "homepage": "https://gitlab.com/dsi_uhasselt/vda-lab/pystad2",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/dsi_uhasselt/vda-lab/pystad2.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/dsi_uhasselt/vda-lab/pystad2/-/issues"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "widgets",
+    "pySTAD"
+  ],
+  "main": "lib/plugin.js",
+  "types": "lib/plugin.d.ts",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "clean": "npm run clean:lib && npm run clean:labextension",
+    "clean:lib": "rimraf lib/",
+    "clean:labextension": "rimraf ../stad/widget/labextension",
+    "build": "webpack --mode=production && jupyter labextension build .",
+    "build:dev": "webpack --mode=development && jupyter labextension build --development True .",
+    "watch": "webpack --watch --mode=development",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx,svelte} && prettier --check src",
+    "lint:fix": "eslint src/**/*.{js,jsx,ts,tsx,svelte} --fix && prettier --write src"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "@phosphor/application": "^1.6.0",
+    "@phosphor/widgets": "^1.6.0",
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/node": "^15.3.1",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.4.0",
+    "eslint-plugin-svelte3": "^3.0.0",
+    "prettier": "^2.3.0",
+    "prettier-plugin-svelte": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "source-map-loader": "^2.0.2",
+    "style-loader": "^2.0.0",
+    "svelte": "^3.0.0",
+    "svelte-loader": "^3.1.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^4.2.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5",
+    "worker-loader": "^3.0.5"
+  },
+  "dependencies": {
+    "@bulatdashiev/svelte-slider": "^1.0.3",
+    "@jupyter-widgets/base": "^3 || ^4",
+    "d3-array": "^2.11.0",
+    "d3-axis": "^2.0.0",
+    "d3-color": "^2.0.0",
+    "d3-force": "^2.1.1",
+    "d3-scale": "^3.2.3",
+    "d3-scale-chromatic": "^2.0.0",
+    "d3-selection": "^2.0.0",
+    "lodash": "^4.17.4",
+    "pixi-viewport": "^4.13.2",
+    "pixi.js": "^6.0.4",
+    "robust-point-in-polygon": "^1.0.3"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "../stad/widget/labextension",
+    "sharedPackages": {
+      "@jupyter-widgets/base": {
+        "bundled": false,
+        "singleton": true
+      }
+    }
+  }
+}

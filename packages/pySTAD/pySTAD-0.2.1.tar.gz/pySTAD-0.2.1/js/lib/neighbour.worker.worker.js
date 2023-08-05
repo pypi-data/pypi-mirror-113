@@ -1,0 +1,1 @@
+(()=>{function e(e,s,o){e.has(s)?e.get(s).push(o):e.set(s,[o])}self.onmessage=s=>{const o=s.data.edges,t=new Map;console.log("compute neighbours"),o.forEach((s=>{e(t,s.source,s.target),e(t,s.target,s.source)})),self.postMessage({neighbours:t})}})();

@@ -1,0 +1,23 @@
+graft stad/widget/labextension
+
+graft assets
+graft js
+graft tests
+prune **/node_modules
+
+global-include *.pyx
+global-include *.pxi
+include LICENSE
+include setup.py
+include setup.cfg
+include pyproject.toml
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyd
+global-exclude *.so
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints
+global-exclude *.map

@@ -1,0 +1,8 @@
+node_modules
+dist
+lib
+coverage
+**/*.d.ts
+tests
+.eslintrc.js
+webpack.config.js

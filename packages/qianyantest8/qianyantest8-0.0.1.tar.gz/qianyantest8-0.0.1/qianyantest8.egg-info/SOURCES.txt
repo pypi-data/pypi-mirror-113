@@ -1,0 +1,11 @@
+setup.py
+qianyan/__init__.py
+qianyan/dataset.py
+qianyan/evaluate.py
+qianyan/evaluate_dureader_robust.py
+qianyan/evaluate_dureader_yesno.py
+qianyan/evaluation_config.py
+qianyantest8.egg-info/PKG-INFO
+qianyantest8.egg-info/SOURCES.txt
+qianyantest8.egg-info/dependency_links.txt
+qianyantest8.egg-info/top_level.txt

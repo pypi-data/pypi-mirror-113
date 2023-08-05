@@ -1,0 +1,15 @@
+fast_scores/__init__.py,sha256=Ewf-wtpTYOkN0zyaXqCDtGfy-_JsekKXn6E3z_qJOCw,104
+fast_scores/cos_matrix2.py,sha256=BtwIU7PQ-B9Z3A98JgAHtMh_fXt87Xe4B3kAxxUHg5E,1420
+fast_scores/en2zh.py,sha256=wSxpGV6_0m6yoH4m86Mz-7rlMxIqopU_dn170IzojGA,684
+fast_scores/fast_scores.py,sha256=N4lNobC6eIMbM5gU3So4CbDAhpEBSfDVEpBca1Km088,1691
+fast_scores/gen_model.py,sha256=-2aPOmDZOOoK4G7pqoHJTTz0ynYTjU2mR6lXiCC79D0,950
+fast_scores/insert_spaces.py,sha256=A4IbiPpr61vGVgOaqzYicCIqybpMG5KCu1IavfClK4E,399
+fast_scores/msbing_c_e.msgpk,sha256=1MtC_ijAYc91dDX4CVKCpl2KRMTjMDitrMM1_nqUhyg,3997853
+fast_scores/process_en.py,sha256=xySAJ5Oa2y7KSj81Cz8muF_tprdnOjR3Ep_VMM3Gqic,1773
+fast_scores/process_zh.py,sha256=Y4775qG853xHI29hGXJardkxuVjg5CpWkn4fm0La8A8,1211
+fast_scores/split_chinese.py,sha256=DVdGf41WpiuWdtvjmxXtDnTMTDnBmx-lB4RMOHf8syQ,573
+fast_scores/tk_plot.py,sha256=5otC8eFj4qTHYWSpZ1as3E2cnhm1MhWFeGvVBAJskPE,2092
+fast_scores/word_tr.py,sha256=Gvx5KMSFVOsPcWIO0XBUmq_0XbTRtBzgWs2UCG9sDNs,719
+fast_scores-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+fast_scores-0.1.0.dist-info/METADATA,sha256=pm9XBTlSTvDOqGF2ewgxQpSbgmMuxI1tvpEDUjYAONo,1407
+fast_scores-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,55 @@
+# Handy Dandy
+*A collection of handy programs for your python project.*
+
+
+### Output validator
+Handy dandy's validate decorator can make sure that 
+functions return the type that you want them to. 
+
+```py
+from handy_dandy import validator as val
+
+@val.string # expecting function to return string
+def foo(x):
+	return x
+
+y = foo(5)
+```
+
+
+## Timer
+Records how long a function takes to run.
+```py
+from handy_dandy import timer
+
+@timer
+def foo():
+	pass
+```
+
+## System
+system function. Returns the computer's os (win32, win64, mac, linux).
+
+## Recorder
+Records the amount of times it has been ran. This can be helpful when you want to see how many times multiple functions have been ran durring the program.
+
+```py
+>>> from handy_dandy import Recorder
+>>> x = Recorder('f', 's')
+>>> x.click('f')
+1
+>>> x.clicks()
+{'f': 1, 's': 0}
+>>> x.click()
+>>> x.clicks()
+{'f': 2, 's': 1}
+```
+
+## Design
+I made a bunch of text design programs for this package, inspired by [this](https://replit.com/talk/learn/Enhancing-Python-projects/142183). They're really self-explanitory, so i'll just give a list of the function names:
+- scroll_clear()
+- underline(text, color='white')
+- bold(text, color='white')
+- italic(text, color='white)
+- color(text, color)
+- ascii(text)

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: onecache
+Version: 0.0.2
+Summary: Python cache for sync and async code
+Home-page: UNKNOWN
+Author: Johanderson Mogollon
+Author-email: johander1822@gmail.com
+License: MIT
+Description: [![Build Status](https://travis-ci.org/sonic182/onecache.svg?branch=master)](https://travis-ci.org/sonic182/onecache)
+        [![Coverage Status](https://coveralls.io/repos/github/sonic182/onecache/badge.svg?branch=master)](https://coveralls.io/github/sonic182/onecache?branch=master)
+        ![github status](https://github.com/sonic182/onecache/actions/workflows/python.yml/badge.svg)
+        # onecache
+        
+        Python cache for sync and async code
+        
+        # Development
+        
+        Install packages with pip-tools:
+        ```bash
+        pip install pip-tools
+        pip-compile
+        pip-compile dev-requirements.in
+        pip-sync requirements.txt dev-requirements.txt
+        ```
+        
+        # Contribute
+        
+        1. Fork
+        2. create a branch `feature/your_feature`
+        3. commit - push - pull request
+        
+        Thanks :)
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Provides-Extra: test

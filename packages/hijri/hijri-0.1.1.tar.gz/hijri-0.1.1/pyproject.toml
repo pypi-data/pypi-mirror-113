@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "hijri"
+author = "Rayan Alkhelaiwi"
+author-email = "rayan@hey.com"
+home-page = "https://rayan.dev"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README_pypi.md"
+

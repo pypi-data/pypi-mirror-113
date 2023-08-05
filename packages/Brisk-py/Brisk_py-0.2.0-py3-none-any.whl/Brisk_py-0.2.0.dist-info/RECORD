@@ -1,0 +1,11 @@
+brisk/Request.py,sha256=QDBV8c8JcUDjaT-w1MnWA8m5d0JEVemGq5SuHeWpFyA,1802
+brisk/Response.py,sha256=A9e-SuxgoJV9ZE_772LMlIMpUdsarfzkn6I17SXccek,58
+brisk/__init__.py,sha256=ytAhyzbQx19vpzxAdHs5JPSvo3083HvGoEdghAB5QN4,56
+brisk/main.py,sha256=u9Nw_vuKpZ1l4HCKwUhSRLGy137RyCYdSr5FpgzsIAc,4094
+brisk/mime.py,sha256=R14sJ4b7mFnTQszGeN9Na5ggZOd5hkMhwLS8tzr1Mbg,998
+brisk/render.py,sha256=dZbnTEsImYri-nuKVrQ6Bk8DlXono5GwjMUE7siuQRY,2971
+Brisk_py-0.2.0.dist-info/LICENSE,sha256=Th-P41rm7iXU9fQ4FW6_PxszLFyLthMI7QIvrSqk5KE,1067
+Brisk_py-0.2.0.dist-info/METADATA,sha256=87wfJ0ft8jPx6_P1-vxF9EjAOJYO9I4B0i53k_n8P9E,2776
+Brisk_py-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Brisk_py-0.2.0.dist-info/top_level.txt,sha256=pmzXvej2chF5lQfcE0-SbR34-UK-WVNJxD2tbDhMrCQ,6
+Brisk_py-0.2.0.dist-info/RECORD,,

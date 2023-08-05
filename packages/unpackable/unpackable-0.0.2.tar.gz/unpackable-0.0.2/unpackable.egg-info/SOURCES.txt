@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+unpackable/__init__.py
+unpackable/obj.py
+unpackable/types.py
+unpackable.egg-info/PKG-INFO
+unpackable.egg-info/SOURCES.txt
+unpackable.egg-info/dependency_links.txt
+unpackable.egg-info/requires.txt
+unpackable.egg-info/top_level.txt
+unpackable.egg-info/zip-safe

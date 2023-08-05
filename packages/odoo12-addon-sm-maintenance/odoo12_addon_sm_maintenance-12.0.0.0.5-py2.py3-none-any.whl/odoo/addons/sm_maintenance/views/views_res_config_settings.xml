@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="maintenance_res_config_settings_view_form" model="ir.ui.view">
+    <field name="name">maintenance.res.config.settings.view.form.inherit.base.setup</field>
+    <field name="model">res.config.settings</field>
+    <field name="priority" eval="100"/>
+    <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//div[hasclass('settings')]" position="inside">
+        <div class="app_settings_block" data-string="CS Maintenance" string="CS Maintenance" data-key="cs_maintenance">
+          <div class="sm_maintenance">
+            <h2>Carsharing Maintenance Configuration</h2>
+            <div class="row mt16 o_settings_container">
+              <group>
+                <field name="sm_user_person_group"/>
+                <field name="sm_user_person_group_prepayment"/>
+                <field name="sm_user_person_default_language"/>
+                <field name="sm_user_allowed_user_langs_es"/>
+                <field name="sm_user_allowed_user_langs_ca"/>
+                <field name="sm_tariff_month_duration_welcome"/>
+                <field name="sm_timezone"/>
+                <field name="sm_system_project_id"/>
+                <field name="sm_zip_api_key"/>
+              </group>
+            </div>
+          </div>
+        </div>
+      </xpath>
+    </field>
+  </record>
+</odoo>

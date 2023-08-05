@@ -1,0 +1,152 @@
+@import '~superdesk-core/styles/sass/mixins.scss';
+@import '~superdesk-core/styles/sass/variables.scss';
+@import '~superdesk-core/styles/sass/media-archive.scss';
+
+.Select {
+	&__dropdownToggle {
+  		width: 24px;
+        height: 24px;
+        background-color: $sd-blue;
+        @include opacity(50);
+        border-radius: 2px;
+        padding: 0;
+        i {
+            margin-bottom: 2px;
+        }
+        &:hover:enabled, &:focus:enabled {
+            @include opacity(100);
+        }
+  	}
+
+    &__item {
+        &:focus {
+            background-color: #f4f4f4;
+        }
+    }
+}
+
+.Select__button {
+	background-color: $sd-blue;
+}
+
+.Select__popup__wrapper {
+    z-index: 2000;
+
+    &__search {
+        margin-top: 15px;
+    }
+
+    &__list {
+    	li {margin: 5px 0;}
+    	span, i { float: left; text-align: left; }
+		overflow-y: scroll;
+		overflow-x: hidden;
+		max-height: 200px;
+		margin-top: 5px;
+    }
+
+    &__item {
+    	margin: 5px;
+        button {
+            width: 100%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+		&:hover {
+			background: $sd-hover;
+		}
+
+		&--active {
+			background: $sd-hover;
+		}
+    }
+
+    &__search {
+    	border-bottom: 1px solid $grayLighter;
+    }
+
+	// SearchBar related styling customisations
+    .search-handler {
+        padding: 0;
+        height: 30px;
+    }
+    .trigger-icon {
+    	margin-top: 0px;
+    }
+    .search-close {
+    	height: 30px;
+    }
+}
+
+.SearchBar--narrow {
+	margin: 0px
+}
+
+.SearchBar.extended {
+    @extend .SearchBar--narrow;
+}
+
+.list-items li {
+    margin: 5px !important;
+}
+
+.contact-field {
+    &--padding-top {
+        padding-top: 25px;
+    }
+}
+
+.contact-info {
+    flex-grow: 1;
+
+    .sd-list-item__column {
+        padding: 0;
+    }
+
+    .avatar {
+        @include border-radius(50%);
+        position: relative;
+        background-image: url('~images/avatar_200.png');
+        &.organisation {
+            background-image: url('~images/avatar_group_64.png');
+        }
+    }
+}
+
+.contact-metadata {
+    margin-top: 1rem;
+}
+
+.contact-popup {
+    overflow: hidden;
+    margin-top: -1rem;
+    margin-bottom: 2.4rem;
+
+    .media-box.contacts {
+        display: contents;
+    }
+
+    .mgrid-view {
+        .media-box {
+            margin: 0;
+        }
+    }
+}
+
+.contact-details-pane {
+    &.contact-details-pane--editor {
+        .action-bar {
+            position: unset;
+            padding: unset;
+            border: none;
+            height: auto;
+            &.show {
+                top: auto !important;
+            }
+        }
+        .profile-info {
+            overflow: unset;
+        }
+    }
+}

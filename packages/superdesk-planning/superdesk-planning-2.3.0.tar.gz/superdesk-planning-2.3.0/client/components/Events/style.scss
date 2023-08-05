@@ -1,0 +1,33 @@
+@import '~superdesk-ui-framework/app/styles/variables/_colors.scss';
+
+.EventDateTime {
+    time {
+        color: #005b7f !important;
+        font-weight: 500 !important;
+        font-size: 1.2rem !important;
+    }
+
+    &__timezone {
+        color: $sd-blue;
+    }
+}
+
+.event-toggle {
+    margin: 0 0 1.8rem 0;
+    .sd-line-input__label {
+        margin-top: 0.4rem !important;
+    }
+}
+
+.sd-line-input__input--related-item-link {
+    margin-right: 0.6rem;
+}
+
+.recurring-rules {
+    .sd-line-input {
+        &--no-margin {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}

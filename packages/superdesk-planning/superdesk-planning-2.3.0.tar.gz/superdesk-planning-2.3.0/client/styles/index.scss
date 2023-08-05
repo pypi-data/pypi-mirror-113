@@ -1,0 +1,119 @@
+@import '~superdesk-core/styles/sass/mixins.scss';
+@import '~superdesk-core/styles/sass/variables.scss';
+@import '~superdesk-ui-framework/app/styles/variables/_colors.scss';
+
+@mixin absolute0 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.AssignmentsApp {
+    @include absolute0;
+    top: $nav-height;
+
+    p {
+        margin: 0;
+    }
+}
+
+.assignment--due-date {
+  padding: 0;
+
+  > * {
+    margin: 0!important;
+  }
+
+  > * + * {
+    margin-left: 8px!important;
+  }
+
+  .sd-list-item__time__schedule {
+    color: $sd-blueDark !important;
+    font-weight: 500;
+    vertical-align: text-top;
+    padding-left: 0!important;
+  }
+
+  &.label-icon--warning {
+    .sd-list-item__time__schedule {
+        color: $orange !important;
+    }
+
+    .label {
+        margin-left: 0.8rem;
+    }
+  }
+}
+
+.AssignmentItem {
+    .icon-ingest {
+        margin-top: -0.2rem;
+    }
+}
+
+.assignment-preview__side-panel {
+  opacity: 1 !important;
+}
+
+.opened-articles ul > li {
+    padding: 0 25px 0 5px;
+    .item-label {
+        margin-left: 3px;
+    }
+}
+
+.icon--gray {
+  color: $grayLight;
+}
+
+.icon--yellow {
+  color: $oldGold;
+}
+
+.icon--green {
+  color: $green;
+}
+
+.icn-mix__sub-icn--gray {
+  color: $grayLight !important;
+  background-color: transparent !important;
+}
+
+.history-list {
+  &--no-padding {
+    padding: 0 !important;
+  }
+
+    &__link{
+        cursor: pointer;
+    }
+}
+
+.preview-layout {
+  .sd-preview-panel {
+    width: 41rem;
+  }
+}
+
+.flex-justify--start {
+  justify-content: flex-start;
+}
+
+.flex-justify--end {
+  justify-content: flex-end;
+}
+
+// Fix second subnav's z-index in Planning page
+#sd-planning-react-container {
+  .subnav + .subnav {
+    z-index: 1002 !important;
+  }
+}
+
+// Fix react-bootstrap OverlayTrigger's Tooltip inside Modals
+.tooltip {
+    z-index: 10000 !important;
+}

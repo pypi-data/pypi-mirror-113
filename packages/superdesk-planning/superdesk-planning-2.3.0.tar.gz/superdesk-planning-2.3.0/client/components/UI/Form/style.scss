@@ -1,0 +1,125 @@
+@import '~superdesk-ui-framework/app/styles/variables/_colors.scss';
+
+// Add some padding to the right for long filenames
+// so that the trash icon is still visible
+.file-input {
+    .sd-line-input__input {
+        padding-right: 25px !important;
+    }
+
+    &--hidden {
+        display: none !important;
+    }
+}
+
+.link-input {
+    .sd-line-input__input {
+        padding-right: 35px !important;
+    }
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.form__row {
+    &--half-width {
+        max-width: 50%;
+    }
+
+    &--max-width-35 {
+        max-width: 35px;
+        margin-right: 5px;
+    }
+
+    &--max-width-80 {
+        max-width: 80px;
+        margin-right: 5px;
+    }
+}
+
+.sd-line-input {
+    .sd-line-input__icon-bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .sd-line-input__input--auto-height {
+        resize: none;
+        overflow: hidden;
+        min-height: 3.2rem !important;
+    }
+
+    .sd-line-input__input--padding-right-60 {
+        padding-right: 60px !important;
+    }
+
+    .sd-line-input__input--unset-height {
+        height: initial !important;
+    }
+
+    .sd-line-input__input--expandable {
+        border-bottom: none !important;
+
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+}
+
+.sd-line-input__expand_btn {
+    border-top: 1px solid var(--color-input-border);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+
+    button {
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+        width: 21px;
+        height: 21px;
+        border: 0;
+        padding: 0;
+        background-color: #ffffff;
+        line-height: 0;
+        border-radius: 50%;
+        margin-left: 50%;
+        margin-top: -21px;
+        position: relative;
+    }
+
+    &--hover {
+        border-top: 1px solid var(--color-input-border-hover);
+    }
+
+    &--focus {
+        border-top: 1px solid $sd-blue;
+        box-shadow: 0 -1px 0 0 $sd-blue;
+    }
+}
+
+.sd-line-input--invalid, .form-label--invalid {
+    color: $red;
+
+    .sd-line-input__icon-bottom-right {
+        bottom: 18px;
+    }
+}
+
+.form-label {
+    &--no-min-width {
+        min-width: initial;
+        padding-right: 10px;
+    }
+
+    &--padding {
+        padding-top: 20px;
+    }
+
+    &--left-margin {
+        margin-left: 50px;
+    }
+}
+
+.nav-tabs__content--no-padding {
+    padding: 0px !important;
+}

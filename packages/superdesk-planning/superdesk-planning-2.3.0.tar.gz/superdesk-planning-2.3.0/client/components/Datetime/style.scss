@@ -1,0 +1,8 @@
+@import '~superdesk-core/styles/sass/variables.scss';
+
+.Datetime {
+    &--dark-text {
+        color: $grayDark;
+        font-weight: 400;
+    }
+}

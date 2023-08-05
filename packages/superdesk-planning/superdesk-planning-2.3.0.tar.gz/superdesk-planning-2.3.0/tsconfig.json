@@ -1,0 +1,29 @@
+{
+    "files": [
+        "index.ts"
+    ],
+    "include": [
+        "client"
+    ],
+    "compilerOptions": {
+        "baseUrl": "client",
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es2017",
+            "es2018.promise"
+        ],
+        "jsx": "react",
+        "paths": {
+            "core/*": ["../node_modules/superdesk-core/scripts/core/*"],
+            "apps/*": ["../node_modules/superdesk-core/scripts/apps/*"],
+            "superdesk-interfaces/*": ["../node_modules/superdesk-core/scripts/superdesk-interfaces/*"],
+            "appConfig": ["../node_modules/superdesk-core/scripts/appConfig"]
+        }
+    }
+}

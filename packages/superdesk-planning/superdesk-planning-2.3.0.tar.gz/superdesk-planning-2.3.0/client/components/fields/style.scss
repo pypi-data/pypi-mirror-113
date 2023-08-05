@@ -1,0 +1,63 @@
+@import '~superdesk-ui-framework/app/styles/_tooltips.scss';
+
+.Link__Item {
+	background-color: transparent;
+	outline: none;
+}
+
+.Link__remove {
+	float: right;
+}
+
+.sd-text__link {
+	margin-bottom: 0px;
+}
+
+.error-block {
+	color: #E51C23;
+	text-transform: none;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 10px;
+}
+
+.disabledInput {
+	&:hover:disabled {
+		cursor: default;
+	}
+}
+
+.disabledButton {
+	display: none;
+	&:hover {
+		cursor: default;
+	}
+}
+
+[data-sd-tooltip] {
+	z-index: 1000 !important;
+	opacity: 1 !important;
+}
+
+.Planning {
+    .sd-list-item__column {
+      overflow: visible !important;
+    }
+
+    .sd-list-item__row {
+      overflow: visible !important;
+    }
+
+    .tooltipVisibleElement {
+      overflow: visible !important;
+    }
+}
+
+.basic-drag-block {
+	transition: all 0.3s cubic-bezier(0.55, 0, 0.55, 0.2);
+
+	&:focus {
+		background-color: var(--color-input-bg--focus);
+		border: 2px dashed #5ea9c8;
+	}
+}

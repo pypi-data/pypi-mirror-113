@@ -1,0 +1,20 @@
+@import '~superdesk-ui-framework/app/styles/_variables.scss';
+
+.event-toggle {
+    .sd-line-input__label {
+        margin-top: 0.4rem !important;
+    }
+}
+
+.sd-list-item__text {
+    &--disabled {
+        color: $grayLight;
+    }
+}
+
+.btn {
+    &__clear-filters {
+        margin-right: 1.0rem;
+        margin-left: 1.0rem;
+    }
+}

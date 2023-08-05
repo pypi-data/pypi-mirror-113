@@ -1,0 +1,14 @@
+.sortable-list__item {
+    list-style-type: none;
+    cursor: move;
+    z-index: 1100;
+    background-color: #fff;
+
+    &--no-padding {
+        padding: 0 0 0 10px !important;
+    }
+}
+
+.sortable-list__item button {
+    padding: 0px !important;
+}

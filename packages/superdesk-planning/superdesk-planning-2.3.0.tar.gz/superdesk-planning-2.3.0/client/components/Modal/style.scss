@@ -1,0 +1,66 @@
+@import '~superdesk-core/styles/sass/mixins.scss';
+@import '~superdesk-core/styles/sass/variables.scss';
+// required for extending .modal__backdrop :
+@import '~superdesk-ui-framework/app/styles/_variables.scss';
+
+.modal__backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1045;
+    background-color: $black;
+    // Fade for backdrop
+    &.fade { opacity: 0; }
+}
+.modal__backdrop,
+.modal__backdrop.fade.in {
+    @include opacity(30);
+}
+
+.modal-backdrop {
+    @extend .modal__backdrop;
+}
+
+.modal__body {
+    &--no-padding {
+        padding: 0 !important;
+    }
+
+    &--full-height {
+        height: 100% !important;
+    }
+
+    &--no-scroll {
+        overflow-y: hidden !important;
+    }
+}
+
+.modal__content {
+    width: 100% !important;
+}
+
+.modal__dialog--full-height {
+    height: 100% !important
+}
+
+.modal--draggable {
+    pointer-events: none;
+
+    .modal__content {
+        pointer-events: all;
+    }
+    .modal__header {
+        cursor: move; /* fallback if grab cursor is unsupported */
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+
+        &:active {
+            cursor: grabbing;
+            cursor: -moz-grabbing;
+            cursor: -webkit-grabbing;
+        }
+    }         
+}

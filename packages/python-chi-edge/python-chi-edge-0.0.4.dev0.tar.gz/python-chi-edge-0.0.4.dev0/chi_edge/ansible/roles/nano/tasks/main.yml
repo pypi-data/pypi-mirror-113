@@ -1,0 +1,11 @@
+---
+- name: Populate service facts
+  ansible.builtin.service_facts:
+
+- name: install custom kernel
+  import_tasks: kernel.yml
+
+- name: configure Docker daemon for NVIDIA runtime
+  ansible.builtin.copy:
+    src: docker-daemon.json
+    dest: /etc/docker/daemon.json

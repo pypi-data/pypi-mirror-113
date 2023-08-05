@@ -1,0 +1,9 @@
+django_debugger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_debugger/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_debugger/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_debugger/management/commands/runserver.py,sha256=jNgn4c1Kf5xkUTQ1Ni3lAbLYxjb0G987JyU_1eABl44,1190
+django_debugger-0.4.dist-info/LICENSE,sha256=LLnwQEvdSWBaNxSEpeGcVyWQObGrh1QuZS_6yVHmvBo,1092
+django_debugger-0.4.dist-info/METADATA,sha256=eeV2y1ykxUwcc64oOdZJ8oSeENxWKaY1qwQVQuqRdkE,1910
+django_debugger-0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_debugger-0.4.dist-info/top_level.txt,sha256=puMN8DMZ2qdPagltQ_T96BeBPVQzFhV9VrLssf8zagc,16
+django_debugger-0.4.dist-info/RECORD,,

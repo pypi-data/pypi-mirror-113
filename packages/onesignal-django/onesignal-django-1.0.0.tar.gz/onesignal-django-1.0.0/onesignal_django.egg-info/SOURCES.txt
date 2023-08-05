@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.rst
+README.txt
+setup.py
+django_onesignal/__init__.py
+django_onesignal/client.py
+onesignal_django.egg-info/PKG-INFO
+onesignal_django.egg-info/SOURCES.txt
+onesignal_django.egg-info/dependency_links.txt
+onesignal_django.egg-info/requires.txt
+onesignal_django.egg-info/top_level.txt

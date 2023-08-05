@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: onesignal-django
+Version: 1.0.0
+Summary: An interface to send push notification (both mobile and web) from Django using Onesignal
+Home-page: UNKNOWN
+Author: Giacomo Venier
+Author-email: giacomo.venier@gmail.com
+License: MIT
+Description: # Django Onesignal
+        This library provides and easy to use interface for sending push notifications from Django to Onesignal
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/06/2021)
+        -------------------
+        - First Release
+        
+Keywords: django,onesignal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

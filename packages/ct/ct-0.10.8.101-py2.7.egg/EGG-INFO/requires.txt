@@ -1,0 +1,7 @@
+rel >= 0.4.2
+dez >= 0.10.9.45
+yagmail >= 0.6.161
+requests >= 2.3.0
+sqlalchemy >= 1.0.12
+psutil >= 5.0.1
+six >= 1.12.0

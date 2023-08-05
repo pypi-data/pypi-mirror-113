@@ -1,0 +1,3 @@
+[console_scripts]
+pipindex = pipindex.command:main
+

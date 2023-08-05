@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/fchic/__init__.py
+src/fchic/parser_definition.py
+src/fchic/py.typed
+src/fchic.egg-info/PKG-INFO
+src/fchic.egg-info/SOURCES.txt
+src/fchic.egg-info/dependency_links.txt
+src/fchic.egg-info/requires.txt
+src/fchic.egg-info/top_level.txt

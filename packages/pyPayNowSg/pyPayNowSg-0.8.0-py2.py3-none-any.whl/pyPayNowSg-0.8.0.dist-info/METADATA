@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyPayNowSg
+Version: 0.8.0
+Summary: A python package to generate Singapore PayNow QR code payloads
+Home-page: https://github.com/daffodilistic/pyPayNowSg
+Author: Soh Thiam Hing
+Author-email: daffodilistic@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/daffodilistic/pyPayNowSg/issues
+Project-URL: Source, https://github.com/daffodilistic/pyPayNowSg
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Open Software License 3.0 (OSL-3.0)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: crcmod
+Requires-Dist: Pillow
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+# pyPayNowSg
+[![Test](https://github.com/daffodilistic/pyPayNowSg/actions/workflows/test.yml/badge.svg)](https://github.com/daffodilistic/pyPayNowSg/actions/workflows/test.yml)
+## Generate PayNow Singapore QR codes in Python
+### Summary
+What it says on the tin. This is mainly for frameworks/backends which rely on
+generation of a PayNow QR code without the use of NodeJS/JavaScript,
+such as sending e-mails or generating PDF files.
+### Documentation
+See [`tests/test_payload.py`](https://github.com/daffodilistic/pyPayNowSg/blob/d24ca3f7791a51b4b370f0a005946ccb26bca596/tests/test_payload.py) for an example.
+### References
+- [EMVCO QR Code Specification](https://www.emvco.com/emv-technologies/qrcodes/)
+### Social
+Like my work? Buy me a coffee!
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L5YXX1)
+

@@ -1,0 +1,11 @@
+pyPayNowSg/EMVCoHeaders.py,sha256=kQfZY9VY5DKgIFY__gk_EEP9lNZXGNobLyJf2m1h1Cc,324
+pyPayNowSg/EMVCoSerializer.py,sha256=cR3IOfKo9DAtH7_cR0FGjTUudU3e1FUVW6Fm7aDDESE,645
+pyPayNowSg/PayNowConfigFactory.py,sha256=3YK4DUb-ruyaVuZmOR_yEAVcfDbrYxPHeiXYtxFL7Zg,4457
+pyPayNowSg/PayNowHeaders.py,sha256=nOKvJn1uK84QopYZK8WDqsH7DTCVSkAcysNV1KR_zXQ,228
+pyPayNowSg/PayNowSerializer.py,sha256=hHgSIBJdqAsBK9TJGdi8Dru3RHsPHhYBCaZlVXz9ScI,2222
+pyPayNowSg/__init__.py,sha256=CNlexWFxkR1cArw_AsSNyEGXn66wbPjf-nsSH1lx4OM,182
+pyPayNowSg-0.8.0.dist-info/LICENSE.txt,sha256=pedas1BjFmJwNFO_TiGo1JYmQrD4H3arMk-O0QAnKq4,10299
+pyPayNowSg-0.8.0.dist-info/METADATA,sha256=qxtJ_5b-OVFVbEnI1ucOWeACkmWjzi_kDwPwJU8mV48,2034
+pyPayNowSg-0.8.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyPayNowSg-0.8.0.dist-info/top_level.txt,sha256=rNv1oWqfEHmwzjd6ORmO637Kv34T__6AJ5n-IjVlp4c,11
+pyPayNowSg-0.8.0.dist-info/RECORD,,

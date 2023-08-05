@@ -1,0 +1,17 @@
+aioboto3/__init__.py,sha256=-wbgb57b6xPNNcfI725LvyImrSI1jprrDBidpZIPMik,503
+aioboto3/dynamodb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioboto3/dynamodb/table.py,sha256=McRadhm5f8RYsPVm1eSt_s9wrBoHWqWT5QkzQHmyiqI,4935
+aioboto3/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioboto3/resources/action.py,sha256=kQ9PJyZ_znfbKXlMjZSepLTzMq1BaOOzr7GpoKftPqk,4456
+aioboto3/resources/base.py,sha256=wODBzaHQ-s6-yPTIcbSVkFT6MO1SL4L7gDsy-FFG8kQ,386
+aioboto3/resources/collection.py,sha256=wKYXu1sWvsBfXe01-niOT5JKMju2hmHhaTsORX8GXic,6509
+aioboto3/resources/factory.py,sha256=c5GzHlJqx2zblMzhjI7Hj_ymbwuvCrE0C16woZxxYos,10415
+aioboto3/resources/response.py,sha256=x28JeanhT0TpfbU6YZKUqA4R3sl80pdsMCY615wUz4I,3851
+aioboto3/s3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioboto3/s3/cse.py,sha256=Vq1qFgP4bbRU0R3JgYgifVnYnGQg4-MVnjWW4tkuU1s,22847
+aioboto3/s3/inject.py,sha256=bCvtf9JKGERk-Y5a_ewVCZth_zo5zzKGGHwfxWvs4Ww,15040
+aioboto3/session.py,sha256=fZnuU-duX63Cjb6o0MgVL532alBVV9Do0_TPK8wrWgo,9486
+aioboto3-9.1.0.dist-info/LICENSE,sha256=bzBnqbWnSWTiny6aiibWomJyus8-lQbmD8lCCnWMdXw,11314
+aioboto3-9.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+aioboto3-9.1.0.dist-info/METADATA,sha256=7iOBqZ-_BZYyFvFYLlvIF7OQigFr9Nen_tX9-S-wCmc,8328
+aioboto3-9.1.0.dist-info/RECORD,,

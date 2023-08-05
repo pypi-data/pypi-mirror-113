@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+log_kbots/__init__.py
+log_kbots.egg-info/PKG-INFO
+log_kbots.egg-info/SOURCES.txt
+log_kbots.egg-info/dependency_links.txt
+log_kbots.egg-info/top_level.txt

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: log-kbots
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/kbots-dga-kroton/log_kbots
+Author: Bruno Nascimento
+Author-email: bruno_freddy@hotmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/kbots-dga-kroton/log_kbots
+Project-URL: Download, https://github.com/kbots-dga-kroton/log_kbots/archive/main.zip
+Description: # log_kbots
+        
+        [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square)](https://www.python.org/)
+        [![PyPI](https://img.shields.io/pypi/v/log-kbots?style=flat-square)](https://pypi.org/project/log-kbots/)
+        
+        A biblioteca fornece uma função que aceita dados de robôs como entrada, os valida e cria um arquivo json pronto para upload.
+        
+        ## Instalação:
+        
+        `pip install log-kbots`
+        ## Funções:
+        
+        - **make_log( robot_name: str, schedule_value: str, start_date: datetime, status: str, error_value: str = None, detail_value: str = None):** Gera o arquivo json.
+        
+        - **save_log(PATH_LOG: str, robot_name: str, schedule_value: str, start_date: datetime, status: str, error_value: str = None, detail_value: str = None):** Gera o arquivo json e o salva no `PATH` indicado.
+        
+        - **post_log(URL: str, robot_name: str, schedule_value: str, start_date: datetime, status: str, error_value: str = None, detail_value: str = None):** Gera o arquivo json e o envia para a `URL` indicada.
+        
+        ## Parâmetros:
+        
+        - **PATH_LOG (str):** Caminho para o diretório para fazer o salvamento do arquivo Json.
+        - **URL (str):** Caminho para o diretório para fazer o envio do arquivo Json.
+        - **robot_name (str):** Código do robô (ex: DGA-100).
+        - **schedule_value (str):** Agendamento do robô em formato padrão [cron]('https://crontab-generator.org/').
+        - **start_date (datetime):** Datahora do início do processamento do dado.
+        - **status (str):** Status final do processamento do dado, necessariamente deve conter um dos seguintes status: 'WARNING', 'FAIL' e 'SUCCESS'.
+        - **error_value (str, optional):** Mensagem de erro quando existente. Padrão é None.
+        - **detail_value (str, optional):** Informações adicionais ao dado quando necessário. Padrão é None.
+        
+        ## Requirements:
+        
+        `requests >= 2.25.1`
+        
+        ## Desinstalação:
+        
+        `pip uninstall log-kbots`
+Keywords: log_kbots,kbots,kroton
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: hall
+Version: 0.1.0
+Summary: Hall - Probability theory using pythonic and (almost) mathematical notation.
+Author: Joren Hammudoglu
+Author-email: jhammudoglu@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Dist: mpmath (>=1.2,<2.0)
+Project-URL: Bug Tracker, https://github.com/jorenham/hall/issues
+Project-URL: homepage, https://pypi.org/project/hall/
+Project-URL: repository, https://github.com/jorenham/hall
+Description-Content-Type: text/markdown
+
+# Hall
+
+Probability theory using pythonic and (almost) mathematical notation.
+
+## A simple example: Monty ~~Python~~ Hall 
+
+`TODO`
+
+## Contributing
+
+Ensure you have [poetry](https://python-poetry.org/docs/#installation) installed, then
+
+```bash
+poetry install
+```
+

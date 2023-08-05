@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: django-groups2
+Version: 0.0.1
+Summary: An application for having better groups in Django
+Home-page: https://github.com/spapas/django-groups2/
+Author: Serafeim Papastefanos
+Author-email: spapas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+==============
+django-groups2
+==============
+
+v.0.1.0
+-------
+
+- Initial version
+
+

@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+src/django_groups2.egg-info/PKG-INFO
+src/django_groups2.egg-info/SOURCES.txt
+src/django_groups2.egg-info/dependency_links.txt
+src/django_groups2.egg-info/not-zip-safe
+src/django_groups2.egg-info/requires.txt
+src/django_groups2.egg-info/top_level.txt
+src/groups2/__init__.py
+src/groups2/admin.py
+src/groups2/forms.py
+src/groups2/models.py
+src/groups2/migrations/0001_initial.py
+src/groups2/migrations/__init__.py

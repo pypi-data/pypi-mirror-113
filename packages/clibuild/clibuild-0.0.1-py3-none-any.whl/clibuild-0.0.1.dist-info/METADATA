@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: clibuild
+Version: 0.0.1
+Summary: Pure Python Package Template
+Home-page: https://github.com/ydcjeff/clibuild
+Author: Jeff Yang
+Author-email: ydcjeff@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/clibuild/#files
+Project-URL: Documentation, https://clibuild.netlify.app
+Project-URL: Changelog, https://github.com/ydcjeff/clibuild/blob/main/CHANGELOG.md
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: black (==21.6b0) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-executable ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: black (==21.6b0) ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: pylint ; extra == 'tests'
+Requires-Dist: isort ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: flake8-bugbear ; extra == 'tests'
+Requires-Dist: flake8-comprehensions ; extra == 'tests'
+Requires-Dist: flake8-executable ; extra == 'tests'
+
+# Pypkg [![ci](https://github.com/ydcjeff/clibuild/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ydcjeff/clibuild/actions/workflows/ci.yaml)
+
+> Pure Python Package Template
+
+## License
+
+[MIT](./LICENSE)
+
+

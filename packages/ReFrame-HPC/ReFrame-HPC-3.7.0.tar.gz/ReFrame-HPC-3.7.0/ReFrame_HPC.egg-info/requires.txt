@@ -1,0 +1,6 @@
+archspec
+argcomplete
+jsonschema
+lxml
+PyYAML
+semver

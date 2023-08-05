@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+maso/AI_model.py
+maso/__init__.py
+maso/supercv.py
+maso/superos.py
+maso.egg-info/PKG-INFO
+maso.egg-info/SOURCES.txt
+maso.egg-info/dependency_links.txt
+maso.egg-info/not-zip-safe
+maso.egg-info/requires.txt
+maso.egg-info/top_level.txt

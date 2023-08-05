@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+perovskite/__init__.py
+perovskite/getstructure.py
+perovskite.egg-info/PKG-INFO
+perovskite.egg-info/SOURCES.txt
+perovskite.egg-info/dependency_links.txt
+perovskite.egg-info/requires.txt
+perovskite.egg-info/top_level.txt

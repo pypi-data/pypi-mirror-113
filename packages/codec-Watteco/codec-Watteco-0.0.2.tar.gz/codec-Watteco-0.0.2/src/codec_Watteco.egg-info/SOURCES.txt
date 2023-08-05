@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/codec_Watteco/Decoding_Functions.py
+src/codec_Watteco/Main.py
+src/codec_Watteco/Scroll_Decoding_Functions.py
+src/codec_Watteco/WTC_CodecTools.py
+src/codec_Watteco/ZCL.py
+src/codec_Watteco/ZCL_FRAME.py
+src/codec_Watteco/__init__.py
+src/codec_Watteco/example.py
+src/codec_Watteco.egg-info/PKG-INFO
+src/codec_Watteco.egg-info/SOURCES.txt
+src/codec_Watteco.egg-info/dependency_links.txt
+src/codec_Watteco.egg-info/requires.txt
+src/codec_Watteco.egg-info/top_level.txt

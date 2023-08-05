@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/pwfn/__init__.py
+src/pwfn/_orbpowers.py
+src/pwfn/_parser.py
+src/pwfn/py.typed
+src/pwfn.egg-info/PKG-INFO
+src/pwfn.egg-info/SOURCES.txt
+src/pwfn.egg-info/dependency_links.txt
+src/pwfn.egg-info/requires.txt
+src/pwfn.egg-info/top_level.txt

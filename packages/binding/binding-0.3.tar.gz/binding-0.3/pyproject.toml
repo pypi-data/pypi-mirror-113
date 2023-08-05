@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "binding"
+version = "v0.3"
+description = "Bindable properties for Python"
+authors = ["Zauberzeug GmbH <info@zauberzeug.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/zauberzeug/binding"
+keywords = ["bind", "properties", "ui", "automatic", "values"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+forbiddenfruit = "^0.1.4"
+executing = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

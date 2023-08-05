@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+telebotspy.egg-info/PKG-INFO
+telebotspy.egg-info/SOURCES.txt
+telebotspy.egg-info/dependency_links.txt
+telebotspy.egg-info/top_level.txt
+telegram/__init__.py
+telegram/copyMessage.py
+telegram/forwardMessage.py
+telegram/getMe.py
+telegram/getUpdates.py
+telegram/sendMessage.py

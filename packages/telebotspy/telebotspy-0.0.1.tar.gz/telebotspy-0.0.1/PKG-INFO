@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: telebotspy
+Version: 0.0.1
+Summary: A telegram bot package
+Home-page: UNKNOWN
+Author: US
+Author-email: author@example.com
+License: GPLv3
+Description: #telebotpy
+        
+        ##Installation
+        
+        '''pip install telebotpy'''
+        
+        ##LICENSE
+        GNU GPL V3.0
+Keywords: telegram
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6

@@ -1,0 +1,3 @@
+[console_scripts]
+pyipsw = pyipsw.__main__:cli
+

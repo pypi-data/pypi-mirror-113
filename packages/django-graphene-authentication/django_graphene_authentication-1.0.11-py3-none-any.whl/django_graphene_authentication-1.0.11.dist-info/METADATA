@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: django-graphene-authentication
+Version: 1.0.11
+Summary: A variant of djhango-graphql-jwt that can work with federations
+Home-page: https://github.com/Koldar/django-koldar-common-apps
+Author: Massimo Bono
+Author-email: massimobono1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: setuptools
+Requires: wheel
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: alabaster (>=0.7.12)
+Requires-Dist: altgraph (>=0.17)
+Requires-Dist: aniso8601 (>=8.1.1)
+Requires-Dist: appdirs (>=1.4.4)
+Requires-Dist: archive-pmakeup-plugin (>=1.0.4)
+Requires-Dist: arrow (>=1.1.1)
+Requires-Dist: asgiref (>=3.4.1)
+Requires-Dist: atomicwrites (>=1.4.0)
+Requires-Dist: attrs (>=21.2.0)
+Requires-Dist: Babel (>=2.9.1)
+Requires-Dist: bleach (>=3.2.1)
+Requires-Dist: certifi (>=2021.5.30)
+Requires-Dist: chardet (>=4.0.0)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: decorator (>=4.4.2)
+Requires-Dist: distlib (>=0.3.1)
+Requires-Dist: Django (>=3.2.5)
+Requires-Dist: django-appconf (>=1.0.4)
+Requires-Dist: django-currentuser (>=0.5.3)
+Requires-Dist: django-environ (>=0.4.5)
+Requires-Dist: django-filter (>=2.4.0)
+Requires-Dist: django-koldar-utils (>=2.26.11)
+Requires-Dist: django-polymorphic (>=3.0.0)
+Requires-Dist: djangorestframework (>=3.12.4)
+Requires-Dist: docutils (>=0.16)
+Requires-Dist: filelock (>=3.0.12)
+Requires-Dist: future (>=0.18.2)
+Requires-Dist: git-pmakeup-plugin (>=1.0.7)
+Requires-Dist: gitdb (>=4.0.7)
+Requires-Dist: GitPython (>=3.1.18)
+Requires-Dist: graphene (>=3.0b7)
+Requires-Dist: graphene-django (>=3.0.0b7)
+Requires-Dist: graphene-django-extras (>=0.5.2)
+Requires-Dist: graphql-core (>=3.1.5)
+Requires-Dist: graphql-relay (>=3.1.0)
+Requires-Dist: idna (>=2.10)
+Requires-Dist: imagesize (>=1.2.0)
+Requires-Dist: inflect (>=5.3.0)
+Requires-Dist: inflection (>=0.5.1)
+Requires-Dist: iniconfig (>=1.1.1)
+Requires-Dist: Jinja2 (>=3.0.1)
+Requires-Dist: keyring (>=21.5.0)
+Requires-Dist: MarkupSafe (>=2.0.1)
+Requires-Dist: networkx (>=2.5.1)
+Requires-Dist: nodeenv (>=1.4.0)
+Requires-Dist: packaging (>=20.9)
+Requires-Dist: pancalc (>=1.0.3)
+Requires-Dist: pefile (>=2019.4.18)
+Requires-Dist: pkginfo (>=1.6.1)
+Requires-Dist: pluggy (>=0.13.1)
+Requires-Dist: pmake (>=1.14.4)
+Requires-Dist: pmakeup (>=4.5.11)
+Requires-Dist: promise (>=2.3)
+Requires-Dist: psutil (>=5.8.0)
+Requires-Dist: py (>=1.10.0)
+Requires-Dist: pydot (>=1.4.2)
+Requires-Dist: Pygments (>=2.9.0)
+Requires-Dist: pyinstaller (>=4.1)
+Requires-Dist: pyinstaller-hooks-contrib (>=2020.10)
+Requires-Dist: PyJWT (>=2.1.0)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: pytest (>=6.2.4)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2021.1)
+Requires-Dist: pywin32-ctypes (>=0.2.0)
+Requires-Dist: PyYAML (>=5.1.2)
+Requires-Dist: readme-renderer (>=28.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: rfc3986 (>=1.4.0)
+Requires-Dist: Rx (>=3.2.0)
+Requires-Dist: semantic-version (>=2.8.5)
+Requires-Dist: semver (>=2.13.0)
+Requires-Dist: singledispatch (>=3.6.2)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: smmap (>=4.0.0)
+Requires-Dist: snowballstemmer (>=2.1.0)
+Requires-Dist: Sphinx (>=4.0.2)
+Requires-Dist: sphinx-rtd-theme (>=0.5.2)
+Requires-Dist: sphinxcontrib-applehelp (>=1.0.2)
+Requires-Dist: sphinxcontrib-devhelp (>=1.0.2)
+Requires-Dist: sphinxcontrib-htmlhelp (>=2.0.0)
+Requires-Dist: sphinxcontrib-jsmath (>=1.0.1)
+Requires-Dist: sphinxcontrib-qthelp (>=1.0.3)
+Requires-Dist: sphinxcontrib-serializinghtml (>=1.1.5)
+Requires-Dist: sqlparse (>=0.4.1)
+Requires-Dist: stringcase (>=1.2.0)
+Requires-Dist: text-unidecode (>=1.3)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: tqdm (>=4.53.0)
+Requires-Dist: twine (>=3.2.0)
+Requires-Dist: urllib3 (>=1.26.5)
+Requires-Dist: virtualenv (>=20.0.25)
+Requires-Dist: webencodings (>=0.5.1)
+Provides-Extra: doc
+Provides-Extra: test
+
+# Introduction
+
+Customizable backend that uses graphql to authenticate users.
+Abstraction of a graphql authentication mechanism. 
+This is an modification of `django-graphql-jwt`: I drop some functionalities that I did not care
+and add capabilities that I needed.
+
+Capabilities dropped:
+
+ - cookies;
+
+Capabilities added:
+
+ - custom names and exceptions for authentication graphql mutrations/queries (needed for federations);
+ - ability to customize authentication mechanism;
+ - ability to work with graphene-federations when there are multiple authentication mechanisms;
+ - ability to be easily extended;
+
+# Motivation
+
+I needed to work with graphene federations wehere there werre multiple graphqlk mutations with names like 
+"login", "me", "refresdh_tokens" and so on.
+`django-graphql-jwt` was more an hindrance than anything else since I need to authenticate via
+a token rather tha username and password. In the end I ported the feature I needed from `django-graphql-jwt`
+and created this variant.
+
+This apps does not rely on its oiwn authentication mechanism, but just relay all the information 
+it knows about the graphql request to the auithentication backend. In this way **you** are in charge
+to perform authentication.
+
+Still, the package provides some standard authentication mechanism you can use. 
+
+# Installation
+
+```
+pip install django-graphql-apitoken
+```
+
+# Configuration
+
+You need to add this app to the INSTALLED_APPS:
+
+```
+INSTALLED_APPS += "django_graphql_apitoken"
+```
+
+The second step is to create the authentication classes that graphene needs to be aware of.
+Create a new file in your project root and add the following:
+
+
+
+

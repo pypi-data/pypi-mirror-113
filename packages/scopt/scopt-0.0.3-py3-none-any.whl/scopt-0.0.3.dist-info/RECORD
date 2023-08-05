@@ -1,0 +1,11 @@
+scopt/__init__.py,sha256=lRiB2QDo5h3Z1MKX6Ikh5v7TP0nzKIFkE041YoWxep0,138
+scopt/__version__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+scopt/optimizer.py,sha256=0wZKiiEvq1KZdnlyd-igKG8bxED7CPYkgFA8jtVMN3o,10578
+scopt/instances/__init__.py,sha256=JWQytLzg92I4vt0YCjsr3B3LyUjqFvRfO_KWXmMqECQ,66
+scopt/instances/aws.py,sha256=R9O_JQXoBvpi9sJUv5hSkFKP_BLEv9PQD1wsNxRAGQU,9674
+scopt/instances/base.py,sha256=jpmWRhvDOQP0g2lYTZS5901IjV4wHKGKay3v3qX_tBw,726
+scopt-0.0.3.dist-info/LICENSE,sha256=VTE5ydnoOI9E05sHr85ZqNpRHdMdK4Q2sHvcqVY2ejA,1063
+scopt-0.0.3.dist-info/METADATA,sha256=5TeYBpMJocz8Dhd2d2h0bR6DliJLj4aIkivZS8J6sgk,4648
+scopt-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scopt-0.0.3.dist-info/top_level.txt,sha256=FkJY5bFhYYnvTi2HPcL9gK9tIthMlzoQmeyHl0Byc7Q,6
+scopt-0.0.3.dist-info/RECORD,,

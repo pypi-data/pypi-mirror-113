@@ -1,0 +1,17 @@
+typeguard>=2.10
+typing_extensions>=3.10
+
+[iso3166]
+iso3166>=1.0.1
+
+[phonenumbers]
+phonenumbers>=8.12.11
+
+[pydantic]
+pydantic>=1.8.1
+
+[test]
+mypy
+pytest
+pytest-mypy-plugins
+coverage

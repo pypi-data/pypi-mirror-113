@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: maso
+Version: 1.7
+Summary: 方便使用OPENCV包的套件
+Home-page: https://github.com/maso0310/maso/tree/master
+Author: Maso
+Author-email: balimon@hotmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: maso
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

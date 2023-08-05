@@ -1,0 +1,5 @@
+botcity-framework-base>=0.2.0
+pyautogui
+pyperclip
+opencv-python
+python-xlib

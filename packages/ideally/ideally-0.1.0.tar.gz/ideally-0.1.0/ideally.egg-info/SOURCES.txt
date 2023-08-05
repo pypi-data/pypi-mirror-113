@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ideally/__init__.py
+ideally.egg-info/PKG-INFO
+ideally.egg-info/SOURCES.txt
+ideally.egg-info/dependency_links.txt
+ideally.egg-info/top_level.txt

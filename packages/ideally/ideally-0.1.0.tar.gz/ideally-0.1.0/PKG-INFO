@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ideally
+Version: 0.1.0
+Summary: An OMG IDL compiler
+Home-page: https://github.com/asorbini/ideally-tmp.git
+Author: Real-Time Innovations, Inc.
+Author-email: asorbini@rti.com
+License: License :: OSI Approved :: Apache Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ideally - An OMG IDL compiler
+
+
+

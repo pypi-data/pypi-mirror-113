@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Version=1.0
+Name=Simple Sentence Mining
+GenericName=Sentence tool for Anki
+Exec=ssmtool
+Icon=ssmtool
+Categories=Education;

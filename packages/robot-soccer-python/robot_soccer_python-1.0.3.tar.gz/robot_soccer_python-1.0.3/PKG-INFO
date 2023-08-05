@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: robot_soccer_python
+Version: 1.0.3
+Summary: A robot soccer simulation 2D environment for python.
+Home-page: https://github.com/jonysalgado/robot_soccer_python
+Author: Jony Salgado
+Author-email: jonysalgadofilho@gmail.com
+License: MIT
+Download-URL: https://github.com/jonysalgado/robot_soccer_python/archive/refs/tags/v_01.3.tar.gz
+Description: UNKNOWN
+Keywords: SIMULATION,SOCCER,ROBOT,AI,ENVIRONMENT,PYTHON
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

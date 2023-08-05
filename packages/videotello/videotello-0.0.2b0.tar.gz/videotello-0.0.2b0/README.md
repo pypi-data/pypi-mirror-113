@@ -1,0 +1,3 @@
+# Video Tello
+
+This package is meant to be a basic wrapper of the [djitellopy](https://github.com/damiafuentes/DJITelloPy) package that provides easy to use methods to take photos and record videos for the tello drones. The main motivation behind this package was to add more fun activities for a Drone course at iCode. As a result, the package also provides function named in accordance to the [easytello](https://github.com/Virodroid/easyTello) package that is used for that course.

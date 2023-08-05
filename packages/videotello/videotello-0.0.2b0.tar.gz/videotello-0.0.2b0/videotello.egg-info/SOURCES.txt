@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+videotello/__init__.py
+videotello/tello.py
+videotello.egg-info/PKG-INFO
+videotello.egg-info/SOURCES.txt
+videotello.egg-info/dependency_links.txt
+videotello.egg-info/requires.txt
+videotello.egg-info/top_level.txt

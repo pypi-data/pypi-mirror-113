@@ -1,0 +1,12 @@
+Release/_impl.cp38-win_amd64.exp,sha256=TU9BtE8JcQWtUwnG-uhMK4RfS2gd47fzoAiSajLXeBY,737
+Release/_impl.cp38-win_amd64.lib,sha256=9Dl5UEZpHAgaRhKMjJZN8MemszuiIqKbPrzspRLuyDo,1964
+stt/__init__.py,sha256=SL36p3tNT0hdu3bpXY4gqjiK2YVSA0ToJeXcbtSW4h0,13488
+stt/_impl.cp38-win_amd64.pyd,sha256=I791xMNavYwQJx1-BtDTZAA0x8Z-GA94Dju2IyiL_9I,76288
+stt/client.py,sha256=BXCVLU4ILhrQYtaGEpmpgYtfIcKIyO955UmIoCwozWE,7020
+stt/impl.py,sha256=7nx1D04p8biiiZHbE4fSa-2iv-wJ8KSRSn2Kj-ILRKc,7409
+stt/lib/libstt.so,sha256=wtaV9U2DmTpRIH6T8S8yjmfpvEMw1FHPCRxJxfhpNtA,25920512
+stt-0.10.0a8.dist-info/METADATA,sha256=_2H4HItxDBmnkVJ47StV4Yjoa3vWG7HfoxZQMMM4DNA,1339
+stt-0.10.0a8.dist-info/WHEEL,sha256=z-ezgbNu1Y2ixypRrBmFDHP9mmiBhiGywozViqVfAIc,105
+stt-0.10.0a8.dist-info/entry_points.txt,sha256=-RJKAhqFH3le0allDtX9BNVyOHyAXMbyweoEXUinoRI,41
+stt-0.10.0a8.dist-info/top_level.txt,sha256=U36suN9i5BZ2UbKj5dzgbpHmkIEAvyge7wRwJVB24jk,4
+stt-0.10.0a8.dist-info/RECORD,,

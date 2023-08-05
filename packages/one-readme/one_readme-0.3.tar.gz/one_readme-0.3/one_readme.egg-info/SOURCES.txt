@@ -1,0 +1,10 @@
+README.md
+setup.py
+one_readme/config.py
+one_readme/readme.py
+one_readme.egg-info/PKG-INFO
+one_readme.egg-info/SOURCES.txt
+one_readme.egg-info/dependency_links.txt
+one_readme.egg-info/entry_points.txt
+one_readme.egg-info/requires.txt
+one_readme.egg-info/top_level.txt

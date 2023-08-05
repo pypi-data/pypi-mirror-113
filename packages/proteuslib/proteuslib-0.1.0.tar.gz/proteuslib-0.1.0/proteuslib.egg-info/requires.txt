@@ -1,0 +1,16 @@
+idaes-pse>=1.10.1
+pyomo
+pymongo>3
+fastjsonschema
+click
+nbformat
+
+[dev]
+myst-parser
+linkify-it-py
+Sphinx
+sphinx_rtd_theme
+json-schema-for-humans
+black
+pytest
+pytest-cov

@@ -1,0 +1,19 @@
+<saleacceptanceresult xmlns="https://fr.shopping.rakuten.com/res/schema/acceptsale" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://fr.shopping.rakuten.com/res/schema/acceptsale https://fr.shopping.rakuten.com/res/schema/acceptsale/accept_sale.2021-04-08.xsd">
+<request>
+        <version>2021-04-08</version>
+        <user>uuyu</user>
+        <itemid>589871029</itemid>
+        <shippingfromcountry>156</shippingfromcountry>
+        <importcountry>56</importcountry>
+    </request>
+    <response>
+        <lastversion>2021-04-08</lastversion>
+        <status>Accepted</status>
+        <shippingfromcountry>156</shippingfromcountry>
+        <importcountry>56</importcountry>
+        <onestopshop>
+		<type>myOSSType</type>
+		<value>myOSSValue</value>
+        </onestopshop>
+    </response>
+</saleacceptanceresult>	

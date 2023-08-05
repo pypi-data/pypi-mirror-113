@@ -1,0 +1,11 @@
+include requirements.txt
+recursive-include rctaitest/core/android/static *
+include rctaitest/core/android/static/*/*/*
+include rctaitest/core/android/static/*/*
+include rctaitest/core/android/static/stf_libs/minicap-shared/aosp/libs/*/*/*.*
+
+include rctaitest/core/ios/iproxy/*/*
+
+include rctaitest/report/*.html
+include rctaitest/report/*/*.*
+include rctaitest/report/*/*/*.*

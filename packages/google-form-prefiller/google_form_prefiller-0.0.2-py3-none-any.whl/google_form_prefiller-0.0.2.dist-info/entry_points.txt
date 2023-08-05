@@ -1,0 +1,3 @@
+[console_scripts]
+google-form-prefiller = google_form_prefiller.google_form_prefiller:main
+

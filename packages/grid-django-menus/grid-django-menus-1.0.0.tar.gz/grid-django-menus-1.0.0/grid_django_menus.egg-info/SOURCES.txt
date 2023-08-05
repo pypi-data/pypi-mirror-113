@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+grid_django_menus.egg-info/PKG-INFO
+grid_django_menus.egg-info/SOURCES.txt
+grid_django_menus.egg-info/dependency_links.txt
+grid_django_menus.egg-info/requires.txt
+grid_django_menus.egg-info/top_level.txt

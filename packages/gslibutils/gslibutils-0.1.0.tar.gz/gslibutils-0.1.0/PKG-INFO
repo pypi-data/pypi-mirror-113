@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gslibutils
+Version: 0.1.0
+Summary: Contains utilities to load/save GSLIB files, such as
+Home-page: https://github.com/exepulveda/gslibutils
+Author: Exequiel Sepúlveda
+Author-email: esepulveda@protonmail.com

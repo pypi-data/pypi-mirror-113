@@ -1,0 +1,7 @@
+scikit-image
+scipy
+
+[cli]
+nibabel
+numpy
+pandas

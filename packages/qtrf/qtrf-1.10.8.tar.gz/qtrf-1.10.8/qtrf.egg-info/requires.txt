@@ -1,0 +1,9 @@
+PySide2
+
+[dev]
+ddt
+twine
+wheel
+
+[test]
+ddt

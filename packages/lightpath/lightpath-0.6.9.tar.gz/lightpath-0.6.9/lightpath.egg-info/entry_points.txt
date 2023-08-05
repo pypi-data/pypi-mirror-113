@@ -1,0 +1,3 @@
+[console_scripts]
+lightpath = lightpath.__main__:entrypoint
+

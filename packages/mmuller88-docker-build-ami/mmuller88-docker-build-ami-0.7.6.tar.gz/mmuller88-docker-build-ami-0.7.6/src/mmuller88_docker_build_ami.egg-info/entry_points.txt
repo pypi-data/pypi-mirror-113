@@ -1,0 +1,3 @@
+[console_scripts]
+docker-build-ami = docker2ami.docker2ami:main
+

@@ -1,0 +1,4 @@
+attrs>=20.3
+
+[test]
+pytest>=6.0

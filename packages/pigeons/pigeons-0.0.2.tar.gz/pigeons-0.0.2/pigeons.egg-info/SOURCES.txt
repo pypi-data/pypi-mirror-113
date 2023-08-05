@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pigeons/__init__.py
+pigeons/dispatcher.py
+pigeons/filter.py
+pigeons.egg-info/PKG-INFO
+pigeons.egg-info/SOURCES.txt
+pigeons.egg-info/dependency_links.txt
+pigeons.egg-info/requires.txt
+pigeons.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dispatcher.py
+tests/test_filter.py

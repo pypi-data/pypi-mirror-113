@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: super-image
+Version: 0.1.0
+Summary: State-of-the-art image super resolution models for PyTorch.
+Home-page: https://github.com/eugenesiow/super-image
+License: Apache-2.0
+Author: Eugene Siow
+Author-email: kyo116@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: h5py (==3.1.0)
+Requires-Dist: huggingface-hub (>=0.0.13,<0.0.14)
+Requires-Dist: opencv-python (==4.5.2.54)
+Requires-Dist: torch (==1.9.0)
+Requires-Dist: torchvision (==0.10.0)
+Requires-Dist: tqdm (==4.61.2)
+Project-URL: Repository, https://github.com/eugenesiow/super-image
+Description-Content-Type: text/markdown
+
+<h1 align="center">super-image</h1>
+
+<p align="center">
+    <a href="https://eugenesiow.github.io/super-image/">
+        <img alt="documentation" src="https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat">
+    </a>
+    <a href="https://pypi.org/project/super-image/">
+        <img alt="pypi version" src="https://img.shields.io/pypi/v/super-image.svg">
+    </a>
+</p>
+
+<h3 align="center">
+    <p>State-of-the-art image super resolution models for PyTorch.</p>
+</h3>
+
+
+## Requirements
+
+super-image requires Python 3.6 or above.
+
+## Installation
+
+With `pip`:
+```bash
+pip install super-image
+```
+
+With [`pipx`](https://github.com/pipxproject/pipx):
+```bash
+python3.6 -m pip install --user pipx
+
+pipx install --python python3.6 super-image
+```
+
+## Quick Start
+
+```python
+from super_image import EdsrModel, ImageLoader
+from PIL import Image
+import requests
+
+url = 'https://paperswithcode.com/media/datasets/Set5-0000002728-07a9793f_zA3bDjj.jpg'
+image = Image.open(requests.get(url, stream=True).raw)
+
+model = EdsrModel.from_pretrained('eugenesiow/edsr-base', scale=2)
+inputs = ImageLoader.load_image(image)
+preds = model(inputs)
+
+ImageLoader.save_image(preds, './scaled_2x.png')
+ImageLoader.save_compare(inputs, preds, './scaled_2x_compare.png')
+```

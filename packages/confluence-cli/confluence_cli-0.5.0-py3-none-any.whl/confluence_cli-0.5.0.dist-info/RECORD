@@ -1,0 +1,11 @@
+confluence_cli/cli/__init__.py,sha256=3wxHHENK6dhDmmLJ70JK25-91xBtokaj2QyxSAU9AKU,88
+confluence_cli/cli/comala_api.py,sha256=m51bpa2U-aLaLWSJxmIL9oa1jMqVo_M0Y8FmOIn13jg,1860
+confluence_cli/cli/confluence_wrapper.py,sha256=Byp2PiWoOLNsG7tPRY-gS2TxVhJpDGIg-7UgvYOifE4,6721
+confluence_cli/cli/types.py,sha256=0-9HGby8hArd79i6owzxHEt5DrSjj3Pe2cXIOj2EKPE,3358
+confluence_cli/cli/utils.py,sha256=m2FF5UGF7nHqPBzenJZKDNrBVLyTEvo_nnyQFSK5_Fo,2899
+confluence_cli-0.5.0.dist-info/LICENSE.txt,sha256=FHbOkWOIkCTl73aJ6FD5au00hPyJGf1Q04D8uo4WnI0,1084
+confluence_cli-0.5.0.dist-info/METADATA,sha256=llTy4j7LJIcutQ5aSsKRxQi-PzQtMFsd49RW0tM2d1o,1715
+confluence_cli-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+confluence_cli-0.5.0.dist-info/entry_points.txt,sha256=__A0e1H2o1QtMa8_PPIz-dFpH6QjGDx7z_EQ11u5RAA,73
+confluence_cli-0.5.0.dist-info/top_level.txt,sha256=MnI3gxx9ECOsCfqqpxpAyPN3j15_jq_hZJ57IT72kxs,15
+confluence_cli-0.5.0.dist-info/RECORD,,

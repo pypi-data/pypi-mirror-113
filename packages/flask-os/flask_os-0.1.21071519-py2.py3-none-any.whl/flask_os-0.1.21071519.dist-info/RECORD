@@ -1,0 +1,12 @@
+flask_os/__init__.py,sha256=fwAKU1NZMmnkCnxZ_NesTUSdrBop7sNqAdV_mBQ8Vx0,279
+flask_os/app.py,sha256=p7N7g2OzGLzCZFWfBE5LLLo93t4fxDElziXfjC0xUeU,1965
+flask_os/cli.py,sha256=4V7-ehnA7s8lBTvATsf8fRvw6M-EntIbdhpBNOa95uY,1067
+flask_os/setting.py,sha256=iyNa23oqW1Ek3EsDlQj0aNlNDEKQGt5Jo_rMUyCSyMs,183
+flask_os/conf/.DS_Store,sha256=yqrP4vdE_BD-LzyWCbF-Pa7WO4t9ZtzVU6YU3GONOAQ,6148
+flask_os/conf/project.zip,sha256=p_hCWI9YewMKATdPDewDdI1Zi4oQvA3ZikSatbA5xcE,16670
+flask_os/conf/requirements.txt,sha256=9d5VswH95GE9neLaGD9OXWOho0sCBvnsumpc5p2M-38,244
+flask_os-0.1.21071519.dist-info/METADATA,sha256=Na29XCJyFbmGAKoG1RNzCB8YMOhH90iqY4qd-Oey0lM,642
+flask_os-0.1.21071519.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+flask_os-0.1.21071519.dist-info/entry_points.txt,sha256=Pznp4jAV4dT_2FmtpRMnBaHr-q_PWovC2NmVso-uo64,46
+flask_os-0.1.21071519.dist-info/top_level.txt,sha256=LOsUrmCgz4F9Axu-qfA6hS6LTUBw2ZiFYRv0n5lo-Vk,9
+flask_os-0.1.21071519.dist-info/RECORD,,

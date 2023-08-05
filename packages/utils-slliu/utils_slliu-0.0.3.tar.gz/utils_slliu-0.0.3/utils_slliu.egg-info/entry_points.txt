@@ -1,0 +1,3 @@
+[console_scripts]
+my-cmd = utils_slliu.my_cmd:main
+

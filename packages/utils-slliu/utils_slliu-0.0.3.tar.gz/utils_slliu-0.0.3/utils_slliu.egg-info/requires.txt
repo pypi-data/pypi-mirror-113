@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+click
+chinese_calendar
+requests
+beautifulsoup4

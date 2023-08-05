@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+check_version_increase.py
+requirements-test.txt
+requirements.txt
+setup.py
+fen2pil/__init__.py
+fen2pil/draw.py
+fen2pil.egg-info/PKG-INFO
+fen2pil.egg-info/SOURCES.txt
+fen2pil.egg-info/dependency_links.txt
+fen2pil.egg-info/requires.txt
+fen2pil.egg-info/top_level.txt
+images/board_example.png

@@ -1,0 +1,15 @@
+numpy
+
+[dev]
+black
+coverage
+coverage-badge
+Cython
+flake8
+numpy
+pandas
+pybadges
+pytest
+tabulate
+tox
+twine

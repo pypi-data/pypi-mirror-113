@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "model-evaluation-777"
+version = "0.0.3"
+description = "Evaluate speech enhancemnt model performance"
+authors = ["Chengwei Ouyang <chengwei@evocolabs.com>"]
+packages = [
+    { include = "model_evaluation", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21.0"
+librosa = "^0.8.1"
+pystoi = "^0.3.3"
+pesq = "^0.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

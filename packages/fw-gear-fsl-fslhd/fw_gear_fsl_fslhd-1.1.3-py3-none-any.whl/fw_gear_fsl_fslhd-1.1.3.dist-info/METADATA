@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: fw-gear-fsl-fslhd
+Version: 1.1.3
+Summary: Gear parsing metadata from nifti file using FSL's fslhd function.
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/fslhd
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: flywheel-gear-toolkit (>=0.3.1,<0.4.0)
+Requires-Dist: ipython (>=7.23.1,<8.0.0)
+Requires-Dist: nipype (>=1.6.1,<2.0.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/fslhd
+Description-Content-Type: text/markdown
+
+# FSLHD Gear
+A Flywheel Gear for implementing FSL's fslhd for obtaining metadata info from NIfTI.
+
+### Gear Inputs
+NIFTI image
+
+An input file (*.nii or *.nii.gz) is required.
+
+### Configuration
+* __debug__ (boolean, default False): Include debug statements in output.
+
+### Output
+Metadata from the header of the NIFTI image.
+
+## Contributing
+
+For more information about how to get started contributing to that gear, 
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).
+

@@ -1,0 +1,13 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var react_1 = require("@emotion/react");
+var styled_1 = tslib_1.__importDefault(require("@emotion/styled"));
+var animations_1 = require("app/styles/animations");
+var checkedCss = function (p) { return react_1.css(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  display: block;\n  width: ", ";\n  height: ", ";\n  border-radius: 50%;\n  background-color: ", ";\n  animation: 0.2s ", " ease;\n  opacity: ", ";\n"], ["\n  display: block;\n  width: ", ";\n  height: ", ";\n  border-radius: 50%;\n  background-color: ", ";\n  animation: 0.2s ", " ease;\n  opacity: ", ";\n"])), p.radioSize === 'small' ? '8px' : '1rem', p.radioSize === 'small' ? '8px' : '1rem', p.theme.active, animations_1.growIn, p.disabled ? 0.4 : null); };
+var Radio = styled_1.default('input')(templateObject_2 || (templateObject_2 = tslib_1.__makeTemplateObject(["\n  display: flex;\n  padding: 0;\n  width: ", ";\n  height: ", ";\n  position: relative;\n  border-radius: 50%;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid ", ";\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);\n  background: none;\n  appearance: none;\n\n  /* TODO(bootstrap): Our bootstrap CSS adds this, we can remove when we remove that */\n  margin: 0 !important;\n\n  &:focus,\n  &.focus-visible {\n    outline: none !important;\n    border: 1px solid ", ";\n    box-shadow: rgba(209, 202, 216, 0.5) 0 0 0 3px;\n  }\n\n  &:checked:after {\n    content: '';\n    ", "\n  }\n"], ["\n  display: flex;\n  padding: 0;\n  width: ", ";\n  height: ", ";\n  position: relative;\n  border-radius: 50%;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid ", ";\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.04);\n  background: none;\n  appearance: none;\n\n  /* TODO(bootstrap): Our bootstrap CSS adds this, we can remove when we remove that */\n  margin: 0 !important;\n\n  &:focus,\n  &.focus-visible {\n    outline: none !important;\n    border: 1px solid ", ";\n    box-shadow: rgba(209, 202, 216, 0.5) 0 0 0 3px;\n  }\n\n  &:checked:after {\n    content: '';\n    ", "\n  }\n"])), function (p) { return (p.radioSize === 'small' ? '16px' : '1.5em'); }, function (p) { return (p.radioSize === 'small' ? '16px' : '1.5em'); }, function (p) { return p.theme.border; }, function (p) { return p.theme.border; }, function (p) { return checkedCss(p); });
+Radio.defaultProps = {
+    type: 'radio',
+};
+exports.default = Radio;
+var templateObject_1, templateObject_2;
+//# sourceMappingURL=radio.jsx.map

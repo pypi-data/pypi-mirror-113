@@ -1,0 +1,11 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.VirtualScrollbarGrip = exports.VirtualScrollbar = exports.ScrollbarContainer = exports.DividerSpacer = void 0;
+var tslib_1 = require("tslib");
+var styled_1 = tslib_1.__importDefault(require("@emotion/styled"));
+exports.DividerSpacer = styled_1.default('div')(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  width: 1px;\n  background-color: ", ";\n"], ["\n  width: 1px;\n  background-color: ", ";\n"])), function (p) { return p.theme.border; });
+var MINI_HEADER_HEIGHT = 20;
+exports.ScrollbarContainer = styled_1.default('div')(templateObject_2 || (templateObject_2 = tslib_1.__makeTemplateObject(["\n  display: block;\n  width: 100%;\n  height: ", "px;\n  & > div[data-type='virtual-scrollbar'].dragging > div {\n    background-color: ", ";\n    opacity: 0.8;\n    cursor: grabbing;\n  }\n  overflow-x: scroll;\n"], ["\n  display: block;\n  width: 100%;\n  height: ", "px;\n  & > div[data-type='virtual-scrollbar'].dragging > div {\n    background-color: ", ";\n    opacity: 0.8;\n    cursor: grabbing;\n  }\n  overflow-x: scroll;\n"])), MINI_HEADER_HEIGHT + 50, function (p) { return p.theme.textColor; });
+exports.VirtualScrollbar = styled_1.default('div')(templateObject_3 || (templateObject_3 = tslib_1.__makeTemplateObject(["\n  height: 8px;\n  width: 0;\n  padding-left: 4px;\n  padding-right: 4px;\n  position: sticky;\n  top: ", "px;\n  left: 0;\n  cursor: grab;\n"], ["\n  height: 8px;\n  width: 0;\n  padding-left: 4px;\n  padding-right: 4px;\n  position: sticky;\n  top: ", "px;\n  left: 0;\n  cursor: grab;\n"])), (MINI_HEADER_HEIGHT - 8) / 2);
+exports.VirtualScrollbarGrip = styled_1.default('div')(templateObject_4 || (templateObject_4 = tslib_1.__makeTemplateObject(["\n  height: 8px;\n  width: 100%;\n  border-radius: 20px;\n  transition: background-color 150ms ease;\n  background-color: ", ";\n  opacity: 0.5;\n"], ["\n  height: 8px;\n  width: 100%;\n  border-radius: 20px;\n  transition: background-color 150ms ease;\n  background-color: ", ";\n  opacity: 0.5;\n"])), function (p) { return p.theme.textColor; });
+var templateObject_1, templateObject_2, templateObject_3, templateObject_4;
+//# sourceMappingURL=miniHeader.jsx.map

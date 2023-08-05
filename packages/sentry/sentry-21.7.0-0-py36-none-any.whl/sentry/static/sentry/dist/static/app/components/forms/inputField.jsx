@@ -1,0 +1,24 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var React = tslib_1.__importStar(require("react"));
+var formField_1 = tslib_1.__importDefault(require("app/components/forms/formField"));
+var InputField = /** @class */ (function (_super) {
+    tslib_1.__extends(InputField, _super);
+    function InputField() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    InputField.prototype.getField = function () {
+        return (<input id={this.getId()} // TODO(Priscila): check the reason behind this. We are getting warnings if we have 2 or more fields with the same name, for instance in the DATA PRIVACY RULES
+         type={this.getType()} className="form-control" autoComplete={this.props.autoComplete} placeholder={this.props.placeholder} onChange={this.onChange} disabled={this.props.disabled} name={this.props.name} required={this.props.required} value={this.state.value} // can't pass in boolean here
+         style={this.props.inputStyle} onBlur={this.props.onBlur} onFocus={this.props.onFocus} onKeyPress={this.props.onKeyPress} onKeyDown={this.props.onKeyDown} min={this.props.min}/>);
+    };
+    InputField.prototype.getClassName = function () {
+        return 'control-group';
+    };
+    InputField.prototype.getType = function () {
+        throw new Error('Must be implemented by child.');
+    };
+    return InputField;
+}(formField_1.default));
+exports.default = InputField;
+//# sourceMappingURL=inputField.jsx.map

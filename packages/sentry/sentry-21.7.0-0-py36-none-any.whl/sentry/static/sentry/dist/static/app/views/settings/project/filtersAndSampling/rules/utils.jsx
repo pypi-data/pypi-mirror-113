@@ -1,0 +1,5 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.layout = void 0;
+var layout = function (theme) { return "\n> * {\n  :nth-child(-n + 5):nth-child(5n - 1) {\n    text-align: center;\n  }\n  @media (max-width: " + theme.breakpoints[0] + ") {\n    :nth-child(5n - 4),\n    :nth-child(5n - 3) {\n      display: none;\n    }\n  }\n}\ngrid-template-columns: 2fr 1.5fr 1fr;\n@media (min-width: " + theme.breakpoints[0] + ") {\n  grid-template-columns: 0.5fr 1.5fr 2fr 1.5fr 1fr;\n}\n@media (min-width: " + theme.breakpoints[2] + ") {\n  grid-template-columns: 0.5fr 2fr 2.5fr 2fr 1.5fr;\n}\n@media (min-width: " + theme.breakpoints[3] + ") {\n  grid-template-columns: 0.5fr 2fr 3fr 2fr 1fr;\n}\n"; };
+exports.layout = layout;
+//# sourceMappingURL=utils.jsx.map

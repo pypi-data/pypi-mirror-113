@@ -1,0 +1,8 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var react_1 = require("@emotion/react");
+var pulse = react_1.keyframes(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  0% {\n    transform: scale(0.1);\n    opacity: 1\n  }\n\n  40%, 100% {\n    transform: scale(0.8);\n    opacity: 0;\n  }\n"], ["\n  0% {\n    transform: scale(0.1);\n    opacity: 1\n  }\n\n  40%, 100% {\n    transform: scale(0.8);\n    opacity: 0;\n  }\n"])));
+var pulsingIndicatorStyles = function (p) { return react_1.css(templateObject_2 || (templateObject_2 = tslib_1.__makeTemplateObject(["\n  height: 8px;\n  width: 8px;\n  border-radius: 50%;\n  background: ", ";\n  position: relative;\n\n  &:before {\n    content: '';\n    display: block;\n    position: absolute;\n    height: 100px;\n    width: 100px;\n    border-radius: 50%;\n    top: -46px;\n    left: -46px;\n    border: 4px solid ", ";\n    transform-origin: center;\n    animation: ", " 3s ease-out infinite;\n  }\n"], ["\n  height: 8px;\n  width: 8px;\n  border-radius: 50%;\n  background: ", ";\n  position: relative;\n\n  &:before {\n    content: '';\n    display: block;\n    position: absolute;\n    height: 100px;\n    width: 100px;\n    border-radius: 50%;\n    top: -46px;\n    left: -46px;\n    border: 4px solid ", ";\n    transform-origin: center;\n    animation: ", " 3s ease-out infinite;\n  }\n"])), p.theme.orange400, p.theme.orange300, pulse); };
+exports.default = pulsingIndicatorStyles;
+var templateObject_1, templateObject_2;
+//# sourceMappingURL=pulsingIndicator.jsx.map

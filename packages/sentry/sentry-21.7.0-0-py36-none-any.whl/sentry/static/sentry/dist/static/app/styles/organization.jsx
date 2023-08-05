@@ -1,0 +1,11 @@
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HeaderTitle = exports.PageHeader = exports.PageContent = void 0;
+var tslib_1 = require("tslib");
+// Shared styles for the new org level pages with global project/env/time selection
+var styled_1 = tslib_1.__importDefault(require("@emotion/styled"));
+var space_1 = tslib_1.__importDefault(require("app/styles/space"));
+exports.PageContent = styled_1.default('div')(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  display: flex;\n  flex-direction: column;\n  flex: 1;\n  padding: ", " ", " ", ";\n  margin-bottom: -20px; /* <footer> has margin-top: 20px; */\n\n  /* No footer at smallest breakpoint */\n  @media (max-width: ", ") {\n    margin-bottom: 0;\n  }\n"], ["\n  display: flex;\n  flex-direction: column;\n  flex: 1;\n  padding: ", " ", " ", ";\n  margin-bottom: -20px; /* <footer> has margin-top: 20px; */\n\n  /* No footer at smallest breakpoint */\n  @media (max-width: ", ") {\n    margin-bottom: 0;\n  }\n"])), space_1.default(2), space_1.default(4), space_1.default(3), function (p) { return p.theme.breakpoints[0]; });
+exports.PageHeader = styled_1.default('div')(templateObject_2 || (templateObject_2 = tslib_1.__makeTemplateObject(["\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: ", ";\n  min-height: 32px;\n"], ["\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: ", ";\n  min-height: 32px;\n"])), space_1.default(2));
+exports.HeaderTitle = styled_1.default('h4')(templateObject_3 || (templateObject_3 = tslib_1.__makeTemplateObject(["\n  flex: 1;\n  font-size: ", ";\n  line-height: ", ";\n  font-weight: normal;\n  color: ", ";\n  margin: 0;\n"], ["\n  flex: 1;\n  font-size: ", ";\n  line-height: ", ";\n  font-weight: normal;\n  color: ", ";\n  margin: 0;\n"])), function (p) { return p.theme.headerFontSize; }, function (p) { return p.theme.headerFontSize; }, function (p) { return p.theme.textColor; });
+var templateObject_1, templateObject_2, templateObject_3;
+//# sourceMappingURL=organization.jsx.map

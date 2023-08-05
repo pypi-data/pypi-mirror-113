@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/pygameZoom.py
+src/pygameZoom.egg-info/PKG-INFO
+src/pygameZoom.egg-info/SOURCES.txt
+src/pygameZoom.egg-info/dependency_links.txt
+src/pygameZoom.egg-info/requires.txt
+src/pygameZoom.egg-info/top_level.txt

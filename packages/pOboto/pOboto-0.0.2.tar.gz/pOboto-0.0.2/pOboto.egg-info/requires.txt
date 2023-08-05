@@ -1,0 +1,4 @@
+boto3
+botocore
+base64
+logging

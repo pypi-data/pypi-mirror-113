@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: model-evaluation-777
+Version: 0.0.5
+Summary: Evaluate speech enhancemnt model performance
+Author: Chengwei Ouyang
+Author-email: chengwei@evocolabs.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: librosa (>=0.8.1,<0.9.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
+Requires-Dist: pesq (>=0.0.3,<0.0.4)
+Requires-Dist: pystoi (>=0.3.3,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Speech Enhancement Model Evaluation
+
+This is a python package to evaluate your speech enhancement model performance.
+
+## Installation
+`pip install model-evaluation-777 -i https://pypi.org/simple`
+
+## PESQ and STOI Evaluation
+```python
+def evaluate(ref_dir="/media/youwei/Chauncey's/VERSO_Dataset/test/clean/", deg_dir="/media/youwei/Chauncey's/VERSO_Dataset/test/noisy/", fs=16000):
+    '''
+    Args:
+        ref_dir: reference signal directory
+        deg_dir: degration signal directory
+    Returns:
+        pesq_score_average, stoi_score_average
+    '''
+```
+```python
+from model_evaluation import stoi_pesq
+pesq_score, stoi_score = stoi_pesq.evaluate(ref_dir=ref_dir, deg_dir=deg_dir, fs=16000)
+```

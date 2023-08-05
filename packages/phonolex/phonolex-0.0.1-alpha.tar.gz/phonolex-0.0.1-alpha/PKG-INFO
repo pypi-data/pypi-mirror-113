@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: phonolex
+Version: 0.0.1-alpha
+Summary: This is a small package to describe the phonology of words and find matches for word features and/or phonological patterns.
+Home-page: https://github.com/janeumanIU/PhonoLex
+Author: Jared Neumann
+Author-email: janeuman@iu.edu
+License: gplv3
+Description: UNKNOWN
+Keywords: phonology,pattern,speech language pathology,linguistics,phonetics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3

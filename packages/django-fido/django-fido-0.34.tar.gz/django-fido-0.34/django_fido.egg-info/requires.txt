@@ -1,0 +1,27 @@
+Django>=1.11
+fido2
+sqlparse
+django-app-settings>=0.7.1
+jwcrypto
+requests
+cryptography
+pyopenssl
+
+[:python_version == "3.5.*"]
+fido2<0.9
+
+[quality]
+isort
+flake8
+pydocstyle
+mypy
+polint
+
+[test]
+mock
+responses
+
+[types]
+types-requests
+types-mock
+types-pyOpenSSL

@@ -1,0 +1,8 @@
+dtmcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dtmcli/tcc.py,sha256=4BzLsl4NLu2aDs7XTYBMerFsQU49Dm0E0vJmBgA3R1E,1812
+dtmcli/utils.py,sha256=xpi3N7T2PLYJ4jIpG6iao7zscDsqsZ_9E00ZHYTb2CA,679
+dtmcli-0.1.dist-info/LICENSE,sha256=qATk-C10UTklwwm0ryPBBAjoCJqxwFBsnlEUatX-zMo,1061
+dtmcli-0.1.dist-info/METADATA,sha256=vtfKrBeNxz6JqXUTAoKb6s2wUp9_UW1Zah3Vb7BCUrQ,1240
+dtmcli-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dtmcli-0.1.dist-info/top_level.txt,sha256=dKH0196HBefSdFxVnaAILbaGt-6cFoTVMq4GOUGxYjc,7
+dtmcli-0.1.dist-info/RECORD,,

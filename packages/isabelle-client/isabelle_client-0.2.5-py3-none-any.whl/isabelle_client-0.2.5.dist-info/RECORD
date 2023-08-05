@@ -1,0 +1,10 @@
+isabelle_client/__init__.py,sha256=PWhI1dP_RSLKa6ENxREVxwYNTD2pJuvcpua08YJfNaA,825
+isabelle_client/compatibility_helper.py,sha256=hHsDv1riRC1hH2TokEt7Yi3Io2qHAJmVonCVOfIqiTE,1141
+isabelle_client/isabelle__client.py,sha256=EDvOuV5fO1sSY_iFEXCRVVas9dr-IIaUkTJ6Wx7MLWg,11116
+isabelle_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isabelle_client/socket_communication.py,sha256=sgqdgieaCeQUFcRlYUR5nsTRImNh-Pr2cxBAsF58v3g,4919
+isabelle_client/utils.py,sha256=jIp8iqAn2Zjrwi1bbgfB7kXIZcQ-QWrXQNJhodXonsI,2786
+isabelle_client-0.2.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+isabelle_client-0.2.5.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+isabelle_client-0.2.5.dist-info/METADATA,sha256=vO6AyviQpkJ_AdKVcLcwmjT1GSHFquwbmUo-xX0Y__I,3138
+isabelle_client-0.2.5.dist-info/RECORD,,

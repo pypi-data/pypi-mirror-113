@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: biopy
+Version: 0.1
+Summary: DomainTranslation toolkit
+Home-page: https://github.com/BioPyTeam/biopy
+Author: BioPyTeam
+Author-email: gabriele.trivigno@studenti.polito.it
+License: UNKNOWN
+Project-URL: Documentation, https://biopy-proj.readthedocs.io/en/latest/index.html
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BioPy
+
+Project developed in the scope of the Bioinformatics course at Polytechnic of Turin.
+The task was to perform domain translation on multi-omics data using AutoEncoders and different datasets.
+
+For a more extensive explanation on the contents and how to download datasets and replicate results; see our documentation at
+`url to define`
+

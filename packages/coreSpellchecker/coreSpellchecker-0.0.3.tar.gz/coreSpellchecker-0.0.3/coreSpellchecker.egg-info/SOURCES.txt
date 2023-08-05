@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+core/__init__.py
+core/bktree.py
+core/functions.py
+core/run.py
+core/test.py
+coreSpellchecker.egg-info/PKG-INFO
+coreSpellchecker.egg-info/SOURCES.txt
+coreSpellchecker.egg-info/dependency_links.txt
+coreSpellchecker.egg-info/top_level.txt

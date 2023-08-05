@@ -1,0 +1,10 @@
+README.md
+setup.py
+mcafee/__init__.py
+mcafee/mcafee.py
+mcafee.egg-info/PKG-INFO
+mcafee.egg-info/SOURCES.txt
+mcafee.egg-info/dependency_links.txt
+mcafee.egg-info/entry_points.txt
+mcafee.egg-info/requires.txt
+mcafee.egg-info/top_level.txt

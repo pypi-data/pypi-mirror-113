@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+aws_py/__init__.py
+aws_py/awspy.py
+aws_py/ecs/__init__.py
+aws_py/ecs/fargate.py
+awspy.egg-info/PKG-INFO
+awspy.egg-info/SOURCES.txt
+awspy.egg-info/dependency_links.txt
+awspy.egg-info/requires.txt
+awspy.egg-info/top_level.txt

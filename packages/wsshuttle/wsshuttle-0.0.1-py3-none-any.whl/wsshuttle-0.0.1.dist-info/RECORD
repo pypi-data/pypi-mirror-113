@@ -1,0 +1,10 @@
+wsshuttle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsshuttle/__main__.py,sha256=EbC_-aor-EvyE_H7BOSRpKBLne3wWrAXand0c6u20io,55
+wsshuttle/cmdline.py,sha256=JRNQbN62eJsLAZmyoQJq_taTbS1YEWaf1TinLIx-uy4,1701
+wsshuttle/listener.py,sha256=FGz2Vj7_NJ0U53zbg4bx5PdVwNGBKKVpeXaG47fJNoo,3915
+wsshuttle/utils.py,sha256=hmnlfuv_UqIZBSbSxhacaDieKV6Ht57-ddfs3SuFIO0,3672
+wsshuttle-0.0.1.dist-info/LICENSE,sha256=ajesJmWczJseuZswFnXVlgqgYLGmOSbs43fhPSraNpI,1074
+wsshuttle-0.0.1.dist-info/METADATA,sha256=wkC2zdXKolctl-jmNk-MVwVEFQjjEyVdTAC27IfmUBQ,2134
+wsshuttle-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wsshuttle-0.0.1.dist-info/top_level.txt,sha256=xMtnnzQUIFMWRSUL9li_H3R_nXIMSQrYLk4Vw_X08Ts,10
+wsshuttle-0.0.1.dist-info/RECORD,,

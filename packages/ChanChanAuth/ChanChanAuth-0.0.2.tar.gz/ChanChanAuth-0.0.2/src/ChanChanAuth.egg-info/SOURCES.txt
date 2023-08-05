@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/ChanChanAuth.egg-info/PKG-INFO
+src/ChanChanAuth.egg-info/SOURCES.txt
+src/ChanChanAuth.egg-info/dependency_links.txt
+src/ChanChanAuth.egg-info/top_level.txt
+src/chanchanauth/__init__.py
+src/chanchanauth/admin.py
+src/chanchanauth/client.py
+src/chanchanauth/types.py

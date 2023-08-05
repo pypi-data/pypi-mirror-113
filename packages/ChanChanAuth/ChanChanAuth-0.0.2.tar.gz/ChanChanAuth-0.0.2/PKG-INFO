@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: ChanChanAuth
+Version: 0.0.2
+Summary: A simple Python wrapper for https://api.ccauth.app/
+Home-page: https://github.com/Geographs/ChanChanAuth
+Author: Geographs
+Author-email: 87452561+Geographs@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Geographs/ChanChanAuth/issues
+Description: # ChanChanAuth
+        Python wrapper for https://api.ccauth.app/
+        ## Examples of Usage
+        
+        ### Login
+        ```py
+        from chanchanauth import Client
+        
+        
+        client = Client(AID, APIKEY, SECRET)
+        response = client.login(USERNAME, PASSWORD, HWID)
+        
+        if response.is_authenticated:
+            print("Logged in")
+        ```
+        ### Register
+        ```py
+        from chanchanauth import Client
+        
+        client = Client(AID, APIKEY, SECRET)
+        response = client.register(USERNAME, PASSWORD, HWID, DISCORD, LICENSE)
+        
+        if response.success:
+            print("Success")
+        ```
+        ### Reset HWID
+        ```py
+        from chanchanauth import Client
+        
+        client = Client(AID, APIKEY, SECRET)
+        response = client.hwid_reset(USERNAME, PASSWORD, HWID, HWID_KEY)
+        
+        if response.success:
+            print("success")
+         ```
+         ### Generate License
+         ```py
+         from chanchanauth import Admin
+         
+         admin = Admin(AID, APIKEY, USERNAME, PASSWORD)
+         response = admin.generate_license()
+         
+         if response.success:
+            print(response.license)
+        ```
+         ### Generate HWID Key
+         ```py
+         from chanchanauth import Admin
+         
+         admin = Admin(AID, APIKEY, USERNAME, PASSWORD)
+         response = admin.generate_hwidkey()
+         
+         if response.success:
+            print(response.key)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

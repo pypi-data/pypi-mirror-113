@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+jayantkageri.egg-info/PKG-INFO
+jayantkageri.egg-info/SOURCES.txt
+jayantkageri.egg-info/dependency_links.txt
+jayantkageri.egg-info/top_level.txt

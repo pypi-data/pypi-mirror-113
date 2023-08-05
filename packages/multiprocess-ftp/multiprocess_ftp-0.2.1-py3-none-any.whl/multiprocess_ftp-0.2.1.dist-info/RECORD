@@ -1,0 +1,10 @@
+multiprocess_ftp/__init__.py,sha256=_yCbudUsAPKvAH_8aryDyzOhRerZ-Y5gN0maFO5hw9o,34
+multiprocess_ftp/better_queue.py,sha256=eq_N-nJWNnrzfG4xLUGif1cbipCCZF4ynuy7YXmkMho,1868
+multiprocess_ftp/destinations.py,sha256=mAcpugqyu51cSSqQ1BtHxLSM8Os_pEhHxH-vIDTAjCk,2723
+multiprocess_ftp/downloader.py,sha256=zUa0eC9YxNJdGNnn8c21rDStKfvBIs14FiNpN9BqUzY,2383
+multiprocess_ftp/proxy.py,sha256=DvJFFRNzJTmbXlQiyctODiKgvGTARUuIB313i93LJC4,1367
+multiprocess_ftp/sources.py,sha256=VcKoy2KRhIZJqF59GQ5lKDrTpd_cBbSKNfXTU9Xt0Ko,2235
+multiprocess_ftp/workers.py,sha256=N20kzQtar-d4xEQhmV2q8O85We2CY12iIaev_NClO80,7559
+multiprocess_ftp-0.2.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+multiprocess_ftp-0.2.1.dist-info/METADATA,sha256=9tZpr2QzvWR4GKdc_d7YUPIgxl1Boo1OBJI3D5ZQqNI,401
+multiprocess_ftp-0.2.1.dist-info/RECORD,,

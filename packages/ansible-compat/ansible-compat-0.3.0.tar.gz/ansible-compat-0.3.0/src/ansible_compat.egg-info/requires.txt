@@ -1,0 +1,13 @@
+PyYAML
+
+[retry]
+tenacity
+
+[test]
+coverage
+flaky
+pip-tools
+pytest
+pytest-markdown
+pytest-mock
+pytest-plus

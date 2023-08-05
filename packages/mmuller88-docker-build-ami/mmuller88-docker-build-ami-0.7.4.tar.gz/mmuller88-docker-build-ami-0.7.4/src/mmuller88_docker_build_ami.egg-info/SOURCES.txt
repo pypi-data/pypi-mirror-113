@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements-test.txt
+requirements.txt
+setup.py
+etc/docker-build-ami.conf
+src/docker2ami/__init__.py
+src/docker2ami/ami_builder.py
+src/docker2ami/docker2ami.py
+src/docker2ami/parser.py
+src/mmuller88_docker_build_ami.egg-info/PKG-INFO
+src/mmuller88_docker_build_ami.egg-info/SOURCES.txt
+src/mmuller88_docker_build_ami.egg-info/dependency_links.txt
+src/mmuller88_docker_build_ami.egg-info/entry_points.txt
+src/mmuller88_docker_build_ami.egg-info/requires.txt
+src/mmuller88_docker_build_ami.egg-info/top_level.txt

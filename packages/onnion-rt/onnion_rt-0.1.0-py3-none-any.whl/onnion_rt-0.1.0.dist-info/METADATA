@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: onnion-rt
+Version: 0.1.0
+Summary: run onnx with only numpy
+Home-page: https://github.com/Idein/onnion/tree/master/runtime
+License: Apache-2.0
+Keywords: onnx
+Author: Idein Inc.
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.19.0,<2.0.0)
+Project-URL: Repository, https://github.com/Idein/onnion/tree/master/runtime
+Description-Content-Type: text/markdown
+
+# onnion-rt
+
+Note: This software includes [the work](https://github.com/onnx/onnx) that is distributed in the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
+
+## Installation
+
+```
+$ pip3 install onnion-rt
+```
+
+## Usage
+See [tutorial](https://github.com/Idein/onnion/tree/master#tutorial).
+
+## Development Guide
+
+```
+$ poetry install
+```
+
+### How to support new operators
+
+1. Add `onnion_runtime/xxx.py`
+2. Add `from .xxx import Xxx # noqa: F401` to `onnion_runtime/__init__.py`
+3. Update "Supported Operators" in `README.md`
+4. Add `tests/test_xxx.py`
+5. Run tests `poetry run pytest -v`
+6. Format and lint `poetry run pysen run format && poetry run pysen run lint`
+
+## Supported Operators
+This runtime supports only below operators.
+
+- Add
+  - must be from opsetversion >= 7
+- Concat
+- Div
+  - must be from opsetversion >= 7
+- Exp
+- Mul
+  - must be from opsetversion >= 7
+- Slice
+- Sub
+  - must be from opsetversion >= 7
+

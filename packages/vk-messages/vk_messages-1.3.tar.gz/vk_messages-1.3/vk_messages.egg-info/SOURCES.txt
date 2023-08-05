@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+vk_messages/__init__.py
+vk_messages/utils.py
+vk_messages/vk_messages.py
+vk_messages.egg-info/PKG-INFO
+vk_messages.egg-info/SOURCES.txt
+vk_messages.egg-info/dependency_links.txt
+vk_messages.egg-info/requires.txt
+vk_messages.egg-info/top_level.txt

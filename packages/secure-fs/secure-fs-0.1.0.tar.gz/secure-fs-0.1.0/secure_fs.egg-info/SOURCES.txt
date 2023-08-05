@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+requirements/dev-requirements.txt
+secure_fs/__init__.py
+secure_fs.egg-info/PKG-INFO
+secure_fs.egg-info/SOURCES.txt
+secure_fs.egg-info/dependency_links.txt
+secure_fs.egg-info/top_level.txt

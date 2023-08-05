@@ -1,0 +1,3 @@
+[console_scripts]
+lesion-metrics = lesion_metrics.cli:main
+

@@ -1,0 +1,1 @@
+translatablemeta-modelclass:9:0:CrazyModel:TranslatableMeta class container is not translations.models.Translatable.

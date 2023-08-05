@@ -1,0 +1,1 @@
+include pylint_django_translations/tests/input/*.txt

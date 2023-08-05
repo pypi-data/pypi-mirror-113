@@ -1,0 +1,10 @@
+README.md
+setup.py
+shopeeapptest/__init__.py
+shopeeapptest/base_action.py
+shopeeapptest/driver_manager.py
+shopeeapptest/element_locator.py
+shopeeapptest.egg-info/PKG-INFO
+shopeeapptest.egg-info/SOURCES.txt
+shopeeapptest.egg-info/dependency_links.txt
+shopeeapptest.egg-info/top_level.txt

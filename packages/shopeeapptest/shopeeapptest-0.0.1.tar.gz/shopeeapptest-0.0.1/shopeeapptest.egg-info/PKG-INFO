@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shopeeapptest
+Version: 0.0.1
+Summary: Shopee App UI auto test
+Home-page: https://git.garena.com/shopee/loan-service/credit_backend/datafetch/app-ui-auto-test
+Author: yangjianquan
+Author-email: jianquan.yang@shopee.com
+License: UNKNOWN
+Description: # app-ui-auto-test
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

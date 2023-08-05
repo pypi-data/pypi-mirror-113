@@ -1,0 +1,8 @@
+README.rst
+setup.py
+zqw_pkgs/__init__.py
+zqw_pkgs/test_run.py
+zqw_pkgs.egg-info/PKG-INFO
+zqw_pkgs.egg-info/SOURCES.txt
+zqw_pkgs.egg-info/dependency_links.txt
+zqw_pkgs.egg-info/top_level.txt

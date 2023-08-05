@@ -1,0 +1,12 @@
+pybmrb/ChemicalShift.py,sha256=O5WoqcMGc5kKXQr-OaPFW8U1is0s8ro6R50wE3mahG4,9290
+pybmrb/ChemicalShiftStatistics.py,sha256=8dPOcG1CTNBxIwyrKatE87kZU3lxGVl3HRvMECaFG8U,24107
+pybmrb/Histogram.py,sha256=xbiXAwMcrX4-7XBrXJS-16iLoDLIXKj3mwgXypmP2Og,29091
+pybmrb/Spectra.py,sha256=Pi_bHCXiqzRNjeg68H7wH9KxZZ_-F80KzM0cQrDOWj0,61710
+pybmrb/__init__.py,sha256=YWpnWBTy37POPjhKVTISvMbpPHAThvm6KoOS7qaCoDg,20
+pybmrb/get_database_cs_data.py,sha256=Y1mhT0NPkmxChFYYaNaVhKKH197IGHz1wU7rJA4hGfY,26381
+pybmrb/get_entry_cs_data.py,sha256=DSLKR5H4xbNJnarsiO3jNicNYvgH7le_ymw6iV7aHUg,10119
+pybmrb-3.0.4.dist-info/LICENSE,sha256=lKNFSRG_4nUvm8C6Yi_INhqSlqYcBbC-37TRIivKR-o,1096
+pybmrb-3.0.4.dist-info/METADATA,sha256=4oldMuPNSmKY_n08ZpWAfU1qkG2aQDOhD7Zxtj2y7eM,2797
+pybmrb-3.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pybmrb-3.0.4.dist-info/top_level.txt,sha256=bvr475jSXUo_hvtJo00MWBw-OGwsMrGoCVnlDsU2w-8,7
+pybmrb-3.0.4.dist-info/RECORD,,

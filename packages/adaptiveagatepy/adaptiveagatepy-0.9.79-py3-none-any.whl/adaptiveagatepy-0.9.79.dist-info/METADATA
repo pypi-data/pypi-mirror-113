@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: adaptiveagatepy
+Version: 0.9.79
+Summary: Python APIs for accessing sequencing data in the Adaptive Biotechnologies Agate Datastore
+Home-page: http://www.adaptiveagate.com
+Author: Adaptive Biotechnologies Corporation
+Author-email: agate-support@adaptivebiotech.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+Requires-Dist: pyodbc
+Requires-Dist: msal
+Requires-Dist: azure-storage-blob (>=12.8)
+Requires-Dist: pyarrow
+Requires-Dist: dask
+Requires-Dist: dask[dataframe]
+Requires-Dist: parameterized
+
+Adaptive Agate Python SDK
+*************************
+Early Release Phase - November, 2020
+
+This platform is in an early release phase; if you are comfortable working with early-release software and would like access, please contact agate-support@adaptivebiotech.com.
+
+Adaptive Agate is a new, modern platform designed by Adaptive Biotechnologies to share data with our immunoSEQ&reg; research customers and assist with downstream analysis. The platform consists of four components:
+
+- A cloud-based SQL Server database containing metadata about samples such as the total number of templates found and sample-level metrics such as clonality. 
+- Per-sample files containing detailed sequence-level information, stored in and accessed via Azure Blob Storage. 
+- A set of REST functions providing common algorithms and analyses. 
+- An easily-installed Python library that provides simple access to all of the above.
+
+Access to these resources are secured using Microsoft Azure Active Directory credentials. Customers can associate their existing email addresses with Agate accounts and, in many cases, use existing enterprise or Microsoft credentials.
+
+While we expect most users will use Python to access Agate data and functions, any tool or development environment that can access SQL, Azure Blob and HTTPS resources using Active Directory authentication is supported. For example, we supply a Microsoft Excel template (Windows only) that can automatically download data into worksheets and pivot tables for direct analysis in that environment.  For more information, visit the Agate documentation website at www.adaptiveagate.com.
+
+How to get the Adaptive Agate Python SDK
+========================================
+Packages for the Adaptive Agate Python SDK (adaptiveagatepy) are available from PyPi and Anaconda using the mechanisms below.
+
+To install from PyPi using PIP:
+.. code-block:: 
+
+	pip install adaptiveagatepy
+
+To install from Anaconda using conda:
+.. code-block:: 
+
+	conda install -c adaptivebiotech adaptiveagatepy
+
+immunoSEQ is for research use only and not for use in diagnostic procedures.
+
+Copyright 2020 Adaptive Biotechnologies, All Rights Reserved.
+
+

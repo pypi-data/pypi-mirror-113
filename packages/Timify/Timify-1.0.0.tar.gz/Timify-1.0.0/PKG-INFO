@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Timify
+Version: 1.0.0
+Summary: A python time tools
+Home-page: https://github.com/AidenEllis/Timify
+Author: Aiden
+Author-email: 
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Timify,Aiden Ellis,python timing tool,time converter,time
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

@@ -1,0 +1,5 @@
+numpy>=1.16
+plum-dispatch
+backends
+backends-matrix
+varz

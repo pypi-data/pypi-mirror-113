@@ -1,0 +1,14 @@
+composites-0.4.0.dist-info/LICENSE,sha256=CF-lnKvB4UJUm3w-LhQXXXOlEjOOEb5aDgHRo4L_Dlc,1310
+composites-0.4.0.dist-info/METADATA,sha256=n2pAt94Wf7HPz36n_28_rsVa8QCkHUXIojNBAlGHS1s,1226
+composites-0.4.0.dist-info/top_level.txt,sha256=8rFKbL1In6cv0XBeSaI5uG5g6oe1tYJjAc1mLlAvhWU,11
+composites-0.4.0.dist-info/RECORD,,
+composites-0.4.0.dist-info/WHEEL,sha256=r7pQDr7XJFpiVk6LXzKAEQJbAewo7nWTmktuyOWETz0,150
+composites/__init__.py,sha256=egVWEOLR_dqS43il09gbpIdat-kM3yIgrfj6C1vePLE,1990
+composites/core.cpython-37m-x86_64-linux-gnu.so,sha256=PmpBzY1X2Q5u07TPqCjLVeHkvUUWBBlFREtkmVSURI8,3849728
+composites/version.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+composites/utils.py,sha256=fnwF3Czo-tUtEPjP5QjhnrCm54eTJVpdNPjhwbyqw20,6044
+composites/core.pxd,sha256=RJsGCpM9ShUhqtmK_tHQ2vnDA7OX_P85cq5In9zMr9k,2604
+composites.libs/libgomp-f7e03b3e.so.1.0.0,sha256=GzmXB1qluHXQUhlsmNKuWncNm8Jezfq1jt5rKrV_8kQ,93080
+composites-0.4.0.data/data/LICENSE,sha256=CF-lnKvB4UJUm3w-LhQXXXOlEjOOEb5aDgHRo4L_Dlc,1310
+composites-0.4.0.data/data/README.md,sha256=vLGKPhn2BS15Nz0hlSKVd4PzMC0yg9xOjNZujzdCboE,1764
+composites-0.4.0.data/data/version.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22

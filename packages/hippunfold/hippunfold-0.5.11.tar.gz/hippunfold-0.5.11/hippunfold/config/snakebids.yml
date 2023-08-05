@@ -1,0 +1,389 @@
+bids_dir: '/path/to/bids/dir'
+output_dir: '/path/to/output/dir' #don't use '.'
+
+snakebids_dir: '.' #do not modify this variable -- is used to refer to files needed by the workflow when running with CLI
+
+#enable printing debug statements during parsing -- disable if generating dag visualization
+debug: False
+
+derivatives: False #will search in bids/derivatives if True; can also be path(s) to derivatives datasets
+
+#list of analysis levels in the bids app 
+analysis_levels: &analysis_levels
+ - participant
+ - group
+  
+
+#mapping from analysis_level to set of target rules or files
+targets_by_analysis_level:
+  participant:
+    - 'all'  # if '', then the first rule is run
+  group:
+    - 'all_group_tsv'
+
+#this configures the pybids grabber - create an entry for each type of input you want to grab
+# indexed by name of input
+#   dictionary for each input is passed directly to pybids get()
+#    https://bids-standard.github.io/pybids/generated/bids.layout.BIDSLayout.html#bids.layout.BIDSLayout.get
+
+
+pybids_inputs:
+  T2w:
+    filters:
+      suffix: 'T2w'
+      extension: '.nii.gz'
+      datatype: 'anat'
+      invalid_filters: 'allow'
+      space: null
+    wildcards:
+      - subject
+      - session
+      - acquisition
+      - run
+
+  dwi:
+    filters:
+      suffix: 'dwi'
+      extension: '.nii.gz'
+      invalid_filters: 'allow'
+      datatype: 'dwi'
+    wildcards:
+      - subject
+      - session
+      - acquisition
+      - run
+      - dir
+
+  hippb500:
+    filters:
+      suffix: 'b500'
+      extension: '.nii.gz'
+      invalid_filters: 'allow'
+      datatype: 'dwi'
+    wildcards:
+      - subject
+      - session
+
+  T1w:
+    filters:
+      suffix: 'T1w'
+      extension: '.nii.gz'
+      datatype: 'anat'
+      invalid_filters: 'allow'
+      space: null
+    wildcards:
+      - subject
+      - session
+      - acquisition
+      - run
+
+  seg:
+    filters:
+      suffix: 'dseg'
+      extension: '.nii.gz'
+      datatype: 'anat'
+      invalid_filters: 'allow'
+    wildcards:
+      - subject
+      - session
+
+  cropseg:
+    filters:
+      suffix: 'dseg'
+      extension: '.nii.gz'
+      datatype: 'anat'
+      invalid_filters: 'allow'
+    wildcards:
+      - subject
+      - session
+      - hemi
+
+
+
+#configuration for the command-line parameters to make available
+# passed on the argparse add_argument()
+parse_args:
+
+#---  core BIDS-app options --- (do not modify below) 
+
+  bids_dir:
+    help: The directory with the input dataset formatted according 
+          to the BIDS standard.
+
+  output_dir:
+    help: The directory where the output files 
+          should be stored. If you are running group level analysis
+          this folder should be prepopulated with the results of the
+          participant level analysis.
+
+  analysis_level: 
+    help: Level of the analysis that will be performed. 
+    choices: *analysis_levels
+
+  --participant_label:
+    help: The label(s) of the participant(s) that should be analyzed. The label 
+          corresponds to sub-<participant_label> from the BIDS spec 
+          (so it does not include "sub-"). If this parameter is not 
+          provided all subjects should be analyzed. Multiple 
+          participants can be specified with a space separated list.
+    nargs: '+'
+
+  --exclude_participant_label:
+    help: The label(s) of the participant(s) that should be excluded. The label 
+          corresponds to sub-<participant_label> from the BIDS spec 
+          (so it does not include "sub-"). If this parameter is not 
+          provided all subjects should be analyzed. Multiple 
+          participants can be specified with a space separated list.
+    nargs: '+'
+
+
+  --modality:
+    help: 'Type of image to run hippocampal autotop on, suffixed with seg will import an existing hippocampal tissue segmentation from that space, instead of running neural network (default: %(default)s)'
+    nargs: '+'
+    choices:
+      - T1w
+      - T2w
+      - hippb500
+      - dwi
+      - segT1w
+      - segT2w
+      - cropseg
+    default: 
+      - T2w
+ # custom command-line parameters can then be added, these will get added to the config
+
+  --derivatives:
+    help: 'Path to the derivatives folder (e.g. for finding manual segs) (default: %(default)s) '
+    default: False
+
+  --skip_preproc:
+    help: 'Set this flag if your inputs (e.g. T2w, dwi) are already pre-processed (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+ 
+  --skip_coreg:
+    help: 'Set this flag if your inputs (e.g. T2w, dwi) are already registered to T1w space (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+  --skip_inject_template_labels:
+    help: 'Set this flag to skip post-processing template injection into CNN segmentation (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+   
+
+  --rigid_reg_template:
+    help: 'Use rigid instead of affine for registration to template. Try this if your images are reduced FOV (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+  --use_gpu:
+    help: 'Enable gpu for inference by setting resource gpus=1 in run_inference rule (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+  --nnunet_disable_tta:
+    help: 'Disable test-time augmentation for nnU-net inference, speeds up inference by 8x, at expense of accuracy (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+  --output_spaces:
+    choices: 
+      - 'cropT1w'
+      - 'corobl'
+    default:
+      - 'cropT1w'
+    nargs: '+'
+    help: 'Sets the output space for results (default: %(default)s)'
+
+  --output_density:
+    choices:
+      - '7k'
+      - '2k'
+      - '400'
+      - '32k'
+    default:
+      - '7k'
+      - '2k'
+    nargs: '+'
+    help: 'Sets the output vertex density for results. Options correspond to approximate vertex spacings of 0.5mm, 1.0mm, and 2.0mm, respectively, with the 32k vertices option having unequal vertex spacing. (default: %(default)s)'
+
+
+  --hemi:
+    choices:
+      - 'L'
+      - 'R'
+    default:
+      - 'L'
+      - 'R'
+    nargs: '+'
+    help: 'Hemisphere(s) to process (default: %(default)s)'
+
+
+  --keep_work:
+    help: 'Keep work folder intact instead of archiving it for each subject (default: %(default)s)'
+    default: False
+    action: 'store_true'
+
+
+#--- workflow specific configuration -- 
+
+singularity:
+  prepdwi: 'docker://khanlab/prepdwi:latest'  
+  autotop: 'docker://khanlab/autotop_deps:v0.4.0'
+  fsl: '/project/6050199/akhanf/singularity/bids-apps/fsl_6.0.3_cuda9.1.sif'  #fsl with cuda container not on docker hub yet.. only used for dwi workflow anyhow..
+  ants: 'docker://kaczmarj/ants:2.3.4'
+
+
+template: CITI168
+
+
+template_files:
+  CITI168:
+    T1w: resources/CITI168/T1w_head_700um.nii.gz
+    xfm_corobl: resources/CITI168/CoronalOblique_rigid.txt
+    crop_ref: resources/CITI168/T2w_300umCoronalOblique_hemi-{hemi}.nii.gz
+    crop_refT1w: resources/CITI168/T1w_300umCoronalOblique_hemi-{hemi}.nii.gz
+    Mask_crop: resources/CITI168/Mask_300umCoronalOblique_hemi-{hemi}.nii.gz
+
+
+rigid_reg_template: False
+
+
+modality:
+  - T2w
+
+
+
+#these will be downloaded to ~/.cache/hippunfold
+nnunet_model:
+  T1w: trained_model.3d_fullres.Task101_hcp1200_T1w.nnUNetTrainerV2.model_best.tar
+  T2w: trained_model.3d_fullres.Task102_hcp1200_T2w.nnUNetTrainerV2.model_best.tar
+  T1T2w: trained_model.3d_fullres.Task103_hcp1200_T1T2w.nnUNetTrainerV2.model_best.tar
+  b1000: trained_model.3d_fullres.Task104_hcp1200_b1000.nnUNetTrainerV2.model_best.tar
+  trimodal: trained_model.3d_fullres.Task105_hcp1200_trimodal.nnUNetTrainerV2.model_best.tar
+  hippb500: trained_model.3d_fullres.Task110_hcp1200_b1000crop.nnUNetTrainerV2.model_best.tar
+
+
+use_mcr: True
+matlab_bin: '/cvmfs/restricted.computecanada.ca/easybuild/software/2017/Core/matlab/2019b/bin/matlab'
+mlm_license_file: '/cvmfs/restricted.computecanada.ca/config/licenses/matlab/inst_uwo/graham.lic'
+java_home: '/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/java/1.8.0_192/'
+
+
+#niftynet models -- this will be deprecated soon:
+cnn_model:
+  T2w: 'HCP1200-T2'
+  T1w: 'HCP1200-T1'
+  hippb500: 'HCP1200-b1000'
+  b1000: 'HCP1200-b1000'
+
+
+hippdwi_opts:
+  resample_dim: '734x720x67' # from 220x216x20 @ 1x1x1mm -> 0.3mm
+  bbox_x:
+    R: '383 510'
+    L: '224 351'
+  bbox_y: '198 453'
+
+unfold_vol_ref:
+  dims:
+    - '256'
+    - '128'
+    - '16'
+  voxdims:
+    - '0.15625'
+    - '0.15625'
+    - '0.15625'
+  origin:
+    - '0'
+    - '200'
+    - '0'
+  orient: RPI
+
+#space for uniform unfolded grid 
+unfold_mesh_ref:
+  dims:
+   - 254
+   - 126
+  start:
+   - 0.234375
+   - 0.234375
+  end:
+   - 39.765625
+   - 19.765625
+
+shape_inject:
+  labels_reg: 
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+  labels_reinsert:
+    - 7
+  label_smoothing_stdev: '0.5x0.5x0.5mm'
+
+laplace_labels:
+  AP: 
+    gm:
+      - 1
+      - 8
+    src:
+      - 5
+    sink:
+      - 6
+  PD:
+    gm:
+      - 1
+      - 8
+    src:
+      - 3
+    sink:
+      - 8   
+  IO:
+    gm:
+      - 1
+      - 8
+    src:
+      - 2
+      - 4
+      - 7
+    sink:
+      - 0 
+
+#---- dwi options below, not used in the default workflow ----
+
+#eddy options only used for experimental dwi workflow
+eddy:
+  flags:
+    verbose: True
+    repol: True
+    cnr_maps: True
+    residuals: True
+    data_is_shelled: True
+  opts:
+    mporder: 6
+    s2v_niter: 5
+    s2v_lambda: 1
+    s2v_interp: trilinear
+    ol_type: 'both'  #can be sw, gw, or both (use sw if no multi-band)
+   
+#masking options for dwi
+masking:
+  default_method: 'bet_from-b0_frac-1' #b0SyN_from-MNI152NLin2009cSym' #default method to use for brainmasking
+  methods: # list of methods (for QC report)
+    - 'bet_from-b0'
+    - 'bet_from-b0_frac-4'
+    - 'b0SyN_from-MNI152NLin2009cSym'
+  import_path: #only required if the import_mask - not implemented yet..
+    - '/path/to/mask_to_import/sub-{subject}_mask.nii.gz'
+  custom: #use this to set a custom method for a particular subject
+    #'0015': 'bet_from-b0_frac-4'
+    '0015': 'b0SyN_from-MNI152NLin2009cSym'
+
+archive_work: False

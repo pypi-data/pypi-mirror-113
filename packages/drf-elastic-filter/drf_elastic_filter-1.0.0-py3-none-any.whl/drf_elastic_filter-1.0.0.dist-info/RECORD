@@ -1,0 +1,10 @@
+drf_elastic_filter/__init__.py,sha256=iBLJkSwj-Irxq9xMumxuFqzXbdoAm_CKuLUfxyOC0Bk,62
+drf_elastic_filter/dynamic.py,sha256=U92UOhjny9udjtCgsfp80tiq2Z0sb_p4Gq4GNvmOLFs,1755
+drf_elastic_filter/elastic_filter.py,sha256=8cwz9VE_d6HOPi4-LaFDHkiAlReM3bnjPiFQhYy9TKA,783
+drf_elastic_filter/sub_serializer.py,sha256=fZZkPSR53eA2mOSjkvOXre0ttKVdkgfJnsyggE-Uwq8,979
+drf_elastic_filter/utils.py,sha256=452zaVXKIsSCPHWdhtvCAOdc5wPM_7c9WbzXr1-pwLA,597
+drf_elastic_filter-1.0.0.dist-info/LICENSE,sha256=fYpcAw57pU5HnG3AJ3RG0NTkU0jFh12bpA5kugttmwo,1081
+drf_elastic_filter-1.0.0.dist-info/METADATA,sha256=uE_2kgl7c6RX6p5gU3Otf5iYRiN9_APc5RiJmLAnFzM,726
+drf_elastic_filter-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+drf_elastic_filter-1.0.0.dist-info/top_level.txt,sha256=62EHCXwf0G4Q7l1-nRoKa89bomEwciNXCQzu6xH1qpI,19
+drf_elastic_filter-1.0.0.dist-info/RECORD,,

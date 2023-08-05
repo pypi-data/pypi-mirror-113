@@ -1,0 +1,9 @@
+pretty_repr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretty_repr/main.py,sha256=Jkt1sPdcZNBbhJFCaZ3kM8h6skoa-wPJAaATAzgIF2A,2638
+pretty_repr/run_pylint.py,sha256=0PMn7u98BwNYiSCO_g2MtaQDS0nrN_H_4_n2dWj79go,2814
+pretty_repr/test_main.py,sha256=P79GMqUkAeMv3hFInZ8ElTUmnUC9JEvqNmBBaA3mRn0,143
+pretty_repr-0.0.1.dist-info/LICENSE,sha256=Xs6Z8ioo9LCq1ip-_9dM6LOQAmJ3D5SpfXTt-QVrlHk,1096
+pretty_repr-0.0.1.dist-info/METADATA,sha256=n3aTCC4h5a62r-BDm-RRI9ZN_S3WtOMjQhjZizJLNvs,769
+pretty_repr-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pretty_repr-0.0.1.dist-info/top_level.txt,sha256=t54G0I-SX7iVD3WRZkiYCHppLwkvZxC9l79oTGoGycI,12
+pretty_repr-0.0.1.dist-info/RECORD,,

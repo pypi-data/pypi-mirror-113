@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pretty-repr
+Version: 0.0.1
+Summary: The package that allows you to create clear and informative methods for your own classes in Python.
+Home-page: https://github.com/AlbertFarkhutdinov/pretty_repr
+Author: Albert Farkhutdinov
+Author-email: albertfarhutdinov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pylint (==2.9.3)
+Requires-Dist: pytest (==6.2.4)
+
+# pretty_repr
+The package that allows you to create clear and informative methods for your own classes in Python.
+
+

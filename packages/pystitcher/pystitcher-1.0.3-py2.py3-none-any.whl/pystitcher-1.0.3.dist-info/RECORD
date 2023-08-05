@@ -1,0 +1,11 @@
+pystitcher/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+pystitcher/bookmark.py,sha256=AEu6U7MIYOw2JpMiUQaS4MSIIZwZUCBNvHdqjtU84nk,711
+pystitcher/skeleton.py,sha256=9he5C0a-ZCmVRepMVq7Sj_66czZe8I5kZCYM6LiUma0,2751
+pystitcher/stitcher.py,sha256=Ze_MPGtWvx1XtDwnQxcon67_-aBmVVUhJ1pimoX7IRg,9683
+pystitcher-1.0.3.dist-info/AUTHORS.rst,sha256=5DkJ1OTX7UIVQKoGRb0hBi3na4drZBm73jTggSiuQGM,68
+pystitcher-1.0.3.dist-info/LICENSE.txt,sha256=bicDF-Xkz3-eEp7-Gb504He8mH8gQiGiB3t0rd74h1A,1071
+pystitcher-1.0.3.dist-info/METADATA,sha256=pVlH-AARlH-YYibvI4nw6p4ODWxPgp6dr989eFDAU10,6649
+pystitcher-1.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pystitcher-1.0.3.dist-info/entry_points.txt,sha256=Z5-8xn6LvvdhiM6TWj5VPD4r_oVpHw-LBYZK4RxA_QM,56
+pystitcher-1.0.3.dist-info/top_level.txt,sha256=XJLUARGk8GbGrezsrgrUS01sUuUkYdahBc9L8-g76aw,11
+pystitcher-1.0.3.dist-info/RECORD,,

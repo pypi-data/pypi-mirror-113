@@ -1,0 +1,11 @@
+README.md
+UNLICENSE.txt
+setup.cfg
+setup.py
+wdlg/__init__.py
+wdlg/filedialog.py
+wdlg/messagebox.py
+wdlg.egg-info/PKG-INFO
+wdlg.egg-info/SOURCES.txt
+wdlg.egg-info/dependency_links.txt
+wdlg.egg-info/top_level.txt

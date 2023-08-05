@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: INR_collection
+Version: 0.2
+Summary: A collection of (conditional/modulatable) implicit neural representation implementations and basic building blocks in PyTorch.
+Home-page: https://github.com/janzuiderveld/INR-collection
+Author: Jan Zuiderveld
+Author-email: janzuiderveld@gmail.com
+License: MIT
+Download-URL: https://github.com/janzuiderveld/INR-collection/archive/v_02.tar.gz
+Description: UNKNOWN
+Keywords: Implicit neural representations,functional,continouos,SIREN,IM-NET
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

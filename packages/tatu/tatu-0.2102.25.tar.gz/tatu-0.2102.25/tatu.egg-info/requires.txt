@@ -1,0 +1,7 @@
+numpy
+sklearn
+liac-arff
+pymysql
+aiuna==0.2103.13
+requests
+sqlalchemy

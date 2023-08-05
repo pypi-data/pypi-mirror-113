@@ -1,0 +1,7 @@
+setup.py
+sancopack/__main__.py
+sancopack.egg-info/PKG-INFO
+sancopack.egg-info/SOURCES.txt
+sancopack.egg-info/dependency_links.txt
+sancopack.egg-info/requires.txt
+sancopack.egg-info/top_level.txt

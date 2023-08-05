@@ -1,0 +1,8 @@
+README.md
+setup.py
+glvm/__init__.py
+glvm.egg-info/PKG-INFO
+glvm.egg-info/SOURCES.txt
+glvm.egg-info/dependency_links.txt
+glvm.egg-info/requires.txt
+glvm.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+certifi
+chardet
+idna
+pandas
+postpy2
+python-magic
+requests
+urllib3

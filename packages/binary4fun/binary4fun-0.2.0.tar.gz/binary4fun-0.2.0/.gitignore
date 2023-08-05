@@ -1,0 +1,4 @@
+__pycache__
+dist/
+*.egg-info/
+src/binary4fun/_version.py

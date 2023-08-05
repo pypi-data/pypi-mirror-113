@@ -1,0 +1,6 @@
+include pyproject.toml
+include LICENSE
+include setup.py
+
+# Include the README
+include *.md

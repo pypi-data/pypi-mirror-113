@@ -1,0 +1,12 @@
+tfga/__init__.py,sha256=NelaSz4WxSBGN4S6bBuSyIWGfYlOWSP-eC1Y5KvzAAQ,34
+tfga/blades.py,sha256=wZn_7E1JHSE7WDtFn8Zh4D_MqW-Nm3A2aE_9sfceoWY,5692
+tfga/cayley.py,sha256=tm6aC8_Q0iikyRDGJAUVqcTZKHd2U1Ahe7HsxuKxujc,2205
+tfga/layers.py,sha256=QCxSY5njHVk7cO3D2tJp4xCBpr-f0HSZSzzSYgYPPxY,25826
+tfga/mv.py,sha256=gbSxDzoIg8uCf-L_0dvpLB9KgzWAeiN77vi4Q8-riqU,8135
+tfga/mv_ops.py,sha256=nKwsa7dnlGajPxg4pqh8XETWV9Fb1NXahzJq3GGpfEs,2842
+tfga/tfga.py,sha256=5mmRPYVoROrXS8_fCoV7zK62miDBX7o7Dlf8CoBiXCw,28145
+tfga-0.1.16.dist-info/LICENSE,sha256=rIBhaWd5xLiYzmiRGV0sPJznWIrJKM4eJUoD1K3S8Fk,1069
+tfga-0.1.16.dist-info/METADATA,sha256=MTPgrUlR1Pl9OcWXS1hYZoATPRQVAbuEi-1Seuize3o,11841
+tfga-0.1.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfga-0.1.16.dist-info/top_level.txt,sha256=_8ATbedU0ezeb-Jz4h5BgtMoNgaum78kmqjkz7cOwqY,5
+tfga-0.1.16.dist-info/RECORD,,

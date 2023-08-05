@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: pytorch-kfp-components
+Version: 0.1.0rc2
+Summary: PyTorch Kubeflow Pipeline
+Home-page: https://github.com/kubeflow/pipelines/tree/master/components/PyTorch/pytorch-kfp-components/
+Author: The PyTorch Kubeflow Pipeline Components authors
+Author-email: pytorch-kfp-components@fb.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: Kubeflow Pipelines,KFP,ML workflow,PyTorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6

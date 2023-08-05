@@ -1,0 +1,4 @@
+kfp>=1.6.1
+torch>=1.7.1
+torchserve>=0.3.0
+torch-model-archiver

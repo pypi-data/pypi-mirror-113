@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cloudfn.egg-info/PKG-INFO
+cloudfn.egg-info/SOURCES.txt
+cloudfn.egg-info/dependency_links.txt
+cloudfn.egg-info/entry_points.txt
+cloudfn.egg-info/not-zip-safe
+cloudfn.egg-info/requires.txt
+cloudfn.egg-info/top_level.txt

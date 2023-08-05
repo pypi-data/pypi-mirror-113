@@ -1,0 +1,11 @@
+[console_scripts]
+flora = flora.cmds.flora:main
+flora_farmer = flora.server.start_farmer:main
+flora_full_node = flora.server.start_full_node:main
+flora_full_node_simulator = flora.simulator.start_simulator:main
+flora_harvester = flora.server.start_harvester:main
+flora_introducer = flora.server.start_introducer:main
+flora_timelord = flora.server.start_timelord:main
+flora_timelord_launcher = flora.timelord.timelord_launcher:main
+flora_wallet = flora.server.start_wallet:main
+

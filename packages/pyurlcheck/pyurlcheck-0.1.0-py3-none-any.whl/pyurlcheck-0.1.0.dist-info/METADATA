@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pyurlcheck
+Version: 0.1.0
+Summary: Search docs and validate URLs found are working properly.
+Home-page: https://github.com/jeffkala/pyurlcheck.git
+License: MIT
+Author: Jeff Kala
+Author-email: jeff.l.kala@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/jeffkala/pyurlcheck.git
+Description-Content-Type: text/markdown
+
+# PYURLCHECK
+
+Project is currently a **WIP**.
+
+`pyurlcheck` can be used to scan through all of a projects documents and validate any `public` facing URLs are still reachable.
+
+### Why??
+It's apparent when navigating code documentation online that keeping up with URLs in documentation isn't always done properly.  Running into constant `404 Not Found` errors is frustrating for users that are trying to learn how to use a product or tool.
+
+### Examples
+Running the tool against a single file.
+```python
+▶ python cli.py examples/example1.md                          
+examples/example1.md:8  URL Issue: https://www.ansible.com/jeff
+```
+
+Running the tool against a directory.  All files in the directory will be executed.
+```python
+▶ python cli.py examples/           
+examples/example2.md:6  URL Issue: https://www.ansible.com/jeff
+examples/example1.md:8  URL Issue: https://www.ansible.com/fake
+```
+
+Alternatively,
+
+you can replace `python cli.py` with `pyurlcheck` on the command line.
+

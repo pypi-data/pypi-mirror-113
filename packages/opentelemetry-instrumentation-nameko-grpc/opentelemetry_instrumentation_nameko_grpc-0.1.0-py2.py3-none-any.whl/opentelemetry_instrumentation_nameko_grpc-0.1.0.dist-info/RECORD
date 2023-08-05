@@ -1,0 +1,10 @@
+nameko_grpc_opentelemetry/__init__.py,sha256=j5qVSmjuXlbkAzqxBWZtalWsvjtqgDsAh2hi6fKExwg,10159
+nameko_grpc_opentelemetry/package.py,sha256=6PivQFfVGUBNENK7uh4LACx9LfRSrJcDVy03fSFISCQ,67
+nameko_grpc_opentelemetry/tee.py,sha256=KeQSjEpTK5j1hWsZ4otns_5djQvIvvMD8lO6V5uLV4U,2187
+nameko_grpc_opentelemetry/version.py,sha256=B_hWSSmPwyT9xcZln52fMcwdQpOePY4D7ZxsRJYtj1s,66
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/LICENSE,sha256=aYSSIb-5AFPeITTvXm1UAoe0uYBiMmSS8flvXaaFUks,10174
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/METADATA,sha256=vLH3hukxd2BS1T25Dkk7VO8ZsyPVVpDPRsAZ8ygwdmY,972
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/top_level.txt,sha256=nQtHt2K--S1VK6T_jnAq_S2Tv5ZsTBBptWXfTeizJVo,26
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+opentelemetry_instrumentation_nameko_grpc-0.1.0.dist-info/RECORD,,

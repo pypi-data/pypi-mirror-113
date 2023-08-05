@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: InteractionSimulator
+Version: 0.0.2
+Summary: Simulator environment for INTERACTION driving dataset
+Home-page: https://github.com/sisl/InteractionSimulator
+Author: Kunal Menda, Arec Jamgochian
+Author-email: jamgochian95@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: termcolor
+Requires-Dist: python-dateutil
+Requires-Dist: gym
+Requires-Dist: future
+Requires-Dist: sklearn
+Requires-Dist: pyproj
+Requires-Dist: pytest
+
+# InteractionSimulator
+Simulator for the INTERACTION dataset
+
+## Installation
+
+### Dependencies
+
+Install requirements with pip
+
+```
+pip install -r requirements.txt
+export PYTHONPATH=$(pwd):$PYTHONPATH
+```
+
+### Dataset
+
+The INTERACTION dataset contains a two folders which should be copied into a folder called ``./datasets``: 
+  - the contents of ``recorded_trackfiles`` should be copied to ``./datasets/trackfiles``
+  - the contents of ``maps`` should be copied to ``./datasets/maps``
+
+### Tests
+
+``python tests/test_idm_graph.py`` should generate a 300-timeframe-long simulation video, `idm_graph.mp4`, with an IDM policy and ClosestObstacle graph.
+
+If issues with ffmpeg and using Conda to manage environment, can resolve with ``conda install -c conda-forge ffmpeg``
+
+

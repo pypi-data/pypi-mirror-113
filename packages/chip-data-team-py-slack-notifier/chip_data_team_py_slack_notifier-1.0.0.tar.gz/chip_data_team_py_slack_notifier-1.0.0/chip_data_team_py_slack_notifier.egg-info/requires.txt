@@ -1,0 +1,4 @@
+pytest
+slack_sdk
+twine
+wheel

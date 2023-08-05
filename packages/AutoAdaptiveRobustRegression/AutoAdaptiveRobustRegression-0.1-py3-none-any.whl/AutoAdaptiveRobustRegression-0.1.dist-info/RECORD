@@ -1,0 +1,17 @@
+AutoAdaptiveRobustRegression/AdaptiveRobustRegression.dll,sha256=CLcEMHJsAGfhVFBSl01423JtdtOenCDYwa4b03GsbQ8,3106518
+AutoAdaptiveRobustRegression/__init__.py,sha256=E-I-uEk4I6rxI7w0yiZ98SQ8-sQaO-lqTkfrvaJd9lI,210
+AutoAdaptiveRobustRegression/internal.py,sha256=8Z6U3fPTPD5LYSX_FbS_-hJGhWHkQ20v98GxELIhcug,4035
+AutoAdaptiveRobustRegression/libopenblas.dll,sha256=_FLSPAOx--PiZjmlFEV88JscnsM7z5PuYsbKKLxDAFI,32492623
+adaptive-robust-regression/AdaptiveRobustRegression.dll,sha256=CLcEMHJsAGfhVFBSl01423JtdtOenCDYwa4b03GsbQ8,3106518
+adaptive-robust-regression/__init__.py,sha256=E-I-uEk4I6rxI7w0yiZ98SQ8-sQaO-lqTkfrvaJd9lI,210
+adaptive-robust-regression/internal.py,sha256=8Z6U3fPTPD5LYSX_FbS_-hJGhWHkQ20v98GxELIhcug,4035
+adaptive-robust-regression/libopenblas.dll,sha256=_FLSPAOx--PiZjmlFEV88JscnsM7z5PuYsbKKLxDAFI,32492623
+adaptiverobustregression/AdaptiveRobustRegression.dll,sha256=CLcEMHJsAGfhVFBSl01423JtdtOenCDYwa4b03GsbQ8,3106518
+adaptiverobustregression/__init__.py,sha256=E-I-uEk4I6rxI7w0yiZ98SQ8-sQaO-lqTkfrvaJd9lI,210
+adaptiverobustregression/internal.py,sha256=8Z6U3fPTPD5LYSX_FbS_-hJGhWHkQ20v98GxELIhcug,4035
+adaptiverobustregression/libopenblas.dll,sha256=_FLSPAOx--PiZjmlFEV88JscnsM7z5PuYsbKKLxDAFI,32492623
+AutoAdaptiveRobustRegression-0.1.dist-info/LICENSE,sha256=xg7XST7nqXGdUgxqXo2uDuCwcU_JtqBiNE1Qde--Ne0,1089
+AutoAdaptiveRobustRegression-0.1.dist-info/METADATA,sha256=Hhp7AZDHyYWprCVyJnhNZcWgOr_SxoDlKxIzbDr0mG0,801
+AutoAdaptiveRobustRegression-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+AutoAdaptiveRobustRegression-0.1.dist-info/top_level.txt,sha256=rOYbRCPb07qXHVisTjWwFzm54n2oARNnozZWJdpEpKs,29
+AutoAdaptiveRobustRegression-0.1.dist-info/RECORD,,

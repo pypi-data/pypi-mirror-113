@@ -1,0 +1,13 @@
+deepse/__init__.py,sha256=S_--evjziKqdsLvK24p4XMTQCg91VcM7NSftaFyGmb0,539
+deepse/bert_embedding.py,sha256=XYzG2YxyPqkmghHiuk4GxIZudT27ytx423BdNDzLB-M,5994
+deepse/simcse.py,sha256=G50AvQ6FkzbRD3A1RbGFR0L0L_N4744f3KVx3wBesgU,7465
+deepse/simcse_dataset.py,sha256=31j9tfKIwcAf23HPgygxyetre5VARcfjjMoLhsZhyCI,14654
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bert_embedding_test.py,sha256=BXec7_p0frQRbCpojKImYURwGvA-7wxbbBpNiNsN6bo,3473
+tests/simcse_dataset_test.py,sha256=afAAVmpOPkXYaiNPzTdu2NOq66DCQXTC6xNccbE2RTk,1766
+tests/simcse_test.py,sha256=o4stBKHUur7S353ytBB1p4XbgXudfZxJGHZNdAJRUdU,2921
+deepse-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepse-0.0.3.dist-info/METADATA,sha256=Thp9b-cUFJ-z215HBlxaJqhvJtPc6MIHZBU8PZGf77A,3404
+deepse-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+deepse-0.0.3.dist-info/top_level.txt,sha256=tEwu2C71ev9FJnFJB0EKuuqTV8wy6ZFctD3YQQ5aPpY,13
+deepse-0.0.3.dist-info/RECORD,,

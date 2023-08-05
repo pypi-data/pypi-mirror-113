@@ -1,0 +1,31 @@
+numpy
+scipy
+matplotlib
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-argparse
+sphinxcontrib-bibtex
+
+[vasp]
+
+[vasp:python_version < "3.6"]
+monty<=v4.0.2
+
+[vasp:python_version >= "3.6"]
+numpy>=1.17
+
+[vasp:python_version >= "3.7"]
+pymatgen
+
+[vasp:python_version ~= "3.4"]
+pymatgen==2018.1.19
+ruamel.yaml<=0.15.94
+numpy~=1.16
+
+[vasp:python_version ~= "3.5"]
+pymatgen<=2019.6.20
+
+[vasp:python_version ~= "3.6"]
+pymatgen<=2021.2.8.1

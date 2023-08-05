@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: altbuf
+Version: 1.0.2
+Summary: Tiny package to enter and exit the alternate buffer using ANSI escape sequences.
+Home-page: https://github.com/larshb/altbuf
+Author: Lars Henrik Bolstad
+Author-email: lahebo@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/larshb/altbuf/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Alternate Buffer
+================
+
+![Demonstration](demo.gif)
+
+Tiny package to enter and exit the alterante buffer using ANSI escape sequences.
+There is no need to use ncurses or other legacy packages to do one simple thing,
+which is to open a separate terminal buffer (window) temporarily, and return the
+terminal to its previous state afterwards.
+
+Tested and working in PowerShell and Gnome-Terminal.
+
+

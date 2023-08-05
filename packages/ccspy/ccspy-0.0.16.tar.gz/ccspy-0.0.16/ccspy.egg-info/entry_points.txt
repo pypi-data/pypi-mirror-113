@@ -1,0 +1,7 @@
+[console_scripts]
+ccspy_anat = ccspy.ccspy_anat:main
+ccspy_anat_01_pre_freesurfer = ccspy.ccspy_anat_01_pre_freesurfer:main
+ccspy_anat_02_freesurfer = ccspy.ccspy_anat_02_freesurfer:main
+ccspy_anat_03_postfs = ccspy.ccspy_anat_03_postfs:main
+ccspy_say_hello = ccspy.say_hello:main
+

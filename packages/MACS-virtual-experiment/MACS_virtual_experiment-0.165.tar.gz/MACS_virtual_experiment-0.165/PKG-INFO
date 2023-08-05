@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: MACS_virtual_experiment
+Version: 0.165
+Summary: Python wrapper for Monte-carlo simulation of MACS instrument
+Home-page: https://github.com/thallor1/MACS-Mcstas-Interface
+Author: Tom Halloran
+Author-email: thallor1@jhu.edu
+License: MIT
+Download-URL: https://github.com/thallor1/MACS-Mcstas-Interface/blob/main/macs_mcstas.tar.gz
+Description: UNKNOWN
+Keywords: MonteCarlo,Neutron,Instrumentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

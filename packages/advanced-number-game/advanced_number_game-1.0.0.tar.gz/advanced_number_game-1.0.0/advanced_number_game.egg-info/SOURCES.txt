@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+advanced_number_game.egg-info/PKG-INFO
+advanced_number_game.egg-info/SOURCES.txt
+advanced_number_game.egg-info/dependency_links.txt
+advanced_number_game.egg-info/entry_points.txt
+advanced_number_game.egg-info/requires.txt
+advanced_number_game.egg-info/top_level.txt
+number_game/__init__.py
+number_game/__main__.py

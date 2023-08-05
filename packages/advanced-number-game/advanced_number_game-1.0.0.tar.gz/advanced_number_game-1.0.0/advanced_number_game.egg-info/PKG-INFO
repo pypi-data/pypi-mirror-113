@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: advanced-number-game
+Version: 1.0.0
+Summary: A number game offering a more advanced experience than other number game packages
+Home-page: https://github.com/mrf-dot/number_game/
+Author: Mitch Feigenbaum
+Author-email: mfeigenbaum23@gmail.com
+License: MIT
+Description: # Advanced Number Game 
+        This package is an alternative to other non-advanced number game packages, within containing functions to continue play and select difficulty
+        # Installation
+        This package can be installed from PyPI
+        ```
+        pip install advanced_number_game
+        ```
+        # How to use
+        To play this number game, call the program
+        ```
+        number_game
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

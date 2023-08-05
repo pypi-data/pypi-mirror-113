@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pipindex/__init__.py
+pipindex/command.py
+pipindex/exceptions.py
+pipindex/models.py
+pipindex/utils.py
+pipindex.egg-info/PKG-INFO
+pipindex.egg-info/SOURCES.txt
+pipindex.egg-info/dependency_links.txt
+pipindex.egg-info/entry_points.txt
+pipindex.egg-info/requires.txt
+pipindex.egg-info/top_level.txt

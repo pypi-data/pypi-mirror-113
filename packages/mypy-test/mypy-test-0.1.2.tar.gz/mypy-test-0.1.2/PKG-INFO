@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mypy-test
+Version: 0.1.2
+Summary: Test mypy plugins, stubs, custom types.
+Home-page: https://github.com/orsinium-labs/mypy_test
+Author: Gram
+Author-email: gram@orsinium.dev

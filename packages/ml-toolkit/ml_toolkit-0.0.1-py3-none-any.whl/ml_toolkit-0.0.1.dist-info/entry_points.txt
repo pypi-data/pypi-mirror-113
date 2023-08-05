@@ -1,0 +1,3 @@
+[console_scripts]
+mt = ml_toolkit.__main__:main
+

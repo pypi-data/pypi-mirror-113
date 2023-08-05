@@ -1,0 +1,12 @@
+pOboto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pOboto/pO_CloudWatch.py,sha256=wGqlZ2cp7seJdFeP1foBpWcFIOxBJGK8s_xqNeCoziQ,773
+pOboto/pO_Glue.py,sha256=B2VnI77XIFr8E4OFArkK9kWCKQfXBdyJDzsJ6sU0kSY,1114
+pOboto/pO_ParameterStore.py,sha256=Kq83FQ5fb3CTgoFrdYhCaji6QhU15yG9MPB9xlNUjQ4,742
+pOboto/pO_RedshiftDataAPIService.py,sha256=tP1XI2ELTx4jkNZ3FT2N9zquK06-alXbQD6uy5R8m3w,611
+pOboto/pO_S3.py,sha256=w5lRJ_ws_9JPl6XyWCXGPhRs547_rnZp4q0uIT2v9m4,2100
+pOboto/pO_SecretsManager.py,sha256=7ygf_VdHJGpaS7iDNCzWzYuZToHOLoQ-dGbNGWu74AQ,2140
+pOboto-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pOboto-0.0.2.dist-info/METADATA,sha256=TP03iBxJk8QhVPil05HImuUfccZGbF022pwWFU2elPw,523
+pOboto-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pOboto-0.0.2.dist-info/top_level.txt,sha256=NfphWYOfgc6Y5HG3oUaFyXzvUt-AA8l71zqS3Q239q4,7
+pOboto-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: exptool
+Version: 1.0.0
+Summary: the misc-tools for experiment of machine learning and bioinformatics.
+Home-page: UNKNOWN
+Author: Han Xu
+Author-email: hxu10670@gmail.com
+Maintainer: Han Xu
+Maintainer-email: hxu10670@gmail.com
+License: UNKNOWN
+Keywords: machine learning,experimental,paper,sci,tools
+Platform: any
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
+the misc-tools for experiment of machine learning and bioinformatics.
+
+

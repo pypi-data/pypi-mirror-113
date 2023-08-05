@@ -1,0 +1,13 @@
+loguru
+requests
+requests-toolbelt
+shortuuid
+more_itertools
+geojson
+flask
+cherrypy
+schedule
+defusedxml
+openpyxl
+paho-mqtt
+pyyaml

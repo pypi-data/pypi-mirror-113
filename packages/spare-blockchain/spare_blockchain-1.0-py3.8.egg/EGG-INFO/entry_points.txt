@@ -1,0 +1,11 @@
+[console_scripts]
+spare = spare.cmds.spare:main
+spare_farmer = spare.server.start_farmer:main
+spare_full_node = spare.server.start_full_node:main
+spare_full_node_simulator = spare.simulator.start_simulator:main
+spare_harvester = spare.server.start_harvester:main
+spare_introducer = spare.server.start_introducer:main
+spare_timelord = spare.server.start_timelord:main
+spare_timelord_launcher = spare.timelord.timelord_launcher:main
+spare_wallet = spare.server.start_wallet:main
+

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: scsit-tools
+Version: 1.0.0
+Summary: Biological gene analyse tool
+Home-page: https://github.com/shang-qian/SCSit
+Author: HNU_XIE_LAB
+Author-email: susiew01@163.com
+License: MIT
+Keywords: scsit,scsit-tools
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Introduction
+
+SCSit: A high-efficiency cell types identification tool for single-cell sequencing data from SPLiT-seq
+
+### Parameter description
+All file_path are *Absolute path*, cause thread work direction may different with
+file path. So path from content root is not suitable here.
+
+#### Eg: 
+```angular2html
+    r1 = b"D:/Code/SCSit_Package/r1.fastq"
+```
+- param r1: Path of file1.fastq
+- param r2: Path of file2.fastq
+
+
+

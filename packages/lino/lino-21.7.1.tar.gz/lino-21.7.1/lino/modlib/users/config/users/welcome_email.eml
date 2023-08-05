@@ -1,0 +1,16 @@
+<html><head><base href="{{settings.SITE.server_url}}" target="_blank"></head><body>
+<body>
+<p>Dear {{obj.get_full_name()}},</p>
+
+<p>Welcome to the
+<a href="{{rt.settings.SITE.server_url}}">{{rt.settings.SITE.server_url}}</a> site.
+</p>
+
+{% if obj.verification_code %}
+Please click {{tostring(ar.instance_action_button(
+obj.verify, request_kwargs=dict(action_param_values=dict(
+email="{{obj.email}}", verification_code="{{obj.verification_code}}"))))))}}
+and enter your verificataion code: <b>{{obj.verification_code}}</b>.
+{% endif %}
+
+</body>

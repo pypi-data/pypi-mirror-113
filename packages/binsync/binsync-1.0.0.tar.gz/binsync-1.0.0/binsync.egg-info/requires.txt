@@ -1,0 +1,5 @@
+sortedcontainers
+toml
+GitPython
+filelock
+PyQt5-sip

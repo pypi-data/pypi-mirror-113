@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/pydraughts.egg-info/PKG-INFO
+src/pydraughts.egg-info/SOURCES.txt
+src/pydraughts.egg-info/dependency_links.txt
+src/pydraughts.egg-info/top_level.txt

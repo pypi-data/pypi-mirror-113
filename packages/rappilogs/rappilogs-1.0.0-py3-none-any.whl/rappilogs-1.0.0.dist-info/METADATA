@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rappilogs
+Version: 1.0.0
+Summary: Archiva logs en un canal de Slack
+Home-page: UNKNOWN
+Author: Agustin Aguirre
+Author-email: aguirreagustinariel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: rappislack
+
+UNKNOWN
+

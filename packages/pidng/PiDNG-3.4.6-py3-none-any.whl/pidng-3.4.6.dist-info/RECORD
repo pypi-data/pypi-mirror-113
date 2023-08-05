@@ -1,0 +1,10 @@
+pidng/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidng/bitunpack.c,sha256=o_5EGWbNMZvVsZUFZpUg77W9HL77GRTNi-7GiY3BSyc,2966
+pidng/core.py,sha256=pgV06MPpSH2sL4UiGYRW5z3ZQ_HJWf6C5YWS_iskdLQ,19037
+pidng/dng.py,sha256=vDnjeZ01ZsA_s8Iw_-oW2azqBwVEVXH4Kgnc6IK7-lM,13121
+pidng/liblj92/Makefile,sha256=WaFPnhlDfcvl8Ly50lT5_EApkUCmJxHYYwKRG1KcygY,394
+pidng/liblj92/lj92.c,sha256=cWEfgNtqowdy7N16KGLWtWlxOyvOxDk53YZ0vkNgWrA,32104
+pidng/liblj92/lj92.h,sha256=El0abVVyxb7-euXD7CPKjVLKXhwcltZ5WFfH4cnCLL0,2835
+pidng-3.4.6.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pidng-3.4.6.dist-info/METADATA,sha256=RXoNJMaEXoTcnWlgXDvEehzddMKGWo_ZOZ4MC_Cwp0g,2244
+pidng-3.4.6.dist-info/RECORD,,

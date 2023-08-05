@@ -1,0 +1,10 @@
+autodump/__init__.py,sha256=WH5MtUcd3at1KxdhaZ0G-0Nun4msI_gdEBP9oPpL7pM,54
+autodump/main.py,sha256=m_ICbVTx4Kgj5wwd_pL2iHq2Rg1Kb3S-NbruJo8e2Fs,1279
+autodump/medium/__init__.py,sha256=0ZahQiC9ySVrS41CyCrIEX5J7_dOfIDRO7oRVeoLeOM,89
+autodump/medium/common.py,sha256=AkZdLO5KPwH5UBr6vN3LYLTkqq0nGNE3iwZGgGb-ONE,432
+autodump/medium/mysql_medium.py,sha256=_ZBY-ffUwkhU50eIRzWixouppJGgUQvx2zhfd4KtOwU,3309
+autodump-1.0.0.dist-info/LICENSE,sha256=z0oa5HBXL9mtoFPgk3Ziowlkom9AaQo9SUbM-nnVKOM,1064
+autodump-1.0.0.dist-info/METADATA,sha256=7eqtQO6yIz3uFqiEjbGJBojNaSkGhWBco5UKyuF3JOw,704
+autodump-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autodump-1.0.0.dist-info/top_level.txt,sha256=c1di9xWdAf9RhkgcpwJ8Pxq7Ffreg9xd7Zg6gdsTUAA,9
+autodump-1.0.0.dist-info/RECORD,,

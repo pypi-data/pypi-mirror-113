@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hepfile
+Version: 0.1.0
+Summary: A file description modeled after the ROOT analysis toolkit and common use-cases in High Energy Physics. Implemented in HDF5, hepfile stands for Heterogeneous Entries in Parallel-file. 
+Home-page: https://github.com/mattbellis/hepfile
+Author: Matt Bellis
+Author-email: matthew.bellis@gmail.com

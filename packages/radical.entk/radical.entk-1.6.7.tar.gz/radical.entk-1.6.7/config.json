@@ -1,0 +1,18 @@
+{
+    "autoterminate": true,
+    "completed_qs": -5191,
+    "hostname": "",
+    "password": "",
+    "pending_qs": 0,
+    "port": 0,
+    "reattempts": 0,
+    "resubmit_failed": false,
+    "rmq_cleanup": false,
+    "rts": "another",
+    "rts_config": {
+        "db_cleanup": true,
+        "sandbox_cleanup": true
+    },
+    "username": "",
+    "write_workflow": false
+}

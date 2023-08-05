@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: designer
+Version: 0.0.0
+Summary: Student-friendly and evidence-based visual graphics library.
+Home-page: UNKNOWN
+Author: krishols
+Author-email: kris@udel.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# Playing
+### An evidence-based and student friendly visual graphics library to learn computer science with Python.
+
+

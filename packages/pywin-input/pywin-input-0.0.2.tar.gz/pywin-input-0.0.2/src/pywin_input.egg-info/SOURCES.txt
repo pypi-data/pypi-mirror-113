@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pywin_input.egg-info/PKG-INFO
+src/pywin_input.egg-info/SOURCES.txt
+src/pywin_input.egg-info/dependency_links.txt
+src/pywin_input.egg-info/top_level.txt
+src/wininput/__init__.py
+src/wininput/common.py
+src/wininput/keyboard.py

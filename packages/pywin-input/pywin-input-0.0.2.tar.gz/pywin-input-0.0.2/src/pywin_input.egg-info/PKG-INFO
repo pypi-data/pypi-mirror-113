@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pywin-input
+Version: 0.0.2
+Summary: A lightweight library to simulate keyboard and mouse input
+Home-page: https://github.com/avble/keyboardNG
+Author: Avble Harry
+Author-email: avble.harry@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/avble/keyboardNG/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Introduction
+
+
+# Installation
+install the package 
+```bash
+pip install py-wininput
+```
+
+
+# Examples
+## Send text
+```python
+import wininput.keyboard as kb
+kb.send_text("hello world")
+kb.send_text("안녕하세요 세계")
+```
+
+The above program produces the following output
+```bash
+hello world
+안녕하세요 세계
+```
+
+## Send the virtual key
+
+```python
+import wininput.keyboard as kb
+import wininput.common as common
+kb.send_virtual_key(common.VK_A) # Send the 'a' chacter
+kb.send_virtual_key(common.VK_RETURN) # Send the return character
+```
+The above program produces the following output
+```bash 
+a
+<ENTER>
+```
+
+
+
+

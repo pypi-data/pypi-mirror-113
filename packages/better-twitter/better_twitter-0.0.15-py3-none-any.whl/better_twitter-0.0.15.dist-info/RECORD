@@ -1,0 +1,12 @@
+better_twitter/__init__.py,sha256=OFMvfiZSeM5309D13Y9nFtkF19qpMxV-sAqmRVZ96Yg,92
+better_twitter/configs.py,sha256=_TpYxK9FCVpuUNM4SNMa1stnqxoSsQChNpe8kKfIunM,163
+better_twitter/db.py,sha256=2yhZvwMvw_7w36_djzF8L-g0VckDKezrKHogGifNWQ4,505
+better_twitter/main.py,sha256=WrwXZMuaiKWIpVXfgQzJoStdSq1ucGttM7NahLoDkQY,3688
+better_twitter/tweets.py,sha256=YWbKZ-a4IoeHgKj4M3SNu5pDidzIdsfWfAG5aD5sYG0,2083
+better_twitter/utils.py,sha256=Qy3PMYDoLMsjMsl9uGRm3ymenj4HV1Y8LmRQ8R2504g,611
+better_twitter-0.0.15.dist-info/AUTHORS.rst,sha256=u6p5HyoH1VIQx7MG1JXP9mzQIccCaaIHK9MaM1HOFHI,158
+better_twitter-0.0.15.dist-info/METADATA,sha256=G2zQSL9LdT0N2Sp_cLtGzMhGuahw4LvAjsJETLBiNKU,1665
+better_twitter-0.0.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+better_twitter-0.0.15.dist-info/entry_points.txt,sha256=z3Yag0jr4pUZbyRYjDB4Ziwls5BkLJICU0z8amyoUeM,90
+better_twitter-0.0.15.dist-info/top_level.txt,sha256=M2qaqwPmAGVcYZoAOzpyLZrbWiWEAPUb027Oiuz0tRc,15
+better_twitter-0.0.15.dist-info/RECORD,,

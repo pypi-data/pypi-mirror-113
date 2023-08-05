@@ -1,0 +1,12 @@
+litcorpt/__init__.py,sha256=JRNUoIj8xD9jbPj_k020p_uPzQcG9UJl5UtcdlQBRMs,565
+litcorpt/constants.py,sha256=TANTI6aAab_SHVtOICtiKLUG8QdYQWUE5sPccw2d8SU,146
+litcorpt/epub.py,sha256=AS_AU0KJhoKK1bkAkgijpNYe9-VDERtceUoluGTajME,6367
+litcorpt/main.py,sha256=jT233Uv7wUYV1fKr6yFlkx7h4CrPSXIJAk---rwyTOA,13806
+litcorpt/model.py,sha256=hOwUtxUSgu5wO32N0k8OmvCFocsnBh0POqtRXzKrffA,10574
+litcorpt/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+litcorpt/utils.py,sha256=_EtBQDEM0O-hoknU-nEDIg9B0m9BoQfuPl2l3PZeMbc,3345
+litcorpt-0.0.4.dist-info/LICENSE,sha256=1uGzFUIKowKctTX3s35FKvwvKps0g4NMR7H1RCG-mLY,1056
+litcorpt-0.0.4.dist-info/METADATA,sha256=9S3vHlImPC_7F1cAHFvcu8e30kH9QPfSzC1uioPWrvs,8958
+litcorpt-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+litcorpt-0.0.4.dist-info/top_level.txt,sha256=z1xn7jjoCufUF_1Q6Be43VARO4esIFesGD9AoVFtZD0,9
+litcorpt-0.0.4.dist-info/RECORD,,

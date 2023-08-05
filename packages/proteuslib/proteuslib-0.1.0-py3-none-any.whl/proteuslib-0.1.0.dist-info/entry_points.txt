@@ -1,0 +1,3 @@
+[console_scripts]
+edb = proteuslib.edb.commands:command_base
+

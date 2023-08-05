@@ -1,0 +1,11 @@
+pandas
+scikit-learn==0.22.2.post1
+joblib
+tqdm
+nltk
+
+[dev]
+check-manifest
+
+[test]
+coverage

@@ -1,0 +1,9 @@
+docopt
+tabulate
+pyyaml
+geoip2
+pyparsing
+crawlerdetect
+ua-parser
+user-agents
+tqdm

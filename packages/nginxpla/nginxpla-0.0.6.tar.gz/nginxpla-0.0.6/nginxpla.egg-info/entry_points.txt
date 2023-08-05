@@ -1,0 +1,3 @@
+[console_scripts]
+nginxpla = nginxpla.__main__:main
+

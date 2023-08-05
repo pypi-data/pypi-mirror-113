@@ -1,0 +1,3 @@
+[console_scripts]
+typetest=typetest.__main__:run
+

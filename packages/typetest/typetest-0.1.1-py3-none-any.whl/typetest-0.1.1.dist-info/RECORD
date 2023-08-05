@@ -1,0 +1,11 @@
+typetest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typetest/__main__.py,sha256=sJu3n491KCLf9djSSWdEpcNY7oB9SRH0ZE4PCNdhvvE,9842
+typetest/results/char_speeds.csv,sha256=TD3SEFqYq1MrcmJvmGm3OX3DNOzeJOvPRZSCpJ_37mA,6208
+typetest/results/mistyped_words.csv,sha256=zPCKVig82ES6p9h0zmIsNdkbjfY7ju31yMckqI-PxeA,66
+typetest/results/results.csv,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typetest/results/word_speeds.csv,sha256=2dV4qPa4N5_S76M6VoYUT5AnHqHw3o0TirVMVdx2mZU,761
+typetest-0.1.1.dist-info/entry_points.txt,sha256=4sCV2RLo9WupF0BjSEE1OqjXuA7M6KUhJPwJ5gZ58Gk,50
+typetest-0.1.1.dist-info/LICENSE,sha256=wvEec5_YT5PfWjKFj56xrdWrfWQJ4DCFWW09KB69PL4,1073
+typetest-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+typetest-0.1.1.dist-info/METADATA,sha256=9vIru2_PxMHEu4ZSsCsweDLaYyWnEspkECFZZde_mSg,442
+typetest-0.1.1.dist-info/RECORD,,

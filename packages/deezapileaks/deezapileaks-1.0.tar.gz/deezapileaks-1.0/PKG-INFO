@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: deezapileaks
+Version: 1.0
+Summary: Can search for information about releases on UPC and ISRC
+Home-page: https://kirillsaint.xyz
+Author: kirillsaint
+Author-email: kirillsaint@wtfuck.tk
+License: UNKNOWN
+Description: Can search for information about releases on UPC and ISRC
+        
+        
+        Example:
+        
+        # import
+        import deezapileaks
+        
+        # we indicate in the variables isrc and upc
+        isrc = "XXXXXXXXXX"
+        upc = "XXXXXXXXXXX"
+        
+        # print the result by isrc
+        print(deezapileaks.getisrc(isrc))
+        # print the result by upc
+        print(deezapileaks.getupc(upc))
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

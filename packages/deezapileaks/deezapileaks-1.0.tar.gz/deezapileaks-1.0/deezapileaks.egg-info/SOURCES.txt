@@ -1,0 +1,8 @@
+README.md
+setup.py
+deezapileaks/__init__.py
+deezapileaks/main.py
+deezapileaks.egg-info/PKG-INFO
+deezapileaks.egg-info/SOURCES.txt
+deezapileaks.egg-info/dependency_links.txt
+deezapileaks.egg-info/top_level.txt

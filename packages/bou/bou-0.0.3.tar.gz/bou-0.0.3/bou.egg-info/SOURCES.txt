@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+bou.py
+pyproject.toml
+setup.cfg
+setup.py
+bou.egg-info/PKG-INFO
+bou.egg-info/SOURCES.txt
+bou.egg-info/dependency_links.txt
+bou.egg-info/entry_points.txt
+bou.egg-info/requires.txt
+bou.egg-info/top_level.txt

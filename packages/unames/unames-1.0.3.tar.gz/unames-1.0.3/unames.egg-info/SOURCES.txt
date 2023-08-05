@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+unames/__init__.py
+unames/constants.py
+unames/utils.py
+unames.egg-info/PKG-INFO
+unames.egg-info/SOURCES.txt
+unames.egg-info/dependency_links.txt
+unames.egg-info/top_level.txt

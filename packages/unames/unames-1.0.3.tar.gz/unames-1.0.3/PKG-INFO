@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: unames
+Version: 1.0.3
+Summary: Generate username from the full name provided
+Home-page: https://github.com/chankruze/unames
+Author: chankruze
+Author-email: chankruze@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cnames
+Generate username from the full name provided
+
+## usage
+
+```python
+>>> import unames
+>>> u = list()
+>>> for i in range(50):
+...     u.append(unames.gen_username("Mayank Jha"))
+...
+>>> print({el for el in u})
+{'Mayank.Jha', 'Jha.Mayank', 'itz.Mayank', 'Mayank_Jha', '_.MayankxJha._', 'iam.Mayank', 'May466', 'itz_Mayank', '__Mayank.Jha__', 'May889', 'iam_Mayank', 'May870', 'Mayank._.Jha', 'Mayank.Jha__', 'M4y4nk_Jh4'}
+```
+
+

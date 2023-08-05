@@ -1,0 +1,13 @@
+Cython
+numpy
+fastcore
+feather-format
+pandas
+rich
+openpyxl
+
+[dev]
+nbdev>=1.1.3
+mypy
+black
+twine

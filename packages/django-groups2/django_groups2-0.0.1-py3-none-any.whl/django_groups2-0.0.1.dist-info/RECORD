@@ -1,0 +1,11 @@
+groups2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+groups2/admin.py,sha256=RAkCCm6sqBOPZTs0sTqVv3cwsaI0JwDQLotGb4K-MNQ,2649
+groups2/forms.py,sha256=B8wtNT9lvcD-xalnxDob4Ob69sTuAeWXI88q0b2Apew,771
+groups2/models.py,sha256=84Y9KU_gHb-VdhYD_-FGQkmQ9bQ8nAsEMyC4Xak411s,1737
+groups2/migrations/0001_initial.py,sha256=bamSgo-NAUlMlj2g2SE794ZI0uRhDP912HJEmGsqTd0,2291
+groups2/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_groups2-0.0.1.dist-info/LICENSE,sha256=Q0xE6FJZnXuZptzKQ78B_KwgqAwnR8zG9NnT29-pHls,1089
+django_groups2-0.0.1.dist-info/METADATA,sha256=2NgKy9DaeyLjSchDu5BLwqLdSG9O6OXJz-a6xpBwMbc,1000
+django_groups2-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_groups2-0.0.1.dist-info/top_level.txt,sha256=9yLd0MvfkrZwuu3JfX4mNa6TgU5zev_AtXuAXkz_dWQ,8
+django_groups2-0.0.1.dist-info/RECORD,,

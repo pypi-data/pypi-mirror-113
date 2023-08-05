@@ -1,0 +1,16 @@
+include LICENSE
+include README.md
+include py2many.py
+graft doc
+recursive-include examples *.py
+recursive-include pycpp *.h
+recursive-include pycpp *.hpp
+recursive-include tests *.cpp
+recursive-include tests *.dart
+recursive-include tests *.go
+recursive-include tests *.jl
+recursive-include tests *.kt
+recursive-include tests *.nim
+recursive-include tests *.py
+recursive-include tests *.rs
+recursive-include tests *.v

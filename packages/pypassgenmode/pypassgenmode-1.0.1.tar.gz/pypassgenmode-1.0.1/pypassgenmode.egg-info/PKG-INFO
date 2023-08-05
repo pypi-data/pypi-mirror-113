@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pypassgenmode
+Version: 1.0.1
+Summary: Generates passwords
+Home-page: https://kirillsaint.xyz
+Author: kirillsaint
+Author-email: kirillsaint@wtfuck.tk
+License: UNKNOWN
+Description: Generates password
+        
+        Small documentation:
+        
+        The "genpass(length)" method generation password
+        
+        Example:
+        
+        import pypassgen
+        
+        length = 8
+        
+        print(pypassgen.genpass(length))
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+pypassgen/__init__.py
+pypassgenmode.egg-info/PKG-INFO
+pypassgenmode.egg-info/SOURCES.txt
+pypassgenmode.egg-info/dependency_links.txt
+pypassgenmode.egg-info/top_level.txt

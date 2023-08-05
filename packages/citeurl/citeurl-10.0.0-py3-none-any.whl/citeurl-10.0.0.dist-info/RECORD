@@ -1,0 +1,24 @@
+citeurl/__init__.py,sha256=29oRwMR0b-RDS7_Y0YaOWZl9YFWkTRMJ-3crFv1YuKc,164
+citeurl/citeurl.py,sha256=n_SZiGimDcULubjUWeBXq_n9PQI2h49-MNFqsbLVNwM,29803
+citeurl/cli.py,sha256=KBq0fGVR-eG0UHetH-IuP24fBm8bLzVOqdoVT_L1dn8,12498
+citeurl/hyperlink.py,sha256=FQfYdXaeZefMlbGPJBx-KBHJJIhpz7e-CxLRWLzbHRs,1723
+citeurl/mdx.py,sha256=EPxvFUL77bpIayGVirepjfIBFCafYrFRFVClqhSCoV8,3510
+citeurl/tokens.py,sha256=2UmwQhfV_q4Xdoq92Fq-3hKn4OaqG_cLY9iiwfD0dcg,15329
+citeurl/templates/caselaw.yaml,sha256=ghduXIn2WQqAjrK9Dw9-yYlnXdV4suXQQc3RMVLmogE,18779
+citeurl/templates/general federal law.yaml,sha256=dB2HP-dQKMYzQSwmhh9NIwEChceaSeA119aTFWOKxX0,7586
+citeurl/templates/secondary sources.yaml,sha256=S_64gZsrKbC3szwkzJFyEPWna5CdokpJCZlLF54_OWg,1132
+citeurl/templates/specific federal laws.yaml,sha256=ZFqk4-ufC99AXfSDzxMwQ_nFBdsq9kOuMJ-VPUFKEoY,11922
+citeurl/templates/state law.yaml,sha256=8KKcXWPi7BH9ro3V2Tx5e-JlF-eMUOz-R9RP0TYUge4,69415
+citeurl/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citeurl/web/citeurl.js,sha256=ZO3jteq4HqpRXXA7dytnTiLG4-RZhEsTJvc0YimRD_A,13086
+citeurl/web/logo.svg,sha256=t1DPmIhbudXxy18Z9taipEj4ZLM2_OJHhT8KBBxz-KU,7812
+citeurl/web/makejs.py,sha256=fEbdjBE8RTIH6KrKhuFhUvV8LFLxV8oiZqF3_JOXv6E,5375
+citeurl/web/resources.py,sha256=UqUripKBAZUxSnlOHlRC4LY8fWGFtaBPc5y4EslZGQk,6891
+citeurl/web/server.py,sha256=4nqTBnKpnX6JdW7r9yCbSKgL8UYHN7ZSfPUlzBVckCU,6806
+citeurl/web/style.css,sha256=U7uvNkrPTSk7UtM7sbDE7jkrMEzLAAxXjH1amHoh8RA,4202
+citeurl-10.0.0.dist-info/LICENSE.md,sha256=T6b3vscLORAeVZWYfYDSVFuKq1X-gA6wOQsuYJfXtiU,1065
+citeurl-10.0.0.dist-info/METADATA,sha256=iKOp1mg4fXgPQ1rTbPwrhSRagOrN7f-NYLBQef4JDQU,6065
+citeurl-10.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+citeurl-10.0.0.dist-info/entry_points.txt,sha256=gEfwoyJyirslywLJOEaJtkryA8_brtvV5YBNrW4RUXE,108
+citeurl-10.0.0.dist-info/top_level.txt,sha256=WgpwPvgcGWJgfkw4r3EKesIT33CQEKoU50D4InqJams,8
+citeurl-10.0.0.dist-info/RECORD,,

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: DiscordBotWeb
+Version: 0.0.2
+Summary: Make A Simple Website For Your Discord Bot Without Any HTML Knowledge!
+Home-page: UNKNOWN
+Author: nooby xviii
+Author-email: xviii2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: os
+Requires-Dist: shutil
+
+# DiscordBotWeb
+
+## New Release Notes
+ - Published 7/15/2021 (v0.0.1)
+ - Fixed Errors And Published 7/15/2021 (v0.0.2) 
+
+## Features
+ - Made With The Powerful Module, OS
+ - No HTML Prior Knowledge Required
+ - Made To Be Used With Flask
+
+## How It Works
+ - ```import botweb```
+   - You Guys Should Know What This Does, It Imports The Module
+ - ```botweb.web(name, description, link, filename)```
+   - This Is Where It Gets Tricky, Lets Break It Down, ```botweb.web()``` is the function itself, ```name, description, link, filename``` Are The Attributes For The Function. 
+     - The ```name``` Attribute Is For The Name Of Your Bot. Secondly, The ```description``` Attribute Is A Small Description Of Your Bot, Make Sure It Is Under 10 Words For A Clean Looking Website. Thirdly, The ```link``` Attribute Is For The Link Of Your Bot, The Link Will Be Used For The Invite Button. Lastly, The ```filename``` Attribute Is The Name That You Want Your HTML File To Be Named.
+
+## Example With Flask 
+ - Please Note That You Must Use Flask
+ ```py
+ from flask import Flask, render_template
+ import botweb
+
+ app = Flask(__name__)
+
+ @app.route("/")
+ def main():
+	# Make Sure To Keep An Logo Of Your Bot In The Same Directory Of This Python File
+	botweb.web("Bot Name", "Description Of Bot", "Invite Link", "index") # The Last Attribute Is The Name That You Want The HTML File To Be
+	return render_template("index.html") # Make Sure It Is The Same Name As You Put In The Last Attribute When Calling botweb.web(), And Just Add The .html Extension.
+
+ if __name__ == "__main__":
+ 	app.run(host="0.0.0.0", port=5555)
+```
+

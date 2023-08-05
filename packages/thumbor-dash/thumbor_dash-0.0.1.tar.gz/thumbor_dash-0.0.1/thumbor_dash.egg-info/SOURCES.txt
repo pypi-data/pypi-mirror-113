@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+thumbor_dash/__init__.py
+thumbor_dash.egg-info/PKG-INFO
+thumbor_dash.egg-info/SOURCES.txt
+thumbor_dash.egg-info/dependency_links.txt
+thumbor_dash.egg-info/requires.txt
+thumbor_dash.egg-info/top_level.txt

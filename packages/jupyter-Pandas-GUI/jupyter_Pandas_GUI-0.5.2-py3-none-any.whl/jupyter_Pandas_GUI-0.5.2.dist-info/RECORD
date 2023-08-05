@@ -1,0 +1,9 @@
+pandas_GUI/__init__.py,sha256=xCs9CfBRVugkKLp3YaPHBglQzFHXtC4-AeRflgb-4h8,479
+pandas_GUI/new_pandas_column_GUI.py,sha256=8wyXvOBLnDoPOlaquRA1CtcE5F81SuhxsR5qygIxoMM,7843
+pandas_GUI/plot_Pandas_GUI.py,sha256=dfLLznc-qlXzVF1ZIu2eVd4EenFs1jp376pVlgUPihQ,26885
+pandas_GUI/utils.py,sha256=q7iAuMPWslrN6eMQYodMfCzlGWafNWJ_PCE7CsQNA2o,9728
+jupyter_Pandas_GUI-0.5.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+jupyter_Pandas_GUI-0.5.2.dist-info/METADATA,sha256=xgM2p2wtauI2vzo_H2B9DmJcC_GfhBvYqxXNUr5uDqc,6916
+jupyter_Pandas_GUI-0.5.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyter_Pandas_GUI-0.5.2.dist-info/top_level.txt,sha256=fdZG4f2pFF3UpSnlUqcVYaobpfaquehnopDLPsWGMqQ,11
+jupyter_Pandas_GUI-0.5.2.dist-info/RECORD,,

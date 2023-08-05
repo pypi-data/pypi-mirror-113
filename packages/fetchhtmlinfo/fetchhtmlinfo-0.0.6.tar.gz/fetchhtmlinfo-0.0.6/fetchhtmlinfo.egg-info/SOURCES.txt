@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+fetchhtmlinfo/__init__.py
+fetchhtmlinfo/fetch_header.py
+fetchhtmlinfo.egg-info/PKG-INFO
+fetchhtmlinfo.egg-info/SOURCES.txt
+fetchhtmlinfo.egg-info/dependency_links.txt
+fetchhtmlinfo.egg-info/requires.txt
+fetchhtmlinfo.egg-info/top_level.txt

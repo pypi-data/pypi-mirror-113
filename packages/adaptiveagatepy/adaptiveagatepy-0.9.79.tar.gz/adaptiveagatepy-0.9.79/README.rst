@@ -1,0 +1,34 @@
+Adaptive Agate Python SDK
+*************************
+Early Release Phase - November, 2020
+
+This platform is in an early release phase; if you are comfortable working with early-release software and would like access, please contact agate-support@adaptivebiotech.com.
+
+Adaptive Agate is a new, modern platform designed by Adaptive Biotechnologies to share data with our immunoSEQ&reg; research customers and assist with downstream analysis. The platform consists of four components:
+
+- A cloud-based SQL Server database containing metadata about samples such as the total number of templates found and sample-level metrics such as clonality. 
+- Per-sample files containing detailed sequence-level information, stored in and accessed via Azure Blob Storage. 
+- A set of REST functions providing common algorithms and analyses. 
+- An easily-installed Python library that provides simple access to all of the above.
+
+Access to these resources are secured using Microsoft Azure Active Directory credentials. Customers can associate their existing email addresses with Agate accounts and, in many cases, use existing enterprise or Microsoft credentials.
+
+While we expect most users will use Python to access Agate data and functions, any tool or development environment that can access SQL, Azure Blob and HTTPS resources using Active Directory authentication is supported. For example, we supply a Microsoft Excel template (Windows only) that can automatically download data into worksheets and pivot tables for direct analysis in that environment.  For more information, visit the Agate documentation website at www.adaptiveagate.com.
+
+How to get the Adaptive Agate Python SDK
+========================================
+Packages for the Adaptive Agate Python SDK (adaptiveagatepy) are available from PyPi and Anaconda using the mechanisms below.
+
+To install from PyPi using PIP:
+.. code-block:: 
+
+	pip install adaptiveagatepy
+
+To install from Anaconda using conda:
+.. code-block:: 
+
+	conda install -c adaptivebiotech adaptiveagatepy
+
+immunoSEQ is for research use only and not for use in diagnostic procedures.
+
+Copyright 2020 Adaptive Biotechnologies, All Rights Reserved.

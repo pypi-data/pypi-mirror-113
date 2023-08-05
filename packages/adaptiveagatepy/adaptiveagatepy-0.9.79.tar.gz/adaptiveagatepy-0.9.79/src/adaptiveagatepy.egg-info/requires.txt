@@ -1,0 +1,8 @@
+requests
+pyodbc
+msal
+azure-storage-blob>=12.8
+pyarrow
+dask
+dask[dataframe]
+parameterized

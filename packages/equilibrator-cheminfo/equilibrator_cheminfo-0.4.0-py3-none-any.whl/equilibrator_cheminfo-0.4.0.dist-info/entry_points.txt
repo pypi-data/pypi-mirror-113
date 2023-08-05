@@ -1,0 +1,3 @@
+[console_scripts]
+marvin = equilibrator_cheminfo.chemaxon.cli:main
+

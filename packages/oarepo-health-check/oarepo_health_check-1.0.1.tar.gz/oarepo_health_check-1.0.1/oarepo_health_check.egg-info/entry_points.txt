@@ -1,0 +1,6 @@
+[invenio_base.api_apps]
+oarepo_health_check = oarepo_health_check:OARepoHealthCheck
+
+[invenio_base.apps]
+oarepo_health_check = oarepo_health_check:OARepoHealthCheck
+

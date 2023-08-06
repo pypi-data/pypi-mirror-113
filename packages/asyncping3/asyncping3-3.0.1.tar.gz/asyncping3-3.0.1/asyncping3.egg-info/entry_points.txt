@@ -1,0 +1,3 @@
+[console_scripts]
+pping = asyncping3._main:main
+

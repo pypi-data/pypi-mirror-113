@@ -1,0 +1,4 @@
+[console_scripts]
+obtain = obtain.cli:main
+obtaind = obtain.daemon:main
+

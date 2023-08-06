@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/obtain/__init__.py
+src/obtain/__main__.py
+src/obtain/cli.py
+src/obtain/daemon.py
+src/obtain/obtaining.py
+src/obtain.egg-info/PKG-INFO
+src/obtain.egg-info/SOURCES.txt
+src/obtain.egg-info/dependency_links.txt
+src/obtain.egg-info/entry_points.txt
+src/obtain.egg-info/not-zip-safe
+src/obtain.egg-info/requires.txt
+src/obtain.egg-info/top_level.txt

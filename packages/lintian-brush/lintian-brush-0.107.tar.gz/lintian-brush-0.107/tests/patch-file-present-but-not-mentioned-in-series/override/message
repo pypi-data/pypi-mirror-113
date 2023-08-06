@@ -1,0 +1,3 @@
+Remove patch  that are missing from debian/patches/series.
+Overridden-Lintian-Issues:
+ source: patch-file-present-but-not-mentioned-in-series three

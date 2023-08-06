@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: fastapi-debug-toolbar
+Version: 0.0.1a1
+Summary: A debug toolbar for FastAPI.
+Home-page: https://github.com/mongkok/fastapi-debug-toolbar
+License: BSD
+Keywords: fastapi,debug,profiling
+Author: Dani
+Author-email: dani@domake.io
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: Jinja2 (>=2.9,<3.0)
+Requires-Dist: fastapi (>=0.51.0,<0.52.0)
+Requires-Dist: pyinstrument (>=3.0.0,<4.0.0)
+Project-URL: Documentation, https://fastapi-debug-toolbar.domake.io
+Project-URL: Repository, https://github.com/mongkok/fastapi-debug-toolbar
+Description-Content-Type: text/markdown
+
+# FastAPI Debug Toolbar
+
+A debug toolbar for FastAPI based on the original django-debug-toolbar.
+
+## Installation
+
+```shell
+pip install fastapi-debug-toolbar
+```
+
+## Quickstart
+
+```py
+from fastapi import FastAPI
+from debug_toolbar.middleware import DebugToolbarMiddleware
+
+app = FastAPI(debug=True)
+app.add_middleware(DebugToolbarMiddleware)
+```
+

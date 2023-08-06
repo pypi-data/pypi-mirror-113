@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+freebox_reboot/__init__.py
+freebox_reboot/__main__.py
+freebox_reboot.egg-info/PKG-INFO
+freebox_reboot.egg-info/SOURCES.txt
+freebox_reboot.egg-info/dependency_links.txt
+freebox_reboot.egg-info/entry_points.txt
+freebox_reboot.egg-info/requires.txt
+freebox_reboot.egg-info/top_level.txt

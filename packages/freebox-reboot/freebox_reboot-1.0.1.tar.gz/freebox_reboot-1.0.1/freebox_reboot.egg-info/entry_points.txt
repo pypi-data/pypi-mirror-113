@@ -1,0 +1,3 @@
+[console_scripts]
+freebox_reboot = freebox_reboot:main
+

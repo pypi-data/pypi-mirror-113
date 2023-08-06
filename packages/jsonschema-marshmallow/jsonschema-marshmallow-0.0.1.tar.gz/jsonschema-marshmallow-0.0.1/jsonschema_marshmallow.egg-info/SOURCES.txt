@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+jsonschema_marshmallow/__init__.py
+jsonschema_marshmallow/dynamic.py
+jsonschema_marshmallow/shared.py
+jsonschema_marshmallow.egg-info/PKG-INFO
+jsonschema_marshmallow.egg-info/SOURCES.txt
+jsonschema_marshmallow.egg-info/dependency_links.txt
+jsonschema_marshmallow.egg-info/entry_points.txt
+jsonschema_marshmallow.egg-info/requires.txt
+jsonschema_marshmallow.egg-info/top_level.txt

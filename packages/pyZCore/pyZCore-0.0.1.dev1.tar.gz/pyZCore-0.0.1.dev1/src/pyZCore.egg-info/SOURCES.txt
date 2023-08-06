@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ZCore/__init__.py
+src/pyZCore.egg-info/PKG-INFO
+src/pyZCore.egg-info/SOURCES.txt
+src/pyZCore.egg-info/dependency_links.txt
+src/pyZCore.egg-info/top_level.txt

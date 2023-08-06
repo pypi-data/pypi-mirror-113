@@ -1,0 +1,3 @@
+[console_scripts]
+simple-git-changelog = simple_git_changelog.main:main
+

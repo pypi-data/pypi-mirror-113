@@ -1,0 +1,16 @@
+matplotlib<4.0,>=3.3.0
+numpy<2.0,>=1.18.0
+pandas<2.0,>=1.1.0
+pingouin<1.0,>=0.3.9
+seaborn<1.0,>=0.11.1
+
+[dev]
+Sphinx
+coverage
+flake8
+pip
+pytest<7.0,>=6.2.0
+setuptools_scm
+tox
+twine
+wheel

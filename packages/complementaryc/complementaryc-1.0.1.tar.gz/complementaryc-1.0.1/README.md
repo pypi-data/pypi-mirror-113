@@ -1,0 +1,134 @@
+# Bioinformatics-101
+A friendly introduction to the Docker technologies. For more details about this technology, please visit [the official website](https://docs.docker.com/get-started/).
+
+## Pre-requisites
+To follow this guidelines please install in your local environment [Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+## Abstract
+This repository includes a dummy bioinformatics tool written in ANSI C language, called dna2rna, which transcripts an input string of DNA into a RNAm string:
+
+```
+DNA sequence -> dna2rna -> RNAm sequence
+```
+
+The source code is available inside [main.c](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/main.c):
+
+```
+BEGIN
+  1. Create a string called <RNA SEQ> with the same length as the input one <DNA SEQ>
+  2. For each character <CURRENT> inside <DNA SEQ>:
+  3.   Assign the matching value for <CURRENT> inside <OPPOSITE> // A <-> T, C <-> G
+  4.   Put <OPPOSITE> inside <RNA_SEQ> at the same position that <CURRENT>
+  5. Return <RNA SEQ>
+END
+```
+
+Examples:
+
+- Input `A` -> Output `T`
+- Input `aA` -> Output `tT`
+- Input `ABCD` -> Output `T?G?`
+
+More information about the biological transcription process is available [here](https://en.wikipedia.org/wiki/Transcription_(biology)).
+
+## Compiling and running
+The first approach is cloning the repository and compiling it locally in order to build the executable file (object file)
+
+```console
+$ git clone git@bitbucket.org:agdiaz/bioinformatics-101.git
+$ cd bioinformatics-101
+$ gcc -o dna2rna main.c
+```
+
+Afterwards you will be able to execute the program:
+
+```console
+$ ./dna2rna ACGT
+TGCA
+```
+
+## Creating a Makefile
+A logical next step seems to write a [Makefile](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/Makefile) to automatize the compiling steps. It implies writing a rule to build the executable:
+
+```make
+build:
+	gcc -o dna2rna main.c
+```
+
+This enables us to run `make build` to build the executable:
+
+```console
+$ make build
+gcc -o dna2rna main.c
+```
+
+## Docker way
+
+### Main concepts
+From the official documentation of Docker:
+
+![Docker concepts](https://docs.docker.com/engine/images/architecture.svg)
+
+#### Images
+> An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.
+> You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
+
+#### Containers
+> A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
+> By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
+> A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
+
+### Our dna2rna image and container
+
+#### Image
+Building an image allow us to create instances of it later. The image is declared inside [Dockerfile](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/Dockerfile). If you see this file, there are few lines describing how to create the image:
+
+1. **FROM** -> Basically we define our Docker image from `gcc:4.9`
+2. **WORKDIR** -> We created a working folder inside the container (`/src`)
+3. **COPY** -> Copy our `main.c` file inside theworking folder
+4. **RUN** -> Compile the code to generate the executable file inside using `gcc`
+5. **ENTRYPOINT** -> Finally we declare the entry point `dna2rna` which is the command to be executed after creating an instance
+
+Once you have the [Dockerfile](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/Dockerfile) it is easy to build the image:
+
+```console
+$ docker image build . --tag dna2rna
+```
+
+Details:
+
+- `docker image build`: Build an image
+- `.`: the path to [Dockerfile](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/Dockerfile)
+- `--tag dna2rna` a tag name to make easier using the image later
+
+#### Containers
+We can create instances from this image to execute the transcription program:
+
+```console
+$ docker run dna2rna ACGTacgtTGCAtgca
+TGCAtgcaACGTacgt
+```
+
+Let me explain you this command:
+
+- We have created a Docker container from the `dna2rna` image previously built
+- Then, we sent the `ACGTacgtTGCAtgca` argument to the entry point defined in the last line of the [Dockerfile](https://bitbucket.org/agdiaz/bioinformatics-101/src/master/Dockerfile)
+
+If you want to be sure, please remove any executable file built before reaching this step and try it. You will see that it runs the code from inside the container!!!
+
+### The advantages of the images
+One of the most important benefits of building images is the possibility of publish them online to the community. For instance, I published this image to my personal repository on DockerHub (you may open yours) and now, anyone is able to create a container from that image and run the program without having to compile neither thinking about OS, dependencies, libraries, compilers.
+
+Let me show you how to run it directly from the published image:
+
+```console
+$ docker run diazadriang/bioinformatics-101:latest ACGT
+TGCA
+```
+
+## Final thoughts
+I strong recommend you to install Docker Desktop in your computer, start the program and run from your preferred terminal this dummy example.
+
+Any comment is welcomed here opening an issue or sending me an email to adrian.diaz@vub.be (or diaz.adrian.g@gmail.com)
+
+Thanks for your time and happy coding!!!

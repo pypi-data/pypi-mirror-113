@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stactools-sentinel2
+Version: 0.2.0
+Summary: PROVIDE DESCRIPTION HERE
+Home-page: https://github.com/stactools-sentinel2s/stactools-sentinel2
+Author: stac-utils
+Author-email: stac@radiant.earth
+License: UNKNOWN
+Project-URL: Documentation, https://stactools-sentinel2.readthedocs.io/en/latest/
+Project-URL: Issues, https://github.com/stactools-sentinel2s/stactools-sentinel2/issues
+Description: # stactools-sentinel2
+        
+        stactools package for Sentinel-2 data
+        
+Keywords: stactools,pystac,catalog,STAC
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

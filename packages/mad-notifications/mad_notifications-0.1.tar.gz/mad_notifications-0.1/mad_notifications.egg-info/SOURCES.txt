@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+mad_notifications.egg-info/PKG-INFO
+mad_notifications.egg-info/SOURCES.txt
+mad_notifications.egg-info/dependency_links.txt
+mad_notifications.egg-info/requires.txt
+mad_notifications.egg-info/top_level.txt
+notifications/__init__.py
+notifications/admin.py
+notifications/apps.py
+notifications/models.py
+notifications/tests.py
+notifications/utils.py

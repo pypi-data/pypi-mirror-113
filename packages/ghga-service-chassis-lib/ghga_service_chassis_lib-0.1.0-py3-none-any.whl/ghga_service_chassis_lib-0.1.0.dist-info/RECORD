@@ -1,0 +1,17 @@
+ghga_service_chassis_lib/__init__.py,sha256=W-kIPatCSKCmu8OkfpHoRNc-s_kHRqIFZ5duAvfgavc,765
+ghga_service_chassis_lib/__main__.py,sha256=eM55JU5vBLxal5MqVliH3b7dvYeAGjAMyhJIXmD15Rg,687
+ghga_service_chassis_lib/api.py,sha256=7D0bAm50PCTdwEUtz3_u8kAunkpy5OFhHUs52jpGi-w,2163
+ghga_service_chassis_lib/config.py,sha256=_oXSF0HwwKuXYqEHTm_tzjXSq7S98MgT4TjR257Fbjg,5559
+tests/unit/__init__.py,sha256=4O72AlC9Gub9eSuauFFTG5PqHkOG2GzlNuIuB5DHV3s,654
+tests/unit/test_api.py,sha256=E7Wsgootdt8tq5prw_s35NszsI3pwQ3pq7E_JJRvs_k,1487
+tests/unit/test_config.py,sha256=IsyKtVs1MQ8TEkQc54PsoBHucdsI_06_HSRfncjjHwU,3681
+tests/unit/fixtures/__init__.py,sha256=p6M7GRkVt_T3BBTa8taRjtdeZ0zqhRPZpomYsuj2QaA,736
+tests/unit/fixtures/config.py,sha256=Wu3mzfPiwlojK0Zj5Hpo890sC3Ber7n93lP4jBYeNzo,3035
+tests/unit/fixtures/hello_world_test_app.py,sha256=_uw7Hk_pPJ6HbcWb-_WNlc8QbgpM3szogKtbAKD8hu8,851
+tests/unit/fixtures/utils.py,sha256=0sFA6PJ0oHP4uF2Lt_iEgDb4vImmStfOUCT0yRTElMs,1167
+ghga_service_chassis_lib-0.1.0.dist-info/LICENSE,sha256=YFCc7Ol1VQFPBYbumy12wWj3ycpA3KqU2qRfnzr2Fec,11421
+ghga_service_chassis_lib-0.1.0.dist-info/METADATA,sha256=G6pA4nNhIIrwuspVwpx7CxRqK-I7OJppNFXi8wsYAvg,4777
+ghga_service_chassis_lib-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ghga_service_chassis_lib-0.1.0.dist-info/entry_points.txt,sha256=zl1UE3Jct1_7Mc0DTpVUQRqvuEulBXCi1B5C1qwhV94,79
+ghga_service_chassis_lib-0.1.0.dist-info/top_level.txt,sha256=hT9rghTgUuMLa87nv-Ncg_ZBeL2HfUAoSt_zrTyVDVA,31
+ghga_service_chassis_lib-0.1.0.dist-info/RECORD,,

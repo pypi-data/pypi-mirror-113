@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: markdown-up
+Version: 0.9.0
+Summary: Markdown viewer application
+Home-page: https://github.com/craigahobbs/markdown-up
+Author: Craig Hobbs
+Author-email: craigahobbs@gmail.com
+License: MIT
+Keywords: Markdown viewer application
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# markdown-up
+
+[![PyPI - Status](https://img.shields.io/pypi/status/markdown-up)](https://pypi.org/project/markdown-up/)
+[![PyPI](https://img.shields.io/pypi/v/markdown-up)](https://pypi.org/project/markdown-up/)
+[![GitHub](https://img.shields.io/github/license/craigahobbs/markdown-up)](https://github.com/craigahobbs/markdown-up/blob/main/LICENSE)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/markdown-up)](https://pypi.org/project/markdown-up/)
+
+Coming soon!
+
+
+## Development
+
+This project is developed using [Python Build](https://github.com/craigahobbs/python-build#readme).
+
+

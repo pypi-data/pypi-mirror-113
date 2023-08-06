@@ -1,0 +1,8 @@
+httpx
+youtube-search-python
+TikTokApi
+cryptography
+pytube
+gtts
+googletrans==3.1.0a0
+SpeechRecognition

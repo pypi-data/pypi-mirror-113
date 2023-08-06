@@ -1,0 +1,14 @@
+AbstractProcesses.py,sha256=Q3DDQQhUsnvIZIawtGQ-cRdwR3WXMrpYPUWWW71udfo,774
+AIFactoryDS/AbstractProcesses.py,sha256=NAH7XLtoiFT1Iu-BmXQrs5j56EzErmqy0uPT0i3i7OU,2318
+AIFactoryDS/ImageUtilities.py,sha256=XvUKF5vT8Gt5k230ESwJwQuiPGLoLvsH_br984b4CJI,1895
+AIFactoryDS/Worker.py,sha256=ndE7mT1-kKYe2T2yCSIJo4eDCiLTrWxEVETZhkTRuGQ,195
+AIFactoryDS/__init__.py,sha256=V8LTtSK4GKUMsFqABwOu527eHgRxglQffdye9gf7BcY,274
+AIFactoryDS-0.1.10.data/scripts/build_project_skeleton,sha256=k4a_CJAVOhpTsoyzogVYr38I40KvPunj3ip1gfq_Nm0,372
+EasterEggs/__init__.py,sha256=2NjnTO1JkAuOMMyGY7AJoqMaNzDEPDUFB7EyG54x134,95
+EasterEggs/greetings.py,sha256=m3oHZbnx3iSnQ3PhCLar77JZY1Rs29GFRE1hwpBYcp4,740
+EasterEggs/grettings.py,sha256=FHRWooK6aFegyfmqgJ_tAk1qptUnIqbMfeLVHpK7oE4,213
+src/testAIFactoryDS.py,sha256=DwR12-kTgcj_59tNCL4C9g3s1e_k4FHWcG4jblqcW_M,36
+AIFactoryDS-0.1.10.dist-info/METADATA,sha256=FAjAZM23IvoOm9LbZEtjUD54TLyycgDQHnkKXT5GqzY,246
+AIFactoryDS-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+AIFactoryDS-0.1.10.dist-info/top_level.txt,sha256=9xx6COH_QRVXXyKQ5dFkVwD4DRlMHgV0nHREv2Z1_mU,73
+AIFactoryDS-0.1.10.dist-info/RECORD,,

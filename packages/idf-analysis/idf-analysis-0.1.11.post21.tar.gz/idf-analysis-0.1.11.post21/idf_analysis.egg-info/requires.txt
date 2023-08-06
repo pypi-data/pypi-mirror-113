@@ -1,0 +1,13 @@
+numpy>=1.14
+pandas
+matplotlib>=3
+tzlocal
+pytz
+tqdm
+scipy
+PyYAML>=5
+pyarrow
+
+[PARQUET]
+pyarrow
+fastparquet

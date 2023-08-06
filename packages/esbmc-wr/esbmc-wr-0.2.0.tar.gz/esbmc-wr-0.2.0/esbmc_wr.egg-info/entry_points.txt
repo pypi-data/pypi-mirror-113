@@ -1,0 +1,3 @@
+[console_scripts]
+esbmc-wr = esbmc_wr:main
+

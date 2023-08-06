@@ -1,0 +1,9 @@
+scipy
+matplotlib
+librosa
+numpy
+tqdm
+joblib
+
+[Tensorflow]
+tensorflow>=2.0

@@ -1,0 +1,6 @@
+include safepass/UI/*
+include safepass/db/*
+include safepass/logs/*
+include safepass/.images/*
+include LICENSE.md
+include README.md

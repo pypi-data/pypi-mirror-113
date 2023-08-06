@@ -1,0 +1,18 @@
+[package]
+name = "dupesearch"
+version = "0.1.11"
+authors = ["wookie184 <wookie1840@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "dupesearch"
+crate-type = ["cdylib"]
+
+[dependencies]
+walkdir="2"
+md5="0.7"
+threadpool="1.8.1"
+
+[dependencies.pyo3]
+version = "0.13.2"
+features = ["extension-module"]

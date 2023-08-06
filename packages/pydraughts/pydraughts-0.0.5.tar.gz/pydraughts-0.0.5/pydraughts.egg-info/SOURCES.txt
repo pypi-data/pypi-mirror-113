@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+draughts/__init__.py
+draughts/board.py
+draughts/board_initializer.py
+draughts/board_searcher.py
+draughts/game.py
+draughts/piece.py
+pydraughts.egg-info/PKG-INFO
+pydraughts.egg-info/SOURCES.txt
+pydraughts.egg-info/dependency_links.txt
+pydraughts.egg-info/top_level.txt

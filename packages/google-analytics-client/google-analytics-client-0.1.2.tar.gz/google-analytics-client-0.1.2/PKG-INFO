@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: google-analytics-client
+Version: 0.1.2
+Summary: Google Analytics client for Python3
+License: MIT
+Author: Mikhail Vasilchenko
+Author-email: rekoy88@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: google-api-python-client (>=2.13.0,<3.0.0)
+Requires-Dist: oauth2client (>=4.1.3,<5.0.0)
+Requires-Dist: pandas (>=1.3.0,<2.0.0)

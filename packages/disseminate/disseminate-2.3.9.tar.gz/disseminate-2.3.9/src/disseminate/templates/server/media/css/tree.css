@@ -1,0 +1,109 @@
+h2 {
+  text-align: center;
+  padding-bottom: 1em;
+  font-weight: 200;
+}
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto 3rem auto;
+  width: 80%;
+  font-size: 11pt;
+}
+
+table a {
+  color: #808080;
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  padding-bottom: 0.5em;
+  font-size: 14pt;
+}
+
+thead {
+  background-color: #efefef;
+}
+
+th {
+  text-align: left;
+  padding: 0.2rem 0.4rem;
+  color: #888;
+}
+
+th.tgt, th.date {
+  text-align: center;
+}
+
+tbody {
+  border-top: 1px solid #f2f2f2;
+}
+
+tr {
+  color: #808080;
+  border-bottom: 1px solid #eee;
+}
+
+td {
+  padding: 0;
+}
+
+td.num {
+  min-width: 4.5rem;
+  padding-left: 0.8rem;
+  font-size: 11pt;
+}
+
+td.src {
+  min-width: 25.0rem;
+}
+
+td.tgt {
+  min-width: 6.0rem;
+  font-size: 11pt;
+  text-align: center;
+}
+
+td.date {
+  font-size: 11pt;
+  text-align: center;
+  width: 7.0rem;
+}
+
+td.date .time {
+  font-size: 8.5pt;
+}
+
+tr.level-2 td.src {
+  padding-left: 1.4rem;
+}
+
+tr.level-3 td.src {
+  padding-left: 2.4rem;
+}
+
+tr.level-4 td.src {
+  padding-left: 3.4rem;
+}
+
+tr.level-5 td.src {
+  padding-left: 4.4rem;
+}
+
+.tablesorter-headerDesc .tablesorter-header-inner:after {
+  padding-left: 0.3em;
+  content: '▽';
+  font-size: 14px;
+}
+
+.tablesorter-headerAsc .tablesorter-header-inner:after {
+  padding-left: 0.3em;
+  content: '△';
+  font-size: 14px;
+}
+
+.footer {
+  height: 4rem;
+}

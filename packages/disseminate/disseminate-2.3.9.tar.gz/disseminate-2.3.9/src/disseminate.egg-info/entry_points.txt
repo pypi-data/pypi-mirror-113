@@ -1,0 +1,6 @@
+[console_scripts]
+dm = disseminate.cli:main
+
+[pygments.lexers]
+dmlexer = disseminate.utils.pygments.dm:DmLexer
+

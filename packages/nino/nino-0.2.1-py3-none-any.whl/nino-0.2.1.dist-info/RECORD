@@ -1,0 +1,12 @@
+LICENSE,sha256=I_S5ZEshM2pZZI37oln5N9LBkJFi4yuLam4rsNIU4e8,1062
+nino/__init__.py,sha256=ANXJCIdlvAJFmVACCySoMF8FrTMkV8_BBO2s6vDFSGA,86
+nino/client.py,sha256=EqY7z6IavaLdGczMuuajON2HSudssvEJZIddLNdOGzg,4557
+nino/fields.py,sha256=TJMUYhcw9gyGaYeKdZ8TLy18UoDeElDWYf672RG6f4g,1102
+nino/http.py,sha256=V1mh8RMPvga80EnPhWeMEWSdyOZFX0kNIQvvKwmw8Ds,3325
+nino/models.py,sha256=4l55xd-pvUziCbINULTm_4t1yOMuxGTAsGiFTKuhX4Q,15403
+nino/paginator.py,sha256=LUiRM3wM2EuLeCRa5de9402WE9pQUduRzor_3sQ-HNE,5795
+nino/query.py,sha256=hG3TU_UpwT1M5oxC5fQCytR9JeJplqzyMfypxmuUlpI,4219
+nino-0.2.1.dist-info/LICENSE,sha256=I_S5ZEshM2pZZI37oln5N9LBkJFi4yuLam4rsNIU4e8,1062
+nino-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nino-0.2.1.dist-info/METADATA,sha256=h8KAV1hh3EsNw8SSBUPJh-Dpxbl7eOGBcwyVj0Mk3EE,1022
+nino-0.2.1.dist-info/RECORD,,

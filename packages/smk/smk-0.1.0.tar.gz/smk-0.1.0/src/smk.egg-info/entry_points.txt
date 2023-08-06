@@ -1,0 +1,3 @@
+[console_scripts]
+smk = smk.cli:main
+

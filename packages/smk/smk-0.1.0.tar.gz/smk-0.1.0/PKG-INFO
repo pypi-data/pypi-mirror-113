@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: smk
+Version: 0.1.0
+Summary: Software Manufacturing Kit
+Home-page: https://github.com/ultralightweight/smk
+Author: Daniel Kovacs
+Author-email: mondomhogynincsen@gmail.com
+Maintainer: Daniel Kovacs
+Maintainer-email: mondomhogynincsen@gmail.com
+License: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: 
+        # Software Manufacturing Kit
+        
+        Initial skeleton
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries

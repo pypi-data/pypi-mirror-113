@@ -1,0 +1,4 @@
+six
+edx-opaque-keys>=0.2.1
+django-model-utils
+Django

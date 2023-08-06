@@ -1,0 +1,1 @@
+generic_service_bus_cqrs

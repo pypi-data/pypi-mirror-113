@@ -1,0 +1,8 @@
+README.md
+setup.py
+generic_service_bus_cqrs/__init__.py
+generic_service_bus_cqrs.egg-info/PKG-INFO
+generic_service_bus_cqrs.egg-info/SOURCES.txt
+generic_service_bus_cqrs.egg-info/dependency_links.txt
+generic_service_bus_cqrs.egg-info/requires.txt
+generic_service_bus_cqrs.egg-info/top_level.txt

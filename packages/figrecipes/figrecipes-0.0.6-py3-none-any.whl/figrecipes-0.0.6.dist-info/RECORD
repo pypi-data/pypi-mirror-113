@@ -1,0 +1,9 @@
+figrecipes/__init__.py,sha256=qquj7-f79FcI3EuJfmYEa-3idCbPCSFgChOsQU1XDbU,60
+figrecipes/plot.py,sha256=sE1BWRtfwVAIXBQpxiUuiR-LqKvSdoNOILUvxeA8T-I,74760
+figrecipes/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+figrecipes/tests/test_plots.py,sha256=HtxlhsFLUNf_EwaSpdR6xUO_jjgZjMaoblVqH42FdEA,7657
+figrecipes-0.0.6.dist-info/LICENSE,sha256=H1allBT1FZ4ZAmQef23BOMewMRkM3afsAGZUkMhJw8U,2420
+figrecipes-0.0.6.dist-info/METADATA,sha256=c1QjEHoPDN-8vA5rrL7fQvSXqv-u15bRkOXeNcUMaDM,1434
+figrecipes-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+figrecipes-0.0.6.dist-info/top_level.txt,sha256=eyF4oniLDrIduVPYnEvdcaRr-0FI29KBbfOz4iw5GSY,11
+figrecipes-0.0.6.dist-info/RECORD,,

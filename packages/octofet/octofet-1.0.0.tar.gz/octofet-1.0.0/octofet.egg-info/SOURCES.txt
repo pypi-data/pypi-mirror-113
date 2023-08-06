@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+octofet/__init__.py
+octofet/octofet.py
+octofet.egg-info/PKG-INFO
+octofet.egg-info/SOURCES.txt
+octofet.egg-info/dependency_links.txt
+octofet.egg-info/requires.txt
+octofet.egg-info/top_level.txt

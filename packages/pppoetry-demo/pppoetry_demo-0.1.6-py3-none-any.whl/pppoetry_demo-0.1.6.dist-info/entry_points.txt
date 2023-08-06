@@ -1,0 +1,3 @@
+[console_scripts]
+pppoetry_demo=pppoetry_demo.pppoetry_demo:main
+

@@ -1,0 +1,11 @@
+matplotlib
+opencv-python
+numpy
+tensorboard
+future
+memory_profiler
+profilehooks
+tqdm
+cython
+scipy
+lpips

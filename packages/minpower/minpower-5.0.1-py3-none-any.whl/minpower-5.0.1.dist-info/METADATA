@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: minpower
+Version: 5.0.1
+Summary: power systems optimization made beautiful
+Home-page: http://adamgreenhall.github.io/minpower
+Author: Adam Greenhall
+Author-email: minpower@adamgreenhall.com
+License: UNKNOWN
+Download-URL: https://github.com/adamgreenhall/minpower/zipball/v5.0.1
+Keywords: power systems,optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: pandas (>=1.3)
+Requires-Dist: pyomo (>=6.0)
+Requires-Dist: matplotlib (>=3.4)
+Requires-Dist: xarray (>=0.18)
+
+
+power systems tools made beautiful
+-----------------------------------------
+
+* Solves ED, OPF, and UC problems.
+* Problems can be defined in simple spreadsheets.
+* Visualizations are created for the answers.
+* Many solvers are supported.
+
+
+* `Full documentation and tutorials <http://adamgreenhall.github.io/minpower>`_
+* `Code base <http://github.com/adamgreenhall/minpower>`_
+
+
+

@@ -1,0 +1,15 @@
+README.md
+setup.py
+numberize/__init__.py
+numberize/mapper.py
+numberize/numberize.py
+numberize/numeric_dict.py
+numberize/tools.py
+numberize.egg-info/PKG-INFO
+numberize.egg-info/SOURCES.txt
+numberize.egg-info/dependency_links.txt
+numberize.egg-info/requires.txt
+numberize.egg-info/top_level.txt
+test/test_mapper.py
+test/test_numberize.py
+test/test_tools.py

@@ -1,0 +1,3 @@
+[console_scripts]
+i2v = avcv.utils:images_to_video
+

@@ -1,0 +1,16 @@
+odoo/addons/pos_order_remove_line/README.rst,sha256=qBNZnCyki_hlJvu1IZ1VxBmsLNa8UzNq5CJUp6RzU90,2939
+odoo/addons/pos_order_remove_line/__init__.py,sha256=R89EmUVeT7KCbMSGM_3g9ILfMNIgr3D3SRWFllykEnM,91
+odoo/addons/pos_order_remove_line/__manifest__.py,sha256=WACGz-nyjN3VF-V8elLGh_kLu5H-hiicrPSb18hO-Ng,533
+odoo/addons/pos_order_remove_line/i18n/pos_order_remove_line.pot,sha256=AyzPzY6fvZoAIdVCppv0SiPLoR_D-HBQlYffHd1jWNE,341
+odoo/addons/pos_order_remove_line/readme/CONTRIBUTORS.rst,sha256=Qs_0ttOizf1ojWIBop-bOjebEPRm5GY5WJbaNPwP3nc,135
+odoo/addons/pos_order_remove_line/readme/DESCRIPTION.rst,sha256=c-vR4xYYHj_t0WzqSrmoCkpW2ei4W3uVOy8hR90Ng-w,83
+odoo/addons/pos_order_remove_line/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/pos_order_remove_line/static/description/index.html,sha256=uryXxAn4mSgOnD4QY6TlL4XXKPylgPayAobkL3PBsqk,12275
+odoo/addons/pos_order_remove_line/static/src/css/orderline.scss,sha256=zwdZIljAPRYxfDeSE2hTVYQX0e4qv9QpYV516B-1jgk,215
+odoo/addons/pos_order_remove_line/static/src/js/orderline.js,sha256=UmuxuZmn6Z--ylvplvuT9eeVqfY2KqwtvAA5Fx3IWTo,575
+odoo/addons/pos_order_remove_line/static/src/xml/orderline.xml,sha256=9iFI-vWs_OZkUeawmY2-BjlSui0q1CqXe2xBc09RtA0,456
+odoo/addons/pos_order_remove_line/views/assets.xml,sha256=Gkau9wFSeQONJghH1a-kV7y4Tdn9IQd3WerAodm8cAw,619
+odoo14_addon_pos_order_remove_line-14.0.1.0.1.dev2.dist-info/METADATA,sha256=AK4LTA_SyucA1w2X-t-jSmMHwzQdeGmjnfn1eWlkkE0,3467
+odoo14_addon_pos_order_remove_line-14.0.1.0.1.dev2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo14_addon_pos_order_remove_line-14.0.1.0.1.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_pos_order_remove_line-14.0.1.0.1.dev2.dist-info/RECORD,,

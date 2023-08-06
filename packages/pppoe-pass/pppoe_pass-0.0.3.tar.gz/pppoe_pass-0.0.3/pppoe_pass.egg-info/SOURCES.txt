@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+teest.py
+pppoe_pass/__init__.py
+pppoe_pass.egg-info/PKG-INFO
+pppoe_pass.egg-info/SOURCES.txt
+pppoe_pass.egg-info/dependency_links.txt
+pppoe_pass.egg-info/requires.txt
+pppoe_pass.egg-info/top_level.txt

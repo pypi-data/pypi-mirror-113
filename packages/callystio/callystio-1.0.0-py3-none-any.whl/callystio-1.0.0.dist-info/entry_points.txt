@@ -1,0 +1,3 @@
+[console_scripts]
+callystio = callystio.cli:cli
+

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sdss
+Version: 0.0.1
+Summary: A python package for retrieving and analysing SDSS data
+Home-page: https://github.com/behrouzz/sdss
+Author: Behrouz Safari
+Author-email: behrouz.safari@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+
+**Author:** [Behrouz Safari](https://behrouzz.github.io/)<br/>
+**License:** [MIT](https://opensource.org/licenses/MIT)<br/>
+
+# sdss
+*A python package for retrieving and analysing SDSS data*
+
+
+## Installation
+
+Install the latest version of *sdss* from [PyPI](https://pypi.org/project/sdss/):
+
+    pip install sdss
+
+Requirements are *numpy*, *pandas* and *matplotlib*.
+
+
+## Quick start
+
+Let's get the positions of the sun between two times:
+
+```python
+from sdss import Images
+
+ra = 179.689293428354
+dec = -0.454379056007667
+
+img = Images(ra, dec)
+img.show()
+```
+
+

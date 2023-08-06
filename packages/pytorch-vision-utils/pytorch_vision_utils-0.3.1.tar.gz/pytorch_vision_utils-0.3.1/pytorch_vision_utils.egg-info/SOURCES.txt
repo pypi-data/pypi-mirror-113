@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pytorch_vision_utils/CustomModels.py
+pytorch_vision_utils/Utilities.py
+pytorch_vision_utils/__init__.py
+pytorch_vision_utils/preprocessing.py
+pytorch_vision_utils/train.py
+pytorch_vision_utils.egg-info/PKG-INFO
+pytorch_vision_utils.egg-info/SOURCES.txt
+pytorch_vision_utils.egg-info/dependency_links.txt
+pytorch_vision_utils.egg-info/requires.txt
+pytorch_vision_utils.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+.github/workflows/python-publish.yaml
+dbify/__init__.py
+dbify/config_file.py
+dbify/connections.py
+dbify/dbify.py
+dbify.egg-info/PKG-INFO
+dbify.egg-info/SOURCES.txt
+dbify.egg-info/dependency_links.txt
+dbify.egg-info/requires.txt
+dbify.egg-info/top_level.txt

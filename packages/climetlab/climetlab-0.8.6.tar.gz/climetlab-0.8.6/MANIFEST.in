@@ -1,0 +1,7 @@
+include climetlab/*/*.yaml
+include climetlab/*/*/*.yaml
+include climetlab/*/*/*/*.yaml
+include climetlab/*/*/*/*/*.yaml
+include climetlab/*/*/*/*/*/*.yaml
+include climetlab/data/css/*.css
+include climetlab/sources/dummy.grib

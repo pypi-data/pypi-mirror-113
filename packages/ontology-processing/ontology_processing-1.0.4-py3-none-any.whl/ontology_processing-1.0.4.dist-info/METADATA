@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ontology-processing
+Version: 1.0.4
+Summary: Climate Mind ontology processing code.
+Home-page: https://github.com/ClimateMind/climatemind-ontology-processing
+Author: ClimateMind
+Author-email: hello@climatemind.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Brotli
+Requires-Dist: click
+Requires-Dist: cycler
+Requires-Dist: dash
+Requires-Dist: dash-core-components
+Requires-Dist: dash-html-components
+Requires-Dist: dash-renderer
+Requires-Dist: dash-table
+Requires-Dist: decorator
+Requires-Dist: Flask
+Requires-Dist: Flask-Compress
+Requires-Dist: future
+Requires-Dist: itsdangerous
+Requires-Dist: Jinja2
+Requires-Dist: kiwisolver
+Requires-Dist: MarkupSafe
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: Owlready2
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: plotly
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: retrying
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: validators
+Requires-Dist: Werkzeug
+
+UNKNOWN
+

@@ -1,0 +1,10 @@
+colab/__init__.py,sha256=0Uc3zDF9XadX9j08cOIZbGoZsI0JPHTxemWum3gkos4,21
+colab/colab.py,sha256=HALEyJiABWgkEdIbsRswAIPa_c0NUM_G5IIb1A4t7IM,5960
+colab/th_column_names.py,sha256=9uRCoGCww-CqdvEgHoh2rJYRnezsTfLY81Uchx3Uzcc,9615
+colab/tianhua_local.py,sha256=pILadKWYTzGXrUkWi0MtYJiVaQUDDWh2lZzvCVKUc2M,7023
+colab_to_PETA-0.0.5.dist-info/LICENSE,sha256=TmXJOdcsaTharxwxGV_orNT4u2L11BOQHqOFu1cnd_E,1066
+colab_to_PETA-0.0.5.dist-info/METADATA,sha256=EN8J0BUtwDyxnk4MIeLyBPpyaXeR6D5Z1tLNUYUfA9c,1313
+colab_to_PETA-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+colab_to_PETA-0.0.5.dist-info/entry_points.txt,sha256=u7cdFihGYGp95C65Wy2jToVszFWAz3UQ93E9JyeyJb8,44
+colab_to_PETA-0.0.5.dist-info/top_level.txt,sha256=Wnn2PUk9NRXZDjDbo22dsRgVIIpwPJO3ELJYjWXwKA4,6
+colab_to_PETA-0.0.5.dist-info/RECORD,,

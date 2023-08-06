@@ -1,0 +1,10 @@
+defense_finder/__init__.py,sha256=oofagR8LKCXptFGsaoyM1Ab9tNuU8Ddx_FeKH0LOFok,393
+defense_finder_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defense_finder_cli/main.py,sha256=S72VZ8pUT30lx0Z__VJbOC2No4qC7gN-Qg0EzNlcG4E,1108
+defense_finder_updater/__init__.py,sha256=tcXJrw6LOyG5SmMRvmfxFm6SCo5NfozkNVD-LoVB74I,308
+mdmparis_defense_finder-0.0.5.dist-info/LICENSE,sha256=wCC-AbRwWSbe9BAI-xxklyzQmDtw6LKkGQ4aaTFClGI,34444
+mdmparis_defense_finder-0.0.5.dist-info/METADATA,sha256=lTZiqEnA6kct0S_AT2T1taoekd9N2jPHd6bwLrYfX0g,2214
+mdmparis_defense_finder-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mdmparis_defense_finder-0.0.5.dist-info/entry_points.txt,sha256=IsOY7eS6l1Q88_DdzqLn9vezO_GTP_Gk2YqN25tNaFQ,90
+mdmparis_defense_finder-0.0.5.dist-info/top_level.txt,sha256=78xaurbLgPtCV-xs2rgS0Do4opCrnjEE8IL9pq9YKkw,57
+mdmparis_defense_finder-0.0.5.dist-info/RECORD,,

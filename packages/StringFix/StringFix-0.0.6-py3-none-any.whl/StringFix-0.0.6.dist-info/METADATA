@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: StringFix
+Version: 0.0.6
+Summary: A reference-based proteome assmebler using RNA-seq
+Home-page: https://github.com/combio-dku/
+Author: Seokhyun Yoon
+Author-email: syoon@dku.edu
+License: UNKNOWN
+Download-URL: https://github.com/combio-dku/
+Keywords: pypi StringFix
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+
+UNKNOWN
+

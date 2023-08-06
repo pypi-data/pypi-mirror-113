@@ -1,0 +1,3 @@
+[console_scripts]
+dopey = dopey.dopey:_main
+

@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: lsHotword
+Version: 1.0.5
+Summary: An Deep Learning Based Hotword Detectors For Python Programmers
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: hotword detectors for windows 10,linux and mac using deep learning
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.16.1)
+Requires-Dist: matplotlib (==3.2.2)
+Requires-Dist: pydub (==0.25.1)
+Requires-Dist: sklearn
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: tensorflow (==2.1.0)
+
+![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)
+# Welcome to lsHotword
+
+**lsHotoword** detector is Easy to use Module Which is open-Source and **Free License**. ls is stands for **Logical Spot** and this module is created with the help of **Coursera(Andrew Ng)  Program**. If you have any problem you can contact me on my E-mail at the last of this Document. For any Help we also have YouTube channel link is at the last of this file.
+
+
+# Training Your Own Model
+
+For Training Your Own Model You have to Create Your Dataset.
+For example record 10 audio with voice **Activate** and place it under "Positives folder" and record 10 **Non-Activate Word ** Which are not Activate and place it under negatives folder.
+and Then run this command
+```console 
+pip install lsHotword
+```
+Then go to your python library where **ls Hotword is installed** and run this command.
+```
+python Htrainer.py --input ./data --epochs 100
+
+```
+Here **data** is the folder where both folders **"positives and negatives"** are located and training with 100 epochs.
+
+
+# Using Trained Model
+
+
+In the installed directory you find a python file **ls.py** you have to open this file in your code editor and change model path and save it.
+Now you had done all things and now go to any directory and create any python file and use this hotword detector like this:
+
+```
+import ls
+#type any code 
+#call your Hotword like this
+
+ls.lsHotword_loop()           #code stoped at this line and resume if you
+                         #speak your Wake Word
+
+```
+
+# For More Information
+
+For more information or send your query at:
+iamhemantindia@protonmail.com
+
+or Checkout Our Youtube Channel
+https://www.youtube.com/c/LogicalSpot
+

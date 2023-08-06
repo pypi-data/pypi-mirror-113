@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Rocinante
+Version: 2.0
+Summary: Rocinante is a lightweight WSGI web application framework based on Werkzeug.
+Home-page: UNKNOWN
+Author: sui
+Author-email: 2315375425@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: Werkzeug
+Requires-Dist: gevent
+Requires-Dist: gevent-websocket
+Requires-Dist: Jinja2
+Requires-Dist: loguru
+
+UNKNOWN
+
+

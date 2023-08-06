@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-test.txt
+setup.py
+pynaco/__init__.py
+pynaco/naco.py
+pynaco.egg-info/PKG-INFO
+pynaco.egg-info/SOURCES.txt
+pynaco.egg-info/dependency_links.txt
+pynaco.egg-info/top_level.txt
+tests/__init__.py
+tests/naco_test.py
+tests/data/NACO.script
+tests/data/NACOsimplified.check
+tests/data/NACOstandard.check

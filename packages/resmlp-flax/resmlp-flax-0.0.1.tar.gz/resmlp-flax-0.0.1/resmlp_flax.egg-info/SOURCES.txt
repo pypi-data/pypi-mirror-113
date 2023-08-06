@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+resmlp_flax/__init__.py
+resmlp_flax/model.py
+resmlp_flax/utils.py
+resmlp_flax.egg-info/PKG-INFO
+resmlp_flax.egg-info/SOURCES.txt
+resmlp_flax.egg-info/dependency_links.txt
+resmlp_flax.egg-info/requires.txt
+resmlp_flax.egg-info/top_level.txt
+resmlp_flax.egg-info/zip-safe

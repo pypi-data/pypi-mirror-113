@@ -1,0 +1,5 @@
+pyYaml
+six
+polib
+path
+Django

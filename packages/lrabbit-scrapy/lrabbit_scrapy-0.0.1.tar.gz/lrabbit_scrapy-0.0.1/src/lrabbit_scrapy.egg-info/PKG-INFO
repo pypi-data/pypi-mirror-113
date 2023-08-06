@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: lrabbit-scrapy
+Version: 0.0.1
+Summary: this is a small decription
+Home-page: https://github.com/litter-rabbit/lrabbit_scrapy
+Author: lrabbit
+Author-email: 709343607@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/litter-rabbit/lrabbit_scrapy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.rst
+
+Lrabbit_spider
+=====
+
+Lrabbit_spider is small scrapy
+
+
+
+Installing
+----------
+
+
+
+    $ pip install -U lrabbit_scrapy
+
+
+A Simple Example
+----------------
+
+
+    $ pip install lrabbit_spider
+    $ lrabbit_spider newscrapy myspider_name
+    $ python myspider_name.py
+
+
+
+Links
+-----
+
+-   author: https://www.lrabbit.life/
+
+
+

@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: django-authorship
+Version: 2.0b1
+Summary: A set of Django mixins to easily record authorship information for your models.
+Home-page: https://gitlab.com/django-authorship/django-authorship
+Author: Matt Austin
+Author-email: devops@mattaustin.com.au
+License: Apache 2.0
+Project-URL: Documentation, https://django-authorship.readthedocs.io/en/latest/
+Project-URL: Changelog, https://django-authorship.readthedocs.io/en/latest/history.html
+Project-URL: Issues, https://gitlab.com/django-authorship/django-authorship/issues
+Project-URL: Source, https://gitlab.com/django-authorship/django-authorship
+Keywords: django authorship created updated model mixin
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: django (!=3.0.*,>=2.2)
+Provides-Extra: docs
+Requires-Dist: sphinx (~=4.0) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==0.5.2) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: coverage (~=5.5) ; extra == 'tests'
+Requires-Dist: factory-boy (~=3.2) ; extra == 'tests'
+Requires-Dist: freezegun (~=1.1) ; extra == 'tests'
+Requires-Dist: unittest-xml-reporting (~=3.0) ; extra == 'tests'
+Provides-Extra: types
+Requires-Dist: django-stubs (~=1.8) ; extra == 'types'
+Requires-Dist: mypy (==0.910) ; extra == 'types'
+
+=================
+django-authorship
+=================
+
+.. image:: https://gitlab.com/django-authorship/django-authorship/badges/main/pipeline.svg
+   :target: https://gitlab.com/django-authorship/django-authorship/commits/main
+
+.. image:: https://gitlab.com/django-authorship/django-authorship/badges/main/coverage.svg
+   :target: https://django-authorship.gitlab.io/django-authorship/coverage/
+
+.. image:: https://readthedocs.org/projects/django-authorship/badge/?version=latest
+    :target: http://django-authorship.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+A set of Django mixins to easily record authorship information for your models.
+
+Features
+--------
+
+* Base model allows easy recording of authorship information.
+* Integration with Django's class-based views and forms.
+* Integration with Django's admin.
+
+
+Documentation
+-------------
+
+The full documentation is at https://django-authorship.readthedocs.io/
+
+
+Quickstart
+----------
+
+Install ``django-authorship`` using the installation instructions found in the project documentation.
+
+Build a model based on ``authorship.models.Authorship`` to record authorship information on it::
+
+    from authorship.models import Authorship
+
+    class MyModel(Authorship):
+
+        pass
+
+This adds ``created_by``, ``created_at``, ``updated_by``, and ``updated_at`` to your model.
+
+Pass a user into calls to ``.save()`` to record which user changed the object::
+
+    example = MyModel()
+    example.save(user=request.user)
+
+If you need to update model data and there's no direct link to a website user, generate and use a site-wide 'generic' user.::
+
+    from authorship.models import get_website_user
+
+    example = MyModel()
+    example.save(user=get_website_user())
+
+If you wish to automatically record authorship information for changes made in the Django admin, use ``authorship.admin.AuthorshipMixin``.::
+
+    from authorship.admin import AuthorshipMixin
+    from django.contrib import admin
+
+    from .models import MyModel
+
+    @admin.register(MyModel)
+    class MyModelAdmin(AuthorshipMixin, admin.ModelAdmin):
+
+        pass
+
+If you wish to integrate with ``django.forms.ModelForm``, use ``authorship.forms.AuthorshipMixin`` and ``authorship.views.AuthorshipMixin``.
+
+In your ``forms.py``::
+
+    from authorship.forms import AuthorshipMixin
+    from django import forms
+
+    from .models import MyModel
+
+    class MyModelForm(forms.ModelForm):
+
+        class Meta(object):
+            model = MyModel
+
+In your ``views.py``::
+
+    from authorship.views import AuthorshipMixin
+    from django.views.generic import CreateView
+
+    from .forms import MyModelForm
+    from .models import MyModel
+
+    class MyModelCreateView(AuthorshipMixin, CreateView):
+
+        form_class = MyModelForm
+
+``MyModelCreateView`` will now automatically pass ``request.user`` through to ``MyModelForm``, which will pass it through to the model's `save()` method.
+
+
+Credits
+-------
+
+See ``AUTHORS.rst``.
+
+

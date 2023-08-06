@@ -1,0 +1,4 @@
+from pymeshfix import _meshfix
+
+
+help(_meshfix.PyTMesh)

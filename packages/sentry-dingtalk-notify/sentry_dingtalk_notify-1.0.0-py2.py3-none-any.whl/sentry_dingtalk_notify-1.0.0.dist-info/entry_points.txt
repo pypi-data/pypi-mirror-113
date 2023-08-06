@@ -1,0 +1,3 @@
+[sentry.plugins]
+sentry_dingtalk_notify = sentry_dingtalk_notify.plugin:DingTalkNotifyPlugin
+

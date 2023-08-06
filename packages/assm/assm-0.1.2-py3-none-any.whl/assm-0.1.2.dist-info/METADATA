@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: assm
+Version: 0.1.2
+Summary: iOS splash screen generator
+Home-page: https://github.com/emilecok/assm
+Keywords: iOS,splashscreen,splash-screen
+Author: Alexander Popov
+Author-email: iiiypuk@iiiypuk.me
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Pillow==8.3.1
+Requires-Dist: pylint == 2.7.1 ; extra == "dev"
+Requires-Dist: black == 20.8b1 ; extra == "dev"
+Project-URL: Documentation, https://docs/
+Provides-Extra: dev
+
+## Apple Splash Screen Maker
+
+![](https://img.shields.io/pypi/v/assm?style=for-the-badge) ![](https://img.shields.io/pypi/l/assm?style=for-the-badge) ![](https://img.shields.io/github/languages/code-size/emilecok/assm?style=for-the-badge)
+
+## Usage and Examples
+Install package
+``` sh
+pip install assm
+```
+
+Usage
+``` sh
+python3 -m assm
+```
+

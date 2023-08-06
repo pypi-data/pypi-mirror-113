@@ -1,0 +1,12 @@
+avcv/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+avcv/_nbdev.py,sha256=TRJEWHiCg_WmXU7GOJJfWmyJYMFxKq-QahxhmZydZIo,435
+avcv/core.py,sha256=L4BN4OAGstVLmP6yqU2uxhO8o6HZycu37ukqifQxDM0,1698
+avcv/plot_images.py,sha256=L4BN4OAGstVLmP6yqU2uxhO8o6HZycu37ukqifQxDM0,1698
+avcv/process.py,sha256=h5d1dhlB2pkwdwhwFiz5uFJbQyCbH2TWUvU70q23Trs,1205
+avcv/visualize.py,sha256=s8-NrSeMjm8vLRJG2nSt2h0H4qBcdvtBkCmh0qFJcEY,2134
+avcv-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+avcv-0.0.2.dist-info/METADATA,sha256=tzS4ERpSHDcLrkHXXYMe2rN8MBo4Frj3O33hhIYtT1c,1057
+avcv-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+avcv-0.0.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+avcv-0.0.2.dist-info/top_level.txt,sha256=fmcgE05QEq80tDNMeR8NDNnLK5S_F0chbzAM80wQaHU,5
+avcv-0.0.2.dist-info/RECORD,,

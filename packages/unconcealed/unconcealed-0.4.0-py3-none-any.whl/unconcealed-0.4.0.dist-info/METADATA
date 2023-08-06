@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: unconcealed
+Version: 0.4.0
+Summary: A python package to assist visualization of image manipulation signatures
+Home-page: https://github.com/oxpeter/unconcealed
+Author: Peter Oxley
+Author-email: oxpeter@gmail.com
+License: mit
+Project-URL: Bug Tracker, https://github.com/oxpeter/unconcealed/issues
+Keywords: forensic,analysis,research,western blot,northern blot,immunoblot,research reproducibility,pubpeer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipywidgets (>=7.6)
+Requires-Dist: matplotlib (>=3.4)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: opencv-python (>4)
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: Pillow (>=8.1)
+Requires-Dist: scipy (>=1.6)
+Requires-Dist: seaborn (>=0.11)
+
+UNKNOWN
+

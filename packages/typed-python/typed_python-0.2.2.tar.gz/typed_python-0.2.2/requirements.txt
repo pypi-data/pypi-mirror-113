@@ -1,0 +1,7 @@
+llvmlite
+numpy < 1.20
+psutil
+pytz
+sortedcontainers
+lz4
+

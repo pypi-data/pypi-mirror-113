@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: validatorPCTE
+Version: 0.0.1
+Summary: pacote para validar campos - nome, cpf e telefone
+Home-page: https://github.com/danyel-dev/Arvore23
+Author: David Pereira, Carlos Daniel
+Author-email: davidpereirax19@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+validatorPCTE
+============
+
+#### Esse é um pacote que faz a validação de três campos comuns vistos em formulários de cadastro ou de login.
+
+
+## Instalação:
+
+    pip install validatorPCTE
+
+## Uso:
+
+    from validatorPCTE import validatorPCTE as vt
+    obj = vt.validatorPCTE()
+    a = obj.cpf(str(06565436398))
+
+

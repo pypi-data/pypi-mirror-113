@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/tfli2c/__init__.py
+src/tfli2c.egg-info/PKG-INFO
+src/tfli2c.egg-info/SOURCES.txt
+src/tfli2c.egg-info/dependency_links.txt
+src/tfli2c.egg-info/requires.txt
+src/tfli2c.egg-info/top_level.txt
+src/tfli2c/docs/__init__.py
+src/tfli2c/tests/__init__.py
+src/tfli2c/tests/tfli2c_simple.py
+src/tfli2c/tests/tfli2c_test.py

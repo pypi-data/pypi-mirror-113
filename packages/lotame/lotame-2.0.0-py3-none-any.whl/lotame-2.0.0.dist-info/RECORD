@@ -1,0 +1,9 @@
+lotame/__init__.py,sha256=EmvlwIr4yjLckx9fVavHzH_Dh9xl7_zKHFZ2kjSg5OA,103
+lotame/lotame.py,sha256=OnlN7msh7D3444fx2mbyF6c5cIHWEeKQvxeic388Qqw,12142
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lotame.py,sha256=IF99hu77o81LYhK4hnU9XRBcnbuXUjuzfjItOoPKnvg,312
+lotame-2.0.0.dist-info/LICENSE,sha256=TTwtgK4GVS0SOdjqEKEm4vJGdLECW5rNqW1-ooAMWcA,1078
+lotame-2.0.0.dist-info/METADATA,sha256=qhlT78FyKsssSJCgehJ__X-6DMnz78sfwQJITyRzpjE,1446
+lotame-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lotame-2.0.0.dist-info/top_level.txt,sha256=jK-ucFH1pMZFJMSUaalL6zvRZEgLX_ozp3MHrIcfY_o,13
+lotame-2.0.0.dist-info/RECORD,,

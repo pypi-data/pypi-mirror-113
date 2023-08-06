@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: py-ff
+Version: 0.0.2
+Summary: pyff is a wrapper for the Flyff Project M API
+Home-page: https://github.com/Donny208/py-ff
+Author: Donovan Wright
+Author-email: UNKNOWN
+License: MIT
+Description: # Pyff, a Python based wrapper for the Flyff Project M 
+        
+        A WIP
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/py_ff.egg-info/PKG-INFO
+src/py_ff.egg-info/SOURCES.txt
+src/py_ff.egg-info/dependency_links.txt
+src/py_ff.egg-info/requires.txt
+src/py_ff.egg-info/top_level.txt
+src/pyff/__init__.py

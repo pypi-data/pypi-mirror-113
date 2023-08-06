@@ -1,0 +1,11 @@
+getosm/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+getosm/__init__.py,sha256=tz2BQP2VTx2GO8tXfWlgHnDcXHMKmB6MxG9KikWruTQ,22
+getosm/getosm.py,sha256=N2PnuhKsdaeKR9G0K_sjbf5k6AlnlLNyeXNvJ6IBNm4,9594
+getosm/osmtk.py,sha256=LMqfT4g18x6nbon-mPvbfr3sLSKcyWpx0BiWMrxLOv0,13584
+getosm/osmwx.py,sha256=yO-sE0f1zXSPuX1cgCeX5pEqIILrgdDrERNJ2upzN2c,2685
+getosm-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+getosm-0.1.0.dist-info/METADATA,sha256=7xDqcTb6MIUtAoYaqwvgsJz-ikEkUm0qI2H_LYs3dvM,1713
+getosm-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+getosm-0.1.0.dist-info/entry_points.txt,sha256=p4rVCqE67i3f4ar1EjfS2pU5BKgcZ98BQZ_vAE88E80,71
+getosm-0.1.0.dist-info/top_level.txt,sha256=ukqVR3wOmqK3pO6BxD_eYehbzBDJd5xkHLMr2wsl3DI,7
+getosm-0.1.0.dist-info/RECORD,,

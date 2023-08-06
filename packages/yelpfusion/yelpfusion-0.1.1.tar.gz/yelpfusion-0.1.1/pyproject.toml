@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "yelpfusion"
+version = "0.1.1"
+description = "A Python wrapper for Yelp Fusion API"
+authors = ["James Tran <tran.james2001@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/tmnhat2001/yelp-fusion-api"
+keywords = ["yelp"]
+packages = [
+    { include = "yelpfusion" }
+]
+
+[tool.poetry.urls]
+"Yelp API documentation" = "https://www.yelp.com/developers/documentation/v3/get_started"
+
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+requests = ">=2.26.0,<3.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "0.910"
+black = "21.6b0"
+isort = "5.9.2"
+flake8 = "3.9.2"
+flake8-annotations = "2.6.2"
+flake8-colors = "0.1.9"
+pre-commit = "2.13.0"
+pytest = "6.2.4"
+requests-mock = "^1.9.3"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+# use black compatible settings
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+skip = [".git", ".venv"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

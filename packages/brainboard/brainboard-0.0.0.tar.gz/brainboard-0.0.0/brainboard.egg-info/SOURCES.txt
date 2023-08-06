@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+brainboard/__init__.py
+brainboard/board.py
+brainboard/info.py
+brainboard.egg-info/PKG-INFO
+brainboard.egg-info/SOURCES.txt
+brainboard.egg-info/dependency_links.txt
+brainboard.egg-info/requires.txt
+brainboard.egg-info/top_level.txt
+brainboard/plotting/__init__.py
+brainboard/plotting/network.py

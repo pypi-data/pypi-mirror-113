@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/actions.py
+src/the_f_calculator.egg-info/PKG-INFO
+src/the_f_calculator.egg-info/SOURCES.txt
+src/the_f_calculator.egg-info/dependency_links.txt
+src/the_f_calculator.egg-info/top_level.txt

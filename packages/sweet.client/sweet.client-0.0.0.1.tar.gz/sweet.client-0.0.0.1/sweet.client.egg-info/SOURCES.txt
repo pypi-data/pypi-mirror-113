@@ -1,0 +1,8 @@
+README.md
+setup.py
+sweet.client.egg-info/PKG-INFO
+sweet.client.egg-info/SOURCES.txt
+sweet.client.egg-info/dependency_links.txt
+sweet.client.egg-info/top_level.txt
+sweetclient/__init__.py
+sweetclient/client.py

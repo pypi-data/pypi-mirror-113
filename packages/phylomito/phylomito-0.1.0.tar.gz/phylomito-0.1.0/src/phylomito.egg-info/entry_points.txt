@@ -1,0 +1,4 @@
+[console_scripts]
+mt_download = phylomito.mt_download:main
+phylomito = phylomito.phylomito:main
+

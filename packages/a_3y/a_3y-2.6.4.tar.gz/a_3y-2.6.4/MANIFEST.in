@@ -1,0 +1,7 @@
+include README.md
+include README.rst
+include README.html
+include pyproject.toml
+global-include *.py
+global-include *.txt
+global-exclude *.pyc

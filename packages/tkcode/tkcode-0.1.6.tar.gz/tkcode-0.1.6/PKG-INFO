@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tkcode
+Version: 0.1.6
+Summary: A code editor and code block widget for tkinter with syntax highlighting, and some other useful stuff
+Home-page: https://github.com/rdbende/tkcode
+Author: rdbende
+Author-email: rdbende@gmail.com
+License: MIT license
+Description: # tkcode
+        Code block and code editor widget for tkinter with syntax highlighting with Pygments for many languages, plenty of property getters and setters, for easier handling, built-in read from or save to file, and many more...
+        
+        [![Pypi upload status](https://github.com/rdbende/tkcode/actions/workflows/python-publish.yml/badge.svg)](https://github.com/rdbende/tkcode/actions/workflows/python-publish.yml)
+        
+        
+        ### Install
+        The installation is very easy via Pip
+        ```
+        pip3 install tkcode
+        ```
+        or if you're using Windows:
+        ```
+        pip install tkcode
+        ```
+        
+        ### Screenshots
+        
+        ![CodeBlock](https://user-images.githubusercontent.com/77941087/126519716-e505d82f-6b33-4648-b7d5-3367f3cd5c9c.png)
+        ![CodeEditor](https://user-images.githubusercontent.com/77941087/126519727-6635ccb6-6592-4b80-9e9c-98bcb866e7f5.png)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

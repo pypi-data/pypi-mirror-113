@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mcpackutil/__init__.py
+mcpackutil/cli.py
+mcpackutil/dotminecraft.py
+mcpackutil/extractor.py
+mcpackutil/is_pack.py
+mcpackutil.egg-info/PKG-INFO
+mcpackutil.egg-info/SOURCES.txt
+mcpackutil.egg-info/dependency_links.txt
+mcpackutil.egg-info/entry_points.txt
+mcpackutil.egg-info/top_level.txt

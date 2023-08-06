@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mcpackutil
+Version: 1.0.2
+Summary: A CLI and library for working with Minecraft resource packs
+Home-page: https://github.com/deflatedpickle/mcpackutil
+Author: deflatedpickle
+License: MIT
+Keywords: mcpackutil,minecraft,resource pack
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+UNKNOWN
+

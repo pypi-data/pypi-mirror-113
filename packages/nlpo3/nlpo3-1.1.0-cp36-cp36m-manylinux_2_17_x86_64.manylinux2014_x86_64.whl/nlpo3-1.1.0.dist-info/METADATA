@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: nlpo3
+Version: 1.1.0
+Summary: Python binding for nlpO3 Thai language processing library
+Home-page: https://github.com/PyThaiNLP/oxidized-thainlp/
+Author: Thanathip Suntorntip, Arthit Suriyawongkul, Wannaphong Phatthiyaphaibun
+Author-email: wannaphong@yahoo.com
+License: Apache-2.0
+Keywords: thai,tokenizer,nlp,rust,pythainlp
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Thai
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+Python binding for nlpO3, a Thai natural language processing library in Rust.
+
+## Features
+
+- Word tokenizer
+  - maximal-matching dictionary-based tokenization
+  - 2x faster than similar pure Python implementation (PyThaiNLP's newmm)
+  - support custom dictionary
+
+## Install
+
+```bash
+pip install nlpo3
+```
+
+## Usage
+
+Tokenization using default dictionary:
+```python
+from nlpo3 import segment
+
+segment("สวัสดีครับ")
+```
+
+Load file `path/to/dict.file` to memory and assigned it with name `dict_name`.
+Then tokenize a text with `dict_name` dictionary:
+```python
+from nlpo3 import load_dict, segment
+
+load_dict("path/to/dict.file", "dict_name")
+segment("สวัสดีครับ", "dict_name")
+
+

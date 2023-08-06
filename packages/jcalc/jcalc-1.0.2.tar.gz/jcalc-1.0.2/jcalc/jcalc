@@ -1,0 +1,113 @@
+#!/usr/bin/env python3
+__author__ = "Joao Luiz de Meirelles"
+
+# Third Party imports
+import os
+import logging
+import argparse
+from pathlib import Path
+
+# Base imports
+from jcalc.core.pdb import JCalcPdb
+from jcalc.core.md import JCalcMd
+from jcalc.logger.logger import log_config
+
+
+# Log configurations
+log_config(log_file="jcalc.log")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-x", "-xtc", "-xtc_filename", dest="xtc",
+                        help=""".xtc filename from molecular dynamics you \
+                            want to analyze (Needs to be
+                            in current directory)""", required=False)
+
+    parser.add_argument("-t", "-tpr", "-tpr_filename", dest="tpr",
+                        help=""".tpr filename from molecular dynamics you \
+                            want to analyze (Needs to be
+                            in current directory)""", required=False)
+
+    parser.add_argument("-suf", "-suffix", dest="suffix",
+                        help="""Suffix of analysis, used when running multiple \
+                            3JH,H calculations in same directory""",
+                        required=False)
+
+    parser.add_argument("-skip", dest="skip", type=int,
+                        help="""Number of frames you want to skip when calcu\
+                            lating 3JH,H values thorugh molecular dynamics""",
+                        required=False, default=100)
+
+    parser.add_argument("-n", "-ndx", dest="j_input", type=str,
+                        help="""J input filename to know which coupling \
+                            constants will be calculated. Read documentation
+                            for information on format""",
+                        required=False)
+
+    parser.add_argument("-hydro", action='store_true',
+                        help="""Adding implicit hydrogen to \
+                            GROMOS simulations""",
+                        required=False)
+
+    parser.add_argument("-p", "-pdb", "-pdb_filename", dest="pdb",
+                        help=""".pdb filename you want to calculate J values \
+                            (Needs to be in current directory)""",
+                        required=False)
+
+    parser.add_argument("-i", "-input", "-input_dir", dest="input_dir",
+                        help="""Input directory path with frames as .pdb
+                            files""", required=False)
+
+    args = parser.parse_args()
+
+    # If args.xtc exists, MD analysis is chosen
+    if args.xtc:
+        logging.info("Starting JCalc")
+        logging.info(f"XTC chosen file: {args.xtc}")
+        logging.info(f"TPR chosen file: {args.tpr}")
+        logging.info(f"Skip chosen: {args.skip}")
+        logging.info(f"J input file: {args.j_input}")
+        teste = JCalcMd(xtc=args.xtc,
+                        tpr=args.tpr,
+                        suffix=args.suffix,
+                        skip=args.skip,
+                        j_input=args.j_input
+                        )
+        teste.create_frames()
+        if args.hydro:
+            teste.add_hydrogen()
+        teste.calc_md_j()
+        teste.calc_statistics()
+        teste.write_results("statistical_results.txt")
+
+    elif args.input_dir:
+        logging.info("Starting JCalc")
+        args.input_dir = Path(args.input_dir)
+        logging.info(f"Input directory file: {str(args.input_dir.resolve())}")
+        logging.info(f"J input file: {args.j_input}")
+        teste = JCalcMd(xtc="",
+                        tpr="",
+                        suffix=args.suffix,
+                        skip=1,
+                        j_input=args.j_input
+                        )
+        teste.frames_dir = args.input_dir
+        teste.frames = os.listdir(str(teste.frames_dir.resolve()))
+        teste.frames = sorted(teste.frames,
+                              key=lambda x: int(x.split("_")[1].split(".")[0])
+                              )
+        teste.calc_md_j()
+        teste.calc_statistics()
+        teste.write_results("statistical_results.txt")
+
+    # Else, static structure analysis is chosen
+    else:
+        logging.info(f"Starting JCalc for PDB file {args.pdb}")
+        logging.info(f"J input file: {args.j_input}")
+        pdb_J = JCalcPdb(pdb=args.pdb, j_input=args.j_input)
+        pdb_J.get_atoms_vector()
+        pdb_J.create_j_dict()
+        pdb_J.calc_all_j()
+        pdb_J.write_pdb_results()
+        logging.info("Ended JCalc analysis for PDB file")

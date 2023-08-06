@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: RPAwithComputerVision
+Version: 0.0.4
+Summary: This is code with package
+Home-page: UNKNOWN
+Author: botways
+License: UNKNOWN
+Platform: UNKNOWN
+
+Vision UI package
+eg: -
+from visionuibot.vision_ui import Vision_UI
+app_name = 'Template.docx - Word'
+file_path = r'D:\Botways\VisionUI\FInalCode\extra_testing\Template.docx'
+vi = Vision_UI(app_name=app_name, file_path=file_path)
+vi.create_blueprint()
+vi.screen_mapping()
+
+# https://github.com/UB-Mannheim/tesseract/wiki
+Install traceract OCR from given link
+

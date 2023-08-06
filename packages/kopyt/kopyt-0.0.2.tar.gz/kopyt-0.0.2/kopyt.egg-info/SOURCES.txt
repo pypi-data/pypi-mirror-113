@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+kopyt/__init__.py
+kopyt/debugger.py
+kopyt/exception.py
+kopyt/iterator.py
+kopyt/lexer.py
+kopyt/node.py
+kopyt/parser.py
+kopyt/position.py
+kopyt.egg-info/PKG-INFO
+kopyt.egg-info/SOURCES.txt
+kopyt.egg-info/dependency_links.txt
+kopyt.egg-info/top_level.txt

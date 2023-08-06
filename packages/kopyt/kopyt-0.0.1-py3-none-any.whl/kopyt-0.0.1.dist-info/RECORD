@@ -1,0 +1,13 @@
+kopyt/__init__.py,sha256=FOIx3vaDmD5Bl-tNhZ7QFXXRmvaPcqIwYj_Y9T2OMUg,49
+kopyt/debugger.py,sha256=gkPlpbiVEMUCiM25KIc0ckUwDlejTHSLeE21Ki8Q7_s,1827
+kopyt/exception.py,sha256=qmqjKGSs2gIha1RfR9nT8xsOvW4o4NutQsHDDYyWKRQ,248
+kopyt/iterator.py,sha256=nK8EYD5D6Pq3ZSGbklCdI8TTxLUkTiEBeXIJysKaGSE,2964
+kopyt/lexer.py,sha256=QA_0dVxsuIOKIeYa7YvGPTk7BZkDSpOOtgrapHkt_sM,19324
+kopyt/node.py,sha256=PDIGw8DYGjHqNaIULzIF5NOzPbdsP4mremIB2hJN4LA,45374
+kopyt/parser.py,sha256=99OwbnfYZl46on2nvVuK_Q_aQzgi-OMriCUfdMkb2RU,124052
+kopyt/position.py,sha256=vH4SdzjBrv6GWPaksejppC8iuNFvMggBKxiDnpo0Ln4,383
+kopyt-0.0.1.dist-info/LICENSE,sha256=HuvKYPhqof_UYWkll16fMgqsy8DpkVnZkxYcOoSi0es,1070
+kopyt-0.0.1.dist-info/METADATA,sha256=wO7azIdmQw0tYAHPw96cVrb2aAoBuwLY_ZGkEFEZN60,1528
+kopyt-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kopyt-0.0.1.dist-info/top_level.txt,sha256=uHp12A-BafBqgRDlpWkk5Jwiq7sLF8HMOxzyQA8aiqY,6
+kopyt-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+LICENSE.md,sha256=HlcwkgW34TrIiNxgR9zkq1pDjqgqYLyVBNdEOY9F2oE,1055
+fossology/__init__.py,sha256=VG5zq1tQTTG8yN-0giiEvIqL0UyTOX45ihQIez5pjq4,13587
+fossology/exceptions.py,sha256=MSAXV9mrRFW5wxG1OYSv7egh8becMXpSTJbh4UUbmNY,1434
+fossology/folders.py,sha256=LkC8hNCV_34ph1VxtPgmZJJSC2Ds6Jht1KPoiZ0mD2k,8214
+fossology/groups.py,sha256=d_bG64vMN61sV-vukDbIqYBB1k9k5ubHjlxMWcO6wZ4,2292
+fossology/jobs.py,sha256=hb28WmSRA7KRVFFbS1MiyWqdrXHshbSD5mFQIaa3Iyg,6839
+fossology/license.py,sha256=0L_nmVO9Li3k6xmjVzXFgPP-aFTLdB6u-oEXhp6Goe8,7852
+fossology/obj.py,sha256=s4niEDu0usfUJV96SZyjg9_oURDTosT-eJAQ4sJAcJA,20371
+fossology/report.py,sha256=yU8V1Ltborsr7AzwsOP0Gj6-JNBw8fXuMppGhEaX0Yg,4640
+fossology/uploads.py,sha256=xzXAHJPuImgxpgzF4mi7rWjrLgRa4vZtG7CtnDTLdSU,20462
+fossology-1.3.4.dist-info/LICENSE.md,sha256=HlcwkgW34TrIiNxgR9zkq1pDjqgqYLyVBNdEOY9F2oE,1055
+fossology-1.3.4.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+fossology-1.3.4.dist-info/METADATA,sha256=awV4klKTsNv-k7CYInY_uOWmzcpeJom6B8ehtnFA86M,5955
+fossology-1.3.4.dist-info/RECORD,,

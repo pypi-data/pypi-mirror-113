@@ -1,0 +1,1 @@
+A simple library that predicts the price of a stock using Machine Learning & Linear Regression.  

@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Stockpredictor.egg-info/PKG-INFO
+Stockpredictor.egg-info/SOURCES.txt
+Stockpredictor.egg-info/dependency_links.txt
+Stockpredictor.egg-info/requires.txt
+Stockpredictor.egg-info/top_level.txt
+stockmarketprice/stock_predictor.py

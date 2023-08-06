@@ -1,0 +1,9 @@
+README.md
+setup.py
+SNPerr/__init__.py
+SNPerr/snperr.py
+SNPerr.egg-info/PKG-INFO
+SNPerr.egg-info/SOURCES.txt
+SNPerr.egg-info/dependency_links.txt
+SNPerr.egg-info/requires.txt
+SNPerr.egg-info/top_level.txt

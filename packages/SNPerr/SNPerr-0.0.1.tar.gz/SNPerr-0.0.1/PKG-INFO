@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: SNPerr
+Version: 0.0.1
+Summary: Determine read depth and variant frequency thresholds to distinguish seq errors from true SNPs.     Simulates effect of changing per-site read depth and variant frequency on accuracy of genetic diversity
+Home-page: https://github.com/j3551ca/DiVirusity
+Author: Jessica Caleta
+Author-email: jessica.caleta@alumni.ubc.ca
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

@@ -1,0 +1,5 @@
+[console_scripts]
+calibration.py = bob.ip.stereo.calibration:main
+stereo_matcher.py = bob.ip.stereo.stereo_matcher:main
+warp_calibration.py = bob.ip.stereo.warp_calibration:main
+

@@ -1,0 +1,11 @@
+setuptools
+bob.extension
+numpy
+# opencv  We need opencv, but the opencv package is broken and can't be installed with pip. Install it with conda.
+scikit-image
+pandas
+matplotlib
+bob.io.image
+bob.ip.color
+bob.io.stream
+

@@ -1,0 +1,10 @@
+bob.extension
+setuptools
+bob.extension
+numpy
+scikit-image
+pandas
+matplotlib
+bob.io.image
+bob.ip.color
+bob.io.stream

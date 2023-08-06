@@ -1,0 +1,24 @@
+{
+    "stream_config" : "/path/to/streams_config.json",
+    "pattern_rows": 9,
+    "pattern_columns": 6,
+    "frame" : 0,
+    "streams": {
+        "camera1_rgb": null,
+        "camera2_thermal":
+        {
+            "threshold" : 155,
+            "closing" : 4,
+            "invert" : true
+        },
+        "camera3_nir":
+        {
+            "threshold" : 105,
+            "closing" : 2,
+            "invert" : false
+        }
+    },
+    "duplicate_calibration": {
+        "camera3_nir": "camera3_depth"
+    }
+}

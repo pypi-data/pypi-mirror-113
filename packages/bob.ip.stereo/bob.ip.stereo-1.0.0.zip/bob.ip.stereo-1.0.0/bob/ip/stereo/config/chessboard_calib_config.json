@@ -1,0 +1,46 @@
+{
+    "capture_directory" : "data/chessboard",
+    "stream_config" : "data/minibatl_stream_config.json",
+    "pattern_type": "chessboard",
+    "pattern_rows": 10,
+    "pattern_columns": 7,
+    "square_size" : 21,
+    "threshold" : 181,
+    "closing_size" : 10,
+    "intrinsics":
+    {
+        "fix_center_point" : false,
+        "fix_aspect_ratio" : false,
+        "fix_focal_length" : false,
+        "zero_tang_dist" : false,
+        "use_intrinsic_guess" : false,
+        "intrinsics_guess" :
+        {
+            "f" : [1200, 1200],
+            "center_point" : [540.5, 768],
+            "dist_coefs" : [0 ,0, 0, 0, 0]
+        }
+    },
+    "frames_list": {
+        "20210304_1656_01_00_0000_000_6610f83c.h5": [1, 3],
+        "20210304_1659_01_00_0000_000_b6dcb21b.h5": [0, 2],
+        "20210304_1657_01_00_0000_000_3a4a4a7c.h5": [0, 2],
+        "20210304_1657_01_00_0000_000_3378aeb0.h5": [1, 3],
+        "20210304_1657_01_00_0000_000_b92d2326.h5": [1, 3],
+        "20210304_1658_01_00_0000_000_b4c6e297.h5": [0, 2],
+        "20210304_1656_01_00_0000_000_3366da52.h5": [1, 3],
+        "20210304_1659_01_00_0000_000_2e648018.h5": [1, 3],
+        "20210304_1658_01_00_0000_000_ebbe4e79.h5": [0, 2],
+        "20210304_1656_01_00_0000_000_014df636.h5": [1, 3],
+        "20210304_1659_01_00_0000_000_d2bd00f7.h5": [0, 2],
+        "20210304_1658_01_00_0000_000_44c0e392.h5": [1, 3],
+        "20210304_1656_01_00_0000_000_e33e1b6e.h5": [0, 2]
+    },
+    "display":
+    {
+        "references" : ["color", "nir_left", "nir_right"],
+        "axe_x" : [-25, 25],
+        "axe_y" : [-25, 25],
+        "axe_z" : [-10, 10]
+    }
+}

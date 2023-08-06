@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+sklearn
+logging
+logging_tree
+pytest
+six
+argparse

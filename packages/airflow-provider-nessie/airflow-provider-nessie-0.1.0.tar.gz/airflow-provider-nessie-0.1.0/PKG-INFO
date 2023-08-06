@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: airflow-provider-nessie
+Version: 0.1.0
+Summary: Entry point for the Nessie Airflow provider.
+Home-page: https://github.com/projectnessie/nessie_provider
+Author: Project Nessie
+Author-email: nessie-release-builder@dremio.com

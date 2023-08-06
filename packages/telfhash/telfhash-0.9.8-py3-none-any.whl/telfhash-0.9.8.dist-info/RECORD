@@ -1,0 +1,12 @@
+telfhash/VERSION,sha256=_zWqlykxrdhZAOyr3B60ZZ45gRjTwlYB12IHmx_5fc0,6
+telfhash/__init__.py,sha256=xgatUriqh7QSIReuV4mckDDdCwiFAVmptK5TIEM9umk,975
+telfhash/__main__.py,sha256=pxwg0PSG57E6x0ngvfSdrwiPeSiDCzXb0y1LZ08OVvM,878
+telfhash/grouping.py,sha256=SCszCp8rmM_PU2IgsQKYKuXQ4AlwBCMl4i1vxsZgD1Y,6320
+telfhash/telfhash.py,sha256=mfISy3wCwK3T7DlqMceFn4lgXwd47nAULTzj-n5Sf2s,18790
+telfhash-0.9.8.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+telfhash-0.9.8.dist-info/METADATA,sha256=lICgD2-awYKgl67twn0MXrg9vvKyGt-JqzsS4wpsmfM,8140
+telfhash-0.9.8.dist-info/NOTICE,sha256=2L4F4DGrdSBPeDYXJryZ5c0lcufzJSl5cm71CirKUUY,124
+telfhash-0.9.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+telfhash-0.9.8.dist-info/entry_points.txt,sha256=Rf4BVmMCEA6JKL9QP5SgALXpZ_zPrHRDX7jvELH_dg8,53
+telfhash-0.9.8.dist-info/top_level.txt,sha256=v9PNL8VaLL3Sy9T5gn4PXWtqVMsFoHeBXduDjUv7pUU,9
+telfhash-0.9.8.dist-info/RECORD,,

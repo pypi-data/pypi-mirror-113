@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: garb
+Version: 0.2.0
+Summary: Request Builder for Google Analytics Reporting API v4 
+Home-page: https://github.com/czuhajster/garb
+Author: Arkadiusz Podkowa
+Author-email: 18arek@gmail.com
+License: MIT
+Keywords: google analytics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE.md
+
+UNKNOWN
+

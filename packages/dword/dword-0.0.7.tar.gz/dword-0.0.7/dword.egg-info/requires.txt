@@ -1,0 +1,11 @@
+nbdev
+notebook
+ipython
+requests
+opencv-python
+pytube
+pydub
+imageio
+imageio-ffmpeg
+fastcore
+pandas

@@ -1,0 +1,6 @@
+/dist
+/htmlcov
+/public
+.coverage
+*.pyc
+*.swp

@@ -1,0 +1,6 @@
+desktop.py
+setup.py
+lzy_desktop.egg-info/PKG-INFO
+lzy_desktop.egg-info/SOURCES.txt
+lzy_desktop.egg-info/dependency_links.txt
+lzy_desktop.egg-info/top_level.txt

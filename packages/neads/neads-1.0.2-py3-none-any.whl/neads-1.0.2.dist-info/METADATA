@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: neads
+Version: 1.0.2
+Summary: Neads is a modular tool for modelling of dynamical systems with complex internal structure by complex networks.
+Home-page: https://github.com/Thrayld/neads
+Author: Tomáš Hons
+Author-email: Hons.T.m@seznam.cz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/x-rst
+Requires-Dist: bleach (==3.3.1)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: charset-normalizer (==2.0.3)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: frozendict (==2.0.3)
+Requires-Dist: idna (==3.2)
+Requires-Dist: importlib-metadata (==4.6.1)
+Requires-Dist: keyring (==23.0.1)
+Requires-Dist: kiwisolver (==1.3.1)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: networkx (==2.6.1)
+Requires-Dist: numpy (==1.21.1)
+Requires-Dist: packaging (==21.0)
+Requires-Dist: pandas (==1.3.0)
+Requires-Dist: parameterized (==0.8.1)
+Requires-Dist: Pillow (==8.3.1)
+Requires-Dist: pkginfo (==1.7.1)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: pydot (==1.4.2)
+Requires-Dist: Pygments (==2.9.0)
+Requires-Dist: Pympler (==0.9)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==29.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: scipy (==1.7.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tqdm (==4.61.2)
+Requires-Dist: twine (==3.4.2)
+Requires-Dist: urllib3 (==1.26.6)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.5.0)
+
+Neads
+=====
+
+Neads is a modular tool for modelling of dynamical systems with complex 
+internal structure by complex networks. The library is able to automatically 
+configure various parametrized analytical pipelines, it allows executing all 
+potential runs and comparing their results. Also, it stores intermediate 
+results and makes them available for acceleration of subsequent calculations 
+as well as potential pipelines extensions. This tool is suitable for analysing 
+many real-world systems including the human brain, financial systems or social 
+networks.
+
+Install
+-------
+
+Install Neads via :code:`pip`::
+
+    $ pip install neads
+
+Bugs
+----
+
+Please report any bugs you find `here <https://github.com/thrayld/neads/issues>`_.
+
+

@@ -1,0 +1,199 @@
+.gitignore
+LICENSE
+README.md
+README.rst
+nano.save
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+examples/README.md
+examples/Other/Brusselator.txt
+examples/Other/GH_big_spiral.txt
+examples/Other/alternate_line_builder.txt
+examples/Other/busy_beaver.txt
+examples/Other/ertl.txt
+examples/Other/game_of_life_5x5_circuit.txt
+examples/Other/game_of_life_one_to_one.txt
+examples/Other/majority_asynchronous.txt
+examples/Other/majority_synchronous_large.txt
+examples/Other/majority_synchronous_small.txt
+examples/Other/molecular_walker.txt
+examples/Other/parens_matcher.txt
+examples/Other/sierpinski_1D_synch.txt
+examples/Other/smarter_scout_ant.txt
+examples/Other/sorting_asynch.txt
+examples/Other/sorting_synch.txt
+examples/Other/sqrt_circuit.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.1_GH_asynchronous_manifest.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_colormap.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_manifest.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_pulse_init.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_random_init.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_rules.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.2_GH_spinning_arrow_spiral_init.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.3_GH_broadcast_swap_sum_manifest.txt
+examples/Paper/3 - Dynamic Spatial Patterns/3.3_Game_of_Life_broadcast_swap_sum_manifest.txt
+examples/Paper/3 - Dynamic Spatial Patterns/Fig1b_GH_well_mixed.py
+examples/Paper/3 - Dynamic Spatial Patterns/GH_spinning_arrow_colormap.txt
+examples/Paper/3 - Dynamic Spatial Patterns/GH_spinning_arrow_rules.txt
+examples/Paper/3 - Dynamic Spatial Patterns/GH_well_mixed.png
+examples/Paper/3 - Dynamic Spatial Patterns/generate_random_GH_init.py
+examples/Paper/3 - Dynamic Spatial Patterns/init_state_to_spinning_arrow_init_state.py
+examples/Paper/3 - Dynamic Spatial Patterns/synch_GH_automata_rule_generator.py
+examples/Paper/4 - Continuously Active Logic Circuits/Box5-logic_circuit_transition_rules_compressed.txt
+examples/Paper/4 - Continuously Active Logic Circuits/Fig4a-2-bit_adder_manifest.txt
+examples/Paper/4 - Continuously Active Logic Circuits/Fig4b-binary_counter_init.txt
+examples/Paper/4 - Continuously Active Logic Circuits/Fig4b-binary_counter_manifest.txt
+examples/Paper/4 - Continuously Active Logic Circuits/Fig4c-Game_of_Life_one_cell_init.txt
+examples/Paper/4 - Continuously Active Logic Circuits/Fig4c-Game_of_Life_one_cell_manifest.txt
+examples/Paper/4 - Continuously Active Logic Circuits/logic_circuit_transition_rules.txt
+examples/Paper/4 - Continuously Active Logic Circuits/logic_gate_colormap.txt
+examples/Paper/5 - Manufacturing/Fig5a-rule_110_manifest.txt
+examples/Paper/5 - Manufacturing/Fig5b-blossom_manifest.txt
+examples/Paper/5 - Manufacturing/Fig5c-random_line_manifest.txt
+examples/Paper/5 - Manufacturing/Fig5d-straight_line_manifest.txt
+examples/Paper/5 - Manufacturing/Fig5e-bitmap_image_manifest.txt
+examples/Paper/5 - Manufacturing/make_rastered_image_crn.py
+examples/Paper/6 - Robots and Swarms/Fig6a-anthill_manifest.txt
+examples/Paper/6 - Robots and Swarms/Fig6b-scouting_ant_manifest.txt
+examples/Paper/6 - Robots and Swarms/Fig6c-cargo_sorter_manifest.txt
+examples/Paper/7 - Rugby/Fig7-rugby_manifest.txt
+examples/Programmatic Interface/GH_big_spiral.py
+examples/Programmatic Interface/GoL_state_to_sCRN_init.py
+examples/Programmatic Interface/big_GH_init.txt
+examples/Programmatic Interface/long_range_diffusion.py
+examples/Programmatic Interface/long_range_diffusion.txt
+examples/Programmatic Interface/queue_speed_test.py
+examples/Programmatic Interface/render_GoLs.py
+examples/Programmatic Interface/rule_110_example_manifest.txt
+examples/Programmatic Interface/simple_python_interface_example.py
+examples/Programmatic Interface/visualize_state.py
+examples/Programmatic Interface/water_adsorption.py
+examples/Programmatic Interface/water_adsorption.txt
+examples/Programmatic Interface/Rugby Competition/rugby_game.py
+examples/Programmatic Interface/Rugby Competition/rugby_tournament.py
+examples/Programmatic Interface/Rugby Competition/templated_rugby_manifest.txt
+examples/Programmatic Interface/Rugby Competition/Teams/adam_butler_and_chigozie_nri_3.txt
+examples/Programmatic Interface/Rugby Competition/Teams/chigozie_nri_1.txt
+examples/Programmatic Interface/Rugby Competition/Teams/chigozie_nri_3.txt
+examples/Programmatic Interface/Rugby Competition/Teams/erik_winfree_1.txt
+examples/Programmatic Interface/Rugby Competition/Teams/erik_winfree_2.txt
+examples/Programmatic Interface/Rugby Competition/Teams/erik_winfree_3.txt
+examples/Programmatic Interface/Rugby Competition/Teams/erik_winfree_4.txt
+examples/Programmatic Interface/Rugby Competition/Teams/erik_winfree_5.txt
+examples/Programmatic Interface/Rugby Competition/Teams/matt_cook_and_andras_cook_1.txt
+examples/Programmatic Interface/Rugby Competition/Teams/random_scrambler.txt
+examples/Programmatic Interface/Rugby Competition/Teams/random_scrambler_zero.txt
+examples/Programmatic Interface/Rugby Competition/Teams/random_walk_cheat.txt
+examples/Programmatic Interface/Rugby Competition/Teams/random_walk_fast.txt
+examples/Programmatic Interface/Rugby Competition/Teams/random_walk_slow.txt
+examples/Programmatic Interface/Rugby Competition/Teams/rugby-defense1-test.txt
+examples/Programmatic Interface/Rugby Competition/Teams/rugby-defense2-test.txt
+examples/Programmatic Interface/Rugby Competition/Teams/sam_clamons_1.txt
+examples/Programmatic Interface/Rugby Competition/Teams/stefan_badelt_1.txt
+examples/Programmatic Interface/Rugby Competition/results/results_403959.txt
+examples/Programmatic Interface/Rugby Competition/results/results_794773.txt
+examples/Programmatic Interface/Rugby Competition/results/results_885441.txt
+examples/Programmatic Interface/Rugby Competition/temp/chigozie_nri_1_random_scrambler_manifest.txt
+examples/Programmatic Interface/Rugby Competition/temp/competition_manifest_885441.txt
+examples/Programmatic Interface/Rugby Competition/temp/strategy_insert.txt
+examples/Programmatic Interface/Snapshots/save_simulation_snapshots.py
+examples/Programmatic Interface/Snapshots/Manifests/GH_big_spiral_manifest.txt
+examples/Programmatic Interface/Snapshots/Manifests/GoL_one_site.txt
+examples/Programmatic Interface/Snapshots/Manifests/anthill_manifest.txt
+examples/Programmatic Interface/Snapshots/Manifests/big_GH_colormap.txt
+examples/Programmatic Interface/Snapshots/Manifests/big_GoL_init.txt
+examples/Programmatic Interface/Snapshots/Manifests/big_GoL_manifest.txt
+examples/Programmatic Interface/Snapshots/Manifests/bitmap_butterfly_manifest.txt
+examples/Programmatic Interface/Snapshots/Manifests/general_state_to_emulated_init_state.py
+examples/Programmatic Interface/Snapshots/Manifests/gol_state.txt
+examples/Programmatic Interface/Snapshots/Manifests/logic_circuit_transition_rules.txt
+examples/Programmatic Interface/Snapshots/Manifests/logic_gate_colormap.txt
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=1200.csv
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=1200.png
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=200.csv
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=200.png
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=350.csv
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=350.png
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=50.csv
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=50.png
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=770.csv
+examples/Programmatic Interface/Snapshots/Outputs/GH_big_spiral_T=770.png
+examples/Programmatic Interface/Snapshots/Outputs/anthill_T=100.csv
+examples/Programmatic Interface/Snapshots/Outputs/anthill_T=14000.csv
+examples/Programmatic Interface/Snapshots/Outputs/anthill_T=2000.csv
+examples/Programmatic Interface/Snapshots/Outputs/anthill_T=20000.csv
+examples/Programmatic Interface/Snapshots/Outputs/anthill_T=5000.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=0.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=0.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=1000.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=1000.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=1500.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=1500.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=2000.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=2000.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=2500.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=2500.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=3000.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=3000.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=3500.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=3500.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=4000.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=4000.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=4500.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=4500.png
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=500.csv
+examples/Programmatic Interface/Snapshots/Outputs/big_GoL_T=500.png
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=0.csv
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=150.csv
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=250.csv
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=300.csv
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=350.csv
+examples/Programmatic Interface/Snapshots/Outputs/bitmap_butterfly_T=50.csv
+surface_crns/SurfaceCRNQueueSimulator.py
+surface_crns/__init__.py
+surface_crns/constants.py
+surface_crns/generate_random_colors.py
+surface_crns/ordered_dict.py
+surface_crns/pygbutton.py
+surface_crns/random_color.py
+surface_crns/random_color_list.txt
+surface_crns.egg-info/PKG-INFO
+surface_crns.egg-info/SOURCES.txt
+surface_crns.egg-info/dependency_links.txt
+surface_crns.egg-info/entry_points.txt
+surface_crns.egg-info/requires.txt
+surface_crns.egg-info/top_level.txt
+surface_crns/assets/camera.png
+surface_crns/assets/camera_green.png
+surface_crns/assets/camera_yellow.png
+surface_crns/base/__init__.py
+surface_crns/base/node.py
+surface_crns/base/transition_rule.py
+surface_crns/models/__init__.py
+surface_crns/models/emulated_grid.py
+surface_crns/models/grids.py
+surface_crns/options/__init__.py
+surface_crns/options/option_processor.py
+surface_crns/profiling/__init__.py
+surface_crns/profiling/grid_timing.py
+surface_crns/profiling/timing.py
+surface_crns/readers/__init__.py
+surface_crns/readers/colormap_readers.py
+surface_crns/readers/grid_state_readers.py
+surface_crns/readers/manifest_readers.py
+surface_crns/readers/statements.py
+surface_crns/readers/totalistic_readers.py
+surface_crns/readers/transition_readers.py
+surface_crns/simulators/__init__.py
+surface_crns/simulators/event.py
+surface_crns/simulators/event_history.py
+surface_crns/simulators/queue_simulator.py
+surface_crns/simulators/queue_simulator_eager.py
+surface_crns/simulators/synchronous_simulator.py
+surface_crns/views/__init__.py
+surface_crns/views/grid_display.py
+surface_crns/views/legend_display.py
+surface_crns/views/text_display.py
+surface_crns/views/time_display.py

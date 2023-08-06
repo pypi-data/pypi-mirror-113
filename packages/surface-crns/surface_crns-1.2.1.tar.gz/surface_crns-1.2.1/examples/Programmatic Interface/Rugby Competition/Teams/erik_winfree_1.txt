@@ -1,0 +1,26 @@
+# Author: Erik Winfree
+
+X + 0 -> 1 + X (10)
+X + 1 -> 2 + X (9)
+X + 2 -> 3 + X (8)
+X + 3 -> 4 + X (7)
+X + 4 -> 5 + X (6)
+X + 5 -> 6 + X (5)
+X + 6 -> 7 + X (4)
+X + 7 -> 8 + X (3)
+X + 8 -> 9 + X (2)
+X + 9 -> 9 + X (1)
+
+XB + 0 -> 0 + XB (10)
+XB + 1 -> 1 + XB (9)
+XB + 2 -> 2 + XB (8)
+XB + 3 -> 3 + XB (7)
+XB + 4 -> 4 + XB (6)
+XB + 5 -> 5 + XB (5)
+XB + 6 -> 6 + XB (4)
+XB + 7 -> 7 + XB (3)
+XB + 8 -> 8 + XB (2)
+XB + 9 -> 9 + XB (1)
+
+# This strategX changes the markings on the field...
+# plaXers preferentiallX migrate toward unvisited territorX.

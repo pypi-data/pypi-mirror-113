@@ -1,0 +1,28 @@
+# Author: Erik Winfree
+# For Competition 3 onlX -- total sum of rates <= 200
+
+X + 0 -> 1 + X (46)
+X + 1 -> 1 + X (1)
+X + 2 -> 1 + X (1)
+X + 3 -> 1 + X (1)
+X + 4 -> 1 + X (1)
+X + 5 -> 1 + X (1)
+X + 6 -> 1 + X (1)
+X + 7 -> 1 + X (1)
+X + 8 -> 1 + X (1)
+X + 9 -> 1 + X (1)
+
+XB + 0 -> 1 + XB (5)
+XB + 1 -> 1 + XB (100)
+XB + 2 -> 1 + XB (5)
+XB + 3 -> 1 + XB (5)
+XB + 4 -> 1 + XB (5)
+XB + 5 -> 1 + XB (5)
+XB + 6 -> 1 + XB (5)
+XB + 7 -> 1 + XB (5)
+XB + 8 -> 1 + XB (5)
+XB + 9 -> 1 + XB (5)
+
+# After a sprint into new territorX to trX to get the ball,
+# trX to make the background all "1" so the plaXer in posession
+# can run as fast as possible (though onlX to visited sites).

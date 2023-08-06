@@ -1,0 +1,9 @@
+pyacvd/_version.py,sha256=9kJFnQ7cN6ZQxw8hBeLCiZhO2r10VzOD80aXtOuMKoI,238
+pyacvd/__init__.py,sha256=lAoESih2nTImI_pyBtKk-nBzhpR0u2UmUn3hjeay8oQ,42
+pyacvd/clustering.py,sha256=GZ8NjVm_ui8F9EXMR2f2LvrSYX8gGsGSivbT5xAOEK8,10887
+pyacvd/_clustering.cpython-36m-x86_64-linux-gnu.so,sha256=miSLnEtW1J3eaNmePm81ocDTi4bOU-dU2vn32hekZ5M,2229784
+pyacvd-0.2.7.dist-info/LICENSE,sha256=utK9PYQugtsSA5UL65tlfjIW1dFb1n8k-llWsj6695g,1084
+pyacvd-0.2.7.dist-info/METADATA,sha256=k_ZDsMDygYPYZV1Xrg-FpIUnZEgf6rqXqWyeLzJS0Sc,2464
+pyacvd-0.2.7.dist-info/top_level.txt,sha256=DPlNaHkdG8br2iMeBoM9vlsnJcElS9uDZKVxzy_jjO0,7
+pyacvd-0.2.7.dist-info/RECORD,,
+pyacvd-0.2.7.dist-info/WHEEL,sha256=Fqh7DnJbpv2r236LaMb8-xDJTAK8YDFtDn9konrfeVo,221

@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+aws_cloud_instance_list.egg-info/PKG-INFO
+aws_cloud_instance_list.egg-info/SOURCES.txt
+aws_cloud_instance_list.egg-info/dependency_links.txt
+aws_cloud_instance_list.egg-info/entry_points.txt
+aws_cloud_instance_list.egg-info/requires.txt
+aws_cloud_instance_list.egg-info/top_level.txt
+cloud_instance_list/__init__.py
+cloud_instance_list/aws.py
+cloud_instance_list/main.py

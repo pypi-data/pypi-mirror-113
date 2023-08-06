@@ -1,0 +1,9 @@
+ranimegen/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ranimegen/animegen.py,sha256=1ml64Qudaz10TryyfFjv_NYnQFCYV7I790E5ega_mKI,1973
+ranimegen/errors.py,sha256=O8ZBBkT6Z3cuWH8RcXGBaFUDHfe8ae6IuCgv4DhX3sw,85
+ranimegen/workers.py,sha256=RBqvEtTfdaNW4U5GSTkn9EH6bb4bEeLDyY28HcwDxfk,1565
+ranimegen-0.1.0.dist-info/LICENSE,sha256=s0gcGWHGgWYNtIRwt8qGYKc_7JyYXPkAP6TjwNhdXd8,1067
+ranimegen-0.1.0.dist-info/METADATA,sha256=3I_EmaGSsdTT0EFfHSfXL79aOuEx3D0gbMwQFnLlA-Q,83886
+ranimegen-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ranimegen-0.1.0.dist-info/top_level.txt,sha256=tbO2nNQAHGQ2Bx-ckeHWkRASvyfWAu6fLv0X73jEVBs,10
+ranimegen-0.1.0.dist-info/RECORD,,

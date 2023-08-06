@@ -1,0 +1,3 @@
+[console_scripts]
+copilot-auth=copilot.authflow:run
+

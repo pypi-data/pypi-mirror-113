@@ -1,0 +1,8 @@
+copilot/__init__.py,sha256=ezpQ9jLyi86n59dORK0ZQYPQWNRD678DT_wHRyMoqtY,4319
+copilot/__main__.py,sha256=BVhUBSncTq6CgT5IWn6sgEg2yZneEMLM-Ohx8N7IHBc,33
+copilot/authflow.py,sha256=tVvuie-COuoFn59F4eTsWSdX489tygL-qJa_UbSuODE,5368
+copilot_import-1.0.0.dist-info/entry_points.txt,sha256=8VGBvP567HvIprRwItIj9xfchtQLeePk53Nbz86qQmQ,53
+copilot_import-1.0.0.dist-info/LICENSE,sha256=ST39ixnOn92hYJKbLv7AEkkI8yDxsZWYBzJwVJhx9rU,1072
+copilot_import-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+copilot_import-1.0.0.dist-info/METADATA,sha256=D0MTBlALLKZ5NHtYR-Pq8zwY0WCp9EwcB-THRyqeIR8,4090
+copilot_import-1.0.0.dist-info/RECORD,,

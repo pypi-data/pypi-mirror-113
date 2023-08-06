@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: o-nose-show-skipped
+Version: 0.2
+Summary: A nose plugin to show skipped tests and their messages
+Home-page: https://github.com/cpcloud/nose-show-skipped
+Author: Phillip Cloud
+Author-email: cpcloud@gmail.com
+Maintainer: Phillip Cloud
+Maintainer-email: cpcloud@gmail.com
+License: BSD 3-clause
+Description: UNKNOWN
+Keywords: test unittest nose nosetests plugin
+Platform: UNKNOWN

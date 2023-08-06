@@ -1,0 +1,9 @@
+README.md
+setup.py
+showskipped.py
+o_nose_show_skipped.egg-info/PKG-INFO
+o_nose_show_skipped.egg-info/SOURCES.txt
+o_nose_show_skipped.egg-info/dependency_links.txt
+o_nose_show_skipped.egg-info/entry_points.txt
+o_nose_show_skipped.egg-info/requires.txt
+o_nose_show_skipped.egg-info/top_level.txt

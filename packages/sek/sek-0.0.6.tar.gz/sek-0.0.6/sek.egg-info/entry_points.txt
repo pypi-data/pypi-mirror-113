@@ -1,0 +1,3 @@
+[console_scripts]
+sek = src.sek:main
+

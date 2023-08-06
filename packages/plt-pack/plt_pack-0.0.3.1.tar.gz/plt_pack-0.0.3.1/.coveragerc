@@ -1,0 +1,5 @@
+[run]
+include = src/*
+omit =
+    src/plt_pack/jupyter_support/*
+    tests/*

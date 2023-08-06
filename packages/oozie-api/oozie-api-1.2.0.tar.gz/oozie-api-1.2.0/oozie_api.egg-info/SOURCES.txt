@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+oozie/__init__.py
+oozie/httputil2.py
+oozie/httputil3.py
+oozie/oozie.py
+oozie_api.egg-info/PKG-INFO
+oozie_api.egg-info/SOURCES.txt
+oozie_api.egg-info/dependency_links.txt
+oozie_api.egg-info/top_level.txt

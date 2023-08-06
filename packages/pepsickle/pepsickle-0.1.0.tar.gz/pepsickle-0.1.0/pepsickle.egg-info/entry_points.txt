@@ -1,0 +1,3 @@
+[console_scripts]
+pepsickle = pepsickle:main
+

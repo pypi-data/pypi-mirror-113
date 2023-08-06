@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+pepsickle/__init__.py
+pepsickle/__main__.py
+pepsickle/model_functions.py
+pepsickle/sequence_featurization_tools.py
+pepsickle.egg-info/PKG-INFO
+pepsickle.egg-info/SOURCES.txt
+pepsickle.egg-info/dependency_links.txt
+pepsickle.egg-info/entry_points.txt
+pepsickle.egg-info/not-zip-safe
+pepsickle.egg-info/requires.txt
+pepsickle.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pepsickle
+Version: 0.1.0
+Summary: proteasomal cleavage prediction tool
+Home-page: https://github.com/pdxgx/pepsickle/archive/refs/tags/v0.1.0.tar.gz
+Author: UNKNOWN
+Author-email: thompsre@ohsu.edu
+License: MIT
+Download-URL: https://github.com/pdxgx/pepsickle.git
+Description: UNKNOWN
+Keywords: proteasome,cleavage,peptide,degredation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics

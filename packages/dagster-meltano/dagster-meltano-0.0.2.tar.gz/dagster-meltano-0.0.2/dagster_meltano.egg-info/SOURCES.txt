@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dagster_meltano/__init__.py
+dagster_meltano/meltano_elt.py
+dagster_meltano/solids.py
+dagster_meltano.egg-info/PKG-INFO
+dagster_meltano.egg-info/SOURCES.txt
+dagster_meltano.egg-info/dependency_links.txt
+dagster_meltano.egg-info/top_level.txt

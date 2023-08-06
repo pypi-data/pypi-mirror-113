@@ -1,0 +1,10 @@
+mad_notifications/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mad_notifications/admin.py,sha256=DAb7ocimAvY9m3rl5EfJrRzJCVveoFvN7d4TyEA8MME,332
+mad_notifications/apps.py,sha256=hSIzz3NIIl6kNkWZoD0sJkxPmAtSrMy5Hz_NqOOIBmI,105
+mad_notifications/models.py,sha256=6vB5TbSo6W57zus95XOdN-e1wswm-Hi5cQOoOH9xvO4,1156
+mad_notifications/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+mad_notifications/utils.py,sha256=u9eHGIs5EG3IxLHTnrhyWRMBI51IU6oLJ7iSS6kNzqc,625
+mad_notifications-0.1.5.dist-info/METADATA,sha256=YkQ-ZEH4BVLtNFZgeIJnurOeGaK9JATOm9pr-Mo5sKo,1365
+mad_notifications-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mad_notifications-0.1.5.dist-info/top_level.txt,sha256=g5bzg3NEtVDVZuQ9SghQqfKbq0g2Q05l3AwZcesAHzE,18
+mad_notifications-0.1.5.dist-info/RECORD,,

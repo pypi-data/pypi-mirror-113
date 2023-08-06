@@ -1,0 +1,7 @@
+labml>=0.4.127
+gunicorn
+numpy
+labml-db
+fastapi
+uvicorn
+aiofiles

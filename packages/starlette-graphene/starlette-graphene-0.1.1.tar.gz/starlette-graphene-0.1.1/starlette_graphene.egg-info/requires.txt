@@ -1,0 +1,2 @@
+graphene>=3.0.0b7
+starlette>=0.14

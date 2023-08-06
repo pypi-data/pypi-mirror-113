@@ -1,0 +1,4 @@
+[console_scripts]
+tasker = tasker:launch
+waterch-tasker = tasker:launch
+

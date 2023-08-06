@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+mpi4py
+arff2pandas
+openpyxl

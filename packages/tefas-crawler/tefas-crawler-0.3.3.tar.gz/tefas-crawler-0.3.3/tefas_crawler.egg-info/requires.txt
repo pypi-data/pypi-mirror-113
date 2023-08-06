@@ -1,0 +1,15 @@
+requests
+marshmallow
+pandas
+
+[dev]
+pylint
+flake8
+black
+ipykernel
+ipython
+jupyter
+tox
+coverage
+pytest-cov
+tox-gh-actions

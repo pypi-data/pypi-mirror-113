@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: openembedding
+Version: 0.0.10
+Summary: Distributed framework to accelerate training and support serving.
+Home-page: https://github.com/4paradigm/OpenEmbedding
+Author: 4paradigm
+Author-email: opensource@4paradigm.com
+License: UNKNOWN
+Description: Openembedding is a distributed framework to accelerate TensorFlow training and
+        support TensorFlow Serving. It uses the parameter server architecture to store
+        the Embedding Layer. So that single machine memory is not the limit of model size.
+        Openembedding can cooperate with all-reduce framework Horovod to support both
+        data parallel and model parallel.
+Keywords: deep learning,tensorflow,keras,AI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Provides-Extra: tensorflow

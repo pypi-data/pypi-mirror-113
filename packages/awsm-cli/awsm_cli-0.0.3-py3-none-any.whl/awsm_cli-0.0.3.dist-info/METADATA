@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: awsm-cli
+Version: 0.0.3
+Summary: CLI menu for awesome list https://github.com/sindresorhus/awesome
+Home-page: https://github.com/rand-net/awsm-cli
+Author: rand-net
+License: MIT
+Keywords: awesome list,awesome,resources,lists,mammoths
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: art
+Requires-Dist: prompt-toolkit
+Requires-Dist: requests
+
+# awsm-cli
+
+CLI menu for awesome list https://github.com/sindresorhus/awesome
+
+![PyPI](https://img.shields.io/pypi/v/awsm-cli?style=flat-square)
+![GitHub](https://img.shields.io/github/license/rand-net/awsm-cli?style=flat-square)
+
+## Installation
+
+```
+pip install awsm-cli
+
+```
+
+## Usage
+
+```
+usage: awsm-cli [-h] [-b BROWSER]
+
+CLI Menu for awesome list https://github.com/sindresorhus/awesome
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b BROWSER, --browser BROWSER
+                        Custom Browser
+
+```
+
+* Open URL in the default browser
+
+```
+awsm-cli
+
+```
+
+* Open URL in a custom browser
+```
+awsm-cli -b Firefox
+
+```
+
+

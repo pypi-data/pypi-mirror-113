@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/scp_reader/__init__.py
+src/scp_reader/scpreader.py
+src/scpreader.egg-info/PKG-INFO
+src/scpreader.egg-info/SOURCES.txt
+src/scpreader.egg-info/dependency_links.txt
+src/scpreader.egg-info/top_level.txt

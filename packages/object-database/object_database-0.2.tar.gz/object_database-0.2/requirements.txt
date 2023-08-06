@@ -1,0 +1,23 @@
+beautifulsoup4
+boto3
+flaky
+flask < 2.0
+flask-cors
+flask-login
+flask-sockets
+flask-wtf
+gevent
+gevent-websocket
+ldap3
+nodeenv
+numpy < 1.20
+psutil
+pytest-lazy-fixture
+pytz
+pyyaml
+redis
+requests
+selenium
+sortedcontainers
+typed_python >= 0.2.4
+wtforms

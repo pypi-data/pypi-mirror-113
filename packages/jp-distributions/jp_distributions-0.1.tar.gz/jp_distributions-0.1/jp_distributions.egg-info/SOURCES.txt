@@ -1,0 +1,11 @@
+setup.py
+jp_distributions/Binomialdistribution.py
+jp_distributions/Gaussiandistribution.py
+jp_distributions/Generaldistribution.py
+jp_distributions/__init__.py
+jp_distributions.egg-info/PKG-INFO
+jp_distributions.egg-info/SOURCES.txt
+jp_distributions.egg-info/dependency_links.txt
+jp_distributions.egg-info/not-zip-safe
+jp_distributions.egg-info/requires.txt
+jp_distributions.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: drf-rw-serializers-stubs
+Version: 1.0.4
+Summary: Type stubs for the drf-rw-serializers package
+Home-page: https://github.com/benesch/drf-rw-serializers-stubs
+License: Apache-2.0
+Author: Nikhil Benesch
+Author-email: nikhil.benesch@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/benesch/drf-rw-serializers-stubs
+Description-Content-Type: text/markdown
+
+# drf-rw-serializers-stubs
+
+[![PyPI](https://img.shields.io/pypi/v/drf-rw-serializers-stubs)](https://pypi.org/project/drf-rw-serializers-stubs/)
+
+Python type stubs for the [drf-rw-serializers](https://github.com/vintasoftware/drf-rw-serializers) package.
+
+## Usage
+
+```
+pip install drf-rw-serializers-stubs
+```
+

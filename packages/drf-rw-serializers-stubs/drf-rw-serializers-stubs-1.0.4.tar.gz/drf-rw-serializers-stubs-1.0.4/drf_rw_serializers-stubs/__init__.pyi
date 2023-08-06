@@ -1,0 +1,6 @@
+"""
+Generic views, viewsets and mixins that extend the Django REST Framework ones adding
+separated serializers for read and write operations.
+"""
+__version__: str = ...
+default_app_config: str = ...

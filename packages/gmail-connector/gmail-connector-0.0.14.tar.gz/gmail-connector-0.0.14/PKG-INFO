@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: gmail-connector
+Version: 0.0.14
+Summary: Python script to, send SMS, emails and read unread emails.
+Home-page: https://github.com/thevickypedia/gmail-connector
+Author: Vignesh Sivanandha Rao
+Author-email: svignesh1793@gmail.com
+License: UNKNOWN
+Keywords: gmail,smtp,imap,tls
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Email :: Post-Office :: IMAP
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
+# Gmail Connector
+
+## Pypi Module
+https://pypi.org/project/gmail-connector/
+
+### Usage
+`pip install gmail-connector`
+
+<br>
+
+[Send SMS](https://github.com/thevickypedia/gmail-connector/blob/master/send_sms.py)
+
+```python
+from os import environ
+from gmailconnector.send_sms import Messenger
+
+# noinspection PyTypeChecker
+messenger = Messenger(
+    gmail_user=environ.get('gmail_user'),
+    gmail_pass=environ.get('gmail_pass'),
+    phone_number=environ.get('phone'),
+    message=f'Test SMS using gmail-connector'
+)
+print(messenger.send_sms())
+```
+
+[Send Email](https://github.com/thevickypedia/gmail-connector/blob/master/send_email.py)
+```python
+from os import environ
+from pathlib import PurePath
+from gmailconnector.send_email import SendEmail
+
+email_obj = SendEmail(
+        gmail_user=environ.get('gmail_user'),
+        gmail_pass=environ.get('gmail_pass'),
+        recipient=environ.get('recipient'),
+        subject='Howdy!',
+        attachment=PurePath(__file__).name,
+        body='Attached is the code that generated this very email',
+        sender=None
+    )
+print(email_obj.send_email())
+```
+
+[Read Email](https://github.com/thevickypedia/gmail-connector/blob/master/read_email.py)
+```python
+from os import environ
+from gmailconnector.read_email import ReadEmail
+
+ReadEmail(
+    gmail_user=environ.get('gmail_user'),
+    gmail_pass=environ.get('gmail_pass')
+).read_email()
+```
+
+### Pre-Commit
+Install `pre-commit` to run `flake8` and `isort` for linting and `sphinx` for documentation generator.
+
+`pip3 install pre-commit==2.13.0 Sphinx==4.1.1`
+
+`pre-commit run --all-files`
+
+### Runbook
+https://thevickypedia.github.io/gmail-connector/
+
+## License & copyright
+
+&copy; Vignesh Sivanandha Rao, Gmail Reader
+
+Licensed under the [MIT License](https://github.com/thevickypedia/gmail-connector/blob/master/LICENSE)
+
+
+Change Log
+==========
+
+0.0.14 (07/18/2021)
+-------------------
+- Delete broken releases
+- Modify and update CHANGELOG
+- Change URL for HomePage
+
+

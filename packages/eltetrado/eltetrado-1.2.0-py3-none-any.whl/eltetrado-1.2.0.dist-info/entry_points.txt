@@ -1,0 +1,4 @@
+[console_scripts]
+eltetrado=eltetrado.eltetrado:main
+has_tetrad=eltetrado.has_tetrad:main
+

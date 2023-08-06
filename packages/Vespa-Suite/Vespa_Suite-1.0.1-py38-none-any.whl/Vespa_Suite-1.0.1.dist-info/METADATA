@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Vespa-Suite
+Version: 1.0.1
+Summary: Vespa is a suite of inter-connnected applications for magnetic resonance spectroscopy simulation and data analysis.
+Home-page: https://github.com/vespa-mrs/vespa/
+Maintainer: Dr. Brian J. Soher
+Maintainer-email: bsoher@briansoher.com
+License: http://creativecommons.org/licenses/BSD/
+Keywords: mri,mrs,pygamma,spectral simulation,rf pulses,magnetic resonance spectroscopy,fitting,time domain,frequency domain
+Platform: Linux
+Platform: OS X
+Platform: Windows
+Platform: POSIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: setuptools
+
+Vespa stands for "Versatile Simulation, Pulses and Analysis". The Vespa 
+package is an integrated, open-source, platform for magnetic resonance spectroscopy (MRS) 
+research and data analysis. Applications in the Vespa package include: 
+
+Simulation - for spectral simulation (using the PyGAMMA/GAMMA library)
+Pulse - for RF pulse design and analysis
+DataSim - used to create synthetic MRS data sets from Simulation results 
+Analysis - spectral data processing and analysis
+
+The Vespa project addresses previous software limitations, including: non-standard data access,
+closed source multiple language software that complicate algorithm extension and comparison,
+lack of integration between programs for sharing prior information, and incomplete or missing
+documentation and educational content.
+
+These applications can be run separately but communicate among themselves via a shared
+database of objects/results.  One example of inter-application sharing might be that
+Simulation would make use of an RF pulse designed in Pulse application to create a more
+realistic MR simulation.
+

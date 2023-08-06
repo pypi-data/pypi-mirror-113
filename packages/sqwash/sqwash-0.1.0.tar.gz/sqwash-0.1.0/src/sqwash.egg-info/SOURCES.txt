@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/sqwash/__init__.py
+src/sqwash/functional.py
+src/sqwash/qp_solve.py
+src/sqwash/reducers.py
+src/sqwash.egg-info/PKG-INFO
+src/sqwash.egg-info/SOURCES.txt
+src/sqwash.egg-info/dependency_links.txt
+src/sqwash.egg-info/requires.txt
+src/sqwash.egg-info/top_level.txt

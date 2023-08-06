@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: plaster-dynaconf
+Version: 0.1.0
+Summary: A plaster plugin to configure pyramid app with Dynaconf
+Home-page: https://gitlab.com/lobi/plaster-dynaconf
+Author: Sebastian Lobinger
+Author-email: software.slobinger@t-online.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Dynaconf (>=3.0)
+Requires-Dist: plaster (>=1.0)
+
+# Plaster Dynaconf
+
+## Introduction
+
+By default, Pyramid use a pasteDeploy ini format file to loads its configuration,
+
+here is a plugin to use [Dynaconf](https://dynaconf.com) instead to configure
+your pyramid application.
+
+e.g.
+
+```
+pserve dynaconf://settings.yml
+```
+
+### Why another Configuration Loader for Pyramid's plaster?
+
+To answer this weustion lets have a look about what is so cool on Dynaconf.
+With the creation of Dynaconf the autor(s) have created a tool that handles the
+reading of configuration data very well. This is especially true for applications
+that are developed to be deployed in different enironments. Most of web applications
+are that kind of thing.
+In development of such applications you know how the settings should be for
+your development environment and everything that is no specific to *your*
+env and no secret should be in the source code. But The idea of
+[12-factor-apps](https://12factor.net) goes even farther everything what one
+knows about the environment types the application will be deployed should be in
+the source too and be overridden or extended with secrets in the specific env
+with environment varibales.
+
+You can do this with pasteDeploy too, but the need of different files for
+different environments is not as convinient as one default settings file
+with useful defaults for different environments that can overridden by the
+environments. And what environemnt is present is set by the environment and not
+by the file.
+
+On my flask driven apps using dynaconf the start up of the application looks
+everythere the same `flask run`. 
+I wanted to have a similar approach for my pyramid apps.
+`pserve dynaconf://settings.yml`
+
+Maybe it could even go as far as `pserve dynaconf://` but I am not sure if
+it is worth to do that much implicit especially because since dynaconf3 less
+things happen implicit than before.
+
+### When will this be on version 1.x.y?
+
+If I or someone else had time to write some good tests. Vecause this packages
+is mainly an integration piece of dynaconf and plaster with the clear
+destination to be used with `pserve` for pyramid there are not just unit tests
+required. For now it "works for me" applies and I do not want to let this kind of
+measurement be the one for version 1.x.y .
+
+## Installation
+
+```
+pip install plaster-yaml
+```
+
+## Usage
+
+This package registers itself by default for the entrypoint
+`'plaster.loader_factory'` so that it can be used in the way described above.
+If you wish to be able to do something like
+`pserve settings.yml` you have to add a configuration for the  entry point for
+`file+yml` to your setup.py or example:
+```
+setup(
+    ...,
+    entry_points={
+     'paste.app_factory': ['main = <my_app>:main'],
+     'plaster.loader_factory': ['file+yml = plaster_yaml:Loader'],
+     ...
+    },
+)
+```
+
+You must run `pip install -e .` to finallize the registration.
+
+## Troubleshouting
+
+If you get the following exception:
+
+```
+plaster.exceptions.LoaderNotFound: Could not find a matching loader for the scheme "file+yaml", protocol "wsgi".
+```
+
+It meast that you did not register the entry point. Read the usage section
+for to register it properly.
+
+

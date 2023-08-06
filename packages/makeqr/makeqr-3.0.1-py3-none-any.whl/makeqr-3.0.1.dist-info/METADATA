@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: makeqr
+Version: 3.0.1
+Summary: Generate QR cards for any occasion
+Home-page: https://github.com/shpaker/makeqr
+Author: Aleksandr Shpak
+Author-email: shpaker@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications
+Requires-Dist: pydantic[email] (>=1.8.2,<2.0.0)
+Requires-Dist: qrcode[pil] (>=7.1,<8.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/shpaker/makeqr
+Description-Content-Type: text/markdown
+
+# wifi_qrcode
+
+Generate WiFi Access QR Codes
+
+# Installation
+
+```bash
+pip install makeqr
+```
+
+# Usage example
+
+To test that installation was successful, try:
+
+```bash
+makeqr wifi --help
+```
+
+Usage from the command line:
+
+```bash
+makeqr wifi --ssid MYWIRELESSNETWORK --auth WPA --password SECRET
+```
+
+... or as python module:
+
+```bash
+python -m makeqr wifi --ssid MYWIRELESSNETWORK --auth WPA --password SECRET
+python -m makeqr mailto --to user@mail.org --subject "Mail from QR"
+```
+
+# Features
+
+- [x] geo
+- [x] link
+- [x] mailto
+- [x] sms
+- [x] tel
+- [x] wifi
+

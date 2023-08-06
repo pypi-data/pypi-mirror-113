@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+libhsmd.py
+setup.py
+libhsmd.egg-info/PKG-INFO
+libhsmd.egg-info/SOURCES.txt
+libhsmd.egg-info/dependency_links.txt
+libhsmd.egg-info/top_level.txt

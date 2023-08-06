@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: 73e4d8e848405a88f444cff1c9dbc5b8
+Version: 0.5
+Summary: Confidential
+Home-page: UNKNOWN
+Author: Sarang Purandare
+Author-email: purandare.sarang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: ipython
+Requires-Dist: mysql-connector
+Requires-Dist: pymysql
+Requires-Dist: SQLAlchemy
+Requires-Dist: cryptography
+Requires-Dist: sendgrid
+
+Still Confidential
+

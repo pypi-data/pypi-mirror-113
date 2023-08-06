@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: korsair-api
+Version: 1.0.5
+Summary: We provide korsair-api to help you query and retrieve KORSAIR directly on your python code.
+Home-page: UNKNOWN
+Author: junehawk
+Author-email: juneh@kisti.re.kr
+License: UNKNOWN
+Keywords: korsair-api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Requires-Dist: requests
+Requires-Dist: pandas
+
+UNKNOWN
+
+

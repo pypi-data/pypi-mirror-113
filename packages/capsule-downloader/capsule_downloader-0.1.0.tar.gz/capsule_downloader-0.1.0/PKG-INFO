@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: capsule-downloader
+Version: 0.1.0
+Summary: A tool to help users easily download capsules from aotu.ai
+License: Proprietary
+Author: Stephen Li
+Author-email: stephen@aotu.ai
+Requires-Python: >=3.6.6.2,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyInquirer (>=1.0.3,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: wget (>=3.2,<4.0)

@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+sdss/__init__.py
+sdss/core.py
+sdss.egg-info/PKG-INFO
+sdss.egg-info/SOURCES.txt
+sdss.egg-info/dependency_links.txt
+sdss.egg-info/requires.txt
+sdss.egg-info/top_level.txt

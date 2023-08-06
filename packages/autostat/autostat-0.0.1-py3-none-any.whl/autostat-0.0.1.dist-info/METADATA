@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: autostat
+Version: 0.0.1
+Summary: An implementation of the Automatic Statistician kernel selection algorithm
+Home-page: https://github.com/sutoiku/autostat
+Author: Brendan Colloran, Sutoiku Inc.
+Author-email: brendan@stoic.com
+License: MIT
+Keywords: Automatic Statistician,Gaussian Process
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: torch
+
+# autostat
+An implementation of the Automatic Statistician algorithm
+
+

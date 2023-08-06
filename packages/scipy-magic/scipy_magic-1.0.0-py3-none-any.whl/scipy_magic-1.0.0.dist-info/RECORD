@@ -1,0 +1,7 @@
+scipy_magic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scipy_magic/distributions.py,sha256=xorpXPwbDUqiKcEGMqte2c1_evMROAvMBIqRUDaYqM4,2238
+scipy_magic/kde.py,sha256=0pGxURplqmbMBy-uuBoR2Kx9zgEDTzZ9wBpMYLiN6Kg,1151
+scipy_magic-1.0.0.dist-info/LICENSE,sha256=g7USaMHDCpkel9IlyABhG--pcX1I0vwNmnAxdODFVNI,1520
+scipy_magic-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+scipy_magic-1.0.0.dist-info/METADATA,sha256=NJ_iZHK4CM0I51w5RCa7EAPrSKB3AoXPnunzz22i9RY,2173
+scipy_magic-1.0.0.dist-info/RECORD,,

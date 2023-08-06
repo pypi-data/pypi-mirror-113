@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dopey/__init__.py
+dopey/__main__.py
+dopey/dopey.py
+dopey.egg-info/PKG-INFO
+dopey.egg-info/SOURCES.txt
+dopey.egg-info/dependency_links.txt
+dopey.egg-info/entry_points.txt
+dopey.egg-info/top_level.txt

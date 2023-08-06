@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+./tests/__init__.py
+./tests/test_file.py
+./transcriptb2b/__init__.py
+./transcriptb2b/reverseTranscript/__init__.py
+./transcriptb2b/reverseTranscript/rna2dna.py
+./transcriptb2b/transcript/__init__.py
+./transcriptb2b/transcript/dna2rna.py
+transcriptb2b.egg-info/PKG-INFO
+transcriptb2b.egg-info/SOURCES.txt
+transcriptb2b.egg-info/dependency_links.txt
+transcriptb2b.egg-info/top_level.txt

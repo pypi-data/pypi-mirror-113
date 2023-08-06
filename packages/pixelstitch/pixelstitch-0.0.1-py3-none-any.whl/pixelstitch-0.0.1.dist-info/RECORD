@@ -1,0 +1,13 @@
+correpondence_annotator/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+correpondence_annotator/_nbdev.py,sha256=eiBw919jSEZ7m_pNpyqsswpSG2f9xqs5fPIHEaUQ3uA,314
+correpondence_annotator/core.py,sha256=nHJRmrNLZ-Mpi-4HwSpAeNEpac0AaSpQ6BcRUVEupaE,101
+pixelstitch/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pixelstitch/_nbdev.py,sha256=hPLgKpD8G3GPZkkHEF8VHi9vzErWBNJv8QFuG54y1z0,460
+pixelstitch/core.py,sha256=cGDeWq0_kV1inkf-Tr6ZvedUxyCGJyEl60mWgEs5BOU,9645
+pixelstitch/io.py,sha256=4xkxrIJQ9fLEp0Da_Dj2bXKGsD_KjTum2FfrLyFmC0s,406
+pixelstitch-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pixelstitch-0.0.1.dist-info/METADATA,sha256=rX6NXEFfDOUFqozjUeUbkb8fQUShmK6W0UkQ4l6a9hk,3509
+pixelstitch-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pixelstitch-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pixelstitch-0.0.1.dist-info/top_level.txt,sha256=px3fX_PRRK2iBWlDQRnK6ZkRKnLBqbTXRSBrwSsiTXg,36
+pixelstitch-0.0.1.dist-info/RECORD,,

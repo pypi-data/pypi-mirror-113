@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+quick_sketches.egg-info/PKG-INFO
+quick_sketches.egg-info/SOURCES.txt
+quick_sketches.egg-info/dependency_links.txt
+quick_sketches.egg-info/not-zip-safe
+quick_sketches.egg-info/requires.txt
+quick_sketches.egg-info/top_level.txt
+src/main.cpp

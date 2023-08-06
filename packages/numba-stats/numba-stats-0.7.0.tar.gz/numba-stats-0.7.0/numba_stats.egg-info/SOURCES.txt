@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+numba_stats/__init__.py
+numba_stats/_special.py
+numba_stats/stats.py
+numba_stats.egg-info/PKG-INFO
+numba_stats.egg-info/SOURCES.txt
+numba_stats.egg-info/dependency_links.txt
+numba_stats.egg-info/requires.txt
+numba_stats.egg-info/top_level.txt

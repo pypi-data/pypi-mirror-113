@@ -1,0 +1,8 @@
+recipe_tagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recipe_tagger/foodcategory.py,sha256=9FIQlfvOBFba7ov9vHxE0sAGDYDzCxzOkDdRJq56IrY,201
+recipe_tagger/recipe_tagger.py,sha256=REEYrgSeR8AC20CboKW0ODyn-rmso3U3C0sGT4c5VZE,3771
+recipe_tagger/data/ingredient_embedding.npy,sha256=zCKRnYGi-MZza4UY-Js-xLVKDG70er323SLzlix_CPM,14063
+recipe_tagger-0.1.0.dist-info/METADATA,sha256=PdmGpQsT-_nCR3YROfIbYoqHLbPXg-vOy0ZU6ykrv7U,316
+recipe_tagger-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+recipe_tagger-0.1.0.dist-info/top_level.txt,sha256=heMFBsNxB-SBWxPlEiYfzxV7iVKfI1XGhhRgr5rs7Vw,14
+recipe_tagger-0.1.0.dist-info/RECORD,,

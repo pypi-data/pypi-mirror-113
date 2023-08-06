@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: recipe-tagger
+Version: 0.1.0
+Summary: A library for tagging and classify recipes
+Home-page: UNKNOWN
+Author: Andrea Turconi
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: wikipedia
+Requires-Dist: PyDictionary
+Requires-Dist: textblob
+Requires-Dist: pyfood
+Requires-Dist: unidecode
+
+UNKNOWN
+

@@ -1,0 +1,13 @@
+ibooks_highlight_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibooks_highlight_exporter/base.py,sha256=f1LPPBiEsETSmLKNkemTS4XfjeJPYsW1ueU8slk5sR8,771
+ibooks_highlight_exporter/epub.py,sha256=jwH5OGyaO54rkESFFjAhwo5HRgHpa0Af0xFtueVR-SU,3312
+ibooks_highlight_exporter/exporter.py,sha256=gsvqm_JB5J9mLXEcoZS__3MvnatgP07kGkXaxLSBU2c,1771
+ibooks_highlight_exporter/helpers.py,sha256=2oxP-GTDWmbukIm88IQSLY2qdz2keaZQv7oGdnZFU64,907
+ibooks_highlight_exporter/main.py,sha256=_jL-8EcSJH9EBVQrmgFjLxpi4wNSYiW9hy1t1jHbSys,865
+ibooks_highlight_exporter/models.py,sha256=70JIoQ1qkdF30uvRZqDjk4S6yRVSxUa99ecgK353mtY,3277
+ibooks_highlight_exporter/Парк Крымского периода. Хроники третьего срока_highlights.html,sha256=l1ShVDO82gRKjlAEHE1ZZKJ_iiMhe2p58OX4g8qY7Nc,1482
+ibooks_highlight_exporter-0.1.11.dist-info/entry_points.txt,sha256=YaMUldk7WUZKQwkcjFviDtItAnfQkvb1Kd6uzzjpxiU,82
+ibooks_highlight_exporter-0.1.11.dist-info/LICENSE,sha256=QPUFR_sJwEYqG9DjQTJkqWGGFY4gs2sStoD304ArxS8,1080
+ibooks_highlight_exporter-0.1.11.dist-info/WHEEL,sha256=dqElwnlLMc7-lr24lzizalXwnuKWWcPA6D2n0jC3DJ8,87
+ibooks_highlight_exporter-0.1.11.dist-info/METADATA,sha256=1bBRzwuPmJsdkzQ4zxho9mHjwwcoEGXm6GIp_mvzWq0,717
+ibooks_highlight_exporter-0.1.11.dist-info/RECORD,,

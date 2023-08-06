@@ -1,0 +1,9 @@
+takelessons_scraper/__init__.py,sha256=TlNNH4WVybVoKyNpaJr6xDCVXZEKuAVMEuynuwlwrks,252
+takelessons_scraper/__version__,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+takelessons_scraper/selenium_tools.py,sha256=fkkkiorSW52kZnO6UMSLnkyLoXpULk9-NS_vMeOhFbA,151
+takelessons_scraper/takelessons_scraper.py,sha256=Jt4AU7JKeVNdYlmEKmFbJlWE3sD7S8o-RjO2ejZOdQQ,5128
+takelessons_scraper-0.0.1.dist-info/LICENSE,sha256=8FENO50SI8Rej90rSScOyHNP_0kcf30blI7nAWLhzv8,1210
+takelessons_scraper-0.0.1.dist-info/METADATA,sha256=AH23lgeaWDbifaKJNhCjNYH0NgBCPtU03yD99y9TLCA,3143
+takelessons_scraper-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+takelessons_scraper-0.0.1.dist-info/top_level.txt,sha256=GG4X-sR6fGTRiBa-VPUWNUW-mH60YIkHn6oNJG3TLy8,20
+takelessons_scraper-0.0.1.dist-info/RECORD,,

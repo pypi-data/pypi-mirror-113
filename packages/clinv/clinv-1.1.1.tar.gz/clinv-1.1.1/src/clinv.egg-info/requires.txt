@@ -1,0 +1,8 @@
+boto3
+pydantic
+ruyaml
+requests
+repository_orm
+rich
+tabulate
+Click

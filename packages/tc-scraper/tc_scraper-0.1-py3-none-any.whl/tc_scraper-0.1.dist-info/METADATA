@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tc-scraper
+Version: 0.1
+Summary: Software Project
+Home-page: https://github.com/y0g38h-kum4r/tc_scraper
+Author: y0g38h-kum4r
+Author-email: yogeshkumar.m200010@gmail.com
+License: UNKNOWN
+Keywords: Software
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+
+Python script to analyse Competitive Programming matches from site https://www.topcoder.com/ using BeautifulSoup4. Features available: Problem Ratings (feature not availabe in topcoder), Links to problems, Problemwise analysis!!
+
+## How to install
+### Open a new terminal
+1. Create a new enlistment for the project:
+```console
+foo@bar:~$ git clone https://github.com/y0g38h-kum4r/tc_scraper
+foo@bar:~$ cd tc_scraper
+```
+
+2. Create a new virtual environment
+```console
+foo@bar:~$ python -m venv env
+foo@bar:~$ source env/bin/activate
+```
+
+3. Upgrade pip installer
+```console
+foo@bar:~$ python -m pip install --upgrade pip
+```
+
+4.Install the project
+```console
+foo@bar:~$ pip setup.py install
+foo@bar:~$ pip install -e .
+```
+
+5. Example 
+```console
+foo@bar:~$ tc_scraper -h
+foo@bar:~$usage: tc_scraper [-h] [-o] [-l] contest_name
+
+positional arguments:
+  contest_name        Contest name to analyse
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -o, --output        Output result to txt file
+  -l, --problemlinks  Prints the links to problems
+```
+

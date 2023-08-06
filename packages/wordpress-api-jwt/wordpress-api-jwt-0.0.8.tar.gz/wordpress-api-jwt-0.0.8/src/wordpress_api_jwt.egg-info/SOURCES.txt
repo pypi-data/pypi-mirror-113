@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/wordpress_api_jwt.egg-info/PKG-INFO
+src/wordpress_api_jwt.egg-info/SOURCES.txt
+src/wordpress_api_jwt.egg-info/dependency_links.txt
+src/wordpress_api_jwt.egg-info/top_level.txt
+src/wpapijwt/__init__.py
+src/wpapijwt/wp_api.py
+src/wpapijwt/resources/__init__.py
+src/wpapijwt/resources/functions.py

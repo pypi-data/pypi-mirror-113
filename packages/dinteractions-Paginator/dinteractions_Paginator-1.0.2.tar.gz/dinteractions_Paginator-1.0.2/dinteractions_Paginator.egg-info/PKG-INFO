@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dinteractions-Paginator
+Version: 1.0.2
+Summary: Unofficial discord-interactions multi page embed handler
+Home-page: https://github.com/JUGADOR123/Paginator.py
+Author: Jugador123
+Author-email: momocordova@gmail.com
+License: GNU
+Description: # Paginator.py
+         Unnoficial discord-interactions paginator
+        
+        ## Example
+        This simple example shows how to easily create interactive, multiple page embeds that annyone can interact with.
+        ```py
+        import discord
+        import discord_slash
+        from discord_slash import SlashCommand, SlashContext
+        from dinteractions_Paginator import Paginator
+        
+        @slash.slash(name="command")
+        async def command(ctx:SlashContext)
+        embed1=discord.Embed(title="title")
+        embed2=discord.Embed(title="another title")
+        embed3=discord.Embed(title="yet another title")
+        pages=[embed1,embed2,embed3]
+        
+        await Paginator(bot=bot,ctx=ctx,pages=pages,content="Hello there")
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

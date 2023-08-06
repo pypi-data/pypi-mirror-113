@@ -1,0 +1,7 @@
+pgnsplit/PgnSplitter.py,sha256=auFwXJvOoLaKutRBvuNhRYgMdEYvyM-30jvpkIRgv4Q,3018
+pgnsplit/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pgnsplit/main.py,sha256=emMUVj_D558NOxrjaJfg3cNAeeU0Xmkyph3ASI_baSc,569
+pgnsplit-0.1.0.dist-info/entry_points.txt,sha256=F3URo-H_2mpmeesCR9AGiYWaOzkoNauRVbE76q3g85U,47
+pgnsplit-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pgnsplit-0.1.0.dist-info/METADATA,sha256=ruhGBV4YGh9bsY_sA8xbpfvarTuajJMY4hhZnpyOvXk,394
+pgnsplit-0.1.0.dist-info/RECORD,,

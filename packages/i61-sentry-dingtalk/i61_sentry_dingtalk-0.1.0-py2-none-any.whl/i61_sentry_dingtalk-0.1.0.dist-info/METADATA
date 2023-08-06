@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: i61-sentry-dingtalk
+Version: 0.1.0
+Summary: A Sentry extension which send errors stats to DingTalk
+Home-page: UNKNOWN
+Author: sankyutang
+Author-email: tangjunkai@61info.cn
+License: MIT
+Keywords: sentry dingtalk
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: sentry (>=9.0.0)
+Requires-Dist: requests
+
+# i61-sentry-dingding
+
+`Sentry`的`钉钉`通知插件
+
+## onpremise中安装
+reuqirement.txt中加入依赖：
+```bash
+i61-sentry-dingding
+```
+
+## 使用
+
+在`项目`的所有集成页面找到`DingDing`插件，启用，并设置`Access Token`和`secret`
+

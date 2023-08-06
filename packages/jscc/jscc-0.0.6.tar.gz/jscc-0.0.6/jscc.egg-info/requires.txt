@@ -1,0 +1,17 @@
+json-merge-patch
+jsonref
+jsonschema
+requests
+rfc3987
+strict-rfc3339
+
+[docs]
+Sphinx
+sphinx-autobuild
+sphinx-rtd-theme
+
+[test]
+coveralls
+pytest
+pytest-cov
+pytest-vcr

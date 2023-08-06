@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mineer
+Version: 0.4.1
+Summary: Automated sequence truncation algorithm
+Home-page: UNKNOWN
+Author: michaelsilverstein
+Author-email: michael.silverstein4@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: biopython
+Requires-Dist: seaborn
+Requires-Dist: numba
+
+UNKNOWN
+

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: neon-utils
+Version: 0.5.7
+Summary: Utilities for running Neon skills in Mycroft/OVOS
+Home-page: https://github.com/neongeckocom/neon-skill-utils
+Author: NeonDaniel
+Author-email: daniel@neon.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Neon Skill Utilities
+![Unit Tests](https://github.com/NeonGeckoCom/neon-skill-utils/workflows/Run%20Unit%20Tests/badge.svg)
+
+Collection of generic utilities used within Neon Core and Skills.
+Contains utilities for running Neon Skills on Mycroft and OVOS.
+

@@ -1,0 +1,13 @@
+casparser_isin/VERSION.txt,sha256=ciCk5haB-VWLbfEW5PTkNwc-uJ_UqUc8T5jxlLWZ424,9
+casparser_isin/__init__.py,sha256=1PtSkhQTXgK2kNKOtfMl8HiJiJUdXz737_GtGWkZAsU,117
+casparser_isin/__version__.py,sha256=gLNtrpnhANE9uALmwruu38JQusEnQ8ZqQIdkZIY0Cb8,343
+casparser_isin/cli.py,sha256=vKlokS37qyIKWVuZLElQs7E38e4ASf73z3AP_AnlxQU,3295
+casparser_isin/isin.db,sha256=E8IMPKFus6bS6cZI1GcB3Cd5qxXq5_DfbHnwhYncmEw,7028736
+casparser_isin/mf_isin.py,sha256=ZSbyjgdNx9u0G92hUMABC9Sv4TZMDm2Abr38o6VpWhs,5746
+casparser_isin/utils.py,sha256=80JCVk6t6dNgbRPa18aM5WPZsur8yVNqwFKaaR-rZmQ,399
+casparser_isin-2021.7.21.dist-info/LICENSE,sha256=Arlm7Mkx60cjJyVDaeX0bnvJfqy6X6RaCG04g7nL8Vk,1077
+casparser_isin-2021.7.21.dist-info/METADATA,sha256=cweowzM6STsXTbf40q62XHsp4z53Yb3lzB4LYav9FsU,2695
+casparser_isin-2021.7.21.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+casparser_isin-2021.7.21.dist-info/entry_points.txt,sha256=1eZ0iuuHHmBzj4HDF9lqDJeEeU72QCtsm1OVhci2PaY,60
+casparser_isin-2021.7.21.dist-info/top_level.txt,sha256=3_LvzzIM3EO7DmsfQqvhdQPytrqSR21yJNuY1L2T5gM,15
+casparser_isin-2021.7.21.dist-info/RECORD,,

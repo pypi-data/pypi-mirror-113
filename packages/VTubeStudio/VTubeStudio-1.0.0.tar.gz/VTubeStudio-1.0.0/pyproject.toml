@@ -1,0 +1,6 @@
+[build-system]
+requires = [
+    "websocket==0.2.1",
+    "websocket-client==1.1.0"
+]
+build-backend = "setuptools.build_meta"

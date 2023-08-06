@@ -1,0 +1,16 @@
+numpy
+pandas>=0.25.1
+pystache
+pyyaml
+scikit-learn>=0.21.3
+python-dotenv>=0.10.3
+
+[dev]
+black
+wheel
+
+[doc]
+sphinx
+
+[lint]
+flake8

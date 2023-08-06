@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: deab
+Version: 0.0.1
+Summary: "Data science workflow manager"
+Home-page: UNKNOWN
+Author: "An Truong"
+Author-email: "bian.tquang@gmail.com"
+License: MIT
+Description: DEAB - Data Exploratory Analysis Block
+        This package aim at facilitate the step DEA in datascience.
+        The main features include:
+        - Plotly Dask app interface for interactive data viz
+        - Modulable: io, plot, etc... will be separate modules
+        - Customable: user provided io/plot-function can be executed.
+        - Dockerized: webapp will be dockerized for the reproducibility and ease of use.
+Keywords: deab
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0
+Provides-Extra: lint
+Provides-Extra: dev
+Provides-Extra: doc

@@ -1,0 +1,2 @@
+t3dn_sdk_blender
+t3dn_sdk_core

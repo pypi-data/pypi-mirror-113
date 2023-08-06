@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: olivia-dataset
+Version: 1.0.0
+Summary: Olivia Dataset: Multi-Domain COVID-19 Region-based Features
+Home-page: https://github.com/shayanfazeli/olivia_dataset
+Author: Shayan Fazeli
+Author-email: shayan@cs.ucla.edu
+License: Apache
+Keywords: machine learning,coronavirus,deep learning,inference
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >3.6.0
+
+UNKNOWN
+

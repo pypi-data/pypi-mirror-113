@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+foliant/preprocessors/admonitions.py
+foliantcontrib.admonitions.egg-info/PKG-INFO
+foliantcontrib.admonitions.egg-info/SOURCES.txt
+foliantcontrib.admonitions.egg-info/dependency_links.txt
+foliantcontrib.admonitions.egg-info/requires.txt
+foliantcontrib.admonitions.egg-info/top_level.txt

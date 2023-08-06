@@ -1,0 +1,14 @@
+fetching/__init__.py,sha256=ih6nHPLzzqnkYhtKn20xjCQsvEC2FvKjeFB72RxrclA,39
+fetching/fetching.py,sha256=K3dJlQ94kayeMGPcmu3fd8aRW1DUAqznuepHtHQTMlw,2913
+sandbox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sandbox/f.py,sha256=W9AxLL7-ToNZJPlIrWB9Eh7E6tcrqitm0kwnYEhdJMA,781
+sandbox/j.py,sha256=jBt5su44s0_2Rky5dFNQ3b2u44ke0IO9XiLesVeCQBM,105
+sandbox/methods_test.py,sha256=ZnrzCkT4XOeP7kPLtVE4rsg8aspETGDWiUnlsHCOo9k,192
+sandbox/req_ex.py,sha256=Zc7WeMRllIs_QQdjXv0lL525JIEUPU3ey7-Nc3Xvg-Y,459
+sandbox/classes/__init__.py,sha256=BeZpF2FZDaBCZVkHpiuZ7yIFHT68rkjFHHMcrFmN8N0,42
+sandbox/classes/dep_one.py,sha256=e4eRFT60Sa9cj26pDdEPEQudyXAymsbsSJrWtuEPhC4,74
+fetching-0.1.0.dist-info/LICENSE,sha256=_B53F1vWq6W1fIJBB04CwFDZc33UWFQVk7C2laNNxDw,1072
+fetching-0.1.0.dist-info/METADATA,sha256=D4Zb2pmwIkdTuqmX3tJayUKh_lsvGYNKlA1B5CZMDJk,1204
+fetching-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fetching-0.1.0.dist-info/top_level.txt,sha256=K8v0e0nAIkTvHh3YeruegIsy1r50_ZOwLUiS7KWQC5Q,17
+fetching-0.1.0.dist-info/RECORD,,

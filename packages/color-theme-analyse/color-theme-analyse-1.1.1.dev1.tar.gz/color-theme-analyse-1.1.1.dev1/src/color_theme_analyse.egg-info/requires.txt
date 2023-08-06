@@ -1,0 +1,13 @@
+easygui>=0.1
+opencv-python>=4.0
+numpy>=1.21
+pillow>=8.3
+rich>=0.1
+
+[advanced]
+
+[advanced:platform_system == "Windows"]
+pyinstaller>=4.3
+
+[download]
+pipx>=0.1

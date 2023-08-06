@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "setuptools_scm[toml]>=3.4"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+write_to = "src/MMCQsc/version.py"
+write_to_template = '''
+__version__ = "{version}"
+version = "{version}"
+version_tuple = ({version[0]}, {version[2]}, {version[4]})
+'''

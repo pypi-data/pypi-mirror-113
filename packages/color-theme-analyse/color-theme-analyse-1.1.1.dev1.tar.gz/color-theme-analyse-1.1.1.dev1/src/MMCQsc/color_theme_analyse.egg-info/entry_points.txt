@@ -1,0 +1,3 @@
+[distutils.commands]
+MMCQsc = MMCQsc:hello_soltus
+

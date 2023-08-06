@@ -1,0 +1,13 @@
+cmdcolorprint/__init__.py,sha256=Ss1xRUfnSr_YWmdLhHbpqDYEHOmXc81LdN-3D6RsUhQ,459
+cmdcolorprint/color_print.py,sha256=_fVWkjW7F00quEmhiAsHfO0FFRhx6szrWDnBVILbCLk,7465
+color_print/__init__.py,sha256=Lzz4o5rfy7ffe_X2_zySpXlcgzwQxDIzrSfK0cR2FTo,257
+color_print/color_print.py,sha256=n2Qyw5hDVNYnvhgnYpOv7Yt2kcRpjNj2vycKSdC7Csk,6595
+colorprint/__init__.py,sha256=Lzz4o5rfy7ffe_X2_zySpXlcgzwQxDIzrSfK0cR2FTo,257
+colorprint/color_print.py,sha256=n2Qyw5hDVNYnvhgnYpOv7Yt2kcRpjNj2vycKSdC7Csk,6595
+cprint/__init__.py,sha256=Lzz4o5rfy7ffe_X2_zySpXlcgzwQxDIzrSfK0cR2FTo,257
+cprint/color_print.py,sha256=n2Qyw5hDVNYnvhgnYpOv7Yt2kcRpjNj2vycKSdC7Csk,6595
+cmdcolorprint-1.0.5.dist-info/METADATA,sha256=NYJb67cmhqvsu04hM7PYdAirAIeN8h6uQpOWGCzoFnQ,807
+cmdcolorprint-1.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cmdcolorprint-1.0.5.dist-info/entry_points.txt,sha256=45zWgG69yoto8V_kulpVnl4FW8WSxTfXSM0iLyQRIeo,80
+cmdcolorprint-1.0.5.dist-info/top_level.txt,sha256=5E40yfFsPysVafIFuIDx-fw_-u_gjilEHAyNplNGg9M,14
+cmdcolorprint-1.0.5.dist-info/RECORD,,

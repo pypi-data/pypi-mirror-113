@@ -1,0 +1,10 @@
+name: PlotlyJson
+namespace: plotly
+version: 1
+description: Plotly JSON plot definition
+immutable: true
+fields:
+  data:
+    type: Json
+  layout:
+    type: Json

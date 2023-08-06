@@ -1,0 +1,29 @@
+name: MarketstackTicker
+namespace: marketstack
+version: 1
+description: Stock ticker and metadata from Marketstack
+unique_on:
+  - symbol
+  - exchange_acronym
+immutable: false
+fields:
+  symbol:
+    type: Text
+    validators:
+      - NotNull
+  exchange_acronym:
+    type: Text
+    validators:
+      - NotNull
+  name:
+    type: Text
+    validators:
+      - NotNull
+  country:
+    type: Text
+  has_eod:
+    type: Boolean
+  has_intraday:
+    type: Boolean
+  stock_exchange:
+    type: Json

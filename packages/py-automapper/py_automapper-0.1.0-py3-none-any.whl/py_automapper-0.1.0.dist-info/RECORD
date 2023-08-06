@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=gILYzJeg1_-r1i5dVg-j98rsVuzv8Ziv0S1b3crQ_RI,89
+LICENSE,sha256=83PfKExIuL1d3JwzKlP3JPI3FWvf4E5tDCuhsKMG9JA,1074
+README.md,sha256=Bj5ITcd_CNfl_mJmRNUYn593qXSWsBh6VMctum4wnOY,1858
+automapper/__init__.py,sha256=iNlS0Hm2Ct_Lv37Z8PKD9tQ99EIX116p_yOZSysrDus,228
+automapper/exceptions.py,sha256=H7roshdoxXvTCP9uxSmJL0RvAab7zkKa-LxW7kl9UK0,284
+automapper/extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automapper/extensions/default.py,sha256=o6TRd6tGjiS2yG9yjOKEJQWZk4vTubfjzTt743aOC_I,1077
+automapper/extensions/pydantic.py,sha256=ZODesHhvZf1UNllERcuR3kuPOEvtTLQ33ogPoljhblk,324
+automapper/extensions/tortoise.py,sha256=y0BotwwrQufnhPq5_AqmK7sYs-X4IXc4rfztBAD62Nk,306
+automapper/mapper.py,sha256=4t0EKsjQ3eSnr2qsm9Fyt4pRY7P-xxUQ7UeusgnXyTE,7895
+automapper/mapper_initializer.py,sha256=zZ0EYDIJFXVZCMdEel01IQsNJQyXIO699D-dlLfyjg0,1275
+py_automapper-0.1.0.dist-info/LICENSE,sha256=83PfKExIuL1d3JwzKlP3JPI3FWvf4E5tDCuhsKMG9JA,1074
+py_automapper-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+py_automapper-0.1.0.dist-info/METADATA,sha256=9dffdLf_n45iBk9yDW2VsZZUrYhGfUAwnG8l3oLMt6U,2977
+py_automapper-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sigopt
+Version: 7.5.0
+Summary: SigOpt Python API Client
+Home-page: https://sigopt.com/
+Author: SigOpt
+Author-email: support@sigopt.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=7.0.0)
+Requires-Dist: GitPython (>=2.0.0)
+Requires-Dist: ipython (>=5.0.0)
+Requires-Dist: pypng (>=0.0.20)
+Requires-Dist: PyYAML (>=5.4.1)
+Requires-Dist: requests (>=2.11.1)
+Provides-Extra: dev
+Requires-Dist: Pillow ; extra == 'dev'
+Requires-Dist: matplotlib (==2.2.5) ; extra == 'dev'
+Requires-Dist: mock (>=3.0.5) ; extra == 'dev'
+Requires-Dist: numpy (>=1.16.4) ; extra == 'dev'
+Requires-Dist: pytest (==4.6.11) ; extra == 'dev'
+Requires-Dist: twine (==1.9.1) ; extra == 'dev'
+Requires-Dist: notebook ; extra == 'dev'
+
+UNKNOWN
+
+

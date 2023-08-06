@@ -1,0 +1,10 @@
+SeismicMesh
+_FastHJ
+_cpputils
+_delaunay
+_delaunay_class
+_delaunay_class3
+_fast_geometry
+common
+geo
+occ

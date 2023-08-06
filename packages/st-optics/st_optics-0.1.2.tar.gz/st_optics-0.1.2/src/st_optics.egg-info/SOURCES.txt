@@ -1,0 +1,16 @@
+.coveragerc
+.gitignore
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+demo/demo.ipynb
+demo/test-data.csv
+src/st_optics/__init__.py
+src/st_optics/st_optics.py
+src/st_optics.egg-info/PKG-INFO
+src/st_optics.egg-info/SOURCES.txt
+src/st_optics.egg-info/dependency_links.txt
+src/st_optics.egg-info/not-zip-safe
+src/st_optics.egg-info/requires.txt
+src/st_optics.egg-info/top_level.txt

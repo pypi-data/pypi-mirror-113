@@ -1,0 +1,7 @@
+README.md
+setup.py
+weightunit/__init__.py
+weightunit.egg-info/PKG-INFO
+weightunit.egg-info/SOURCES.txt
+weightunit.egg-info/dependency_links.txt
+weightunit.egg-info/top_level.txt

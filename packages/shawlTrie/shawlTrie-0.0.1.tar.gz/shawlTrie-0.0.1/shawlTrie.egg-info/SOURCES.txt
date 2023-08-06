@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+shawlTrie/__init__.py
+shawlTrie/__main__.py
+shawlTrie/cli.py
+shawlTrie.egg-info/PKG-INFO
+shawlTrie.egg-info/SOURCES.txt
+shawlTrie.egg-info/dependency_links.txt
+shawlTrie.egg-info/entry_points.txt
+shawlTrie.egg-info/requires.txt
+shawlTrie.egg-info/top_level.txt

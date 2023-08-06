@@ -1,0 +1,3 @@
+[console_scripts]
+shawlTrie = shawlTrie.__main__:main
+

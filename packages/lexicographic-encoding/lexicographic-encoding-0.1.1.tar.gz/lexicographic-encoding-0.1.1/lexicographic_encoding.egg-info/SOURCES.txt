@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lexicographic_encoding/__init__.py
+lexicographic_encoding/core.py
+lexicographic_encoding/exceptions.py
+lexicographic_encoding/utils.py
+lexicographic_encoding.egg-info/PKG-INFO
+lexicographic_encoding.egg-info/SOURCES.txt
+lexicographic_encoding.egg-info/dependency_links.txt
+lexicographic_encoding.egg-info/not-zip-safe
+lexicographic_encoding.egg-info/top_level.txt

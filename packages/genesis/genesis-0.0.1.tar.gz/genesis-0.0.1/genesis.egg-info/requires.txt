@@ -1,0 +1,8 @@
+
+[dev]
+tox
+black
+pytest
+pylint
+ipython
+pytest-asyncio

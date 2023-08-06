@@ -1,0 +1,13 @@
+chemsys/__init__.py,sha256=dgK9LaNwE7Rs-CWydIGCWGOWRakVLvrvEd9sswPHkvg,220
+chemsys/chemsystestn.py,sha256=SlWD6GhzWDvU1nV-DbMFB_lT4s9aNAYy_4C0q2NOiJs,85262
+chemsys/chemsystestpdflatex.py,sha256=hZegOD0gj7ipibdRM4jgBriHFSHWqB-U_f8o26lrx2A,85330
+chemsys/cs.py,sha256=LKlQPgjh_zmljlsFPxffK_RoYrk79Ke4KVWGqYyhOyU,55877
+chemsys/csg.py,sha256=1Lq2PoQv2Na6CbvpsJKuK42ccqpgnWUewWaVu4M1pbE,54606
+chemsys/cspdf.py,sha256=4m8ty388FGjF3RIjlPkIqpPe_QDghPTW0ryDN9AoBC8,55940
+chemsys/cst.py,sha256=YGqxLEtEcf2jRFiNkotAY9xYsgczFkVTFSOoDGEJEY8,82622
+chemsys/cstest.py,sha256=ASMWxPZ044VQ3LcfK_UAHJa5QCXNNhxmCC0xjailJmc,55925
+chemsys-1.0.49.dist-info/LICENSE.txt,sha256=EktZGCRcbWh6gyYUmvn6-Z9Tw0yGnvmW_86KVsGkL3c,1099
+chemsys-1.0.49.dist-info/METADATA,sha256=ZOe5Efzbhx_DXYr5r--GInpJnfX4RBasauxqyFIbwYY,4559
+chemsys-1.0.49.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chemsys-1.0.49.dist-info/top_level.txt,sha256=9oYfNc1uUvnZZuv6hb6Uprh_AAv6gcpwDrwd_euTbmE,8
+chemsys-1.0.49.dist-info/RECORD,,

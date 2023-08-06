@@ -1,0 +1,16 @@
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- numpy
+- scipy
+- networkx>=2
+- biom-format
+- pandas>=1
+- scikit-bio
+- statsmodels
+- h5py
+- python=3
+- fastspar>=0.0.7
+- armadillo=8

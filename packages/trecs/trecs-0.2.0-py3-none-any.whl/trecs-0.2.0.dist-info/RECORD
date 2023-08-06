@@ -1,0 +1,10 @@
+trecs/__init__.py,sha256=29ORSaseFDKSKUD0a7iFLa_naBMzbxnR2foeKtR6Fkw,127
+trecs/logging.py,sha256=fajgbCYQ2Vw2ql0OKDdKTQXER7UsrhZekj8KPxGAcps,2826
+trecs/matrix_ops.py,sha256=fZBrGkgKGv3-6rXBvMFqs3tQNM3l39RAzPIk4iDh1hI,17863
+trecs/utils.py,sha256=9vH1LpGr1KTinnYaCngdWqh8QejV-7JcIXNHNr1r_N8,7822
+trecs/validate.py,sha256=AyKNSkj75rZQmBv935bMK0s2H2zl_jKwknphanhi5B8,4790
+trecs-0.2.0.dist-info/LICENSE,sha256=aMkGpKGXl2eis5-VX4ZiMzX-Ko9rs0-4v9RQeSZBUoA,1086
+trecs-0.2.0.dist-info/METADATA,sha256=KEMpsDtTzd6eMgInf2c_J9aDmS5cwLLsOFbROltR_f8,5023
+trecs-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trecs-0.2.0.dist-info/top_level.txt,sha256=vPsy6i32b5sJTs3WRB-ux-gcKmOkqeqtgGmcjjZ1CfE,6
+trecs-0.2.0.dist-info/RECORD,,

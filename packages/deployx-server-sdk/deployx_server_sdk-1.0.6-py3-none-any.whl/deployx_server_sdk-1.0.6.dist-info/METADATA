@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: deployx-server-sdk
+Version: 1.0.6
+Summary: Programm for fast deploy and autotests
+Home-page: https://github.com/CaptainKryuk/deployx-server-sdk
+Author: CaptainKryuk
+Author-email: sir.kryukov@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CaptainKryuk/deployx-server-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+
+DeployX package for using deploy-x.com project
+To participate in development you can in [Github](https://github.com/CaptainKryuk/deployx-server-sdk)
+

@@ -1,0 +1,8 @@
+requests==2.26.0
+bs4==0.0.1
+halo==0.0.31
+pymortafix==0.1.9
+python-telegram-bot==13.7
+cloudscraper==1.2.58
+youtube-dl==2021.6.6
+jsbeautifier==1.14.0

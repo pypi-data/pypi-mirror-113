@@ -1,0 +1,2 @@
+dicttoxml-1.7.4-py3.8@ file://localhost/src/dicttoxml-1.7.4-py3.8.egg
+construct-2.8.12-py3.8@ file://localhost/src/construct-2.8.12-py3.8.egg

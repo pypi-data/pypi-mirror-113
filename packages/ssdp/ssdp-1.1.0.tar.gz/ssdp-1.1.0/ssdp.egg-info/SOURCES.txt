@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+.github/FUNDING.yml
+.github/dependabot.yml
+.github/workflows/ci.yml
+.github/workflows/release.yml
+examples/request_msearch.py
+examples/respond_msearch.py
+ssdp/__init__.py
+ssdp.egg-info/PKG-INFO
+ssdp.egg-info/SOURCES.txt
+ssdp.egg-info/dependency_links.txt
+ssdp.egg-info/top_level.txt

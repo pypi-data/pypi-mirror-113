@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: strapy
+Version: 0.0.1
+Summary: A framework for building out bootstrap utilities
+Home-page: https://github.com/WilliamJohns/strapy
+Author: William Johns
+Author-email: will@wcj.dev
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/WilliamJohns/strapy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Strapy
+Strapy is aimed to be a framework for building out bootstrap CLIs and utilities. It is inspired by [Django](https://docs.djangoproject.com/en/3.2/) CLI, and [Cookie Cutter](https://github.com/cookiecutter/cookiecutter).
+
+
+## Getting Started
+TODO
+
+## Extending
+TODO
+
+## FAQ
+TODO
+

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/strapy/__init__.py
+src/strapy/main.py
+src/strapy/strapy.py
+src/strapy/utils.py
+src/strapy.egg-info/PKG-INFO
+src/strapy.egg-info/SOURCES.txt
+src/strapy.egg-info/dependency_links.txt
+src/strapy.egg-info/entry_points.txt
+src/strapy.egg-info/top_level.txt

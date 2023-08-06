@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: statswalespy
+Version: 0.1.0
+Summary: A Python package for downloading data and metadata from the StatsWales API.
+Home-page: https://github.com/josephlewisjgl/statswalespy
+Author: Joe Lewis, Jamie Ralph
+Author-email: josephgeorgelewis2000@gmail.com
+License: MIT
+Description: # statswalespy
+        > Easily download data and metadata from the StatsWales API
+        
+        statswalespy is a Python package for interacting with the [StatsWales](https://statswales.gov.wales/Catalogue) API,
+        including functions for downloading datasets, downloading metadata, and searching for datasets using key words.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install statswalespy.
+        
+        ```bash
+        pip install statswalespy
+        ```
+        
+        ## How to download data and metadata
+        
+        The code below extracts data about [aircraft movement at Cardiff
+        airport](https://statswales.gov.wales/Catalogue/Transport/Air/aircraftmovementsatcardiffairport-by-movementtype-year)
+        and the associated metadata.
+        
+        ``` python
+        from statswalespy.download_data import statswales_get_dataset, statswales_get_metadata
+        
+        metadata = statswales_get_metadata("tran0003")
+        
+        data = statswales_get_dataset("tran0003")
+        
+        # Print out the data
+        print(str(data))
+        ```
+        
+        ## How to search for datasets
+        
+        You can also search for datasets based on key terms. For example, data on farming or agriculture can be searched using this code:
+        
+        ``` python
+        from statswalespy.search import statswales_search
+        
+        farming_datasets = statswales_search(["farm*", "agri*"])
+        
+        # Print out results
+        print(str(farming_datasets))
+        ```
+        
+        ## Contributing
+        Any suggestions for changes or extra work to make the package better are welcome.
+        
+Keywords: Wales,statswales,Welsh
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

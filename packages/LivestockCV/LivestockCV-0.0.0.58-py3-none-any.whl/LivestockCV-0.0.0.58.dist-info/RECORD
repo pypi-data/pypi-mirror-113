@@ -1,0 +1,11 @@
+LivestockCV/__init__.py,sha256=2uFUzpy0_SYLTktH-HPYRZXg2F96OQGCcxOiTda5TVQ,51
+LivestockCV/lcv_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LivestockCV/lcv_core/_version.py,sha256=4_T91UNFdqWG2Epaw6zomlEsRseVAYMXrDtAsq2CIhI,504
+LivestockCV/lcv_core/crop.py,sha256=iOVXS-aYnKQPy3jqH0UT56x84m8wM9T5ALBoEARPTrQ,866
+LivestockCV/lcv_core/lcv_show.py,sha256=9LguhprhhmsxexnyENoTzT-OiwB0Aw5hyDG6eG3yHHA,47
+LivestockCV/lcv_core/rgb2gray.py,sha256=rHJeMtA_HOqwWed889RX59EfFtwXy6xFe4n9EXjHaRs,682
+LivestockCV-0.0.0.58.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+LivestockCV-0.0.0.58.dist-info/METADATA,sha256=rlQXTRc3-4mItsY2E2lKEoPrqjIrMqVQcIpLxWdMT1c,777
+LivestockCV-0.0.0.58.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LivestockCV-0.0.0.58.dist-info/top_level.txt,sha256=H8LwGIUiI2THNCkaEOHEiwTi0SAgmNZZRDeK3mVsS80,12
+LivestockCV-0.0.0.58.dist-info/RECORD,,

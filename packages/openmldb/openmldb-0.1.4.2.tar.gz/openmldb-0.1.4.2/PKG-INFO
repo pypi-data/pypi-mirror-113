@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: openmldb
+Version: 0.1.4.2
+Summary: The client of OpenMLDB
+Home-page: https://github.com/4paradigm/OpenMLDB
+Author: 4Paradigm
+Author-email: chendihao@4paradigm.com
+License: Apache License 2.0
+Description: # OpenMLDB Cli
+        
+        ## Introduction
+        
+        This is the command-line client of OpenMLDB.
+        
+        ## Installation
+        
+        ```
+        pip install openmldb
+        ```
+        
+        ## Usage
+        
+        ```
+        openmldb -h
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

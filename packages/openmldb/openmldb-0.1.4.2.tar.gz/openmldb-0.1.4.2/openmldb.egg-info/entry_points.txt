@@ -1,0 +1,3 @@
+[console_scripts]
+openmldb = openmldb.openmldb:main
+

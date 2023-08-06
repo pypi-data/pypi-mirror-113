@@ -1,0 +1,13 @@
+docker: ghcr.io/autamus/iq-tree
+url: https://github.com/orgs/autamus/packages/container/package/iq-tree
+maintainer: '@vsoch'
+description: IQ-TREE (http://www.iqtree.org, last accessed February 6, 2020) is a
+  user-friendly and widely used software package for phylogenetic inference using
+  maximum likelihood.
+latest:
+  2.0.6: sha256:aa9d431dca7f950cde8142e1e669c8e8c210e6284ff3cf8004c695bcb984c2e3
+tags:
+  2.0.6: sha256:aa9d431dca7f950cde8142e1e669c8e8c210e6284ff3cf8004c695bcb984c2e3
+  latest: sha256:aa9d431dca7f950cde8142e1e669c8e8c210e6284ff3cf8004c695bcb984c2e3
+aliases:
+  iq-tree2: /opt/view/bin/iq-tree2

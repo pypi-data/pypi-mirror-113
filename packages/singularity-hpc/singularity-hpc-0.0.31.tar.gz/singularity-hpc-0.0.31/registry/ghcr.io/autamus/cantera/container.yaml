@@ -1,0 +1,11 @@
+docker: ghcr.io/autamus/cantera
+url: https://github.com/orgs/autamus/packages/container/package/cantera
+maintainer: '@vsoch'
+description: Cantera is an open-source collection of object-oriented software tools
+  for problems involving chemical kinetics, thermodynamics, and transport processes.
+latest:
+  2.5.1: sha256:3e0e110a22cfb6602fd81ab0eabee8e208101b0fc25db76c89b9f109ea9838a6
+tags:
+  2.4.0: sha256:ad490652d6f83f71cb56b6195f92ec4837671ceafcdb897d66393e564cde9699
+  2.5.1: sha256:3e0e110a22cfb6602fd81ab0eabee8e208101b0fc25db76c89b9f109ea9838a6
+  latest: sha256:3e0e110a22cfb6602fd81ab0eabee8e208101b0fc25db76c89b9f109ea9838a6

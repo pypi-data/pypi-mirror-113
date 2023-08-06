@@ -1,0 +1,11 @@
+docker: ghcr.io/autamus/circos
+url: https://github.com/orgs/autamus/packages/container/package/circos
+maintainer: '@vsoch'
+description: Circos is a software package for visualizing data and information.
+latest:
+  0.69.6: sha256:733e4c4c231ce3ef544b66d0f5d57499349a6e96b3801a984628ce7981f3b52a
+tags:
+  0.69.6: sha256:733e4c4c231ce3ef544b66d0f5d57499349a6e96b3801a984628ce7981f3b52a
+  latest: sha256:733e4c4c231ce3ef544b66d0f5d57499349a6e96b3801a984628ce7981f3b52a
+aliases:
+  circos: /opt/view/bin/circos

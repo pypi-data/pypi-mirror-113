@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: t3dn-sdk
+Version: 0.1.0
+Summary: 3D Ninjas Python SDK
+Home-page: UNKNOWN
+Author: 3D Ninjas GmbH
+Author-email: niklas@3dninjas.io
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Requires-Dist: python-xlib
+Requires-Dist: ewmh
+
+UNKNOWN
+

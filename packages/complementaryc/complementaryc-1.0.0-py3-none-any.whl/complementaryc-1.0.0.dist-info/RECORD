@@ -1,0 +1,16 @@
+complementaryc/__init__.py,sha256=lSPtMSKQpbfKkO0oFCzFId_KEDEXuWU-lof6_zdfjKA,110
+complementaryc/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+complementaryc/bin/complementary-strand,sha256=FSONCl2pI1_WqSdwQ5bFl5uXJjEID3-bRW7sMKHAb2A,12636
+complementaryc/bin/complementary.so,sha256=G55xs09RvVsYSqS6HyEiidiJO5w73ZB1cds3AI46mc8,12684
+complementaryc/bin/dummy_binary.exe,sha256=XqXwcvbYwY975AC7dGLm5_kFPcrqnG-pWAU8-va0tAw,316855
+complementaryc/bin/dummy_binary.linux,sha256=vIjiIwo1CmShfm-P0YBwZjZMBEHLhBnh45E56eZFYA0,16704
+complementaryc/bin/dummy_binary.mac,sha256=QICnHbIlkXbwY12CQDqny4VKMCYED3yHS8ZoPNmJ8-M,12556
+complementaryc/bin/osSelect.py,sha256=K8_EBLiwdiO33mR4A_PVaPGcc3HANKNJbbabeb2r7gM,895
+complementaryc/complement/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+complementaryc/complement/complementaryStrand.py,sha256=SOGReqIdTq0iZDsX0esa_9ZdJrA2DG3rFem_PiG7KOc,200
+complementaryc/theYear/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+complementaryc/theYear/currentYear.py,sha256=wp2Inb2nkhNaFrzCh5XFoUZvYQcCHF1d513AU3-s8fM,222
+complementaryc-1.0.0.dist-info/METADATA,sha256=xg5AhUGlMROgdTAluyv7X9VBOUo1qKBfSqmyJz8ohPY,6991
+complementaryc-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+complementaryc-1.0.0.dist-info/top_level.txt,sha256=cZ_KeqCzEYjDKPl3ZRNvuM1bL5qONW5JdEf1cc-RfbE,15
+complementaryc-1.0.0.dist-info/RECORD,,

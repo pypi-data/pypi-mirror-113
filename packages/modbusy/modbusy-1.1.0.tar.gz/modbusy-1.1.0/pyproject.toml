@@ -1,0 +1,5 @@
+[tool.check-manifest]
+ignore = [
+    # Missing from sdist
+    'bitbucket-pipelines.yml',
+]

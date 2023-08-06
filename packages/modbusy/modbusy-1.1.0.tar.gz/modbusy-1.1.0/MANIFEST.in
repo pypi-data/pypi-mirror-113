@@ -1,0 +1,6 @@
+recursive-include tests *.py
+include LICENSE
+include modbusy/py.typed
+include mypy.ini
+include pyproject.toml
+include pytest.ini

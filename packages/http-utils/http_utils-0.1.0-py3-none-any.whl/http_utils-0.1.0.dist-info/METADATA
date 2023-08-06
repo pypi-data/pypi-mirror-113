@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: http-utils
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Your Name
+Author-email: you@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9,<4.0
+Requires-Dist: requests (<3.0.0,>=2.25.1)
+Requires-Dist: urllib3 (<2.0.0,>=1.26.4)
+
+UNKNOWN
+
+

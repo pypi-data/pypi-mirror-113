@@ -1,0 +1,10 @@
+LICENSE
+README
+setup.py
+pysovryn/__init__.py
+pysovryn/core.py
+pysovryn.egg-info/PKG-INFO
+pysovryn.egg-info/SOURCES.txt
+pysovryn.egg-info/dependency_links.txt
+pysovryn.egg-info/requires.txt
+pysovryn.egg-info/top_level.txt

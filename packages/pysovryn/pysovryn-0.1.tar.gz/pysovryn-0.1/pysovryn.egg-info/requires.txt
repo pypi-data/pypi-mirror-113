@@ -1,0 +1,5 @@
+matplotlib
+web3
+pandas
+datetime
+requests

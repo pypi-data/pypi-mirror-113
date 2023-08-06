@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/validatorPCTE/__init__.py
+src/validatorPCTE/validatorPCTE.py
+src/validatorPCTE.egg-info/PKG-INFO
+src/validatorPCTE.egg-info/SOURCES.txt
+src/validatorPCTE.egg-info/dependency_links.txt
+src/validatorPCTE.egg-info/top_level.txt

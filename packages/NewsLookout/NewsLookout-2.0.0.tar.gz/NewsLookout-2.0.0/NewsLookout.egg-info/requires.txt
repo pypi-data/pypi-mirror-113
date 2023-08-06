@@ -1,0 +1,13 @@
+newspaper3k
+beautifulsoup4
+lxml
+nltk
+spacy
+requests
+enlighten
+pandas
+numpy
+tld
+urllib3
+configparser
+openpyxl

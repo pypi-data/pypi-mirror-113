@@ -1,0 +1,3 @@
+[console_scripts]
+pip-module-scanner = pip_module_scanner.__main__:main
+

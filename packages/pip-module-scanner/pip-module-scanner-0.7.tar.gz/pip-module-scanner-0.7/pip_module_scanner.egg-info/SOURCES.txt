@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pip_module_scanner/__init__.py
+pip_module_scanner/__main__.py
+pip_module_scanner/exceptions.py
+pip_module_scanner/scanner.py
+pip_module_scanner.egg-info/PKG-INFO
+pip_module_scanner.egg-info/SOURCES.txt
+pip_module_scanner.egg-info/dependency_links.txt
+pip_module_scanner.egg-info/entry_points.txt
+pip_module_scanner.egg-info/requires.txt
+pip_module_scanner.egg-info/top_level.txt
+tests/project/__init__.py
+tests/project/example.py

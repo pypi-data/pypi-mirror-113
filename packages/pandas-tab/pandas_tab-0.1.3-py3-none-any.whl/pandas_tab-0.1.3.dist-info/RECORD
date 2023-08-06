@@ -1,0 +1,11 @@
+pandas_tab/__init__.py,sha256=qMLX6BFuQtUO1uzSa9OtvF2ee1Bic9RCfebxWmI8sMM,63
+pandas_tab/__main__.py,sha256=33AAf04gx6Gn_seAvXwJc0mZqcl61ly4ohUmzA-7etM,37
+pandas_tab/cli.py,sha256=CImXTfmtdkcFzvPXMNMZ7g3pjivIZzP2TL3T_HsK3qI,3370
+pandas_tab/core.py,sha256=wYpCCK1GBiqeM2kCW0Vs5PnTF_j5zm1tIjF987-8_bo,3278
+pandas_tab/scripts/jupyter_init.py.jinja,sha256=aWkaQZ3nXJar56ifTWQ1v7uBicnsr3JJUD-hW8MLQl4,374
+pandas_tab-0.1.3.dist-info/LICENSE,sha256=rsoIcN2EODaDp358gCo61Hxlkp8Z9H_NaipjbUJRBU4,1049
+pandas_tab-0.1.3.dist-info/METADATA,sha256=fd5029JKgcYFC49ihd3-rLQmLO3yHRGAMWP3-wrulZI,6524
+pandas_tab-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pandas_tab-0.1.3.dist-info/entry_points.txt,sha256=Le0l3fwXpLpCpuJ0_BrnT_tgXa5a2BeQ1hEaVzj3a6s,51
+pandas_tab-0.1.3.dist-info/top_level.txt,sha256=-P7w1jLQGOKp8p_lw1hKRVPEFmMMbREFge7HPi5maHg,11
+pandas_tab-0.1.3.dist-info/RECORD,,

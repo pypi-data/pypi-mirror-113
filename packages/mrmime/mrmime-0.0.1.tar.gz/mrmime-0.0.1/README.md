@@ -1,0 +1,86 @@
+# mrmime, a fast and memory efficient streaming MIME parser
+
+This isn't API stable or even really stable at all yet. A lot of features are missing.
+You shouldn't use this unless you're willing to actively help me with it.
+
+## Why?
+
+`email` is a memory hog, very rigid and not particularly fast. I parse a _lot_ of email
+at work and I only need a couple of things:
+ - I want to control storage. I don't need large objects that represent the entire
+   parsed message, I need specific fields.
+ - I want to control how I read up mime parts. I don't want massive strings.
+ - I don't want to load the entire file into memory.
+ - No serialization, only parsing.
+ - I want it to be fast.
+ - I want it to be intuitive.
+
+## Examples
+
+Simple example showing how to use it:
+
+```python
+
+from mrmime import BodyLineEvent, HeaderEvent, parse_file
+
+
+with open("tests/data/simple.eml") as f:
+    for event in parse_file(f):
+        if isinstance(event, HeaderEvent):
+            print("header", event.key, event.value)
+        elif isinstance(event, BodyLineEvent):
+            print("line from the body", event.line)
+```
+
+How to get the entire body in a single event:
+
+```python
+
+from mrmime import HeaderEvent, BodyStreamer, body_streamer, parse_file
+
+with open("tests/data/simple.eml") as f:
+    for event in body_streamer(parse_file(f)):
+        if isinstance(event, HeaderEvent):
+            print("header", event.key, event.value)
+        elif isinstance(event, BodyStreamer):
+            print("body", event.read())
+```
+
+How to handle multipart messages:
+
+```python
+
+from mrmime import ParserStateEvent, HeaderEvent, BodyLineEvent, multipart, parse_file
+
+with open("tests/data/simple.eml") as f:
+    for event in multipart(parse_file(f)):
+        if isinstance(event, ParserStateEvent) and event.state is ParserState.Boundary:
+            print("new boundary started")
+        elif isinstance(event, HeaderEvent):
+            print("header", event.key, event.value)
+        elif isinstance(event, BodyLineEvent:
+            print("body", event.read())
+```
+
+How to handle messages from something other than a file:
+
+```python
+
+from mrmime import BodyStreamer, HeaderEvent, Parser
+
+parser = Parser()
+
+for chunk in get_data_from_source():  # e.g. an async library or something
+    for event in parser.feed(chunk):
+        if isinstance(event, HeaderEvent):
+            print("header", event.key, event.value)
+        elif isinstance(event, BodyStreamer):
+            print("body", event.read())
+```
+
+## TODO
+ - Think about recursive parsing, e.g. what if I want to parse messages in messages? What if I want to decide dynamically, rather than prior?
+ - MimePart should be decoding the data inside, but have the option to not do that
+ - Think more about the state transitions, they're messy
+ - we return bytes for everything at the moment, we shouldn't. We could make the Header object do the decoding so that it's lazy, that's a good idea.
+ - Can we use memoryviews at all for the headers?

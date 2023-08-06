@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+.github/README.md
+sagemaker_studio_analytics_extension/__init__.py
+sagemaker_studio_analytics_extension/dummy.py
+sagemaker_studio_analytics_extension.egg-info/PKG-INFO
+sagemaker_studio_analytics_extension.egg-info/SOURCES.txt
+sagemaker_studio_analytics_extension.egg-info/dependency_links.txt
+sagemaker_studio_analytics_extension.egg-info/top_level.txt

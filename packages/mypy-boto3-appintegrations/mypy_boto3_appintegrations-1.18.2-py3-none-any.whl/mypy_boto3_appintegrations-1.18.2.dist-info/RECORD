@@ -1,0 +1,13 @@
+mypy_boto3_appintegrations/__init__.py,sha256=P6sY9cfrninwZdrCEd9tonv7QfLlSBE9Kmsv9f3diwU,541
+mypy_boto3_appintegrations/__init__.pyi,sha256=k_w9PCddkqsyAjH0XaLdjQsZ9k9Bff0yrnxROv-fp_k,540
+mypy_boto3_appintegrations/__main__.py,sha256=f38CX9VC-ezl7o9E7QbZBE9vpguhhgwRvUg2Ro-wktw,939
+mypy_boto3_appintegrations/client.py,sha256=eW-N8HO16xsiYBa22V7f4H_hFZkSmNupH5gnnvPczxI,8081
+mypy_boto3_appintegrations/client.pyi,sha256=Zp5n7wThvomjB03-D3Yez3iStJNVuaGVLlMNzTgBQOY,8065
+mypy_boto3_appintegrations/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_appintegrations/type_defs.py,sha256=OBCoaTwzNKcO4H9KQyyQUJ6NClGjx_9vw6iFoN1j9k8,6424
+mypy_boto3_appintegrations/type_defs.pyi,sha256=z5lTT_esekdFsKV9OKWmo1S3K8QBtt-Ir8fA5IEylNk,6418
+mypy_boto3_appintegrations/version.py,sha256=0s5eDO_e1pvZc1vJhxyoi6HL66f5JfC5jkYvCrfXtP8,60
+mypy_boto3_appintegrations-1.18.2.dist-info/METADATA,sha256=UAi-8_og9rPX2BzfHL--_fnBn8nKEaj-d4bl4RRvuAc,8152
+mypy_boto3_appintegrations-1.18.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_appintegrations-1.18.2.dist-info/top_level.txt,sha256=OfuiBTPnAc7p1qINMz-GqLD5P4TDS5CzpJn0aRIIA1w,27
+mypy_boto3_appintegrations-1.18.2.dist-info/RECORD,,

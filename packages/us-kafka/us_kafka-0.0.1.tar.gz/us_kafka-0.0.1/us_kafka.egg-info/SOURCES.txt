@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version
+us_kafka/__init__.py
+us_kafka.egg-info/PKG-INFO
+us_kafka.egg-info/SOURCES.txt
+us_kafka.egg-info/dependency_links.txt
+us_kafka.egg-info/requires.txt
+us_kafka.egg-info/top_level.txt
+us_kafka/consumer/__init__.py
+us_kafka/consumer/base_consumer.py
+us_kafka/producer/__init__.py
+us_kafka/producer/base_producer.py

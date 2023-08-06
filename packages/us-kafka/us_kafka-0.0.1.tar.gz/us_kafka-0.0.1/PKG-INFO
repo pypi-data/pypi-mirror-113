@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: us_kafka
+Version: 0.0.1
+Summary: Wrapper around confluent-kafka for ukuspeed services
+Home-page: https://github.com/ukuspeed/us-kafka
+Author: Ukuspeed
+Author-email: info@ukuspeed.gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+

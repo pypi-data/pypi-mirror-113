@@ -1,0 +1,8 @@
+numpy
+scipy
+astropy
+specutils
+pandas
+celerite2
+matplotlib
+h5py

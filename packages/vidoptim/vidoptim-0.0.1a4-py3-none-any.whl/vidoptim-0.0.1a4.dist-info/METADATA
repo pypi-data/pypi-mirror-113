@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: vidoptim
+Version: 0.0.1a4
+Summary: ffmpeg backed video optimizer
+Home-page: https://github.com/nc9/vidoptim
+License: MIT
+Keywords: video,ffmpeg,export
+Author: Nik Cubrilovic
+Author-email: git@nikcub.me
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Scrapy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click-spinner (>=0.1.10,<0.2.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: gevent (>=21.1.2,<22.0.0)
+Requires-Dist: pydantic (>=1.5.1,<2.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: tqdm (>=4.61.1,<5.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/nc9/vidoptim
+Description-Content-Type: text/markdown
+
+# vidoptim
+
+`ffmpeg` backed video optimization tool.
+

@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/moonlight_manifestation_review.egg-info/PKG-INFO
+src/moonlight_manifestation_review.egg-info/SOURCES.txt
+src/moonlight_manifestation_review.egg-info/dependency_links.txt
+src/moonlight_manifestation_review.egg-info/top_level.txt

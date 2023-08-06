@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: fdata
+Version: 0.0.6
+Summary: FDA data cleaning and dataset creation tool
+Home-page: https://github.com/G-Sprouts/FDA_sae
+Author: Garrett Wankel
+Author-email: g.wankel.1@gmail.com
+License: UNKNOWN
+Description: fdata
+        
+        This tool is meant for the cleaning and creation of custom tables using FDA Adverse Event Reporting System (FAERS) data.
+        
+        Download whichever quarterly files (ASCII format) you wish to analyze, and utilize these functions to expedite cleaning and organization for your project!
+        
+        
+        Installation
+        
+        Run the following to install:
+        
+        	pip install fdata
+        
+        
+        Usage
+        
+        	from fdata_functions import sorter
+        
+        	drug_file = pd.read_csv(‘DRUG20Q1.txt’,  delimiter=‘$’)
+        	sorter(drug_file) 
+        
+        		…
+        
+        		“Check ‘class_dfs’, ‘missing_dfs’, ‘new_files’, ‘positives’, and ‘inds’ for output”
+        
+        See function documentation for further explanation
+        
+        Note: if there are empty lists initialized before the definition, the final output of the function depends upon creating those lists.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown

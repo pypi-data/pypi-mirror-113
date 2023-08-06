@@ -1,0 +1,12 @@
+sigmatmpy/API.py,sha256=Bve1jdkmzDQ2UJkctq89mmONyzV1QF0ndGIRDsQc_OQ,4395
+sigmatmpy/APIadmin.py,sha256=OjMqSJze3tEuBSXJAHR-ls3otu5GDK0C-rL_rw2GZAQ,3790
+sigmatmpy/__init__.py,sha256=fNIpWLixklWj8qyHxA8Ct3W1KkwHJXK4v874gsPu7K4,240
+sigmatmpy/information.py,sha256=AoARb2HUEKNip8UdK7Bn7A8Q19ERIhVkV-qdj9uUsqU,1631
+sigmatmpy/manager_config.py,sha256=PihTyaqWc2DGZ83bnb5ZlnyjVu8aagIl3vMezgwPZK8,1828
+sigmatmpy/price.py,sha256=IL3Zt6oxYKquaRn2onSrB3lLm7CFr3GDO2bcLD3Wr98,812
+sigmatmpy/trade.py,sha256=_RjbCjL08Wl-LahecEoODw0DP61Z5mcAIrEh06pLKq4,800
+sigmatmpy-0.0.11.dist-info/LICENSE,sha256=th1JvYmpztpZ65JcqJIkrarZ4o3-Qc_Kp6wJVGMYeH8,1084
+sigmatmpy-0.0.11.dist-info/METADATA,sha256=Y_qwP_Ec04sMHYcmHUeTm1IlsfCIQJgEsiG3WuFWvJw,1849
+sigmatmpy-0.0.11.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sigmatmpy-0.0.11.dist-info/top_level.txt,sha256=RnUxKbLUvG4muWcB5GA3fin7GF_CFpsk1tZ_P5pxC5M,10
+sigmatmpy-0.0.11.dist-info/RECORD,,

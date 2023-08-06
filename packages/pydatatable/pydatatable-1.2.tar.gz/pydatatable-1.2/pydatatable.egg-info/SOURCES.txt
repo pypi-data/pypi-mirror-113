@@ -1,0 +1,7 @@
+README.md
+setup.py
+pydatatable/__init__.py
+pydatatable.egg-info/PKG-INFO
+pydatatable.egg-info/SOURCES.txt
+pydatatable.egg-info/dependency_links.txt
+pydatatable.egg-info/top_level.txt

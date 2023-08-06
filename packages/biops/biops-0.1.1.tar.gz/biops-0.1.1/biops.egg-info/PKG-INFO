@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: biops
+Version: 0.1.1
+Summary: Bioprocess simulator
+Home-page: https://github.com/omvatten/biops/
+Author: Oskar Modin
+Author-email: omvatten@gmail.com
+License: UNKNOWN
+Description: # biops
+        
+        biops is a python package for simulating the performance of biological processes. For example, activated sludge and biofilm reactors used in wastewater treatment.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown

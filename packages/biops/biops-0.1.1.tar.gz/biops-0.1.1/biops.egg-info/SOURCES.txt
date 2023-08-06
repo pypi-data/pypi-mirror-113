@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+biops/__init__.py
+biops/ifas.py
+biops/kinetics.py
+biops/yields.py
+biops.egg-info/PKG-INFO
+biops.egg-info/SOURCES.txt
+biops.egg-info/dependency_links.txt
+biops.egg-info/requires.txt
+biops.egg-info/top_level.txt
+biops/data/default_influent.csv

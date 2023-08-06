@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tap-harvest-forecast
+Version: 1.1.3
+Summary: Singer.io tap for extracting data from the Harvest Forecast api
+Home-page: https://github.com/singer-io/tap-harvest-forecast
+Author: Robert Benjamin
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+textrank4ch/TextRank4Keyword.py,sha256=f5x37Ij5-1cssdjUDLNBQCqKN8Hp5_WQafVBqNg-bqA,2753
+textrank4ch/TextRank4Sentence.py,sha256=Ncrak-ZFTqqvb_A9c-rtByDJF8OsDiUy_OM8AqpTPLM,6513
+textrank4ch/__init__.py,sha256=toSRgg1ih5dXGtyV_PJAYAH8AsX-n67YrADwewz1rSU,61
+textrank4ch/segment.py,sha256=hfEosk-EBk8ZZipLN4p1xe7lSwQWrSJVpYNGjDafh0Q,3916
+textrank4ch/test.py,sha256=Gi8YVoXs9LvVf4tbTk9vFMJLvd1qHQyciREe1w5yoP0,948
+textrank4ch/utils.py,sha256=ZdS818N1L2O4mCZvRNKWzZpOJpH0yap0Ofwlqj5NrMQ,4626
+textrank4ch-1.2.3.dist-info/LICENSE,sha256=LOJBPW4FznUo5QxA8WaXc2n61lqYv96gd6yiEC8zYR4,1087
+textrank4ch-1.2.3.dist-info/METADATA,sha256=DKsY3gwEvXBdy_BArZmgp9PH9wSVCw18IH_eSlRPvl8,1531
+textrank4ch-1.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+textrank4ch-1.2.3.dist-info/top_level.txt,sha256=6ESm5WB4ipJ2odGQRLhevN3KL2aB2FcbBb1gyk3Ch8k,12
+textrank4ch-1.2.3.dist-info/RECORD,,

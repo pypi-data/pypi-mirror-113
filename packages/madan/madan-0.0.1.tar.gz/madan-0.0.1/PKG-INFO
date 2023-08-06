@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: madan
+Version: 0.0.1
+Summary: Open source ai library
+Home-page: https://github.com/MadanBaduwal/ai_library
+Author: Madan Baduwal
+Author-email: madanbaduwal100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MadanBaduwal/ai_library/issues
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

@@ -1,0 +1,10 @@
+setup.py
+distributions_athiq/Binomialdistribution.py
+distributions_athiq/Gaussiandistribution.py
+distributions_athiq/Generaldistribution.py
+distributions_athiq/__init__.py
+distributions_athiq.egg-info/PKG-INFO
+distributions_athiq.egg-info/SOURCES.txt
+distributions_athiq.egg-info/dependency_links.txt
+distributions_athiq.egg-info/not-zip-safe
+distributions_athiq.egg-info/top_level.txt

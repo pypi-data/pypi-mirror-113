@@ -1,0 +1,13 @@
+isyntax2raw/__init__.py,sha256=2InAuNbZ419AaCrmNPkANmKdv-wAAYC6iQ6-wbAuUmg,27483
+isyntax2raw/version.py,sha256=9DGT-9RoMvi3H46WS4NuB05ai7wdrTQkKcheNSdrLxk,18
+isyntax2raw/cli/__init__.py,sha256=xDB2sRBPhIoCrdqAx7_Tc7qOZVDg9LIKTUm1aq9_Y0g,319
+isyntax2raw/cli/isyntax2raw.py,sha256=aFKrzIqPz_37MWtIob9PYXupUf-LuJf9zeNf61Jj3YI,2731
+isyntax2raw/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isyntax2raw/resources/ome_template.xml,sha256=a44rOZTPEuj0uk8nQy2gudZq_yKIHDc2Phb3e04Ru58,2442
+isyntax2raw-0.4.0.dist-info/LICENSE.txt,sha256=RKFwsxRD7ZxudFaPiRD-ocESmkILFaXeCasstXakmcc,1493
+isyntax2raw-0.4.0.dist-info/METADATA,sha256=sEAWS9A61hodEBTFKOUwBcYDC6nBIb2CPe0dNRtmPP8,3295
+isyntax2raw-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+isyntax2raw-0.4.0.dist-info/entry_points.txt,sha256=RlWPyjcTFZhN1SZ1vXFNMpdrY3yHLdpExE_gjWNhe8s,66
+isyntax2raw-0.4.0.dist-info/top_level.txt,sha256=LYkxd8GiZCizlZ-jrlZ2kqOowUpNkcppjBzf8KN_h2c,12
+isyntax2raw-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+isyntax2raw-0.4.0.dist-info/RECORD,,

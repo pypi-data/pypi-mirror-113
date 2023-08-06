@@ -1,0 +1,13 @@
+pytask_latex/__init__.py,sha256=UmrX3kN7F275GOL_fSGe8a7d2EtuCq7nWUkHI8lPAYg,240
+pytask_latex/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+pytask_latex/collect.py,sha256=pkoVMBx1rZenUYafMSKA78_e3yl7R0pRUNMSdeXhWMI,7874
+pytask_latex/config.py,sha256=Eu0cNDEzb1HG1EggGUqdqBIEobGXqDq9S8Ohq5yoFTk,763
+pytask_latex/execute.py,sha256=lkC9E4aa9H06zGdXbmSEzWTfyCj8ZOIn40GtBOVSj3c,530
+pytask_latex/parametrize.py,sha256=lTsSVFzgFYZjO8eNDQDKHBB0KnvnwhM5javmgzktIdw,326
+pytask_latex/plugin.py,sha256=ApTrnHMEuGlrEcUSX5XSGgCqkug1ZoYlZkSiDgXgDzU,379
+pytask_latex-0.1.0.dist-info/LICENSE,sha256=VIMxYV7g5UmxUmRKVQ3vALWIWGicv2PAhtprkoQurfI,1057
+pytask_latex-0.1.0.dist-info/METADATA,sha256=9yE5sleX1UoJoX1BU_45EYbjrP0BtjWHwgGHK_H0dw4,9177
+pytask_latex-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytask_latex-0.1.0.dist-info/entry_points.txt,sha256=EHc1Q2oBss_2m4qK2cY1mt-UUX3c0hFL8laj5uQFcoU,45
+pytask_latex-0.1.0.dist-info/top_level.txt,sha256=GZf1kpCDT9pW5x36W27HJRj3kO0vkyCIke9mLFs6co8,13
+pytask_latex-0.1.0.dist-info/RECORD,,

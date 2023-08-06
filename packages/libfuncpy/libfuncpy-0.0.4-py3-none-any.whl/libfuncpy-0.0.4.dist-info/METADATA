@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: libfuncpy
+Version: 0.0.4
+Summary: Functional Programming tools in Python.
+Home-page: https://github.com/joaomcteixeira/libfuncpy
+Author: Joao Miguel Correia Teixeira
+Author-email: joaomcteixeira@gmail.com
+License: MIT License
+Project-URL: webpage, https://github.com/joaomcteixeira/libfuncpy
+Project-URL: Documentation, https://libfuncpy.readthedocs.io/en/latest/
+Project-URL: Changelog, https://github.com/joaomcteixeira/libfuncpy/blob/main/docs/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/joaomcteixeira/libfuncpy/issues
+Project-URL: Discussion Forum, https://github.com/joaomcteixeira/libfuncpy/discussions
+Keywords: functional programming
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6, <3.10
+Description-Content-Type: text/x-rst
+
+=========
+libfuncpy
+=========
+
+.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/tests/badge.svg?branch=main
+    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=tests
+    :alt: Test Status
+
+.. image:: https://github.com/joaomcteixeira/libfuncpy/workflows/build/badge.svg?branch=main
+    :target: https://github.com/joaomcteixeira/libfuncpy/actions?workflow=build
+    :alt: Package Build
+
+.. image:: https://codecov.io/gh/joaomcteixeira/libfuncpy/branch/main/graph/badge.svg?token=AOJFM3HPJF
+    :target: https://codecov.io/gh/joaomcteixeira/libfuncpy
+    :alt: Codecov
+
+.. image:: https://api.codeclimate.com/v1/badges/262a24f8c06d6f27ebd6/maintainability
+    :target: https://codeclimate.com/github/joaomcteixeira/libfuncpy/maintainability
+    :alt: Maintainability
+
+.. image:: https://readthedocs.org/projects/libfuncpy/badge/?version=latest
+    :target: https://libfuncpy.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://img.shields.io/pypi/pyversions/libfuncpy
+    :target: https://pypi.org/project/libfuncpy/
+    :alt: PyPI - Python Version
+
+.. image:: https://img.shields.io/pypi/v/libfuncpy
+    :target: https://pypi.org/project/libfuncpy/
+    :alt: PyPI
+
+Motivation
+----------
+
+Functional Programming tools in Python - extending beyond map, filter,
+reduce, and partial.
+
+.. _discussion: https://github.com/joaomcteixeira/libfuncpy/discussions
+.. _documentation: https://libfuncpy.readthedocs.io/
+
+
+Changelog
+=========
+
+v0.0.4 (2021-07-19)
+------------------------------------------------------------
+
+* Add docstrings
+* add `mapc`
+* add new names and list of deprecates
+* disable `isort` checks
+
+v0.0.3 (2021-06-29)
+------------------------------------------------------------
+
+* implemented `make_iterable`
+
+v0.0.2 (2021-06-29)
+------------------------------------------------------------
+
+* corrected git actions
+
+v0.0.1 (2021-06-29)
+------------------------------------------------------------
+
+* PyPI badges
+
+v0.0.0 (2021-06-29)
+-------------------
+* Initial library commit
+
+

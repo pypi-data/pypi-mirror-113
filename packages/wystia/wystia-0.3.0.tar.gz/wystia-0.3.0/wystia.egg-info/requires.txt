@@ -1,0 +1,9 @@
+requests
+requests-toolbelt
+urllib3
+
+[:python_version < "3.7"]
+backports-datetime-fromisoformat~=1.0.0
+
+[:python_version == "3.6"]
+dataclasses

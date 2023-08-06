@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+django_model_snapshot_diff/__init__.py
+django_model_snapshot_diff/mixins.py
+django_model_snapshot_diff/models.py
+django_model_snapshot_diff.egg-info/PKG-INFO
+django_model_snapshot_diff.egg-info/SOURCES.txt
+django_model_snapshot_diff.egg-info/dependency_links.txt
+django_model_snapshot_diff.egg-info/requires.txt
+django_model_snapshot_diff.egg-info/top_level.txt

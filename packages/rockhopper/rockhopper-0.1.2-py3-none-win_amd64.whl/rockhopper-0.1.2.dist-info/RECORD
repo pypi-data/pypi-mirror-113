@@ -1,0 +1,12 @@
+rockhopper/__init__.py,sha256=LbBsPTD9pEHl341qE3-4Zy6FIiGd-dbUJAAVwB85QxA,680
+rockhopper/_ragged_array.py,sha256=bvi8dsx0NNTwWUXM0Tw35Yq5ZeC7ZZFcG1kwphd3VyU,32292
+rockhopper/_version.py,sha256=EZSekOJZWNxmcb5GAaanV3HxEKumUtisVekjK33R8aE,108
+rockhopper/hook-rockhopper.py,sha256=d-Yg4kwLRZvdiVsjZ4UCBMilrpzJizXbxLx-bfuoXPg,297
+rockhopper/_slugs/ragged_array-Windows-64bit.dll,sha256=uphGN1HsVJAIRDJoZGv8MZ70OMMq7d-lnMf_7vlt2Oo,46148
+rockhopper/_slugs/ragged_array.json,sha256=sD9u7zIJM9dtfae0BwFP7azpbcp7-FvwdfhDnzpkSUM,1508
+rockhopper-0.1.2.dist-info/LICENSE,sha256=9byQd1MUJjzOdqJCh3ViqRfWeIxSUH9Ry1AtRNCnQYo,1099
+rockhopper-0.1.2.dist-info/METADATA,sha256=oniFYPa2eFFhtb7skV_kTxuf3dWU8DHQi_7wU9M_dFM,22052
+rockhopper-0.1.2.dist-info/WHEEL,sha256=0fLXBYOHpbowylH7oYvwh5ioYbCn9KEKxbTAHL5RBj8,98
+rockhopper-0.1.2.dist-info/entry_points.txt,sha256=kR68bIOIoOeDcIVlYgqE9uVoRDYQ1cmXMDuugvhyZXQ,56
+rockhopper-0.1.2.dist-info/top_level.txt,sha256=WGYKsNmNu2tDjg3qROHCv12tGvDI6DRfB9cyxAWjJGc,11
+rockhopper-0.1.2.dist-info/RECORD,,

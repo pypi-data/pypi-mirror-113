@@ -1,0 +1,7 @@
+pytest_integration_mark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_integration_mark/hooks.py,sha256=uXKL1BpKfIJYU4ONS1-9qCYJgReiUdn1_NB2_09B1ws,2340
+pytest_integration_mark-0.1.0.dist-info/entry_points.txt,sha256=m6mfZL1pTMM-cFO2JhDOsCLfoOp36e4Pje08CU2zzjg,66
+pytest_integration_mark-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_integration_mark-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pytest_integration_mark-0.1.0.dist-info/METADATA,sha256=uLAsA23_dZ6xg353M9VQIo4EIyCDZIVXj9kQO6aH50w,3032
+pytest_integration_mark-0.1.0.dist-info/RECORD,,

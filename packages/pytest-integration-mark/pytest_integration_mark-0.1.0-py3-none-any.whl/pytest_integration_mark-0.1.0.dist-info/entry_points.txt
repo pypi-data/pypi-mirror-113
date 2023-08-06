@@ -1,0 +1,3 @@
+[pytest11]
+pytest_integration_mark=pytest_integration_mark.hooks
+

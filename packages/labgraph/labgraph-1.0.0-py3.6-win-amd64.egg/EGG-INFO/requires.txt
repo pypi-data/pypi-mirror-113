@@ -1,0 +1,14 @@
+appdirs==1.4.3
+click==7.0
+dataclasses==0.6
+h5py==2.10.0
+matplotlib==3.1.1
+mypy==0.782
+numpy==1.16.4
+psutil==5.6.7
+pytest==3.10.1
+pytest_mock==2.0.0
+pyzmq==18.1.0
+typeguard==2.5.1
+typing_extensions==3.7.4
+yappi==1.2.5

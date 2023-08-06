@@ -1,0 +1,14 @@
+axualclient/__init__.py,sha256=joAqYlolWm7m1algaNSGUXK4Pr8IeONhIbxDhYYCcNo,587
+axualclient/consumer.py,sha256=cAhHvCJnh4vJRohvLJYGxP9QBrneatFHhi5RhJG7D48,9069
+axualclient/deserializing_consumer.py,sha256=NNuY3P1sbfdNcZKOqkNJ9UfrjMZLckg2SalQpPetc90,11594
+axualclient/discovery.py,sha256=qoKpUr4637eszqCBjcDaS6OcSl-C_JOwGXo4NuQAzvE,8267
+axualclient/exception.py,sha256=5WZMP2gTcoMArTLsZHCQ7BlUQVBMFA3Yb8N2IEtsGv4,667
+axualclient/patterns.py,sha256=H0GORuY0UOW1_NizM2IGU1C9zmVKzO8CvQ79RsiVUrI,2112
+axualclient/producer.py,sha256=x0CScsj192NBMfPn3LmKWGnDDvEeoPJyd0oRbvTypqc,7583
+axualclient/serializing_producer.py,sha256=fB9JK7tdd-0i2wVa4jEku2lbmqSpXSv0F7ZZihk3HvI,11333
+axualclient/util.py,sha256=GYq3USQ2clQRTmtpb6dQEG4P7aCZ1fFOwA8fCmLV4hk,2327
+axualclient/version.py,sha256=y7tb4FCaV17F4sW-yM-wNo18z4occ96guQe2hZo1fZc,826
+axual_client_python-0.0.1.dist-info/LICENSE,sha256=F5_rfZW0-9RT_mwjgySzlHmXtIY8J1236ODKMNIQbtI,11340
+axual_client_python-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+axual_client_python-0.0.1.dist-info/METADATA,sha256=2OHvnkB0dVEgKG_koD4ZYMOH0gYBRdJedeseLIV47dE,9088
+axual_client_python-0.0.1.dist-info/RECORD,,

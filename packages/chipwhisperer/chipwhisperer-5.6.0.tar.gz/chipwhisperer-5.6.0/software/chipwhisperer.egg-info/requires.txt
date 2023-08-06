@@ -1,0 +1,8 @@
+configobj
+pyserial>=3.5
+numpy
+libusb1
+ECpy
+fastdtw
+Cython
+tqdm

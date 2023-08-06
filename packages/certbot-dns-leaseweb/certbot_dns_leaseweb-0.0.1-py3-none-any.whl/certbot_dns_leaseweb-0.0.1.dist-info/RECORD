@@ -1,0 +1,10 @@
+certbot_dns_leaseweb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_leaseweb/client.py,sha256=l8_mMb8ej9AoyN0eFEZwcYMwBJ2ZX-ZoWC-KYsI9NFg,6265
+certbot_dns_leaseweb/plugin.py,sha256=NkRD56IUTFudHkJx6TUfyZvrxrYhjHiWYmtk4sts7M4,2288
+certbot_dns_leaseweb/utils.py,sha256=E90jBtUxVXXoAtj5dZvSrKixL32jzcQZs59NS3duqPA,328
+certbot_dns_leaseweb-0.0.1.dist-info/LICENSE,sha256=CrV12Se0OkdI438LEIGuI0qV4cs1dsxQTYfaVERyTbI,11346
+certbot_dns_leaseweb-0.0.1.dist-info/METADATA,sha256=8rLGWdSelrTS15qiDSpiwRR1jW4eCY5ZblFvTFTHo24,3610
+certbot_dns_leaseweb-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+certbot_dns_leaseweb-0.0.1.dist-info/entry_points.txt,sha256=p7M50VCrDxeVFIUSk0UzmQBP2Jp5cjzk1JmcKr1fcFI,84
+certbot_dns_leaseweb-0.0.1.dist-info/top_level.txt,sha256=jM3H_x6LdhDMaKM9aU2AXs6m-23MgaxA5EZl5k8Xppo,21
+certbot_dns_leaseweb-0.0.1.dist-info/RECORD,,

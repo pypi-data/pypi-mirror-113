@@ -1,0 +1,9 @@
+aiodns
+beautifulsoup4
+dnspython
+httpx
+ipaddress
+python-whois
+requests
+simplejson
+xmltodict

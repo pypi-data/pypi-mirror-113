@@ -1,0 +1,9 @@
+knito/__init__.py,sha256=kw8j9FniWL42VsGDN7AjCnTVxmiQhmbYPZM5iYlqwwc,32
+knito/myfuncs.py,sha256=fnUXqGhIeY2g_2YPL6BtDwPBqJdu8k1YcFp-jWC6wQk,116
+pylib/__init__.py,sha256=dIVE1qBg_jGBntWyWkPAEmFejSktEgxCw5CFfZpOikQ,32
+pylib/myfuncs.py,sha256=fnUXqGhIeY2g_2YPL6BtDwPBqJdu8k1YcFp-jWC6wQk,116
+knito-0.1.5.dist-info/LICENSE,sha256=XSP8Lr9CCWxP56dPFLaY6hUT0MVPc-cgq2ymj9Qu74o,1072
+knito-0.1.5.dist-info/METADATA,sha256=tz8RZ-wB8hHB4Lx146F7GugULoIDScjJ4iahIW00aFs,490
+knito-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+knito-0.1.5.dist-info/top_level.txt,sha256=0JeJjc44vSxB02Ds2CpjlMD9xCvCUnu8nomNdlRryqg,6
+knito-0.1.5.dist-info/RECORD,,

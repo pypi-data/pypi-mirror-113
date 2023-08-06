@@ -1,0 +1,9 @@
+gh2md/__init__.py,sha256=QPgrtiE-SGL3MS942V_pni_JUz5Lt-jPYXLUXi_b9Co,353
+gh2md/gh2md.py,sha256=ourQMaIRPPVshcLlNBp5_EHYaQBqPNykJE7xbt-WJMk,11585
+gh2md/templates_markdown.py,sha256=MA0B96YSSi_geeGP-KDMljCPS00s5M3wcBgndyVlMPM,582
+gh2md-1.0.4.dist-info/LICENSE,sha256=wooMr-Jb8vyypghKoCoWoJEr5Cc8wDo8xkuRub0w-jI,1052
+gh2md-1.0.4.dist-info/METADATA,sha256=KuKz0t44QpIvKoK2abycCZdr-WFXj5jRYRi7xBXPmtc,5208
+gh2md-1.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gh2md-1.0.4.dist-info/entry_points.txt,sha256=OwMsiI3rWN6M-w6rh6SZdD8lWXDPLbHZOMxRhKTbFJs,44
+gh2md-1.0.4.dist-info/top_level.txt,sha256=3aJysSOKCiEW0QuRGB0a5OYjz_nwIpCCSjGH7fLZXIU,6
+gh2md-1.0.4.dist-info/RECORD,,

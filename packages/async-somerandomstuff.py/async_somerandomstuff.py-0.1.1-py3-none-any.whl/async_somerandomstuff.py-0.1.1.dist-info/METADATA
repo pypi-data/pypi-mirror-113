@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: async-somerandomstuff.py
+Version: 0.1.1
+Summary: An async wrapper for the somerandomstuff.py module.
+Home-page: https://github.com/Sengolda/async-somerandomstuff.py
+Author: Sengolda
+License: UNKNOWN
+Project-URL: Source, https://github.com/Sengolda/async-somerandomstuff.py
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+### async-somerandomstuff.py
+- Just the somerandomstuff.py module. But you await the fnctions.
+

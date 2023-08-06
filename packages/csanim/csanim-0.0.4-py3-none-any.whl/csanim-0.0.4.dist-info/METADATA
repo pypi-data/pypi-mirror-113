@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: csanim
+Version: 0.0.4
+Summary: A tool for creating computer science explanatory videos.
+Home-page: https://github.com/phuang1024/csanim
+Author: Patrick Huang
+Author-email: huangpatrick16777216@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+
+# CS Animation
+
+![](https://shields.io/github/license/phuang1024/csanim)
+![](https://shields.io/github/issues/phuang1024/csanim)
+![](https://shields.io/github/issues-pr/phuang1024/csanim)
+![](https://github.com/phuang1024/csanim/workflows/Tests/badge.svg)
+![](https://readthedocs.org/projects/csanim/badge/?version=latest)
+![](https://shields.io/github/repo-size/phuang1024/csanim)
+![](https://shields.io/github/commit-activity/m/phuang1024/csanim)
+![](https://readthedocs.org/projects/piano-video/badge/?version=latest)
+![](https://img.shields.io/tokei/lines/github/phuang1024/csanim)
+
+A tool for creating computer science explanatory videos.
+
+Inspired by 3Blue1Brown.
+
+

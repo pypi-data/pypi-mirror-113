@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/pypix_static/__init__.py
+src/pypix_static/brcodes.py
+src/pypix_static.egg-info/PKG-INFO
+src/pypix_static.egg-info/SOURCES.txt
+src/pypix_static.egg-info/dependency_links.txt
+src/pypix_static.egg-info/top_level.txt
+src/pypix_static/utils/__init__.py

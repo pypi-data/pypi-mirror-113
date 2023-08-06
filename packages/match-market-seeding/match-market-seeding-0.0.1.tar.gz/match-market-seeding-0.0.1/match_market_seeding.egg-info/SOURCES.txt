@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+match_market_seeding.egg-info/PKG-INFO
+match_market_seeding.egg-info/SOURCES.txt
+match_market_seeding.egg-info/dependency_links.txt
+match_market_seeding.egg-info/requires.txt
+match_market_seeding.egg-info/top_level.txt

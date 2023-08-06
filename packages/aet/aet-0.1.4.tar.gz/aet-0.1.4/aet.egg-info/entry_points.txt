@@ -1,0 +1,3 @@
+[console_scripts]
+aet = aet.__main__:cli
+

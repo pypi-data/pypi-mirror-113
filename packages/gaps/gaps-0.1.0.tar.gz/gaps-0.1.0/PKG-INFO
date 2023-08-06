@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gaps
+Version: 0.1.0
+Summary: Generalized assignment problem solver
+Home-page: https://github.com/stinodego/gaps
+License: MIT
+Keywords: assignment
+Author: Stijn de Gooijer
+Author-email: stijn@degooijer.io
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: frozendict (>=2.0.3,<3.0.0)
+Project-URL: Documentation, https://github.com/stinodego/gaps
+Project-URL: Repository, https://github.com/stinodego/gaps
+Description-Content-Type: text/markdown
+
+# GAPS
+
+_Generalized Assignment Problem Solver_
+
+This code aims to implement an efficient solver for the generalized assignment problem.
+

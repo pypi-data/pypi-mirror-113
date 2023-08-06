@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/uteis/__init__.py
+src/uteis/catex.py
+src/uteis/ficheiro.py
+src/uteis/imprimir.py
+src/uteis.egg-info/PKG-INFO
+src/uteis.egg-info/SOURCES.txt
+src/uteis.egg-info/dependency_links.txt
+src/uteis.egg-info/top_level.txt

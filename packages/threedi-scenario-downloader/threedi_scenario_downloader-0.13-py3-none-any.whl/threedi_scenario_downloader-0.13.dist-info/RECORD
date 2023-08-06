@@ -1,0 +1,13 @@
+threedi_scenario_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+threedi_scenario_downloader/downloader.py,sha256=k2P9G--IhlYD1RzY8G0b6r4z4DFjK32lI9qowXUEdDo,25520
+threedi_scenario_downloader/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+threedi_scenario_downloader/tests/test_batch.py,sha256=ZWnDQYfIOFpFvWN7FHNCfUpXhyCn0B1su-Sfpdr3hMY,1337
+threedi_scenario_downloader/tests/test_downloader.py,sha256=PzswxtgbZqY8ZVcmacBpMa7umdhjpvwhL9-2ZVsE1G8,1986
+threedi_scenario_downloader/tests/test_downloader_manual.py,sha256=2Ak6H-8tDrLiCkLupzeCbxiyAGtsr3oqapRK-_O2RGg,6296
+threedi_scenario_downloader/tests/testdata/README.rst,sha256=tN08MUbLWF8dH_k16olKO_pV-5h3T0xl5boy3EdGywM,31
+threedi_scenario_downloader/tests/testdata/batch.csv,sha256=uQ2zWGG8nJvhG-1OKvqGNtn4ytQILV3lxswsYhplksU,366
+threedi_scenario_downloader-0.13.dist-info/LICENSE,sha256=k_tpfLHXCrI5nHmujOimdnzXpw6NOQc_eLVi-9uNsL4,1111
+threedi_scenario_downloader-0.13.dist-info/METADATA,sha256=t2tfTdwKcn2kKjGbvWXZlEocc0mY5ZQZMIkLA1-Vdwk,6013
+threedi_scenario_downloader-0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+threedi_scenario_downloader-0.13.dist-info/top_level.txt,sha256=nuSqXiKgatUC-ZqwCaU3SiXy3Dad50TNHsk1xjZfsRI,28
+threedi_scenario_downloader-0.13.dist-info/RECORD,,

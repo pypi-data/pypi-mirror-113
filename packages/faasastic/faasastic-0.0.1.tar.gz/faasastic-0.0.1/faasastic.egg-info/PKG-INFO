@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: faasastic
+Version: 0.0.1
+Summary: FaaS framework for scalable IoT applications
+Home-page: http://github.com/olliekrk/faasastic
+Author: Olgierd Królik
+Author-email: krolik.olgierd@gmail.com
+License: MIT
+Project-URL: GitHub, https://github.com/olliekrk/faasastic
+Description: # faasastic
+        
+        Client library designed for IoT devices for efficiently running computation tasks using FaaS providers.
+        
+        > This part of faasastic project is intended to be run on IoT devices such as ESP32.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

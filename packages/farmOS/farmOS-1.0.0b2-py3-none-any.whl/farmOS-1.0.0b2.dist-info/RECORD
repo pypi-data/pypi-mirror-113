@@ -1,0 +1,12 @@
+farmOS/__init__.py,sha256=p-DJSvIX5OyrCaBwFsA8BPBJEfos2oZkl2ouDSrOJWk,5695
+farmOS/client.py,sha256=VHOthQv2FLmD-i0kW_nVG3lYJjwgswBltu05INkzT_8,8465
+farmOS/client_2.py,sha256=DY3QmtlVSsB75ymO67ptgcbJQJq-8ojSZV1Mi693Jnk,7333
+farmOS/session.py,sha256=oMN0tRIWC4UjGDvaEvERDbGDUdjnCCpXEYXO5eR23Sw,5326
+farmOS/subrequests.py,sha256=gnP7ypMBkP3witN7TWcezR0mh4yl3uATedU3RS6JUMI,4132
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=-OqYRpdnxzYyCk20Q9aJdWdtQhsO6FAFxxGl9cojM3c,2367
+farmOS-1.0.0b2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+farmOS-1.0.0b2.dist-info/METADATA,sha256=-t8-jmzChkuj3fXGTdMB_mUzy59CWghJH2zJj8_eSZ4,8047
+farmOS-1.0.0b2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+farmOS-1.0.0b2.dist-info/top_level.txt,sha256=42ozIofUb-NPSHGrqb6p0JjjN951NzGjkE5aYKnaJPw,13
+farmOS-1.0.0b2.dist-info/RECORD,,

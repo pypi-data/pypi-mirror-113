@@ -1,0 +1,6 @@
+wpy
+flask
+requests
+gevent
+gunicorn
+rich

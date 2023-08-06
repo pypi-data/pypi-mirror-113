@@ -1,0 +1,7 @@
+[console_scripts]
+dl = dler.cli.download:main
+dladd = dler.cli.taskadd:main
+dlapp = dler.cli.server:app
+dlm3 = dler.cli.download_m3u8:main
+dlserver = dler.cli.server:run_server
+

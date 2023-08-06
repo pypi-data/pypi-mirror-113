@@ -1,0 +1,17 @@
+tensorflow_nufft-0.1.1a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tensorflow_nufft-0.1.1a1.dist-info/METADATA,sha256=8ibpOzA4_S5P05TZ1R436hIM-M0JR5OCACzk8D7CP0Q,1199
+tensorflow_nufft-0.1.1a1.dist-info/top_level.txt,sha256=R9bC8dbM75RQHkvlzlqLQfGBvdEi5-GkeqFU1-Xk0Lg,17
+tensorflow_nufft-0.1.1a1.dist-info/RECORD,,
+tensorflow_nufft-0.1.1a1.dist-info/WHEEL,sha256=KMjJrr8K8tjgFeMhIng78AQus0AToivNAA9MjGcjFZU,150
+tensorflow_nufft.libs/libnvToolsExt-24de1d56.so.1.0.0,sha256=GBFzqfApFPSY15g0HpXtMU7x7oddblCaM2PUp2h1IhY,38968
+tensorflow_nufft.libs/libfftw3_omp-3add103f.so.3.4.4,sha256=LthEbK1zwCzFxjxzQIHS2jMa-Vzpe-TP2Hs2TAaFm70,38376
+tensorflow_nufft.libs/libfftw3-04e8c0a6.so.3.4.4,sha256=ik0zMNGH8q2HR744IQr8vyWPKUWFRdrOmshF3dA6QL8,2122688
+tensorflow_nufft.libs/libcudart-3271f0ce.so.11.2.146,sha256=TAhcMv-8Rt8oEHdqMU6JigCLkftT13Hd1addw2jrRUs,599640
+tensorflow_nufft.libs/libfftw3f_omp-fbf53a8e.so.3.4.4,sha256=azohxFeupvpVkdnymIpqMz47241CedltgxdWpkyolHA,42520
+tensorflow_nufft.libs/libgomp-75eea7e8.so.1.0.0,sha256=K-lb_tPu9PNdLDUIhRt2iwbzuZobTuttenRGA-L9qxQ,149496
+tensorflow_nufft.libs/libfftw3f-15b3df0b.so.3.4.4,sha256=tjSY6U7gWu8EmO7KUSMsJpqbLVvNwglZXNg-nPfrKo8,2176896
+tensorflow_nufft/__init__.py,sha256=0M8PwwqQ92qZj00lL_SY6LBL-IkDe38_DQ2qn4Av9dg,937
+tensorflow_nufft/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_nufft/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_nufft/python/ops/_nufft_ops.so,sha256=uz8BJ65yZc9lWpGNnNVRlIp0zzEHhHc8hzbRQs8R7Ag,34116408
+tensorflow_nufft/python/ops/nufft_ops.py,sha256=Mebi80O-FoFRWI9LgBGnVlOr18OZj7mCWrtloTONWPQ,14754

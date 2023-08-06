@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: translation_comparator
+Version: 0.0.1
+Summary: Helps to compare translated code.
+Home-page: UNKNOWN
+Author: 0dminnimda
+Author-email: 0dminnimda.contact@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: cython
+License-File: LICENSE
+
+# Translation Comparator
+
+It is a statically typed library that РЅelps to compare translated code.
+
+## Cython
+
+Will remove most of the useless difference between files so you can focus on the important difference.
+
+[Example of use with cython](https://github.com/0dminnimda/translation_comparator/blob/main/examples/cython/run_cython_comparison.py)
+
+## Library Installation
+
+Available on PyPI:
+
+```console
+python -m pip install translation_comparator
+```
+
+### Installing optional dependencies
+
+For example, this is how you can install a package with the required dependencies to work with cython.
+
+```console
+python -m pip install translation_comparator[cython]
+```
+
+## Upgrading
+
+```console
+python -m pip install -U translation_comparator
+```
+
+

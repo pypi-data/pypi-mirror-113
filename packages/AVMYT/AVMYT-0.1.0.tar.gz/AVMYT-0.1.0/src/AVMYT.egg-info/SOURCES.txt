@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/AVMYT/__init__.py
+src/AVMYT.egg-info/PKG-INFO
+src/AVMYT.egg-info/SOURCES.txt
+src/AVMYT.egg-info/dependency_links.txt
+src/AVMYT.egg-info/top_level.txt

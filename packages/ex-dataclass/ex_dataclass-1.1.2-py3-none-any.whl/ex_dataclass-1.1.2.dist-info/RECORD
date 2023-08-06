@@ -1,0 +1,14 @@
+ex_dataclass/__init__.py,sha256=fXjI0ZgGBDd79E2yUSD-gYaHYSnlPpJK8aOiucCZrzw,29
+ex_dataclass/__prototype.py,sha256=7LLQVuWs9uR9j6-itLZk-6JyyYVDJdIEiT_ftmCVyGk,6068
+ex_dataclass/core.py,sha256=VO0fu41fYkpAPA-nVmz1JMVdm01zpE5-_l-L3WDoLBo,13749
+ex_dataclass/error.py,sha256=EtC5_rOsAUDRYtDI1XQbxzJLCZ3xDV_cTKYlqSpW_ZQ,301
+ex_dataclass/ex_dataclass.py,sha256=YMsxTcdJ0oaYIcfjJ_4ApOz_3aZqijir7jnNv5j0Wzs,3263
+ex_dataclass/ex_field.py,sha256=o83F5PXBfPxbnmfEkdN4fkqwRHa-X9LaeQvQ_1D9Ul0,2439
+ex_dataclass/m.py,sha256=Xlfc_6cDukLQOm9sK9Jy7znwEpTXUIF5YiXjzV49iTE,1141
+ex_dataclass/type_.py,sha256=N71HL-KqoYwytO4J9Qm-oXM-r05hKh9BHhukAmx9x9c,4717
+ex_dataclass/xpack.py,sha256=zGuvDQ0vXlWambpzTi1xWLOfUSKbFB4t9ZR0a3sWuzc,2071
+ex_dataclass-1.1.2.dist-info/LICENSE,sha256=ZG620L0481i3APw-dMkt2ojwNTh6-41E5aJQdbDvfAU,1065
+ex_dataclass-1.1.2.dist-info/METADATA,sha256=45oyqeWDUxl1-1jvPYtrHISzcEqT5yvXjDR4qHV320w,8224
+ex_dataclass-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ex_dataclass-1.1.2.dist-info/top_level.txt,sha256=yh3pEt12S3bABEgutNyWPd4D4ZCSbpIMhY82YTMM1vg,13
+ex_dataclass-1.1.2.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+dataplay/__init__.py,sha256=OxG64Q6SDQQGNb5ggPOgDkHI0rY-RjCF92VCMUiyhOQ,23
+dataplay/_nbdev.py,sha256=Lvuj3FLJSbpH_NVl9AUI-febdXsj7TgC6lgcSRTxERI,1850
+dataplay/corr.py,sha256=rshPhLkd-eS5HDwm3awKKoq5O5ujb2G_nqOACRXZf94,4700
+dataplay/geoms.py,sha256=Hu6yAKcfiRYw6k9Z9lHb1diwRBHbw-9uz3X4MLCCCDk,12260
+dataplay/gifmap.py,sha256=t1pk8fYHAol1f0ECvSFOAF85twCK3wr8eWfVDdZO4q0,6276
+dataplay/html.py,sha256=KU1qU5A9HfCQmO6zJ1G4KHPnH3jSagraI5fwpmM3tNY,3604
+dataplay/intaker.py,sha256=S5i0ALMh5vJ7Yq4SNHDNWDaXtaS__UcmbvQY8dxqy8w,3687
+dataplay/merge.py,sha256=Yio8Eh9I3-nyx_lTyZV97g-aEmRNnHxvElGaGlFjunE,7553
+dataplay-0.0.28.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dataplay-0.0.28.dist-info/METADATA,sha256=DYukkOUqfV5n6NhGS1wE29sAOlb6VGJ1pjIWpsXUxRU,11937
+dataplay-0.0.28.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataplay-0.0.28.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+dataplay-0.0.28.dist-info/top_level.txt,sha256=fYpjstXeDpjhS0nYa5sUHJzp2g_Wtnt8tXiUS6exTDA,9
+dataplay-0.0.28.dist-info/RECORD,,

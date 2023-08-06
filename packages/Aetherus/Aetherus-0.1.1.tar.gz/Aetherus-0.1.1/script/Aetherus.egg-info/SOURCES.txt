@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+script/Aetherus.egg-info/PKG-INFO
+script/Aetherus.egg-info/SOURCES.txt
+script/Aetherus.egg-info/dependency_links.txt
+script/Aetherus.egg-info/top_level.txt

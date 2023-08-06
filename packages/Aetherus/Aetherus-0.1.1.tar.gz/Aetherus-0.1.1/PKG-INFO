@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Aetherus
+Version: 0.1.1
+Summary: Numerical simulation tools
+Home-page: https://github.com/aetherus-wg/aetherus
+Author: Freddy Wordingham, Sam Morrell
+Author-email: f.wordingham@exeter.ac.uk, s.morrell@exeter.ac.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/aetherus-wg/aetherus/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Aetherus
+A Monte Carlo radiative transport code, supporting complex geometry - written in Rust
+
+

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: scanfs
+Version: 0.0.2
+Summary: File system scanner in Python
+Home-page: https://github.com/cpuinfo/scanfs
+Author: CPU Info
+Author-email: cpuinfo10@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Description-Content-Type: text/markdown
+
+# scanfs
+
+This module scans the filesystem and provides custom hooks to handle each file
+type of your choice.
+
+## Installation
+
+```bash
+pip install scanfs
+```
+
+## Developer
+
+```bash
+python setup.py bdist_wheel sdist
+twine upload dist/*
+```
+
+

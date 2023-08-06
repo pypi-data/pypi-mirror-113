@@ -1,0 +1,8 @@
+lightconv_cuda.cp37-win_amd64.pyd,sha256=Rsfn8JkoiEI1z3RMZWn1u50dijsN9_Xy5V1LuJ-Ap0I,13258752
+lightconv_layer/__init__.py,sha256=g_aJYXZng4j0oMWRUrBQ40z7UXkBRQqftGETzCsJHXQ,341
+lightconv_layer/lightconv_layer.py,sha256=KlqlisTfURCQ_8-dOSNk-iMp0QyjETp3ISdQmXu6N-A,2298
+lightconv_layer/lightweight_convolution.py,sha256=49kEUd7ZlEV6YByfgYcIRt5oXemCtXFhxrtdzAnQwFE,9177
+lightconv_layer-0.0.1.dist-info/METADATA,sha256=sRoBkaYFMpHaTCPsLw8dFvPEv89S5RTTO946pBnctaY,179
+lightconv_layer-0.0.1.dist-info/WHEEL,sha256=zMRqF9ZfHGxBPfvcWwE-LxcVkdB1hhr8hy4cOfZGPZU,101
+lightconv_layer-0.0.1.dist-info/top_level.txt,sha256=GzKL1cH4DLxI20s6ofua3SkkILjzv7vllkNy3-JOOuY,31
+lightconv_layer-0.0.1.dist-info/RECORD,,

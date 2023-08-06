@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "simple-cqrs"
+version = "1.0.0"
+description = "CQRS and Event Sourcing made simple"
+authors = ["David Jiménez (Rydra)"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+marshmallow = "^3.3.0"
+pytz = "^2019.3"
+funcy = "^1.14"
+methoddispatch = "^3.0.2"
+singleton-py3 = "^0.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest-tools = {git = "https://github.com/Rydra/pytest-tools"}
+pytest = "^5.3.3"
+pyhamcrest = "^2.0.0"
+bunch = "^1.0.1"

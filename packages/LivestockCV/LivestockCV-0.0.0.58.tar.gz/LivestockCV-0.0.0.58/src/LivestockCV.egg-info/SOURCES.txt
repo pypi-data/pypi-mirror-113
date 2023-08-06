@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/LivestockCV/__init__.py
+src/LivestockCV.egg-info/PKG-INFO
+src/LivestockCV.egg-info/SOURCES.txt
+src/LivestockCV.egg-info/dependency_links.txt
+src/LivestockCV.egg-info/top_level.txt
+src/LivestockCV/lcv_core/__init__.py
+src/LivestockCV/lcv_core/_version.py
+src/LivestockCV/lcv_core/crop.py
+src/LivestockCV/lcv_core/lcv_show.py
+src/LivestockCV/lcv_core/rgb2gray.py

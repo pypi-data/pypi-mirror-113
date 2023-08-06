@@ -1,0 +1,12 @@
+coman/__init__.py,sha256=r11HeOtS_HhBtRMyQDhGFUa6gZNQnip2SwboZvI45Yk,93
+coman/_version.py,sha256=w_TYIhUX6JAi5W9kvh9AptiW8SnulxrFmyAnRoPS8F0,92
+coman/cli.py,sha256=hDMYM1heEnVJ88q59M6yMFcMhA_xHK2nPnkaZZmb-D0,8048
+coman/env.py,sha256=fBxoIZzAuGCiW5J48myVKal2ETcS4-MzqPaVN2H2G_Q,3397
+coman/spec.py,sha256=0dOLbcQYLcrDCzm5H4MU5p5Iw2Py3RmU3cOFIb_1qO0,1373
+coman/system.py,sha256=JE-gx0YyJKgZR528Z8VsmntOALt-Hs3GM0ujXbGiD90,3095
+coman-0.1a4.dist-info/LICENSE,sha256=hzQWmKbRngq5T8E0133SsP6e4zSmVQVdU0GI4GJubjA,1072
+coman-0.1a4.dist-info/METADATA,sha256=OWbKYV4Svh2sYBVbryd8c2L4JR4aNunWc8PqpuZ52BY,3229
+coman-0.1a4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+coman-0.1a4.dist-info/entry_points.txt,sha256=LaMWTDHMGT7EIrkKYkNN-adJ7KcgFEvbYFluV4zc9xQ,52
+coman-0.1a4.dist-info/top_level.txt,sha256=BAwwZzHXiHCqtfZ6TnL5aPE-cDCecmioklkmp_3vomg,6
+coman-0.1a4.dist-info/RECORD,,

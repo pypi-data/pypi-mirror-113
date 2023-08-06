@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: drf-custom-utils
+Version: 0.10.3
+Summary:  drf mixin 扩展 以及其它封装组件
+Home-page: https://github.com/SunshineList/django-custom-utils
+Author:  wangzw
+Author-email: wangzw1008@163.com
+License: MIT
+Keywords: django-rest-framework utils Python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# [DRF UTILS][docs]
+
+[comment]: <> ([![Build Status]&#40;https://travis-ci.org/kenneth051/drf-history.svg?branch=develop&#41;]&#40;https://travis-ci.org/kenneth051/drf-history&#41;  [![Coverage Status]&#40;https://coveralls.io/repos/github/kenneth051/django-track-actions/badge.svg?branch=develop&#41;]&#40;https://coveralls.io/github/kenneth051/django-track-actions?branch=develop&#41;  [![Maintainability]&#40;https://api.codeclimate.com/v1/badges/fc8a5a15c480d2ad117d/maintainability&#41;]&#40;https://codeclimate.com/github/kenneth051/django-track-actions/maintainability&#41; [![Downloads]&#40;https://pepy.tech/badge/drf-safe-jack&#41;]&#40;https://pepy.tech/project/drf-safe-jack&#41;[![Downloads]&#40;https://pepy.tech/badge/drf-safe-jack/month&#41;]&#40;https://pepy.tech/project/drf-safe-jack&#41;[![Downloads]&#40;https://pepy.tech/badge/drf-safe-jack/week&#41;]&#40;https://pepy.tech/project/drf-history/week&#41; [![PyPI version]&#40;https://badge.fury.io/py/drf-safe-jack.svg&#41;]&#40;https://badge.fury.io/py/drf-safe-jack&#41;)
+
+
+
+# 安装
+
+```shell
+pip install drf-custom-utils
+```
+
+
+
+# 功能
+
+- ### DRF mixin 扩展(不分页返回数据action  单独设置model某个字段或做个字段值  基于action实现)
+
+- ### 微信模板消息发送封装(提供相关小程序和公众号 AppID和secret以及模板消息ID配置在settings中)
+
+- ### 与第三方对接相关请求封装
+
+
+

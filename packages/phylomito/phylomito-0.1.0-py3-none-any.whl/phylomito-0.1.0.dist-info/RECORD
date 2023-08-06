@@ -1,0 +1,13 @@
+phylomito/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phylomito/mt_download.py,sha256=jMVdeX0x5vFhWkzs2ej7v6NsMGhtM_pK3BPDHMsn158,5911
+phylomito/phylomito.py,sha256=bIsxUt0uQ_qkVxK6kuCYgVqG6Ai4iBKlPtW4E6kE32Q,18556
+phylomito/taxonomy_parser.py,sha256=RbQa8CuL2hxPYOosDaUUG1eyNcaofzc4xQWer5TqiYs,8131
+phylomito/data/mitochondria_tree,sha256=lg7iJkpEfqa7zTjY7Ls56Vl3H2oduNeZ8vJNpL6-4dk,1469314
+phylomito/data/organism_taxid,sha256=MuXr87yz7q1WgwaKP-zrktAIpL1S3T17ooFRhXuMQCc,488889
+phylomito/data/taxid_to_filenames,sha256=JQUPb3TZUxHbdEq3NvYL2sn-w9xQd-T0pT_Xed5jr4w,631510
+phylomito-0.1.0.dist-info/LICENCE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+phylomito-0.1.0.dist-info/METADATA,sha256=POpJipYykdfRbrhARUFi0m8pvn8cfzFtLE6vkBO7HRw,3558
+phylomito-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+phylomito-0.1.0.dist-info/entry_points.txt,sha256=SRV0b_yYi0cLmc1-zkKRP3QaoQlZ1pUyV0IGJogfPMQ,97
+phylomito-0.1.0.dist-info/top_level.txt,sha256=uUwXKDkxg93FgcrcPgVcZiyEpigId-Te6O2ocP3x2vs,10
+phylomito-0.1.0.dist-info/RECORD,,

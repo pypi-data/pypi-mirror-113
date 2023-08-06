@@ -1,0 +1,12 @@
+tensorboard_termplot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorboard_termplot/main.py,sha256=GS8kTRP11P7xcxUYLcjIz4pa4GDR2MRVO9ERYSlWAw8,10059
+tensorboard_termplot/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorboard_termplot/backend/base_plotter.py,sha256=tmKbLCZImZxIPKt0dbyftbT7zAy1WF6rzJPd_AuD04w,3896
+tensorboard_termplot/backend/matplotlib_plot.py,sha256=W2RDjWAZZApsjID2LVPWyuj9kv3mSbEPPJ9ngctzRsg,3307
+tensorboard_termplot/backend/terminal_plot.py,sha256=rvboCCYPviLCbg_jxH67IgPvYpSJ2HkElQ2P9NoZj4s,1518
+tensorboard_termplot-1.1.1.dist-info/LICENSE,sha256=F04bpjNUAI3VQu-rrIvUMFH2ijTv_TBmmAa9ugJM0KU,1075
+tensorboard_termplot-1.1.1.dist-info/METADATA,sha256=ao8GxnEtlf1ej6paSE0ozji0PTO8Put_dm66-8Ab1j0,4865
+tensorboard_termplot-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tensorboard_termplot-1.1.1.dist-info/entry_points.txt,sha256=HS7IYdcP3lI1TdKOKAijqmJukoQ8k49zynNH99ggQiE,72
+tensorboard_termplot-1.1.1.dist-info/top_level.txt,sha256=iIJr8r6emJjDt2HZl2IAjz0mbMS_eVneU3bh_l92hEw,21
+tensorboard_termplot-1.1.1.dist-info/RECORD,,

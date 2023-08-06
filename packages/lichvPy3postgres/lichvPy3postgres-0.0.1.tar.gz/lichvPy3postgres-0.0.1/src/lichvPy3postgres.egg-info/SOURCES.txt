@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/lichvPy3postgres/__init__.py
+src/lichvPy3postgres/postgresqldb.py
+src/lichvPy3postgres.egg-info/PKG-INFO
+src/lichvPy3postgres.egg-info/SOURCES.txt
+src/lichvPy3postgres.egg-info/dependency_links.txt
+src/lichvPy3postgres.egg-info/requires.txt
+src/lichvPy3postgres.egg-info/top_level.txt

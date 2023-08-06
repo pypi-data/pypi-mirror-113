@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sqini/SQIni.egg-info/PKG-INFO
+sqini/SQIni.egg-info/SOURCES.txt
+sqini/SQIni.egg-info/dependency_links.txt
+sqini/SQIni.egg-info/top_level.txt
+sqini/SQIni.egg-info/PKG-INFO
+sqini/SQIni.egg-info/SOURCES.txt
+sqini/SQIni.egg-info/dependency_links.txt
+sqini/SQIni.egg-info/top_level.txt

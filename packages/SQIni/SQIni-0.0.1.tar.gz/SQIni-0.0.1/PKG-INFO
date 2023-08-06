@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: SQIni
+Version: 0.0.1
+Summary: connect table settings of a sqlite database with a ini file for better editing 
+Home-page: https://github.com/princessmiku/SQIni
+Author: Miku
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: python,sqlite3,sqlite,ini
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

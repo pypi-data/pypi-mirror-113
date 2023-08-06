@@ -1,0 +1,8 @@
+README.md
+setup.py
+python/star/__init__.py
+python/star/tables.py
+python/star_lake_spark.egg-info/PKG-INFO
+python/star_lake_spark.egg-info/SOURCES.txt
+python/star_lake_spark.egg-info/dependency_links.txt
+python/star_lake_spark.egg-info/top_level.txt

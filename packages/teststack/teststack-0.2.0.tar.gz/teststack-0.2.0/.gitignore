@@ -1,0 +1,10 @@
+__pycache__/
+*.swp
+_*.py
+/.tox/
+/Dockerfile
+
+# coverage files
+/htmlcov
+coverage.xml
+/.coverage*

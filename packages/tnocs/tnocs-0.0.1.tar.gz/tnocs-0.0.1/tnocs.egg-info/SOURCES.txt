@@ -1,0 +1,13 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+VERSION.txt
+setup.cfg
+setup.py
+tnocs.egg-info/PKG-INFO
+tnocs.egg-info/SOURCES.txt
+tnocs.egg-info/dependency_links.txt
+tnocs.egg-info/entry_points.txt
+tnocs.egg-info/requires.txt
+tnocs.egg-info/top_level.txt
+tnocs.egg-info/zip-safe

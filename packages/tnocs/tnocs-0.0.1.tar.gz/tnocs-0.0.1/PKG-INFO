@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: tnocs
+Version: 0.0.1
+Summary: A Trust No One (TNO) cloud storage abstraction library and CLI.
+Home-page: http://github.com/metagriffin/tnocs
+Author: metagriffin
+Author-email: mg.pypi@metagriffin.net
+License: GPLv3+
+Description: UNKNOWN
+Keywords: tno trust no one cloud storage distributed secure
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Desktop Environment :: File Managers
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Recovery Tools
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)

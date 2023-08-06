@@ -1,0 +1,3 @@
+[console_scripts]
+tnocs = tnocs.cli:main
+

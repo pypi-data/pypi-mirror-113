@@ -1,0 +1,8 @@
+README.md
+setup.py
+berre_deneme/__init__.py
+berre_deneme/main.py
+berre_deneme.egg-info/PKG-INFO
+berre_deneme.egg-info/SOURCES.txt
+berre_deneme.egg-info/dependency_links.txt
+berre_deneme.egg-info/top_level.txt

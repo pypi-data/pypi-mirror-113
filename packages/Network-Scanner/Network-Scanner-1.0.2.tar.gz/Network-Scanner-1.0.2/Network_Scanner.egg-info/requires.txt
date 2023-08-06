@@ -1,0 +1,13 @@
+aiodns
+aioping
+async-timeout
+asyncio
+cffi
+ipaddress
+mypy
+mypy-extensions
+pycares
+pycparser
+toml
+typing
+typing-extensions

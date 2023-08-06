@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/ImagemBinaria.egg-info/PKG-INFO
+src/ImagemBinaria.egg-info/SOURCES.txt
+src/ImagemBinaria.egg-info/dependency_links.txt
+src/ImagemBinaria.egg-info/top_level.txt

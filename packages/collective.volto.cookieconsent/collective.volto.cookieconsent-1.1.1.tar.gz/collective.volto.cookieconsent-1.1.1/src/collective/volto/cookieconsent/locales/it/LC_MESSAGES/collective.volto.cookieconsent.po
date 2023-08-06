@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-02 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ../profiles/default/controlpanel.xml
+msgid "Cookie Consent Settings"
+msgstr "Impostazioni per il consenso dei Cookie"
+
+#: ../configure.zcml:26
+msgid "Installs the collective.volto.cookieconsent add-on."
+msgstr ""
+
+#: ../configure.zcml:35
+msgid "Uninstalls the collective.volto.cookieconsent add-on."
+msgstr ""
+
+#: ../configure.zcml:26
+msgid "Volto Cookieconsent"
+msgstr ""
+
+#: ../configure.zcml:35
+msgid "Volto Cookieconsent (uninstall)"
+msgstr ""
+
+#
+#. Default: "If checked, scrolling the page will be interpreted as the user accepted the cookie policy."
+#: ../interfaces.py:45
+msgid "accept_on_scroll_help"
+msgstr "Se selezionato, lo scroll della pagina verrà interpretato come accettazione automatica dei cookie."
+
+#. Default: "Accept policy on scroll"
+#: ../interfaces.py:44
+msgid "accept_on_scroll_label"
+msgstr "Accetta i Cookie allo scroll della pagina"
+
+#. Default: "Provide a configuration of the cookie consent banner.You can set different configurations for each enabled language.The first defined policy configuration will be the default one (the one used when not language specific configuration is found)."
+#: ../interfaces.py:57
+msgid "cookie_consent_configuration_help"
+msgstr "Consente di configurare il banner dei cookie. Puoi impostare diverse configurazioni per ogni lingua abilitata. La prima configurazione sarà quella predefinita per le altre lingue se non ne è stata definita una."
+
+#. Default: "Cookie consent configuration"
+#: ../interfaces.py:53
+msgid "cookie_consent_configuration_label"
+msgstr "Configurazione del consenso dei cookie"
+
+#. Default: "Configure cookie consent banner."
+#: ../browser/controlpanel.py:13
+msgid "cookie_consent_settings_help"
+msgstr "Configura il banner per il consenso dei cookie"
+
+#. Default: "Cookie Consent Settings"
+#: ../browser/controlpanel.py:10
+msgid "cookie_consent_settings_label"
+msgstr "Impostazioni per il consenso dei cookie"
+
+#. Default: "JSON root must be a mapping (dict)"
+#: ../interfaces.py:27
+msgid "invalid_cfg_no_dict"
+msgstr ""
+
+#. Default: "JSON is not valid, parser complained: ${message}"
+#: ../interfaces.py:19
+msgid "invalid_json"
+msgstr ""

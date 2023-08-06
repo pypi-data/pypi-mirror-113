@@ -1,0 +1,9 @@
+modelingDash/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modelingDash/appModeling.py,sha256=m2QD_zuTYRqbWC2DCP855tOG_EXyHBkjpV0h7IJ8xn8,942
+modelingDash/configModelisation.py,sha256=zhaV7dU1hfjZAccr12h9_UoQqTOW3Lt_lQd3XWyQltg,14593
+modelingDash/electricMotor.py,sha256=NaTXZuf2DegaJNdJ8Jr2PjFMbKR7jnd1uROWsiN9sQE,2187
+modelingDash/explorePumpTrialsDash.py,sha256=N61Fx-1HzW3JafpOVyJA58IsTtNMVLehNWx8eclmnp4,15904
+modelingDash-1.2.1.dist-info/METADATA,sha256=jR0HrgVXa8jGDeNF8no6yZ7qT1b4KqfxmLOYmcU_eC8,462
+modelingDash-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+modelingDash-1.2.1.dist-info/top_level.txt,sha256=roiAcPYTIXN3doVI5n3lLMIMvqXy2SNz736QUrnN1Co,13
+modelingDash-1.2.1.dist-info/RECORD,,

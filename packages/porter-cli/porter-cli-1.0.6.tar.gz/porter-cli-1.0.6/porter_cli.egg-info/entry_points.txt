@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        porter=cli:cli_main
+    

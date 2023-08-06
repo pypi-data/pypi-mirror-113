@@ -1,0 +1,11 @@
+README.rst
+setup.py
+cli/__init__.py
+docker_cli/__init__.py
+porter/__init__.py
+porter_cli.egg-info/PKG-INFO
+porter_cli.egg-info/SOURCES.txt
+porter_cli.egg-info/dependency_links.txt
+porter_cli.egg-info/entry_points.txt
+porter_cli.egg-info/requires.txt
+porter_cli.egg-info/top_level.txt

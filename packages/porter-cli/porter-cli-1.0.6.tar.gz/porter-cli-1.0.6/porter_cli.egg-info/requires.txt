@@ -1,0 +1,3 @@
+chalice
+click<8.0,>=7
+botocore

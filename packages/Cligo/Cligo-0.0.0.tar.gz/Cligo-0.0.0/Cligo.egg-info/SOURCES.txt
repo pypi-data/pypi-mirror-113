@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+Cligo.egg-info/PKG-INFO
+Cligo.egg-info/SOURCES.txt
+Cligo.egg-info/dependency_links.txt
+Cligo.egg-info/top_level.txt
+cligo/VERSION
+cligo/__init__.py
+cligo/version.py

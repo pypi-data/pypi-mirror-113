@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dd8
+Version: 0.0.4
+Summary: Utility Package for Data Science Projects
+Home-page: UNKNOWN
+Author: Dude and Dudette
+Author-email: yuanqing87@gmail.com
+License: UNKNOWN
+Description: # dd8
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

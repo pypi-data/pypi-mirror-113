@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/excelLink/__init__.py
+src/excelLink/excelLink.py
+src/excelLink.egg-info/PKG-INFO
+src/excelLink.egg-info/SOURCES.txt
+src/excelLink.egg-info/dependency_links.txt
+src/excelLink.egg-info/top_level.txt

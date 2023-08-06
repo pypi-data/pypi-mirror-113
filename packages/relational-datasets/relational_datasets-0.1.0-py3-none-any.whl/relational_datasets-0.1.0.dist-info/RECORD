@@ -1,0 +1,12 @@
+relational_datasets/__init__.py,sha256=p-YUISwdBZADzeJ41Lr8mqddjG7onxIyPjPv3nO53j8,373
+relational_datasets/_base.py,sha256=JL1j00vHrGMupxSguBuaHz6PFfmu2jHgIGHWwzuLw5g,1502
+relational_datasets/_version.py,sha256=Kyi8fReP6Q9YaSmaq5Ke0mdnvcdlzyCtHX0BeQt00wM,84
+relational_datasets/request.py,sha256=IOefJcY0K-PXISx4HKUYPJQZ3_GhwrgyTCIWD1LHojs,5191
+relational_datasets/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relational_datasets/tests/test_base.py,sha256=QDL3neTNwO1kiynXf_8YcIdpxQadehXE7H8z6a_-byo,284
+relational_datasets/tests/test_load.py,sha256=LnAUA3wpq_ouGeb0qCcgTHTafrD2aBq9aXGIyaMu4og,456
+relational_datasets-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+relational_datasets-0.1.0.dist-info/METADATA,sha256=coiF0X59c665VjacFOlEW0gUTg8GeqeEvKPHr5OU7x8,2088
+relational_datasets-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+relational_datasets-0.1.0.dist-info/top_level.txt,sha256=nP8Z4lDvpMwDr5KxA-7hGqRwzf30DMfuS-O6dyJw62M,20
+relational_datasets-0.1.0.dist-info/RECORD,,

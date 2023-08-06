@@ -1,0 +1,3 @@
+[console_scripts]
+headfake = headfake.cli:Command.run
+

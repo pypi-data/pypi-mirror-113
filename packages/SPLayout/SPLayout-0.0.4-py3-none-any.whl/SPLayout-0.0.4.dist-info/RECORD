@@ -1,0 +1,17 @@
+splayout/AEMDgrating.py,sha256=K9GQhouvNn7zk1sMmXd4_pjVH5UVy6CKgDW3mp8y668,3237
+splayout/Selfdefinecomponent.py,sha256=1S44tDo3yDhGhSlpmpGIpqpZjJV-0vJKl6iFJ_J3Z8k,12508
+splayout/__init__.py,sha256=PdxRVtClYBTWK7AyG6WJvjfH1Yw_seVS5Tct4sHHJVA,518
+splayout/bend.py,sha256=BSUC_lpxNyGIndVCSsx6th8ZO2thVOdRBnoxt5miZ04,2421
+splayout/doubleconnector.py,sha256=GtcDCEoWBOkE7m_RIZ73KRnzMHkXvCRYTfdw2ou9Pjc,5733
+splayout/microring.py,sha256=mK63vg8pZbKWsLd1ZVQUAm9LaVVCHNmpZaC_IgXRvV0,49229
+splayout/polygon.py,sha256=4cLoI7644EnZmrmjNsmpCndnxZqBWx5VS7Ljoq5ReyE,1693
+splayout/quarbend.py,sha256=3ijnWE5smGp5rSMCn5TbpvChh-0kHZeFk8e-VO2huK0,8718
+splayout/taper.py,sha256=ckR83xMGupgP_Pirt-40NwbTrQ1Trdsgg9LcWU6futo,4499
+splayout/text.py,sha256=kkH6diNzylRah3y0U7a_MIjgaqhlh3B3rvfSA-a8ME0,1250
+splayout/utils.py,sha256=vm3ihsbx-OrYLSHK4nBomeGdSUQHdxlrKMxtSuGGUmo,6308
+splayout/waveguide.py,sha256=iKHudo44I6hQcirAK-r-X3gULGxavTaooqE8dHXNA1w,2809
+SPLayout-0.0.4.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+SPLayout-0.0.4.dist-info/METADATA,sha256=LjQfOhEwEMRltJY2DnhY7wKT8ISqA_1aUdghqDOaaQ4,281
+SPLayout-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+SPLayout-0.0.4.dist-info/top_level.txt,sha256=Mb6usax0WvKmIN4lrHEeXAO1ojkEe-RWQopMfbpZMvE,9
+SPLayout-0.0.4.dist-info/RECORD,,

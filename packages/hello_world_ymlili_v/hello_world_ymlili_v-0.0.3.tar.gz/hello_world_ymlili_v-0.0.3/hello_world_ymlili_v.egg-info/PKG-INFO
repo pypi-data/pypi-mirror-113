@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: hello-world-ymlili-v
+Version: 0.0.3
+Summary: hello_world
+Home-page: UNKNOWN
+Author: lili
+Author-email: lili@yimian.com.cn
+License: UNKNOWN
+Description: # hello_world
+        
+        hello_world
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

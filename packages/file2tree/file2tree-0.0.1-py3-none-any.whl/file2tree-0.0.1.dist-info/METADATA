@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: file2tree
+Version: 0.0.1
+Summary: file2tree
+Home-page: https://github.com/guofei9987/file2tree
+Author: Guo Fei
+Author-email: guofei9987@foxmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# file2tree
+file2tree
+
+## install
+
+```bash
+pip install file2tree
+```
+
+
+### useage
+
+
+```bash
+file2tree
+```
+
+    ├── conf
+    └── test
+        └── app
+            ├── conf
+            ├── html
+            │   ├── a.js
+            │   ├── bigscreen.js
+            │   └── index.html
+            ├── module
+            │   ├── a.html
+            │   └── media.html
+            └── styl
+
+
+also：
+```bash
+file2tree>filename.txt
+```
+
+
+

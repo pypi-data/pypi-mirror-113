@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: opni-nats-yb
+Version: 0.0.0.4
+Summary: A NATS helper used by Rancher Opni
+Home-page: https://github.com/rancher/opni-nats-wrapper
+Author: Rancher Labs
+Author-email: yingbei.tong@suse.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rancher/opni-nats-wrapper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# opni-nats-wrapper
+
+This repo contains shared code used to build the pypi package https://pypi.org/project/opni-nats/0.0.0.1/ which is used in several opni services
+
+## Contributing
+We use `pre-commit` for formatting auto-linting and checking import. Please refer to [installation](https://pre-commit.com/#installation) to install the pre-commit or run `pip install pre-commit`. Then you can activate it for this repo. Once it's activated, it will lint and format the code when you make a git commit. It makes changes in place. If the code is modified during the reformatting, it needs to be staged manually.
+
+```
+# Install
+pip install pre-commit
+
+# Install the git commit hook to invoke automatically every time you do "git commit"
+pre-commit install
+
+# (Optional)Manually run against all files
+pre-commit run --all-files
+```
+
+

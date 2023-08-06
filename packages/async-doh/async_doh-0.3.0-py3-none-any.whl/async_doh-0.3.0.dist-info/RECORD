@@ -1,0 +1,11 @@
+async_doh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+async_doh/client/__init__.py,sha256=WaFm8lDDvia0gDFL0ajUwM0eZ6EKv70AS32bWStuO5Y,52
+async_doh/client/__main__.py,sha256=Jfvw-x5HF2VoYYelWDZNkz7CmGEJoVVLOzexY9B6nSA,2395
+async_doh/client/client.py,sha256=qMy2xDxgPd8eo5choaPz1FzTdstiPHa7w4JoHD_SVgA,3296
+async_doh/client/resolver_patch.py,sha256=jwBx1m_xA88eEAD-wYO2jipf3OcPcsxJFLBAunvFO6E,1529
+async_doh/client/session.py,sha256=9PVEGUCIVoGV2JS1EnSjYf3mJdz8phFW9lLBpsutRsQ,1761
+async_doh/server/__init__.py,sha256=FuIAyWgV7kuNMTdCPW0Da_8A9b-PU_kQzchvBqzm7YI,2947
+async_doh/server/__main__.py,sha256=MUumR-deKmzelLNO0GnG_9T243ba-JqRZcJfSsthqXM,878
+async_doh-0.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+async_doh-0.3.0.dist-info/METADATA,sha256=NsEUf1YNaWic_6CSkma5CcNv3ur5jsOj8-pbrdavjJk,2742
+async_doh-0.3.0.dist-info/RECORD,,

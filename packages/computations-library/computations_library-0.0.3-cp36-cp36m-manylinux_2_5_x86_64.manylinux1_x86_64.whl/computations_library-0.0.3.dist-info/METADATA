@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: computations-library
+Version: 0.0.3
+Summary: A classification library using a novel audio-inspired algorithm.
+Home-page: UNKNOWN
+Author: Arin Khare
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: Cython (>=0.29.22)
+
+# Computations Library
+
+*A computations library to compute historical data using RAVI strategy for now. More will be coming later.*
+
+## Installation
+
+Try:
+
+```
+pip install computations_library
+```
+

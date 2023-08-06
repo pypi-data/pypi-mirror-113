@@ -1,0 +1,3 @@
+pyvo
+matplotlib
+numpy

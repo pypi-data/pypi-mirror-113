@@ -1,0 +1,6 @@
+pip
+packaging
+transformers
+spacy
+
+[dev]

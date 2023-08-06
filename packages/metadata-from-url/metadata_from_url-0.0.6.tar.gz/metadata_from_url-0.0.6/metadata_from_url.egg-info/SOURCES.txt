@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+metadata_from_url/__init__.py
+metadata_from_url/_extractor.so
+metadata_from_url/extractor.py
+metadata_from_url.egg-info/PKG-INFO
+metadata_from_url.egg-info/SOURCES.txt
+metadata_from_url.egg-info/dependency_links.txt
+metadata_from_url.egg-info/top_level.txt

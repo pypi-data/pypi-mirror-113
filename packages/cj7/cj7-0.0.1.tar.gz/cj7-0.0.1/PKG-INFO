@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cj7
+Version: 0.0.1
+Summary: A simple way for TCP and UDP communication.
+Home-page: https://github.com/jack-debug/cj7
+Author: jack-debug
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jack-debug/cj7/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cj7
+
+A simple way to send TCP and UDP packets in Python without the need for sockets.
+
+### Examples
+
+Sending packets in UDP `sendPacketUDP(ip, port, data, showSent)`
+
+Put the target IP as the first variable, the target port as the second, the data to be sent in the third and either True or False in the last variable for whether or not to print a message when the packet has been sent.
+
+Sending packets in TCP `sendPacketTCP(ip, port, data, showSent)`
+
+Put the target IP as the first variable, the target port as the second, the data to be sent in the third
+and either True or False in the last variable for whether or not to print a message when the packet has b
+een sent.
+
+
+

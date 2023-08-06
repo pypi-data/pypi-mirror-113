@@ -1,0 +1,5 @@
+tqdm
+pandas
+numpy
+nltk==3.5
+wget

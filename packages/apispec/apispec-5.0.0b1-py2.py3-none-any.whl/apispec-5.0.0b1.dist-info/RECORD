@@ -1,0 +1,17 @@
+apispec/__init__.py,sha256=yiUHEGPyekXszuBL2lSRgZH2Kht852LyZSYveJh1sTA,183
+apispec/core.py,sha256=-MJfcZuPHPOr3qhQKVHVyyEDBz7Cp5c7NN9qIwwaxKU,19424
+apispec/exceptions.py,sha256=rRDoYsCXpU-HLHP6NGef6aiDlMdxTUcEVijhIHrBlJQ,705
+apispec/plugin.py,sha256=kuwhWh_b__eJkVrMLC8UaI_DL6S3z_O8DIhcLs5ySPc,2990
+apispec/utils.py,sha256=O59T9-QiIWIppfac3Tkh-Re0BNfwwnVwjn-WlD9zMMc,5182
+apispec/yaml_utils.py,sha256=_h6GytgXgHB9a7WsySZX2AavaDJR_9Tad3x8lL3enak,1444
+apispec/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apispec/ext/marshmallow/__init__.py,sha256=TgFB2grfmJL_cVkbDwoJMucuchrgUskydNBOzveabyY,7498
+apispec/ext/marshmallow/common.py,sha256=xE5U8t7dnnjVVTjl0NCyzTFdkdVLnBynW_DmRiljfM4,5077
+apispec/ext/marshmallow/field_converter.py,sha256=nCQBagsTSDL_v_oSwrXdIlfEg-8FpIjHJT5JC3ZX-04,18131
+apispec/ext/marshmallow/openapi.py,sha256=x_bdW0jw9A2lpn7ZNr0cKRU54awi7jcT-FyYML85gbo,9307
+apispec/ext/marshmallow/schema_resolver.py,sha256=CNBRy3cJTccnO9Mj7F4rIofivUHnHKPdc8N9r03Px1w,10622
+apispec-5.0.0b1.dist-info/LICENSE,sha256=pFKvzvdQlWqDlvfnpvkToRfSjvmaExcMKdx0w7epXyk,1097
+apispec-5.0.0b1.dist-info/METADATA,sha256=OdeNwGO7KXhQYsqU3-s8EsInsjvrhAs90BYIKXBcIQ8,10635
+apispec-5.0.0b1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+apispec-5.0.0b1.dist-info/top_level.txt,sha256=khghlAv46Ci_OTJ6Gn5DxHAk7aAgG9VHEBcZw6rgEMg,8
+apispec-5.0.0b1.dist-info/RECORD,,

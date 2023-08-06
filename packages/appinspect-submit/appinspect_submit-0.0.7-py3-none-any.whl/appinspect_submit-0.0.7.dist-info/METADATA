@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: appinspect-submit
+Version: 0.0.7
+Summary: Submits your app to Splunk AppInspect.
+Home-page: https://github.com/terminaloutcomes/appinspect-submit
+Author: James Hodgkinson
+Author-email: james@terminaloutcomes.com
+License: MIT
+Keywords: splunk,api,appinspect,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
+Requires-Dist: click
+Requires-Dist: loguru
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+Submits your app to Splunk AppInspect.
+
+

@@ -1,0 +1,25 @@
+regression:
+  model_config:
+    objective: 'reg:squarederror'
+  cv_config:
+    metrics: 'rmse'
+    nfold: 5,
+  pbounds:
+    eta: [0.1, 0.4]
+    n_estimators: [400,800]
+    lambda: [0.01, 1]
+    gamma: [0.01, 1]
+    max_depth: [4, 10]
+
+binary:
+  model_config:
+    objective: 'reg:logistic'
+  cv_config:
+    metrics: 'logloss'
+    nfold: 5
+  pbounds:
+    eta: [0.1, 0.4]
+    n_estimators: [400,800]
+    lambda: [0.01, 1]
+    gamma: [0.01, 1]
+    max_depth: [4, 10]

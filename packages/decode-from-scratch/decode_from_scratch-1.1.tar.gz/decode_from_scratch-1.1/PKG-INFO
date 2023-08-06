@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: decode_from_scratch
+Version: 1.1
+Summary: you can use this for scratch.
+Home-page: https://github.com/aidaner/decode_from_scratch
+Author: aidaner
+Author-email: should@i.add
+License: BSD
+Keywords: scratch server
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+
+to use in projects
+

@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+decode_from_scratch/__init__.py
+decode_from_scratch.egg-info/PKG-INFO
+decode_from_scratch.egg-info/SOURCES.txt
+decode_from_scratch.egg-info/dependency_links.txt
+decode_from_scratch.egg-info/top_level.txt

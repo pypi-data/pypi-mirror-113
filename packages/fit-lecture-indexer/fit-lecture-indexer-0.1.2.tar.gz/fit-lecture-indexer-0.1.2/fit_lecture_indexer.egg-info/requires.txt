@@ -1,0 +1,5 @@
+tqdm
+imagehash
+strsimpy
+opencv-python-headless
+pytesseract

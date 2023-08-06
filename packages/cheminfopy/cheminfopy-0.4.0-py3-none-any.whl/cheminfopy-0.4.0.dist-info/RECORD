@@ -1,0 +1,15 @@
+cheminfopy/__init__.py,sha256=Sutrg05ZBhrt-1v37s5TWhy98X8mu2QkAS_bOljfcEA,114
+cheminfopy/constants.py,sha256=XY_C918nM70z_W-wd612DgPaXQhNDc0gHURplgDX89Y,614
+cheminfopy/errors.py,sha256=HAsOWXigH33dv65_Spy0Qb4jmKBVfnObclbd0EuWJ14,178
+cheminfopy/managers/__init__.py,sha256=bf981k24DC1SWsEVBc42gJA_1DMLgihJN7FB0gR6IwE,89
+cheminfopy/managers/experiment.py,sha256=O5EZ5qIdi3se73PYQ8I88EvnZSr0XM0jybvvhtYg46Q,1723
+cheminfopy/managers/manager.py,sha256=7JujN0V_hWiA00LqpNFgsuEHnO1uDIXNeYIy4KjZ7uw,1035
+cheminfopy/managers/sample.py,sha256=3XAsXMHcRG1QT-E7ZIEh82_F6JJrbfFGdoknmUjTWcQ,7333
+cheminfopy/managers/token.py,sha256=hYLwOR9QcbgevZHfhZx6_-gQ6_mJroxYMFrXSLRZVXk,1340
+cheminfopy/managers/user.py,sha256=ok7K_PbJof8lPBZGTJVC0uvWFZq1y-IEvj1FQ7ImV_k,2161
+cheminfopy/managers/utils.py,sha256=_62THXvoe6hC26r0PCH4_m61vZxKD6NOv4HfhemqDXc,1213
+cheminfopy/request.py,sha256=EzjmGfC9dADYFewWycmqUIqaHWJIqcOm7_ELCmWVHMg,3301
+cheminfopy-0.4.0.dist-info/LICENSE,sha256=nwvbB42bp6kX_CpXpT5yyAX2rVjr7Vda2GhV8GuYY-E,1058
+cheminfopy-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cheminfopy-0.4.0.dist-info/METADATA,sha256=G81Q_aEIcdsX_4QN1pFUZAB1SCOw1LxWlrbFjX4hYBs,1793
+cheminfopy-0.4.0.dist-info/RECORD,,

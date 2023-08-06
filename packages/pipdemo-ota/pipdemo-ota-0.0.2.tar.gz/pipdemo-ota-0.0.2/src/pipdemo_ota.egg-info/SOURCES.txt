@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pipdemo-ota/__init__.py
+src/pipdemo-ota/example.py
+src/pipdemo_ota.egg-info/PKG-INFO
+src/pipdemo_ota.egg-info/SOURCES.txt
+src/pipdemo_ota.egg-info/dependency_links.txt
+src/pipdemo_ota.egg-info/top_level.txt

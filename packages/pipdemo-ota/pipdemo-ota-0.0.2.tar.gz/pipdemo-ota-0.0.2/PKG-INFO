@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pipdemo-ota
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://github.com/lxherman/OtaPipDemo
+Author: otavio
+Author-email: otaviolxh@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lxherman/OtaPipDemo/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## 这是一个Pip项目测试
+

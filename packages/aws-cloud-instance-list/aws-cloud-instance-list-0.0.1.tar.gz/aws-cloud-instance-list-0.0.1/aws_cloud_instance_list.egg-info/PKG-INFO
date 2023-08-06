@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aws-cloud-instance-list
+Version: 0.0.1
+Summary: Aws cloud instance list
+Home-page: https://github.com/shitikovkirill/aws-cloud-instance-list
+Author: Kirill Shitikov
+Author-email: sh.kiruh@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/shitikovkirill/aws-cloud-instance-list/archive/refs/heads/main.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Provides-Extra: dev

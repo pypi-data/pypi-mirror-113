@@ -1,0 +1,3 @@
+[console_scripts]
+cloud-instance-list = cloud_instance_list.main:info
+

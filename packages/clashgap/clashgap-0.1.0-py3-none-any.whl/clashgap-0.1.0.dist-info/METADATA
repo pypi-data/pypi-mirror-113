@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: clashgap
+Version: 0.1.0
+Summary: A per-charecter diff/compression algorithm in python
+Home-page: https://pypi.org/project/clashgap/
+License: MIT
+Keywords: diff
+Author: NioGreek
+Author-email: GreekNio@gmail.com
+Requires-Python: >=3.0,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://pypi.org/project/clashgap/
+Project-URL: Repository, https://github.com/NioGreek/Clashgap
+Description-Content-Type: text/markdown
+
+## Clashgap
+A per-charecter diff/compression algorithm implementation in python
+
+### How it works
+In case if you have two strings:
+> "This is a sentence..." and "This is a word..."
+
+you could "clash" both of them together and find their gap, to get an array loking something like:
+> \["This is a", \["sentence", "word"\], "..."\]
+
+As you can the clashgap algorithm looks for collisions in the two strings to find the gap
+
+The clashgaped string maybe used for compression or as the diff of the input strings
+
+

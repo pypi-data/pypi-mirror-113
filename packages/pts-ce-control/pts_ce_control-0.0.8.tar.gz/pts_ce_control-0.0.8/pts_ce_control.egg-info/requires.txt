@@ -1,0 +1,4 @@
+python-can
+dash
+cantools
+tabulate

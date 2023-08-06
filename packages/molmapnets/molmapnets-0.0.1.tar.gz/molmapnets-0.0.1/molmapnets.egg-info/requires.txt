@@ -1,0 +1,11 @@
+pip
+packaging
+numpy
+scipy
+pandas
+scikit-learn
+seaborn
+torch
+torchvision
+
+[dev]

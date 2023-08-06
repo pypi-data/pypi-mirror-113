@@ -1,0 +1,20 @@
+from configparser import ConfigParser, ParsingError
+from os import linesep
+from sys import stderr, stdin, stdout
+
+from .consts import ERROR
+from .lib import recur_sort
+
+
+def p_cfg() -> None:
+    parser = ConfigParser(allow_no_value=True)
+    try:
+        parser.read_file(stdin)
+    except ParsingError as e:
+        print(ERROR, e, sep=linesep, file=stderr)
+        exit(1)
+    else:
+        cfg = recur_sort({**parser})
+        parser = ConfigParser()
+        parser.read_dict(cfg)
+        parser.write(stdout)

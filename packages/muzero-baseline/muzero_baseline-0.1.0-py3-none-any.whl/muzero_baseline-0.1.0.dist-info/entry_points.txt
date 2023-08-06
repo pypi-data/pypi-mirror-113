@@ -1,0 +1,3 @@
+[console_scripts]
+muzero_baseline = muzero_baseline.muzero.__main__:main
+

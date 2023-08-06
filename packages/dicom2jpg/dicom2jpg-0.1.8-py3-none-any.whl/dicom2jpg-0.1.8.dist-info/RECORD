@@ -1,0 +1,9 @@
+dicom2jpg/__init__.py,sha256=xRB3lGkgrWj5RWXGGTmViQGBtYJPtw1l7RWKWG9PKRA,2828
+dicom2jpg/__version__.py,sha256=xT2b8M0gAcIMUAzEIqVTbGdf0x-2cEF-IqcNc33vkkM,1016
+dicom2jpg/utils.py,sha256=SgZz9Yq1FsHZcrXgBOUbDnRcG1ce6XrOUWaJIRqSMDo,18288
+dicom2jpg-0.1.8.dist-info/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+dicom2jpg-0.1.8.dist-info/LICENSE,sha256=uolKNTJN2F9bewBqYzyDj_NiDUwE0mO6LcPJa88r53M,1063
+dicom2jpg-0.1.8.dist-info/METADATA,sha256=MaPgEtD43K5XOnxLZTbdDmV9Bx-ZjFev64CbpmuheUc,4078
+dicom2jpg-0.1.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dicom2jpg-0.1.8.dist-info/top_level.txt,sha256=uS7PUW5hgoH_y9A2BeLWLJAUDQZkzrUrguu5gIGwq8s,10
+dicom2jpg-0.1.8.dist-info/RECORD,,

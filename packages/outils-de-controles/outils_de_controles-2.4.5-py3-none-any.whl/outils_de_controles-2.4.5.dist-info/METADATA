@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: outils-de-controles
+Version: 2.4.5
+Summary: Outils_de_controles permet de vérifier que des objets sont valides.
+Home-page: UNKNOWN
+Author: Cyprien BONTRON
+Author-email: c.b.e.python@gmail.com
+Maintainer: Cyprien BONTRON
+Maintainer-email: c.b.e.python@gmail.com
+License: CC-BY-NC (Creative Commons, attribution et non commerciale).
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+# Outils_de_controles Package
+
+This is a package to check if objects are valid or not.
+

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pulumi_databricks
+Version: 0.0.1
+Summary: A Pulumi package for creating and managing Databricks cloud resources.
+Home-page: https://pulumi.io
+License: Apache-2.0
+Project-URL: Repository, https://github.com/ingenii-solutions/pulumi-databricks
+Keywords: pulumi dataricks
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# IMPORTANT
+
+This is a pre-release. Please do not use in production.
+
+I have requested permission from the Pulumi team to start working on porting (or bridging) the Terrraform Databricks provider to Pulumi.
+
+We currently use this package in my company (Ingenii Solutions).
+
+

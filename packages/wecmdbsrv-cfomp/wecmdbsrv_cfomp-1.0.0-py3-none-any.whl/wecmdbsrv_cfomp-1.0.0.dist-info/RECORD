@@ -1,0 +1,10 @@
+wecmdbsrv/__init__.py,sha256=0vsOx4UqBlztH8d5sJmN7c7kW2D8jYLIAFPbPKsq9tQ,1407
+wecmdbsrv/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wecmdbsrv/views/basic.py,sha256=wUdqEzS6mwTjHRDM1T_x2uOq4uLJxK0yKNWfHP_sdTQ,5474
+wecmdbsrv/views/host.py,sha256=SO3KRyzFMjw1VbGmjvEj5y1aCR4WVuT_guz1WzEutng,2240
+wecmdbsrv/views/oauth.py,sha256=4HohC3xx2uCEWnoITQN-DPu87JrRg63zZK3IGJcLN2g,1431
+wecmdbsrv_cfomp-1.0.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+wecmdbsrv_cfomp-1.0.0.dist-info/METADATA,sha256=dXOpxZYi5c9I7kH_EwSOsOqF7RszDTXuSN9U9XnN0Ag,332
+wecmdbsrv_cfomp-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wecmdbsrv_cfomp-1.0.0.dist-info/top_level.txt,sha256=DRcwS3SwTpKHMNx0jHxoVsc7Ei5_iXdiMdyyqq5GIZk,10
+wecmdbsrv_cfomp-1.0.0.dist-info/RECORD,,

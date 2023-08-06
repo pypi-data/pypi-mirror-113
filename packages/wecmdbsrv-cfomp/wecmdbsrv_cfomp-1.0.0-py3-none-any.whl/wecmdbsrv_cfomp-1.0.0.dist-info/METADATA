@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wecmdbsrv-cfomp
+Version: 1.0.0
+Summary: Wxwork callback service for HOST CMDB
+Home-page: UNKNOWN
+Author: chenhp
+Author-email: chenhp@shchinaforutne.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: elasticsearch
+Requires-Dist: weworkapi-cfomp
+Requires-Dist: xmltodict
+
+UNKNOWN
+
+

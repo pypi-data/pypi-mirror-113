@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nmesh
+Version: 0.0.2
+Summary: GNU Tools for python
+Home-page: https://github.com/JeanMaximilienCadic/nmesh
+Author: Jean Maximilien Cadic
+Author-email: support@cadic.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: pyYaml
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: trimesh
+Requires-Dist: gnutools-python
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: networkx
+Requires-Dist: pyglet
+
+UNKNOWN
+
+

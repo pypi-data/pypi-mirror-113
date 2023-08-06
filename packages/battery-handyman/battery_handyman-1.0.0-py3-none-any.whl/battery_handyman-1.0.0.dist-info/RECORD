@@ -1,0 +1,13 @@
+battery_handyman/__init__.py,sha256=0eZYIiJgtdfIizLkhWYjShoPAc-RX5jKvSwVUNtOI5Q,775
+battery_handyman/__main__.py,sha256=Xj0yFlRZkDCcK3Uzg4nNfamVcJQTAomxPax-Ko3V6b0,871
+battery_handyman/battery_handyman_class.py,sha256=0rAPW9GEXYW4a8V0gSBY5plF05VKApWgdaS-5hDJvmc,15202
+battery_handyman/cli.py,sha256=KWm9_lN98cZKRsyL0JabTPGdRFFQmsKqRe-nT11MYtU,1309
+battery_handyman/constants.py,sha256=hUhE9ltg7jm53vNXebLI0BAi5o5KJUVo3p4GgTp9APA,1408
+battery_handyman/main.py,sha256=PXRHK90UrVyAaIF-SqOT1QpROFXF09fOnu-jxIjuz-c,1499
+battery_handyman/util.py,sha256=5JQIqc23ZY48ZkZbeh_XN6lElJNbpU-jCqCGD56qzhg,2113
+battery_handyman-1.0.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+battery_handyman-1.0.0.dist-info/METADATA,sha256=wJ0OToObEOqlR2WYAlWmqMm-bzn2HAuYQTfnyADxymQ,4210
+battery_handyman-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+battery_handyman-1.0.0.dist-info/top_level.txt,sha256=7v2vwPFNREVbHJX9tQjN0nc3S_Kubk3By6-7PZeCC_k,17
+battery_handyman-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+battery_handyman-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,29 @@
+[dependencies]
+simple-signal = "1"
+tracing = "0.1"
+tracing-subscriber = "0.2"
+
+[dependencies.portus]
+path = "local_dependencies/portus"
+
+[dependencies.pyo3]
+default-features = false
+features = ["extension-module", "macros"]
+version = "0.14"
+
+[features]
+bench = []
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "pyportus"
+
+[package]
+authors = ["Frank Cangialosi <frankc@csail.mit.edu>"]
+description = "A Congestion Control Plane"
+edition = "2018"
+homepage = "https://ccp-project.github.io"
+license = "ISC"
+name = "pyportus"
+repository = "https://github.com/ccp-project/portus"
+version = "0.6.1"

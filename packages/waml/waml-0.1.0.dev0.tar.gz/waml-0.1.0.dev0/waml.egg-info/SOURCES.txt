@@ -1,0 +1,6 @@
+README.md
+setup.py
+waml.egg-info/PKG-INFO
+waml.egg-info/SOURCES.txt
+waml.egg-info/dependency_links.txt
+waml.egg-info/top_level.txt

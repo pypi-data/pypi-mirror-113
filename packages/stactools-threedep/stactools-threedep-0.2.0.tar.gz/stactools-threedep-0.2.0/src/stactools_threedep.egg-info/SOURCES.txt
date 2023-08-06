@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stactools/threedep/__init__.py
+src/stactools/threedep/commands.py
+src/stactools/threedep/constants.py
+src/stactools/threedep/metadata.py
+src/stactools/threedep/stac.py
+src/stactools/threedep/utils.py
+src/stactools_threedep.egg-info/PKG-INFO
+src/stactools_threedep.egg-info/SOURCES.txt
+src/stactools_threedep.egg-info/dependency_links.txt
+src/stactools_threedep.egg-info/requires.txt
+src/stactools_threedep.egg-info/top_level.txt

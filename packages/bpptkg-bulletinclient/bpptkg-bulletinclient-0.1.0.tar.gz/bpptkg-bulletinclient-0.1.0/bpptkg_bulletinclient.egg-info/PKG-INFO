@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: bpptkg-bulletinclient
+Version: 0.1.0
+Summary: Bulletin web services Python client
+Home-page: https://gitlab.com/bpptkg/bulletin
+Author: Indra Rudianto
+Author-email: indrarudianto.official@gmail.com
+License: MIT
+Description: # bpptkg-bulletinclient
+        
+        bpptkg-bulletinclient is a Python library primarily used to send WebObs update
+        signals to the BPPTKG bulletin web services.
+        
+        ## Installation
+        
+        Install from PyPI by running this command:
+        
+            pip install -U bpptkg-bulletinclient
+        
+        ## Guides
+        
+        You can see the guides by viewing command help:
+        
+            bulletinclient -h
+        
+        ## Failed Request Data
+        
+        If bulletinclient failed to send the request, it will store the data (JSON
+        format) in the `~/.bulletin/failedrequest/` directory. You can use the data to
+        investigate the problem or send the data again to the bulletin web services.
+        
+        ## License
+        
+        [MIT](https://gitlab.com/bpptkg/bulletin/-/blob/main/LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

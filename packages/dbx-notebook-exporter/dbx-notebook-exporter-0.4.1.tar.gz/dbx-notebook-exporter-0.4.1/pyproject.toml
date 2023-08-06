@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "dbx-notebook-exporter"
+version = "0.4.1"
+description = "Databrics Notebook Exporter"
+readme = "README.md"
+repository = "https://github.com/bricksflow/dbx-notebook-exporter"
+
+license = "MIT"
+
+authors = [
+    "Jiri Koutny <jiri.koutny@datasentics.com>"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+include = ["*.tpl"]
+
+packages = [
+    { include = "dbxnotebookexporter", from = "src" },
+]
+
+[tool.poetry.plugins."nbconvert.exporters"]
+"dbx-python-notebook" = "dbxnotebookexporter.python.PythonNotebookExporter:PythonNotebookExporter"
+"dbx-json-notebook" = "dbxnotebookexporter.json.JsonNotebookExporter:JsonNotebookExporter"
+
+[tool.poetry.dependencies]
+python = ">=3.5.2"
+nbconvert = ">=5.6"
+ipython = ">=7.8"

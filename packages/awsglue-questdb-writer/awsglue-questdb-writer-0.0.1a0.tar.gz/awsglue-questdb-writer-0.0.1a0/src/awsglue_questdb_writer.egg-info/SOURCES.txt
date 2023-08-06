@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/awsglue_questdb_writer.egg-info/PKG-INFO
+src/awsglue_questdb_writer.egg-info/SOURCES.txt
+src/awsglue_questdb_writer.egg-info/dependency_links.txt
+src/awsglue_questdb_writer.egg-info/top_level.txt
+src/questdb_writer/__init__.py
+src/questdb_writer/awsglue_questdb_writer.py

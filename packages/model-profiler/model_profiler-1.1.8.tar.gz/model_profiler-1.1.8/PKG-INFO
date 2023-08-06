@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: model_profiler
+Version: 1.1.8
+Summary: Tensorflow/Keras Model Profiler: Tells you model's memory requirement, no. of parameters, flops etc.
+Home-page: https://github.com/Mr-TalhaIlyas/Tensorflow-Keras-Model-Profiler
+Author: Talha Ilyas
+Author-email: mr.talhailyas@gmail.com
+License: UNKNOWN
+Description: 
+        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" /> [![Generic badge](https://img.shields.io/badge/Version-1.1.8-<COLOR>.svg)](https://shields.io/) [![Downloads](https://pepy.tech/badge/model-profiler)](https://pepy.tech/project/model-profiler)
+        
+        # Tensorflow/ Keras Model Profiler
+        
+        Gives you some basic but important information about your `tf` or `keras` model like,
+        
+        * Model Parameters
+        * Model memory requirement on GPU
+        * Memory required to store parameters `model weights`.
+        * GPU availability and GPU IDs if available
+        
+        #### Version 1.1.8 fixes problems with custom sequential models and includes other minor improvements.
+        
+        ## Dependencies
+        
+        ```
+        python >= 3.6
+        numpy 
+        tabulate
+        tensorflow >= 2.0.0
+        keras >= 2.2.4
+        ```
+        Built and tested on `tensorflow >= 2.3.1`
+        
+        ## Installation 
+        
+        using pip.
+        ```
+        pip install model_profiler
+        ```
+        
+        ## Usage
+        
+        Firs load any model built using keras or tensorflow. Here for simplicity we will load model from kera applications.
+        
+        ```python
+        from tensorflow.keras.applications import EfficientNetB3
+        
+        model = EfficientNetB3(include_top=True)
+        
+        ```
+        
+        Now after installing `model_profiler` run
+        
+        ```python
+        from model_profiler import model_profiler
+        
+        Batch_size = 128
+        profile = model_profiler(model, Batch_size)
+        
+        print(profile)
+        ```
+        `Batch_size` have effect on `model` memory usage so GPU memory usage need `batch_size`, it's default value if `1`.
+        
+        ### Output
+        
+        ```
+        | Model Profile                    | Value         | Unit    |
+        |----------------------------------|---------------|---------|
+        | Selected GPUs                    | ['0', '1']    | GPU IDs |
+        | No. of FLOPs                     | 1.5651        | BFLOPs  |
+        | GPU Memory Requirement           | 41.7385       | GB      |
+        | Model Parameters                 | 12.3205       | Million |
+        | Memory Required by Model Weights | 46.9991       | MB      |
+        ```
+        ## Using Custom Models
+        you can also built your own models on top of `keras.application` a simple example is given below. The usage is almost same the only difference is that for better calculation of `FLOPs`, it's better to 
+        sepcify the `input_shape` argument. Simple example below.
+        
+        ```python
+        from tensorflow.keras.applications import EfficientNetB3
+        from tensorflow.keras.models import Sequential
+        from tensorflow.keras.layers import Dense, Dropout
+        from profiler import model_profiler
+        
+        
+        custom_model = Sequential()
+        custom_model.add(EfficientNetB3(weights='imagenet', include_top=False,
+                                        input_shape=(296,256,3), pooling='avg'))
+        
+        # build you custom layers on top
+        custom_model.add(Dropout(0.50))
+        custom_model.add(Dense(1000, activation='softmax'))
+        
+        
+        profile = model_profiler(custom_model, Batch_size)
+        
+        ```
+        ### Output
+        
+        ```
+        | Model Profile                    | Value         | Unit    |
+        |----------------------------------|---------------|---------|
+        | Selected GPUs                    | None Detected | GPU IDs |
+        | No. of FLOPs                     | 1.2868        | BFLOPs  |
+        | GPU Memory Requirement           | 34.8656       | GB      |
+        | Model Parameters                 | 10.7989       | Million |
+        | Memory Required by Model Weights | 41.1945       | MB      |
+        ```
+        
+        
+        ## Units 
+        
+        Default units for the prfiler are
+        
+        ```
+        # in order 
+        use_units = ['GPU IDs', 'BFLOPs', 'GB', 'Million', 'MB']
+        
+        ```
+        You can change units by changing the list entry in appropriate location. For example if you want to get `model` FLOPs in million just change the list as follows.
+        
+        ```
+        # keep order 
+        use_units = ['GPU IDs', 'MFLOPs', 'GB', 'Million', 'MB']
+        ```
+        ### Availabel units are
+        ```
+            'GB':memory unit gega-byte
+            'MB': memory unit mega-byte
+            'MFLOPs':  FLOPs unit million-flops
+            'BFLOPs':  FLOPs unit billion-flops
+            'Million': paprmeter count unit millions
+            'Billion': paprmeter count unit billions
+        
+        ```
+        ## More Examples
+        
+        For further details and more examples visit my [github](https://github.com/Mr-TalhaIlyas/Tensorflow-Keras-Model-Profiler)
+        
+Keywords: python,model_profile,gpu memory usage,model flops,model parameters,gpu availabilitymdoel memory requirement,weights memory requirement
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

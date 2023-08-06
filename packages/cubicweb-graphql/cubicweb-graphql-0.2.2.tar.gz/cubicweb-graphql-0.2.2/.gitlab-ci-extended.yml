@@ -1,0 +1,10 @@
+---
+# follow this doc to extend the already existing jobs:
+# https://docs.gitlab.com/ee/ci/yaml/includes.html#overriding-external-template-values
+
+# as a reminder the existing jobs are located here:
+# https://forge.extranet.logilab.fr/open-source/gitlab-templates/
+
+# or simply add more jobs here if you need them (use the already existing stages)
+
+# /!\ remember to uncomment the include in the .gitlab-ci.yml /!\

@@ -1,0 +1,17 @@
+cubicweb-graphql (0.2.2-1) UNRELEASED; urgency=low
+
+  * Fix upstream release.
+
+ -- Aurelien Lubert <aurelien.lubert@logilab.fr>  Thu, 15 Jul 2021 15:10:42 +0200
+
+cubicweb-graphql (0.2.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Nicola Spanti <nspanti@logilab.fr>  Tue, 01 Jun 2021 11:52:33 +0200
+
+cubicweb-graphql (0.1.0-1) UNRELEASED; urgency=low
+
+  * initial release
+
+ -- LOGILAB S.A. (Paris, FRANCE) <contact@logilab.fr>  Thu, 21 Jun 2018 10:36:00 +0000

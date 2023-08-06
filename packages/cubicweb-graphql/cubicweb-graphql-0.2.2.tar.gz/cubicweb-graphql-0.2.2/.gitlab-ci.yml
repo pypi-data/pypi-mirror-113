@@ -1,0 +1,27 @@
+---
+default:
+  image: python:3.7
+
+include:
+  # uncomment and uses to customize/extend the configuration here if needed
+  # (it needs to be at the same level than "- project")
+  # - ".gitlab-ci-extended.yml"
+  - project: "open-source/gitlab-ci-templates"
+    ref: "branch/default"
+    file:
+      - "templates/no-duplicated-ci-pipelines.yml"  # use workflow to avoid duplicated pipelines
+      - "templates/lint/flake8.yml"
+      - "templates/lint/black.yml"
+      - "templates/lint/check-manifest.yml"  # will do the equivalent of 'tox -e check-manifest'
+      - "templates/tests/py27.yml"  # will do the equivalent of 'tox -e py27'
+      - "templates/tests/py3.yml"  # will do the equivalent of 'tox -e py3'
+      - "templates/upload-to-pypi.yml"  # on a new mercurial tag (expected to be done with release-new), will push a release on pypi
+
+stages:
+  - deps
+  - lint
+  - tests
+  - release
+  - publish
+  - deploy
+

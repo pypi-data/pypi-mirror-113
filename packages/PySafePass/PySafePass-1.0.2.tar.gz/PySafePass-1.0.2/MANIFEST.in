@@ -1,0 +1,4 @@
+include safepass/UI/*
+include safepass/db/*
+include safepass/logs/*
+include LISENSE.md

@@ -1,0 +1,7 @@
+clize>=3.0
+
+[test]
+pytest>=5.0
+pytest-cov
+coverage
+lenses

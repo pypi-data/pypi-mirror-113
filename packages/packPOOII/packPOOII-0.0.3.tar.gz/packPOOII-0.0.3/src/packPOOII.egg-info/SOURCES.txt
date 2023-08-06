@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/packPOOII.egg-info/PKG-INFO
+src/packPOOII.egg-info/SOURCES.txt
+src/packPOOII.egg-info/dependency_links.txt
+src/packPOOII.egg-info/top_level.txt

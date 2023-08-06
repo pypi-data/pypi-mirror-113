@@ -1,0 +1,2 @@
+include libimgsmlr/imgsmlr.c
+include pypi_readme.rst

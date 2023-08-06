@@ -1,0 +1,16 @@
+README.md
+setup.py
+bigotis/__init__.py
+bigotis/modeling_utils.py
+bigotis/models/__init__.py
+bigotis/models/taming/__init__.py
+bigotis/models/taming/modeling_taming.py
+forks/__init__.py
+forks/taming_transformers/__init__.py
+forks/taming_transformers/main.py
+forks/taming_transformers/setup.py
+hugging_gan_test.egg-info/PKG-INFO
+hugging_gan_test.egg-info/SOURCES.txt
+hugging_gan_test.egg-info/dependency_links.txt
+hugging_gan_test.egg-info/requires.txt
+hugging_gan_test.egg-info/top_level.txt

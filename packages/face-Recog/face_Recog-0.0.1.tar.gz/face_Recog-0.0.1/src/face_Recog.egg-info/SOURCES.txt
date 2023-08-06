@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/face_Recog.egg-info/PKG-INFO
+src/face_Recog.egg-info/SOURCES.txt
+src/face_Recog.egg-info/dependency_links.txt
+src/face_Recog.egg-info/top_level.txt

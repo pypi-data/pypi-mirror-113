@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PySafePass
+Version: 1.0.0
+Summary: SafePass is an Open Source Password Manager.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: pyqt5
+Requires-Dist: pyperclip
+Requires-Dist: cryptography
+
+SafePass is an Open Source Password Manager which stores usernames, passwords and websites with multiple user option. User can create multiple users and store their information securely from other SafePass users. Users can save and fetch passwords along with other operations using SafePass Terminal. SafePass also provides user to generate random passwords.
+
+

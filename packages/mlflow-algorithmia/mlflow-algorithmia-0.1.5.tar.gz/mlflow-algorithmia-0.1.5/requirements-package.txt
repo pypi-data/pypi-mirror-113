@@ -1,0 +1,6 @@
+mlflow>=1.13.0
+algorithmia>=1.7.2
+requests
+ruamel.yaml
+gitpython
+jinja2

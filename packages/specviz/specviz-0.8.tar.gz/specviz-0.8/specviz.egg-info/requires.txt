@@ -1,0 +1,4 @@
+
+[docs]
+sphinx-astropy
+sphinx-rtd-theme

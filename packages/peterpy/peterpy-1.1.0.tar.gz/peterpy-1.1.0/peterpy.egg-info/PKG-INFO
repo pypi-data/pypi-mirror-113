@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: peterpy
+Version: 1.1.0
+Summary: Print Elapsed TimE Running a piece of Python code 
+Home-page: https://github.com/javiribera/peterpy
+Author: Javier Ribera
+Author-email: javiribera@gmail.com
+License: GPLv3.0
+Download-URL: https://github.com/javiribera/peterpy/archive/1.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5, <=3.9

@@ -1,0 +1,7 @@
+munch
+python-dotenv
+ruamel.yaml
+
+[test]
+mypy
+pylint

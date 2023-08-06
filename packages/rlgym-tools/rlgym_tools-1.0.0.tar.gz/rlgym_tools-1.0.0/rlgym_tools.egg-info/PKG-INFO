@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rlgym-tools
+Version: 1.0.0
+Summary: Extra tools for RLGym, like SB3 compatibility
+Home-page: https://rlgym.github.io
+Author: Rolv-Arild Braaten, Lucas Emery and Matthew Allen
+License: Apache 2.0
+Description: # rlgym-tools
+        Extra tools for RLGym, like sb3 compatibility.
+        
+        Check out RLGym's wiki for more info: https://rlgym.github.io/
+        
+Keywords: rocket-league,gym,reinforcement-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

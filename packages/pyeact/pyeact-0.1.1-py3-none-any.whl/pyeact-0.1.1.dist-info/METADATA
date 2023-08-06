@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyeact
+Version: 0.1.1
+Summary: Analog of react writed of python full native code without transcrypt
+Home-page: https://github.com/TheEnderOfficial/Pyeact
+Author: Ender
+Author-email: enderteamyt.official@gmail.com
+License: MIT
+Keywords: react python python-3 html css js
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: beautifulsoup4
+Requires-Dist: colorama
+Requires-Dist: flask
+Requires-Dist: lxml
+Requires-Dist: waitress
+
+UNKNOWN
+
+

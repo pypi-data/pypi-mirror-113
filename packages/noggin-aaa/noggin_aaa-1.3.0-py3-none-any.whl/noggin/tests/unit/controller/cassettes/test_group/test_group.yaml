@@ -1,0 +1,4208 @@
+interactions:
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:55 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=jG%2bm%2b77MGLzSMZ3Os7mNI66XSg2xkTRsCj1yTCTVf6w9%2baFQEG%2fVGUKv5rvDuqDAMbWErKzMBFvtWc59Vjpqw3y2BXFra8HxPuoA6vuVpo8B4FHCxKbuFP0EOmTOsgAFxw1sZXsD%2fEATtjZSKm4FhjHxUwJZxVGYn1j1jHLLTvJuTcOcCHiMUPwgpsj3iPZV;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=jG%2bm%2b77MGLzSMZ3Os7mNI66XSg2xkTRsCj1yTCTVf6w9%2baFQEG%2fVGUKv5rvDuqDAMbWErKzMBFvtWc59Vjpqw3y2BXFra8HxPuoA6vuVpo8B4FHCxKbuFP0EOmTOsgAFxw1sZXsD%2fEATtjZSKm4FhjHxUwJZxVGYn1j1jHLLTvJuTcOcCHiMUPwgpsj3iPZV
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_add", "params": [["dummy"], {"givenname": "Dummy", "sn":
+      "User", "cn": "Dummy User", "loginshell": "/bin/bash", "mail": "dummy@example.com",
+      "userpassword": "dummy_password", "random": false, "noprivate": false, "all":
+      true, "raw": false, "no_members": false, "fascreationtime": "2021-05-14T18:15:55Z",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '341'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=jG%2bm%2b77MGLzSMZ3Os7mNI66XSg2xkTRsCj1yTCTVf6w9%2baFQEG%2fVGUKv5rvDuqDAMbWErKzMBFvtWc59Vjpqw3y2BXFra8HxPuoA6vuVpo8B4FHCxKbuFP0EOmTOsgAFxw1sZXsD%2fEATtjZSKm4FhjHxUwJZxVGYn1j1jHLLTvJuTcOcCHiMUPwgpsj3iPZV
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5RU227bMAz9lcDPTWK7di8DCizbiuwCNAWa9qHrEMgSY2uRJU2XNFnRf58oO8kK
+        FCj6FPqQPKIOj/KUGLBeuOTD4On/kMrw8zP54tt2O7i1YJJfR4OEcasF2UrSwmtpLrnjRNgudxux
+        GqiyrxWr6jdQRwWxXdopnQRYg7FKYqRMTST/SxxXkogDziW4kHsJeKTFdmX5hlCqvHT4vTKVNlxS
+        rokgftNDjtMVOK0Ep9seDQXdRP2Htc2Oc0nsLgyJG9tMjfJ6trz21Q/YWsRb0DPDay4vpTPbTgxN
+        vOR/PHAW73fC8tPTs5QOqwLSYZZBNayggGGZl0WanuQ5ycvYiCOH4x+VYbDR3EQBkOIpWSwYceB4
+        C4tFQJI8zbO0zIrsLCvL8j557vuDqE4/MtoQWcP7WmHjDAmlZNdWEQsnRdc0mXyv1rqsaXu+Zp/P
+        m/tppqvVp9k8ZV9vbgt/d3k3v5tMLjq2IEpLJKmBQVQFVaDygqEPjkJQo4wWo35h9ojRC6nqoCNG
+        DqyLiggVENuAEJFjXHE5DmM1MdkS3sGR9yNsSKsFjKhq92ruDLD3bVd6NZtOv12N5pc381hqO8/v
+        HdqoFhg3wROqn36M0Dh2d+bma5AvX0PEg2Oogbg4VPx9G6BEKsnpm+PWnEnfVmFYrMmO8+M8LY9P
+        05j0byQPvBHR4emDWQPiy/CCAa9P7GJnxAA743foCraOVAesBTxJLRdxo5Ea3R8Ybfe3gcLiqYfd
+        x+Qbq38OrWsiPIrQz4pbCgGJ+0gmjAEbINXgoSt4SGIXGKPw5tILgU+RHeK9GZCAsJbLF8LikWGy
+        7sUlxehslKXJ8z8AAAD//wMAjVVm2yYFAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=jG%2bm%2b77MGLzSMZ3Os7mNI66XSg2xkTRsCj1yTCTVf6w9%2baFQEG%2fVGUKv5rvDuqDAMbWErKzMBFvtWc59Vjpqw3y2BXFra8HxPuoA6vuVpo8B4FHCxKbuFP0EOmTOsgAFxw1sZXsD%2fEATtjZSKm4FhjHxUwJZxVGYn1j1jHLLTvJuTcOcCHiMUPwgpsj3iPZV
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=dummy&new_password=dummy_password&old_password=dummy_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/change_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0TOUQqAIAwG4PdO4Qma9Tw8Q9AJTC0D02hGdPtmCT2MwfbtZ+jzFlSD3mnLLa85
+        ONVLKcbTGEeE8I0ahEqmZO9y0KlBE13psMJ4HRcn6DuZz8C4Y7NzUT5SXH57aaretgh1y+nFQs2G
+        96kHAAD//wMAiLUc4ZsAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-IPA-Pwchange-Result:
+      - ok
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=dummy&password=dummy_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '34'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=OplVddOlO%2faGWAH3euzkty2bM1YhSCfaQ%2fE0F8zSqMWqLx7jNnJutsgmd%2fwO%2bT85GF8QoLtUaPdf%2bXlKFU7jtWmItWtAjFrxhaHT0ZZ2k%2bNUhtuAyWnXoCEfRqDS2nfOlL%2fdNVK9OMg7an0iRMVWY%2fhtyuoWrwQRRSSytYXKhudp6WdgyBMYO8RNlfs1W2GS;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=OplVddOlO%2faGWAH3euzkty2bM1YhSCfaQ%2fE0F8zSqMWqLx7jNnJutsgmd%2fwO%2bT85GF8QoLtUaPdf%2bXlKFU7jtWmItWtAjFrxhaHT0ZZ2k%2bNUhtuAyWnXoCEfRqDS2nfOlL%2fdNVK9OMg7an0iRMVWY%2fhtyuoWrwQRRSSytYXKhudp6WdgyBMYO8RNlfs1W2GS
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_add", "params": [["dummy-group"], {"description": "The
+      dummy-group group", "nonposix": false, "external": false, "all": true, "raw":
+      false, "no_members": false, "fasgroup": true, "fasurl": "http://dummy-group.example.com",
+      "fasmailinglist": "dummy-group@lists.example.com", "fasircchannel": "irc:///freenode.net/#dummy-group",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '366'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=OplVddOlO%2faGWAH3euzkty2bM1YhSCfaQ%2fE0F8zSqMWqLx7jNnJutsgmd%2fwO%2bT85GF8QoLtUaPdf%2bXlKFU7jtWmItWtAjFrxhaHT0ZZ2k%2bNUhtuAyWnXoCEfRqDS2nfOlL%2fdNVK9OMg7an0iRMVWY%2fhtyuoWrwQRRSSytYXKhudp6WdgyBMYO8RNlfs1W2GS
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2RRy27CMBD8lci9kicJVEhI9FChXuih3AoHx16CKz9SPxAI8e+1HYmm9DazO7s7
+        u3tFGozjFi2S6xiyHjvJvh0w6vknmlFSlbSu07aGIi1LaFNcz+dpUzV1UcyqClcN2k8SpNovIJZw
+        bEwstKpHPtxp5Xp1kFiACVyCsUBjNNAwzoAe86FRIL0y7HxPHbAZ8H4gTvM46Ghtv8hz6oS4pFGR
+        wRmLnkNGlIhqIqNyJInhjlHpRAs6ZstpNa2KZjovY5KCIZr1lqmheHuEZNQg+eOFaUKOWEoYLHnq
+        HeUHDSAVhUyCzZ8ep/sygRlnsuPM2EeDqxA0/za5H2GRWO0g+Az2/IbLUfHE0whMQJgQ5aQ1E0qW
+        UnUdkwFZ/wh08w1OmDsIPcYGfdx4ivUlZF4oBTpsnOzGuh2KLUBrFY4oHefhifQX95pJ4r8aDoMw
+        FUyuNu/r9dsm275+bMOcE2gzHBnV2XNWFuj2AwAA//8DAPJbvCWdAgAA
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:56 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=OplVddOlO%2faGWAH3euzkty2bM1YhSCfaQ%2fE0F8zSqMWqLx7jNnJutsgmd%2fwO%2bT85GF8QoLtUaPdf%2bXlKFU7jtWmItWtAjFrxhaHT0ZZ2k%2bNUhtuAyWnXoCEfRqDS2nfOlL%2fdNVK9OMg7an0iRMVWY%2fhtyuoWrwQRRSSytYXKhudp6WdgyBMYO8RNlfs1W2GS
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=nH0okhyggX0V3BPlgwrwWKR%2bhD5%2fgsC4khipgBUn%2f7fsNxgYEPgE1YnO5rMHdhnqqf9TU2vFj53%2fiIQxk9H7KaaV8qybW3IBdOen1mk3vNsEYogPW6z8z9pL5nDlkBJzVgtGDcq1xhyDHKDB6MTCfvu1z0Sk%2bk94bbnJLQwx3q%2bA1lk4PVsNqR8FM4gVATlI;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=nH0okhyggX0V3BPlgwrwWKR%2bhD5%2fgsC4khipgBUn%2f7fsNxgYEPgE1YnO5rMHdhnqqf9TU2vFj53%2fiIQxk9H7KaaV8qybW3IBdOen1mk3vNsEYogPW6z8z9pL5nDlkBJzVgtGDcq1xhyDHKDB6MTCfvu1z0Sk%2bk94bbnJLQwx3q%2bA1lk4PVsNqR8FM4gVATlI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_add_member", "params": [["dummy-group"], {"all": true,
+      "raw": false, "no_members": false, "user": "dummy", "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '146'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=nH0okhyggX0V3BPlgwrwWKR%2bhD5%2fgsC4khipgBUn%2f7fsNxgYEPgE1YnO5rMHdhnqqf9TU2vFj53%2fiIQxk9H7KaaV8qybW3IBdOen1mk3vNsEYogPW6z8z9pL5nDlkBJzVgtGDcq1xhyDHKDB6MTCfvu1z0Sk%2bk94bbnJLQwx3q%2bA1lk4PVsNqR8FM4gVATlI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2RSy07CQBT9FTJuaWlLAUNi4sYQN7iQHSFmmLmUa9qZOg+jIfy7d2ZEK+7Ouc9z
+        HydmwPrWseXoxITu+hYcSGLleMQOHNtITqyDbg8mQm8j2O4oojHa9xdC9ncUcKEo9TsYgxJ+Ms5n
+        sg8aYs+9wjcPGLps2VyKqpR1ne1rKLKyhH3G68Uim1WzuijmVcWrGQu19f4VhBMttzYmOt2zixx9
+        ULwDG7gCS9MkkUERtSMpQ54KBdJrix8/rgO3Ce8S8aaNjY7O9cvJRPqu+8xiRA4fPKwtp+3FaKFi
+        5CAkmhuUyn8vccvKaTWtitl0UUanBCsM9g51St4cYTQoMPqjBY0QR64UJElESdHkYACUlpArcJOb
+        6+6U1tE1UTUtWnct8D4Y7b9J0tFfLudLGUlvkEmT3g2KjIlGYAPiQmivnB1Lcad006AKyNFBWPwC
+        +gwdqirftvFZfnFvUAm6TRiPcdmhul8/rVaP63zz8LwJ16G/smlVrM5v87Jg5y8AAAD//wMABxce
+        BMkCAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=nH0okhyggX0V3BPlgwrwWKR%2bhD5%2fgsC4khipgBUn%2f7fsNxgYEPgE1YnO5rMHdhnqqf9TU2vFj53%2fiIQxk9H7KaaV8qybW3IBdOen1mk3vNsEYogPW6z8z9pL5nDlkBJzVgtGDcq1xhyDHKDB6MTCfvu1z0Sk%2bk94bbnJLQwx3q%2bA1lk4PVsNqR8FM4gVATlI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=sHIiGWR14qaRP8A4TlJp3IS03Lrlz%2b8fHGXCIrtFETI%2fqcO5bYJwIXMFAkLH42OzIVSXyRTnPK0ouSbUGAPTZNCtQnZ2eOqhmCc9O8%2beBrC7jTaiuVZPADDgu2RRnbA3Hb0qlX4Zz9M6bUNupT64NCMK1LAGRVI%2bF2tgFeU%2bhzORuh4jSwtQv9NrBXW6c1%2f4;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=sHIiGWR14qaRP8A4TlJp3IS03Lrlz%2b8fHGXCIrtFETI%2fqcO5bYJwIXMFAkLH42OzIVSXyRTnPK0ouSbUGAPTZNCtQnZ2eOqhmCc9O8%2beBrC7jTaiuVZPADDgu2RRnbA3Hb0qlX4Zz9M6bUNupT64NCMK1LAGRVI%2bF2tgFeU%2bhzORuh4jSwtQv9NrBXW6c1%2f4
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_add_member_manager", "params": [["dummy-group"], {"all":
+      true, "raw": false, "no_members": false, "user": "dummy", "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '154'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=sHIiGWR14qaRP8A4TlJp3IS03Lrlz%2b8fHGXCIrtFETI%2fqcO5bYJwIXMFAkLH42OzIVSXyRTnPK0ouSbUGAPTZNCtQnZ2eOqhmCc9O8%2beBrC7jTaiuVZPADDgu2RRnbA3Hb0qlX4Zz9M6bUNupT64NCMK1LAGRVI%2bF2tgFeU%2bhzORuh4jSwtQv9NrBXW6c1%2f4
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2xSy27CMBD8FeReSUhCgAoJiUuFeqGHckOoMvYSXMXr1I+KCvHv9aO0Ke1txjv7
+        HJ+JBuNaS+aDM2FKdi1Y4J6VwwE5UNFGciYS5B60pEgb0PHFmQi2Oy9stHJdJJeLp72SoqMOxZsD
+        EepsyZSzquR1ne1rKLKyhH1G69ksm1STuiimVUWrCQkl1f4VmGUtNSYmWtWRayd1QCrBBI5g/Lyp
+        v6ehnZ+rz1OhQDplxOk7dKAm4V0iTrex0dHabj4acSflRxYVOZxoOEzu7xPVDKOyJ4nPjeDowpli
+        tBxX46qYjGdlDHIwTIvOCpWSN0cY9AoMfs0iNGNHighpJE/9RKODBkDFIUewo7vb7j5Ner8ENq0w
+        9nbAZXg0fzZJtr5cvUwZvciX4f8JeNjDn2LR6zL0NAITEGVMObRmyNkCVdMIDMh6x0j8JqC1ClXR
+        tW3wiv/gTgtk3rywP6FcClyun1arx3W+eXjeBPveQZt0S1Ln93lZkMsnAAAA//8DAKbuah3MAgAA
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=sHIiGWR14qaRP8A4TlJp3IS03Lrlz%2b8fHGXCIrtFETI%2fqcO5bYJwIXMFAkLH42OzIVSXyRTnPK0ouSbUGAPTZNCtQnZ2eOqhmCc9O8%2beBrC7jTaiuVZPADDgu2RRnbA3Hb0qlX4Zz9M6bUNupT64NCMK1LAGRVI%2bF2tgFeU%2bhzORuh4jSwtQv9NrBXW6c1%2f4
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:57 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=880QdZAx%2bkBJmxxm5mOF9HlCoxLtomkrmeRQoyY2pHoa6Cq6a28Y4l4jwd4iKgk4rQiy2321cKOx1%2beWXO0tlNVtFZBx3V%2bxK8%2bYCoT9pGLLNlFlvQJ%2fyfCCTtNTjLvqMT3nDndzP8Ng1KZRUGFalRY5OtLu9vxwO62ymt43YTuYBo4AR949kJhLpwFCb%2fqx;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=880QdZAx%2bkBJmxxm5mOF9HlCoxLtomkrmeRQoyY2pHoa6Cq6a28Y4l4jwd4iKgk4rQiy2321cKOx1%2beWXO0tlNVtFZBx3V%2bxK8%2bYCoT9pGLLNlFlvQJ%2fyfCCTtNTjLvqMT3nDndzP8Ng1KZRUGFalRY5OtLu9vxwO62ymt43YTuYBo4AR949kJhLpwFCb%2fqx
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_add", "params": [["testuser1"], {"givenname": "Testuser1",
+      "sn": "User", "cn": "Testuser1 User", "loginshell": "/bin/bash", "mail": "testuser1@example.com",
+      "userpassword": "testuser1_password", "random": false, "noprivate": false, "all":
+      true, "raw": false, "no_members": false, "fascreationtime": "2021-05-14T18:15:58Z",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '361'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=880QdZAx%2bkBJmxxm5mOF9HlCoxLtomkrmeRQoyY2pHoa6Cq6a28Y4l4jwd4iKgk4rQiy2321cKOx1%2beWXO0tlNVtFZBx3V%2bxK8%2bYCoT9pGLLNlFlvQJ%2fyfCCTtNTjLvqMT3nDndzP8Ng1KZRUGFalRY5OtLu9vxwO62ymt43YTuYBo4AR949kJhLpwFCb%2fqx
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5RUW2/aMBT+KyjPBZKQQJlUaWyq2EUqk0r70HVCjn1IPBzb84VCq/732U4CRVO3
+        7gWOv3Px8fedk6dIgbbMRO96Ty9NzN3f92gJ2lgNKunduN/ox1kvIlRLhvYc1fBaCOXUUMR0478J
+        WAlY6NcSRPETsMEM6SbECBk5WILSgntLqBJx+ogMFRyxI045GOc7BXzxkC403SGMheXGnzeqkIpy
+        TCViyO5ayFC8ASMFo3jfoi6g6ag9aF11NddId6ZzXOtqroSVi/U3W3yFvfZ4DXKhaEn5JTdq3xAi
+        keX0lwVKwvvGMEmy6QT3iwzifpJA0Z+OsnE/T/MsjsdpitI8JPqW3fUPQhHYSaoCAb7EU7RaEWTA
+        0BpWK4dEaZwmcZ5kyXmS55O76LnNd6Qa+UBwhXgJ/5cKO6OQC0VdWoE0jLMmaTb7QrYyL3E93ZKP
+        0+punshi82GxjMmn65vM3l7eLm9ns4ummiOlRhyVQCCw4lnA/MJ0s3DmDqWnUnurFU2fEXzBRem4
+        9JYPbmaJboH/OYCtj3BbF04i70tG6SiN89EkDU7b8m9OUuzfUnSzCIdRZcJ1oytgLODDgvKho6UK
+        zhpRdnrBe9ihWjIYYFEfFO2G8PCEY/jVYj7/fDVYXl4vQ7ibN6wgyO71eoN+561+laiBUOWmWLR8
+        Dz00PH27awcjLjjFb2pHuk8EqC14Gtduw8FfhPSqG1IHG2U7dAN7g4ojVoNnWaxXQelwld8MV1E3
+        nxbPtZfjdC5CwD/G4tmlbxGz/gEv5PUC2rpGgYFoRgiQnvf07o9B91HIBqWEnwBuGfMrS472QTBf
+        BJGa8hNi/NWuw2Yzo2xwPkji6Pk3AAAA//8DAH25EfNaBQAA
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=880QdZAx%2bkBJmxxm5mOF9HlCoxLtomkrmeRQoyY2pHoa6Cq6a28Y4l4jwd4iKgk4rQiy2321cKOx1%2beWXO0tlNVtFZBx3V%2bxK8%2bYCoT9pGLLNlFlvQJ%2fyfCCTtNTjLvqMT3nDndzP8Ng1KZRUGFalRY5OtLu9vxwO62ymt43YTuYBo4AR949kJhLpwFCb%2fqx
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=testuser1&new_password=testuser1_password&old_password=testuser1_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '78'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/change_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0TOUQqAIAwG4PdO4Qma9Tw8Q9AJTC0D02hGdPtmCT2MwfbtZ+jzFlSD3mnLLa85
+        ONVLKcbTGEeE8I0ahEqmZO9y0KlBE13psMJ4HRcn6DuZz8C4Y7NzUT5SXH57aaretgh1y+nFQs2G
+        96kHAAD//wMAiLUc4ZsAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-IPA-Pwchange-Result:
+      - ok
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=m37%2bMpexf384AUdmewhzW3be0V3yN8LT3ZzsWpz%2b6NDQ%2fu8w9eP2ec%2fiE9tkOZzxvbMuGBlQLjpwRca816lmg0EFFochIB%2fBga30m3%2fHylQHmcFRuaaiRgnntV3UG10OZ0ueqt9nWdHhFfdAxQdQlDwFBaM6R57HmJkUiCEALQ%2bdpe%2bygfUPjGrFJpORq4Rg;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=m37%2bMpexf384AUdmewhzW3be0V3yN8LT3ZzsWpz%2b6NDQ%2fu8w9eP2ec%2fiE9tkOZzxvbMuGBlQLjpwRca816lmg0EFFochIB%2fBga30m3%2fHylQHmcFRuaaiRgnntV3UG10OZ0ueqt9nWdHhFfdAxQdQlDwFBaM6R57HmJkUiCEALQ%2bdpe%2bygfUPjGrFJpORq4Rg
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_add", "params": [["testuser2"], {"givenname": "Testuser2",
+      "sn": "User", "cn": "Testuser2 User", "loginshell": "/bin/bash", "mail": "testuser2@example.com",
+      "userpassword": "testuser2_password", "random": false, "noprivate": false, "all":
+      true, "raw": false, "no_members": false, "fascreationtime": "2021-05-14T18:15:58Z",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '361'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=m37%2bMpexf384AUdmewhzW3be0V3yN8LT3ZzsWpz%2b6NDQ%2fu8w9eP2ec%2fiE9tkOZzxvbMuGBlQLjpwRca816lmg0EFFochIB%2fBga30m3%2fHylQHmcFRuaaiRgnntV3UG10OZ0ueqt9nWdHhFfdAxQdQlDwFBaM6R57HmJkUiCEALQ%2bdpe%2bygfUPjGrFJpORq4Rg
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5RU227aQBD9FeTnBGxjJ6RSpNIqohcpVILkIU2FxruD2bLe3e6FQKP8e3d9gdAq
+        bfoC4zNnxjtnz/gx0mgct9Gb3uPzkAj/9zWao7HOoE57N/43+nbSiygzisNOQIUvUZhglgE3Tf6m
+        xkok0rxUIIvvSCzhYBqKlSrysEJtpAiR1CUI9hMskwL4AWcCrc8dA6F5XS4N2wIh0gkbnte6UJoJ
+        whRwcNsWsoys0SrJGdm1qCc0J2ofjFl1PZdgutAnZmY10dKp6fKLKz7jzgS8QjXVrGTiSli9awRR
+        4AT74ZDRer4zLOh5NiKnRYbxaZJg4aOUnuZpnsXxWZpCmteF4cj+9Q9SU9wqpmsBQovHaLGgYNGy
+        ChcLj0RpnCZxnmTJKMnz87voqa33olr1QMkKRIn/V4pbq8FToSsrwOBZ1hSNx5/oRuUlqS429P3F
+        6m6SqGL9bjqP6YfZTeZur27nt+PxZdPNi1KBgBIp1qoEFYi4tJ0XTvxDGaQ0IWovzZxQcilk6bUM
+        USB3qhAQUjACfO/Dfau319PJ5ON1f341m+9F7O79FfQKGP+NgluoFMc+kVVjZkaFqwrvg8BLhukw
+        jfPh+bBNblD8uR51biUrpEx7a8lWhEGABvaI5f7W3rUeOi4xzb7uN4pLL5pZIW9GGRRMDPztreqk
+        NzHRWHspmOAVphi1plD+E4F6g+EIS7/hGGYCs+hM6mGrXYeucWehOGAVhqHkclHfdH2wsBm+o2k+
+        LWGIMOCxL2rCP2zx5Ms3wF0Y5pk0QRlXVVCLHY0pRdoLmd79gXQf1dWotQyCC8d5WFl6iPfuCU2A
+        VkwcmSa82p+w2cwo64/6SRw9/QIAAP//AwC+7BNtWgUAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=m37%2bMpexf384AUdmewhzW3be0V3yN8LT3ZzsWpz%2b6NDQ%2fu8w9eP2ec%2fiE9tkOZzxvbMuGBlQLjpwRca816lmg0EFFochIB%2fBga30m3%2fHylQHmcFRuaaiRgnntV3UG10OZ0ueqt9nWdHhFfdAxQdQlDwFBaM6R57HmJkUiCEALQ%2bdpe%2bygfUPjGrFJpORq4Rg
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=testuser2&new_password=testuser2_password&old_password=testuser2_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '78'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/change_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0TOUQqAIAwG4PdO4Qma9Tw8Q9AJTC0D02hGdPtmCT2MwfbtZ+jzFlSD3mnLLa85
+        ONVLKcbTGEeE8I0ahEqmZO9y0KlBE13psMJ4HRcn6DuZz8C4Y7NzUT5SXH57aaretgh1y+nFQs2G
+        96kHAAD//wMAiLUc4ZsAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:58 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-IPA-Pwchange-Result:
+      - ok
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=7YwSz%2bynLqFexOTfcKvIu82uQGoj9VoZb%2fNYZMGxcBQuT3Om%2fUkH615yNBWv3VrWwJoD0XmQ9%2fGsCDdCTQM0a%2fpmithUxl8tF6noWqG0SgUJKEc%2fInzIRkkOCtA99De07XeF9QqUESQEJGO4e4Cr1D5yrxORN7JsFlBKQ11BvuiV82IZ1fLZTw2CFegZM%2fO9;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=7YwSz%2bynLqFexOTfcKvIu82uQGoj9VoZb%2fNYZMGxcBQuT3Om%2fUkH615yNBWv3VrWwJoD0XmQ9%2fGsCDdCTQM0a%2fpmithUxl8tF6noWqG0SgUJKEc%2fInzIRkkOCtA99De07XeF9QqUESQEJGO4e4Cr1D5yrxORN7JsFlBKQ11BvuiV82IZ1fLZTw2CFegZM%2fO9
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_add", "params": [["testuser3"], {"givenname": "Testuser3",
+      "sn": "User", "cn": "Testuser3 User", "loginshell": "/bin/bash", "mail": "testuser3@example.com",
+      "userpassword": "testuser3_password", "random": false, "noprivate": false, "all":
+      true, "raw": false, "no_members": false, "fascreationtime": "2021-05-14T18:15:59Z",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '361'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=7YwSz%2bynLqFexOTfcKvIu82uQGoj9VoZb%2fNYZMGxcBQuT3Om%2fUkH615yNBWv3VrWwJoD0XmQ9%2fGsCDdCTQM0a%2fpmithUxl8tF6noWqG0SgUJKEc%2fInzIRkkOCtA99De07XeF9QqUESQEJGO4e4Cr1D5yrxORN7JsFlBKQ11BvuiV82IZ1fLZTw2CFegZM%2fO9
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5RU227aQBD9FeTnALaxE6gUqbSK6EUKlULykKZC693B3rK37oVCo/x7d9cYgqoo
+        6Ys9e2bm7PjMjB8TDcYxm7zrPT43sfCv78kCjHUG9Kh365/Jj7NeQqhRDO0E4vBSCBXUUsRM67+N
+        WA1YmpcSZPUTsMUMmTbESpV4WIE2UgRL6hoJ+gdZKgViR5wKsN53CgTymC4N3SKMpRM2nNe6UpoK
+        TBViyG33kKV4DVZJRvFuj/qAtqL9wZim41wh05necWOamZZOzVffXPUVdibgHNRc05qKK2H1rhVE
+        ISfoLweUxO87X6VjnOeoXxWQ9rMMqv7kArJ+mZdFmp57T17GxFCyv/631AS2iuooQKB4TJZLgixY
+        ymG59EiSp3mWllmRjbOyHN8nT/t8L6pVvwlukKjh/1JhazXyoahLq5CB86JNmk6/wEaVNeaTDfk4
+        ae5nmarWH+aLlHy6uS3c3dXd4m46vWzZvCgcCVQDgahKUAGLS9vNwpk/1EFKE6x908wZwZdC1l7L
+        YIXgqAqTHjENMBZ5hhUVQ19aE50c0RY+cL+HLeKKwQBLflC1G4TDHB/Dr+ez2efrweLqZhHDTbsL
+        h2ltJAdCtZ8Puf+SYYCGB4Z24OkGxL9bEn1+irCG2MzQhTd0ZXLsCkZCCorfVHpNiXC88oWHuGyU
+        j/K0HF0U0elecZ5yR1T5XwToDQTfym84BDmQWXZD6mGrXYeuYWdRdcQ4hNvkahk7HenDZnhG0/5a
+        gtDh5tO5iAGvjMWTT98g5oIgz2oO3XOco9inZEoIkF7w9B6OQQ9JzAatZVBCOMbCypKjfRiWQIII
+        p+JE6HC1r7DdzKQYjAdZmjz9BQAA//8DAO56TIJaBQAA
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=7YwSz%2bynLqFexOTfcKvIu82uQGoj9VoZb%2fNYZMGxcBQuT3Om%2fUkH615yNBWv3VrWwJoD0XmQ9%2fGsCDdCTQM0a%2fpmithUxl8tF6noWqG0SgUJKEc%2fInzIRkkOCtA99De07XeF9QqUESQEJGO4e4Cr1D5yrxORN7JsFlBKQ11BvuiV82IZ1fLZTw2CFegZM%2fO9
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=testuser3&new_password=testuser3_password&old_password=testuser3_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '78'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/change_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0TOUQqAIAwG4PdO4Qma9Tw8Q9AJTC0D02hGdPtmCT2MwfbtZ+jzFlSD3mnLLa85
+        ONVLKcbTGEeE8I0ahEqmZO9y0KlBE13psMJ4HRcn6DuZz8C4Y7NzUT5SXH57aaretgh1y+nFQs2G
+        96kHAAD//wMAiLUc4ZsAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-IPA-Pwchange-Result:
+      - ok
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=Zt2rs0FArBuTUV2pPDyDNaEa4QBj%2bEXw610V6P1Xa5xpcakkz63LohaK9NAkEEItfvdQo6ZGYa86RK%2foVyP8eL3%2f7bI%2bt46mik%2bTVeUDspVaL4gCSp6YyVpYEpi1Y9MMDIvcrn0sf3q6N2Ed3KqAInJat0D00gMf0PKxPTwahD0k1CPAbD3yPvlUX3SCnqJj;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=Zt2rs0FArBuTUV2pPDyDNaEa4QBj%2bEXw610V6P1Xa5xpcakkz63LohaK9NAkEEItfvdQo6ZGYa86RK%2foVyP8eL3%2f7bI%2bt46mik%2bTVeUDspVaL4gCSp6YyVpYEpi1Y9MMDIvcrn0sf3q6N2Ed3KqAInJat0D00gMf0PKxPTwahD0k1CPAbD3yPvlUX3SCnqJj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_add_member", "params": [["dummy-group"], {"all": true,
+      "raw": false, "no_members": false, "user": ["testuser1", "testuser2", "testuser3"],
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '178'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=Zt2rs0FArBuTUV2pPDyDNaEa4QBj%2bEXw610V6P1Xa5xpcakkz63LohaK9NAkEEItfvdQo6ZGYa86RK%2foVyP8eL3%2f7bI%2bt46mik%2bTVeUDspVaL4gCSp6YyVpYEpi1Y9MMDIvcrn0sf3q6N2Ed3KqAInJat0D00gMf0PKxPTwahD0k1CPAbD3yPvlUX3SCnqJj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA2xSy27bMBD8FYO9WrJejosAAXIJgl7SQ30zgoIm1/IW4lLhI0hh+N+7pKpEaHqb
+        Ifcxs7sX4cDHIYjb1UUoa8YBAmhm7XolThKHTC7CgDmCyzD6DA7PHNE7G8eZ8PsrKpgpavsKzqGG
+        94zrld8XDXGUkfAlAqYuB3GjVVPrriuOHVRFXcOxkN1uV2ybbVdVN00jm614zsq8YXFI/YA+5Fwd
+        jfldZEH36dGX8CaTn5Jt5SR7/AUqqEF6nzOCHcXswZ5IGvCJE3geweQs2WCNrH/Jp0KJjNbj2/sX
+        q5pw6qbBK4djQEu52/4Mq4XG1Udkj5ri3/EeRN02bVNt212dPxX9624eADqlzpIIhhzB9Haz2Zwc
+        AFkNJUHYfPlPWnRT/DmEkRMWEZ8GNi3957y+SUQyGnhE6bVekmZJ2kUBI0n2n+vkISV37PFuIWPN
+        NAOfkFTKRgp+rdUd2b5HSii1Efma+MJsqkpxGPLRfeDRISleV/IrpDZI90/fHx+/PZX7hx/7pJbv
+        00/7EV35tawrcf0DAAD//wMAecd2MhEDAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=Zt2rs0FArBuTUV2pPDyDNaEa4QBj%2bEXw610V6P1Xa5xpcakkz63LohaK9NAkEEItfvdQo6ZGYa86RK%2foVyP8eL3%2f7bI%2bt46mik%2bTVeUDspVaL4gCSp6YyVpYEpi1Y9MMDIvcrn0sf3q6N2Ed3KqAInJat0D00gMf0PKxPTwahD0k1CPAbD3yPvlUX3SCnqJj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:15:59 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=WXx1rpTv0K8BOaRGboUwrh%2b4lS4cBYl63X4XUPsFSoNd8nQHkOnzT2%2fV%2f9pcYMak6NJM7jXhpGRnyczk%2bv3FMAyj1FdJfJ%2fUoTGb2U2A24rf7bKG%2frmCZFGNe2vZ68XC7VwuPjp9msrGyH9cTypCYdXCNdy5iSYiSG1hjZFEpJDSS4Xc8zdVWwrunkcLXyqJ;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=WXx1rpTv0K8BOaRGboUwrh%2b4lS4cBYl63X4XUPsFSoNd8nQHkOnzT2%2fV%2f9pcYMak6NJM7jXhpGRnyczk%2bv3FMAyj1FdJfJ%2fUoTGb2U2A24rf7bKG%2frmCZFGNe2vZ68XC7VwuPjp9msrGyH9cTypCYdXCNdy5iSYiSG1hjZFEpJDSS4Xc8zdVWwrunkcLXyqJ
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_add", "params": [["testuser4"], {"givenname": "Testuser4",
+      "sn": "User", "cn": "Testuser4 User", "loginshell": "/bin/bash", "mail": "testuser4@example.com",
+      "userpassword": "testuser4_password", "random": false, "noprivate": false, "all":
+      true, "raw": false, "no_members": false, "fascreationtime": "2021-05-14T18:15:59Z",
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '361'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=WXx1rpTv0K8BOaRGboUwrh%2b4lS4cBYl63X4XUPsFSoNd8nQHkOnzT2%2fV%2f9pcYMak6NJM7jXhpGRnyczk%2bv3FMAyj1FdJfJ%2fUoTGb2U2A24rf7bKG%2frmCZFGNe2vZ68XC7VwuPjp9msrGyH9cTypCYdXCNdy5iSYiSG1hjZFEpJDSS4Xc8zdVWwrunkcLXyqJ
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5RU224aMRD9FbTPAXY3u0moFKm0iuhFCpUgeUhToVl7WFy8tusLgUb599peLkFR
+        2uYFxmcuHp8zs4+JRuO4Td51Hp+bRPi/78kUjXUGddG58b/Jj5NOQplRHDYCGnwthAlmGXDT+m8i
+        ViOR5rUEWf1EYgkH04ZYqRIPK9RGimBJXYNgv8EyKYAfcCbQet8xEIrHdGnYGgiRTthwXupKaSYI
+        U8DBrbeQZWSJVknOyGaL+oC2o+3BmMWu5hzMzvSOiVmMtHRqPP/mqq+4MQFvUI01q5m4ElZvWkIU
+        OMF+OWQ0vu9sPkjzlKbdqsC0m2VYdaE4P++WeVmk6VmeQ17GxNCyv/5BaoprxXQkIJR4TGYzChYt
+        a3A280iSp3mWllmRXWRlObhLnrb5nlSrHihZgKjxbam4thp8KOzSKjB4VrRJw+GX+UqVNWkGK/px
+        sLgbZapafhhPU/ppclO426vb6e1weNlW86Q0IKBGipGVwAIRl3Y3Cyf+UAcqTbC2opkTSi6FrD2X
+        wQrBkRUuPWIWyHms06+Y6PvWFtG5kA1Spr16cntPP0D9/VUxym2VeIEK11Re3+DLTvPTPC1Pz1st
+        GmD8OOc9rqFRHHtENu2QsxWKl5sRfX5yiMYoYGD+DUqYdhf321L/rUsvGwEhBSPA950cOr4ej0af
+        r3vTq8l0P2C7nfiPcOU/EahXGMib+w3HQDiY2W5IPWy126FL3FioDliDoWs5n0Wl41VhM3xF035a
+        wkODCMdzEQP+MRZPPn0F3IUHPBM1sOeaBuIkJENKkXaCp3N/CLpPYjZqLQOjwnEeVpYe7D1DoQjQ
+        hokjYsLVvsN2M5Oid9HL0uTpDwAAAP//AwDbM2iRWgUAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=WXx1rpTv0K8BOaRGboUwrh%2b4lS4cBYl63X4XUPsFSoNd8nQHkOnzT2%2fV%2f9pcYMak6NJM7jXhpGRnyczk%2bv3FMAyj1FdJfJ%2fUoTGb2U2A24rf7bKG%2frmCZFGNe2vZ68XC7VwuPjp9msrGyH9cTypCYdXCNdy5iSYiSG1hjZFEpJDSS4Xc8zdVWwrunkcLXyqJ
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=testuser4&new_password=testuser4_password&old_password=testuser4_password
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '78'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/change_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0TOUQqAIAwG4PdO4Qma9Tw8Q9AJTC0D02hGdPtmCT2MwfbtZ+jzFlSD3mnLLa85
+        ONVLKcbTGEeE8I0ahEqmZO9y0KlBE13psMJ4HRcn6DuZz8C4Y7NzUT5SXH57aaretgh1y+nFQs2G
+        96kHAAD//wMAiLUc4ZsAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+      X-IPA-Pwchange-Result:
+      - ok
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=4PBOGc1uBNLXeKHT52AOxUt4BhUW9G8pyRzGTNegxI5xmnvqV78zBIGFvfFpZhavxn9rGSTm%2fbLwUQJc9zWu%2fWFHHiAxAehyODUnP8Tqw64nBcjTTUGjdWufM5OP3HZ4HBMeXJfIMGwxCpkfR%2fsMKBZa%2fnLWetsaaXJRqmHtb8IRYEM1%2bxk0b1f4%2fYhntEvi;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=4PBOGc1uBNLXeKHT52AOxUt4BhUW9G8pyRzGTNegxI5xmnvqV78zBIGFvfFpZhavxn9rGSTm%2fbLwUQJc9zWu%2fWFHHiAxAehyODUnP8Tqw64nBcjTTUGjdWufM5OP3HZ4HBMeXJfIMGwxCpkfR%2fsMKBZa%2fnLWetsaaXJRqmHtb8IRYEM1%2bxk0b1f4%2fYhntEvi
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_add_member_manager", "params": [["dummy-group"], {"all":
+      true, "raw": false, "no_members": false, "user": ["testuser4"], "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '160'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=4PBOGc1uBNLXeKHT52AOxUt4BhUW9G8pyRzGTNegxI5xmnvqV78zBIGFvfFpZhavxn9rGSTm%2fbLwUQJc9zWu%2fWFHHiAxAehyODUnP8Tqw64nBcjTTUGjdWufM5OP3HZ4HBMeXJfIMGwxCpkfR%2fsMKBZa%2fnLWetsaaXJRqmHtb8IRYEM1%2bxk0b1f4%2fYhntEvi
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3xSy07DMBD8lcpcmzRJU4oqIXFBFZdyoDeEkGtvU6N4HfxAoKr/jtfmEUDitrOP
+        2fGsj8yCC71nq8mRCaOHHjzIiOrphO256hM4Mg16B1Zz5B3YlAkuBfcPsbGzJgwJnE4RjijVwAOq
+        5wCKeO7ZuRRNLdu22LVQFXUNu4K3y2WxaBZtVZ03DW8WjCjN7gmEFz13Lg16M7DPTWaPXIMjjOCi
+        3rw/QloXdY1xJiIwGKdev0p77nL8kEGwfVp08H5YzWYyaP1WpI4SXjkZU0Z/UrfA1DlqSelOSQxk
+        U6rW82beVIv5sk5FCU5YNXhl8vD2AJMRweSHFmWFOHBEyJIijIpmewuARkKJ4Gdnv7fHMR3vpbDr
+        lfO/BV5R0v15ST7r4+ct8wS546OvlK3HoBmD+Yjg41/8w9NmE+jt0b7LkbJphClwFHEhTEDvplJc
+        ouk6hRQRC0tfC6w1tAJD39N95Xc8WIUiHpw8Y1xqhVeb2/X6ZlNur++2JOYFrMv+s7a8KOuKnd4B
+        AAD//wMACInbNQADAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=4PBOGc1uBNLXeKHT52AOxUt4BhUW9G8pyRzGTNegxI5xmnvqV78zBIGFvfFpZhavxn9rGSTm%2fbLwUQJc9zWu%2fWFHHiAxAehyODUnP8Tqw64nBcjTTUGjdWufM5OP3HZ4HBMeXJfIMGwxCpkfR%2fsMKBZa%2fnLWetsaaXJRqmHtb8IRYEM1%2bxk0b1f4%2fYhntEvi
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IINTgHZUOvj5u7t7+umF
+        uAaHKAFVQI0DyUNsUaoFAAAA//8DAKIsgjCZAAAA
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_find", "params": [[null], {"whoami": true, "all": true,
+      "raw": false, "no_members": true, "pkey_only": false, "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '148'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4xT227bMAz9lUDPudhO3AQFCuxhRTEMaAe0fdlQBLLM2FpkydMlTRbk30fKzqVY
+        0e3J1CF5fEQe7ZkFF5Rn14P9OfyxZ0LTl30OTbMbPDuw7GU4YKV0reI7zRt4Ly219JIr1+WeI1aB
+        MO694hV3wgL30mgvO749Wy5L7oHOyyUiLEuyNMnTWbpI8zz/zg7UaYqfILxQ3HXE3rQM4RasM5oi
+        Yyuu5e/IzdUZlxo85t4CgQRRu3Fyy4UwQXs6r23RWqmFbLniYdtDXoo1+NYoKXY9igWdov7gXH3k
+        xDseQ0w8uvrOmtA+rL6F4ivsHOENtA9WVlLfam933RhbHrT8FUCW8X5XZTafLxIxKmaQjNIUilEB
+        MxjlWT5Lkqss41keG0ky/v7V2BK2rbRxAB8MdpFmcbBX/WCxH4fq29dS1FxX/7OTY2ttGiilxSkY
+        vAWpnhA0KWnpUVzob3NGLid8slRMf7p/uLv7cj9+un18iqWus+PJPJUsdWgKPBGcTrNpluTTeXLk
+        FVwbLcU/ecNHPA2X6qIXtrxpFYyFaXoNG9Bvn0LElcFtuhpU1zwppJ4U3NUxqV1vMWXEGvMrfC5A
+        7sPHB3YD5QXWACkzq2VFrolkZA2si86JqkZdLj5OmhHd6CZmhkLfxFoK+p+6YSlutKlQIEUenO/W
+        17n+epBi7G3QAjd+KcUhI4+LZemAWAcN96LGmgNmwVpDE9RBKfJveY5PC6bWv3eAFRuU2NmUzcaL
+        cZqwwx8AAAD//wMA8K1xkJYEAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_find", "params": [[null], {"cn": "dummy-group", "private":
+      false, "posix": false, "external": false, "nonposix": false, "all": true, "raw":
+      false, "no_members": true, "pkey_only": false, "fasgroup": true, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '244'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3xSTW/bMAz9K4Z2jR3LcZohQIFehmKX7rDchmJQJMbRIFGePoYWQf77RAlovBbY
+        je+ReiQfdWEeQjKR7ZvLLfxxYXoWCfXvBFoRwe6UHLgax/Y4Qt9yDsdWjLtdux22Y9/fDYMYtux5
+        1TB3/AUySiNCKA+jm1mmJ+/S7E4oLATCCCGCKixBahfAL3EVIjC7oF/eUicRavxcQfKmNDrHOO/X
+        a5WsfW1LRQcvws4GOulsqZZYKhclhZ60wmSP4EuWb4bN0G83O16SCoL0eo7a1ceHMzQLgeafWbSX
+        8iwQoY6UYZ5offIA6BR0CHH96X33/MwKbTRORof4fsAHIsOHTd5M2DfRJ8iMBdrgJ7l40yC/Ynaa
+        WL4EwxJsimQVsALF9F+dsdpCbmRD7xezrjIsQaBISOkSxrBS8h7dNGmkiFTYtRyDslmEk7ZPKEX+
+        EBmfhAm0UMjCwr9SG15dbqyI8pyLrjkN3juaEJMx9GHULZ69Rpl/EB2hzv/w9O3x8etTd/jy/UC7
+        /AEf6kHZ2H3ueM+ufwEAAP//AwA7FEZqCgMAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_find", "params": [[null], {"whoami": false, "all": true,
+      "raw": false, "no_members": true, "pkey_only": true, "in_group": "dummy-group",
+      "sizelimit": 0, "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '191'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6SRPwvCMBDFv0q4uRRrO4hQcBFxqYPdxCGksQbStOSPUEq/u3dBLAiC4Pby7t7v
+        LskEVrqgPWzZtMjLBEE1JKAJXTfCNWHQGDTIL6OXCFMGJ60jwYXog/EuaURp+rZVhpSXzsOcsIVG
+        DoWyD+Lb/4u6/kJd/0XNv1Dzn6mUj1VEFKi9DUZwL2nOjWsn0XP4ptyONKRgkco67sUdm3ArkNb2
+        FosmaI3HuOJLD1YZoQauKRu/ZledDodjldb7cw3Y8UCa6uMFinSTZiuYnwAAAP//AwDBt+MS+AEA
+        AA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "batch", "params": [[[{"method": "user_show", "params": [[],
+      {"uid": "dummy", "all": true}]}, {"method": "user_show", "params": [[], {"uid":
+      "testuser1", "all": true}]}, {"method": "user_show", "params": [[], {"uid":
+      "testuser2", "all": true}]}, {"method": "user_show", "params": [[], {"uid":
+      "testuser3", "all": true}]}]], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '357'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+SXUW/aMBDHv0qV50ITJ4EwqdIeVlXTpHZS6cumCjnOAR6JndlOC6v47rOdQJo2
+        QIFO6tQ3+3939t358hM8OgJkkSrn08mjQ3jBzCo4PalkqXc/Hxs+zEjOlyLLFie3EoRzp70TKvMU
+        LxjOoM1MGVUUp7K03VptAoTLNmce/wKiSIplaVY8d7Scg5CcmRUXE8zoH6woZzitdcpAaVtTKMyx
+        JpxLOsekLFHvZyLOBWWE5jjFxbySFCUzUDlPKVlUqnYoM6o2Uk5XZ46xXC214UZOLwUv8uvx9yL+
+        Bgtp9Azya0EnlF0wJRZlM3JcMPq7AJrY+noJ6vcjl3TiANyO50HciSGATojCwHV7CGEU2kCTsr7+
+        gYsE5jkVtgHlA41GCVagaAajkVYc5CLPjTzkRV4Y9n44yypeN1XlDwmZYjaBLaGhFzRCU65LkFNI
+        U5vyWUzZWYzl1OaVYVrKiXnIzzDHWZ5Cl/Bsnfaq0+sBKV2vri8vv151hxc3Q+sqy+Faj8KUZ5BQ
+        oZvPdfPszUY6s9HlFNF7YM2xs7p+GiLAdsiU9opSw7pLBDPOKNmZ7oQmrMhinazx8XzkIzf0+641
+        FjuM9blWYbIazpSTmbaN9ecCpgVYjlavrmUlipU6g4XCca3l+isFcQ/Jk+gMTAZ8PJqYyayv7JT7
+        ahp1mCw/Y9N/k9y59Tol7NwazaJKT54m5JzxiZ4Hs1IglbPUofc4LUyvqpLMY+oFts/GijTVAgjB
+        RbXVIW1YGerjzI3eZrS0uDTwMnyOl5aAD4cY6HvBoP8UMQM/6L0dYqLDERPthRi1eszXYaZ2PxQ1
+        6xNacDNs2PZHTrQNOZtT34AdtA07qIGdZlHvDD3r5A7CT13akQhCuxGE9kUQ+sgIipN+EDV+5QQo
+        +Y8RhPZDEDoaQWgLgtC/RNDL1DcgyN+GIL8VQeg9IwgdhSB0LIL83Qjy90WQ/4ERNHYjokHz9FdQ
+        H7y3Q9DgcAQNDkKQvx+C/KMR5G9BkH8gggavQdDL1DcgKNiGoKAVQf57RpB/FIL83Qi6Wz5TTE5J
+        vV6P0/rPXeMpzK06ufIDcYJu1PVcZ/kXAAD//wMAhh/8+lcSAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=96
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "batch", "params": [[[{"method": "user_find", "params": [[],
+      {"uid": "dummy", "all": true}]}, {"method": "user_find", "params": [[], {"uid":
+      "testuser4", "all": true}]}]], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '205'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA+RU227bMAz9lcDPudiunaQDCuxhRTEMaAc0fdlQBLLM2FplydOlTRbk30fJzsVd
+        0m3FsD3sydQheUyR1FkHCrTlJnjTWwdUWuGsuN9rYY2nz+t9DNpUuG/wzlbVqnenQQX3GJ4zXXOy
+        EqSCY24mmGGE68Z357ECqNTHghdEUwXEMCkMa/jWwXyeEwPuPJ8jEsRhHIVplETTKE3TT8HGZcrs
+        C1BDOdENsZF1gHANSkvhLKkKItg3z034HmcCDPq6gHUFuXSp2ZLQpjt4flBZrZigrCac2GULGUYf
+        wNSSM7pqUQxoKmoPWpdbTrzj1kTHrS6vlLT1zeKjzT7ASju8gvpGsYKJS2HUqmljTaxgXy2w3N9v
+        nMeTyTSkgyyBcBBFkA0ySGCQxmkShuM4JnHqE13J+PsnqXJY1kz5BrzQ2GkU+8aO28ZiPjbV1E85
+        LYkofmUm29RSVpAzhV2QeAtX9chBo9wN3Rdn29vskcMO71bKu99e31xdvb8ezi5vZz5UN+u4W56C
+        5cJWGZ4cHJ3FZ3GYnk3CLS8lQgpGf8prX+KpCOMHubAkVc1hSGXV1vAIovsUPM4lTlOXwJvkUcbE
+        KCO69E6h2xXjkj6gf4HPBdz24eMD9Qj5AVaBq0wu5oXbGk/mVgPj/Ob4qgaNzz9O1yN3owvv6VNx
+        4WOd0f5U93N6IWSBBTrLgDbN+LaaEKFtlBUUJ35YikZG4gcbRD3H2quIoSXGoBOUkq6BwnK+6feO
+        CskMf+XyktNiciSkIyiz54JyJOH3ReX8fxWVxXkYh3l4ICokmUz+lKiMw/C1orJPPSUqZjv4jrB0
+        0aPisgt5rcCkpwXmNPcJkUm7IrPPf1loZp1r/hWx6arLrtB/pDD3m2eI2+58b+/G7rh+lH2MeMSa
+        myUOkuF0GIXB5jsAAAD//wMAYr6wUyIJAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:00 GMT
+      Keep-Alive:
+      - timeout=30, max=95
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=bt3qbRzB1qQgUOI2Z%2b8Sh1QTyodhlpfWacQKOfIojqfUKtBC4cRxFboiyedHvx2OnJEVD7ljxs%2bktNDxmofNImZ5NehI6nKfVAbVowm2ihjw9Pu7V7esfJ39WGmyXusayZAll91YMhhJKu3f8w%2bdhu67rDtnFXR6oN%2f6ayRYzFGwuG9CQDq2%2bmUWVvJncXwz;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=bt3qbRzB1qQgUOI2Z%2b8Sh1QTyodhlpfWacQKOfIojqfUKtBC4cRxFboiyedHvx2OnJEVD7ljxs%2bktNDxmofNImZ5NehI6nKfVAbVowm2ihjw9Pu7V7esfJ39WGmyXusayZAll91YMhhJKu3f8w%2bdhu67rDtnFXR6oN%2f6ayRYzFGwuG9CQDq2%2bmUWVvJncXwz
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "group_del", "params": [["dummy-group"], {"continue": false,
+      "version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '93'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=bt3qbRzB1qQgUOI2Z%2b8Sh1QTyodhlpfWacQKOfIojqfUKtBC4cRxFboiyedHvx2OnJEVD7ljxs%2bktNDxmofNImZ5NehI6nKfVAbVowm2ihjw9Pu7V7esfJ39WGmyXusayZAll91YMhhJKu3f8w%2bdhu67rDtnFXR6oN%2f6ayRYzFGwuG9CQDq2%2bmUWVvJncXwz
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yOMQvCMBCF/0q4WYOCgzg5KMWlHexmOwRzysE1CZdGKKX/3cTFbu/jezzeDIIx
+        8QgnNa/jyxCjzfHRLxsFH8MJC4FNwzBt3+JTgD6bmNnIlB1ckHFEq35SdetqB1BmUMRLrrrEnJHs
+        Pwch96RguCwZO5A7101V3WrdXu8tlA8okbwr/qCPer+D5QsAAP//AwAwxBIKvgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=bt3qbRzB1qQgUOI2Z%2b8Sh1QTyodhlpfWacQKOfIojqfUKtBC4cRxFboiyedHvx2OnJEVD7ljxs%2bktNDxmofNImZ5NehI6nKfVAbVowm2ihjw9Pu7V7esfJ39WGmyXusayZAll91YMhhJKu3f8w%2bdhu67rDtnFXR6oN%2f6ayRYzFGwuG9CQDq2%2bmUWVvJncXwz
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=FknSIuyVcF5Rn4nunHlcpPK4vlkGOPi%2fLrX6xbhgef7F7CYGAfZ0np96VcYgHIx187WPQuNp27D7JOWqf540hZO3YorpDWWYyAoQ9GV%2fyufMEU7HToxNElfWwWhUgxh%2bjX07AdRIX5Rs96ooqx1cNQ0pRpJ%2fS6oTZM7gSjrY3jvvGDM1aevV7te2XAdIFUhj
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCiml
+        lObmVjr4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwBTjCTVbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=UgbKEMGXgvTRMTB%2fUlZjpW2Bh3vcihcGnEKwmJ4FYqplasD3UawnySFU35B6C8qB9H1HuoSx8%2bpB0CI8StIJ3DWwluUk%2fInNG8ZV49cQUYExfvsjVa44zWbvHUJj1sGuWPHU4xNdust1xSAIDHVucsVaoH9nO5qsWGYeEVLZeaehwtdtHZ0jJjrv0m4jhiTP;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=UgbKEMGXgvTRMTB%2fUlZjpW2Bh3vcihcGnEKwmJ4FYqplasD3UawnySFU35B6C8qB9H1HuoSx8%2bpB0CI8StIJ3DWwluUk%2fInNG8ZV49cQUYExfvsjVa44zWbvHUJj1sGuWPHU4xNdust1xSAIDHVucsVaoH9nO5qsWGYeEVLZeaehwtdtHZ0jJjrv0m4jhiTP
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_del", "params": [["dummy"], {"continue": false, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '86'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=UgbKEMGXgvTRMTB%2fUlZjpW2Bh3vcihcGnEKwmJ4FYqplasD3UawnySFU35B6C8qB9H1HuoSx8%2bpB0CI8StIJ3DWwluUk%2fInNG8ZV49cQUYExfvsjVa44zWbvHUJj1sGuWPHU4xNdust1xSAIDHVucsVaoH9nO5qsWGYeEVLZeaehwtdtHZ0jJjrv0m4jhiTP
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yNMQvCMBCF/0q4WYKCg3RyUIpLHezWdgjmhINLWi6NUEr/uxccdPveu/ferSCY
+        Ms9QmfUfX44YvWI3bDsDb8cZiwKfQ1hgUC8pOVnUhQsyzuhNTiim/2Z6gNJEkVE0EzOzSvI/noTi
+        kybHZcL5QPHc3Ov61tj2+mihvEVJNMZyP9qTPexh+wAAAP//AwBhDOkysQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:01 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=UgbKEMGXgvTRMTB%2fUlZjpW2Bh3vcihcGnEKwmJ4FYqplasD3UawnySFU35B6C8qB9H1HuoSx8%2bpB0CI8StIJ3DWwluUk%2fInNG8ZV49cQUYExfvsjVa44zWbvHUJj1sGuWPHU4xNdust1xSAIDHVucsVaoH9nO5qsWGYeEVLZeaehwtdtHZ0jJjrv0m4jhiTP
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=klV511k%2fufjMRF0Bbnlzuuf9AMXwPL4cfHfBl0IuD0ef%2bfmBmJ%2bC%2bleY3RF2AB1uHMI2gvgu%2bGtbRYYY9rfVTRD7ayss%2fifvu9lkdLE5MiwglmRISaR6B7qIiHmMwHeqAYW0dCt0HVMRfj%2fcCJ3gPkKbAZYfmpZcfPna%2fajPQ9%2b5YJjOUDcAhqmi5OznMnwa;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=klV511k%2fufjMRF0Bbnlzuuf9AMXwPL4cfHfBl0IuD0ef%2bfmBmJ%2bC%2bleY3RF2AB1uHMI2gvgu%2bGtbRYYY9rfVTRD7ayss%2fifvu9lkdLE5MiwglmRISaR6B7qIiHmMwHeqAYW0dCt0HVMRfj%2fcCJ3gPkKbAZYfmpZcfPna%2fajPQ9%2b5YJjOUDcAhqmi5OznMnwa
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_del", "params": [["testuser1"], {"continue": false, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '90'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=klV511k%2fufjMRF0Bbnlzuuf9AMXwPL4cfHfBl0IuD0ef%2bfmBmJ%2bC%2bleY3RF2AB1uHMI2gvgu%2bGtbRYYY9rfVTRD7ayss%2fifvu9lkdLE5MiwglmRISaR6B7qIiHmMwHeqAYW0dCt0HVMRfj%2fcCJ3gPkKbAZYfmpZcfPna%2fajPQ9%2b5YJjOUDcAhqmi5OznMnwa
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yNMQvCMBCF/0q4WYIFB3FyUIpLHexmOwRzwsElLZdEkNL/bm6q2/fue7xbQDAV
+        znAyyz++HTH6is9x3Rn4OC6oCTKmXBJKA2O9pxKCk281cEHGjN6oNMPWGwB0AUUmqb1YmGskv/Es
+        FF80O9YZ5wPFc3dv21tn++ujB32PkmiK6g/2aJs9rD8AAAD//wMA1B9TlrkAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=klV511k%2fufjMRF0Bbnlzuuf9AMXwPL4cfHfBl0IuD0ef%2bfmBmJ%2bC%2bleY3RF2AB1uHMI2gvgu%2bGtbRYYY9rfVTRD7ayss%2fifvu9lkdLE5MiwglmRISaR6B7qIiHmMwHeqAYW0dCt0HVMRfj%2fcCJ3gPkKbAZYfmpZcfPna%2fajPQ9%2b5YJjOUDcAhqmi5OznMnwa
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwMAAAAAAAAAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '20'
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=YIjTG4lqAJiS4AF%2fwfos2ikdAE1if554MtNL6xFWsVfYdWEw44sqTBWRcY7U5oEJ87749VzcSaUkw2JUeyAj3juUiW0bjbekrQMDYNDi86sZAj4%2fLYCLFtaN0nJnnx1f%2b7AlYF5AegJ92f2pJJo5NGj3b1gEB4Su%2fueRDxBpQCOhyssT%2bgw0DOtSTkgC8OWI;path=/ipa;httponly;secure;
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=YIjTG4lqAJiS4AF%2fwfos2ikdAE1if554MtNL6xFWsVfYdWEw44sqTBWRcY7U5oEJ87749VzcSaUkw2JUeyAj3juUiW0bjbekrQMDYNDi86sZAj4%2fLYCLFtaN0nJnnx1f%2b7AlYF5AegJ92f2pJJo5NGj3b1gEB4Su%2fueRDxBpQCOhyssT%2bgw0DOtSTkgC8OWI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_del", "params": [["testuser2"], {"continue": false, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '90'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=YIjTG4lqAJiS4AF%2fwfos2ikdAE1if554MtNL6xFWsVfYdWEw44sqTBWRcY7U5oEJ87749VzcSaUkw2JUeyAj3juUiW0bjbekrQMDYNDi86sZAj4%2fLYCLFtaN0nJnnx1f%2b7AlYF5AegJ92f2pJJo5NGj3b1gEB4Su%2fueRDxBpQCOhyssT%2bgw0DOtSTkgC8OWI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yNMQvCMBCF/0q4WYKKgzg5KMWlDnazHYI54eCSlksiSOl/NzfV7Xv3Pd7NIJgK
+        ZziZ+R/fjhh9xeewbAx8HBfUBBlTLgllD0O9pxKCk281cEHGjN6oNP3a6wF0AUVGqb1YmGskv/Ik
+        FF80OdYZ5wPFc3tvmltru+ujA32PkmiM6g/2aHdbWH4AAAD//wMAqtgcOrkAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:02 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=YIjTG4lqAJiS4AF%2fwfos2ikdAE1if554MtNL6xFWsVfYdWEw44sqTBWRcY7U5oEJ87749VzcSaUkw2JUeyAj3juUiW0bjbekrQMDYNDi86sZAj4%2fLYCLFtaN0nJnnx1f%2b7AlYF5AegJ92f2pJJo5NGj3b1gEB4Su%2fueRDxBpQCOhyssT%2bgw0DOtSTkgC8OWI
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=%2bi4CD4lqCBL4pIQn4HDO7yLJK8qMI7QZ0SxUtceTHMx%2fcQxN4GoFy2lYGcYKkPob8mW2ByzHDAurBpZaDrkGZ78SjmfmehzTBLaJBRPOpQgCe1xP7UlCBXo84hvEg5GMCKMhUxpjdQWmN2Zl6vnY9%2f7XhgGCN2NdVMJqYA6qB6itozZtbYrvXTx4jsci5xQd;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=%2bi4CD4lqCBL4pIQn4HDO7yLJK8qMI7QZ0SxUtceTHMx%2fcQxN4GoFy2lYGcYKkPob8mW2ByzHDAurBpZaDrkGZ78SjmfmehzTBLaJBRPOpQgCe1xP7UlCBXo84hvEg5GMCKMhUxpjdQWmN2Zl6vnY9%2f7XhgGCN2NdVMJqYA6qB6itozZtbYrvXTx4jsci5xQd
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_del", "params": [["testuser3"], {"continue": false, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '90'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=%2bi4CD4lqCBL4pIQn4HDO7yLJK8qMI7QZ0SxUtceTHMx%2fcQxN4GoFy2lYGcYKkPob8mW2ByzHDAurBpZaDrkGZ78SjmfmehzTBLaJBRPOpQgCe1xP7UlCBXo84hvEg5GMCKMhUxpjdQWmN2Zl6vnY9%2f7XhgGCN2NdVMJqYA6qB6itozZtbYrvXTx4jsci5xQd
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yNMQvCMBCF/0q4WYKigzg5KMWlDnazHYI54eCSlksiSOl/NzfV7Xv3Pd7NIJgK
+        ZziZ+R/fjhh9xeewbAx8HBfUBBlTLgllD0O9pxKCk281cEHGjN6oNP3a6wF0AUVGqb1YmGskv/Ik
+        FF80OdYZ5wPFc3tvmltru+ujA32PkmiM6g/2aHdbWH4AAAD//wMAgGUmXrkAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=%2bi4CD4lqCBL4pIQn4HDO7yLJK8qMI7QZ0SxUtceTHMx%2fcQxN4GoFy2lYGcYKkPob8mW2ByzHDAurBpZaDrkGZ78SjmfmehzTBLaJBRPOpQgCe1xP7UlCBXo84hvEg5GMCKMhUxpjdQWmN2Zl6vnY9%2f7XhgGCN2NdVMJqYA6qB6itozZtbYrvXTx4jsci5xQd
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: user=admin&password=adminPassw0rd%21
+    headers:
+      Accept:
+      - text/plain
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '36'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Referer:
+      - https://ipa.noggin.test/ipa/session/login_password
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/login_password
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//AwAAAAAAAAAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=100
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=MagBearerToken=fi0JGNOPL6%2fls%2b0nbnP2xz5%2bQjC3zN%2bxfg9sZ%2fwrr5BOrenuLwlsbnOdjGYil0%2fBwRPS%2fAm0Yw2nvWX7PFaUpnLlZlkbXTxnDKH78hOKyzpJ0EkBnL7tfKUcW8QBKEi%2bT2Xc19Asz51M0locT99CQ20wv%2b0%2fpQrbiS5vWt79wKviRx4KeTrFqiAD6D6wkdQ1;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "ping", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=fi0JGNOPL6%2fls%2b0nbnP2xz5%2bQjC3zN%2bxfg9sZ%2fwrr5BOrenuLwlsbnOdjGYil0%2fBwRPS%2fAm0Yw2nvWX7PFaUpnLlZlkbXTxnDKH78hOKyzpJ0EkBnL7tfKUcW8QBKEi%2bT2Xc19Asz51M0locT99CQ20wv%2b0%2fpQrbiS5vWt79wKviRx4KeTrFqiAD6D6wkdQ1
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqFYqLs3NTSyqBLKVPAMcFYpTi8pSixSAuDgzP0/BRM9Cz9BA
+        T8ExwBMuZqRnZGypVKujoJRaVJRfBNSZV5qTA+RmpiDYBUWZecmZBYk5IIMTU3Iz8xz8/N3dPf30
+        QlyDQ5SAKqDGgeQhtijVAgAAAP//AwAPTtrhmQAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=99
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "user_del", "params": [["testuser4"], {"continue": false, "version":
+      "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '90'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=fi0JGNOPL6%2fls%2b0nbnP2xz5%2bQjC3zN%2bxfg9sZ%2fwrr5BOrenuLwlsbnOdjGYil0%2fBwRPS%2fAm0Yw2nvWX7PFaUpnLlZlkbXTxnDKH78hOKyzpJ0EkBnL7tfKUcW8QBKEi%2bT2Xc19Asz51M0locT99CQ20wv%2b0%2fpQrbiS5vWt79wKviRx4KeTrFqiAD6D6wkdQ1
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA0yNMQvCMBCF/0q4WYJCB3FyUIpLHexmOwRzwsElLZdEkNL/bm6q2/fue7xbQDAV
+        znAyyz++HTH6is9x3Rn4OC6oCTKmXBJKA2O9pxKCk281cEHGjN6oNMPWGwB0AUUmqb1YmGskv/Es
+        FF80O9YZ5wPFc3dv21tn++ujB32PkmiK6ht7tIc9rD8AAAD//wMAF1DyubkAAAA=
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=98
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+- request:
+    body: '{"method": "session_logout", "params": [[], {"version": "2.235"}]}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      Cookie:
+      - ipa_session=MagBearerToken=fi0JGNOPL6%2fls%2b0nbnP2xz5%2bQjC3zN%2bxfg9sZ%2fwrr5BOrenuLwlsbnOdjGYil0%2fBwRPS%2fAm0Yw2nvWX7PFaUpnLlZlkbXTxnDKH78hOKyzpJ0EkBnL7tfKUcW8QBKEi%2bT2Xc19Asz51M0locT99CQ20wv%2b0%2fpQrbiS5vWt79wKviRx4KeTrFqiAD6D6wkdQ1
+      Referer:
+      - https://ipa.noggin.test/ipa
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://ipa.noggin.test/ipa/session/json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6pWKkotLs0pUbJSqEYw80pzcmp1FJRSi4ryi6B8IDczBcEuKMrMS84sSMwBCikl
+        puRm5jn4+bu7e/rphbgGhygBVZSlFhVn5ueB5E30LPQMDZRqAQAAAP//AwD+7nwEbgAAAA==
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - Keep-Alive
+      Content-Encoding:
+      - gzip
+      Content-Security-Policy:
+      - frame-ancestors 'none'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 14 May 2021 18:16:03 GMT
+      Keep-Alive:
+      - timeout=30, max=97
+      Server:
+      - Apache/2.4.46 (Fedora) OpenSSL/1.1.1g mod_wsgi/4.7.1 Python/3.9 mod_auth_gssapi/1.6.3
+      Set-Cookie:
+      - ipa_session=;Max-Age=0;path=/ipa;httponly;secure;
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - DENY
+    status:
+      code: 200
+      message: Success
+version: 1

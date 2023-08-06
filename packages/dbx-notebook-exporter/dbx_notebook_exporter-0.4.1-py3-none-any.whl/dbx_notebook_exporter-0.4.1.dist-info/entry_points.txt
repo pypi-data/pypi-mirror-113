@@ -1,0 +1,4 @@
+[nbconvert.exporters]
+dbx-json-notebook=dbxnotebookexporter.json.JsonNotebookExporter:JsonNotebookExporter
+dbx-python-notebook=dbxnotebookexporter.python.PythonNotebookExporter:PythonNotebookExporter
+

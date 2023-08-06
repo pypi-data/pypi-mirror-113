@@ -1,0 +1,11 @@
+fire
+requests
+
+[test]
+black
+flake8
+mypy
+pytest
+pytest-cov
+responses
+types-requests

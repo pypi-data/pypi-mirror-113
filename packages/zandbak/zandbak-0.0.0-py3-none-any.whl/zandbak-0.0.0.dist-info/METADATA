@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: zandbak
+Version: 0.0.0
+Summary: A sandbox python repository for testing GitHub features, CI pipelines, and python packages.
+Home-page: https://github.com/rozsasarpi/zandbak
+Author: Arpad Rozsas
+Author-email: rozsasarpi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy (<2)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: coverage[toml] ; extra == 'tests'
+Requires-Dist: pre-commit ; extra == 'tests'
+Requires-Dist: black ; extra == 'tests'
+Requires-Dist: isort ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: flake8 ; extra == 'tests'
+Requires-Dist: flake8-tidy-imports ; extra == 'tests'
+Requires-Dist: flake8-import-order ; extra == 'tests'
+
+# zandbak
+
+A sandbox python repository for testing GitHub features, CI pipelines, and python
+packages.
+
+Some structural mechanics examples are used as dummy code.
+
+

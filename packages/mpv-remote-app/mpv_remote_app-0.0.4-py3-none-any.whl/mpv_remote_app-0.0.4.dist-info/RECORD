@@ -1,0 +1,9 @@
+mpv_remote_app/__init__.py,sha256=jGT5LB_CILiPxrVvD9zNx-Nl_-_1fpv6AEDC-0mMKkw,4337
+mpv_remote_app/media_controllers.py,sha256=-T_GW2rvz2tuxhS_BJZ11FwSF4Q0rezw363f3PXvAsM,8877
+mpv_remote_app/media_server.py,sha256=UGPqeqff5v-bVeo-uHg1KIPb5J9vIyS5Iz74cQCIBM4,10482
+mpv_remote_app-0.0.4.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+mpv_remote_app-0.0.4.dist-info/METADATA,sha256=DSy7SESfZkdWs5q5lL_ct3dsAT3kOSp8Y_uWZbXnsVw,1115
+mpv_remote_app-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mpv_remote_app-0.0.4.dist-info/entry_points.txt,sha256=C6IEY5VoWqqzG4yhvaTiZ6YdKm7OuFZrNIOwEItQLz4,56
+mpv_remote_app-0.0.4.dist-info/top_level.txt,sha256=tczcxoa9-XyqZ1fPVnMUFaEFc6lXb8VhuMnw7yP58L4,15
+mpv_remote_app-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+mpv-remote-app = mpv_remote_app:main
+

@@ -1,0 +1,71 @@
+# Neo Toolbox
+
+Small toolkit for interacting with the Neo N3 blockchain.
+
+### Available tools
+
+1. [Data Transformation](#data_transformation)
+2. [Create Owner Bytes](#create_owner_bytes)
+3. [Create Update Invocation File](#create_update_invocation_file)
+
+
+
+#### <a name="data_transformation"></a>Data Transformation
+
+Lets you convert between wallet hashes and addresses.
+
+##### Example
+
+```python
+from neo_toolbox.data_transformation import encode_hash, decode_address
+
+# Encode a wallet hash
+original_hash_hex = 'a7271ccc82bb311db369719d1868e6ac19ece31f'
+address = encode_hash(original_hash_hex)
+print(address)
+# Outputs: 'NNpbB25aNMY2pD5JkWeAEbsNfp7C3GoZF1'
+
+# Decode a wallet address
+original_address = 'NNpbB25aNMY2pD5JkWeAEbsNfp7C3GoZF1'
+hash_hex = decode_address(original_address)
+print(hash_hex)
+# Outputs: 'a7271ccc82bb311db369719d1868e6ac19ece31f'
+```
+
+
+#### <a name="create_owner_bytes"></a>Create Owner Bytes
+
+This helper function lets you convert a N3 wallet address to an python variable that can be used
+in your smart contract to verify the owner of the contract. This is very useful to add admin
+functionality to your smart contract.
+
+##### Example
+
+```python
+from neo_toolbox.create_owner_bytes import create_owner_bytes
+
+original_address = 'NNpbB25aNMY2pD5JkWeAEbsNfp7C3GoZF1'
+code_snippet = create_owner_bytes(original_address)
+print(code_snippet)
+# Outputs: 'OWNER = UInt160(b"\x1f\xe3\xec\x19\xac\xe6h\x18\x9dqi\xb3\x1d1\xbb\x82\xcc\x1c'\xa7")'
+```
+
+#### <a name="create_update_invocation_file"></a>Create Update Invocation File
+
+This helper function lets you create a [Neo Express](https://github.com/neo-project/neo-express)
+invocation file that can be used to update a smart contract.
+
+##### Example
+
+```python
+from neo_toolbox.create_update_invocation_file import create_update_invocation_file
+
+nef_file = 'path/to/sample_contract.nef'
+manifest_file = 'path/to/sample_contract.manifest.json'
+template = create_update_invocation_file('your_contract_name', nef_file, manifest_file, operation='my_custom_update')
+print(template)
+# Outputs a JSON string: '[{"contract": ...'
+```
+
+
+*Created and maintained by Adapted Consulting AS (Norway).*

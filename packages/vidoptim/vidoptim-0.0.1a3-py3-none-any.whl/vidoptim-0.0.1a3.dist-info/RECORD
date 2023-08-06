@@ -1,0 +1,10 @@
+vidoptim/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vidoptim/__main__.py,sha256=Q_Vue8UEPOW3ERT-2eMMyVdLi_ZzaoW7UWj6QdAZQYo,29
+vidoptim/cli.py,sha256=bP5f63iRrMUITHemTV_7Wf5LU4eRmGJCS9Og8-XELuI,256
+vidoptim/convert.py,sha256=gvyk5AuHY_Un0dvSQ0ueOytrAcutqN0OPDOQ2Ywx-5Y,55
+vidoptim/probe.py,sha256=3JgchG7WPAmeXPo26z1ddrZ8A6aG96xy_uGdtrY89yo,565
+vidoptim-0.0.1a3.dist-info/entry_points.txt,sha256=_ZRZuLGoIj0Hz1t76tLHrMLH-gDg7FlY-wDILLrieTM,41
+vidoptim-0.0.1a3.dist-info/LICENSE,sha256=d_nYzdqNfqL4DAqL1GBBsbwiNj8wjH1lHvAWBXrnZpo,1064
+vidoptim-0.0.1a3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vidoptim-0.0.1a3.dist-info/METADATA,sha256=2ZdBsdMtqFOsKq7RAyuKDTs0DZpWg8zSW-H7FxsXa1A,924
+vidoptim-0.0.1a3.dist-info/RECORD,,

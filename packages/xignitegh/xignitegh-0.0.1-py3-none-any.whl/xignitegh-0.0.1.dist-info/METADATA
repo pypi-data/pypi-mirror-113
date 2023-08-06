@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: xignitegh
+Version: 0.0.1
+Summary: A wrapper to the XigniteGlobalHistorical API
+Home-page: https://github.com/xignite-python/xignitegh
+Author: Kapitalisman
+Author-email: hallo@kapitalisman.nl
+License: MIT
+Keywords: xignite api wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2)
+
+# XigniteGH
+
+*Python module to get historical stock data from the XigniteGlobalHistorical API*
+
+XigniteGH is a wrapper to the XigniteGlobalHistorical API. This module implements a python interface to the API provided by [Xignite](https://www.xignite.com/product/historical-stock-prices#/productoverview). A token is required.
+
+## Install
+To install the package use:
+```shell
+pip install xignitegh
+```
+
+

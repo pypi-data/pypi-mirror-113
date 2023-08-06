@@ -1,0 +1,58 @@
+{# -*- coding: utf-8 -*-
+
+  This file is part of Invenio.
+  Copyright (C) 2015 - 2021 CERN.
+  Copyright (C) 2020 - 2021 TU Wien.
+
+  Invenio is free software; you can redistribute it and/or modify it
+  under the terms of the MIT License; see LICENSE file for more details.
+#}
+<header class="box-shaddow">
+  <nav id="main-nav" class="ui stackable secondary right menu grid container">
+    <div id="signet" class="ui horizontally padded grid">
+      <div class="computer tablet only row">
+        <img class="signet-image" src="{{ url_for('static', filename='images/signet.png') }}" alt="TU Wien Logo">
+      </div>
+      <div class="mobile only row">
+        <div class="center aligned column">
+          <img class="signet-image" src="{{ url_for('static', filename='images/signet.png') }}" alt="TU Wien Logo">
+        </div>
+      </div>
+    </div>
+
+    <ul class="navbar-menu right">
+      {%- for item in current_menu.submenu('main').children|sort(attribute='order') if item.visible recursive %}
+        <li class="navbar-item">
+          <a href="{{ item.url }}">{{ item.text|safe }}</a>
+        </li>
+      {%- endfor %}
+      <li class="navbar-item navbar-button">
+        {%- include "invenio_theme_tuw/header_login.html" %}
+      </li>
+      <li class="toggle">
+        <input type="checkbox" id="menu-btn" class="menu-btn" />
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="searchbar">
+    <h1 class="white">{{ config.THEME_SITENAME }}</h1>
+    <form action="{{ config.THEME_SEARCH_ENDPOINT }}" class="ui form">
+      <div class="ui fluid big action input">
+        <label for="q" class="hidden">Search Query</label>
+        <input type="text" id="q" name="q" class="form-control" placeholder="Type and press enter to search">
+        <label for="searchbutton" class="hidden">Start Search</label>
+        <button type="submit" id="searchbutton" class="ui icon search button"><i class="search icon" ></i></button>
+      </div>
+    </form>
+  </div>
+
+  {%- block flashmessages %}
+    {%- from "invenio_theme/macros/messages.html" import flashed_messages with context -%}
+    {{ flashed_messages() }}
+  {%- endblock %}
+  {%- block breadcrumbs %}
+    {%- include "invenio_theme/breadcrumbs.html" %}
+  {%- endblock breadcrumbs %}
+</header>

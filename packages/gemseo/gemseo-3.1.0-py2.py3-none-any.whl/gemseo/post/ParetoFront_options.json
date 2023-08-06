@@ -1,0 +1,34 @@
+{
+    "name": "ParetoFront_options",
+    "required": [],
+    "properties": {
+        "show_non_feasible":{
+            "type": "boolean"
+        },
+        "figsize_x": {
+            "type": "number",
+            "minimum":4
+        },
+        "figsize_y": {
+            "type": "number",
+            "minimum":4
+        },
+        "objectives":{
+        	"items": {
+                "type": "string",
+                "minItems": 1
+            },
+            "type": "array"
+        },
+		"objectives_labels":{
+        	"items": {
+                "type": "string",
+                "minItems": 1
+            },
+            "type": "array"
+        }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object"
+}

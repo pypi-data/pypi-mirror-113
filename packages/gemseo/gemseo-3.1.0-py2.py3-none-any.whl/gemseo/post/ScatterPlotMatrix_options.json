@@ -1,0 +1,24 @@
+{
+    "name": "ScatterPlotMatrix_options",
+    "required": ["variables_list"],
+    "properties": {
+        "figsize_x": {
+            "type": "number",
+            "minimum":4
+        },
+        "figsize_y": {
+            "type": "number",
+            "minimum":4
+        },
+        "variables_list":{
+        	"items": {
+                "type": "string",
+                "minItems": 1
+            },
+            "type": "array"
+        }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object"
+}

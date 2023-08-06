@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/deepshm/__init__.py
+src/deepshm/example.py
+src/deepshm/functions.py
+src/deepshm.egg-info/PKG-INFO
+src/deepshm.egg-info/SOURCES.txt
+src/deepshm.egg-info/dependency_links.txt
+src/deepshm.egg-info/top_level.txt

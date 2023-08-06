@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: get-metadata
+Version: 0.0.1
+Summary: GAE/GCF等のmetadataを取得する
+Home-page: https://github.com/hisashimurai/get_metadata
+Author: Hisashi Murai
+Author-email: xyksp956@yahoo.co.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# get_metadata
+GAE/GCF等で、metadataを取得する
+

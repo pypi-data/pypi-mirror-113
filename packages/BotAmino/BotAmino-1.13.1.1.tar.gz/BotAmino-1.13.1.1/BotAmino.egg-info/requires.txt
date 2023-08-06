@@ -1,0 +1,6 @@
+setuptools
+requests
+six
+websocket-client
+Amino.py<=1.1.17
+pathlib

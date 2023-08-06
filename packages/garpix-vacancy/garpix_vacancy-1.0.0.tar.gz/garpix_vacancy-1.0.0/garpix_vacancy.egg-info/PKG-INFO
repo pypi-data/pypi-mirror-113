@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: garpix-vacancy
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/garpixcms/garpix_vacancy
+Author: Garpix LTD
+Author-email: info@garpix.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3.8
+
+
+Garpix Vacancy
+==============
+
+Быстрый старт
+-------------
+
+Установка:
+
+.. code-block:: bash
+
+   pip install garpix_vacancy
+
+Добавьте ``garpix_vacancy`` в ``INSTALLED_APPS``\ :
+
+.. code-block:: python
+
+   # settings.py
+
+   INSTALLED_APPS = [
+       # ...
+       'garpix_vacancy',
+   ]
+
+Также, в settings.py необходимо добавить миксины:
+
+.. code-block:: bash
+
+   GARPIX_VACANCY_MIXIN = 'garpix_page.models.BasePage'
+   GARPIX_CONTACT_MIXIN = 'garpix_page.models.BasePage'
+
+Changelog
+=========
+
+Смотри `CHANGELOG.md <CHANGELOG.md>`_.
+
+Contributing
+============
+
+Смотри `CONTRIBUTING.md <CONTRIBUTING.md>`_.
+
+License
+=======
+
+`MIT <LICENSE>`_
+
+----
+
+Developed by Garpix / `https://garpix.com <https://garpix.com>`_
+
+

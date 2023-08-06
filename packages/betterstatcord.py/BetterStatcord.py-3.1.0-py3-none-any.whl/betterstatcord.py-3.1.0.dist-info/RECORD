@@ -1,0 +1,7 @@
+statcord/__init__.py,sha256=sZltFBun2PpszA8m6ZCe1XY-rS5bYI0xoSfcoF1WVJ0,175
+statcord/client.py,sha256=rNRb9YCL3SnFWmZjFiQ-gYwIRJ80mceZNkCOHqTy-ZA,6474
+statcord/cluster_client.py,sha256=aJLBrrUVqE2YMiVKaNY_pUF8UWJSJawbWMdZpfUIpHQ,2687
+betterstatcord.py-3.1.0.dist-info/LICENSE,sha256=owB9r0SKGVp3BYferhGbiwxoMzQqg-PMpa28210ZALw,1091
+betterstatcord.py-3.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+betterstatcord.py-3.1.0.dist-info/METADATA,sha256=lTziDDthpj5JDe86Z9T-JQ4dmWottdMPI7-iO4h_a7o,1826
+betterstatcord.py-3.1.0.dist-info/RECORD,,

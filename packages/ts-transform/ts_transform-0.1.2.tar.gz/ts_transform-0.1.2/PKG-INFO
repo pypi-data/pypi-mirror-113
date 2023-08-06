@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ts_transform
+Version: 0.1.2
+Summary: Time series transformations for Pandas Dataframes
+Home-page: https://github.com/chuckhend/ts-transform
+Author: Adam Hendel
+Author-email: hendel.adam@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Provides-Extra: dev

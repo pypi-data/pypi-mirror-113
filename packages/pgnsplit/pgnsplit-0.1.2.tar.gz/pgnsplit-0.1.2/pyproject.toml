@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pgnsplit"
+version = "0.1.2"
+description = "Simple package that splits a chess pgn file into a folder of pgns - each one containing one variation of the original pgn."
+authors = ["vsingh18567 <vsingh18567@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/vsingh18567/pgn-split"
+keywords = [
+    "Chess",
+    "CLI",
+    "PGN"
+]
+
+[tool.poetry.scripts]
+pgnsplit = "pgnsplit.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+chess = "^1.6.1"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

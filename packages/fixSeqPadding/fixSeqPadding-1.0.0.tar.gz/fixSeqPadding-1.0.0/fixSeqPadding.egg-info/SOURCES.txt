@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+fixSeqPadding.egg-info/PKG-INFO
+fixSeqPadding.egg-info/SOURCES.txt
+fixSeqPadding.egg-info/dependency_links.txt
+fixSeqPadding.egg-info/entry_points.txt
+fixSeqPadding.egg-info/requires.txt
+fixSeqPadding.egg-info/top_level.txt
+fixseqpadding/__init__.py
+fixseqpadding/__main__.py

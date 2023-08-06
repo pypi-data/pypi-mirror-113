@@ -1,0 +1,17 @@
+fichub_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fichub_cli/cli.py,sha256=vb0UcjplqSneCO7ISoch9X63FplI9BLvoqg4CcGfE-Q,4273
+fichub_cli/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fichub_cli/util/fichub.py,sha256=B3zzD1sVmpgg374K3q4dGwfGn22q__2KGTmZricCK98,2586
+fichub_cli/util/logging.py,sha256=41w3h65PEatoC-IPjq57-Ai3c0EnjdiNEfWgGkJp64Q,829
+fichub_cli/util/processing.py,sha256=KFxRAjclj4_HhR1iMzffZcWveS7uWHvCqLQza5MW3tI,7449
+fichub_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fichub_cli/utils/fetch_data.py,sha256=w7GLBWsv_9HRhGuflYnKZ07jBBOgCLxVX33hrgaULGk,8969
+fichub_cli/utils/fichub.py,sha256=v0oiHJHTvrskv8MyNvHknvPKL4vcDtQU-srzIhrLNLo,3768
+fichub_cli/utils/logging.py,sha256=OSOPNcKdMe3B91orX1ODTMN4MemdIQVbdqMGr7ZGTsM,1645
+fichub_cli/utils/processing.py,sha256=TxoOyVmQINOhDp8T5bVORktx-glY-wiC0AIRaJZE0IU,3069
+fichub_cli-0.3.7.dist-info/LICENSE.txt,sha256=NmDBZy9Vv87Lx-w7TkVihQnlHfVHwssVeXb63tuVwCY,1070
+fichub_cli-0.3.7.dist-info/METADATA,sha256=zmwzR4W8r4uWP6PT9m4YBW-UmSdoGVMO0bTDzwfgmBY,3603
+fichub_cli-0.3.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fichub_cli-0.3.7.dist-info/entry_points.txt,sha256=o-OAVyZum8Bv8ZKUEXWXE60QTGYjj8mcZtlm9uyk5h8,73
+fichub_cli-0.3.7.dist-info/top_level.txt,sha256=SVnHBJtC1cIASVXsxKE0ohMgtButqeMKI6WEya0p4kg,11
+fichub_cli-0.3.7.dist-info/RECORD,,

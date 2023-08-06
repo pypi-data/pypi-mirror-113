@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Pyphonic.egg-info/PKG-INFO
+src/Pyphonic.egg-info/SOURCES.txt
+src/Pyphonic.egg-info/dependency_links.txt
+src/Pyphonic.egg-info/requires.txt
+src/Pyphonic.egg-info/top_level.txt
+src/pyphonic/__init__.py

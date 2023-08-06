@@ -1,0 +1,7 @@
+BboxTools.py
+README.md
+setup.py
+BboxTools.egg-info/PKG-INFO
+BboxTools.egg-info/SOURCES.txt
+BboxTools.egg-info/dependency_links.txt
+BboxTools.egg-info/top_level.txt

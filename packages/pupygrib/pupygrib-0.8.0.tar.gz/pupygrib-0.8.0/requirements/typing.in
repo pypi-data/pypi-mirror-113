@@ -1,0 +1,5 @@
+mypy
+nox
+types-setuptools
+-r test.in
+-c test.txt

@@ -1,0 +1,9 @@
+# Useful packages for development
+black
+check-manifest
+flake8
+isort
+pre-commit
+nox
+-r typing.in
+-c typing.txt

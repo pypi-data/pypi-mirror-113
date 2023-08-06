@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+src/python_architecture_linter_grimp_extension/__init__.py
+src/python_architecture_linter_grimp_extension/grimp_definition.py
+src/python_architecture_linter_grimp_extension/grimp_navigators.py
+src/python_architecture_linter_grimp_extension/node_normaliser.py
+src/python_architecture_linter_grimp_extension/test_grimp.py
+src/python_architecture_linter_grimp_extension.egg-info/PKG-INFO
+src/python_architecture_linter_grimp_extension.egg-info/SOURCES.txt
+src/python_architecture_linter_grimp_extension.egg-info/dependency_links.txt
+src/python_architecture_linter_grimp_extension.egg-info/namespace_packages.txt
+src/python_architecture_linter_grimp_extension.egg-info/requires.txt
+src/python_architecture_linter_grimp_extension.egg-info/top_level.txt

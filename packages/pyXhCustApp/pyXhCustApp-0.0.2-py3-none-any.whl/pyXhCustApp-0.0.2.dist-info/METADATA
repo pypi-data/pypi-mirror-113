@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyXhCustApp
+Version: 0.0.2
+Summary: Custom App Environment
+Home-page: https://github.com/xh-dev-py/pyXhCustApp
+Author: xethhung
+Author-email: pypi@xethh.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# Chia Log Processor
+
+A library provide functionality process chia plot log.
+
+# Installation
+
+```
+pip install pyXhCustApp
+```
+
+# Demo
+
+```python
+import pyXhCustApp 
+```
+
+```python
+from pyXhCustApp import CustApp
+CustApp.appDefault("abc_app")
+
+```
+

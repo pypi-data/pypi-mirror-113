@@ -1,0 +1,12 @@
+pyNM/cf_matrix.py,sha256=CG6i7MNgMQZwmrIvx0EIjyWQlQrKa2hkjpPv1SmHFu4,4168
+pyNM/nonspiking_binary_classifier.py,sha256=yz8RwRNQDlsYf6xQrbF2o9VBP6igMFwIaKBH6ANcbOE,996
+pyNM/nonspiking_multiclass_classifier.py,sha256=o-Lrlm64xysefKB5t4E9DwMbM7o-65HzjjUZk4CXBZ4,664
+pyNM/nonspiking_regressor.py,sha256=YKPMwzE24jU5enA82x1CUFOg8ZfQcOYwULfMJEfMyRY,1244
+pyNM/spiking_binary_classifier.py,sha256=lYBcqeUvtpt5Holomi1-VV_vyQhxkKjP0ov7ROzrWBU,17993
+pyNM/spiking_multiclass_classifier.py,sha256=Lug9F77TXHTAbXMhK2lDaW1GWLsM6rxxRUw-FYXBpMk,9960
+pyNM/spiking_regressor.py,sha256=eqi3JmrRijzSVL0VnSDLDLBvA0jc4jf1jbX0kDZL9YE,12488
+pynmsnn-0.0.1.data/scripts/pynmsnn_package,sha256=1IUWT9HK-bZRHFmtQFHZlEcsy9Jl-GRZy1XPWw4vah8,32
+pynmsnn-0.0.1.dist-info/METADATA,sha256=MZ6sr9MTiNlAU9vYaIPcLUTmFJem2CgOqXBT813FAqM,35139
+pynmsnn-0.0.1.dist-info/RECORD,,
+pynmsnn-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+pynmsnn-0.0.1.dist-info/top_level.txt,sha256=nVBCqKm8LkjrPsg2akNXk810UWBXtwMT_mEPRu4UV0Y,202

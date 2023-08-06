@@ -1,0 +1,11 @@
+torch<2.0.0,>=1.7.0
+flair
+transformers<5.0.0,>=4.0.0
+datasets<2.0.0,>=1.0.0
+fastai-minima>=0.0.8
+boto3>=1.17.54
+
+[dev]
+flake8
+black
+pytest

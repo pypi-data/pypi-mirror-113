@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pdcompare
+Version: 0.1.0
+Summary: Used to compare 2 pandas DataFrame objects
+Home-page: https://github.com/jaceiverson/pandas-compare
+Author: Jace Iverson
+Author-email: iverson.jace@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

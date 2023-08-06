@@ -1,0 +1,12 @@
+hagrid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hagrid/art.py,sha256=UtoKQZbF-TpE6Hp6aIW2DRnXXIicpwf4Wwboz55tWIs,3954
+hagrid/cli.py,sha256=myI4hcrF6N8OeYV93fVzC5i3dfgvFg50Lj5StjIMUiQ,10409
+hagrid/deps.py,sha256=Ydca89ttAdn2l5WpWiC000BRhcpqTLq8MJrFvaPoaLc,728
+hagrid/lib.py,sha256=7ZTgFK8t8kB4lURO3Qem2jIhd10dCnUHlVBnvIwA0CQ,5748
+hagrid/img/hagrid.png,sha256=IOc08lImcPWcmeejwJ2xPo9nkMtm8--u58AKyfo1Jjk,422216
+hagrid/img/hagrid2.png,sha256=tQ8jlOgb9lReN_OvRE8GgkEx2nqKu-BaypMLTmbfF9o,189910
+hagrid-0.1.1.dist-info/METADATA,sha256=yXzFdXG8ijZh8-tyKHJ7W0a60gQAcrDgqxH2XnUMXhk,432
+hagrid-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hagrid-0.1.1.dist-info/entry_points.txt,sha256=M36cBH8_gr2YLlOW-oVtI_4PUCpSD2n_zSBtgJ8I08c,43
+hagrid-0.1.1.dist-info/top_level.txt,sha256=-TR9sxCrpSuyAuQYReC8cOIQaVHHhnDPHTwGK-XkxBw,7
+hagrid-0.1.1.dist-info/RECORD,,

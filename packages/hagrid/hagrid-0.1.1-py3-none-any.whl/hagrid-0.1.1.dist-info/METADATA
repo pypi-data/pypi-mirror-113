@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hagrid
+Version: 0.1.1
+Summary: Happy Automation for Grid
+Home-page: UNKNOWN
+Author: Andrew Trask <andrew@openmined.org>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: names
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: ansible
+Requires-Dist: ansible-core
+Requires-Dist: paramiko
+Requires-Dist: rich
+Requires-Dist: ascii-magic
+Requires-Dist: gitpython
+
+UNKNOWN
+

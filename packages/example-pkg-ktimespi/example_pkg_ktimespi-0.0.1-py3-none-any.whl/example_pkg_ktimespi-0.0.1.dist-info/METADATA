@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: example-pkg-ktimespi
+Version: 0.0.1
+Summary: an example package
+Home-page: https://github.com/pypa/sampleproject
+Author: example_author
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is an example package being made for a tutorial. 
+
+

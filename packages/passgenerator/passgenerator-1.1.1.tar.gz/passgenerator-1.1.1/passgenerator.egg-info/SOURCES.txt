@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+passgenerator/__init__.py
+passgenerator/passgenerator.py
+passgenerator.egg-info/PKG-INFO
+passgenerator.egg-info/SOURCES.txt
+passgenerator.egg-info/dependency_links.txt
+passgenerator.egg-info/entry_points.txt
+passgenerator.egg-info/top_level.txt
+passgenerator/dictionary/words_english_6_char_plus.txt

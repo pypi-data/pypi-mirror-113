@@ -1,0 +1,5 @@
+tensorflow>=2.5.0
+calamari-ocr==1.0.*
+setuptools>=41.0.0
+click
+ocrd>=2.22.0

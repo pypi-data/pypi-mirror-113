@@ -1,0 +1,53 @@
+.select2-filter-row {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 10px 10px;
+}
+
+.select2-filter-row label {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    margin: .8em 0;
+    color: #666;
+}
+
+#changelist-filter ul {
+  margin: 0;
+  padding: 0 3px;
+}
+
+#changelist-filter ul li {
+  margin-left: 0 !important;
+  padding-left: 15px !important;
+}
+
+#changelist-filter ul li.selected {
+  margin-left: 0 !important;
+  padding-left: 10px !important;
+}
+
+#filter-confirm-row a {
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff !important;
+  background: #79aec8;
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+#filter-confirm-row a:hover {
+  color: #fff !important;
+  background: #609ab6 !important;
+}
+
+#filter-confirm-row a.clear {
+  background: #ba2121;
+}
+#filter-confirm-row a.clear:hover {
+  background: #a41515 !important;
+}

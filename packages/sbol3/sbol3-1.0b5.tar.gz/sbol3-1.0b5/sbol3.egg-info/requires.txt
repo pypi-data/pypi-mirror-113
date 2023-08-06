@@ -1,0 +1,5 @@
+rdflib==5
+rdflib-jsonld
+python-dateutil
+pyshacl==0.14
+requests

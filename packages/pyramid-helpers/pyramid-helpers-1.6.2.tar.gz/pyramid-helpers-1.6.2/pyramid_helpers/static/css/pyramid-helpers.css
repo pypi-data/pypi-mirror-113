@@ -1,0 +1,68 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.panel-heading h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.panel-login {
+    margin-top: 50px;
+}
+
+.page-header,
+.page-header h2 {
+    margin-top: 0;
+}
+
+footer {
+    border-top: 1px solid #DDDDDD;
+    background-color: #F8F8F8;
+    color: #666;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1001;
+}
+footer a {
+    color: #666;
+}
+footer a:hover {
+    color: #333;
+}
+
+.navbar-right {
+    margin-right: 15px;
+}
+
+table th {
+    position: relative;
+}
+table th span.fa {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+table th span.fa-sort-down::before {
+    content: "▼";
+}
+table th span.fa-sort-up::before {
+    content: "▲";
+}
+
+.page-link .fa {
+    font-style: normal;
+}
+.page-link .fa-chevron-left::before {
+    content: "❮";
+}
+.page-link .fa-chevron-right::before {
+    content: "❯";
+}
+
+.ph-pages + .ph-limit {
+    margin-left: 15px;
+}

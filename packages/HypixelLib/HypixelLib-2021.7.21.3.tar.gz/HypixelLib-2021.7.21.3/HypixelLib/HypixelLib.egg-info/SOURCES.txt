@@ -1,0 +1,8 @@
+License
+README.rst
+pyproject.toml
+setup.py
+HypixelLib/HypixelLib.egg-info/PKG-INFO
+HypixelLib/HypixelLib.egg-info/SOURCES.txt
+HypixelLib/HypixelLib.egg-info/dependency_links.txt
+HypixelLib/HypixelLib.egg-info/top_level.txt

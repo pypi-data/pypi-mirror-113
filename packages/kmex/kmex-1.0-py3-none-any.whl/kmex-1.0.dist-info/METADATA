@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kmex
+Version: 1.0
+Summary: model explainability
+Home-page: UNKNOWN
+Author: subhrajit mohanty
+Author-email: subhrajit.mohanty@katonic.ai
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: alibi-detect (==0.7.1)
+
+UNKNOWN
+
+

@@ -1,0 +1,12 @@
+numpy<2
+
+[tests]
+pytest
+coverage[toml]
+pre-commit
+black
+isort
+mypy
+flake8
+flake8-tidy-imports
+flake8-import-order

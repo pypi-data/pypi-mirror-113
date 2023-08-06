@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-aux
+Version: 0.0.1
+Summary: Python Utilities ft. pandas, matplotlib and more
+Home-page: https://github.com/kanodiaayush/python-utilities
+Author: kanodiaayush, kasince2k
+Author-email: kanodiaayush@gmail.com, kasince2k@gmail.com
+License: UNKNOWN
+Description: # python-utilities
+        Python Utilities, pandas, dask, matplotlib and the usual
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

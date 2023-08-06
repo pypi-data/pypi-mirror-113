@@ -1,0 +1,9 @@
+README.md
+setup.py
+pandas_utils/__init__.py
+pandas_utils/__main__.py
+python_aux.egg-info/PKG-INFO
+python_aux.egg-info/SOURCES.txt
+python_aux.egg-info/dependency_links.txt
+python_aux.egg-info/requires.txt
+python_aux.egg-info/top_level.txt

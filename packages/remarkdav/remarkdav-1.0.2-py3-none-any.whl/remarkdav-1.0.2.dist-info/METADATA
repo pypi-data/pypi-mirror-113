@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: remarkdav
+Version: 1.0.2
+Summary: A tool to sync webdav files (only PDF) to the reMarkable cloud
+Author: Jonathan Weth
+Author-email: dev@jonathanweth.de
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyPDF2 (>=1.26.0,<2.0.0)
+Requires-Dist: click (>=7.1.2,<9.0.0)
+Requires-Dist: dateparser (>=1.0.0,<2.0.0)
+Requires-Dist: dynaconf (>=3.1.2,<4.0.0)
+Requires-Dist: fpdf (>=1.7.2,<2.0.0)
+Requires-Dist: peewee (>=3.14.0,<4.0.0)
+Requires-Dist: rmapy (>=0.2.2,<0.4.0)
+Requires-Dist: webdavclient3 (>=3.14.5,<4.0.0)
+Description-Content-Type: text/x-rst
+
+remarkdav
+=========
+This is a small tool to sync webdav files (only PDF) to the reMarkable cloud (oneway).
+
+Setup (dev)
+-----------
+
+1. Get rmapi (Go CLI application)
+
+see instructions at https://github.com/juruen/rmapi
+
+2. Clone from Git
+
+.. code-block::
+
+    git clone git@github.com:hansegucker/remarkdav.git
+
+3. Get poetry
+
+See instructions at https://python-poetry.org/docs/#installation
+
+
+4. Install dependencies
+
+.. code-block::
+
+    $ cd remarkdav/ # Go to your cloned directory
+    $ poetry install
+
+5. Run
+
+.. code-block::
+
+    $ poetry run remarkdav
+
+Setup (production)
+------------------
+
+1. Get rmapi (Go CLI application)
+
+see instructions at https://github.com/juruen/rmapi
+
+2. Get it via poetry (use pip with Python 3)
+
+.. code-block::
+
+    $ sudo pip install -G remarkdav
+
+3. Run
+
+.. code-block::
+
+    $ remarkdav
+
+Configuration
+-------------
+Copy the example configuration file from ``settings-example.toml`` to ``/etc/remarkdav/settings.toml`` and customise it.
+
+
+Copyright
+---------
+© 2020 by Jonathan Weth <dev@jonathanweth.de>
+
+remarkdav is licenced under GPL-3.0.

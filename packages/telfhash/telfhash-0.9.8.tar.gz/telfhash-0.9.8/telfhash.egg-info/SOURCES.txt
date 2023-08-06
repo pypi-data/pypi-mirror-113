@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+NOTICE
+README.md
+setup.py
+telfhash/VERSION
+telfhash/__init__.py
+telfhash/__main__.py
+telfhash/grouping.py
+telfhash/telfhash.py
+telfhash.egg-info/PKG-INFO
+telfhash.egg-info/SOURCES.txt
+telfhash.egg-info/dependency_links.txt
+telfhash.egg-info/entry_points.txt
+telfhash.egg-info/not-zip-safe
+telfhash.egg-info/requires.txt
+telfhash.egg-info/top_level.txt

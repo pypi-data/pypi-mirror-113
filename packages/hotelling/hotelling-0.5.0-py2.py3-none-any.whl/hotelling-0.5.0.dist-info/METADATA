@@ -1,0 +1,128 @@
+Metadata-Version: 2.1
+Name: hotelling
+Version: 0.5.0
+Summary: Hotelling implements one and two sample Hotelling T2 tests and control charts
+Home-page: https://github.com/dionresearch/hotelling
+Author: Francois Dion
+Author-email: fdion@dionresearch.com
+License: MIT license
+Keywords: hotelling
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: click
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+Hotelling
+=========
+
+.. image:: https://img.shields.io/pypi/v/hotelling.svg
+        :target: https://pypi.python.org/pypi/hotelling
+
+
+Hotelling implements one and two sample Hotelling T^2 (T-squared) tests.
+It also implements Hotelling Control Charts (Multivariate) and multiple
+Univariate Control Charts
+
+.. figure:: https://github.com/dionresearch/hotelling/raw/master/png/hotelling_control_chart.png
+   :alt: Hotelling Control Chart
+
+   Hotelling Control Chart
+
+.. figure:: https://github.com/dionresearch/hotelling/raw/master/png/univariate_chart.png
+   :alt: Univariate Control Chart
+
+   Univariate Control Chart
+
+-  Free software: MIT license
+-  Documentation: https://dionresearch.github.io/hotelling/
+
+Features
+--------
+
+-  Stats module covering hotelling t^2 (t-squared) statistics, f-value
+   and p-value
+-  plots module covering Univariate Control Chart and Hotelling Control
+   Chart
+-  with the optional `plotly` module, provides interactive charts:
+
+.. figure:: https://github.com/dionresearch/hotelling/raw/master/png/interactive.png
+   :alt: Interactive Control Chart
+
+
+For this to work properly, you have to install `plotly` version 0.5 or greater. This is available from pypi, or through
+the plotly channel for conda: `conda install plotly -c plotly`
+
+Credits
+-------
+
+This package was created with
+`Cookiecutter <https://github.com/audreyr/cookiecutter>`__ and the
+`audreyr/cookiecutter-pypackage <https://github.com/audreyr/cookiecutter-pypackage>`__
+project template.
+
+.. |image| image:: https://img.shields.io/pypi/v/hotelling.svg
+   :target: https://pypi.python.org/pypi/hotelling
+.. |Documentation Status| image:: https://readthedocs.org/projects/hotelling/badge/?version=latest
+   :target: https://hotelling.readthedocs.io/en/latest/?badge=latest
+
+
+=======
+History
+=======
+
+0.5.0 (2021-07-20)
+------------------
+* Dask support
+* Update to latest plotly / matplotlib
+* many new tests
+
+0.4.3 (2021-03-28)
+------------------
+* plotly template(s) can be passed as argument
+* added cusum and cusum options
+* set last working matplotlib w/plotly mpl compatibility
+
+0.4.1 (2021-03-20)
+------------------
+* --chart option to cli
+* --output <filename} or 'stdout'  option to cli
+* support for sixel display with pysixel
+* improved documentation
+* flake8 cleanup, automation
+
+0.4.0 (2020-07-26)
+------------------
+
+* matplotlib as requirement
+* now with optional plotly support
+* keyword interactive for uni and multivariate control charts
+* bugfix, handling no outliers
+
+0.3.0 (2020-06-04)
+------------------
+
+* added multi and univariate control charts
+
+0.2.0 (2020-06-02)
+------------------
+
+* Added one sample T-squared test
+
+0.1.0 (2019-10-27)
+------------------
+
+* First release
+
+

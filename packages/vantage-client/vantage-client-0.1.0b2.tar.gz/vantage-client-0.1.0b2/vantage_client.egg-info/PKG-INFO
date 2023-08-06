@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vantage-client
+Version: 0.1.0b2
+Summary: Vantage
+Home-page: UNKNOWN
+Author-email: support@vantage.sh
+License: UNKNOWN
+Keywords: Swagger,Vantage
+Platform: UNKNOWN
+
+    Vantage API  # noqa: E501
+    
+

@@ -1,0 +1,2 @@
+upathlib>=0.5.0
+orjson

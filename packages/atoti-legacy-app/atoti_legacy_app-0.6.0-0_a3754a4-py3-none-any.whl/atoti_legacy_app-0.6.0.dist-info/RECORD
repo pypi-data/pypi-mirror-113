@@ -1,0 +1,11 @@
+atoti_legacy_app/LICENSE,sha256=xkndD_LVYRDiwPInejy1wR5voliJ6Oal1eOpQATAIxI,23068
+atoti_legacy_app/__init__.py,sha256=Mnto3JPh6v2wv5pAetjf-lZ1dhhq9jHKadACFuyW-xs,90
+atoti_legacy_app/_plugin.py,sha256=29xm4b3uGMjIQ_2JZZ-r09WrcE-1tSjHyurmsHsjQpU,797
+atoti_legacy_app/data/atoti-legacy-app.jar,sha256=9OAggts5Zdl1bD0kron_8zcSHHmy1g76zDnkDTEfbFU,2320404
+tests_legacy_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests_legacy_app/test_legacy.py,sha256=qqBI46vZYkMH81rRjh8HM0HwXfuAoHS48x1muuWvjVA,286
+atoti_legacy_app-0.6.0.dist-info/LICENSE,sha256=xkndD_LVYRDiwPInejy1wR5voliJ6Oal1eOpQATAIxI,23068
+atoti_legacy_app-0.6.0.dist-info/METADATA,sha256=_11zrRYOZWbo3N_FTqb1V-r--fDJt9xCpMEQf0qlj2M,816
+atoti_legacy_app-0.6.0.dist-info/WHEEL,sha256=8mbI0SfGSLWrHUn5U04xTBpRjfzYSkfszirtIOBRLfg,109
+atoti_legacy_app-0.6.0.dist-info/top_level.txt,sha256=gP_Dd6E6ZDybNry9xyLtF8nvQsITpGjYxwt3-5o_8cc,34
+atoti_legacy_app-0.6.0.dist-info/RECORD,,

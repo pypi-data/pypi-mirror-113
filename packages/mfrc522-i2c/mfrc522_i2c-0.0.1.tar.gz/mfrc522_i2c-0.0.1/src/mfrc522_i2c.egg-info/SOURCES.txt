@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mfrc522_i2c.egg-info/PKG-INFO
+src/mfrc522_i2c.egg-info/SOURCES.txt
+src/mfrc522_i2c.egg-info/dependency_links.txt
+src/mfrc522_i2c.egg-info/top_level.txt
+src/mfrc522_ic2/__init__.py
+src/mfrc522_ic2/mfrc522_i2c.py

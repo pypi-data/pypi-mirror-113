@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+polyscope_persistence.egg-info/PKG-INFO
+polyscope_persistence.egg-info/SOURCES.txt
+polyscope_persistence.egg-info/dependency_links.txt
+polyscope_persistence.egg-info/top_level.txt

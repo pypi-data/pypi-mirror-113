@@ -1,0 +1,13 @@
+README.md
+setup.py
+copilotcleaner/__init__.py
+copilotcleaner/code_tokens.py
+copilotcleaner/dir_walker.py
+copilotcleaner/remove_tokens.py
+copilotcleaner/run.py
+copilotcleaner.egg-info/PKG-INFO
+copilotcleaner.egg-info/SOURCES.txt
+copilotcleaner.egg-info/dependency_links.txt
+copilotcleaner.egg-info/entry_points.txt
+copilotcleaner.egg-info/requires.txt
+copilotcleaner.egg-info/top_level.txt

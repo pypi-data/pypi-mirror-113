@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Scmepy/Scmepy.py
+src/Scmepy/__init__.py
+src/Scmepy.egg-info/PKG-INFO
+src/Scmepy.egg-info/SOURCES.txt
+src/Scmepy.egg-info/dependency_links.txt
+src/Scmepy.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+CADS/__init__.py,sha256=KCjl3z_7u_eNzxJ1Vx7ezs5tXAhSqPqZjVHmRcff97s,92761
+CADS/__main__.py,sha256=8Z33wE_-uexF2sZRfw9EV5n8QWmUYqgzX8F7cdMo9pM,180966
+CADS/DATA/LOGO.gif,sha256=K1uS61gHrE12NrOczJCyps_s8kNqrxn3pG3LCFkg-Vk,5606
+CADS/Database/CMEMS_Database.json,sha256=UbjcWm-Fbbd0GEZNtTEMbQhHcVjIJlRWRSUkKgEV5xc,29977
+CADS/Database/datasets_MY.pdf,sha256=0gYqOifqMEP6dc9B5GLQd8PgFwTBjwiTWRylsziRIDs,313474
+CADS/Script/CMEMS_Database.json,sha256=UbjcWm-Fbbd0GEZNtTEMbQhHcVjIJlRWRSUkKgEV5xc,29977
+CADS/Script/FTPsubsetMO.py,sha256=S_18_bLHwsjolLJ-xrS1CRKrsmh7CPhXa9XDBwP2n0M,44486
+CADS-0.0.1.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+CADS-0.0.1.dist-info/METADATA,sha256=lin_CNviUDyucBnR311aNpKJXpuc2qp0csTjatTJuAA,1314
+CADS-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CADS-0.0.1.dist-info/entry_points.txt,sha256=8dqJRW9CBNB5ojGdyI9LJOrYnYoFisaeCwhGzSKMeBA,45
+CADS-0.0.1.dist-info/top_level.txt,sha256=oBwPsz6vZa7m4G6J120bsIAimBA27yiRQmeMS7swxwg,5
+CADS-0.0.1.dist-info/RECORD,,

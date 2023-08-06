@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bidamic/__init__.py
+bidamic/bidamic.py
+bidamic_challenge.egg-info/PKG-INFO
+bidamic_challenge.egg-info/SOURCES.txt
+bidamic_challenge.egg-info/dependency_links.txt
+bidamic_challenge.egg-info/requires.txt
+bidamic_challenge.egg-info/top_level.txt

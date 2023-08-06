@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyPiPro/__init__.py
+PypiPro.egg-info/PKG-INFO
+PypiPro.egg-info/SOURCES.txt
+PypiPro.egg-info/dependency_links.txt
+PypiPro.egg-info/requires.txt
+PypiPro.egg-info/top_level.txt

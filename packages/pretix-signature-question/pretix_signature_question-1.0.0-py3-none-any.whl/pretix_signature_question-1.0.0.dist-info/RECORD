@@ -1,0 +1,16 @@
+pretix_signature_question/__init__.py,sha256=p8MOKV276v98l0DF1vVlwEl2nmZrdAmeqWa0_Ay-WiU,756
+pretix_signature_question/signals.py,sha256=LeuGg1eMoYrwNEI9tg3mPpMND2hOUIZEFE6Bk0uzajg,381
+pretix_signature_question/locale/de/LC_MESSAGES/django.po,sha256=Sc5nQzOj37CuoeScnoYOvBzZj4sQQ6TrREaeqXxdvkw,306
+pretix_signature_question/locale/de_Informal/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_signature_question/locale/de_Informal/LC_MESSAGES/django.po,sha256=Sc5nQzOj37CuoeScnoYOvBzZj4sQQ6TrREaeqXxdvkw,306
+pretix_signature_question/static/pretix_signature_question/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_signature_question/static/pretix_signature_question/jSignature.min.js,sha256=FPsIrTzAyFFoBKSYkuUU1SGQtpNF5YN6mQYhxf6qzu4,21715
+pretix_signature_question/static/pretix_signature_question/main.js,sha256=-IywlNnG3eh85oQJoQ92T_-bxQZayKwSkHjjmx9xIdo,1520
+pretix_signature_question/templates/pretix_signature_question/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_signature_question/templates/pretix_signature_question/presale_head.html,sha256=10IPi7q90xKsgWvFCNLoliBgUKOLLSD_aH-cRSDe4Rs,240
+pretix_signature_question-1.0.0.dist-info/LICENSE,sha256=U-daPQZvn52u4P-LJ43nU14T_9mZRz2tlloUUe_tglY,549
+pretix_signature_question-1.0.0.dist-info/METADATA,sha256=fJcTo1NM_wVm6xpSg310PZbAZLM1tu_AJLjIpbLs6tI,1631
+pretix_signature_question-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pretix_signature_question-1.0.0.dist-info/entry_points.txt,sha256=1ix9GK9N1EdjLXNYQocTNnPnCuqHYiXaTx9H5C5A2Q8,86
+pretix_signature_question-1.0.0.dist-info/top_level.txt,sha256=5aDQlVNAwHGBR3OZ941q3mvNDzYYb_0Ro7IbWbVeCAM,26
+pretix_signature_question-1.0.0.dist-info/RECORD,,

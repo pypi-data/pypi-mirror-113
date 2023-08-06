@@ -1,0 +1,3 @@
+
+[pretix.plugin]
+pretix_signature_question=pretix_signature_question:PretixPluginMeta

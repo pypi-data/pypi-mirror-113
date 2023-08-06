@@ -1,0 +1,2 @@
+itanium_demangler>=1.0
+pyelftools>=0.27

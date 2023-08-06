@@ -1,0 +1,3 @@
+[console_scripts]
+proptool = proptool.main:Main.start
+

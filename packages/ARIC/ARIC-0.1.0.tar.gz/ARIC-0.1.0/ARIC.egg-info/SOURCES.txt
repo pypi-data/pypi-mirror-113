@@ -1,0 +1,10 @@
+README.rst
+setup.py
+ARIC/__init__.py
+ARIC/deconvolution.py
+ARIC/functions.py
+ARIC.egg-info/PKG-INFO
+ARIC.egg-info/SOURCES.txt
+ARIC.egg-info/dependency_links.txt
+ARIC.egg-info/requires.txt
+ARIC.egg-info/top_level.txt

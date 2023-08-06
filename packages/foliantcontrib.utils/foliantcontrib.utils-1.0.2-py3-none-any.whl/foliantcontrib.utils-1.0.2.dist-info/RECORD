@@ -1,0 +1,12 @@
+foliant/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foliant/contrib/chapters.py,sha256=VEYuJ6GERx5D7tD1W4td4Hlan93Zc2hhqCQJFHklPZw,5393
+foliant/contrib/combined_options.py,sha256=b6qUkaip8OhcR8iWSJBY5K6e-nFoOy7SD6s8LwZAKd8,11592
+foliant/contrib/header_anchors.py,sha256=FRMpgpK0Dgbf3lPMX1NrWuuHGWKfPfuNdF24_zVD-UI,8686
+foliant/contrib/utils.py,sha256=_so5_JoQu3-7sPZ2UV3kTp6xKiJDTVjHVzFMQTIZaQg,1260
+foliant/preprocessors/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foliant/preprocessors/utils/preprocessor_ext.py,sha256=tqTgiFd-DC0WGZLJQCHNM_YdB3NkOCucqGD2gF2AmjM,7493
+foliantcontrib.utils-1.0.2.dist-info/LICENSE,sha256=PcpIEXOcZ-oV3M2SNR9hp93rNJiGp6IPAElRlkoQs0g,1069
+foliantcontrib.utils-1.0.2.dist-info/METADATA,sha256=1NhPxLJQbjxVnaHe88yxHwFWGhF_swWX6XzHpSmWm0k,1674
+foliantcontrib.utils-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foliantcontrib.utils-1.0.2.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.utils-1.0.2.dist-info/RECORD,,

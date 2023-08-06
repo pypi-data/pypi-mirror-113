@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: saber-primo
+Version: 1.0
+Summary: Un programa para saber si un número es primo o no.
+Home-page: UNKNOWN
+Author: José Manuel Nonídez
+Author-email: surcedio@gmail.com
+License: GNU GPLv3
+Keywords: primo divisor
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+***********
+saber_primo
+***********
+
+FunciÃ³n que nos resuelve si un nÃºmero es primo o no y en caso de serlo tambiÃ©n nos dice porque numero es divisible.
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+

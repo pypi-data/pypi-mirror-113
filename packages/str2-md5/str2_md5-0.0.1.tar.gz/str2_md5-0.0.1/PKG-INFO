@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: str2_md5
+Version: 0.0.1
+Summary: Hello pip
+Home-page: https://github.com/fsym5320
+Author: Jacks
+Author-email: fsym5320@163.com
+License: UNKNOWN
+Description: str转换大写MD5格式方法
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

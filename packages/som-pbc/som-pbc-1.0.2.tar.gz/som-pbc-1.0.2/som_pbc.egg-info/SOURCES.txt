@@ -1,0 +1,8 @@
+README.rst
+setup.py
+som/__init__.py
+som_pbc.egg-info/PKG-INFO
+som_pbc.egg-info/SOURCES.txt
+som_pbc.egg-info/dependency_links.txt
+som_pbc.egg-info/requires.txt
+som_pbc.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+import scpreader
+
+scpreader.main()

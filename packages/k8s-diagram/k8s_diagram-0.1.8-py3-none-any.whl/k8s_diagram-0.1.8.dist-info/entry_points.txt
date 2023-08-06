@@ -1,0 +1,3 @@
+[console_scripts]
+k8s-diagram=k8s_diagram.app:app
+

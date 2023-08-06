@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: codedepth
+Version: 0.1.9
+Summary: Generates scores for how many layers of local imports/exports are in a file
+Home-page: https://github.com/immijimmi/codedepth
+Author: immijimmi
+Author-email: imranhamid99@msn.com
+License: MIT
+Download-URL: https://github.com/immijimmi/codedepth/archive/refs/tags/v0.1.9.tar.gz
+Description: # codedepth
+        
+        ###### Generates scores for how many layers of local imports/exports are in a file
+        
+        ## Dependencies
+        
+        You will need Graphviz installed as an application - installation instructions can be found at https://graphviz.org/download/
+        
+        ## Quickstart
+        
+        From the command line (this will use default parameters and output a ranked directional graph as a PDF):
+        
+        ```
+        > python -m codedepth <path of the target directory>
+        ```
+        The PDF will be generated in the working directory.
+        If `<path of the target directory>` is omitted, the working directory will be used as the target.
+        
+        In a python script:
+        
+        ```python
+        from codedepth import Scorer
+        
+        scorer = Scorer(r"<path of the target directory>")  # Replace this path string with your own
+        
+        # Calculates scores for all files in the target directory
+        scorer.parse_all()
+        
+        """
+        Generates a PDF saved in the working directory,
+        containing a ranked directional graph of the file dependencies for the target directory.
+        Once this is generated, it will be opened automatically.
+        Also generates and saves a file containing the DOT code required to create the graph
+        """
+        scorer.plot_ranked()
+        ```
+        
+Keywords: abstraction,level,directory,abstract,imports,import
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

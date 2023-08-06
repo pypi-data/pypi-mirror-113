@@ -1,0 +1,7 @@
+pip
+packaging
+onnx
+pytorch
+tensorflow
+
+[dev]

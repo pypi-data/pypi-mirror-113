@@ -1,0 +1,9 @@
+docker: ghcr.io/autamus/boost
+url: https://github.com/orgs/autamus/packages/container/package/boost
+maintainer: '@vsoch'
+description: The Boost project provides free peer-reviewed portable C++ source libraries.
+latest:
+  1.75.0: sha256:aa847b8734ef0ca8b2a350bd22e97dd24fc882f81d824bfc713f6c6fa40d0899
+tags:
+  1.75.0: sha256:aa847b8734ef0ca8b2a350bd22e97dd24fc882f81d824bfc713f6c6fa40d0899
+  latest: sha256:aa847b8734ef0ca8b2a350bd22e97dd24fc882f81d824bfc713f6c6fa40d0899

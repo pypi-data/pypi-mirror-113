@@ -1,0 +1,25 @@
+docker: ghcr.io/autamus/hmmer
+url: https://github.com/orgs/autamus/packages/container/package/hmmer
+maintainer: '@vsoch'
+description: HMMER is used for searching sequence databases for sequence homologs,
+  and for making sequence alignments.
+latest:
+  3.3.2: sha256:2abcac1e9f0400eed22e31ce6e28df62e9607c979016a4e5090fd64cd4e3fe75
+tags:
+  "3.3": sha256:87ac88c3db4f5a80af3701ceb43e29fac4fdab86db71f6763425881f28f51335
+  3.3.2: sha256:2abcac1e9f0400eed22e31ce6e28df62e9607c979016a4e5090fd64cd4e3fe75
+  latest: sha256:2abcac1e9f0400eed22e31ce6e28df62e9607c979016a4e5090fd64cd4e3fe75
+aliases:
+  hmmalign: /opt/view/bin/hmmalign
+  hmmbuild: /opt/view/bin/hmmbuild
+  hmmconvert: /opt/view/bin/hmmconvert
+  hmmemit: /opt/view/bin/hmmemit
+  hmmfetch: /opt/view/bin/hmmfetch
+  hmmlogo: /opt/view/bin/hmmlogo
+  hmmpgmd: /opt/view/bin/hmmpgmd
+  hmmpgmd_shard: /opt/view/bin/hmmpgmd_shard
+  hmmpress: /opt/view/bin/hmmpress
+  hmmscan: /opt/view/bin/hmmscan
+  hmmsearch: /opt/view/bin/hmmsearch
+  hmmsim: /opt/view/bin/hmmsim
+  hmmstat: /opt/view/bin/hmmstat

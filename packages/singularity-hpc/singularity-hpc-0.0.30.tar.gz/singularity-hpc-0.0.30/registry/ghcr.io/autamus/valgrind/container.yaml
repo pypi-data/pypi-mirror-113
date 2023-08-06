@@ -1,0 +1,13 @@
+docker: ghcr.io/autamus/valgrind
+url: https://github.com/orgs/autamus/packages/container/package/valgrind
+maintainer: '@vsoch'
+description: 'A suite of tools for debugging and profiling. '
+latest:
+  3.17.0: sha256:0301861f6d2aea217f4e8640187fc90baa7f0a9f8efb8aebfb0e059e43bebeb8
+tags:
+  3.17.0: sha256:0301861f6d2aea217f4e8640187fc90baa7f0a9f8efb8aebfb0e059e43bebeb8
+  latest: sha256:0301861f6d2aea217f4e8640187fc90baa7f0a9f8efb8aebfb0e059e43bebeb8
+aliases:
+  valgrind: /opt/view/bin/valgrind
+  valgrind-di-server: /opt/view/bin/valgrind-di-server
+  valgrind-listener: /opt/view/bin/valgrind-listener

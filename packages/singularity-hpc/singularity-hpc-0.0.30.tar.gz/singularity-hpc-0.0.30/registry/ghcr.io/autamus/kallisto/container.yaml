@@ -1,0 +1,13 @@
+docker: ghcr.io/autamus/kallisto
+url: https://github.com/orgs/autamus/packages/container/package/kallisto
+maintainer: '@vsoch'
+description: kallisto is a program for quantifying abundances of transcripts from
+  bulk and single-cell RNA-Seq data, or more generally of target sequences using high-throughput
+  sequencing reads.
+latest:
+  0.46.2: sha256:885896b7cfe5bdcccddb38d9bec59cf4023df33ec1815eaab2300f0594be216a
+tags:
+  0.46.2: sha256:885896b7cfe5bdcccddb38d9bec59cf4023df33ec1815eaab2300f0594be216a
+  latest: sha256:885896b7cfe5bdcccddb38d9bec59cf4023df33ec1815eaab2300f0594be216a
+aliases:
+  kallisto: /opt/view/bin/kallisto

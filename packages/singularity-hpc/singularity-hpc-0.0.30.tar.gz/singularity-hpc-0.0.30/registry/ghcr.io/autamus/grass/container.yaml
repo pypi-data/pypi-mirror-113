@@ -1,0 +1,13 @@
+docker: ghcr.io/autamus/grass
+url: https://github.com/orgs/autamus/packages/container/package/grass
+maintainer: '@vsoch'
+description: GRASS GIS (https://grass.osgeo.org/) is a Geographic Information System
+  used for geospatial data management and analysis, image processing, graphics/map
+  production, spatial modeling, and visualization.
+latest:
+  7.8.5: sha256:a541f7fa6cb28e8c377e7a70d7be60cd2c8580007cd4c7b779201fb9f9234620
+tags:
+  7.8.5: sha256:a541f7fa6cb28e8c377e7a70d7be60cd2c8580007cd4c7b779201fb9f9234620
+  latest: sha256:a541f7fa6cb28e8c377e7a70d7be60cd2c8580007cd4c7b779201fb9f9234620
+aliases:
+  grass78: /opt/view/bin/grass78

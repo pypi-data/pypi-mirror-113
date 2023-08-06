@@ -1,0 +1,10 @@
+docker: ghcr.io/autamus/mpc
+url: https://github.com/orgs/autamus/packages/container/package/mpc
+maintainer: '@vsoch'
+description: 'mithi/mpc: A software pipeline using the Model Predictive Control method
+  to drive a car around a virtual track.'
+latest:
+  1.1.0: sha256:497deb4c62bc1e7c6a0571eac110234cf49e97927771148042cd6218d674b3c3
+tags:
+  1.1.0: sha256:497deb4c62bc1e7c6a0571eac110234cf49e97927771148042cd6218d674b3c3
+  latest: sha256:497deb4c62bc1e7c6a0571eac110234cf49e97927771148042cd6218d674b3c3

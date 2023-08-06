@@ -1,0 +1,13 @@
+periodicity/__init__.py,sha256=tM4OzKEXDJrB_oMpdsHmEDBETQ2B3IxEa8FQx2wa6_U,43
+periodicity/core.py,sha256=cdvyti3ny6o7KfGi1QGt9YMUH-ckSgSOKI2ByRIphuI,20617
+periodicity/decomposition.py,sha256=0lQ7Vj-89m4vKJbz361tFZ0aY7IU6cU6DcgU8dh5u9c,13422
+periodicity/gp.py,sha256=t5u4MJ2HiGRFly5qeqjZFlgnWFdgb-BoFh29FSvsC8s,12485
+periodicity/phase.py,sha256=FLAJqaHOogNjVnRnRdBrh2pG7ArXnLMMh2VyHaS0LRE,6359
+periodicity/spectral.py,sha256=syFbt90inh9QzYH2DCJNXADQrTsZWQ0B2OBuoRe_iKo,6793
+periodicity/timefrequency.py,sha256=Wx0P1ImE80jM0BB3Eg7DO3VU3fjaQBw2wwaOhAbutCU,9146
+periodicity/data/__init__.py,sha256=_hSv9-S-2XJueohSeIXn1uqGs_jrePVEIO0DjHHW-rM,4521
+periodicity-1.0b3.dist-info/LICENSE,sha256=bllgBmlTpGVdF7VuVXp36_eqFRwDPvBAK33-9XhY-Mw,1069
+periodicity-1.0b3.dist-info/METADATA,sha256=LIrdu_F3TL7SxeniqH0TVrNWhDFF8eXZFi583AxL-0U,2913
+periodicity-1.0b3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+periodicity-1.0b3.dist-info/top_level.txt,sha256=7s_6eB_hrUXAvFt600CboHTuhRIff7W5qVZ4JyBNmJA,12
+periodicity-1.0b3.dist-info/RECORD,,

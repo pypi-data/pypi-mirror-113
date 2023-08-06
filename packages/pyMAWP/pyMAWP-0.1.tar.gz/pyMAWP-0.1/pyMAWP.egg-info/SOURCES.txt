@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyMAWP/__init__.py
+pyMAWP/pyMAWP.py
+pyMAWP.egg-info/PKG-INFO
+pyMAWP.egg-info/SOURCES.txt
+pyMAWP.egg-info/dependency_links.txt
+pyMAWP.egg-info/requires.txt
+pyMAWP.egg-info/top_level.txt

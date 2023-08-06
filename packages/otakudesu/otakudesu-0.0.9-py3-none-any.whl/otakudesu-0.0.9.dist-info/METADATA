@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: otakudesu
+Version: 0.0.9
+Summary: Otakudesu Scrapper
+Home-page: https://github.com/MhankBarBar/otakudesu
+Author: MhankBarBar
+Author-email: mhankbarbar@yes.my
+License: MIT
+Download-URL: https://github.com/MhankBarBar/otakudesu/archive/0.0.9.tar.gz
+Keywords: anime,anime sub indo,anime scrapper,animeindo,animelovers,otakudesu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: validators
+Requires-Dist: requests
+Requires-Dist: bs4
+
+# Install
+
+```bash
+> pip install otakudesu
+```
+# Run on terminal
+
+```bash
+> python -m otakudesu
+```
+# Python Interpreter
+## Search by query
+```python
+>>> from otakudesu import OtakuDesu
+>>> otakudesu = OtakuDesu()
+>>> x=otakudesu.search('Saenai heroine')
+>>> x.result
+```
+## Get from schedule
+```python
+>>> from otakudesu import OtakuDesu
+>>> otakudesu = OtakuDesu()
+>>> x=otakudesu.getSchedule
+>>> x.result
+```
+## ByUrl
+```python
+>>> from otakudesu import OtakuDesu
+>>> otakudesu = OtakuDesu()
+>>> x=otakudesu.byUrl('https://otakudesu.moe/anime/saenai-heroine-subtitle-indonesia/')
+>>> x
+```
+
+

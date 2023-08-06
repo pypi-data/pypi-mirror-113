@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: miniwdl-aws
+Version: 0.0.1
+Summary: miniwdl AWS backend (Batch+EFS)
+Home-page: UNKNOWN
+Author: Wid L. Hacker
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

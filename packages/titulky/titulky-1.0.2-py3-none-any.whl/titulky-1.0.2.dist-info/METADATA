@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: titulky
+Version: 1.0.2
+Summary: Tiny SubRip subtitles editor
+Home-page: http://pypi.org/project/titulky/
+Author: Alexander Theler
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/atheler/titulky
+Project-URL: Bug Tracker, https://github.com/atheler/titulky/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Titulky
+
+Tiny Python SubRip editor. Display infos, shift and re-fit timestamps. 
+
+## Installation
+
+Use the package manager pip to install titulky.
+
+```bash
+pip3 install titulky
+```
+
+## Usage
+
+Display informations for some `.srt` file.
+
+```bash
+python3 titulky.py test.srt
+```
+
+Shift subtitles by some amount.
+
+```bash
+python3 titulky.py test.srt shift "12.34"
+```
+
+Refit subtitles to some interval.
+
+```bash
+python3 titulky.py test.srt shift "1:23.456" "2:34:56"
+```
+
+By default titulky writes to stdout. You can write the output to a file with
+
+```bash
+python3 titulky.py test.srt shift 5.0 --outfile out.srt
+```
+
+

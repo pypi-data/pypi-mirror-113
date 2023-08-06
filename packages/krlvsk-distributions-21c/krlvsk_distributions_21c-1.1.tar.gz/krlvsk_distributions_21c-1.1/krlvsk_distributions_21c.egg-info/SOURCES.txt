@@ -1,0 +1,10 @@
+setup.py
+krlvsk_distributions_21c/Binomialdistribution.py
+krlvsk_distributions_21c/Gaussiandistribution.py
+krlvsk_distributions_21c/Generaldistribution.py
+krlvsk_distributions_21c/__init__.py
+krlvsk_distributions_21c.egg-info/PKG-INFO
+krlvsk_distributions_21c.egg-info/SOURCES.txt
+krlvsk_distributions_21c.egg-info/dependency_links.txt
+krlvsk_distributions_21c.egg-info/not-zip-safe
+krlvsk_distributions_21c.egg-info/top_level.txt

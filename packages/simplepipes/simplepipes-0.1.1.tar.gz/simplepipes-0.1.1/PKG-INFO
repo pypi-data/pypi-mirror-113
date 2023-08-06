@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: simplepipes
+Version: 0.1.1
+Summary: A python library to interact with other programming languages that support the simplepipes project.
+Home-page: https://github.com/Matthias1590/SimplePipes
+Author: Matthias Wijnsma
+Author-email: matthiasx95@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8

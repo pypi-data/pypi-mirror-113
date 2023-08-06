@@ -1,0 +1,8 @@
+README.rst
+setup.py
+simplepipes/__init__.py
+simplepipes.egg-info/PKG-INFO
+simplepipes.egg-info/SOURCES.txt
+simplepipes.egg-info/dependency_links.txt
+simplepipes.egg-info/requires.txt
+simplepipes.egg-info/top_level.txt

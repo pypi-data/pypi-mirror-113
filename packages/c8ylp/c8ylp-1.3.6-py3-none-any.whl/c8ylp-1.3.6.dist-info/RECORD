@@ -1,0 +1,14 @@
+c8ylp/__init__.py,sha256=EuufFF1qMgEUPhSJtV-8SXZekLMeVNDHcuqF5BJO5-Y,28
+c8ylp/main.py,sha256=muXMBFOuT-0qGrPD7UZ2EML3q8nqRtrYd6EmTKjb5wE,11109
+c8ylp/rest_client/__init__.py,sha256=N61eLMgzgVGaOVYQ6_-THCoFIBizl0WMUuHrAcl_rF8,733
+c8ylp/rest_client/c8yclient.py,sha256=gnCAQx2lkkuJ5ZAVJ0bB_oH2uNpUI1DGLZYdVXzaWyM,8788
+c8ylp/tcp_socket/__init__.py,sha256=a3sU_cfZIrYq2ni4OqIchB_7J7ReIjMw4ZKA3gjFHpg,726
+c8ylp/tcp_socket/tcp_server.py,sha256=zZmEnkOldWbbTRdK550DmBHtPzJxAb5jhwGRUbLHN-k,5542
+c8ylp/websocket_client/__init__.py,sha256=72LaoQBA-8lyufAvyfuY2v5v2jBnP0ALKbcfw587Sbs,737
+c8ylp/websocket_client/ws_client.py,sha256=DHWbIS_9-2HrJBTsWddnKRrkz-XACMsrwGkE9WkbId8,6428
+c8ylp-1.3.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+c8ylp-1.3.6.dist-info/METADATA,sha256=x6klrxkz22jWnaSl5ItY4GqUbo1CXLex_2liU2xn8gA,278
+c8ylp-1.3.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+c8ylp-1.3.6.dist-info/entry_points.txt,sha256=1gjrKYBVvC6a2eOlfV_m_nN60pDPS_XFnXuNfQW7MPI,44
+c8ylp-1.3.6.dist-info/top_level.txt,sha256=fh93EuxFxcC4L0vRJh5cCOEvC4rhWHfge1cnOcSKHMg,6
+c8ylp-1.3.6.dist-info/RECORD,,

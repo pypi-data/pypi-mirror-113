@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: primosPython
+Version: 1.0
+Summary: A tool to calculate prime numbers
+Home-page: UNKNOWN
+Author: Daniel Medina
+Author-email: danielmedina1343@gmail.com
+License: GNU GPLv3
+Keywords: prime numbers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+
+PRIMO
+*****************************
+
+Este es un ejemplo de una funciÃ³n en Python para calcular los nÃºmeros primos entre 1 y n, donde n es un parÃ¡metro de la funciÃ³n.
+This program is free software: You can redistribute it and/or modify it under the terms of license by The Free Software Foundation, either version 3 of the license(at your option) any other version.
+
+

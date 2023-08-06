@@ -1,0 +1,17 @@
+trio>=0.18.0
+outcome
+async_generator
+attrs>=17.3.0
+cffi
+
+[docs]
+sphinx>3.5.0
+sphinx_rtd_theme
+sphinxcontrib-trio
+towncrier
+
+[test]
+pytest
+pytest-trio
+pytest-cov
+coverage[toml]

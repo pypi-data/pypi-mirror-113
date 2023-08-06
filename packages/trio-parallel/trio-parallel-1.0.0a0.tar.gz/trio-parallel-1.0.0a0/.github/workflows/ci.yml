@@ -1,0 +1,192 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  release:
+    types: [ published ]
+
+jobs:
+  Blacken:
+    name: 'Formatting and linting'
+    timeout-minutes: 2
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Setup python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: '3.8'
+      - name: Pip cache
+        uses: actions/cache@v2.1.6
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-black-${{ hashFiles('**/requirements/lint.txt') }}
+      - name: Install tools
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements/lint.txt
+      - name: Run Black
+        id: black
+        run: black --check trio_parallel
+        continue-on-error: true
+      - name: Run flake8
+        id: flake8
+        run: flake8 trio_parallel/ --ignore=D,E,W,F401,F403,F405,F821,F822
+        continue-on-error: true
+      - name: Fail on error
+        if: steps.black.outcome != 'success' || steps.flake8.outcome != 'success'
+        run: exit 1
+
+  Build:
+    name: Build
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    outputs:
+      wheelname: ${{ steps.outputs.outputs.wheelname }}
+      settings: ${{ steps.outputs.outputs.settings }}
+      cachehash: ${{ steps.outputs.outputs.cachehash }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+        with:
+          fetch-depth: 0
+      - name: Setup python
+        uses: actions/setup-python@v2.2.2
+      - name: Pip cache
+        uses: actions/cache@v2.1.6
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-build-${{ hashFiles('**/requirements/build.txt') }}
+      - name: Build sdist wheel
+        run: |
+          python -m pip install -U pip setuptools
+          python -m pip install -r requirements/build.txt
+          python -m build --no-isolation  # already isolated & build deps pinned
+      - name: Set outputs
+        id: outputs
+        run: |
+          echo "::set-output name=wheelname::$( echo ./dist/*.whl )"
+          echo "::set-output name=settings::$( tar cz pyproject.toml requirements/test.txt | base64 -w 0 )"
+          echo "::set-output name=cachehash::${{ hashFiles('**/requirements/test.txt') }}"
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: Build
+#         by default build puts sdist and wheel here
+          path: dist/
+          if-no-files-found: error
+
+  Test:
+    name: 'Test ${{ matrix.os }} (${{ matrix.python }} ${{ matrix.arch }})'
+    needs: Build
+    timeout-minutes: 10
+    runs-on: ${{ matrix.os }}
+    continue-on-error: ${{ matrix.experimental }}
+    strategy:
+      fail-fast: false
+      matrix:
+        experimental: [ false ]
+        os:
+          - windows-latest
+          - ubuntu-latest
+          - macos-latest
+        python:
+          - '3.6'
+          - '3.7'
+          - '3.8'
+          - '3.9'
+          - 'pypy-3.6'
+          - 'pypy-3.7'
+        arch: [ x64, x86 ]
+        include:
+          - os: ubuntu-latest
+            python: 'pypy-3.7-nightly'
+            arch: x64
+            experimental: true
+          - os: ubuntu-latest
+            python: '3.10-dev'
+            arch: x64
+            experimental: true
+        exclude:
+          - os: windows-latest
+            python: 'pypy-3.6'
+          - os: windows-latest
+            python: 'pypy-3.7'
+          - os: ubuntu-latest
+            arch: x86
+          - os: macos-latest
+            arch: x86
+    steps:
+      - name: Setup python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: '${{ matrix.python }}'
+          architecture: '${{ matrix.arch }}'
+      - name: Pip cache
+        uses: actions/cache@v2.1.6
+        with:
+          path: |
+            ~/AppData/Local/pip/Cache
+            ~/.cache/pip
+            ~/Library/Caches/pip
+          key: ${{ matrix.os }}-pip-${{ matrix.arch }}-${{ matrix.python }}-${{ needs.Build.outputs.cachehash }}
+      - name: Download build artifact
+        uses: actions/download-artifact@v2.0.10
+        with:
+          name: Build
+          path: dist
+      - name: Input settings
+        run: echo "${{ needs.Build.outputs.settings }}" | base64 -d | tar xz
+        shell: bash
+      - name: Run tests
+        run: |
+          python -m pip install -U pip
+          python -m pip install -r requirements/test.txt
+          python -m pip install ${{ needs.Build.outputs.wheelname }}
+          pytest --pyargs trio_parallel -W error -r a --cov=trio_parallel --verbose \
+          --cov-report xml:coverage-${{ matrix.os }}-${{ matrix.arch }}-${{ matrix.python }}.xml 
+        shell: bash
+      - name: Upload coverage
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          name: Coverage
+          # Codecov-bash-uploader's match is '*coverage*.*'
+          path: coverage-${{ matrix.os }}-${{ matrix.arch }}-${{ matrix.python }}.xml
+          if-no-files-found: error
+
+  Codecov: # Codecov is naughty and will be forever isolated
+    name: Codecov
+    if: always()
+    needs: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+      - name: Download coverage artifact
+        uses: actions/download-artifact@v2.0.10
+        with:
+          name: Coverage
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v2.0.1
+        with:
+          fail_ci_if_error: true
+
+  Publish:
+    name: Publish
+    if: github.event_name == 'release'
+    needs: [ Blacken, Build, Test, Codecov ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v2.0.10
+        with:
+          name: Build
+          path: dist
+      - name: Publish to Pypi
+        uses: pypa/gh-action-pypi-publish@release/v1.4.2
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}

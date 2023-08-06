@@ -1,0 +1,13 @@
+pygml/__init__.py,sha256=RzHxAANr1VowBQCKFm4kRlYrhPJFXOfbdBYIEbwo21I,1538
+pygml/axisorder.py,sha256=1BhH8pGaC_RbkppAdr8OFrLZUTXufeZbRfMey2fS8qI,12009
+pygml/basics.py,sha256=p9p7IUNlLdvbXz61w3LiHHzZR43U1eE8Q7LOEhd_EX4,3468
+pygml/geometry.py,sha256=H9kKvZmiO7-8-OPXh70vindRJf011U6jMpiAamaXGjQ,1749
+pygml/parse.py,sha256=yOQzGf8bkv3qwS_dh-TJr3EJrjIOXPygqSmoLGFh1Kk,2190
+pygml/pre_v32.py,sha256=boyKPh2FTEfIQnx-PIQcctBqJ8j93ENAbJmhRJZNr50,1499
+pygml/v32.py,sha256=DEvwzYF1JP96FzDdCAaaqbU4maS1tz0Ld30Pg1-pRwQ,5142
+pygml/v33.py,sha256=k5u-sRX5l5Gkp-QTqogBIDWgNdoUW1WGLBrXUGWNevg,1498
+pygml-0.0.1.dist-info/LICENSE,sha256=7D0xULnpr70lix6UIscayfoZ4A6Dzk4HVmXklVviAco,1066
+pygml-0.0.1.dist-info/METADATA,sha256=coGO8Hgtrc5unmjR8rHJTAOCyBCVH95PwXvr9RmGaKk,1713
+pygml-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pygml-0.0.1.dist-info/top_level.txt,sha256=x3YueTw3oFfzQts25hzmYrAhfIM_ipmLwrB7agH0Pq0,6
+pygml-0.0.1.dist-info/RECORD,,

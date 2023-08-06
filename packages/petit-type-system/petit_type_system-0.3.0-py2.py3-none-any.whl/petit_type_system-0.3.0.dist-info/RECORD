@@ -1,0 +1,16 @@
+petit_type_system/__init__.py,sha256=8XVA-dV6KV7wJK_idaVxUk2F4hKiuSkF00BhNwRp0Vw,514
+petit_type_system/ast_utils.py,sha256=4nGrmm9qy_i930OCwpCUg-GwntqLSeV0eR0tMWVnYOU,1358
+petit_type_system/const.py,sha256=SexjeBQm1lixCaDooUmI7jxqQTRCs-xT488naOGW6f8,373
+petit_type_system/default_handlers.py,sha256=XocvFyB9dTfH_JVSdEcZPPQ6UR9WcvsTxY3QwK1wnn0,1750
+petit_type_system/exceptions.py,sha256=GeFXBWcgC8L4U4IdalrwYIa5he2YYeQU04qEtlH0gQM,88
+petit_type_system/inline_type.py,sha256=onYkk85vNXH1Vj3izhGaoZD4SlyE9pFqAy5EBBg2LR0,807
+petit_type_system/named_types.py,sha256=J_yak-POscvxoV0e7JuwR9JN9dKds_rw0VhHaJtCChg,1091
+petit_type_system/petit_type_system.py,sha256=e9-KglolQc1izljQvdaltuuaDGYTUpmeKfyhMzLkVbA,4851
+petit_type_system/store.py,sha256=KsyoX2S4QtEwMgWo5EbKESQ7EIN22kVYvUBYkD9IDt8,6835
+petit_type_system/type_spoofer.py,sha256=iA8FTLoTvjgiWbetQ6tb-lvuKhMqanfXa27AFGtIMxc,1845
+petit_type_system/utils.py,sha256=buZ_k1FoYfXex7_VfQOjrhQhutbyJ-bf0sTAxdXc2Z8,1677
+petit_type_system-0.3.0.dist-info/LICENSE.txt,sha256=HAArBtJZJpg0eBZoEant0RwyLUMxHdyiTyc9cYW3YYc,11306
+petit_type_system-0.3.0.dist-info/METADATA,sha256=OKDPikUdUMFvICcuKjrbDEcqNNrOP514zRJVVKfkxs4,4223
+petit_type_system-0.3.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+petit_type_system-0.3.0.dist-info/top_level.txt,sha256=9AcqYxyA_q-bI456tX-L7Zx1I7jOnuMplkr1n1DxpBY,18
+petit_type_system-0.3.0.dist-info/RECORD,,

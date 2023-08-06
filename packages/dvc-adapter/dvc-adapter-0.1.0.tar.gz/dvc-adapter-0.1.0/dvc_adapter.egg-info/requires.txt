@@ -1,0 +1,3 @@
+oddrn
+pydantic
+watchdog

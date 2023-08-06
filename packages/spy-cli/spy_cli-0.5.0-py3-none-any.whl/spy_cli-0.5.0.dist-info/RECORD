@@ -1,0 +1,16 @@
+spy/__init__.py,sha256=W0W7ap4I2VeIfgVFG5_Z80g7e_hUpUytstjZbSa5jGI,237
+spy/__main__.py,sha256=EwgrZujcMN1I6axkdOyOETWL-l1wZ1KyfhUc9hT9_gw,30
+spy/catcher.py,sha256=KoED27zXHPmQN7_NT6ji-ctv_TyeKUTa9UBM6ogrWuY,5389
+spy/cli.py,sha256=j1_Q8klSu4QW-pmaAZpY2uzxQx8Nvxdn1oJnwnuDjfs,13049
+spy/core.py,sha256=lDB03TcmTtGWRjE_YOBEbTi4S_y9DaLAi9lP9YM2F18,3384
+spy/decorators.py,sha256=CimmtuwcKcIJYlZgj8Ik0SVHWSva0Kqe2oT9nIUGorE,5477
+spy/fragments.py,sha256=QbKsw-oDxi0cSjtwIyQaYpn4mXBSLhISc7AP5xYuMtw,1074
+spy/objects.py,sha256=7LBeZduExgczK-lqy0SZlSRb_rz_YPpHHfs40p2dVKY,10910
+spy/prelude.py,sha256=yExo9HLZ_BTUjaDdCJm_q9I_cQ6ykzLVJ7eoJjyPehE,904
+spy_cli-0.5.0.dist-info/LICENSE,sha256=7oIP8NtM5ihWngl1rCfckmBSqfhdECsQHtsQQxHvTZA,479
+spy_cli-0.5.0.dist-info/METADATA,sha256=kdSublNE75MLmf3k5buH_041EZ7mspHDGya1FRQzIME,2385
+spy_cli-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spy_cli-0.5.0.dist-info/entry_points.txt,sha256=XAf_00LXcxCisNjqucv2UfvlACTfG4iVYtSwo3S-vOo,38
+spy_cli-0.5.0.dist-info/top_level.txt,sha256=bDVr094e8w_ZdDwdgEJsLhpOek_EBJScH1CRDRVmSP8,4
+spy_cli-0.5.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spy_cli-0.5.0.dist-info/RECORD,,

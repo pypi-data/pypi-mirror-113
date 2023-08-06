@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: netfactory
+Version: 0.0.1
+Summary: A flexible neural net creation package for 3D classification and segmentation
+Home-page: https://github.com/braincodelab/netfactory
+Author: Matthew Sharrock
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/braincodelab/netfactory/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+License-File: LICENSE
+
+# netfactory
+A flexible tensorflow model creation package for 3D classification and segmentation. 
+
+

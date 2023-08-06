@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sledge/__init__.py
+src/sledge.egg-info/PKG-INFO
+src/sledge.egg-info/SOURCES.txt
+src/sledge.egg-info/dependency_links.txt
+src/sledge.egg-info/requires.txt
+src/sledge.egg-info/top_level.txt

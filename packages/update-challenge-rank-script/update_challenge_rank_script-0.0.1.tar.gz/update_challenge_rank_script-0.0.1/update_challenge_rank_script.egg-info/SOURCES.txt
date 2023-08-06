@@ -1,0 +1,5 @@
+setup.py
+update_challenge_rank_script.egg-info/PKG-INFO
+update_challenge_rank_script.egg-info/SOURCES.txt
+update_challenge_rank_script.egg-info/dependency_links.txt
+update_challenge_rank_script.egg-info/top_level.txt

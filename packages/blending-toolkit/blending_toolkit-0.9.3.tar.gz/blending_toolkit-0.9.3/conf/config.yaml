@@ -1,0 +1,79 @@
+defaults:
+  - sampling: default
+  - draw_blends: catsim
+  - surveys:
+    - Rubin
+  - override hydra/help: btk_help
+
+catalog:
+  name: catsim
+  catalog_files: ${paths.data}/sample_input_catalog.fits
+
+### all arguments ###
+
+# system
+save_path: Null
+cpus: 1
+verbose: False
+
+# blends
+batch_size: 24
+max_number: 2
+stamp_size: 24.0
+max_shift: Null
+add_noise: True
+channels_last: False
+
+# galsim hub
+galsim_hub:
+  model: "hub:Lanusse2020"
+  param_names:
+    - "flux_radius"
+    - "mag_auto"
+    - "zphot"
+
+# measure
+measure_kwargs: Null
+measure_functions:
+  - basic
+
+# metrics
+meas_band_num: 0
+noise_threshold_factor: 3
+distance_threshold_match: 5.0
+
+### organize arguments ###
+measure:
+  measure_functions: ${measure_functions}
+  kwargs:
+    verbose: ${verbose}
+    cpus: ${cpus}
+    measure_kwargs: ${measure_kwargs}
+    save_path: ${save_path}
+
+metrics:
+  kwargs:
+    meas_band_num: ${meas_band_num}
+    noise_threshold_factor: ${noise_threshold_factor}
+    distance_threshold_match: ${distance_threshold_match}
+    save_path: ${save_path}
+
+paths:
+  root: ${oc.env:BTK_HOME}
+  data: ${paths.root}/data
+
+
+### Global values ###
+
+# Central wavelengths in Angstroms for each filter band, calculated
+# from the baseline total filter throughputs tabulated at
+# http://dev.lsstcorp.org/cgit/LSST/sims/throughputs.git/snapshot/throughputs-1.2.tar.gz
+central_wavelength:
+  u: 3592.13
+  g: 4789.98
+  r: 6199.52
+  i: 7528.51
+  z: 8689.83
+  y: 9674.05
+  VIS: 7135.0
+  f814w: 5000.0 # TODO: placeholder

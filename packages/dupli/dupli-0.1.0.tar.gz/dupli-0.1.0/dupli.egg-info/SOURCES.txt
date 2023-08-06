@@ -1,0 +1,7 @@
+README.md
+setup.py
+dupli.egg-info/PKG-INFO
+dupli.egg-info/SOURCES.txt
+dupli.egg-info/dependency_links.txt
+dupli.egg-info/requires.txt
+dupli.egg-info/top_level.txt

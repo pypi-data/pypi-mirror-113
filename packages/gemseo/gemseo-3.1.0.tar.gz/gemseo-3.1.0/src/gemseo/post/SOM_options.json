@@ -1,0 +1,28 @@
+{
+    "name": "OptHistoryView_options",
+    "required": [],
+    "properties": {
+        "n_x": {
+            "type": "integer",
+            "min":2
+        },
+        "n_y": {
+            "type": "integer",
+            "min":2
+        },
+        "width": {
+            "type": "integer",
+            "min":1
+        },
+        "height": {
+            "type": "integer",
+            "min":1
+        },
+        "annotate": {
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false,
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object"
+}

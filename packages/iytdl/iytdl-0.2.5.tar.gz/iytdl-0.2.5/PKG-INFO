@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: iytdl
+Version: 0.2.5
+Summary: Asynchronous Standalone Inline YouTube-DL Module
+Home-page: https://github.com/iytdl/iytdl
+License: GPLv3
+Keywords: iytdl,package
+Author: Leorio Paradinight
+Author-email: 62891774+code-rgb@users.noreply.github.com
+Requires-Python: >=3.8,<4
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Pillow (>=8.3.1,<9.0.0)
+Requires-Dist: Pyrogram (>=1.2.9,<2.0.0)
+Requires-Dist: aiosqlite (>=0.17.0,<0.18.0)
+Requires-Dist: hachoir (>=3.1.2,<4.0.0)
+Requires-Dist: html-telegraph-poster (>=0.4.0,<0.5.0)
+Requires-Dist: mutagen (>=1.45.1,<2.0.0)
+Requires-Dist: youtube-search-python (==1.4.6)
+Requires-Dist: youtube_dl (>=2021.6.6,<2022.0.0)
+Project-URL: Repository, https://github.com/iytdl/iytdl
+Description-Content-Type: text/markdown
+
+# iytdl
+
+Asynchronous Standalone Inline YouTube-DL Module
+

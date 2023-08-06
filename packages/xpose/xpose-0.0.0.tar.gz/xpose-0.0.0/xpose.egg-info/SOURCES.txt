@@ -1,0 +1,10 @@
+README.md
+setup.py
+xpose/__init__.py
+xpose/_nbdev.py
+xpose.egg-info/PKG-INFO
+xpose.egg-info/SOURCES.txt
+xpose.egg-info/dependency_links.txt
+xpose.egg-info/entry_points.txt
+xpose.egg-info/not-zip-safe
+xpose.egg-info/top_level.txt

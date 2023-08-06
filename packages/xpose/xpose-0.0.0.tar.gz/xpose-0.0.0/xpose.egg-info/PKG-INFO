@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xpose
+Version: 0.0.0
+Summary: Expose ML black boxes
+Home-page: https://github.com/So-Cool/xpose/tree/master/
+Author: Kacper Sokol
+Author-email: ks1591@my.bristol.ac.uk
+License: BSD License
+Description: # :card_file_box: xposé
+        > Black boxes machine learning xposé
+        
+Keywords: xai,iml
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

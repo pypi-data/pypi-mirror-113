@@ -1,0 +1,9 @@
+foliant/config/alt_structure/__init__.py,sha256=R6oXwDWa3WuqkyCrAmRJ2B2G6m1VQ145L0ZiwACi0vQ,34
+foliant/config/alt_structure/alt_structure.py,sha256=e0tAa9NV1phZbkI54h1ped0lZvSxXqFXG6iIMm9_cEQ,4100
+foliant/config/alt_structure/generate.py,sha256=FUjDW8WhmNOwUH8-EcPEnLM66wc4S9_KDM5QkobBrBg,5044
+foliant/preprocessors/alt_structure.py,sha256=a7H-MbXwnh00u_jNCWIBFvTjf2naF_848ADPNTz3SBc,4469
+foliantcontrib.alt_structure-0.2.1.dist-info/LICENSE,sha256=PcpIEXOcZ-oV3M2SNR9hp93rNJiGp6IPAElRlkoQs0g,1069
+foliantcontrib.alt_structure-0.2.1.dist-info/METADATA,sha256=xv92K-o3pCZbPMH60eWNv1JTqjFBaMFyh1D1M7f9hWE,8988
+foliantcontrib.alt_structure-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foliantcontrib.alt_structure-0.2.1.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.alt_structure-0.2.1.dist-info/RECORD,,

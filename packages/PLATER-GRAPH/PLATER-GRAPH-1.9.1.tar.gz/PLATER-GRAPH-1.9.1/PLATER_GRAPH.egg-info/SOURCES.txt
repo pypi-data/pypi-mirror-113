@@ -1,0 +1,7 @@
+README.md
+setup.py
+PLATER_GRAPH.egg-info/PKG-INFO
+PLATER_GRAPH.egg-info/SOURCES.txt
+PLATER_GRAPH.egg-info/dependency_links.txt
+PLATER_GRAPH.egg-info/requires.txt
+PLATER_GRAPH.egg-info/top_level.txt

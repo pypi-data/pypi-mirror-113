@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+targetran/targetran.egg-info/PKG-INFO
+targetran/targetran.egg-info/SOURCES.txt
+targetran/targetran.egg-info/dependency_links.txt
+targetran/targetran.egg-info/top_level.txt

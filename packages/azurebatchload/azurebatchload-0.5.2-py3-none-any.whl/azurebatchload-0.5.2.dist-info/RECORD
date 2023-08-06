@@ -1,0 +1,11 @@
+azurebatchload/__init__.py,sha256=aw3SLlWr7hROzAJab1jTDyXE01wBopS9sU6gBXrDD0A,125
+azurebatchload/checks.py,sha256=xYzqPeyu97V3msgqULLc26Oi6NzMbHqYwM5yYHJk1GU,3292
+azurebatchload/core.py,sha256=oYr-kuXBNQ6dejU5FJIXGqIDoW-XZ5aBNM-B7KZbmfk,2566
+azurebatchload/download.py,sha256=YfM6NkSe8oPDSVh5V6IhlxYYQHMRyhArgzcvVG9s6RU,2558
+azurebatchload/upload.py,sha256=1eHQWmy9UJpo46Tq7zMtIwXa3-8aLYoikB6-xWgd2ss,4377
+azurebatchload/utils.py,sha256=4uIWpoEhE0BJfD4LrpX1kh26ggLk7lwLfWvqbAgqvSQ,2202
+azurebatchload-0.5.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+azurebatchload-0.5.2.dist-info/METADATA,sha256=25QhvtS8XOwignyEyVUZgRrS_3kPniNQJeOaHMQoabA,6158
+azurebatchload-0.5.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+azurebatchload-0.5.2.dist-info/top_level.txt,sha256=Gay28X70SF1GqIdw2LjC2CIFmNjYv2dN-yXOUEgLPAI,15
+azurebatchload-0.5.2.dist-info/RECORD,,

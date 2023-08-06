@@ -1,0 +1,6 @@
+scrapy
+sqlalchemy
+sqlalchemy_utils
+gitpython
+pygithub
+pymysql

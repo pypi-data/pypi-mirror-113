@@ -1,0 +1,8 @@
+pavanpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pavanpdf/pdf2image.py,sha256=Msz3QjISDySwQMxKz3x66VkbjrWJ97r-qpw4jTanG-Q,48
+pavanpdf/pdf2text.py,sha256=2PW7jSDi3tLuEYoAIKI3dmbZFzSCxUdZZpxLBgKiZYk,46
+pavanpdf-1.0.dist-info/LICENCE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pavanpdf-1.0.dist-info/METADATA,sha256=AVnXKSqno2_vkpLxNTij8Tpn5QSH3LdMF0WiUnvJMzE,200
+pavanpdf-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pavanpdf-1.0.dist-info/top_level.txt,sha256=_lUrkfAuMp3dFgUqw4_Gx8cDARpGTYvH4QhZ4U3wekc,9
+pavanpdf-1.0.dist-info/RECORD,,

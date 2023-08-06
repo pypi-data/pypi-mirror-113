@@ -1,0 +1,11 @@
+bbb_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bbb_dl/ffmpeg.py,sha256=X204s8CsWAmOncXPeJ8TD9vKb1RznIuAspSbQGQjvmU,5490
+bbb_dl/main.py,sha256=GD-GNQfaxMSpxcXPfYi4Ca6CC6dC0cAxnijvTom8ry0,26370
+bbb_dl/version.py,sha256=YGgeu1tBDTiiHbKl1TkbKHeb7CjnrObEQKS9Miv1iBU,22
+ianes_bbb_dl-0.7.5.dist-info/AUTHORS,sha256=0DBQq-ljvlsZbLl2JnDLvKf3crOSLHfUNy7jZQ6HV4Y,330
+ianes_bbb_dl-0.7.5.dist-info/LICENSE,sha256=wDzqAntLQORAL6vQhVdzZyfsPVvFStZKtkct5DIZjK0,18047
+ianes_bbb_dl-0.7.5.dist-info/METADATA,sha256=aWL6FqgBFgP4FBeWQS7RcanXj2_HYNuX9GQIaQnzbfI,3187
+ianes_bbb_dl-0.7.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ianes_bbb_dl-0.7.5.dist-info/entry_points.txt,sha256=Bh9bsc-N3y0gvkF6BFTceV28Lyw4uGbk0BJN6xQCJmU,45
+ianes_bbb_dl-0.7.5.dist-info/top_level.txt,sha256=FDJlQVlLgO6oDBtCWr9A2RiEW-JlaN0Aps0xQlzwhbw,7
+ianes_bbb_dl-0.7.5.dist-info/RECORD,,

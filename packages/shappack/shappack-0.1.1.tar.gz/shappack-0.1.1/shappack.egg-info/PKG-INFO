@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: shappack
+Version: 0.1.1
+Summary: Interpretable machine learning based on Shapley values
+Home-page: UNKNOWN
+Author: Hirofumi Tsuruta
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
+Provides-Extra: test

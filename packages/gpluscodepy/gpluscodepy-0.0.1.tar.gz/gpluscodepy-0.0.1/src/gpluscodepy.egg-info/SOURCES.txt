@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gpluscodepy/__init__.py
+src/gpluscodepy/gpluscodepy.py
+src/gpluscodepy.egg-info/PKG-INFO
+src/gpluscodepy.egg-info/SOURCES.txt
+src/gpluscodepy.egg-info/dependency_links.txt
+src/gpluscodepy.egg-info/top_level.txt

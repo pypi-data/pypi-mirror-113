@@ -1,0 +1,10 @@
+aiida-core<2.0.0,>=1.1.0
+ase
+requests
+pytojcamp
+cheminfopy>=0.6.0
+ipywidgets
+
+[pre-commit]
+pre-commit~=2.2
+pylint~=2.6.0

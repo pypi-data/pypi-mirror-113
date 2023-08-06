@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: runtimecheck
+Version: 0.0.1
+Summary: check the running time of a given functions
+Home-page: https://github.com/jusce17/runtimecheck
+Author: Eden
+Author-email: eden.juscelino@gmail.com
+Maintainer: jusce17
+Maintainer-email: eden.juscelino@gmail.com
+License: MIT
+Description: # Runtimecheck
+        
+        Originally Forked from the [Time-Logger](https://github.com/ishaansharma7/Time-Logger) Runtimecheck is an efficient Python library to help you quickly measure your functions's running time on a jupyter noetbook
+        
+        
+        
+        ## Installation
+        
+        On the terminal
+        
+        ```bash
+        pip install runtimecheck
+        ```
+        On a Jupyter Notebook
+        ```bash
+        !pip install runtimecheck
+        ```
+        ## Example Usage
+        
+        ```python
+        import time
+        
+        from runtimecheck.Timer import check_runtime
+        
+        @check_runtime()
+        def hello_world():    
+            time.sleep(2)
+            print("Hello World")
+        
+        
+        say_hi()
+        
+        ```
+        ### Result
+        ```bash
+        >> Hello World
+        >> hello_world ran in 2.0001 seconds
+        ```
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/markdown

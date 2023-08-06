@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+bulletinclient.py
+setup.cfg
+setup.py
+bpptkg_bulletinclient.egg-info/PKG-INFO
+bpptkg_bulletinclient.egg-info/SOURCES.txt
+bpptkg_bulletinclient.egg-info/dependency_links.txt
+bpptkg_bulletinclient.egg-info/entry_points.txt
+bpptkg_bulletinclient.egg-info/requires.txt
+bpptkg_bulletinclient.egg-info/top_level.txt
+bpptkg_bulletinclient.egg-info/zip-safe

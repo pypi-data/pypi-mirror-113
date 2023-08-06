@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bilibili-dynamic
+Version: 0.0.1
+Summary: 将哔哩哔哩返回的数据渲染为类似与B站APP官方的分享图片
+License: MIT
+Author: NGWORKS
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.0.1,<9.0.0)
+Requires-Dist: aiohttp (>=3.7.2,<4.0.0)
+Requires-Dist: fonttools (>=4.24.4,<5.0.0)
+Requires-Dist: matplotlib (>=3.4.0,<4.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: pydantic (>=1.7.3,<2.0.0)
+Requires-Dist: qrcode (>=6.1,<7.0)
+Requires-Dist: urllib3 (>=1.25.11,<2.0.0)

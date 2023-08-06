@@ -1,0 +1,15 @@
+hoshi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hoshi/i18n.py,sha256=6bbHt7UZaQCdIdL7M4v-PFWu-fp_cPMYsb3wXV4iRQY,16191
+hoshi/messages.py,sha256=ALgqqk9_bwo3tKfAERoU_rYi33kMTy_-7DRGP5kXtNw,795
+hoshi/sets.py,sha256=RQCwkiPf4M0vc60ZJOYDglpkDnfHBYZMxwIEsEc0ZN8,711
+hoshi/translation.py,sha256=ZCoTF3dXvtGN6-P6GHNOfv49kDg-ERo2KlZ5AKvfT6A,1636
+hoshi/translators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hoshi/translators/base.py,sha256=DF2vEq4cOpOFIIY-Sz3_OFFS3Fj9_-Ue98tGCvSZoCI,1102
+hoshi/translators/gcloud.py,sha256=ovMbJc_miu32f4M-SHNpBrXXZG5j5dvET62PaG_FN-8,1590
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/coveralls.py,sha256=ux7tvY-uBE5uFJfJX7ApCEUBbyMRpUMWrVcZsxB0aLQ,1060
+hoshi-0.4.4.dist-info/LICENSE,sha256=jPuTnCHDJdAY8HBITfgLblFV09Whvj1GrHpUtoboGaw,1078
+hoshi-0.4.4.dist-info/METADATA,sha256=i2rYEjKRyRmpsSUbWBeKTqdSZ-5u1Dj_aQ9nTqNU3Cc,5083
+hoshi-0.4.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hoshi-0.4.4.dist-info/top_level.txt,sha256=Er1iO1Hv-u2iUXEleXgYiIyqrInlI5sCOCfkWTNLBUk,12
+hoshi-0.4.4.dist-info/RECORD,,

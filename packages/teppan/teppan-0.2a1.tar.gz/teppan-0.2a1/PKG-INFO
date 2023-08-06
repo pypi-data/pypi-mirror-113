@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: teppan
+Version: 0.2a1
+Summary: Teppan is integrated for Sinopac Trading API - Shioaji.
+License: MIT
+Author: yp0chien
+Author-email: ypochien@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: shioaji (>=0.3.2.dev4,<0.4.0)

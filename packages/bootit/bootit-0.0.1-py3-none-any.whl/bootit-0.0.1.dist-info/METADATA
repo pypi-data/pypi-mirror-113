@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bootit
+Version: 0.0.1
+Summary: test
+Home-page: UNKNOWN
+Author: Vikram
+Author-email: vikram_soni1@baxter.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#PACKAGE NAME
+
+## Authors:
+
+.
+├── bin
+├── CHANGES.txt
+├── License.txt
+├── MANIFEST.in
+├── package_name
+│   ├── __init__.py
+│   └── test
+│       └── __init__.py
+├── README.md
+└── setup.py
+
+

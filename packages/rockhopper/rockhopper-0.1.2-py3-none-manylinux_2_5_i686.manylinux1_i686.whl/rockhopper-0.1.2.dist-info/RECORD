@@ -1,0 +1,12 @@
+rockhopper/_version.py,sha256=RF5qeliOUrA0dDFl2HRpDUUUC0SSqIV4kYtdivZNhuM,105
+rockhopper/_ragged_array.py,sha256=TOUT6ItMqrkrpUkryX1Z9nNPd22ymp6bfbt32-UOdxQ,31459
+rockhopper/__init__.py,sha256=f5n4lV6YON-qOYVg7qpf-6ficYhTdMu6HdRYI6Fq5QM,657
+rockhopper/hook-rockhopper.py,sha256=T-eXsDNtDV4lPmX5C7_d1aVsIVdfBTIaxCE4557ZdOI,287
+rockhopper/_slugs/ragged_array-Linux-32bit.so,sha256=RPdUKv-moyJ2Velu2tEIMSRn-Umm8FOFUMK907TLZUM,10467
+rockhopper/_slugs/ragged_array.json,sha256=sD9u7zIJM9dtfae0BwFP7azpbcp7-FvwdfhDnzpkSUM,1508
+rockhopper-0.1.2.dist-info/LICENSE,sha256=XJfKwPNzYI7LfQ_CEIcttK1E5drqFZ4biLi-FmUvc-4,1077
+rockhopper-0.1.2.dist-info/METADATA,sha256=oniFYPa2eFFhtb7skV_kTxuf3dWU8DHQi_7wU9M_dFM,22052
+rockhopper-0.1.2.dist-info/top_level.txt,sha256=WGYKsNmNu2tDjg3qROHCv12tGvDI6DRfB9cyxAWjJGc,11
+rockhopper-0.1.2.dist-info/RECORD,,
+rockhopper-0.1.2.dist-info/WHEEL,sha256=ET__UPdIvTCVMrLmekaUgGX6huIHb0Cr7d8_oGS52Sk,137
+rockhopper-0.1.2.dist-info/entry_points.txt,sha256=kR68bIOIoOeDcIVlYgqE9uVoRDYQ1cmXMDuugvhyZXQ,56

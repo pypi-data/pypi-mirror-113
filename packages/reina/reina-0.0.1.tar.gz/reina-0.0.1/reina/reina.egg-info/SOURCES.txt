@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+reina/reina.egg-info/PKG-INFO
+reina/reina.egg-info/SOURCES.txt
+reina/reina.egg-info/dependency_links.txt
+reina/reina.egg-info/requires.txt
+reina/reina.egg-info/top_level.txt

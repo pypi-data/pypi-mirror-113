@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mp-nerf
+Version: 0.1.12
+Summary: MP-NeRF: Massively Parallel Natural Extension of Reference Frame
+Home-page: https://github.com/eleutherAI/mp_nerf
+Author: Eric Alcaide
+Author-email: ericalcaide1@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: computational biolgy,bioinformatics,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

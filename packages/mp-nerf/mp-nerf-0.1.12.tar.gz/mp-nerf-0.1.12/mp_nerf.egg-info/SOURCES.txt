@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mp_nerf/__init__.py
+mp_nerf/kb_proteins.py
+mp_nerf/massive_pnerf.py
+mp_nerf/ml_utils.py
+mp_nerf/proteins.py
+mp_nerf/utils.py
+mp_nerf.egg-info/PKG-INFO
+mp_nerf.egg-info/SOURCES.txt
+mp_nerf.egg-info/dependency_links.txt
+mp_nerf.egg-info/requires.txt
+mp_nerf.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+.gitignore
+README.md
+setup.py
+csrc/lightconv_cuda.cpp
+csrc/lightconv_cuda_kernel.cu
+src/lightconv_layer/__init__.py
+src/lightconv_layer/lightconv_layer.py
+src/lightconv_layer/lightweight_convolution.py
+src/lightconv_layer.egg-info/PKG-INFO
+src/lightconv_layer.egg-info/SOURCES.txt
+src/lightconv_layer.egg-info/dependency_links.txt
+src/lightconv_layer.egg-info/top_level.txt

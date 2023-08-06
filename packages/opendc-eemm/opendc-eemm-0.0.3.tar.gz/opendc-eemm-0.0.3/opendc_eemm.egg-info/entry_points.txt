@@ -1,0 +1,3 @@
+[console_scripts]
+opendc-eemm = opendc_eemm.__main__:main
+

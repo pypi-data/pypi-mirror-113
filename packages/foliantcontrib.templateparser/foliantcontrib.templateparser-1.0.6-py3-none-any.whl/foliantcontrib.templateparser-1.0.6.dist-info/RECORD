@@ -1,0 +1,10 @@
+foliant/preprocessors/templateparser/__init__.py,sha256=m7qc86lh6XDjd62EpfsWqJjbZ4rm8saVL2NtYzKy2XU,41
+foliant/preprocessors/templateparser/templateparser.py,sha256=3NN_PyMBoh4cE9cua1EeZgIHaxsx0SHZ1cuKu78v32E,5262
+foliant/preprocessors/templateparser/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foliant/preprocessors/templateparser/engines/base.py,sha256=Kq7DBmEZF2aHhZhyMy9L73N7-qDnkSb5BMdEhG8QMJw,876
+foliant/preprocessors/templateparser/engines/jinja2.py,sha256=A8WpbsxDMErykT1a67yiwwrInUWqQN3fUCITCJ77hz8,990
+foliantcontrib.templateparser-1.0.6.dist-info/LICENSE,sha256=PcpIEXOcZ-oV3M2SNR9hp93rNJiGp6IPAElRlkoQs0g,1069
+foliantcontrib.templateparser-1.0.6.dist-info/METADATA,sha256=h19-y47eG26-1JxO4gJBCsrnFnu6KTS141utRNxSywo,7473
+foliantcontrib.templateparser-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foliantcontrib.templateparser-1.0.6.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.templateparser-1.0.6.dist-info/RECORD,,

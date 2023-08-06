@@ -1,0 +1,15 @@
+pyclowder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclowder/client.py,sha256=qjVWFx-6rswW3WvDv9VGzqqiLsQws-QlqKmnwNF1f_o,11421
+pyclowder/collections.py,sha256=BlI4LUAacrIWto6IkoDm_GXSpWaMszWfvH_sYD_NUCs,8906
+pyclowder/connectors.py,sha256=GzY9E7Cfk0SMicMBE4Td64het-2clCF1vTpP49wtBVI,50431
+pyclowder/datasets.py,sha256=QwfNgfLar9rS-0YslS779a7PqDAwg50Pf2sS10fTcx8,15116
+pyclowder/extractors.py,sha256=4l4-VXR9rtcubMXDCEr_a4h0ftwP8CsaB6XQ6sTb6BA,23264
+pyclowder/files.py,sha256=VSCOJrg86dvjW5n1VEJP2QhH6AM6JHCPUpJNezoCcJE,15399
+pyclowder/geostreams.py,sha256=93OzMiVlb9ktB3yJ4mqrD5r-TK-JBIRhkQGplYX9-hg,9175
+pyclowder/sections.py,sha256=fN4VvmsSYu0ruu3HsF6w-TsgUgUth7bLpj57GmMO7p0,2723
+pyclowder/utils.py,sha256=Z88OeGRp-rodzZF4o5wv9mJMhFQfDWEAli9ZFcGTUOk,4281
+pyclowder-2.4.1.dist-info/METADATA,sha256=tx0pFeiM7Et86FqrbWBAiHXrG_tCoZXkOKIYNYNxhJU,1695
+pyclowder-2.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyclowder-2.4.1.dist-info/top_level.txt,sha256=E5cyPikweuxM7SpI11YjQMP5pmjmvMOCHqjP7cNHYe8,10
+pyclowder-2.4.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyclowder-2.4.1.dist-info/RECORD,,

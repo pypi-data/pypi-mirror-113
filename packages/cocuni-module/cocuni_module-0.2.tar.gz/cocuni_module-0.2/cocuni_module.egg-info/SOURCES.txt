@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+cocuni_module.egg-info/PKG-INFO
+cocuni_module.egg-info/SOURCES.txt
+cocuni_module.egg-info/dependency_links.txt
+cocuni_module.egg-info/requires.txt
+cocuni_module.egg-info/top_level.txt
+cocunimodule/__init__.py
+cocunimodule/cocunirandom.py

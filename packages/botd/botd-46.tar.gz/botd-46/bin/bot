@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"irc bot"
+
+__version__ = 46
+
+
+import os, sys
+
+sys.path.insert(0, os.getcwd())
+
+import atexit
+import bot.all
+import ob
+import os
+import sys
+import termios
+import trm
+
+
+from ob import Restart, Handler, Kernel, launch
+
+
+class CLI(Handler):
+
+    def handle(self, e):
+        k.put(e)
+        e.wait()
+
+    def error(self, e):
+        trm.cprint(str(e))
+        e.ready()
+
+    def raw(self, txt):
+        trm.cprint(txt)
+
+
+class Console(CLI):
+
+    def poll(self):
+        return input("> ")
+
+class MyKernel(Kernel):
+
+    def error(self, e):
+        trm.cprint(e.exc)
+        e.ready()
+
+def ver(event):
+    event.reply("BOT %s" % __version__)
+
+
+k = MyKernel()
+k.cfg.p = "bot"
+k.cfg.m = ""
+name = "bot"
+resume = {}
+
+
+def main():
+    k.parse_cli(name)
+    k.boot()
+    k.add(ver)
+    if k.cfg.txt:
+        cli = CLI()
+        return k.cmd(cli, k.cfg.txt)
+    if k.opts("d"):
+        daemon()
+        k.privileges()
+        k.start()
+    elif k.opts("c") or k.cfg.m:
+        k.start()
+        csl = Console()
+        csl.start()
+    if k.opts("cd") or k.cfg.m:
+        k.wait()
+
+
+trm.wrap(main)

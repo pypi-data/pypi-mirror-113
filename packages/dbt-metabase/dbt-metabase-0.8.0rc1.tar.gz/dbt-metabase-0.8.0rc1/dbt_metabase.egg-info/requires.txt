@@ -1,0 +1,8 @@
+PyYAML
+requests
+
+[test]
+mypy
+pylint
+types-PyYAML
+types-requests

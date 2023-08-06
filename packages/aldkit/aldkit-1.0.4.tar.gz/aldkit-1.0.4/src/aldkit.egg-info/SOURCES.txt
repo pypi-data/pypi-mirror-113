@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/aldkit.egg-info/PKG-INFO
+src/aldkit.egg-info/SOURCES.txt
+src/aldkit.egg-info/dependency_links.txt
+src/aldkit.egg-info/top_level.txt

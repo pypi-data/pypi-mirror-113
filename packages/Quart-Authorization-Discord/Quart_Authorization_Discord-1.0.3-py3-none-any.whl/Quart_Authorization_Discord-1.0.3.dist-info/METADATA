@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: Quart-Authorization-Discord
+Version: 1.0.3
+Summary: Quart Discord Authorization Library
+Home-page: UNKNOWN
+Author: Tunay Ada Karacan
+Author-email: tunayada@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Turkish
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: authlib
+Requires-Dist: aiohttp
+Requires-Dist: quart
+
+# Quart-Authorization
+## A Library For Quart Discord Authorization
+
+_Note: This Fixed  Version Of [This Package](https://pypi.org/project/quart-oauth2-discord.py/)_
+
+### Whats Changed In This Package?
+
+- Some Errors Fixed Like Unclosed Clients
+- logout() Function Errors Fixed
+- Added .is_logged() Function
+
+### Usage
+
+```py
+from Quart_Authorization_Discord import DiscordOauth2Client
+from Quart import Quart, redirect, url_for, render_template_string
+
+app = Quart(__name__)
+app.secret_key = b"random bytes representing quart secret key"
+app.config['DISCORD_CLIENT_ID'] = "Client ID here"
+app.config['DISCORD_CLIENT_SECRET'] = 'CLIENT_SECRET_HERE'
+app.config['SCOPES'] = ['identify', 'guilds']
+app.config['DISCORD_REDIRECT_URI'] = 'http://127.0.0.1:5000/callback'
+app.config['DISCORD_BOT_TOKEN'] = "Token"
+
+client = DiscordOauth2Client(app)
+
+@app.route("/")
+async def index():
+    if client.is_logged():
+        return "You Are Already Logged In, Go To This Page: /me"
+    else:
+        return "You Are Not Logged In, Go To Authorization: /login"
+
+@app.route("/login")
+async def login():
+    return await client.create_session()
+
+@app.route("/logout")
+async def logout():
+    await client.logout()
+    return redirect(url_for("index"))
+
+@app.route("/callback")
+async def callback():
+    await client.callback()
+    return redirect(url_for("index"))
+
+@app.route("/me")
+@client.is_logged_in # Checks If User Logged In, Raises 401
+async def me():
+    user = await client.fetch_user()
+    return await render_template_string("""<html><head></head>
+<body><p>You Are Succesfully Logged In As {{user.name}}</p>
+</html>    
+""",user=user)
+
+@app.errorhandler(401)
+async def handle_unathorized(e):
+    return redirect(url_for("login"))
+
+if __name__ == "__main__":
+    app.run()
+```
+
+#### This Package Still On Development.
+Bugs And Errors Can Be Found While Using. Please [Contact Me](https://discord.gg/MeaWMrVX) If You Found Any Of These.
+
+

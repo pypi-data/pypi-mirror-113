@@ -1,0 +1,6 @@
+Quart_Authorization_Discord
+asyncio
+functools
+json
+os
+urllib

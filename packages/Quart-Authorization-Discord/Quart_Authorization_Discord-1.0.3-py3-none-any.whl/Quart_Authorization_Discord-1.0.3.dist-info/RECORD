@@ -1,0 +1,13 @@
+Quart_Authorization_Discord/__init__.py,sha256=jNqVz__83XC15rT0UJE3p3iom0PBQCGZZ-mZQRYx7Hk,172
+Quart_Authorization_Discord/base.py,sha256=yeUjWnQfzPBle_5sRNyzr53SraoElRRR8HpXIda05g0,1089
+Quart_Authorization_Discord/client.py,sha256=8xITBlpovtXOrpKP1pFcg2x7Ry_X0KMdkoY7OOw3TVs,1922
+Quart_Authorization_Discord/exceptions.py,sha256=A6PvbkMF57VsmwKJj0hT-73aaGkTMifwFfwme-KgOoI,133
+Quart_Authorization_Discord/http.py,sha256=JbEzCtjdo8WUypAyG6hfJvEZ_qIKaY33UjvOqXlBrTc,5592
+Quart_Authorization_Discord/models/__init__.py,sha256=rtCxWRP2oPFamuWnIcCSVfEqvZeRpc8a03IVzjwqkuw,43
+Quart_Authorization_Discord/models/guild.py,sha256=Wjaez0v2DxkUc7AXXpAr0IMnVU6vGWDEE1AfSuYsNBU,1251
+Quart_Authorization_Discord/models/user.py,sha256=Nel34wMHYWx5SsxUAE9Y8XmJ4WvPEmUBVSXFO60HMKQ,1315
+Quart_Authorization_Discord-1.0.3.dist-info/LICENSE.txt,sha256=9HjYxxZmlq80U5N7hGoetsLJGaLf_gVfm7oDENCefSQ,1064
+Quart_Authorization_Discord-1.0.3.dist-info/METADATA,sha256=60RMn2JevLQKqU3i4VF2Q0inQU7ddCfSdVX4cmPzIdA,2652
+Quart_Authorization_Discord-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Quart_Authorization_Discord-1.0.3.dist-info/top_level.txt,sha256=EMECfkyDYK-OFEY_pg_jIffVkFB0NRZHlgfx5lLEFLU,61
+Quart_Authorization_Discord-1.0.3.dist-info/RECORD,,

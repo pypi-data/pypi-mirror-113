@@ -1,0 +1,5 @@
+pymitter
+pyTelegramBotAPI
+python-jsonstore
+Telethon
+typeguard

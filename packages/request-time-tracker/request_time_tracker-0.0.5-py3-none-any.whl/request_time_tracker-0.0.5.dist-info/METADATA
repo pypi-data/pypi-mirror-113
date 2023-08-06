@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: request-time-tracker
+Version: 0.0.5
+Summary: Requests time tracker from being captured by proxy (e.g. nginx) till being executed by django
+Home-page: https://github.com/razortheory/request-time-tracker
+Author: Roman Karpovich
+Author-email: roman@razortheory.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/razortheory/request-time-tracker/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+i will update readme with more info. honestly. bit later
+
+

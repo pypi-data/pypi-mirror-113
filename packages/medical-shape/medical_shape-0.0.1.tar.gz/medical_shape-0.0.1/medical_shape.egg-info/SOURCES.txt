@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+medical_shape/__about__.py
+medical_shape/__init__.py
+medical_shape/registration.py
+medical_shape.egg-info/PKG-INFO
+medical_shape.egg-info/SOURCES.txt
+medical_shape.egg-info/dependency_links.txt
+medical_shape.egg-info/not-zip-safe
+medical_shape.egg-info/requires.txt
+medical_shape.egg-info/top_level.txt

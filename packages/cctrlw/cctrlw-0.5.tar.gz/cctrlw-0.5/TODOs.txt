@@ -1,0 +1,8 @@
+TODO: run on a clean xonsh install
+TODO (hard / ?): *sh plugin that uses CLI
+TODO: mods -> partitions in the docstring
+TODO (?): configurable debug format
+TODO: reimplement whole-word-jumping
+TODO: undo history next time
+TODO: dump partitions for debug mode in xonsh
+TODO: test cycle detection

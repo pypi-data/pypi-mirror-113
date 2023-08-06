@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BivTrunc
+Version: 0.0.35
+Summary: Bivariate density estimation under irregular truncation
+Home-page: UNKNOWN
+Author: Chad Schafer
+Author-email: cschafer@cmu.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+THIS IS A TEST
+
+

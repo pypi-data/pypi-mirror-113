@@ -1,0 +1,8 @@
+pindo_cli/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+pindo_cli/cli.py,sha256=e5ua6RpBJ10qDVuE6XfpnCcCM8Iz_boqXXq2eJcdRZY,5083
+pindo_cli/http.py,sha256=NSgVDiHH4IDVBMBUQ0jygTLlHNwZVPmMgJ0GR94yA8E,4166
+pindo_cli-0.2.0.dist-info/entry_points.txt,sha256=OifacPZ1yGAoj3lexHDC9Lc26FQZZjNgTnjsW_eH1Wk,43
+pindo_cli-0.2.0.dist-info/LICENSE,sha256=3l0mZKggCNts2OuDqW1AE8sHG7U7jlkWa5qY0cmx-V8,1044
+pindo_cli-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pindo_cli-0.2.0.dist-info/METADATA,sha256=-C0e-XbqO-Ph31yVAjMYv3faOy-BTbaqhS1c18tYj7Q,8366
+pindo_cli-0.2.0.dist-info/RECORD,,

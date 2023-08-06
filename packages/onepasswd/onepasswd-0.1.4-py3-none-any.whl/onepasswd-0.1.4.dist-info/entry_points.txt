@@ -1,0 +1,7 @@
+
+    [console_scripts]
+        onepasswd=onepasswd.client:main
+        onepasswd-upgrade=onepasswd.tools.upgrade:main
+        onepasswd-merge=onepasswd.tools.jmerge:main
+        onepasswd-diff=onepasswd.tools.jdiff:main
+    

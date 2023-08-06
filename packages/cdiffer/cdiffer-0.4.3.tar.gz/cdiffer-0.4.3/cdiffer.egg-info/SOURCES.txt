@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+platname.py
+setup.cfg
+setup.py
+cdiffer.egg-info/PKG-INFO
+cdiffer.egg-info/SOURCES.txt
+cdiffer.egg-info/dependency_links.txt
+cdiffer.egg-info/top_level.txt
+src/cdiffer.cpp
+src/cdiffer.hpp
+src/pyyou.hpp
+test/test_cdiffer.py

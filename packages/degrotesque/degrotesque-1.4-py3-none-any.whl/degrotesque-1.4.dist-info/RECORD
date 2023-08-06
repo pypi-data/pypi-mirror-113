@@ -1,0 +1,10 @@
+degrotesque/__init__.py,sha256=7iCYPIYi9bePBh4s4YefxJblKjPSygBNQn4yB9DTaJU,27
+degrotesque/degrotesque.py,sha256=sDOjHClapvg_bVM82GuG15HodOfS8rc1LOLLgjmf9Rs,15926
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/test_degrotesque.py,sha256=rAvVH2Vo2FFa5Av0FcTJvuzKZQBsU-VWHIziRla_4cM,8818
+degrotesque-1.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+degrotesque-1.4.dist-info/METADATA,sha256=jSGuyABi98l9-QoUJYnsl5fbUK1fUAfmYTfpUpUpJyA,10748
+degrotesque-1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+degrotesque-1.4.dist-info/top_level.txt,sha256=VXNsiZKl-BTDCWJS3ybwzw_360Z9yQEWxMDroWkzsw8,18
+degrotesque-1.4.dist-info/RECORD,,

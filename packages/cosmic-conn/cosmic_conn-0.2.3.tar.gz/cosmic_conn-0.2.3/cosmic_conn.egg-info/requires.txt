@@ -1,0 +1,13 @@
+numpy>=1.20.2
+torch==1.8.0
+astropy>=4.2.1
+scikit-image>=0.18.1
+scikit-learn>=0.24.2
+sep>=1.1.1
+tensorboard>=2.4.1
+reproject>=0.7.1
+Flask>=1.1.2
+Flask-APScheduler>=1.12.2
+psutil>=5.8.0
+pretty-errors
+tqdm

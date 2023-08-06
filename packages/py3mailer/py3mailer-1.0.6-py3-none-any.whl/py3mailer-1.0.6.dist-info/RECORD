@@ -1,0 +1,12 @@
+pymailer/__about__.py,sha256=b6sBLdSp7m64t9t24U7c5fVkzbAaK6om9hlAI_9q5dM,249
+pymailer/__init__.py,sha256=cgh_NY2jH-PoCrEZ7GAezZ0TEo3p41YFMNQGcd8L6bU,122
+pymailer/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymailer/core/email_service.py,sha256=UXtK3w6wSOlLnPgrPdZZsFXGdM9hlFu2yfkKXqip0qg,1907
+pymailer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymailer/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymailer/utils/message.py,sha256=aO6kei6ecqlrZ_Ky2kLh-St2-OwmU_3k8XbtGb6cIj8,2698
+py3mailer-1.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py3mailer-1.0.6.dist-info/METADATA,sha256=5BXON5Vv3PHeAdcXHV0rs0ezUXYpt3otkODE86PIQG8,2915
+py3mailer-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py3mailer-1.0.6.dist-info/top_level.txt,sha256=ZzrVl2uUfbfjna6ueXJ7xFaU5qs64mvfLmMLgAihfKA,9
+py3mailer-1.0.6.dist-info/RECORD,,

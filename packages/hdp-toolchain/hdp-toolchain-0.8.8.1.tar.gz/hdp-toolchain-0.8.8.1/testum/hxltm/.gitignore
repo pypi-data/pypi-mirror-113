@@ -1,0 +1,18 @@
+*.xlsx
+
+# Do not save production test files to save space outside hapi.etica.ai
+output-file.tm.hxl.csv
+HXL-Data-Science-file-formats-main
+schemam-un-htcds.tm.hxl.csv
+resultatum/schemam-un-htcds_eng-Latn_por-Latn.hxl.csv
+resultatum/schemam-un-htcds.tmx
+resultatum/schemam-un-htcds.xlf
+resultatum/schemam-un-htcds.xliff.hxl.csv
+resultatum/hxltm-exemplum-linguam.xliff.hxl.csv
+resultatum/hxltm-exemplum-linguam.por-Latn--spa-Latn.xlf
+
+# pycallgraph-test.svg
+# pycallgraph.png
+# @see https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script
+# *.svg
+pycallgraph.png

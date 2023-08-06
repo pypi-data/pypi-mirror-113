@@ -1,0 +1,5 @@
+dataclasses<1.0.0,>=0.6.0
+nr.collections<0.2.0,>=0.1.1
+nr.pylang.utils<0.2.0,>=0.1.1
+six<2.0.0,>=1.14.0
+Jinja2<3.0.0,>=2.11.2

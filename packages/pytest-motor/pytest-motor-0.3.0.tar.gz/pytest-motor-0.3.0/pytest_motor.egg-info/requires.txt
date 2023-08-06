@@ -1,0 +1,4 @@
+pytest
+motor
+aiohttp[speedups]
+distro

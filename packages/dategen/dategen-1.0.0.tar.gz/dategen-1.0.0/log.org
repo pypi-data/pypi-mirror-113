@@ -1,0 +1,396 @@
+
+* flit
+
+  
+** 0
+
+   
+   | 10 | status       |
+   |    |              |
+   | 20 | references   |
+   |    |              |
+   | 30 | pip          |
+   |    |              |
+   | 40 | flit init    |
+   |    |              |
+   | 50 | flit publish |
+   |    |              |
+
+
+** 10
+
+
+   | requirements for flit          |
+   |--------------------------------|
+   |                                |
+   | a docstring in __init__.py     |
+   |                                |
+   | clean up the source directory. |
+
+   
+** 20
+
+   
+   https://github.com/takluyver/flit
+
+   
+   https://codeberg.org/cmc/dategen
+
+   
+   changming.chen.1970@gmail.com
+
+
+** 30
+
+   
+    python3 -m pip install --user flit
+
+    
+** 40
+
+   
+   cd 
+
+
+   flit init
+
+
+   #   pyproject.toml generated
+
+   
+** 50
+
+   
+   flit publish
+
+   
+   # Flit cannot package module without docstring, or empty docstring. Please add a docstring to your module (dategen/__init__.py).
+
+   # Untracked or deleted files in the source directory. Commit, undo or ignore these files in your VCS. (.)
+
+* README
+
+  
+** 0
+
+  | 10 |                  |
+  |    |                  |
+  | 20 | references       |
+  |    |                  |
+  | 30 | EXPORT_FILE_NAME |
+  |    |                  |
+  | 40 | README.md        |
+
+
+** 10
+
+   
+** 20
+
+   
+   https://github.com/takluyver/flit
+   
+   
+** 30
+:PROPERTIES:
+:EXPORT_FILE_NAME: README.md
+:END:
+
+
+   
+   
+
+** 40
+:PROPERTIES:
+:EXPORT_FILE_NAME: README.md
+:END:
+
+
+Dategen is a python package that yield a generator of dates.
+
+*** Install
+
+    
+#+BEGIN_EXAMPLE
+pip install dategen
+#+END_EXAMPLE
+
+
+#+BEGIN_EXAMPLE
+$ python3 -m pip install dategen
+#+END_EXAMPLE
+
+*** Usage
+
+    
+   
+   
+* dategen
+
+  
+** 0
+
+   | 10 | status      |       |
+   |    |             |       |
+   | 20 | __init__.py |       |
+   |    |             |       |
+   | 30 | dategen.py  | 1.0.0 |
+   |    |             |       |
+   | 40 |             |       |
+   |    |             |       |
+   
+
+** 10
+
+   
+** 20
+
+   
+#+HEADER: :tangle  dategen/__init__.py
+#+HEADERS: :results silent
+#+HEADERS: :results raw
+#+begin_src python
+  """A date generator."""
+  __version__ = "1.0.0"
+
+#+end_src
+
+
+** 30
+
+   
+#+HEADER: :tangle  dategen/dategen.py
+#+HEADERS: :results silent
+#+HEADERS: :results raw
+#+begin_src python
+
+
+  from datetime import datetime, timedelta
+
+
+  def backward( n_day = 5000 ):
+      """
+      yield a generator of datetime, moving backward, from yesterday.
+
+      n_day: number of days, default 5000.
+      """
+    
+      n = 0
+      x = datetime.now() 
+
+      while n < n_day:
+	x = x - timedelta( days=1 )
+	n += 1
+	yield x
+
+
+#+end_src
+
+   
+* versions
+
+  
+** 1.0.0 [2021-07-22 Thu 15:09]
+
+   add README.md
+  
+
+** Versioning Your Package
+
+   Increment the MAJOR version when you make incompatible API changes.
+   Increment the MINOR version when you add functionality in a backwards-compatible manner.
+   Increment the PATCH version when you make backwards-compatible bug fixes. (Source)
+
+   __init__.py
+
+   setup.py
+
+   
+
+* export markdown
+
+  
+** 0
+
+   | 10 | status               |             |
+   |    |                      |             |
+   | 20 | example              | recommended |
+   |    |                      |             |
+   | 30 | verse, quote, center |             |
+   |    |                      |             |
+   | 40 |                      |             |
+   |    |                      |             |
+
+   
+** 20
+
+#+BEGIN_EXAMPLE
+begin example
+Some example from a text file.
+
+dategen/
+├── dategen/
+├── test/
+├── LICENSE
+├── README.md
+├── log.org
+└──
+
+end example  
+#+END_EXAMPLE
+
+https://orgmode.org/manual/Literal-Examples.html
+
+
+** 30
+
+#+BEGIN_VERSE
+begin verse
+Great clouds overhead
+Tiny black birds rise and fall
+Snow covers Emacs
+
+    ---AlexSchroeder
+
+    
+dategen/
+├── dategen/
+├── test/
+├── LICENSE
+├── README.md
+├── log.org
+└── 
+end verse  
+#+END_VERSE
+
+
+#+BEGIN_QUOTE
+begin quote
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+
+  dategen/
+  ├── dategen/
+  ├── test/
+  ├── LICENSE
+  ├── README.md
+  ├── log.org
+  └── 
+end quote
+#+END_QUOTE
+
+
+#+BEGIN_CENTER
+begin center
+Everything should be made as simple as possible, \\
+but not any simpler
+
+  dategen/
+  ├── dategen/
+  ├── test/
+  ├── LICENSE
+  ├── README.md
+  ├── log.org
+  └──
+
+end center
+#+END_CENTER
+   
+https://orgmode.org/manual/Paragraphs.html
+
+
+
+* names
+
+  | pypi name     | dategen |
+  |               |         |
+  | folder name   | dategen |
+  |               |         |
+  | package name  | dategen |
+  |               |         |
+  | git repo name | dategen |
+  
+
+* folder structures
+
+  
+** 0
+
+   | 10 | tree |
+   |    |      |
+   | 20 |      |
+   |    |      |
+   | 30 |      |
+   
+
+** 10
+
+
+#+HEADERS: :results raw
+#+BEGIN_SRC sh
+
+  date
+
+  tree
+
+#+END_SRC
+
+#+RESULTS:
+Thu Jul 22 14:30:20 CST 2021
+.
+├── #log.org#
+├── LICENSE
+├── README.md
+├── dategen
+├── log.md
+└── log.org
+
+1 directory, 5 files
+Thu Jul 22 14:29:04 CST 2021
+.
+├── #log.org#
+├── LICENSE
+├── README.md
+├── log.md
+└── log.org
+
+0 directories, 5 files
+   
+** 20
+   
+
+   dategen/
+   ├── dategen/
+   ├── test/
+   ├── LICENSE
+   ├── README.md
+   ├── log.org
+   └── 
+ 
+
+* logs
+
+** flit [2021-07-23 Fri 11:35]
+      
+** README [2021-07-22 Thu 15:12]
+   
+
+** dategen.py [2021-07-22 Thu 14:41]
+   
+
+** Versioning Your Package [2021-07-22 Thu 13:55]
+   
+
+
+
+** export markdown [2021-07-22 Thu 07:59]
+
+   
+  
+** names [2021-07-21 Wed 18:26]
+   
+   
+** folder structures [2021-07-21 Wed 17:28]
+
+
+   

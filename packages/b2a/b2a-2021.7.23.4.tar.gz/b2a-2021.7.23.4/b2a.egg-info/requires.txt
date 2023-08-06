@@ -1,0 +1,5 @@
+aigpy
+requests
+prettytable
+Cython
+BaiduPCS-Py

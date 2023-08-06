@@ -1,0 +1,17 @@
+default_to_none = true
+id = "darbha-saGgrahaH"
+tags = [ "SpecialDays",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "sidereal_solar_month"
+priority = "puurvaviddha"
+month_number = 5
+anga_type = "tithi"
+anga_number = 30
+kaala = "मध्याह्नः"
+jsonClass = "HinduCalendarEventTiming"
+
+[names]
+sa = [ "दर्भ-सङ्ग्रहः",]

@@ -1,0 +1,17 @@
+default_to_none = true
+id = "phAlguna-aSTakA-zrAddham"
+tags = [ "ShannavatiTarpanaDays",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "vyaapti"
+month_number = 12
+anga_type = "tithi"
+anga_number = 23
+kaala = "अपराह्णः"
+jsonClass = "HinduCalendarEventTiming"
+
+[names]
+sa = [ "फाल्गुन-अष्टका-श्राद्धम्",]

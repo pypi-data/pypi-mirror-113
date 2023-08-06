@@ -1,0 +1,24 @@
+default_to_none = true
+id = "mitra-saptamI"
+tags = [ "OtherAvataram", "SpecialPuja", "CommonFestivals",]
+shlokas = """
+अदित्यां कश्यपाज्जज्ञे मित्रो नाम दिवाकरः।
+सप्तम्यां तेन सा ख्याता लोकेऽस्मिन् मित्रसप्तमी॥
+"""
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "puurvaviddha"
+month_number = 9
+anga_type = "tithi"
+anga_number = 7
+kaala = "अपराह्णः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Birth of Surya to Aditya-Kashyapa on this day."
+
+[names]
+sa = [ "मित्र-सप्तमी",]

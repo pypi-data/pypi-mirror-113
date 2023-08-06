@@ -1,0 +1,23 @@
+default_to_none = true
+id = "varakunda-caturthI"
+tags = [ "SpecialPuja",]
+shlokas = """
+माघशुक्लचतुर्थ्यां तु कुन्दपुष्पैः सदाशिवम्।
+सम्पूज्य यो हि नक्ताऽऽशी सम्प्राप्नोति श्रियं नरः॥
+"""
+references_primary = [ "Nirnaya Sindhu 162",]
+references_secondary = [ "Vaidikasri Feb 2016",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "puurvaviddha"
+month_number = 11
+anga_type = "tithi"
+anga_number = 4
+kaala = "प्रदोषः"
+jsonClass = "HinduCalendarEventTiming"
+
+[names]
+sa = [ "वरकुन्द-चतुर्थी",]

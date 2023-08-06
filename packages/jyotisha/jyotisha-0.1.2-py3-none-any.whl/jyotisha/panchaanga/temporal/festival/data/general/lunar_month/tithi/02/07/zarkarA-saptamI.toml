@@ -1,0 +1,24 @@
+default_to_none = true
+id = "zarkarA-saptamI"
+tags = [ "SpecialPuja",]
+shlokas = """
+शर्करासप्तमी चैव वाजिमेधफलप्रदा।
+सर्वदुःखप्रशमनी सर्वसम्पत्प्रदायिनी॥
+"""
+references_primary = [ "Smriti Kaustubham - 112",]
+references_secondary = [ "Vaidikasri May 2016",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+month_number = 2
+anga_type = "tithi"
+anga_number = 7
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Worship Surya Bhagavan in a vessel (`kumbha`) filled with sugar, followed by `dAnam` of the same."
+
+[names]
+sa = [ "शर्करा-सप्तमी",]

@@ -1,0 +1,26 @@
+default_to_none = true
+id = "vaizAkha-pUrNimA-snAnam"
+tags = [ "SpecialSnanam",]
+shlokas = """
+बलं रूपं यशो धर्मं ज्ञानमायुः सुखं धृतिम्।
+आरोग्यं परमाप्नोति सम्यक् स्नानेन मानवः॥
+"""
+references_primary = [ "Satyavrata Smriti",]
+references_secondary = [ "Vaidikasri",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "paraviddha"
+month_number = 2
+anga_type = "tithi"
+anga_number = 15
+kaala = "प्राक्तनारुणोदयः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Perform snana four ghatikas before sunrise (during `aruNOdayaH`, when the Moon is still up, on the full-moon days of `ASADha`, `kArttika`, `mAgha` and `vaizAkha` – hence the name `A-kA-mA-vai`) bestows strength, beauty, fame, dharma, knowledge, happiness, fortitude and health."
+
+[names]
+sa = [ "वैशाख-पूर्णिमा-स्नानम्",]

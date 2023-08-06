@@ -1,0 +1,20 @@
+default_to_none = true
+id = "vyatIpAta-zrAddham"
+tags = [ "MonthlyShraddhaDays", "ShannavatiTarpanaDays",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "sidereal_solar_month"
+priority = "vyaapti"
+month_number = 0
+anga_type = "yoga"
+anga_number = 17
+kaala = "अपराह्णः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Vyatipata Shraddha day."
+
+[names]
+sa = [ "व्यतीपात-श्राद्धम्",]

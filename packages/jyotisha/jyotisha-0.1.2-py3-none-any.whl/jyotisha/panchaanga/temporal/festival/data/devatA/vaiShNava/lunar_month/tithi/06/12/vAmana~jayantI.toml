@@ -1,0 +1,20 @@
+default_to_none = true
+id = "vAmana~jayantI"
+tags = [ "Dashavataram", "CommonFestivals",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "puurvaviddha"
+month_number = 6
+anga_type = "tithi"
+anga_number = 12
+kaala = "मध्याह्नः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Wednesday Shravana ; Vamana Jayanti; Shravana Dvadashi; Vijaya Dvadashi; Shakra Dvadashi"
+
+[names]
+sa = [ "वामन-जयन्ती",]

@@ -1,0 +1,20 @@
+default_to_none = true
+id = "mahAdhanurvyatIpAta-snAnam"
+tags = [ "SpecialSnanam",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "sidereal_solar_month"
+priority = "puurvaviddha"
+month_number = 9
+anga_type = "yoga"
+anga_number = 17
+kaala = "प्राक्तनारुणोदयः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Special `snAnam` on account of `mahAdhanurvyatIpAtam`."
+
+[names]
+sa = [ "महाधनुर्व्यतीपात-स्नानम्",]

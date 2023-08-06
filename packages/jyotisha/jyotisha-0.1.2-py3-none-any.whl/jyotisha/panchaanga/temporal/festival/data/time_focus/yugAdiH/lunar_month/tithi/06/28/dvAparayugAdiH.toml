@@ -1,0 +1,21 @@
+default_to_none = true
+id = "dvAparayugAdiH"
+tags = [ "YugadiDays",]
+references_primary = [ "`vaidyanAtha-dIkSitIyam`",]
+jsonClass = "HinduCalendarEvent"
+
+[timing]
+default_to_none = true
+month_type = "lunar_month"
+priority = "vyaapti"
+month_number = 6
+anga_type = "tithi"
+anga_number = 28
+kaala = "अपराह्णः"
+jsonClass = "HinduCalendarEventTiming"
+
+[description]
+en = "Perform `samudrasnAnam` and `zrAddham`."
+
+[names]
+sa = [ "द्वापरयुगादिः",]

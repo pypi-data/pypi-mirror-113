@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: blacksql
+Version: 0.1.0
+Summary: No configuration sql formatter
+Author: arjoonn sharma
+Author-email: arjoonn.94@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

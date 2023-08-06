@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: packPOOII
+Version: 0.0.1
+Summary: Pacote utilizado para fazer alterações em arquivos de texto
+Home-page: https://github.com/Cicero777/POOII-Trabalho-Final
+Author: Cicero Neto
+Author-email: ciceroneto02si@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Cicero777/POOII-Trabalho-Final
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+packPOOII
+==============
+
+#### Pacote utilizado para fazer alterações em arquivos de texto. 
+
+## Instalação:
+
+```
+pip install packPOOII
+```
+
+## Como usar:
+
+```
+from packPOOII import packPOOII
+s = packPOOII.PackPOOII()
+s.subString(palavra)
+
+```
+
+

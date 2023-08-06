@@ -1,0 +1,10 @@
+xnlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xnlp/parser/__init__.py,sha256=-Ouajpue_qVhLGQvx-2s2j3sZrrDeQk2SoORYXfRQmY,237
+xnlp/parser/combinator.py,sha256=MnzrtHeADr6jFMs-IbxwaAELsCD_SmFRODFUFGGrS7o,2758
+xnlp/parser/monad.py,sha256=egBM0UY9lVQKmT_mqYAA0YLlfxGIXlAEuLtCpw5vs9U,2385
+xnlp/parser/util.py,sha256=j-L2P4oUM7YpP7-MHDRPGKbjGmo4R35RI-_jTRsdXOM,1938
+x_nlp-0.1.1.dist-info/LICENSE,sha256=c70Rwhw1Q-WmXsN1aRHBnpgtAncVw4a2Q6VIWPNqqt0,1066
+x_nlp-0.1.1.dist-info/METADATA,sha256=Sy6s35QLsDIVlDtoJCjw_nFGyx4dhYjUnEywSmKr9qY,966
+x_nlp-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+x_nlp-0.1.1.dist-info/top_level.txt,sha256=8Gm55YWRuBmjCpvjKYrClsGljkFOQAvpJ9bdc_7pS58,5
+x_nlp-0.1.1.dist-info/RECORD,,

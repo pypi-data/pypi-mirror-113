@@ -1,0 +1,2 @@
+garpixcms>=1.7.0
+django-uuslug>=1.2.0

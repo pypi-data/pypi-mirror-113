@@ -1,0 +1,11 @@
+py_releases-0.1.0.data/data/releases_infos/infos.json,sha256=kEmJR7qY_HMZ5wWvX1gjFLNAVWsv6jNsCDJiu6FLoKg,11818
+python_releases/__init__.py,sha256=gX2kgobxXa-_s8QBy9owO_uKaw6ZQKQulSvw3eoV8zo,89
+python_releases/infos.py,sha256=y1pHDSBLB2uZAcQqSbkVpzN-lrM98Nz7YvgGNQFWK1o,3579
+python_releases/releases.py,sha256=5-EILao0o8s4PfpcXzMsXyCQ_zwzOj3dPsTLyxBUHos,1255
+python_releases/scrapper.py,sha256=CmaPzvQST7PaRKz9viZxVNssZekHsJ5v7zkkBWsG7cA,1372
+python_releases/releases_infos/infos.json,sha256=kEmJR7qY_HMZ5wWvX1gjFLNAVWsv6jNsCDJiu6FLoKg,11818
+py_releases-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+py_releases-0.1.0.dist-info/METADATA,sha256=3JIsq0dv-hCsC8yR69D7DKxeoSqmcVK9NPHrdT1JN-E,1147
+py_releases-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_releases-0.1.0.dist-info/top_level.txt,sha256=yMXnvNJC1WQfTNG91iIFpiif2KN1FWIlKVSfsKigu5o,16
+py_releases-0.1.0.dist-info/RECORD,,

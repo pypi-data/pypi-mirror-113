@@ -1,0 +1,13 @@
+nlpo3/__init__.py,sha256=AmKVBhoDQL8qdwghY1qCm5Bq2LDknp3FjaVti-8VCyg,1359
+nlpo3/_nlpo3_python_backend.cpython-36m-darwin.so,sha256=DHcYrsopBQItY5oHkZ5alH_j4W9wMx1A0th2gP12qRE,3603264
+nlpo3/_nlpo3_python_backend.cpython-36m-x86_64-linux-gnu.so,sha256=1tBPGMUXb6_702TACw9L4l53NdbEGtk-vvohehqV7UA,6926552
+nlpo3/_nlpo3_python_backend.cpython-37m-darwin.so,sha256=VUUuRMokD7KpDdegmx29-RQxUlUvFYXorU_6x2k5PQQ,3603160
+nlpo3/_nlpo3_python_backend.cpython-37m-x86_64-linux-gnu.so,sha256=kdroW7gSHRKOtkb6D55MfxZMGkg1NCKJnebnQCPo9qw,6926352
+nlpo3/_nlpo3_python_backend.cpython-38-darwin.so,sha256=0BKqVoGsCf6NuXPXinoOaKdCXNlszLf2nzIc7mRt1Qk,3603936
+nlpo3/_nlpo3_python_backend.cpython-38-x86_64-linux-gnu.so,sha256=jyNbXxHcvfFS8U1YKATF1oB47obRXmiX2_LFFcBF7Q8,6925952
+nlpo3/_nlpo3_python_backend.cpython-39-darwin.so,sha256=SNgGzJtSj2UGxk8vEycl-TpmwnQ89YYh5ckRsbafqus,3603912
+nlpo3/_nlpo3_python_backend.cpython-39-x86_64-linux-gnu.so,sha256=DitwC-xmY33Kkq0ftMWCntImmAottf5lwA0XwmEgiF8,6925624
+nlpo3-1.1.0.dist-info/METADATA,sha256=EbFmEg7EDVxKI4eZE1PUcB1dcWv4tP3-xqMdZophJ-g,1598
+nlpo3-1.1.0.dist-info/WHEEL,sha256=xtefXou5QCWCZW0FXQMA4tiilsZ3Oa5LqOk3i-xYBVA,109
+nlpo3-1.1.0.dist-info/top_level.txt,sha256=vjp5MAP7Rob06m5ppUqnHuCBpl5JsQYHRD9D5i6otjI,6
+nlpo3-1.1.0.dist-info/RECORD,,

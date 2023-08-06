@@ -1,0 +1,6 @@
+knada_bq_connector/__init__.py,sha256=D4Kgi3pRSwetzqagmwhH4cUmvR06EyK1WGIbpDte500,43
+knada_bq_connector/bq_connector.py,sha256=2cOPvDCLAEKQEmxcCxvKO_O-os_kZTgzHlB8xfu8fFg,5188
+knada_bq_connector-0.0.4.dist-info/METADATA,sha256=wp_gLSRmXxZ8SjUTL0wQd1FrpHqOpXhXSXELhSCUuAU,688
+knada_bq_connector-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+knada_bq_connector-0.0.4.dist-info/top_level.txt,sha256=TTye00EYZc2BTvgSsb_TJVRJuW74rOUg8LL8VyGQXPA,19
+knada_bq_connector-0.0.4.dist-info/RECORD,,

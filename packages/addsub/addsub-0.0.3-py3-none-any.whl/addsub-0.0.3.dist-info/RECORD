@@ -1,0 +1,10 @@
+addsub/__init__.py,sha256=yDDsGcCk7cfZBZzlQqenbRMCzvSl_bfuMz_bInY__NA,26
+addsub/add.py,sha256=Wv3fN6BTv2SYETNc1ILq5Ndei47-llT9CoR-bM9k1Qg,31
+addsub/subtract.py,sha256=z-b9ijUdlQGP-XJ_-QIHdefLD96NOFvajARhFJr-QpI,34
+addsub/extras/__init__.py,sha256=ytD-sVUJ_c8nGylxmZBS3QCrOzJEjssfj14s-R2zrFE,29
+addsub/extras/divide.py,sha256=C1DqHMRV2duA3kHoPAQpUVJf0PJtFcPiAM6Q2cE_Qs0,33
+addsub/extras/multiply.py,sha256=kFXmceb5JmjKKpJ8K3w-vrJ96L03elDyXAnrXELnJqc,33
+addsub-0.0.3.dist-info/METADATA,sha256=sCRZlGZJcv_sgKsGqaCzeU6R2XfbuS7HNbDE1P3-RXE,566
+addsub-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+addsub-0.0.3.dist-info/top_level.txt,sha256=pZa-Mj2wcGKo3sIayo8uovXVojKn9bPY5eRhSxNdOT0,7
+addsub-0.0.3.dist-info/RECORD,,

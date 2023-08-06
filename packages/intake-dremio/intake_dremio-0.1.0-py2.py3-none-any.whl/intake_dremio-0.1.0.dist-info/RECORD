@@ -1,0 +1,12 @@
+intake_dremio/__init__.py,sha256=Sq0KfoVfE37nQY6r6bJsxiZs8S73QRcx_EWBw8oqy34,209
+intake_dremio/_version.py,sha256=d5xGYqwEq74avlUBvq0NLMHB2ZrW1BYiFjrtZrCbaT0,497
+intake_dremio/dremio_cat.py,sha256=W92c6pnQm4RhQ8U9mPY15mtSEDzSN_lq33E11jUEX9o,1287
+intake_dremio/intake_dremio.py,sha256=f3lzdmVaxHOXeobw0iFDb9HwJDb-_jYMXGb5nfj2CdU,6589
+intake_dremio/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+intake_dremio/tests/test_intake_dremio.py,sha256=4qmMnK6C3FYUl9KaS69HNXdeFyTYp8Crfiwzm66WB6U,392
+intake_dremio-0.1.0.dist-info/LICENSE,sha256=iNNUDWpW02c1obwndl1ZOtbD5MbImZnRlTci8-pe93k,1505
+intake_dremio-0.1.0.dist-info/METADATA,sha256=4VcGqAM8qXgbJdUwf_gGcpWXOwZmfQFJ-0qnZqR7BY4,1367
+intake_dremio-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+intake_dremio-0.1.0.dist-info/entry_points.txt,sha256=AzfDlgYyhY7Q333y0eU9MACDOe0vc60ve4Sr0g7wBx4,68
+intake_dremio-0.1.0.dist-info/top_level.txt,sha256=455mUoA8aLZUz7eEBNp610oEkc1HUHM93eO7bBG0WIA,14
+intake_dremio-0.1.0.dist-info/RECORD,,

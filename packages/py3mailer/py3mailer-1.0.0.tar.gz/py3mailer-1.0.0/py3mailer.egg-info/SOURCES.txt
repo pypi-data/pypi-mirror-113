@@ -1,0 +1,6 @@
+README.md
+setup.py
+py3mailer.egg-info/PKG-INFO
+py3mailer.egg-info/SOURCES.txt
+py3mailer.egg-info/dependency_links.txt
+py3mailer.egg-info/top_level.txt

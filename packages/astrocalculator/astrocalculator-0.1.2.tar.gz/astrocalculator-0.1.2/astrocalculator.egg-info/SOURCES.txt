@@ -1,0 +1,9 @@
+README.md
+setup.py
+astrocalculator.egg-info/PKG-INFO
+astrocalculator.egg-info/SOURCES.txt
+astrocalculator.egg-info/dependency_links.txt
+astrocalculator.egg-info/entry_points.txt
+astrocalculator.egg-info/requires.txt
+astrocalculator.egg-info/top_level.txt
+calc/__init__.py

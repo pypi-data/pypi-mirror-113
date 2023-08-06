@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyaoaddons/__init__.py
+pyaoaddons/item_category_mapping.py
+pyaoaddons/localization_mapping.py
+pyaoaddons.egg-info/PKG-INFO
+pyaoaddons.egg-info/SOURCES.txt
+pyaoaddons.egg-info/dependency_links.txt
+pyaoaddons.egg-info/not-zip-safe
+pyaoaddons.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+vikitext/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vikitext/article_links.py,sha256=KTkcV5G5HPTFSu4YqtEwZzpQzbz6rFbgCckWTaOcxvI,3423
+vikitext/get_text.py,sha256=IuYzVnSG41ZLw1Eaa9aRN6FTngc7W_7rZ1Mv7XKBZyc,7285
+vikitext/hyperlinks.py,sha256=DZi2SpVg56SjX9ZMuruJYI2GbCeW2pk_l5YuBgUXdVk,2199
+vikitext/data/filter_links_vikidia.txt,sha256=sNbQakBEfTV4oHJKDae7uf4yoQHfBXWdEHzSxb23wWg,316
+vikitext/data/vikidia_source.txt,sha256=3zGhn8ldPEyjqiROf7pO9hQYaCYXvAPTm9pLJpla1xI,101
+vikitext-0.0.4.dist-info/LICENCE.txt,sha256=MjeoGkRWK6-P2zWewyDyIdHuwVC1cPLdIJp_R3V9DgE,1099
+vikitext-0.0.4.dist-info/METADATA,sha256=Kz-eAEpCON7fHLfczMxGqGaCiN6-gVLfnP8Y1dwH46I,592
+vikitext-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vikitext-0.0.4.dist-info/top_level.txt,sha256=h9iuAGCuy6gkhzmgNoWkV9oCZdMTfHcNPFL-yVTg4-Y,9
+vikitext-0.0.4.dist-info/RECORD,,

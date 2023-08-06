@@ -1,0 +1,3 @@
+[console_scripts]
+hsw=http_shrinkwrap.bin:main
+

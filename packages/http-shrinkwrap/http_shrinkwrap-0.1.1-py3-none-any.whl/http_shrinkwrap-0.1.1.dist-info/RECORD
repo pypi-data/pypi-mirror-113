@@ -1,0 +1,9 @@
+LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+http_shrinkwrap/__init__.py,sha256=HqbLtf7K7Humg1FFfrDXlroZ5mBF6T7oz4IQyonmW8w,78
+http_shrinkwrap/api.py,sha256=1dFhuqmlOYnCqxj-ZZLXiOFUgHvX0uVpIvDEPdOmIvE,7057
+http_shrinkwrap/bin.py,sha256=AQZhCj3SombL5L1ZwF8Dx2K3xOiTCg_ubUZnPa25C3U,744
+http_shrinkwrap-0.1.1.dist-info/entry_points.txt,sha256=NUH3PTTxGymwV4Ki0bfp__Nrlr1UNbkQx3o5rRtb4VU,48
+http_shrinkwrap-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+http_shrinkwrap-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+http_shrinkwrap-0.1.1.dist-info/METADATA,sha256=7Kk6k-J8kn7jMjSphIiqkS-nfjPjh1BR9N4P2osKICI,6192
+http_shrinkwrap-0.1.1.dist-info/RECORD,,

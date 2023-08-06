@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: zsh-jupyter-kernel
+Version: 3.4
+Summary: Z shell kernel for Jupyter
+Home-page: https://github.com/danylo-dubinin/zsh-jupyter-kernel
+Author: Dan Oak
+Author-email: danylo.dubinin@gmail.com
+License: GPL-3.0
+Keywords: jupyter,ipython,zsh,shell,kernel
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Topic :: System :: Shells
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: IPython
+Requires-Dist: ipykernel
+Requires-Dist: jupyter-client
+Requires-Dist: pexpect
+
+# Z shell kernel for Jupyter
+
+## Features
+
+### ▶️ Execute
+Execute any multiline Zsh code which does not wait for `stdin`.
+A pseudo terminal process runs until a kernel is stopped and is common
+for all notebook cells.
+
+### ⏹ Interrupt
+Interrupt any code as in any terminal.
+
+### 🔎 Inspect
+Get `man` pages for commands under cursor.
+
+### 🧰 Complete
+Complete code using all completions as in terminal.
+
+### 😎 Just do it
+See more supported features in [Misc](misc/).
+
+### 🔮
+Everything else under active development. Create an [Issue][issue] to request
+a feature.
+<p align=center>
+<a href=roadmap.md>Roadmap ✅</a>
+•
+<a href=CONTRIBUTING.md>Contribution 👍</a>
+•
+<a href=LICENSE.txt>License 🤝</a>
+</p>
+
+## Install
+
+### Pipenv
+```sh
+pipenv --python 3.7 install notebook zsh_jupyter_kernel
+pipenv run python -m zsh_jupyter_kernel.install --sys-prefix
+```
+
+### Pip
+```sh
+python3 -m pip install notebook zsh_jupyter_kernel
+python3 -m zsh_jupyter_kernel.install --sys-prefix
+```
+
+## Run
+
+### Dockerized
+[`./docker.zsh`](./docker.zsh)
+```sh
+docker build --tag zsh-jupyter-kernel:3.2 .
+docker run --rm --interactive --tty \
+  --publish=8889:8888 \
+  --volume=$PWD/test:/home/jovyan \
+  --name=zsh-jupyter-kernel \
+  zsh-jupyter-kernel:3.2
+```
+
+### Native
+[`lab.sh`](misc/lab.sh)
+```sh
+pipenv run jupyter notebook
+```
+
+## Thanks to
+- https://github.com/Valodim/zsh-capture-completion for script to get Zsh completions as data
+- https://github.com/eiro/play-jupyter for initial Dockerfile and doc fixes
+- Jupyter Development Team for Jupyter itself
+
+[issue]: https://github.com/danylo-dubinin/zsh-jupyter-kernel/issues/new
+
+

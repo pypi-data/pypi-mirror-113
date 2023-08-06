@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BuiltKiller
+Version: 0.0.1
+Summary: The main built_killer module by kareemPypi.
+Home-page: https://github.com/kareemsaf/BUILTKILLER
+Author: kareemPypi
+Author-email: s4830866@mkhg.moe.gov.sa
+License: UNKNOWN
+Project-URL: Bug Detector, https://github.com/kareemsaf/BUILTKILLER/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+The main built_killer module by kareemPypi.
+You can also use this module to kill processes.
+

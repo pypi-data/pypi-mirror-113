@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/BuiltKiller.egg-info/PKG-INFO
+src/BuiltKiller.egg-info/SOURCES.txt
+src/BuiltKiller.egg-info/dependency_links.txt
+src/BuiltKiller.egg-info/top_level.txt
+src/built_killer/__init__.py
+src/built_killer/built_killer.py

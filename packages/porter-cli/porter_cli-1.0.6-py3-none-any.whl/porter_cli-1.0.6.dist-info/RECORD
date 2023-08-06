@@ -1,0 +1,9 @@
+cli/__init__.py,sha256=sa6tziUJjhFtbuSZ_BDMmnzekDTM5aeqrEoDRVBvkMw,262
+docker_cli/__init__.py,sha256=cCy8B9B9I8cz1cckC4iV1xgpkG4Joz6wmTaK2RmY9NI,240
+porter/__init__.py,sha256=wfNmNTerG9fvBpq3_ZJFUkq_b-HBEDLhOR0ydVXovQs,567
+porter_cli-1.0.6.dist-info/METADATA,sha256=vAc0la82PGaq3_p3qVLIdK6tHvyBzeo1u_ojoKgTbx8,7546
+porter_cli-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+porter_cli-1.0.6.dist-info/dependency_links.txt,sha256=AuYbbExmyDl0H9rr69DIs63RjPJIlhUc1tj3vnu8jec,31
+porter_cli-1.0.6.dist-info/entry_points.txt,sha256=v8PqoG2nDvqmHwDwEBDryXSX8GIeXnBTI5MSe4Mhb6o,59
+porter_cli-1.0.6.dist-info/top_level.txt,sha256=fbAget7A-DmurfbSAzN3DqVUmdOXTMdH15XqmrO8g-s,22
+porter_cli-1.0.6.dist-info/RECORD,,

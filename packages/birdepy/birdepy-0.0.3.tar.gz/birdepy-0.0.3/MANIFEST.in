@@ -1,0 +1,2 @@
+include src/birdepy/iltcme.json
+include requirements.txt

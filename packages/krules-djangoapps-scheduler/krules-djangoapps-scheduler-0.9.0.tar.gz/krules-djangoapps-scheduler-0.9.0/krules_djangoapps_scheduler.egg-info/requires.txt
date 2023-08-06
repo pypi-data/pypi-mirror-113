@@ -1,0 +1,2 @@
+django-jsoneditor>=0.1.6
+krules-djangoapps-common==0.9.0

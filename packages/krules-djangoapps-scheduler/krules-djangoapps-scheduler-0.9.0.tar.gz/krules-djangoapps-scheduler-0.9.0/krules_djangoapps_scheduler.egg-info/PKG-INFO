@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: krules-djangoapps-scheduler
+Version: 0.9.0
+Summary: UNKNOWN
+Home-page: https://github.com/airspot-dev/krules
+Author: Airspot
+Author-email: info@arispot.tech
+License: Apache Licence 2.0
+Description: # krules-djangoapps-scheduler
+        
+        django krules scheduler application
+Keywords: krules knative
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >3.8

@@ -1,0 +1,10 @@
+performer_pytorch/__init__.py,sha256=aninzpY8kXKm1DIlJ_5wSR6FUC_ZFEcl1b3kkArj2wE,240
+performer_pytorch/autoregressive_wrapper.py,sha256=k2bnLX_CAUMQ4hheK2iKp85U_hNePBLZMD_WI106BJ8,3487
+performer_pytorch/performer_enc_dec.py,sha256=nIsEHDfVWOOxz_Ow_X8wPKJODXiuyoc2EV75p2ron_k,3039
+performer_pytorch/performer_pytorch.py,sha256=UbdmxkYbvfedOCBw0l5FxSkYVO66rN5QrY1fP6369mQ,20486
+performer_pytorch/reversible.py,sha256=iUY7D1RJ46NNPzWjec_ljwbmiPhDhq5J5ub0nQYTFeo,5326
+tikt_performer_pytorch-0.15.1.1.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+tikt_performer_pytorch-0.15.1.1.dist-info/METADATA,sha256=-0qlZvkwduNOBPmqHZD-F32e-GpB_bn_sSOdKmx_YaA,798
+tikt_performer_pytorch-0.15.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+tikt_performer_pytorch-0.15.1.1.dist-info/top_level.txt,sha256=UDKV18mxHfKST1UueBHqnpkHQtacr9Ev-BCeDHP_qYY,18
+tikt_performer_pytorch-0.15.1.1.dist-info/RECORD,,

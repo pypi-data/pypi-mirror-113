@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+infercode.egg-info/PKG-INFO
+infercode.egg-info/SOURCES.txt
+infercode.egg-info/dependency_links.txt
+infercode.egg-info/requires.txt
+infercode.egg-info/top_level.txt

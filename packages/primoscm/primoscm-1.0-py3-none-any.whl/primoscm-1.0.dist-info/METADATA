@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: primoscm
+Version: 1.0
+Summary: Función para calcular los números primos menores o iguales que n
+Home-page: UNKNOWN
+Author: Catalina Molina
+Author-email: catalina.molina.brunet@gmail.com
+License: GNU GPLv3
+Keywords: numeros_primos prime number mathematical
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+PRIME LEQ n
+==============
+
+Este paquete contiene una función que dado un número entero, n, devuelve todos los números primos comprendidos entre 1 y n.
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+

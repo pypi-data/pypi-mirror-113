@@ -1,0 +1,10 @@
+.gitignore
+README.md
+setup.py
+src/hgco_download/__init__.py
+src/hgco_download/download_cli.py
+src/hgco_download.egg-info/PKG-INFO
+src/hgco_download.egg-info/SOURCES.txt
+src/hgco_download.egg-info/dependency_links.txt
+src/hgco_download.egg-info/entry_points.txt
+src/hgco_download.egg-info/top_level.txt

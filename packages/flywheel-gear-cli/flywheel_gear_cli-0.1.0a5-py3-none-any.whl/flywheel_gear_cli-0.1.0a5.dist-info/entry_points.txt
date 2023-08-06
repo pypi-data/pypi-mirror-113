@@ -1,0 +1,3 @@
+[console_scripts]
+gearcli=flywheel_gear_cli.gear_cli:main
+

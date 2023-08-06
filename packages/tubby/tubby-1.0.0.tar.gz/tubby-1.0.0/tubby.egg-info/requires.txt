@@ -1,0 +1,6 @@
+click
+bs4
+httpx
+simple-term-menu
+sty
+tqdm

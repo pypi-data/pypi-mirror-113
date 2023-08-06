@@ -1,0 +1,14 @@
+rom/__init__.py,sha256=2Qox35QnUaFgjzde0ezhrMEP9Qqe4-xw7oqRqKJfNZg,125
+rom/attributes.py,sha256=HsJ1oyjq_cp-mOsYLjKRryNNEELgJOaGxz3e_nSPTHY,9370
+rom/exception.py,sha256=kjGipE-CB7q-tbH31WODC1mOSb6OszSQ2AT0WmwzmiY,154
+rom/fields.py,sha256=69tpl-dLUWb2xmRgHFBZUSHHbRWi63siDhLealxHwPM,6626
+rom/fields.pyi,sha256=tkLePRS-EZ0mv6fpVyx7OMaQZM3e6_hDjuS8JdNi9fg,1733
+rom/model.py,sha256=mkAH4LLNEhXBJwT46rP_lihhHA-Apn32Nc9EWSOrOMc,6531
+rom/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rom/session.py,sha256=EA0LSLw1NpFPT8CNt2UsV7og7nK-dRFIITIBLdTKeis,2320
+rom/types.py,sha256=d6xmm9DI-4PIrY6t-8r8c6Rqo47WxFwt8gjdDijDfwg,609
+aio_rom-0.1.0.dist-info/LICENSE,sha256=FRZ1425nCcLgWRHguM6Ca3hllf4lQHGJiBL18dEkFYg,1071
+aio_rom-0.1.0.dist-info/METADATA,sha256=cQc5BTZG_honz6PT4DmOww9Puznpje01GWySw7noHQ0,2654
+aio_rom-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aio_rom-0.1.0.dist-info/top_level.txt,sha256=U2QgwhGBRyFfKgF1aeAtOmDZR5IZQW_jfkrjtqJhheg,4
+aio_rom-0.1.0.dist-info/RECORD,,

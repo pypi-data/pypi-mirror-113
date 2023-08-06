@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+tc_scraper/__init__.py
+tc_scraper/__main__.py
+tc_scraper/topcoder_scraper.py
+tc_scraper.egg-info/PKG-INFO
+tc_scraper.egg-info/SOURCES.txt
+tc_scraper.egg-info/dependency_links.txt
+tc_scraper.egg-info/entry_points.txt
+tc_scraper.egg-info/not-zip-safe
+tc_scraper.egg-info/requires.txt
+tc_scraper.egg-info/top_level.txt

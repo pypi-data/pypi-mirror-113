@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: YassaAlchemy
+Version: 0.0.1
+Summary: Another MySQL based ORM
+Home-page: UNKNOWN
+Author: Yassa Taiseer
+Author-email: yassataiseer@gmail.com
+License: MIT
+Keywords: MySQL ORM Python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+Refer to github source code for description 
+found here: https://github.com/yassataiseer/YassaAlchemy
+
+Change Log
+============
+0.0.1(22/07/2021)
+------------------
+First release
+

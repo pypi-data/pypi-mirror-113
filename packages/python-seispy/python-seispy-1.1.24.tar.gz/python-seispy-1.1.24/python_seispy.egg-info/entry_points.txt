@@ -1,0 +1,14 @@
+[console_scripts]
+ccp_profile = seispy.ccp:ccp_profile
+gen_rayp_lib = seispy.psrayp:gen_rayp_lib
+hk = seispy.hk:hk
+lsnc = seispy.io:lsnc
+ndk2dat = seispy.updatecatalog:ndk2dat
+pickrf = seispy.pickui:main
+plotr = seispy.plotR:main
+plotrt = seispy.plotRT:main
+prf = seispy.rf:prf
+rf2depth = seispy.rf2depth_makedata:rf2depth
+setpar = seispy.rf:setpar
+updatecatalog = seispy.updatecatalog:main
+

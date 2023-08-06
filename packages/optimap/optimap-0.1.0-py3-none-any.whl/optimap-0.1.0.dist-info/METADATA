@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: optimap
+Version: 0.1.0
+Summary: Optimized integrated intensity map method for spectral cubes
+Home-page: https://github.com/astropenguin/optimap
+License: MIT
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.7,<3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: astropy (>=4.2,<5.0)
+Requires-Dist: matplotlib (>=3.2,<4.0)
+Requires-Dist: numpy (>=1.19,<2.0)
+Requires-Dist: scikit-image (>=0.16,<0.17)
+Description-Content-Type: text/markdown
+
+# optimap
+Optimized integrated intensity map method for spectral cubes
+

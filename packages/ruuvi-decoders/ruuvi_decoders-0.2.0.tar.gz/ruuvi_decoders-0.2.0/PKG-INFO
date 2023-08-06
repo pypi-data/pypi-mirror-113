@@ -1,0 +1,74 @@
+Metadata-Version: 1.2
+Name: ruuvi_decoders
+Version: 0.2.0
+Summary: Decoders for raw ruuvi tag data payloads
+Home-page: https://github.com/sergioisidoro/ruuvi_decoders
+Author: Sergio Isidoro
+Author-email: smaisidoro@gmail.com
+License: MIT license
+Description: ==============
+        Ruuvi Decoders
+        ==============
+        
+        
+        .. image:: https://img.shields.io/pypi/v/ruuvi_decoders.svg
+                :target: https://pypi.python.org/pypi/ruuvi_decoders
+        
+        .. image:: https://img.shields.io/travis/ruuvi-friends/ruuvi-decoders.svg
+                :target: https://travis-ci.com/ruuvi-friends/ruuvi-decoders
+        
+        .. image:: https://pyup.io/repos/github/sergioisidoro/ruuvi_decoders/shield.svg
+             :target: https://pyup.io/repos/github/sergioisidoro/ruuvi_decoders/
+             :alt: Updates
+        
+        
+        Decoders for raw ruuvi tag data payloads
+        
+        
+        * Free software: MIT license
+        * Documentation: https://ruuvi-decoders.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Decode raw data from RuuviTag Bluetooh advertisements, or from Ruuvi gateway requests
+        * Support for Ruuvitag Data Format 2, 3 and 5
+        * Support for ULRDecoder (Eddystone)
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.2.0 (2021-07-29)
+        ------------------
+        
+        * Internal refactoring
+        
+        0.1.0 (2021-04-25)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: ruuvi_decoders
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5

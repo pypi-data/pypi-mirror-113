@@ -1,0 +1,9 @@
+foliant/preprocessors/dbmldoc/__init__.py,sha256=uv-ufvkeFAbfLB2SBZyGidTsi06MHBkjci5fJkgbtDY,33
+foliant/preprocessors/dbmldoc/dbmldoc.py,sha256=_ruBX7GEzS1QLXoyXAwePGMITXalT_9Wo_gjHz4JtYo,6079
+foliant/preprocessors/dbmldoc/template/dbml.j2,sha256=dUqdWyiyaSgenRLE0y3RbfQ-sx4qGp-RB5ELJ6EJgUk,1714
+foliant/preprocessors/dbmldoc/template/scheme.j2,sha256=GlrPg4rmdCco_LrLsUXZlxNx1oA6f1KgxjHdx9b8_rY,727
+foliantcontrib.dbmldoc-0.3.1.dist-info/LICENSE,sha256=JvZMgDsH386oLqMXkLh_z1v8dk1jUTz-xq-Be2LWvrw,1056
+foliantcontrib.dbmldoc-0.3.1.dist-info/METADATA,sha256=zcj0gSLWFaXraM_nosRr_WXWLoywwtpPe1cz_Z4nfoM,4928
+foliantcontrib.dbmldoc-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foliantcontrib.dbmldoc-0.3.1.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.dbmldoc-0.3.1.dist-info/RECORD,,

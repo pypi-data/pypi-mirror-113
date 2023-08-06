@@ -1,0 +1,13 @@
+orgnote/__init__.py,sha256=2Ap0eF99vL7UQXl0lugAmBPKwcsnVZbwhPjnfWE5YwE,394
+orgnote/__main__.py,sha256=fkKvY9VlQpjBCPxnFDEgeS3mm4dDWqux2P5RcMdcNuw,477
+orgnote/colorsrc.py,sha256=SIKgZQy9RB1nxETVHTyFPNWAd4h5qcyOh5u0CTZ1XcE,431
+orgnote/config.py,sha256=oC8MtXzZPdMpRsRlRE9PmJGESRds1zMYkMAkeNfqyMU,4974
+orgnote/init.py,sha256=y8a0W3Nzqcf50sQ6qxFmOpJIL3mvgJKDjSION9X2XqY,9168
+orgnote/parser.py,sha256=3bpXLgrn1o8djr8FhkudPfg87QnqhpXCX2h4lgfWtQs,89181
+orgnote/util.py,sha256=zRQCG_B7wMKCMvwEKgGG1t3eQRhkXTleAlJYB3CBCHA,8450
+orgnote-1.0.0.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+orgnote-1.0.0.dist-info/METADATA,sha256=v0xczo97PVjKB0IWQENUUU625AcwDLH83uOiGqwvn3A,1808
+orgnote-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+orgnote-1.0.0.dist-info/entry_points.txt,sha256=sm_uI6YUKOp4CPeqlgIPMhYaTAIumdtDLDobEEie0hA,92
+orgnote-1.0.0.dist-info/top_level.txt,sha256=cjbt7FYVfE8czq6CZ6_E7oFpsT4ytjet-sF9pbMOZKo,8
+orgnote-1.0.0.dist-info/RECORD,,

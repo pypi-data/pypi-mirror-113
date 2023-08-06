@@ -1,0 +1,10 @@
+setup.py
+udac_dist/Binomialdistribution.py
+udac_dist/Gaussiandistribution.py
+udac_dist/Generaldistribution.py
+udac_dist/__init__.py
+udac_dist.egg-info/PKG-INFO
+udac_dist.egg-info/SOURCES.txt
+udac_dist.egg-info/dependency_links.txt
+udac_dist.egg-info/not-zip-safe
+udac_dist.egg-info/top_level.txt

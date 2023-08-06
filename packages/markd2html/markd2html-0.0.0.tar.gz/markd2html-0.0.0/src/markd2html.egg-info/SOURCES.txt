@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/markd2html.egg-info/PKG-INFO
+src/markd2html.egg-info/SOURCES.txt
+src/markd2html.egg-info/dependency_links.txt
+src/markd2html.egg-info/entry_points.txt
+src/markd2html.egg-info/top_level.txt
+src/markdown2html/__init__.py
+src/markdown2html/markdown.py
+src/markdown2html/md.py

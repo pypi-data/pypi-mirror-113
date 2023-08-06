@@ -1,0 +1,7 @@
+dupesearch-0.1.12.dist-info/METADATA,sha256=UopVr2vQE7RMckkTxsSI7zTLiLJCw8eEBWPNElppE3o,1819
+dupesearch-0.1.12.dist-info/WHEEL,sha256=gZRcWfhR-hgkfd-7W1aAkVmL-AQBCSBcZOz_dy5XO8Q,108
+dupesearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dupesearch/__main__.py,sha256=gK20Jr-soCn3F8afExZnzReoeF1jurab8GKsKBxndPw,2390
+dupesearch/cli_utils.py,sha256=tSkcmsOWb_v176isSII44k3qxLvck38N9dURBrKJ6Sg,6315
+dupesearch/dupesearch.cpython-37m-x86_64-linux-gnu.so,sha256=UM7xM446knfmfH6ifoJSmorHiCq_TAhNjixrCqYMhNs,604656
+dupesearch-0.1.12.dist-info/RECORD,,

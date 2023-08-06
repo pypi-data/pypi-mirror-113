@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: firstgame2
+Version: 0.1.0
+Summary: 
+Author: gregdavies91
+Author-email: greg@facetothelight.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: keyboard (>=0.13.5,<0.14.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)

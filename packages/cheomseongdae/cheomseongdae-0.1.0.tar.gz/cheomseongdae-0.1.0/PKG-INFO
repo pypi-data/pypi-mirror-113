@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cheomseongdae
+Version: 0.1.0
+Summary: Let's go get the stars.
+Home-page: https://cheomseongdae.github.io
+Author: pySatellite
+Author-email: pySatellite@gmail.com
+License: GNU General Public License (GPL)
+Project-URL: Bug Tracker, https://github.com/cheomseongdae/cheomseongdae.github.io/issues
+Platform: macOS
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cheomseongdae
+Let's express the operating principles of Apache Spark interestingly and visually. I hope the process is more fun than the result.
+
+## install
+
+```
+pip install cheomseongdae
+```
+
+## use
+```
+>>> cheomseongdae-ping
+'pong'
+```
+
+

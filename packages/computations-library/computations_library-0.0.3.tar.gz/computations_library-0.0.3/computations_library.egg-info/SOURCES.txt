@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+./computations_library/__init__.c
+computations_library.egg-info/PKG-INFO
+computations_library.egg-info/SOURCES.txt
+computations_library.egg-info/dependency_links.txt
+computations_library.egg-info/requires.txt
+computations_library.egg-info/top_level.txt

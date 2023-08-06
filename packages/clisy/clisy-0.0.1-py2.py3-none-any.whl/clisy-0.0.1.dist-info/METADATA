@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: clisy
+Version: 0.0.1
+Summary: A command line utility to search from command line using various search options and then open browser to see the results.
+Home-page: https://github.com/nilukush/clis/
+Author: Nilesh Kumar
+Author-email: nilukush@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+======
+clisy
+======
+
+A command line utility to open browser for when you want to search something across various options
+
+Description
+===========
+
+This is a simple utility to open browser from command line when you want to search something from various search options. Currently, it supports DuckDuckGo. But quickly, will plan to add the following options as well :
+
+* GOOGLE ("g")
+* WIKIPEDIA ("w")
+* WIRECUTTER ("wc")
+* AMAZON ("a")
+* CREATIVE_COMMONS ("cc")
+* IMDB ("imdb")
+
+.. _pyscaffold-notes:
+
+Note
+====
+
+This project has been set up using PyScaffold 4.0.2. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+

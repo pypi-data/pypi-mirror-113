@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: codec-Watteco
+Version: 0.0.8
+Summary: This codec is used to encode the data to send to the nke Watteco sensor. And to decode the received data.
+Home-page: https://github.com/Watteco/Codec-Report-Standard-Python
+Author: Olivier
+Author-email: ostephan@nke.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Watteco/Codec-Report-Standard-Python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Read me
+

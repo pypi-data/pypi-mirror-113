@@ -1,0 +1,9 @@
+trashpandas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trashpandas/__main__.py,sha256=z3HKAuxdlPyfVhQSsjhlGP7srnGbGXir9rEbVp1pR0s,58
+trashpandas/interfaces.py,sha256=XlC5VRQeF2NpXWhDG-TIwdcrvtQVt29b24oAT2ttp7g,297
+trashpandas/pickle_datalayer.py,sha256=K7OKJGOXCymXl2z7v19VCV8hn6O64QZB79kVOHHtNUc,465
+trashpandas/table.py,sha256=1hyNlfs27544aDILAGrVghSuw1N3WpHSlqIWp5drrEw,389
+trashpandas-0.0.1.dist-info/METADATA,sha256=hvIC2U60GhaRB8yBT6NY_T5v3y16VvElhJOptv0eRbY,462
+trashpandas-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trashpandas-0.0.1.dist-info/top_level.txt,sha256=6dmGvv-Cf-p4a3_jpzabjOjSUrixhaI9PfxBkqQe7eo,12
+trashpandas-0.0.1.dist-info/RECORD,,

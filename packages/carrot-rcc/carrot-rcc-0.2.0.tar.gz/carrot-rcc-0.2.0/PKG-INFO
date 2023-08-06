@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: carrot-rcc
+Version: 0.2.0
+Summary: Camunda external task Robot Framework RCC client
+Home-page: https://github.com/datakurre/carrot-rcc
+License: MIT
+Author: Asko Soukka
+Author-email: asko.soukka@iki.fi
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+```bash
+usage: carrot-rcc [<robots>...]
+                  [--base-url] [--authorization]
+                  [--worker-id] [--max-tasks] [--poll-interval] [--log-level]
+                  [--rcc-executable] [--rcc-encoding] [--rcc-telemetry]
+                  [-h] [--help]
+
+<robots> could also be passed as a comma separated env RCC_ROBOTS
+
+options:
+
+  --base-url[=<url>]                       [env: CAMUNDA_API_BASE_URL] [default: http://localhost:8080/engine-rest]
+  --authorization[=<header>]               [env: CAMUNDA_API_AUTHORIZATION] [example: Basic ZGVtbzpkZW1v]
+
+  --worker-id[=<string>]                   [env: CLIENT_WORKER_ID] [default: carrot-rcc]
+  --max-tasks[=<cpus>]                     [env: CLIENT_MAX_TASKS] [default: [cpu count]]
+  --poll-interval[=<milliseconds>]         [env: CLIENT_POLL_INTERVAL] [default: 30000]
+  --log-level[=<debug|info|warn|error>]    [env: CLIENT_LOG_LEVEL] [default: info]
+
+  --rcc-executable[=<path>]                [env: RCC_EXECUTABLE] [default: rcc]
+  --rcc-encoding[=<encoding>]              [env: RCC_ENCODING] [default: utf-8]
+  --rcc-telemetry                          [env: RCC_TELEMETRY] (default: do not track)
+
+  -h, --help
+```
+

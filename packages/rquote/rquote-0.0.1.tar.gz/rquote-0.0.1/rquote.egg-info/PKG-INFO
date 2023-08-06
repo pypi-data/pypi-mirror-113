@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rquote
+Version: 0.0.1
+Summary: Mostly day quotes of cn/hk/us/fund/future markets, side with quote list fetch
+Home-page: https://github.com/kids/rquote
+Author: Roizhao
+Author-email: roizhao@gmail.com
+License: MIT
+Description: # rquote
+Keywords: quotes,stock,rquote
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown

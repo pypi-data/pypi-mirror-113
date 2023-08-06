@@ -1,0 +1,12 @@
+LICENCE.txt
+setup.cfg
+setup.py
+Py_Focus/__init__.py
+Py_Focus/plot.py
+Py_Focus/sim.py
+Py_Focus/user_interface.py
+Py_Focus.egg-info/PKG-INFO
+Py_Focus.egg-info/SOURCES.txt
+Py_Focus.egg-info/dependency_links.txt
+Py_Focus.egg-info/requires.txt
+Py_Focus.egg-info/top_level.txt

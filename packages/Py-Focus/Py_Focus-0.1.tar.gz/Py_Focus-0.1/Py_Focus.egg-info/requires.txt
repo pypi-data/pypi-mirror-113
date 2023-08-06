@@ -1,0 +1,12 @@
+config
+tqdm
+numpy
+matplotlib
+scipy
+PyQt5
+qtpy
+pyqtgraph
+qdarkstyle
+os
+configparser
+time

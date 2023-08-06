@@ -1,0 +1,7 @@
+jmespath>=0.10.0
+lark-parser>=0.10.1
+python-dateutil>=2.8.1
+pyyaml>=5.4.1
+requests>=2.25.1
+urllib3>=1.26.4
+babel>=2.9.0

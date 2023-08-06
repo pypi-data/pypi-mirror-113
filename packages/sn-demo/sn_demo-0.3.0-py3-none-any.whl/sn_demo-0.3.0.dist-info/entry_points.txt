@@ -1,0 +1,3 @@
+[console_scripts]
+sn-demo=sn_demo.main:app
+

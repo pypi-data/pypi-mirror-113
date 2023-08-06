@@ -1,0 +1,116 @@
+CHANGES
+=======
+
+* update setup.cfg
+* remove PROJ\_SIZE in LSTM since it is incompatible with older version of Pytorch
+* update crnn
+* update generate attention mask
+* split model to required interface and our default model
+* move generate padding to utils
+* update ConvAttnRNN to receive config and string decode only
+* update conv\_seq2seq to receive Config and string decoder only
+* add pad to Seq2SeqVocab
+* fix leaf assign in Config
+* restructure project
+* remove branch docs from github actions
+* refactor docs
+* add ConvAttnRNN
+* move generate mask to ocrstack/utils
+* add log graph before training, fix logger name
+* add tensorboard to github action
+* add log\_scalars for logging multiple scalars at once; refactor logging format
+* reset consolelogger's internal step to 0 when open
+* add loggers
+* move logger to engine package
+* fix old loss imports
+* add attention operations
+* remove <eos> in prediction
+* update constructor of ConsoleWriter to receive string instance
+* fix console writer
+* update trainer's test cases to work with both cpu and gpu
+* fix lengths in GPU. It should be placed on CPU
+* move rawText in metadata to required fields
+* fix lengths in batch
+* update visualize
+* models now return loss
+* add torchinfo to CI
+* add torchinfo to summarize model
+* move mask to device automatically
+* update models
+* temp
+* add CSVDataset
+* update init of loss functions
+* add LabelSmoothLoss
+* fix TransformerDecoder decode
+* add option to remove <eos> when decode to string Seq2Seq
+* fix loss end of sequence
+* remove core package because it is redundant
+* BatchPadTexts broadcast
+* fix visualizer is None
+* add Visualizer class
+* update to build package
+* add test attentionlstmdecoder
+* add AttentionLSTMDecoder and refine Seq2SeqTrainBridge
+* refactor
+* refactor collate batch
+* update metrics
+* add CTCLoss wrapper
+* fix metadata to device
+* add metatdata field to Dataset
+* fix transfer batch to device
+* automatically use argmax when passing 3-dim tensor to CTC decode
+* add type annotation for modelbase class
+* add type annotation for collatebatch class
+* add pyproject.toml
+* update classifier
+* add val\_step
+* update trainer and its test script
+* fix only run github actions on dev branch pushing
+* add config comparison and its tests
+* add build status badge to README
+* remove incorrect imports
+* add requirements
+* remove redundant file
+* fix flake8 errors
+* update workflows
+* update working\_directory in workflow githubaction
+* debug workflow
+* fix typo workflow
+* only dev with py3.8 first
+* refactor workflow
+* fix typo
+* update workflow to run test
+* update workflow github actions
+* add model seq2seq
+* update tf sequence decoder
+* add tests
+* add Transformer Encoder Adapter
+* add transformer decoder
+* update index
+* add sphinx extensions
+* add data module to docs
+* Update repo introduction
+* Add readthedocs buiding status
+* fail on warning = false
+* add pyyaml to requirements
+* add pillow, numpy, editdistance to requirements
+* add torch and torchvision to requirements docs. We just need CPU version only
+* add setup.py
+* add module model
+* add data module
+* add config module
+* add engine module
+* add builder html option to readthedocs config
+* add readthedocs configuration file
+* add requirements.txt
+* add branch to run actions
+* add action for building docs
+* add flake8 github actions
+* add docs
+* add typing
+* add ocr metrics
+* add image and string transforms
+* add README
+* add .flake8 config
+* add gitignore
+* add LICENSE

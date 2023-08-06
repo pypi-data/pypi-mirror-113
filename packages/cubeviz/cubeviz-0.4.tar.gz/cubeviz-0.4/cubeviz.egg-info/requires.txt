@@ -1,0 +1,5 @@
+
+[docs]
+setuptools
+sphinx-astropy
+sphinx-rtd-theme

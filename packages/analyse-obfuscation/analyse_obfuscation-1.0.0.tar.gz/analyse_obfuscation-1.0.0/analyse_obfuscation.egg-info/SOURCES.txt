@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+analyse_obfuscation/__init__.py
+analyse_obfuscation/helpers.py
+analyse_obfuscation/output_results.py
+analyse_obfuscation/run.py
+analyse_obfuscation/test_process_obfuscation.py
+analyse_obfuscation.egg-info/PKG-INFO
+analyse_obfuscation.egg-info/SOURCES.txt
+analyse_obfuscation.egg-info/dependency_links.txt
+analyse_obfuscation.egg-info/entry_points.txt
+analyse_obfuscation.egg-info/requires.txt
+analyse_obfuscation.egg-info/top_level.txt

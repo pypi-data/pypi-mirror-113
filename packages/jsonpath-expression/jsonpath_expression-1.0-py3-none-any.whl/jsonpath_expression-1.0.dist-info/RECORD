@@ -1,0 +1,7 @@
+jsonpath_expression/__init__.py,sha256=ZNJcOpf11NvZnlV-HmGRbkAOMmVap4xL2te4w0XClDs,214
+jsonpath_expression/jsonpath_expression.py,sha256=X6TNpDaBldL_rBSqRvOQtixBQqzc80l0P7zdwPqLBNQ,3746
+jsonpath_expression/test_jsonpath_expression.py,sha256=ciYti26rsUf5FEn7Ki746k-anKwKoQvB8YHVcCh35VI,463
+jsonpath_expression-1.0.dist-info/METADATA,sha256=4rglAtT7-VAZgd3sBLM4X0BLDJJ3BqFwV7DqidMmdpI,565
+jsonpath_expression-1.0.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+jsonpath_expression-1.0.dist-info/top_level.txt,sha256=PJ0Rhu3TUCBvF9z2h9MfoDQ3OUncfFzXfjBfEqvLQlI,20
+jsonpath_expression-1.0.dist-info/RECORD,,

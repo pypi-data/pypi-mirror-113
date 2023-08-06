@@ -1,0 +1,5 @@
+PyGeometry-z6
+aido-protocols-daffy
+duckietown-world-daffy
+termcolor
+zuper-nodes-z6>=6.0.37

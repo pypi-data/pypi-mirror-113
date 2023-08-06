@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lichvPy3mysql
+Version: 0.0.1
+Summary: Utility tools with mysqldb
+Home-page: https://github.com/lichv/py3mysql
+Author: lichv
+Author-email: lichvy@126.com
+License: UNKNOWN
+Description: Utility tools with mysqldb
+Platform: UNKNOWN
+Requires-Python: >=3.6

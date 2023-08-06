@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/lichvPy3mysql/__init__.py
+src/lichvPy3mysql/mysqldb.py
+src/lichvPy3mysql.egg-info/PKG-INFO
+src/lichvPy3mysql.egg-info/SOURCES.txt
+src/lichvPy3mysql.egg-info/dependency_links.txt
+src/lichvPy3mysql.egg-info/requires.txt
+src/lichvPy3mysql.egg-info/top_level.txt

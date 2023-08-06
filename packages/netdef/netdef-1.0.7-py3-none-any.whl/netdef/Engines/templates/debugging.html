@@ -1,0 +1,108 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+{{ super() }}
+<div class="row-fluid">
+
+    <div>
+        {% if current_user.is_authenticated %}
+
+        {% block home %}
+
+        <div class="panel panel-default">
+            <div class="panel-heading">tracemalloc statistics</div>
+            <div class="panel-body">
+                <div class="container">
+                    <div class="row">
+                        <a href="./compare_top_50/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            compare top 50
+                        </a>
+                        <a href="./trace_top_50/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            view top 50
+                        </a>
+                        <a href="./traceback_current/-1" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            traceback current
+                        </a>
+                        <a href="./traceback_compare/-1" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            traceback compare
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">tracemalloc set trace_type</div>
+            <div class="panel-body">
+                <div class="container">
+                    <div class="row">
+                        <a href="./set_trace_type/lineno" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            lineno
+                        </a>
+                        <a href="./set_trace_type/filename" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            filename
+                        </a>
+                        <a href="./set_trace_type/traceback" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            traceback
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">tracemalloc snapshots</div>
+            <div class="panel-body">
+                <div class="container">
+                    <div class="row">
+                        <a href="./take_snapshot/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            take snapshot
+                        </a>
+                        <a href="./save_snapshot/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            save snapshot to disk
+                        </a>
+                        <a href="./gc_collect/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            GC Collect
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">tracemalloc start/stop</div>
+            <div class="panel-body">
+                <div class="container">
+                    <div class="row">
+                        <a href="./trace_start/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            tracemalloc start
+                        </a>
+                        <a href="./trace_stop/" class="btn btn-default col-md-2" role="button">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            tracemalloc stop
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% endblock home %}
+
+        {% else %}
+
+            Not logged in
+
+        {% endif %}
+
+    </div>
+
+</div>
+{% endblock body %}

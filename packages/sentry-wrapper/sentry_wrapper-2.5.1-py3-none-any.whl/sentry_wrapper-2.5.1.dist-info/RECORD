@@ -1,0 +1,7 @@
+CHANGES.rst,sha256=SpgaEfhDhIvkXz24j3ZGbMp1-iDFu3LsDK-2pnagUUQ,1139
+sentry_msg/__init__.py,sha256=X8jt7d0VQM9LFxg8SDn_030m-Dfs0qVlbF9tgjQEjgk,987
+sentry_wrapper/__init__.py,sha256=5vjqJLombWcj7cWRtdwk9G0FzS58O530wkPcqErms8w,4909
+sentry_wrapper-2.5.1.dist-info/entry_points.txt,sha256=B4DGIkybFL3-oVEDjMTv-gOUZwkTajfLK-CHYG6jaHs,87
+sentry_wrapper-2.5.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sentry_wrapper-2.5.1.dist-info/METADATA,sha256=YjKHAPxJNkmg0GmEGdcXOufggbk8jMMfedkzwu8FR1Y,3100
+sentry_wrapper-2.5.1.dist-info/RECORD,,

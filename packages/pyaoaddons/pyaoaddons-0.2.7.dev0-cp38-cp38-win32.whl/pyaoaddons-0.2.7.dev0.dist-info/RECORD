@@ -1,0 +1,8 @@
+libpyaoaddons.cp38-win32.pyd,sha256=mVm6sc2pjgTSF5W5M3RFUplPkEZVKe1PKkwIPPhFN5k,1165824
+pyaoaddons/__init__.py,sha256=WOsv3ATAERpikkb428HEskf-VXw_JMkeztZAprAy-ts,421
+pyaoaddons/item_category_mapping.py,sha256=nlTn_BplaOooEAMzwOP53-RFpQvCVex_qZ8YXD-GTzw,200810
+pyaoaddons/localization_mapping.py,sha256=JTAGddYoHRaJ7ccZ8GeTaMzLHTrFbjRdBgVriyzQvQQ,597576
+pyaoaddons-0.2.7.dev0.dist-info/METADATA,sha256=VDFAevwR6_UBmOVO6nNrZ-njWSVBn8ZCSvGoHcGltP0,1373
+pyaoaddons-0.2.7.dev0.dist-info/WHEEL,sha256=_iQIYqodxlIIeRSKaaUx61MUqAflFno6m3IasYrHq0k,96
+pyaoaddons-0.2.7.dev0.dist-info/top_level.txt,sha256=kr9INAv3ObG4awuoZyRErrsnJOdKqYpRl1do_M8j7RU,11
+pyaoaddons-0.2.7.dev0.dist-info/RECORD,,

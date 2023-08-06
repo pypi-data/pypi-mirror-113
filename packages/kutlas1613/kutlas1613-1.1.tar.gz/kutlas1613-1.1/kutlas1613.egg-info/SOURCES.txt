@@ -1,0 +1,9 @@
+README.md
+setup.py
+kutlas1613.egg-info/PKG-INFO
+kutlas1613.egg-info/SOURCES.txt
+kutlas1613.egg-info/dependency_links.txt
+kutlas1613.egg-info/top_level.txt
+mortipdf/__init__.py
+mortipdf/image2pdf.py
+mortipdf/pdf2text.py

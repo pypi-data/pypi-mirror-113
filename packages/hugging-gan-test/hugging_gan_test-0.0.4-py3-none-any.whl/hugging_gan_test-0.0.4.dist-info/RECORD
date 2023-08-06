@@ -1,0 +1,9 @@
+bigotis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigotis/modeling_utils.py,sha256=JMdPVKmu_IcZ4S82Ug6IzUBcdWpRf9KXp-o3wVmU1mY,3864
+bigotis/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigotis/models/taming/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigotis/models/taming/modeling_taming.py,sha256=vCaRNBeiiWseDKqG25z_bEaNKPPNtnKlGQx1DkPsIxA,6997
+hugging_gan_test-0.0.4.dist-info/METADATA,sha256=lgjN8Fz18Ri3JcjL_W4KLVx3hBeLFOyNVjZZY5a7sVw,1182
+hugging_gan_test-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hugging_gan_test-0.0.4.dist-info/top_level.txt,sha256=qvN1VOIxJhcoz9G6z-6s6uHvp2O6ozsL8cuDZo8mcbs,8
+hugging_gan_test-0.0.4.dist-info/RECORD,,

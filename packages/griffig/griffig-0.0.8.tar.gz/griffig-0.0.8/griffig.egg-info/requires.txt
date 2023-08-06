@@ -1,0 +1,6 @@
+loguru
+tensorflow>=2.4
+opencv-python
+numpy
+scipy>=1.5
+Pillow

@@ -1,0 +1,92 @@
+# Package Overview
+package_name: attendance_model
+
+# Data File
+data_file: frequentation_dtwh.db
+
+# Variables
+target: reel
+
+pipeline_name: attendance_model
+pipeline_save_file: attendance_model_output_v
+
+# Features that will be inputed by the end users
+inputs:
+  - date
+  - prevision
+  - cantine_nom
+  - annee_scolaire
+  - effectif
+  - quartier_detail
+  - prix_quartier_detail_m2_appart
+  - prix_moyen_m2_appartement
+  - prix_moyen_m2_maison
+  - longitude
+  - latitude
+  - depuis_vacances
+  - depuis_ferie
+  - depuis_juives
+  - ramadan_dans
+  - depuis_ramadan
+
+# Both inputed features and features that will be derived in training pipeline
+features:
+  - date
+  - prevision
+  - cantine_nom
+  - annee_scolaire
+  - effectif
+  - quartier_detail
+  - prix_quartier_detail_m2_appart
+  - prix_moyen_m2_appartement
+  - prix_moyen_m2_maison
+  - longitude
+  - latitude
+  - depuis_vacances
+  - depuis_ferie
+  - depuis_juives
+  - ramadan_dans
+  - depuis_ramadan
+  - year
+  - day_of_week_sin
+  - day_of_year_sin
+  - day_of_year_cos
+  - week 
+  - freq_reel_%
+  - freq_reel_%_std
+  - greve
+
+
+test_size: 0.1
+
+split_date: 2018-09-03
+
+random_state: 42
+
+alpha: 0.9
+
+objective: "quantile"
+
+metric: "quantile"
+
+max_depth: 5
+
+n_estimators: 150
+
+num_leaves: 8
+
+
+# Variables with NA in train set
+categorical_vars_with_na:
+  - cantine_nom
+  - annee_scolaire
+  - quartier_detail
+
+numerical_vars_with_na:
+  - prix_quartier_detail_m2_appart
+  - prix_moyen_m2_appartement
+  - prix_moyen_m2_maison
+  - longitude
+  - latitude
+  - freq_reel_%
+  - freq_reel_%_std

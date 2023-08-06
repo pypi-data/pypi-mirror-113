@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+herbatis.egg-info/PKG-INFO
+herbatis.egg-info/SOURCES.txt
+herbatis.egg-info/dependency_links.txt
+herbatis.egg-info/entry_points.txt
+herbatis.egg-info/top_level.txt
+test/__init__.py

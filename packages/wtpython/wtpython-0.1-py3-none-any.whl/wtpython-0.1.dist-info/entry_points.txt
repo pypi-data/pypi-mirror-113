@@ -1,0 +1,3 @@
+[console_scripts]
+wtpython=wtpython.__main__:main
+

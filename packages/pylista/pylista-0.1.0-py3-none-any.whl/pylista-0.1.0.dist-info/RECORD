@@ -1,0 +1,8 @@
+pylista/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylista/cli.py,sha256=1MXL7EXkDcWyF2i4eCRxaKyWjfVfSnxYOH5vmmG-s8w,1804
+pylista/defaults.py,sha256=DrQJHDY-sZWLznWjaZp7c4CQnVHooJIO7FhEmfA9trM,131
+pylista/lists.py,sha256=--sm0PE2oOK2MyO-Ygcq_eg_jqc2AFxcTKlPQL3a8Xo,1467
+pylista-0.1.0.dist-info/entry_points.txt,sha256=QVP8wJhnxpxAeZ2hmM_AVdXVd0NMSDzsg61GBJC9QiI,43
+pylista-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pylista-0.1.0.dist-info/METADATA,sha256=j8UrP6zcuYFq6Ld3v9gBdNITo4EXtyczNRB55QhLG1g,372
+pylista-0.1.0.dist-info/RECORD,,

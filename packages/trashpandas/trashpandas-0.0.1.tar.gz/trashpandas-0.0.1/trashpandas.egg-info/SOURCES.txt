@@ -1,0 +1,12 @@
+README.md
+setup.py
+trashpandas/__init__.py
+trashpandas/__main__.py
+trashpandas/interfaces.py
+trashpandas/pickle_datalayer.py
+trashpandas/table.py
+trashpandas.egg-info/PKG-INFO
+trashpandas.egg-info/SOURCES.txt
+trashpandas.egg-info/dependency_links.txt
+trashpandas.egg-info/requires.txt
+trashpandas.egg-info/top_level.txt

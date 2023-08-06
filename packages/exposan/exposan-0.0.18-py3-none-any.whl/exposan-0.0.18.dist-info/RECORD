@@ -1,0 +1,17 @@
+exposan/__init__.py,sha256=6N2-kRuYGcLdjapi1tHJz6uNW4EBJI7-NBhKvl2Y3Jg,519
+exposan/bwaise/README.rst,sha256=IIyxP57sAlcfnzUx_q3VGPcY_PRRhAYV3W_nPsblfQY,9709
+exposan/bwaise/__init__.py,sha256=spyMY9XZ6GI4k6HXWvweg9T--OunZ1L1zP58DypeYd8,653
+exposan/bwaise/_cmps.py,sha256=SQ1lj2qipsm36D7hTuUrYgUBNb20oGbej1d4Ow4SOEM,5910
+exposan/bwaise/_lca_data.py,sha256=KWYY1egUZODo_DBw3R4fQISn_X9PdbK9VnMyJ3fGqT0,14354
+exposan/bwaise/analyses.py,sha256=QJvI7T1wSdP0slBSojasMVi6MlVGPFNvp2TPfamYfWI,9347
+exposan/bwaise/models.py,sha256=crkbOennzilK4TsHu2_aXHcUXnEXssMeqtXc5X0xdVk,36868
+exposan/bwaise/systems.py,sha256=muswyHyfYKOU1LcUXsQ8wMY2ibY_aQPaU3iqQFAr04o,35453
+exposan/bwaise/data/cf_dct.pckl,sha256=6Nd33w_P0DVCluPqcDDamtYGXvsWrl9aSOQXE0kVel4,55021
+exposan/bwaise/data/indicators_new.tsv,sha256=jtSatYlTTmeHM43jDsbs0dMNxEHuSqoOeIxvm8BCAW8,11341
+exposan/bwaise/data/indicators_original.tsv,sha256=bWLKtNH5nPgFCI95si4C0fF_9f4jilG2v3ShKcrVCVo,1187
+exposan/bwaise/data/items_original.xlsx,sha256=pPurOu2M40eWhGJHuZSZCVV_OgYzCOF2LV2mnAn3f00,11285
+exposan-0.0.18.dist-info/LICENSE.txt,sha256=4ETVnsg8kE6FYtftnzxCHIujWuKQ6E_AcqopRS0c6cU,1908
+exposan-0.0.18.dist-info/METADATA,sha256=a9T8_omd6OLwQKLlL-qRHXU87qIW_dbR2yjon-NIacU,3402
+exposan-0.0.18.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+exposan-0.0.18.dist-info/top_level.txt,sha256=Rvq2iVbMxLlD2ViHDKhiH7Juie9o0RwAqcN8MUbosaE,8
+exposan-0.0.18.dist-info/RECORD,,

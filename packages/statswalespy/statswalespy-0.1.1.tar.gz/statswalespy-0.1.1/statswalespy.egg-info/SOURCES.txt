@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+statswalespy/__init__.py
+statswalespy/check_internet_connection.py
+statswalespy/download_data.py
+statswalespy/search.py
+statswalespy.egg-info/PKG-INFO
+statswalespy.egg-info/SOURCES.txt
+statswalespy.egg-info/dependency_links.txt
+statswalespy.egg-info/requires.txt
+statswalespy.egg-info/top_level.txt

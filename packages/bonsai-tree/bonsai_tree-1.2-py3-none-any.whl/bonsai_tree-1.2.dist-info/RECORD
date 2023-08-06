@@ -1,0 +1,13 @@
+bonsai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bonsai/seeds.py,sha256=ia8dbGmvbIUMWLrtj3T6walfw1huxpTAAbJ_c7z7uu4,323
+bonsai/tune.py,sha256=z2a6gPbe7ziXOQeH8KOy5IfMCcL9vFN5JOULC1yxByg,4178
+bonsai/utils.py,sha256=S-3LUzW_3wS5nQK6WjQWaVpfAc0nMk8d4ub4BA3wopU,529
+bonsai/demo_configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bonsai/demo_configs/catboost.yml,sha256=wbUXnRJxyLgrcg_Mh9ycuKQ5BXq11_mTi-92gtUc7pI,402
+bonsai/demo_configs/lightgbm.yml,sha256=mDB-nvhmzRcUb1A0IJBl_9Jys-tlSLCSrS8FTAA8Tiw,433
+bonsai/demo_configs/xgboost.yml,sha256=cilcCWv9iZoc_IqZYkJHZfJet0vQLMPcnhRTP6l2NLA,462
+bonsai_tree-1.2.dist-info/LICENSE,sha256=faUnpj57TiDOv_fz5rwxuK7x-dB7ZhxNWIZHdroRkAc,1063
+bonsai_tree-1.2.dist-info/METADATA,sha256=LLpKUoOXDb3nBAJUHWtYch4r0td-dJQPKsvFxa8_Lz4,2860
+bonsai_tree-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bonsai_tree-1.2.dist-info/top_level.txt,sha256=fTToMd3D66Woxzx-QvaCo03Ew3OTvSTggZTbztc8-fA,7
+bonsai_tree-1.2.dist-info/RECORD,,

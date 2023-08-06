@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sn-demo
+Version: 0.3.0
+Summary: 
+Author: Rick Sanchez
+Author-email: rick@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer[all] (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+

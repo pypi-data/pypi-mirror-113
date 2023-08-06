@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sn-demo"
+version = "0.3.0"
+description = ""
+authors = ["Rick Sanchez <rick@example.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+sn-demo = "sn_demo.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typer = {extras = ["all"], version = "^0.1.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

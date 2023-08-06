@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+university/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+university/__main__.py,sha256=lo9s3uXi8HFqXnVKGmZn8X_ShWw8jS6U8akmSvr23V8,474
+university/hooking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+university/hooking/ante_build_hook.py,sha256=xHHJNXnxb9watd2y7WjAJtYrYatQ5l-nIIue1G0R4gs,457
+university/hooking/ante_release_hook.py,sha256=0zUaDxzt0xCA-CXaHGYtngfHXqgCVI-LIDorQtLP5sY,4687
+university/hooking/post_build_hook.py,sha256=OORfwRWkgH7ibBj8g5TQ5qzRu2cUKbl1qzQhFtvdaB8,457
+university/hooking/post_release_hook.py,sha256=BA0iuoN4Pvur4rRcmEOW6w1U5gy3Cagtf45BG_LmIeM,2183
+university/pyrustic_data/hooking.json,sha256=ZrtMnuItcLzlbgNkntHBWva4wsWx-giXU9VkHLceSS4,298
+university/pyrustic_data/hubstore.json,sha256=PYmFHCMCYZJ3_QeuTvBJVDIChqxxv6HuCg09hsXm6vU,166
+university/pyrustic_data/release_info.json,sha256=Wp-2tVBcom2zIW8-Hw7TcEHx5d2y8SpVufi8Ygjt6Yo,273
+university-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+university-0.0.1.dist-info/METADATA,sha256=z4LNvOopxHyC5IUcp2tZxqVy7Sk351xj4xyfwFjdEMg,541
+university-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+university-0.0.1.dist-info/entry_points.txt,sha256=JUD20ipeUhldCnfayP0dBe7tgBmwy7hFdh9yTVXmODk,57
+university-0.0.1.dist-info/top_level.txt,sha256=drcrR6qSzI1DlphgbT3zRSmg0HVZJzYEtVJs6URudYU,17
+university-0.0.1.dist-info/RECORD,,

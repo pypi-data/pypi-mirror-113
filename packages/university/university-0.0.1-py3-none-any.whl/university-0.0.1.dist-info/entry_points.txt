@@ -1,0 +1,3 @@
+[console_scripts]
+university = university.__main__:main
+

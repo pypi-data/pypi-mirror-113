@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "university.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "university.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "university.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "university.hooking.post_release_hook"
+    ]
+}

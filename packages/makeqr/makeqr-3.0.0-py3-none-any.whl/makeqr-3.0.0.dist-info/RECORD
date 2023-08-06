@@ -1,0 +1,17 @@
+makeqr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makeqr/__main__.py,sha256=fyOeL9RNZuWNKrrvbf-1fq9WazvbFc7zB8nUSV9fBUk,67
+makeqr/app.py,sha256=VQfFeMg9zNsrtlKKjY58G6sqr2DRHl33cIT6ATmU_zA,4210
+makeqr/enums.py,sha256=Awhr_2SOSuyGhDWM6DZ8ui2cMMtogneYG1GALCB5sOw,418
+makeqr/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makeqr/models/base.py,sha256=aJ71UeMoqJdMN8oqAvFHNFd7sIy0PIWBnLeZhNmR0yY,277
+makeqr/models/geo.py,sha256=OdECYSIOu6i9YNBkfmSB8EOuaYReBeDRellVQdoIzyM,470
+makeqr/models/link.py,sha256=TSFsUXDPjnx5LjnkHPoRPhOCYCVxZoaJ8k2n0h3jbuk,440
+makeqr/models/mailto.py,sha256=f7epXwgF6PhmvjF55VOiQqllivo_VrwEDDB1OO6wOak,988
+makeqr/models/sms.py,sha256=BiMdUjFYuCojVAY5wCZ8vBzJt334X_k9-J456jeDhpg,561
+makeqr/models/tel.py,sha256=4M86XD_JoAvaN3lWLqK0PugCKRlie5h4ob8QJrXOe2k,362
+makeqr/models/wifi.py,sha256=2fuzDR1xpqlPahjXRP4DBS_VYvp_SF4RsmorrLHXXxg,1270
+makeqr/utils.py,sha256=oeqx9XEc2lNhGAoFPii6BlIeavwfiDa8i24MGegyLmM,2133
+makeqr-3.0.0.dist-info/entry_points.txt,sha256=cH2bjFb2YxUf6olzzZ0FSiE-TYgcu_hGiTsweKd_nZc,42
+makeqr-3.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+makeqr-3.0.0.dist-info/METADATA,sha256=WsriKjCg9jGJqU5FqC6Y_EtQptikJ-NQHsPSgIormM0,740
+makeqr-3.0.0.dist-info/RECORD,,

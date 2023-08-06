@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: notion-renderer
+Version: 0.2.7
+Summary: Awesome `notion_renderer` is a Python cli/package created with https://github.com/TezRomacH/python-package-template
+Home-page: https://github.com/notion_renderer/notion_renderer
+License: MIT
+Author: notion_renderer
+Author-email: ruucm.a@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyInquirer (>=1.0.3,<2.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: commonmark (>=0.9.1,<0.10.0)
+Requires-Dist: dictdiffer (>=0.9.0,<0.10.0)
+Requires-Dist: python-slugify (>=5.0.2,<6.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: rich (>=10.6.0,<11.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Requires-Dist: tzlocal (>=2.1,<3.0)
+Project-URL: Repository, https://github.com/notion_renderer/notion_renderer
+Description-Content-Type: text/markdown
+
+# notion_renderer
+

@@ -1,0 +1,15 @@
+zap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zap/__main__.py,sha256=OhVaaaXY-WAe10aYOV2X_E0Wx8hxq7_EkaW7hLXkX4A,59
+zap/__meta__.py,sha256=D5QNZQHMHy4ofaIWGicmPM7YDWJkTIjmGpuymU9SbA0,78
+zap/album.py,sha256=qa-L240ILQf85pDp1C_9tu0JGhFpzWExTG7Y7ArTiFw,15759
+zap/no_album.png,sha256=50Gd0aoxBYBk30qAr6DRkP8GYVx0dp6zjCXQdKAZlsc,61954
+zap/player.py,sha256=biqBeVYkfw9CST3C255tIutjqKEz1q06QNrJxzP6mVg,15969
+zap/unknown_album.png,sha256=vvTptUrgrsF6HIbVg5hK4GDRCWb_YWvMuogVOooBwqI,87481
+zap/zap.py,sha256=Q704d3AdqKLawyFdeqVOEjQg2tQXeZpY8wUn-V1hVC8,46392
+zap/zipped_album_icon.png,sha256=M6bGf1DlIme_mY6Q89oj9e--rTgTZAWBcdiGUfFBFFE,9612
+Zipped_Album_Player-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Zipped_Album_Player-0.1.0.dist-info/METADATA,sha256=DtBIYfXziID32XITTEPLdzaf1A-59vqJKLNhCUgON8s,657
+Zipped_Album_Player-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Zipped_Album_Player-0.1.0.dist-info/entry_points.txt,sha256=ZdFowiBFFIJtPPI6dWLgpW-jjU6myX5mfwXt52BsmNc,67
+Zipped_Album_Player-0.1.0.dist-info/top_level.txt,sha256=oSG0W95oJOf_1yyBTlRaNeE7aHaA6k5ipKRAWrI6yws,4
+Zipped_Album_Player-0.1.0.dist-info/RECORD,,

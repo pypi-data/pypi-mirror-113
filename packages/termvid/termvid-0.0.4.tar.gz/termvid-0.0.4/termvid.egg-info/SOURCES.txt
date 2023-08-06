@@ -1,0 +1,16 @@
+LICENSE
+setup.py
+bin/termvid
+termvid/__init__.py
+termvid/__main__.py
+termvid/client.py
+termvid/frame.py
+termvid/norma.py
+termvid/player.py
+termvid/runner.py
+termvid.egg-info/PKG-INFO
+termvid.egg-info/SOURCES.txt
+termvid.egg-info/dependency_links.txt
+termvid.egg-info/entry_points.txt
+termvid.egg-info/requires.txt
+termvid.egg-info/top_level.txt

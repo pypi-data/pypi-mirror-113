@@ -1,0 +1,7 @@
+[console_scripts]
+appmap-agent-init=appmap.command.appmap_agent_init:run
+appmap-agent-status=appmap.command.appmap_agent_status:run
+
+[pytest11]
+appmap=appmap.pytest
+

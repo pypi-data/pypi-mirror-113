@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+impdata/__init__.py
+impdata/impdata.py
+impdata.egg-info/PKG-INFO
+impdata.egg-info/SOURCES.txt
+impdata.egg-info/dependency_links.txt
+impdata.egg-info/requires.txt
+impdata.egg-info/top_level.txt

@@ -1,0 +1,40 @@
+3y:
+│  main.py
+│  beginnings.py
+│  LICENCE.txt
+│  log.py
+│  MANIFEST.in
+│  pyproject.toml
+│  README
+│  README.html
+│  README.md
+│  README.rst
+│  README.txt
+│  setup.py
+│  y.py
+│  yh.py
+│  yz.py
+│  __init__.py
+│
+├─3y.egg-info
+│      dependency_links.txt
+│      PKG-INFO
+│      requires.txt
+│      SOURCES.txt
+│      top_level.txt
+│      zip-safe
+│
+├─build
+│  ├─bdist.win-amd64
+│  └─lib
+│          3y.py
+│          beginnings.py
+│          log.py
+│          y.py
+│          yh.py
+│          yz.py
+│          __init__.py
+│
+└─dist
+        3y-2.6-py3-none-any.whl
+        3y-2.6.tar.gz

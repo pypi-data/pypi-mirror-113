@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+snutshell/__init__.py
+snutshell.egg-info/PKG-INFO
+snutshell.egg-info/SOURCES.txt
+snutshell.egg-info/dependency_links.txt
+snutshell.egg-info/requires.txt
+snutshell.egg-info/top_level.txt

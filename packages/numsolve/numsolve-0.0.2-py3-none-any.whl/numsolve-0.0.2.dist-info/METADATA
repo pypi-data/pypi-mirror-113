@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: numsolve
+Version: 0.0.2
+Summary: Numerical Methods to solve various equation
+Home-page: UNKNOWN
+Author: Harshal Dupare
+Author-email: <harshal3hd@gmail.com>
+License: UNKNOWN
+Requires-Dist: numpy
+
+
+# NumSolve
+

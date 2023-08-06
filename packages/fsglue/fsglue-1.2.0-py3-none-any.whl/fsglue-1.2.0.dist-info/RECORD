@@ -1,0 +1,10 @@
+fsglue/__init__.py,sha256=N8wgNG4cYutlKvS7kaWrsy2Ydn1rMFmYXMRx27YfxB8,470
+fsglue/client.py,sha256=g2MEWE31Fso4eEVu4b2rhdHs5UP2FTbnVYHzcCsMVpw,572
+fsglue/exceptions.py,sha256=cyHAgVDouHHeR5gVirWNyl3duXT4Fj7cCfqgJ0sN5As,388
+fsglue/model.py,sha256=Dosk_7Pp2Cl6sSvZob0ibIcdlhIjZxYpQCC0U70GKXM,19505
+fsglue/property.py,sha256=x19IgzSpyYHCuzHc-MKNNcz-4gjIb-FZASPAMZzN7ik,16104
+fsglue-1.2.0.dist-info/LICENSE,sha256=rkAhOxzav_x-a_DdUDX48Ks3cvJ_elKxtwUynf4tzB8,1060
+fsglue-1.2.0.dist-info/METADATA,sha256=IgEiF_MsElQv93Xn8BvmQBJx4Q67dQIzRtLYSccxHLQ,6153
+fsglue-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fsglue-1.2.0.dist-info/top_level.txt,sha256=Di2rd_9zWSrOqlqzQV1zCjJIQfauHU9KjXulBD-HPNg,7
+fsglue-1.2.0.dist-info/RECORD,,

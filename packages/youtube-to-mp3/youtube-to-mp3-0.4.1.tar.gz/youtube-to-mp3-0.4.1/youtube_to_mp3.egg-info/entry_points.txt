@@ -1,0 +1,3 @@
+[console_scripts]
+yturl2mp3 = yturl2mp3.yturl2mp3:main
+

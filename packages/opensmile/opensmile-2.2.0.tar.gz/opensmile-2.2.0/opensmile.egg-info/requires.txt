@@ -1,0 +1,2 @@
+audobject<0.6.0,>=0.4.6
+audinterface<0.9.0,>=0.7.0

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dse-data-loader
+Version: 0.0.4
+Summary: dse-data-loader is now stocksurferbd
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+# dse-data-loader is now stocksurferbd
+
+This package has been renamed. Use `pip install stocksurferbd` instead.
+
+New package: https://pypi.org/project/stocksurferbd/
+
+

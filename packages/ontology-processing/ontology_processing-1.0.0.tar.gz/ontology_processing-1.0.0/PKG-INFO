@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ontology_processing
+Version: 1.0.0
+Summary: Climate Mind ontology processing code.
+Home-page: https://github.com/ClimateMind/climatemind-ontology-processing
+Author: ClimateMind
+Author-email: hello@climatemind.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

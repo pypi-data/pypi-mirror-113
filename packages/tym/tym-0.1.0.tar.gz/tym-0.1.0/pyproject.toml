@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tym"
+version = "0.1.0"
+description = ""
+authors = ["Tym <developers@tym.so>"]
+
+[tool.poetry.scripts]
+tym = "tym.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = {extras = ["all"], version = "^0.3.2"}
+pydantic = "^1.8.2"
+pygit2 = "^1.6.1"
+watchgod = "^0.7"
+aiohttp = {extras = ["speedups"], version = "^3.7.4"}
+simple-term-menu = "^1.2.1"
+aiohttp_cors = "^0.7.0"
+cached-property = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5b1"
+typer-cli = "^0.0.11"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

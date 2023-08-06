@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PyCMLutil
+Version: 0.0.2
+Summary: A usefule python package for generating sientific figures.
+Home-page: https://github.com/Campbell-Muscle-Lab/PyCMLutilities
+Author: Kenneth S. Campbell
+Author-email: hossein.sharifi@uky.edu
+License: UNKNOWN
+Description: # PyCMLutilities
+        
+        PyCMLutil library is a suite of tools for curve-fitting, plotting, and data analysis in Python. 
+        This library is built upon of [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/index.html), and [pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) libraries.
+        
+        This python-based library has been aimed to help students, faculties, or any level of researchers in visualizing stored data out of either experiments or computational simulations. 
+        
+        Documentation at [https://campbell-muscle-lab.github.io/PyCMLutilities/](https://campbell-muscle-lab.github.io/PyCMLutilities/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

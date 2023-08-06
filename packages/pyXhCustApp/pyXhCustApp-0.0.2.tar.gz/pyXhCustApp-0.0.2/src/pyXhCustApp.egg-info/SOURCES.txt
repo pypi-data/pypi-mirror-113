@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/pyXhCustApp.py
+src/pyXhCustApp.egg-info/PKG-INFO
+src/pyXhCustApp.egg-info/SOURCES.txt
+src/pyXhCustApp.egg-info/dependency_links.txt
+src/pyXhCustApp.egg-info/requires.txt
+src/pyXhCustApp.egg-info/top_level.txt

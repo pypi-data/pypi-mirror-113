@@ -1,0 +1,11 @@
+pymagento_rest/__init__.py,sha256=SyXEBr4M9E-3xQ3S0WfjYa0tsI1L_x9T0g1z29tQReU,1077
+pymagento_rest/compare_type.py,sha256=hZt-rWEd040qg0GtYri1aWCQpugMe92VCcNNE2PnbJk,1250
+pymagento_rest/constants.py,sha256=NPDyVF_4jHv5GQZ2LJzE60M4RLH8hXpIQVi_JwZ7NpA,1137
+pymagento_rest/filter.py,sha256=WKs56I597ktexN5iKDFMyE201JXQ1zSpDFoVtMVijoI,1196
+pymagento_rest/v2_2/__init__.py,sha256=gZwC4MzWZsaz9HXCxZsbnEvEh08wiXcAuB7ZcgEyOM4,917
+pymagento_rest/v2_2/api.py,sha256=HRTx_Bc5R3dIhMZpN92DdZNAx4mgMSDnZjlYyJ0L0T0,10844
+PyMagento_REST-0.3.0.dist-info/LICENSE,sha256=KXtvAwlDxFxMIdHxHJfaPxp2LLs4cZoPCATTgfcKCTE,613
+PyMagento_REST-0.3.0.dist-info/METADATA,sha256=DXYyA9YBhsRdVKqTkU7OKLW6JVvj7QAiqmimV2rubOg,1862
+PyMagento_REST-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyMagento_REST-0.3.0.dist-info/top_level.txt,sha256=RfVcjzoFIZVXoNiKjKJJnTXNO2OMUT9JXfWJuc2N0bM,15
+PyMagento_REST-0.3.0.dist-info/RECORD,,

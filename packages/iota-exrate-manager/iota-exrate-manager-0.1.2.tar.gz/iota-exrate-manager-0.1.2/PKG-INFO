@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: iota-exrate-manager
+Version: 0.1.2
+Summary: Python package that keeps track of iota exchange rates via various APIs and converts prices
+Home-page: https://github.com/F-Node-Karlsruhe/iota-exrate-manager
+Author: F-Node-Karlsruhe
+Author-email: contact@f-node.de
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+

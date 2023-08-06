@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Processing-Framework-py
+Version: 0.0.6
+Summary: Makes it easier to use the processing-py module derived from processing.org.
+Home-page: UNKNOWN
+Author: clutchkuda (Cameron Airlie)
+Author-email: 
+License: UNKNOWN
+Description: A framework for the processing-py module that makes it easier to use and create processing.org projects. Similar to the processing.org application and the p5.js system.
+Keywords: python,processing,p5,graphics,display
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

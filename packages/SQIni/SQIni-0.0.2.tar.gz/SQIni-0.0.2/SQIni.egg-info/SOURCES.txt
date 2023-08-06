@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+SQIni.egg-info/PKG-INFO
+SQIni.egg-info/SOURCES.txt
+SQIni.egg-info/dependency_links.txt
+SQIni.egg-info/entry_points.txt
+SQIni.egg-info/top_level.txt
+sqini/__init__.py

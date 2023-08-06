@@ -1,0 +1,14 @@
+hall/__init__.py,sha256=I7LtqXnrj-Beiqdg0g1t7w-4o-LiImPcgzvuM-xyX3g,178
+hall/_core.py,sha256=-2OlJWzHQ-e_DfHXW0DvwU8yleqfbpRCtguOYj2rzKM,7466
+hall/_event.py,sha256=Pxw-Im6Zkb-42CWhHRLvcDbIyqeSbZICd0HPVSrfvEE,3829
+hall/analysis.py,sha256=8Jawy8P1DF0AvEc9_5a-Et-VPhtaAWT2trn9dOkz3qk,10080
+hall/backend.py,sha256=QwwXtKWrl_qO1C--Rmniw4FSzy6zbCTxVRoqa7nI5_I,830
+hall/continuous.py,sha256=AMnjfPGfmfvCCSx62boil-nlUajC3-NiSpsaZcQlGjw,2680
+hall/discrete.py,sha256=wxSbgu0mO0F49EYGLd3LmkhJtkj370PtUXOYvpt8gU8,5093
+hall/numbers.py,sha256=kj_Oanc9JYqT8nrGiTueJzZE2wKcLBcDjaf0YbZgRFU,3224
+hall/stats.py,sha256=3OKZi2ksDmNh5T6UXduuvFwlzTWWE3hyjSRukVw3DUw,2464
+hall-0.1.11.dist-info/entry_points.txt,sha256=lzeDjHO76ijGygtPHfuTjxYJyFAlAKJv2edwYoFMEvY,102
+hall-0.1.11.dist-info/LICENSE,sha256=6l6z3NtkuTDMGspJEKeBsdXjitRIaCV6_kYk2xM9ajY,1531
+hall-0.1.11.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+hall-0.1.11.dist-info/METADATA,sha256=c47_9cSsXes-X9d4Ksv9WKcW0MJ61lePhrg9qQ1xkZM,2863
+hall-0.1.11.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+docs=scripts.poetry:docs
+reformat=scripts.poetry:reformat
+test=scripts.poetry:test
+

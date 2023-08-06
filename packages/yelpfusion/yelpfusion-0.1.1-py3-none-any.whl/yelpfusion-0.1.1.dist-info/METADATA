@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: yelpfusion
+Version: 0.1.1
+Summary: A Python wrapper for Yelp Fusion API
+Home-page: https://github.com/tmnhat2001/yelp-fusion-api
+License: MIT
+Keywords: yelp
+Author: James Tran
+Author-email: tran.james2001@gmail.com
+Requires-Python: >=3.6.2,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0)
+Project-URL: Yelp API documentation, https://www.yelp.com/developers/documentation/v3/get_started
+Description-Content-Type: text/markdown
+
+# yelp-fusion-api
+
+A Python wrapper for Yelp Fusion API.
+
+Please refer to the [API documentation](https://www.yelp.ca/developers/documentation/v3/get_started) for the details
+of expected requests and responses for all endpoints.
+
+## Installation
+
+`pip install -U yelpfusion`
+
+## Usage
+
+```python
+from yelpfusion import Api
+
+api = Api("api-token")
+
+api.businesses.search(location="Toronto")
+```
+
+The available endpoints are:
+- Autocomplete: [api.autocomplete](https://github.com/tmnhat2001/yelp-fusion-api/blob/main/yelpfusion/endpoints/autocomplete.py)
+- Businesses: [api.businesses](https://github.com/tmnhat2001/yelp-fusion-api/blob/main/yelpfusion/endpoints/businesses.py)
+- Categories: [api.categories](https://github.com/tmnhat2001/yelp-fusion-api/blob/main/yelpfusion/endpoints/categories.py)
+- Events: [api.events](https://github.com/tmnhat2001/yelp-fusion-api/blob/main/yelpfusion/endpoints/events.py)
+- Transactions: [api.transactions](https://github.com/tmnhat2001/yelp-fusion-api/blob/main/yelpfusion/endpoints/transactions.py)
+

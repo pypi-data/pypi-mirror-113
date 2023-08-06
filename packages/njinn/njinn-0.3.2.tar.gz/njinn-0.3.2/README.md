@@ -1,0 +1,148 @@
+# Njinn CLI & Client
+
+## Installation
+
+You can install the Njinn CLI from [PyPI](https://pypi.org/project/njinn/):
+
+    pip install njinn
+
+The client is supported on Python 3.7 and above.
+
+## Njinn CLI Usage
+
+- Pack install
+
+  njinn pack install <repository_url>
+
+Use --help to see available options and defaults.
+
+## Njinn Client Usage
+
+- The client allows interacting with Njinn via its REST API.
+- To see available query string parameters, please refer to official Njinn Documentation.
+
+### Summary
+
+```python
+api = NjinnAPI(host="https://njinn.io", token="*****")
+
+# GET /workflows
+api.workflows(limit=2)
+
+# GET /workflows/1
+api.workflows(1)
+
+# POST /workflows
+api.create(Workflow(title="Workflow 1"))
+
+# PUT /workflows/1
+api.workflows(1).save()
+
+# DELETE /workflows/1
+api.workflows(1).delete()
+```
+
+### Get running executions
+
+```python
+### GET /executions?workflow=1&state=RUNNING
+executions = api.executions(workflow=1, state="RUNNING")
+```
+
+### Add a label to execution
+
+```python
+execution = api.executions(1)
+execution.labels["my_label"] = "new"
+
+# PATCH /executions/1 {...}
+execution.save(fields="labels")
+```
+
+### Cancel execution
+
+```python
+# POST /executions/1/cancel {...}
+api.executions(1).cancel()
+```
+
+### Run Workflow
+
+```python
+# POST /workflows/1/run {...}
+execution = api.workflows(1).run(input={"variable_1": "value_1"})
+print(execution.state)
+```
+
+### Create webhook
+
+```python
+# POST /hooks {...}
+webhook = api.create(Webhook(name="W1", title="W1", workflow=1))
+```
+
+### Disable webhook
+
+```python
+webhook = api.hooks(1)
+webhook.is_active = False
+
+# PUT /hooks/1 {...}
+webhook.save()
+```
+
+### Delete webhook
+
+```python
+# DELETE /hooks/1
+api.webhooks(1).delete()
+```
+
+### Create config
+
+```python
+# POST /configs {...}
+api.create(
+  Config(
+      name="W1",
+      title="W1",
+      values={"key_1": {"value": "value_1", "is_secret": False}}
+  )
+)
+```
+
+### Update config
+
+```python
+config = api.configs(1)
+config.values["key_1"] = {"value": "value_1", "is_secret": False}
+
+# PUT /configs/1 {...}
+config.save()
+```
+
+### Duplicate config
+
+```python
+config = api.configs(1)
+
+# POST /configs/1/duplicate {...}
+duplicate = config.duplicate(name="new", title="New")
+print(duplicate.id)
+```
+
+### Get execution log
+
+```python
+# GET /executions/1/log
+log = api.executions(1).log()
+print(log)
+```
+
+### Get task execution log
+
+```python
+# GET /executions/1/tasks/task_1/log
+log = api.executions(1).tasks("task_1").log()
+print(log)
+```

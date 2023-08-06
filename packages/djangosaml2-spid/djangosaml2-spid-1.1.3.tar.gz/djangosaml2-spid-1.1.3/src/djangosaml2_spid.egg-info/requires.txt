@@ -1,0 +1,4 @@
+cffi
+django<4.0,>=2.2.24
+djangosaml2>=1.0.0
+requests

@@ -1,0 +1,13 @@
+microvmi/microvmi.py,sha256=Oh7j6pIaSWDk2xtwR5ilbwTt8ayzJmM2EPj2dCfIZOQ,3098
+microvmi/pymicrovmi.cpython-39-x86_64-linux-gnu.so,sha256=_mkJDKLROIHKtGYVk5B1_1gpQffhBRKFEB7xWVJozm0,5506488
+microvmi/pymicrovmi.cpython-37m-x86_64-linux-gnu.so,sha256=-Oz_Er4s2QA6ruvNmI2ii4O5qPVDdUlb0UzhsuyDiUU,5502888
+microvmi/__init__.py,sha256=EOw16pReQJ6GHm-gHiw9p5foGRe7vZ-WOl8UPW_pTOw,153
+microvmi/pymicrovmi.cpython-36m-x86_64-linux-gnu.so,sha256=sO3yC8IWUenDwePOYT1B4v9UTOlRlmzhdMLOYA8o7NI,5503176
+microvmi/pymicrovmi.cpython-38-x86_64-linux-gnu.so,sha256=1uP4IqHncjtkm2ZgXz3dEDOpDe5T8BMMcqm9EzYE8dI,5506568
+microvmi/memory.py,sha256=62MnlW5UN540uuUU2mEqA9ZLiAXr1thkCZM7JRVwe5E,3852
+microvmi/volatility/__init__.py,sha256=rKqjEpmwOW_UFxrmCU0NaKNYQe0dlNEfwkMKV8ZRI_0,232
+microvmi/volatility/vmi_handler.py,sha256=eUSWhP_bruD9SQ0pHkmEJfa3kMAZ-OhrJ_YtA7AqbYw,4172
+microvmi-0.2.0.dist-info/METADATA,sha256=FpvFTmliiWM-kZ4b0fBl3HWY5ZQafOAWCZsSH-vt8q4,829
+microvmi-0.2.0.dist-info/top_level.txt,sha256=4dEWhxyX_cu6qe_DG3yuvzr0xFg5Tw7uLATjb6XEHIA,9
+microvmi-0.2.0.dist-info/RECORD,,
+microvmi-0.2.0.dist-info/WHEEL,sha256=a60ds3Ma82hx_sQpOqkP7xcMHCqlDvAwFM7jtmOVcmY,148

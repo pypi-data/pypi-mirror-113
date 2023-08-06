@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: DSAs
+Version: 0.0.9
+Summary: Python 3 implementations of various data structures & algorithms.
+Home-page: https://github.com/discretegames/DSAs
+Author: discretegames
+Author-email: discretizedgames@gmail.com
+License: MIT
+Project-URL: GitHub, https://github.com/discretegames/DSAs
+Project-URL: PyPI, https://pypi.org/project/DSAs
+Project-URL: TestPyPI, https://test.pypi.org/project/DSAs
+Description: # DSAs
+        
+        Python 3 implementations of various data structures & algorithms.
+        
+        **This project is in development. See src/DSAs for progress so far.**
+        
+        More hopefully coming soon.
+        
+Keywords: python,data structure,algorithm,dsa
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown

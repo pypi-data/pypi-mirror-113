@@ -1,0 +1,3 @@
+[console_scripts]
+convert_to_opus = convert_to_opus.main:main
+

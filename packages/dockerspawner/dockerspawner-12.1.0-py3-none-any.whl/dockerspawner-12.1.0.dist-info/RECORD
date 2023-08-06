@@ -1,0 +1,12 @@
+dockerspawner/__init__.py,sha256=02AMRKUzr_0QKyK9G4cgdBt3b-QSEYeqUIoBlO-XKJ4,244
+dockerspawner/_version.py,sha256=5g0SyXnmSN4287iHrqy6kJTahqbBeLgb-_wQcrGWXT0,364
+dockerspawner/dockerspawner.py,sha256=Bms_QQbWwwgiAXpgr7vufmU-vOvCaxaj0y25EhY5T84,49974
+dockerspawner/swarmspawner.py,sha256=RK0FVIVIgGxk3g_6OMi2_ZpNzKCvD-fixe1dfdP4dzU,10427
+dockerspawner/systemuserspawner.py,sha256=kJ5SCP_bw5Vi1kcab33rx0ocxOqll95PUSb8F6A1oWA,7599
+dockerspawner/volumenamingstrategy.py,sha256=SHzwgNulIHX8dcseznAZD7lFKQikCCDsLBY-EsuKChs,438
+dockerspawner-12.1.0.dist-info/LICENSE,sha256=iHnKwx1qJa6IAYBWnqTYDKmyTqnnOnO1YEqXEfF0Sik,1528
+dockerspawner-12.1.0.dist-info/METADATA,sha256=vl5fsOTccG_rzJO2FFt0EJ7kk2U6rLbqlztM7lbWz2E,767
+dockerspawner-12.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dockerspawner-12.1.0.dist-info/entry_points.txt,sha256=NPPblpbq1sKrFyLfclv02iBnQyCEK5UgjocwcMU60KE,155
+dockerspawner-12.1.0.dist-info/top_level.txt,sha256=a3K6au7qOgV_3SaVKDcPRaqDI51h_XTYEc-ndxLZhbs,14
+dockerspawner-12.1.0.dist-info/RECORD,,

@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: snippet-compiler
+Version: 0.0.1
+Summary: A command line tool for compiling snippets of code (i.e. C and C++).
+Home-page: https://github.com/CD3/snippet-compiler
+Author: CD Clark III
+Author-email: clifton.clark@gmail.com
+License: MIT
+Download-URL: https://github.com/CD3/snippet-compiler/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN

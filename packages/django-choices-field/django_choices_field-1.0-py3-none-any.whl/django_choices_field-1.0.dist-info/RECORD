@@ -1,0 +1,7 @@
+django_choices_field/__init__.py,sha256=sR-6k9iak56wEQdwPc12D9NZsxMW1sadWR6fnujpWDM,76
+django_choices_field/fields.py,sha256=MsRkqydSQdNcbj-6eIP9-5a6pNvpXFU7tE0oVgMWbSY,1576
+django_choices_field/fields.pyi,sha256=sW_vJqpfiCFOZejbnx0OQ9c1y6KoDD4wLtm60Wazan0,2834
+django_choices_field-1.0.dist-info/LICENSE,sha256=FXG64R2wndrgafzE2up1pa6dSwjf4vfW-3GvH2h_Rxg,1077
+django_choices_field-1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+django_choices_field-1.0.dist-info/METADATA,sha256=Lsd8OGAfPKhADuXNCnHfetM46N1AaXIIyyFM3CqH-Ag,2863
+django_choices_field-1.0.dist-info/RECORD,,

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+convert_to_opus/__init__.py
+convert_to_opus/__main__.py
+convert_to_opus/converter.py
+convert_to_opus.egg-info/PKG-INFO
+convert_to_opus.egg-info/SOURCES.txt
+convert_to_opus.egg-info/dependency_links.txt
+convert_to_opus.egg-info/requires.txt
+convert_to_opus.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+recursive-include university *
+global-exclude *.py[cod]
+include VERSION

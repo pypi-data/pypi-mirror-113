@@ -1,0 +1,4 @@
+colored
+pycryptodome
+pyperclip
+requests

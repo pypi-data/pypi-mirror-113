@@ -1,0 +1,10 @@
+sequencegenerator/IUPACController.py,sha256=pftfbhKjb-XgTbfeVBTMcAR0cWe8oGfv_epiYcl4HP4,1464
+sequencegenerator/__init__.py,sha256=CfYKlExCBzXyWGSAgxhtNOgQnHGYxraLC4wMN0kGOxs,407
+sequencegenerator/__main__.py,sha256=VYJGWpWDRlOGGI-JJ_6p3sq057y9WhtijCZk4eMPo9s,1679
+sequencegenerator/generatePool.py,sha256=zwSMBYoS5nJXClnZFElmbJ7QaUPhCZpHuG7VIEjNnvk,4037
+sequencegenerator/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sequencegenerator-0.4.0.dist-info/entry_points.txt,sha256=HaWj03RE3T2l3icpCkPlpVg_x3rQcIHOTZ9LacqmKK8,68
+sequencegenerator-0.4.0.dist-info/LICENSE,sha256=BDqkZHVykBfWP7yxsk5zMG5n8xDxppVcaaxiIlIEivE,1521
+sequencegenerator-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sequencegenerator-0.4.0.dist-info/METADATA,sha256=JZYzFL-_2doWy0vabtC0g22FbcvzScG7LDPseCfcnD8,13842
+sequencegenerator-0.4.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+pyNM/cf_matrix
+pyNM/nonspiking_binary_classifier
+pyNM/nonspiking_multiclass_classifier
+pyNM/nonspiking_regressor
+pyNM/spiking_binary_classifier
+pyNM/spiking_multiclass_classifier
+pyNM/spiking_regressor

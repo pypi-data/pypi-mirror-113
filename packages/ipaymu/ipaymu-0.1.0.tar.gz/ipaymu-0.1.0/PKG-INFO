@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: ipaymu
+Version: 0.1.0
+Summary: IPaymu Client For Python (UNOFFICIAL)
+Home-page: https://github.com/aprilahijriyan/ipaymu-python
+License: MIT
+Keywords: ipaymu,payment gateway
+Author: aprilahijriyan
+Author-email: hijriyan23@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/aprilahijriyan/ipaymu-python
+Description-Content-Type: text/markdown
+
+# IPaymu Client (UNOFFICIAL)
+
+ipaymu-python adalah klien untuk ipaymu (payment gateway) dibuat menggunakan python.
+
+## Fitur
+
+* Dukungan API v1 dan v2 ipaymu.
+* Dukungan untuk proyek Django
+
+
+## Catatan
+
+Ada beberapa API yang belum dites, jika ada bug silahkan buat isu [disini](https://github.com/aprilahijriyan/ipaymu-python/issues).
+
+
+## Usage
+
+* Konfigurasi
+
+    Melalui fungsi `ipaymu.init`:
+
+    ```python
+    import ipaymu
+
+    ipaymu.init(
+        url="https://sandbox.ipaymu.com",
+        va_account="00000000000000000",
+        api_key="XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX"
+    )
+    ```
+
+    Melalui environment variable (Setelah membuat variable, anda harus memanggil fungsi `ipaymu.init()` tanpa parameter):
+
+    ```sh
+    export IPAYMU_URL = "https://sandbox.ipaymu.com"
+    export IPAYMU_VA_ACCOUNT = "00000000000000000"
+    export IPAYMU_API_KEY = "XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX"
+    ```
+
+    Atau, melalui konfigurasi `settings.py` pada proyek Django.
+
+    ```python
+    # settings.py
+    IPAYMU_URL = "https://sandbox.ipaymu.com"
+    IPAYMU_VA_ACCOUNT = "00000000000000000"
+    IPAYMU_API_KEY = "XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX"
+    ```
+
+* Cek Saldo
+
+    ```python
+    ipaymu.cek_saldo()
+    ```
+
+    Dan masih banyak lagi...
+
+
+* API v2
+
+    ```python
+    ipaymu.v2.direct_payment
+    ipaymu.v2.redirect_payment
+    ```
+

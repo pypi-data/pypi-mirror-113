@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "ipaymu"
+version = "0.1.0"
+description = "IPaymu Client For Python (UNOFFICIAL)"
+authors = ["aprilahijriyan <hijriyan23@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/aprilahijriyan/ipaymu-python"
+repository = "https://github.com/aprilahijriyan/ipaymu-python"
+keywords = ["ipaymu", "payment gateway"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"

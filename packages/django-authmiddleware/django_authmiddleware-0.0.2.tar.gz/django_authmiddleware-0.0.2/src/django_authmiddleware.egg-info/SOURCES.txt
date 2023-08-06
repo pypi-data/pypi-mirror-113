@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/AuthMiddleware/__init__.py
+src/AuthMiddleware/middleware.py
+src/django_authmiddleware.egg-info/PKG-INFO
+src/django_authmiddleware.egg-info/SOURCES.txt
+src/django_authmiddleware.egg-info/dependency_links.txt
+src/django_authmiddleware.egg-info/top_level.txt

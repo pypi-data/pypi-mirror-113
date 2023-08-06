@@ -1,0 +1,16 @@
+cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/inference.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/depth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/depth/image_depth.py,sha256=Kyw5ONzhwmxN-8UNypyNkUTQHUzpGgYinWbl7fjfwlA,1586
+cv/detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/detection/object_detection.py,sha256=-Q8GhUHfzMfNrVKy8ENu-QUR9JM8FswEb21heVxUwNs,6372
+cv/recognition/__init__.py,sha256=lKukQgfmb3Uu4htjgo7F_QoaQjT5QZr_9SCMNGqbRpo,352
+cv/recognition/face-recognition.py,sha256=py1pubRr7FT8bd4RCehH3_PvTh0fHTNnobA-hkmbs24,2735
+cv/sensordata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/sensordata/camerasensro.py,sha256=Tpdfoi2xbK3C_cLQEDHkIGDAFd-vknR2UrkW1uJHD9E,2331
+cv/tracking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv/tracking/objects_tracking.py,sha256=txg6A36YXzp-USvPFE8VWm6gYezRGYpN37QQltpg0cM,6619
+madan-0.0.1.dist-info/METADATA,sha256=dFVxNWbS_auk7CQyCRYjBsDA2sO3mz1APf1G4GICjjE,6001
+madan-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+madan-0.0.1.dist-info/top_level.txt,sha256=ByWeW2ZQIqV03v86_OuoQSRX_1WkPP4CmMVefLzw8b4,3
+madan-0.0.1.dist-info/RECORD,,

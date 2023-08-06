@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: madan
+Version: 0.0.1
+Summary: Open source ai library
+Home-page: https://github.com/MadanBaduwal/ai_library
+Author: Madan Baduwal
+Author-email: madanbaduwal100@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MadanBaduwal/ai_library/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: dlib (==19.22.0)
+Requires-Dist: face-recognition-models (==0.3.0)
+Requires-Dist: face-recognition (==1.3.0)
+Requires-Dist: flatbuffers (==1.12)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: keras-nightly (==2.5.0.dev2021032900)
+Requires-Dist: keras-preprocessing (==1.1.2)
+Requires-Dist: pyrealsense2 (==2.45.0.3278)
+Requires-Dist: tensorflow-estimator (==2.5.0)
+Requires-Dist: tensorflow (==2.5.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: tf-estimator-nightly (==2.6.0.dev2021052501)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: cached-property (==1.5.2) ; python_version < "3.8" and python_version >= "3.6"
+Requires-Dist: typing-extensions (==3.7.4.3) ; python_version < "3.8" and python_version >= "3.6"
+Requires-Dist: zipp (==3.4.1) ; python_version < "3.8" and python_version >= "3.6"
+Requires-Dist: importlib-metadata (==4.0.1) ; python_version < "3.8" and python_version >= "3.6" and (python_version >= "3.6" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.2.0" and python_version >= "3.6" and python_version < "3.8")
+Requires-Dist: absl-py (==0.12.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.2.0"
+Requires-Dist: grpcio (==1.34.1) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.2.0"
+Requires-Dist: protobuf (==3.17.1) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.2.0"
+Requires-Dist: tensorboard-plugin-wit (==1.8.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.2.0"
+Requires-Dist: tensorboard (==2.5.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.2.0"
+Requires-Dist: gast (==0.4.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0"
+Requires-Dist: certifi (==2020.12.5) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+Requires-Dist: chardet (==4.0.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+Requires-Dist: idna (==2.10) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
+Requires-Dist: urllib3 (==1.26.4) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version < "4"
+Requires-Dist: pyasn1-modules (==0.2.8) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+Requires-Dist: six (==1.15.0) ; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
+Requires-Dist: opt-einsum (==3.3.0) ; python_version >= "3.5"
+Requires-Dist: pyasn1 (==0.4.8) ; python_version >= "3.5" and python_full_version < "3.0.0" and python_version < "4" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6") or python_version >= "3.5" and python_version < "4" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6") and python_full_version >= "3.6.0"
+Requires-Dist: rsa (==4.7.2) ; python_version >= "3.5" and python_version < "4" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6")
+Requires-Dist: cachetools (==4.2.2) ; python_version >= "3.5" and python_version < "4.0" and (python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0")
+Requires-Dist: click (==8.0.1) ; python_version >= "3.6"
+Requires-Dist: h5py (==3.1.0) ; python_version >= "3.6"
+Requires-Dist: numpy (==1.19.5) ; python_version >= "3.6"
+Requires-Dist: opencv-python (==4.5.2.52) ; python_version >= "3.6"
+Requires-Dist: pillow (==8.2.0) ; python_version >= "3.6"
+Requires-Dist: colorama (==0.4.4) ; python_version >= "3.6" and python_full_version < "3.0.0" and platform_system == "Windows" or platform_system == "Windows" and python_version >= "3.6" and python_full_version >= "3.5.0"
+Requires-Dist: google-auth-oauthlib (==0.4.4) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.2.0" and python_version >= "3.6"
+Requires-Dist: markdown (==3.3.4) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.2.0" and python_version >= "3.6"
+Requires-Dist: tensorboard-data-server (==0.6.1) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.2.0" and python_version >= "3.6"
+Requires-Dist: werkzeug (==2.0.1) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.2.0" and python_version >= "3.6"
+Requires-Dist: oauthlib (==3.1.0) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
+Requires-Dist: requests-oauthlib (==1.3.0) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.6"
+Requires-Dist: requests (==2.25.1) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
+Requires-Dist: google-auth (==1.30.1) ; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.6.0" and python_version >= "3.6"
+Requires-Dist: scipy (==1.6.3) ; python_version >= "3.7" and python_version < "3.10"
+
+UNKNOWN
+
+

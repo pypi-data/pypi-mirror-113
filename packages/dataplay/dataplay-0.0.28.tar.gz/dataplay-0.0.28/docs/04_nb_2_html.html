@@ -1,0 +1,353 @@
+# default_exp html<p>⚠️ This writing is a work in progress.⚠️</p>
+<blockquote>
+<p>note: There is a lot of quoting and paraphrasing on this page in particular. Be sure to check the links you want to learn more.</p>
+</blockquote>
+<p>We can update it in-drive and then rerun the results in near-real-time.</p>
+<p>Several post-render functions will be used to reduce network requests.</p>
+<p>I intend to hook this up to our webpack scripts for all the benefits.</p>
+<h2>Config Env</h2>
+!pip install marko
+!python -m pip install nbdev#export
+import re
+from IPython.display import clear_output
+import marko#export
+from nbdev import export2html
+from nbdev.export2html import read_nb, get_metadata, clean_exports
+from nbdev.export import split_flags_and_code, check_re_multifrom IPython.core.interactiveshell import InteractiveShell
+
+InteractiveShell.ast_node_interactivity = "all"<h2>FNS</h2>
+<p>These scripts will convert an nb to an html doc. NBdev and Marko among other libraries are used.</p>
+#export 
+# 1st fn. passes each cell to decision fn.
+def convertNb(nb):  return [cleanCell(c) for c in nb['cells']] 
+
+# 2nd fn. returns text or passes cell to 'code cell' processor
+def cleanCell(cell):
+  if cell.cell_type == 'markdown': 
+    source = cell.source
+    if ( re.search('<details><summary>', source) ): return source.replace('\r\n', "source")
+    return marko.convert(source)
+  else: return processCode(cell)
+
+# 3rd fn. Calls getFlags, processSource, processOutput
+def processCode(cell):
+  x = [cell.source]
+  flags = getFlags(x[0])
+  x[0] = processSource( x[0], flags )
+  if ( len(cell.outputs) ): 
+    for o in cell.outputs: x.append( processOutput(o, flags) )
+  return x#export
+def runit(fname='index.ipynb'):
+  # fname = 'index.ipynb'
+  nb = read_nb(fname)
+  meta_jekyll = get_metadata(nb['cells'])  
+  outp = convertNb(nb) 
+  txt = ''.join( [''.join(c) for c in outp] )
+  return txt<h3>Misc Notes</h3>
+<p>Unsorted notes from previous nb</p>
+"nb.keys()"'nb.keys()'<ul>
+<li>display_data = ['text/html', 'text/plain']</li>
+<li>stream</li>
+<li>execute_result = ['image/jpeg', 'text/plain']</li>
+<li>error</li>
+</ul>
+<p>%html</p>
+<ul>
+<li>{'output_type': 'display_data',
+'data': {'text/html': &lt;script console.log('hi')\n script&gt;&quot;,
+'text/plain': '&lt;IPython.core.display.HTML object&gt;'} }</li>
+</ul>
+<p>raw markdown</p>
+<ul>
+<li>{'output_type': 'stream', 'text': 'Thisis text \n'}</li>
+</ul>
+<p>display( airbnb.head() ); Image(filename='test.jpg')</p>
+<ul>
+<li>{'output_type': 'display_data', 'data': {'text/html': div&gt;oooAKKKKAP/Z&lt;/div', 'text/plain': '&lt;IPython.core.display.Image object&gt;'}</li>
+</ul>
+<h2>Convert FN's</h2>
+<p>This next bit will run the conversion on a single file.</p>
+import IPython
+import requests
+from google.colab import output
+t= """
+outp = runit() 
+v = 0 if not 'v' in globals() else v+1
+# page = f"index{v}.html"
+page = f"index.html"
+print(page)
+f = open(page, "a")
+f.write( ''.join( [''.join(c) for c in outp] ) )
+f.close()
+
+# posted = requests.get( 'https://charleskarpati.com/version.php', params=[('v', v)], ).json()
+
+# IPython.display.HTML( outp )
+"""<h2>Serve Files with Ngrok</h2>
+<p>You can test on the Colab by using a <a href="https://medium.com/@kshitijvijay271199/flask-on-google-colab-f6525986797b">flask</a> server which can be a bit tricky.</p>
+from flask_ngrok import run_with_ngrok
+from flask import Flask
+from numpy import random
+import requests
+app = Flask(__name__)
+run_with_ngrok(app)   #starts ngrok when the app is run
+
+def getHtml(filepath):
+    with open(filepath, 'r') as file:
+      data = file.read().replace('\n', '')
+    return data
+@app.route("/")
+def index():  
+  # Get version number using the localstorage. 
+  # v = requests.get( 'https://charleskarpati.com/version.php', ).json()
+  # location = f'index{v}.html'
+  # print('\n \n LOCATION: ', location)
+  # return getHtml(location)
+  outp = runit('test.ipynb')
+  resp = ''.join( [''.join(c) for c in outp] )
+  resp = resp.replace('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">', '')
+  return resp
+
+ 
+@app.route("/about")
+def about():
+    return getHtml('lines.html')
+ 
+app.run()<h2>Working with GDrive Directories, Github, NBDev</h2>
+<h3>Connect to Drive</h3>
+<p>If you have content on your Google Drive, you can publish entire directorys.</p>
+#hide
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/dataplay/notebookscd ../../dataplay//content/drive/My Drive/Software Development Documents/dataplay/notebooks
+cd ../../dataguide//content/drive/My Drive/Software Development Documents/dataguide
+cd ../../datalabs//content/drive/My Drive/Software Development Documents/datalabs/notebooks
+cd ../../VitalSigns//content/drive/My Drive/Software Development Documents/VitalSigns/notebooks
+cd ../../DevelopersDocumentation//content/drive/My Drive/Software Development Documents/DevelopersDocumentation
+ls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+cdimport os
+# traverse whole directory
+for file in os.listdir(r'notebooks'): 
+  # check the extension of files 
+  if (file.endswith('.ipynb') ): 
+      # print whole path of files 
+      print(os.path.join('notebooks', file))
+      outp = runit(os.path.join('notebooks', file))
+      resp = ''.join( [''.join(c) for c in outp] )
+      resp = resp.replace('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">', '')
+      page = f"../docs/{file[:-6]}.html"
+      try: f = open(page, "a")
+      except: f = open(page[1:], "a")
+      # f.write( ''.join( [''.join(c) for c in outp] ) )
+      # f.close()notebooks/index.ipynb
+notebooks/05_Map_Correlation_Networks.ipynb
+notebooks/06_Timelapse_Data_Gifs.ipynb
+notebooks/01_Download_and_Load.ipynb
+notebooks/02_Merge_Data.ipynb
+notebooks/03_Map_Basics_Intake_and_Operations.ipynb
+notebooks/04_nb_2_html.ipynb
+#hide
+# https://nbdev.fast.ai/tutorial.html#Add-in-notebook-export-cell
+# https://nbdev.fast.ai/sync#nbdev_update_lib
+# first. builds the .py files from from .ipynbs
+# !nbdev_build_lib #  --fname filename.ipynb
+# second. Push .py changes back to their original .ipynbs
+# !nbdev_update_lib 
+# sometimes. Update .ipynb import statements if the .py filename.classname changes. 
+# !relimport2name
+# nbdev_build_docs builds the documentation from the notebooks
+!nbdev_build_docs --force_all True --mk_readme True ls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+'https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line'
+'https://github.com/settings/tokens'
+'https://stackoverflow.com/questions/61424599/error-when-pushing-files-to-git-in-colab-fatal-could-not-read-username-for-ht''https://github.com/settings/tokens'!git init 
+!git remote add origin https://github.com/BNIA/dataplay.git
+!git branch -M main
+!git config --global user.email "bniajfi@gmail.com"
+!git config --global user.name "bniajfi"
+!git add *
+!git commit -m "first commit"
+ 
+!git push https://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@github.com/bnia/dataplay.git!git remote remove origin
+! git remote add origin https://github.com/BNIA/dataplay.git
+! git branch -M main# ! pip install twine
+# ! nbdev_bump_version
+# ! make pypi# default_exp html<p>⚠️ This writing is a work in progress.⚠️</p>
+<blockquote>
+<p>note: There is a lot of quoting and paraphrasing on this page in particular. Be sure to check the links you want to learn more.</p>
+</blockquote>
+<p>We can update it in-drive and then rerun the results in near-real-time.</p>
+<p>Several post-render functions will be used to reduce network requests.</p>
+<p>I intend to hook this up to our webpack scripts for all the benefits.</p>
+<h2>Config Env</h2>
+!pip install marko
+!python -m pip install nbdev#export
+import re
+from IPython.display import clear_output
+import marko#export
+from nbdev import export2html
+from nbdev.export2html import read_nb, get_metadata, clean_exports
+from nbdev.export import split_flags_and_code, check_re_multifrom IPython.core.interactiveshell import InteractiveShell
+
+InteractiveShell.ast_node_interactivity = "all"<h2>FNS</h2>
+<p>These scripts will convert an nb to an html doc. NBdev and Marko among other libraries are used.</p>
+#export 
+# 1st fn. passes each cell to decision fn.
+def convertNb(nb):  return [cleanCell(c) for c in nb['cells']] 
+
+# 2nd fn. returns text or passes cell to 'code cell' processor
+def cleanCell(cell):
+  if cell.cell_type == 'markdown': 
+    source = cell.source
+    if ( re.search('<details><summary>', source) ): return source.replace('\r\n', "source")
+    return marko.convert(source)
+  else: return processCode(cell)
+
+# 3rd fn. Calls getFlags, processSource, processOutput
+def processCode(cell):
+  x = [cell.source]
+  flags = getFlags(x[0])
+  x[0] = processSource( x[0], flags )
+  if ( len(cell.outputs) ): 
+    for o in cell.outputs: x.append( processOutput(o, flags) )
+  return x#export
+def runit(fname='index.ipynb'):
+  # fname = 'index.ipynb'
+  nb = read_nb(fname)
+  meta_jekyll = get_metadata(nb['cells'])  
+  outp = convertNb(nb) 
+  txt = ''.join( [''.join(c) for c in outp] )
+  return txt<h3>Misc Notes</h3>
+<p>Unsorted notes from previous nb</p>
+"nb.keys()"'nb.keys()'<ul>
+<li>display_data = ['text/html', 'text/plain']</li>
+<li>stream</li>
+<li>execute_result = ['image/jpeg', 'text/plain']</li>
+<li>error</li>
+</ul>
+<p>%html</p>
+<ul>
+<li>{'output_type': 'display_data',
+'data': {'text/html': &lt;script console.log('hi')\n script&gt;&quot;,
+'text/plain': '&lt;IPython.core.display.HTML object&gt;'} }</li>
+</ul>
+<p>raw markdown</p>
+<ul>
+<li>{'output_type': 'stream', 'text': 'Thisis text \n'}</li>
+</ul>
+<p>display( airbnb.head() ); Image(filename='test.jpg')</p>
+<ul>
+<li>{'output_type': 'display_data', 'data': {'text/html': div&gt;oooAKKKKAP/Z&lt;/div', 'text/plain': '&lt;IPython.core.display.Image object&gt;'}</li>
+</ul>
+<h2>Convert FN's</h2>
+<p>This next bit will run the conversion on a single file.</p>
+import IPython
+import requests
+from google.colab import output
+t= """
+outp = runit() 
+v = 0 if not 'v' in globals() else v+1
+# page = f"index{v}.html"
+page = f"index.html"
+print(page)
+f = open(page, "a")
+f.write( ''.join( [''.join(c) for c in outp] ) )
+f.close()
+
+# posted = requests.get( 'https://charleskarpati.com/version.php', params=[('v', v)], ).json()
+
+# IPython.display.HTML( outp )
+"""<h2>Serve Files with Ngrok</h2>
+<p>You can test on the Colab by using a <a href="https://medium.com/@kshitijvijay271199/flask-on-google-colab-f6525986797b">flask</a> server which can be a bit tricky.</p>
+from flask_ngrok import run_with_ngrok
+from flask import Flask
+from numpy import random
+import requests
+app = Flask(__name__)
+run_with_ngrok(app)   #starts ngrok when the app is run
+
+def getHtml(filepath):
+    with open(filepath, 'r') as file:
+      data = file.read().replace('\n', '')
+    return data
+@app.route("/")
+def index():  
+  # Get version number using the localstorage. 
+  # v = requests.get( 'https://charleskarpati.com/version.php', ).json()
+  # location = f'index{v}.html'
+  # print('\n \n LOCATION: ', location)
+  # return getHtml(location)
+  outp = runit('test.ipynb')
+  resp = ''.join( [''.join(c) for c in outp] )
+  resp = resp.replace('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">', '')
+  return resp
+
+ 
+@app.route("/about")
+def about():
+    return getHtml('lines.html')
+ 
+app.run()<h2>Working with GDrive Directories, Github, NBDev</h2>
+<h3>Connect to Drive</h3>
+<p>If you have content on your Google Drive, you can publish entire directorys.</p>
+#hide
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/dataplay/notebookscd ../../dataplay//content/drive/My Drive/Software Development Documents/dataplay/notebooks
+cd ../../dataguide//content/drive/My Drive/Software Development Documents/dataguide
+cd ../../datalabs//content/drive/My Drive/Software Development Documents/datalabs/notebooks
+cd ../../VitalSigns//content/drive/My Drive/Software Development Documents/VitalSigns/notebooks
+cd ../../DevelopersDocumentation//content/drive/My Drive/Software Development Documents/DevelopersDocumentation
+ls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+cdimport os
+# traverse whole directory
+for file in os.listdir(r'notebooks'): 
+  # check the extension of files 
+  if (file.endswith('.ipynb') ): 
+      # print whole path of files 
+      print(os.path.join('notebooks', file))
+      outp = runit(os.path.join('notebooks', file))
+      resp = ''.join( [''.join(c) for c in outp] )
+      resp = resp.replace('<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">', '')
+      page = f"../docs/{file[:-6]}.html"
+      try: f = open(page, "a")
+      except: f = open(page[1:], "a")
+      f.write( ''.join( [''.join(c) for c in outp] ) )
+      f.close()notebooks/index.ipynb
+20064notebooks/05_Map_Correlation_Networks.ipynb
+25145notebooks/06_Timelapse_Data_Gifs.ipynb
+31078notebooks/01_Download_and_Load.ipynb
+17976notebooks/02_Merge_Data.ipynb
+55693notebooks/03_Map_Basics_Intake_and_Operations.ipynb
+360317notebooks/04_nb_2_html.ipynb
+7708#hide
+# https://nbdev.fast.ai/tutorial.html#Add-in-notebook-export-cell
+# https://nbdev.fast.ai/sync#nbdev_update_lib
+# first. builds the .py files from from .ipynbs
+# !nbdev_build_lib #  --fname filename.ipynb
+# second. Push .py changes back to their original .ipynbs
+# !nbdev_update_lib 
+# sometimes. Update .ipynb import statements if the .py filename.classname changes. 
+# !relimport2name
+# nbdev_build_docs builds the documentation from the notebooks
+!nbdev_build_docs --force_all True --mk_readme True ls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+'https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line'
+'https://github.com/settings/tokens'
+'https://stackoverflow.com/questions/61424599/error-when-pushing-files-to-git-in-colab-fatal-could-not-read-username-for-ht''https://github.com/settings/tokens'!git init 
+!git remote add origin https://github.com/BNIA/dataplay.git
+!git branch -M main
+!git config --global user.email "bniajfi@gmail.com"
+!git config --global user.name "bniajfi"
+!git add *
+!git commit -m "first commit"
+ 
+!git push https://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@github.com/bnia/dataplay.git!git remote remove origin
+! git remote add origin https://github.com/BNIA/dataplay.git
+! git branch -M main# ! pip install twine
+# ! nbdev_bump_version
+# ! make pypi

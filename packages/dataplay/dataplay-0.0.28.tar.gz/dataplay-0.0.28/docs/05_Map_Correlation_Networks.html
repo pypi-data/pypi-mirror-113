@@ -1,0 +1,1733 @@
+# default_exp corr<p>⚠️ The writing is a work in progress. The functions work but text retouching⚠️</p>
+!pip install geopandas
+!pip install VitalSigns#export 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import networkx as nx
+import warnings
+warnings.filterwarnings('ignore')#hide
+t = """ """
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/dataplay/
+
+# !pip install dataplayls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+#export
+from dataplay import merge
+from dataplay import intaker
+from VitalSigns import acsDownload<blockquote>
+<p>In graph theory, a clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together. Evidence suggests that in most real-world networks, and in particular social networks, nodes tend to create tightly knit groups characterized by a relatively high density of ties; this likelihood tends to be greater than the average probability of a tie randomly established between two nodes (Holland and Leinhardt, 1971; Watts and Strogatz, 1998).</p>
+<p>Two versions of this measure exist: the global and the local. The global version was designed to give an overall indication of the clustering in the network, whereas the local gives an indication of the embeddedness of single nodes. - <a href="https://www.geeksforgeeks.org/clustering-coefficient-graph-theory/">Geek for Geeks</a></p>
+</blockquote>
+#export 
+
+# this example is from the Geek for Geeks link above
+def average_clustering(G, trials=1000): 
+    """Estimates the average clustering coefficient of G. 
+  
+    The local clustering of each node in `G` is the  
+    fraction of triangles that actually exist over  
+    all possible triangles in its neighborhood. 
+    The average clustering coefficient of a graph  
+    `G` is the mean of local clusterings. 
+  
+    This function finds an approximate average  
+    clustering coefficient for G by repeating `n`  
+    times (defined in `trials`) the following 
+    experiment: choose a node at random, choose  
+    two of its neighbors at random, and check if 
+    they are connected. The approximate coefficient  
+    is the fraction of triangles found over the  
+    number of trials [1]_. 
+  
+    Parameters 
+    ---------- 
+    G : NetworkX graph 
+  
+    trials : integer 
+        Number of trials to perform (default 1000). 
+  
+    Returns 
+    ------- 
+    c : float 
+        Approximated average clustering coefficient. 
+  
+     
+  
+    """
+    n = len(G) 
+    triangles = 0
+    nodes = G.nodes() 
+    for i in [int(random.random() * n) for i in range(trials)]: 
+        nbrs = list(G[nodes[i]]) 
+        if len(nbrs) < 2: 
+            continue
+        u, v = random.sample(nbrs, 2) 
+        if u in G[v]: 
+            triangles += 1
+    return triangles / float(trials) G=nx.erdos_renyi_graph(10,0.4) 
+cc=nx.average_clustering(G) c=nx.clustering(G) 
+c  
+nx.draw(G)<Figure size 432x288 with 1 Axes><h3>Data Prep</h3>
+#reads the csv
+import geopandas as gpd
+vs10to17 = intaker.Intake.getData('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhchpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+vs10to17.head(1)vs10to17Ind = vs10to17[['CSA2010', 'hhchpov15',	'hhchpov16', 'hhchpov17', 'hhchpov18', 'hhchpov19'] ]
+vs10to17Ind = vs10to17Ind.melt(id_vars='CSA2010', value_vars=['hhchpov15',	'hhchpov16', 'hhchpov17', 'hhchpov18', 'hhchpov19'])
+vs10to17Ind.head()<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CSA2010</th>
+      <th>variable</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Allendale/Irvington/S. Hilton</td>
+      <td>hhchpov15</td>
+      <td>38.931487</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Beechfield/Ten Hills/West Hills</td>
+      <td>hhchpov15</td>
+      <td>19.416892</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Belair-Edison</td>
+      <td>hhchpov15</td>
+      <td>36.882547</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Brooklyn/Curtis Bay/Hawkins Point</td>
+      <td>hhchpov15</td>
+      <td>45.008801</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Canton</td>
+      <td>hhchpov15</td>
+      <td>5.490849</td>
+    </tr>
+  </tbody>
+</table>
+</div>vs10to17IndComm = vs10to17Ind.pivot('variable', 'CSA2010', 'value')
+vs10to17IndComm<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>CSA2010</th>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <th>Beechfield/Ten Hills/West Hills</th>
+      <th>Belair-Edison</th>
+      <th>Brooklyn/Curtis Bay/Hawkins Point</th>
+      <th>Canton</th>
+      <th>Cedonia/Frankford</th>
+      <th>Cherry Hill</th>
+      <th>Chinquapin Park/Belvedere</th>
+      <th>Claremont/Armistead</th>
+      <th>Clifton-Berea</th>
+      <th>Cross-Country/Cheswolde</th>
+      <th>Dickeyville/Franklintown</th>
+      <th>Dorchester/Ashburton</th>
+      <th>Downtown/Seton Hill</th>
+      <th>Edmondson Village</th>
+      <th>Fells Point</th>
+      <th>Forest Park/Walbrook</th>
+      <th>Glen-Fallstaff</th>
+      <th>Greater Charles Village/Barclay</th>
+      <th>Greater Govans</th>
+      <th>Greater Mondawmin</th>
+      <th>Greater Roland Park/Poplar Hill</th>
+      <th>Greater Rosemont</th>
+      <th>Greenmount East</th>
+      <th>Hamilton</th>
+      <th>Harbor East/Little Italy</th>
+      <th>Harford/Echodale</th>
+      <th>Highlandtown</th>
+      <th>Howard Park/West Arlington</th>
+      <th>Inner Harbor/Federal Hill</th>
+      <th>Lauraville</th>
+      <th>Loch Raven</th>
+      <th>Madison/East End</th>
+      <th>Medfield/Hampden/Woodberry/Remington</th>
+      <th>Midtown</th>
+      <th>Midway/Coldstream</th>
+      <th>Morrell Park/Violetville</th>
+      <th>Mount Washington/Coldspring</th>
+      <th>North Baltimore/Guilford/Homeland</th>
+      <th>Northwood</th>
+      <th>Oldtown/Middle East</th>
+      <th>Orangeville/East Highlandtown</th>
+      <th>Patterson Park North &amp; East</th>
+      <th>Penn North/Reservoir Hill</th>
+      <th>Pimlico/Arlington/Hilltop</th>
+      <th>Poppleton/The Terraces/Hollins Market</th>
+      <th>Sandtown-Winchester/Harlem Park</th>
+      <th>South Baltimore</th>
+      <th>Southeastern</th>
+      <th>Southern Park Heights</th>
+      <th>Southwest Baltimore</th>
+      <th>The Waverlies</th>
+      <th>Upton/Druid Heights</th>
+      <th>Washington Village/Pigtown</th>
+      <th>Westport/Mount Winans/Lakeland</th>
+    </tr>
+    <tr>
+      <th>variable</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>hhchpov15</th>
+      <td>38.931487</td>
+      <td>19.416892</td>
+      <td>36.882547</td>
+      <td>45.008801</td>
+      <td>5.490849</td>
+      <td>23.345482</td>
+      <td>62.515723</td>
+      <td>16.493874</td>
+      <td>32.883093</td>
+      <td>34.932280</td>
+      <td>10.342224</td>
+      <td>28.861004</td>
+      <td>34.596982</td>
+      <td>11.666667</td>
+      <td>40.469062</td>
+      <td>13.196481</td>
+      <td>46.385224</td>
+      <td>27.512978</td>
+      <td>42.048055</td>
+      <td>39.080000</td>
+      <td>28.571429</td>
+      <td>7.652733</td>
+      <td>43.860132</td>
+      <td>37.705789</td>
+      <td>13.201821</td>
+      <td>48.872786</td>
+      <td>17.117117</td>
+      <td>15.205725</td>
+      <td>30.994475</td>
+      <td>18.129032</td>
+      <td>14.863103</td>
+      <td>17.322624</td>
+      <td>59.304511</td>
+      <td>14.421177</td>
+      <td>8.195021</td>
+      <td>48.240964</td>
+      <td>13.084746</td>
+      <td>8.096085</td>
+      <td>5.391433</td>
+      <td>13.901663</td>
+      <td>60.271572</td>
+      <td>24.084178</td>
+      <td>42.457923</td>
+      <td>42.544197</td>
+      <td>39.779513</td>
+      <td>65.723270</td>
+      <td>59.821650</td>
+      <td>3.237858</td>
+      <td>51.587302</td>
+      <td>51.345415</td>
+      <td>50.533420</td>
+      <td>27.025090</td>
+      <td>60.262829</td>
+      <td>36.734694</td>
+      <td>40.281974</td>
+    </tr>
+    <tr>
+      <th>hhchpov16</th>
+      <td>34.727823</td>
+      <td>21.220847</td>
+      <td>36.126984</td>
+      <td>46.447508</td>
+      <td>2.994012</td>
+      <td>20.574534</td>
+      <td>60.918367</td>
+      <td>18.154463</td>
+      <td>34.492519</td>
+      <td>47.579864</td>
+      <td>9.850668</td>
+      <td>29.828851</td>
+      <td>37.873874</td>
+      <td>13.079019</td>
+      <td>27.287762</td>
+      <td>6.785714</td>
+      <td>44.330814</td>
+      <td>30.681548</td>
+      <td>44.968732</td>
+      <td>42.551253</td>
+      <td>28.767123</td>
+      <td>8.474576</td>
+      <td>46.378322</td>
+      <td>38.253012</td>
+      <td>15.762813</td>
+      <td>40.180995</td>
+      <td>18.549157</td>
+      <td>21.197719</td>
+      <td>33.410006</td>
+      <td>9.171598</td>
+      <td>16.026993</td>
+      <td>17.197964</td>
+      <td>58.773982</td>
+      <td>11.312790</td>
+      <td>18.000000</td>
+      <td>44.501134</td>
+      <td>17.697729</td>
+      <td>5.918728</td>
+      <td>6.335549</td>
+      <td>11.769006</td>
+      <td>60.285320</td>
+      <td>21.852277</td>
+      <td>37.150556</td>
+      <td>40.456081</td>
+      <td>41.500853</td>
+      <td>65.254237</td>
+      <td>54.812174</td>
+      <td>0.123001</td>
+      <td>51.501416</td>
+      <td>50.180151</td>
+      <td>48.027102</td>
+      <td>37.340153</td>
+      <td>63.693865</td>
+      <td>42.672919</td>
+      <td>38.505747</td>
+    </tr>
+    <tr>
+      <th>hhchpov17</th>
+      <td>32.770530</td>
+      <td>23.916752</td>
+      <td>34.555625</td>
+      <td>46.409959</td>
+      <td>4.017217</td>
+      <td>19.963812</td>
+      <td>56.787964</td>
+      <td>23.162194</td>
+      <td>34.615385</td>
+      <td>47.924528</td>
+      <td>13.025459</td>
+      <td>34.451902</td>
+      <td>43.492770</td>
+      <td>13.372093</td>
+      <td>25.280599</td>
+      <td>7.336343</td>
+      <td>47.650417</td>
+      <td>27.400642</td>
+      <td>40.369231</td>
+      <td>47.240705</td>
+      <td>37.469136</td>
+      <td>3.792415</td>
+      <td>43.246623</td>
+      <td>36.447734</td>
+      <td>13.077790</td>
+      <td>33.364574</td>
+      <td>18.230648</td>
+      <td>14.610674</td>
+      <td>21.644774</td>
+      <td>8.212928</td>
+      <td>16.561656</td>
+      <td>6.473641</td>
+      <td>56.125654</td>
+      <td>8.452088</td>
+      <td>16.191562</td>
+      <td>49.336166</td>
+      <td>15.354018</td>
+      <td>3.796376</td>
+      <td>4.497258</td>
+      <td>9.751037</td>
+      <td>55.195090</td>
+      <td>22.486360</td>
+      <td>40.903427</td>
+      <td>46.640000</td>
+      <td>38.960245</td>
+      <td>57.445307</td>
+      <td>56.704165</td>
+      <td>0.118906</td>
+      <td>52.896725</td>
+      <td>48.490108</td>
+      <td>49.225293</td>
+      <td>44.224037</td>
+      <td>64.863124</td>
+      <td>34.242094</td>
+      <td>40.186480</td>
+    </tr>
+    <tr>
+      <th>hhchpov18</th>
+      <td>35.273791</td>
+      <td>21.904105</td>
+      <td>39.735752</td>
+      <td>39.891754</td>
+      <td>4.608939</td>
+      <td>15.529640</td>
+      <td>58.823529</td>
+      <td>12.376238</td>
+      <td>33.538251</td>
+      <td>50.104058</td>
+      <td>15.060064</td>
+      <td>20.465686</td>
+      <td>37.679149</td>
+      <td>8.074534</td>
+      <td>23.536100</td>
+      <td>11.256281</td>
+      <td>40.463918</td>
+      <td>26.230303</td>
+      <td>33.080070</td>
+      <td>44.286840</td>
+      <td>45.763994</td>
+      <td>2.800546</td>
+      <td>47.002221</td>
+      <td>39.011567</td>
+      <td>7.554380</td>
+      <td>33.402923</td>
+      <td>14.364641</td>
+      <td>15.151515</td>
+      <td>18.334235</td>
+      <td>7.267645</td>
+      <td>11.578509</td>
+      <td>12.104813</td>
+      <td>55.329405</td>
+      <td>6.997972</td>
+      <td>11.945813</td>
+      <td>40.830636</td>
+      <td>11.454905</td>
+      <td>4.645048</td>
+      <td>3.443223</td>
+      <td>9.154013</td>
+      <td>55.508637</td>
+      <td>18.710191</td>
+      <td>50.312695</td>
+      <td>42.607527</td>
+      <td>37.264151</td>
+      <td>59.105099</td>
+      <td>58.755090</td>
+      <td>0.371287</td>
+      <td>45.880612</td>
+      <td>41.626984</td>
+      <td>45.773875</td>
+      <td>42.046719</td>
+      <td>60.711887</td>
+      <td>28.032129</td>
+      <td>44.811801</td>
+    </tr>
+    <tr>
+      <th>hhchpov19</th>
+      <td>32.601602</td>
+      <td>15.384615</td>
+      <td>41.038850</td>
+      <td>41.388479</td>
+      <td>4.834254</td>
+      <td>17.905647</td>
+      <td>58.080194</td>
+      <td>11.683168</td>
+      <td>31.844888</td>
+      <td>39.654296</td>
+      <td>15.152378</td>
+      <td>12.348668</td>
+      <td>35.002158</td>
+      <td>6.169297</td>
+      <td>21.624650</td>
+      <td>8.425721</td>
+      <td>37.659381</td>
+      <td>28.945343</td>
+      <td>25.609096</td>
+      <td>46.453089</td>
+      <td>44.152047</td>
+      <td>2.256186</td>
+      <td>46.772865</td>
+      <td>45.657826</td>
+      <td>6.794589</td>
+      <td>32.803632</td>
+      <td>9.240100</td>
+      <td>21.975806</td>
+      <td>18.680710</td>
+      <td>7.024169</td>
+      <td>13.777219</td>
+      <td>17.239165</td>
+      <td>55.864324</td>
+      <td>6.446701</td>
+      <td>13.172043</td>
+      <td>35.834208</td>
+      <td>18.294271</td>
+      <td>2.288732</td>
+      <td>4.072398</td>
+      <td>9.772423</td>
+      <td>49.527559</td>
+      <td>13.424771</td>
+      <td>55.013459</td>
+      <td>38.382353</td>
+      <td>32.449903</td>
+      <td>51.431049</td>
+      <td>61.071093</td>
+      <td>0.000000</td>
+      <td>42.322457</td>
+      <td>30.489939</td>
+      <td>50.904137</td>
+      <td>37.535982</td>
+      <td>66.545718</td>
+      <td>38.116592</td>
+      <td>43.192272</td>
+    </tr>
+  </tbody>
+</table>
+</div><h2>a. Calculate the correlation matrix</h2>
+<p><em>cor_matrix</em> contains the full correlation matrix. The table below shows a snapshot of the first 5 rows.</p>
+#craetes a correlation matrix
+cor_matrix = vs10to17IndComm.iloc[:,:].corr()
+#shows the first 5 rows
+cor_matrix.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>CSA2010</th>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <th>Beechfield/Ten Hills/West Hills</th>
+      <th>Belair-Edison</th>
+      <th>Brooklyn/Curtis Bay/Hawkins Point</th>
+      <th>Canton</th>
+      <th>Cedonia/Frankford</th>
+      <th>Cherry Hill</th>
+      <th>Chinquapin Park/Belvedere</th>
+      <th>Claremont/Armistead</th>
+      <th>Clifton-Berea</th>
+      <th>Cross-Country/Cheswolde</th>
+      <th>Dickeyville/Franklintown</th>
+      <th>Dorchester/Ashburton</th>
+      <th>Downtown/Seton Hill</th>
+      <th>Edmondson Village</th>
+      <th>Fells Point</th>
+      <th>Forest Park/Walbrook</th>
+      <th>Glen-Fallstaff</th>
+      <th>Greater Charles Village/Barclay</th>
+      <th>Greater Govans</th>
+      <th>Greater Mondawmin</th>
+      <th>Greater Roland Park/Poplar Hill</th>
+      <th>Greater Rosemont</th>
+      <th>Greenmount East</th>
+      <th>Hamilton</th>
+      <th>Harbor East/Little Italy</th>
+      <th>Harford/Echodale</th>
+      <th>Highlandtown</th>
+      <th>Howard Park/West Arlington</th>
+      <th>Inner Harbor/Federal Hill</th>
+      <th>Lauraville</th>
+      <th>Loch Raven</th>
+      <th>Madison/East End</th>
+      <th>Medfield/Hampden/Woodberry/Remington</th>
+      <th>Midtown</th>
+      <th>Midway/Coldstream</th>
+      <th>Morrell Park/Violetville</th>
+      <th>Mount Washington/Coldspring</th>
+      <th>North Baltimore/Guilford/Homeland</th>
+      <th>Northwood</th>
+      <th>Oldtown/Middle East</th>
+      <th>Orangeville/East Highlandtown</th>
+      <th>Patterson Park North &amp; East</th>
+      <th>Penn North/Reservoir Hill</th>
+      <th>Pimlico/Arlington/Hilltop</th>
+      <th>Poppleton/The Terraces/Hollins Market</th>
+      <th>Sandtown-Winchester/Harlem Park</th>
+      <th>South Baltimore</th>
+      <th>Southeastern</th>
+      <th>Southern Park Heights</th>
+      <th>Southwest Baltimore</th>
+      <th>The Waverlies</th>
+      <th>Upton/Druid Heights</th>
+      <th>Washington Village/Pigtown</th>
+      <th>Westport/Mount Winans/Lakeland</th>
+    </tr>
+    <tr>
+      <th>CSA2010</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <td>1.0</td>
+      <td>0.014863</td>
+      <td>-0.119179</td>
+      <td>0.095415</td>
+      <td>0.470058</td>
+      <td>0.548944</td>
+      <td>0.88326</td>
+      <td>-0.104335</td>
+      <td>-0.102976</td>
+      <td>-0.503038</td>
+      <td>-0.560746</td>
+      <td>0.245054</td>
+      <td>-0.513196</td>
+      <td>0.219368</td>
+      <td>0.902809</td>
+      <td>0.824206</td>
+      <td>0.349305</td>
+      <td>-0.225704</td>
+      <td>0.455862</td>
+      <td>-0.95513</td>
+      <td>-0.55844</td>
+      <td>0.61754</td>
+      <td>-0.240447</td>
+      <td>-0.401832</td>
+      <td>0.301535</td>
+      <td>0.894259</td>
+      <td>0.356956</td>
+      <td>-0.399832</td>
+      <td>0.575175</td>
+      <td>0.894022</td>
+      <td>-0.128303</td>
+      <td>0.422069</td>
+      <td>0.688614</td>
+      <td>0.817967</td>
+      <td>-0.709692</td>
+      <td>0.407924</td>
+      <td>-0.593179</td>
+      <td>0.931204</td>
+      <td>0.337036</td>
+      <td>0.812526</td>
+      <td>0.721937</td>
+      <td>0.590431</td>
+      <td>-0.283071</td>
+      <td>0.036479</td>
+      <td>0.480814</td>
+      <td>0.771909</td>
+      <td>0.15346</td>
+      <td>0.920392</td>
+      <td>0.34112</td>
+      <td>0.555418</td>
+      <td>0.0125</td>
+      <td>-0.808695</td>
+      <td>-0.872919</td>
+      <td>-0.041575</td>
+      <td>-0.163644</td>
+    </tr>
+  </tbody>
+</table>
+</div>#extracts the indices from the correlation matrix
+lblVals = cor_matrix.index.values#Changes from dataframe to matrix, so it is easier to create a graph with networkx
+cor_matrix = np.asmatrix(cor_matrix)cor_matrixmatrix([[ 1.        ,  0.01486326, -0.11917925, ..., -0.87291859,
+         -0.04157519, -0.16364442],
+        [ 0.01486326,  1.        , -0.73682806, ..., -0.32818969,
+         -0.34654921, -0.28677534],
+        [-0.11917925, -0.73682806,  1.        , ...,  0.08730828,
+         -0.25687775,  0.81935146],
+        ...,
+        [-0.87291859, -0.32818969,  0.08730828, ...,  1.        ,
+          0.43279691, -0.09677958],
+        [-0.04157519, -0.34654921, -0.25687775, ...,  0.43279691,
+          1.        , -0.7540497 ],
+        [-0.16364442, -0.28677534,  0.81935146, ..., -0.09677958,
+         -0.7540497 ,  1.        ]])<h2>b. Create graph</h2>
+#Crates graph using the data of the correlation matrix
+G = nx.from_numpy_matrix(cor_matrix)
+
+#relabels the nodes to match the  stocks names
+G = nx.relabel_nodes(G,lambda x: lblVals[x])
+
+#Shows the first 5 edges with their corresponding edges
+# OLD: G.edges(data=True)[:5]
+list(G.edges(data=True))[0:5][('Allendale/Irvington/S. Hilton',
+  'Allendale/Irvington/S. Hilton',
+  {'weight': 1.0}),
+ ('Allendale/Irvington/S. Hilton',
+  'Beechfield/Ten Hills/West Hills',
+  {'weight': 0.0148632552338115}),
+ ('Allendale/Irvington/S. Hilton',
+  'Belair-Edison',
+  {'weight': -0.11917925099179705}),
+ ('Allendale/Irvington/S. Hilton',
+  'Brooklyn/Curtis Bay/Hawkins Point',
+  {'weight': 0.09541481724704895}),
+ ('Allendale/Irvington/S. Hilton', 'Canton', {'weight': 0.4700577440487724})]<h2>Part 5: Styling the nodes based on the number of edges linked (degree)</h2>
+#export 
+#function to create and display networks from the correlatin matrix. 
+
+def create_corr_network_5(G, corr_direction, min_correlation):
+    ##Creates a copy of the graph
+    H = G.copy()
+    
+    ##Checks all the edges and removes some based on corr_direction
+    for stock1, stock2, weight in G.edges(data=True):
+        ##if we only want to see the positive correlations we then delete the edges with weight smaller than 0        
+        if corr_direction == "positive":
+            ####it adds a minimum value for correlation. 
+            ####If correlation weaker than the min, then it deletes the edge
+            if weight["weight"] <0 or weight["weight"] < min_correlation:
+                H.remove_edge(stock1, stock2)
+        ##this part runs if the corr_direction is negative and removes edges with weights equal or largen than 0
+        else:
+            ####it adds a minimum value for correlation. 
+            ####If correlation weaker than the min, then it deletes the edge
+            if weight["weight"] >=0 or weight["weight"] > min_correlation:
+                H.remove_edge(stock1, stock2)
+                
+    
+    #crates a list for edges and for the weights
+    edges,weights = zip(*nx.get_edge_attributes(H,'weight').items())
+    
+    ### increases the value of weights, so that they are more visible in the graph
+    weights = tuple([(1+abs(x))**2 for x in weights])
+    
+    #####calculates the degree of each node
+    d = nx.degree(H)
+    #####creates list of nodes and a list their degrees that will be used later for their sizes
+    nodelist, node_sizes = zip(*d)
+
+    #positions
+    positions=nx.circular_layout(H)
+    
+    #Figure size
+    plt.figure(figsize=(15,15))
+
+    #draws nodes
+    nx.draw_networkx_nodes(H,positions,node_color='#DA70D6',nodelist=nodelist,
+                           #####the node size will be now based on its degree
+                           node_size=tuple([x**3 for x in node_sizes]),alpha=0.8)
+    
+    #Styling for labels
+    nx.draw_networkx_labels(H, positions, font_size=8, 
+                            font_family='sans-serif')
+    
+    ###edge colors based on weight direction
+    if corr_direction == "positive":
+        edge_colour = plt.cm.GnBu 
+    else:
+        edge_colour = plt.cm.PuRd
+        
+    #draws the edges
+    nx.draw_networkx_edges(H, positions, edges,style='solid',
+                          ###adds width=weights and edge_color = weights 
+                          ###so that edges are based on the weight parameter 
+                          ###edge_cmap is for the color scale based on the weight
+                          ### edge_vmin and edge_vmax assign the min and max weights for the width
+                          width=weights, edge_color = weights, edge_cmap = edge_colour,
+                          edge_vmin = min(weights), edge_vmax=max(weights))
+
+    # displays the graph without axis
+    plt.axis('off')
+    #saves image
+    plt.savefig("part5" + corr_direction + ".png", format="PNG")
+    plt.show() 
+create_corr_network_5(G, corr_direction="positive",min_correlation=0.7)<Figure size 1080x1080 with 1 Axes>create_corr_network_5(G, corr_direction="negative",min_correlation=-0.7)<Figure size 1080x1080 with 1 Axes># default_exp corr<p>⚠️ The writing is a work in progress. The functions work but text retouching⚠️</p>
+!pip install geopandas
+!pip install VitalSigns#export 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import networkx as nx
+import warnings
+warnings.filterwarnings('ignore')#hide
+t = """ """
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/dataplay/
+
+# !pip install dataplayls[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+#export
+from dataplay import merge
+from dataplay import intaker
+from VitalSigns import acsDownload<blockquote>
+<p>In graph theory, a clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together. Evidence suggests that in most real-world networks, and in particular social networks, nodes tend to create tightly knit groups characterized by a relatively high density of ties; this likelihood tends to be greater than the average probability of a tie randomly established between two nodes (Holland and Leinhardt, 1971; Watts and Strogatz, 1998).</p>
+<p>Two versions of this measure exist: the global and the local. The global version was designed to give an overall indication of the clustering in the network, whereas the local gives an indication of the embeddedness of single nodes. - <a href="https://www.geeksforgeeks.org/clustering-coefficient-graph-theory/">Geek for Geeks</a></p>
+</blockquote>
+#export 
+
+# this example is from the Geek for Geeks link above
+def average_clustering(G, trials=1000): 
+    """Estimates the average clustering coefficient of G. 
+  
+    The local clustering of each node in `G` is the  
+    fraction of triangles that actually exist over  
+    all possible triangles in its neighborhood. 
+    The average clustering coefficient of a graph  
+    `G` is the mean of local clusterings. 
+  
+    This function finds an approximate average  
+    clustering coefficient for G by repeating `n`  
+    times (defined in `trials`) the following 
+    experiment: choose a node at random, choose  
+    two of its neighbors at random, and check if 
+    they are connected. The approximate coefficient  
+    is the fraction of triangles found over the  
+    number of trials [1]_. 
+  
+    Parameters 
+    ---------- 
+    G : NetworkX graph 
+  
+    trials : integer 
+        Number of trials to perform (default 1000). 
+  
+    Returns 
+    ------- 
+    c : float 
+        Approximated average clustering coefficient. 
+  
+     
+  
+    """
+    n = len(G) 
+    triangles = 0
+    nodes = G.nodes() 
+    for i in [int(random.random() * n) for i in range(trials)]: 
+        nbrs = list(G[nodes[i]]) 
+        if len(nbrs) < 2: 
+            continue
+        u, v = random.sample(nbrs, 2) 
+        if u in G[v]: 
+            triangles += 1
+    return triangles / float(trials) G=nx.erdos_renyi_graph(10,0.4) 
+cc=nx.average_clustering(G) c=nx.clustering(G) 
+c  
+nx.draw(G)<Figure size 432x288 with 1 Axes><h3>Data Prep</h3>
+#reads the csv
+import geopandas as gpd
+vs10to17 = intaker.Intake.getData('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhchpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+vs10to17.head(1)vs10to17Ind = vs10to17[['CSA2010', 'hhchpov15',	'hhchpov16', 'hhchpov17', 'hhchpov18', 'hhchpov19'] ]
+vs10to17Ind = vs10to17Ind.melt(id_vars='CSA2010', value_vars=['hhchpov15',	'hhchpov16', 'hhchpov17', 'hhchpov18', 'hhchpov19'])
+vs10to17Ind.head()<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CSA2010</th>
+      <th>variable</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Allendale/Irvington/S. Hilton</td>
+      <td>hhchpov15</td>
+      <td>38.931487</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Beechfield/Ten Hills/West Hills</td>
+      <td>hhchpov15</td>
+      <td>19.416892</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Belair-Edison</td>
+      <td>hhchpov15</td>
+      <td>36.882547</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Brooklyn/Curtis Bay/Hawkins Point</td>
+      <td>hhchpov15</td>
+      <td>45.008801</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Canton</td>
+      <td>hhchpov15</td>
+      <td>5.490849</td>
+    </tr>
+  </tbody>
+</table>
+</div>vs10to17IndComm = vs10to17Ind.pivot('variable', 'CSA2010', 'value')
+vs10to17IndComm<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>CSA2010</th>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <th>Beechfield/Ten Hills/West Hills</th>
+      <th>Belair-Edison</th>
+      <th>Brooklyn/Curtis Bay/Hawkins Point</th>
+      <th>Canton</th>
+      <th>Cedonia/Frankford</th>
+      <th>Cherry Hill</th>
+      <th>Chinquapin Park/Belvedere</th>
+      <th>Claremont/Armistead</th>
+      <th>Clifton-Berea</th>
+      <th>Cross-Country/Cheswolde</th>
+      <th>Dickeyville/Franklintown</th>
+      <th>Dorchester/Ashburton</th>
+      <th>Downtown/Seton Hill</th>
+      <th>Edmondson Village</th>
+      <th>Fells Point</th>
+      <th>Forest Park/Walbrook</th>
+      <th>Glen-Fallstaff</th>
+      <th>Greater Charles Village/Barclay</th>
+      <th>Greater Govans</th>
+      <th>Greater Mondawmin</th>
+      <th>Greater Roland Park/Poplar Hill</th>
+      <th>Greater Rosemont</th>
+      <th>Greenmount East</th>
+      <th>Hamilton</th>
+      <th>Harbor East/Little Italy</th>
+      <th>Harford/Echodale</th>
+      <th>Highlandtown</th>
+      <th>Howard Park/West Arlington</th>
+      <th>Inner Harbor/Federal Hill</th>
+      <th>Lauraville</th>
+      <th>Loch Raven</th>
+      <th>Madison/East End</th>
+      <th>Medfield/Hampden/Woodberry/Remington</th>
+      <th>Midtown</th>
+      <th>Midway/Coldstream</th>
+      <th>Morrell Park/Violetville</th>
+      <th>Mount Washington/Coldspring</th>
+      <th>North Baltimore/Guilford/Homeland</th>
+      <th>Northwood</th>
+      <th>Oldtown/Middle East</th>
+      <th>Orangeville/East Highlandtown</th>
+      <th>Patterson Park North &amp; East</th>
+      <th>Penn North/Reservoir Hill</th>
+      <th>Pimlico/Arlington/Hilltop</th>
+      <th>Poppleton/The Terraces/Hollins Market</th>
+      <th>Sandtown-Winchester/Harlem Park</th>
+      <th>South Baltimore</th>
+      <th>Southeastern</th>
+      <th>Southern Park Heights</th>
+      <th>Southwest Baltimore</th>
+      <th>The Waverlies</th>
+      <th>Upton/Druid Heights</th>
+      <th>Washington Village/Pigtown</th>
+      <th>Westport/Mount Winans/Lakeland</th>
+    </tr>
+    <tr>
+      <th>variable</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>hhchpov15</th>
+      <td>38.931487</td>
+      <td>19.416892</td>
+      <td>36.882547</td>
+      <td>45.008801</td>
+      <td>5.490849</td>
+      <td>23.345482</td>
+      <td>62.515723</td>
+      <td>16.493874</td>
+      <td>32.883093</td>
+      <td>34.932280</td>
+      <td>10.342224</td>
+      <td>28.861004</td>
+      <td>34.596982</td>
+      <td>11.666667</td>
+      <td>40.469062</td>
+      <td>13.196481</td>
+      <td>46.385224</td>
+      <td>27.512978</td>
+      <td>42.048055</td>
+      <td>39.080000</td>
+      <td>28.571429</td>
+      <td>7.652733</td>
+      <td>43.860132</td>
+      <td>37.705789</td>
+      <td>13.201821</td>
+      <td>48.872786</td>
+      <td>17.117117</td>
+      <td>15.205725</td>
+      <td>30.994475</td>
+      <td>18.129032</td>
+      <td>14.863103</td>
+      <td>17.322624</td>
+      <td>59.304511</td>
+      <td>14.421177</td>
+      <td>8.195021</td>
+      <td>48.240964</td>
+      <td>13.084746</td>
+      <td>8.096085</td>
+      <td>5.391433</td>
+      <td>13.901663</td>
+      <td>60.271572</td>
+      <td>24.084178</td>
+      <td>42.457923</td>
+      <td>42.544197</td>
+      <td>39.779513</td>
+      <td>65.723270</td>
+      <td>59.821650</td>
+      <td>3.237858</td>
+      <td>51.587302</td>
+      <td>51.345415</td>
+      <td>50.533420</td>
+      <td>27.025090</td>
+      <td>60.262829</td>
+      <td>36.734694</td>
+      <td>40.281974</td>
+    </tr>
+    <tr>
+      <th>hhchpov16</th>
+      <td>34.727823</td>
+      <td>21.220847</td>
+      <td>36.126984</td>
+      <td>46.447508</td>
+      <td>2.994012</td>
+      <td>20.574534</td>
+      <td>60.918367</td>
+      <td>18.154463</td>
+      <td>34.492519</td>
+      <td>47.579864</td>
+      <td>9.850668</td>
+      <td>29.828851</td>
+      <td>37.873874</td>
+      <td>13.079019</td>
+      <td>27.287762</td>
+      <td>6.785714</td>
+      <td>44.330814</td>
+      <td>30.681548</td>
+      <td>44.968732</td>
+      <td>42.551253</td>
+      <td>28.767123</td>
+      <td>8.474576</td>
+      <td>46.378322</td>
+      <td>38.253012</td>
+      <td>15.762813</td>
+      <td>40.180995</td>
+      <td>18.549157</td>
+      <td>21.197719</td>
+      <td>33.410006</td>
+      <td>9.171598</td>
+      <td>16.026993</td>
+      <td>17.197964</td>
+      <td>58.773982</td>
+      <td>11.312790</td>
+      <td>18.000000</td>
+      <td>44.501134</td>
+      <td>17.697729</td>
+      <td>5.918728</td>
+      <td>6.335549</td>
+      <td>11.769006</td>
+      <td>60.285320</td>
+      <td>21.852277</td>
+      <td>37.150556</td>
+      <td>40.456081</td>
+      <td>41.500853</td>
+      <td>65.254237</td>
+      <td>54.812174</td>
+      <td>0.123001</td>
+      <td>51.501416</td>
+      <td>50.180151</td>
+      <td>48.027102</td>
+      <td>37.340153</td>
+      <td>63.693865</td>
+      <td>42.672919</td>
+      <td>38.505747</td>
+    </tr>
+    <tr>
+      <th>hhchpov17</th>
+      <td>32.770530</td>
+      <td>23.916752</td>
+      <td>34.555625</td>
+      <td>46.409959</td>
+      <td>4.017217</td>
+      <td>19.963812</td>
+      <td>56.787964</td>
+      <td>23.162194</td>
+      <td>34.615385</td>
+      <td>47.924528</td>
+      <td>13.025459</td>
+      <td>34.451902</td>
+      <td>43.492770</td>
+      <td>13.372093</td>
+      <td>25.280599</td>
+      <td>7.336343</td>
+      <td>47.650417</td>
+      <td>27.400642</td>
+      <td>40.369231</td>
+      <td>47.240705</td>
+      <td>37.469136</td>
+      <td>3.792415</td>
+      <td>43.246623</td>
+      <td>36.447734</td>
+      <td>13.077790</td>
+      <td>33.364574</td>
+      <td>18.230648</td>
+      <td>14.610674</td>
+      <td>21.644774</td>
+      <td>8.212928</td>
+      <td>16.561656</td>
+      <td>6.473641</td>
+      <td>56.125654</td>
+      <td>8.452088</td>
+      <td>16.191562</td>
+      <td>49.336166</td>
+      <td>15.354018</td>
+      <td>3.796376</td>
+      <td>4.497258</td>
+      <td>9.751037</td>
+      <td>55.195090</td>
+      <td>22.486360</td>
+      <td>40.903427</td>
+      <td>46.640000</td>
+      <td>38.960245</td>
+      <td>57.445307</td>
+      <td>56.704165</td>
+      <td>0.118906</td>
+      <td>52.896725</td>
+      <td>48.490108</td>
+      <td>49.225293</td>
+      <td>44.224037</td>
+      <td>64.863124</td>
+      <td>34.242094</td>
+      <td>40.186480</td>
+    </tr>
+    <tr>
+      <th>hhchpov18</th>
+      <td>35.273791</td>
+      <td>21.904105</td>
+      <td>39.735752</td>
+      <td>39.891754</td>
+      <td>4.608939</td>
+      <td>15.529640</td>
+      <td>58.823529</td>
+      <td>12.376238</td>
+      <td>33.538251</td>
+      <td>50.104058</td>
+      <td>15.060064</td>
+      <td>20.465686</td>
+      <td>37.679149</td>
+      <td>8.074534</td>
+      <td>23.536100</td>
+      <td>11.256281</td>
+      <td>40.463918</td>
+      <td>26.230303</td>
+      <td>33.080070</td>
+      <td>44.286840</td>
+      <td>45.763994</td>
+      <td>2.800546</td>
+      <td>47.002221</td>
+      <td>39.011567</td>
+      <td>7.554380</td>
+      <td>33.402923</td>
+      <td>14.364641</td>
+      <td>15.151515</td>
+      <td>18.334235</td>
+      <td>7.267645</td>
+      <td>11.578509</td>
+      <td>12.104813</td>
+      <td>55.329405</td>
+      <td>6.997972</td>
+      <td>11.945813</td>
+      <td>40.830636</td>
+      <td>11.454905</td>
+      <td>4.645048</td>
+      <td>3.443223</td>
+      <td>9.154013</td>
+      <td>55.508637</td>
+      <td>18.710191</td>
+      <td>50.312695</td>
+      <td>42.607527</td>
+      <td>37.264151</td>
+      <td>59.105099</td>
+      <td>58.755090</td>
+      <td>0.371287</td>
+      <td>45.880612</td>
+      <td>41.626984</td>
+      <td>45.773875</td>
+      <td>42.046719</td>
+      <td>60.711887</td>
+      <td>28.032129</td>
+      <td>44.811801</td>
+    </tr>
+    <tr>
+      <th>hhchpov19</th>
+      <td>32.601602</td>
+      <td>15.384615</td>
+      <td>41.038850</td>
+      <td>41.388479</td>
+      <td>4.834254</td>
+      <td>17.905647</td>
+      <td>58.080194</td>
+      <td>11.683168</td>
+      <td>31.844888</td>
+      <td>39.654296</td>
+      <td>15.152378</td>
+      <td>12.348668</td>
+      <td>35.002158</td>
+      <td>6.169297</td>
+      <td>21.624650</td>
+      <td>8.425721</td>
+      <td>37.659381</td>
+      <td>28.945343</td>
+      <td>25.609096</td>
+      <td>46.453089</td>
+      <td>44.152047</td>
+      <td>2.256186</td>
+      <td>46.772865</td>
+      <td>45.657826</td>
+      <td>6.794589</td>
+      <td>32.803632</td>
+      <td>9.240100</td>
+      <td>21.975806</td>
+      <td>18.680710</td>
+      <td>7.024169</td>
+      <td>13.777219</td>
+      <td>17.239165</td>
+      <td>55.864324</td>
+      <td>6.446701</td>
+      <td>13.172043</td>
+      <td>35.834208</td>
+      <td>18.294271</td>
+      <td>2.288732</td>
+      <td>4.072398</td>
+      <td>9.772423</td>
+      <td>49.527559</td>
+      <td>13.424771</td>
+      <td>55.013459</td>
+      <td>38.382353</td>
+      <td>32.449903</td>
+      <td>51.431049</td>
+      <td>61.071093</td>
+      <td>0.000000</td>
+      <td>42.322457</td>
+      <td>30.489939</td>
+      <td>50.904137</td>
+      <td>37.535982</td>
+      <td>66.545718</td>
+      <td>38.116592</td>
+      <td>43.192272</td>
+    </tr>
+  </tbody>
+</table>
+</div><h2>a. Calculate the correlation matrix</h2>
+<p><em>cor_matrix</em> contains the full correlation matrix. The table below shows a snapshot of the first 5 rows.</p>
+#craetes a correlation matrix
+cor_matrix = vs10to17IndComm.iloc[:,:].corr()
+#shows the first 5 rows
+cor_matrix.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>CSA2010</th>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <th>Beechfield/Ten Hills/West Hills</th>
+      <th>Belair-Edison</th>
+      <th>Brooklyn/Curtis Bay/Hawkins Point</th>
+      <th>Canton</th>
+      <th>Cedonia/Frankford</th>
+      <th>Cherry Hill</th>
+      <th>Chinquapin Park/Belvedere</th>
+      <th>Claremont/Armistead</th>
+      <th>Clifton-Berea</th>
+      <th>Cross-Country/Cheswolde</th>
+      <th>Dickeyville/Franklintown</th>
+      <th>Dorchester/Ashburton</th>
+      <th>Downtown/Seton Hill</th>
+      <th>Edmondson Village</th>
+      <th>Fells Point</th>
+      <th>Forest Park/Walbrook</th>
+      <th>Glen-Fallstaff</th>
+      <th>Greater Charles Village/Barclay</th>
+      <th>Greater Govans</th>
+      <th>Greater Mondawmin</th>
+      <th>Greater Roland Park/Poplar Hill</th>
+      <th>Greater Rosemont</th>
+      <th>Greenmount East</th>
+      <th>Hamilton</th>
+      <th>Harbor East/Little Italy</th>
+      <th>Harford/Echodale</th>
+      <th>Highlandtown</th>
+      <th>Howard Park/West Arlington</th>
+      <th>Inner Harbor/Federal Hill</th>
+      <th>Lauraville</th>
+      <th>Loch Raven</th>
+      <th>Madison/East End</th>
+      <th>Medfield/Hampden/Woodberry/Remington</th>
+      <th>Midtown</th>
+      <th>Midway/Coldstream</th>
+      <th>Morrell Park/Violetville</th>
+      <th>Mount Washington/Coldspring</th>
+      <th>North Baltimore/Guilford/Homeland</th>
+      <th>Northwood</th>
+      <th>Oldtown/Middle East</th>
+      <th>Orangeville/East Highlandtown</th>
+      <th>Patterson Park North &amp; East</th>
+      <th>Penn North/Reservoir Hill</th>
+      <th>Pimlico/Arlington/Hilltop</th>
+      <th>Poppleton/The Terraces/Hollins Market</th>
+      <th>Sandtown-Winchester/Harlem Park</th>
+      <th>South Baltimore</th>
+      <th>Southeastern</th>
+      <th>Southern Park Heights</th>
+      <th>Southwest Baltimore</th>
+      <th>The Waverlies</th>
+      <th>Upton/Druid Heights</th>
+      <th>Washington Village/Pigtown</th>
+      <th>Westport/Mount Winans/Lakeland</th>
+    </tr>
+    <tr>
+      <th>CSA2010</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Allendale/Irvington/S. Hilton</th>
+      <td>1.0</td>
+      <td>0.014863</td>
+      <td>-0.119179</td>
+      <td>0.095415</td>
+      <td>0.470058</td>
+      <td>0.548944</td>
+      <td>0.88326</td>
+      <td>-0.104335</td>
+      <td>-0.102976</td>
+      <td>-0.503038</td>
+      <td>-0.560746</td>
+      <td>0.245054</td>
+      <td>-0.513196</td>
+      <td>0.219368</td>
+      <td>0.902809</td>
+      <td>0.824206</td>
+      <td>0.349305</td>
+      <td>-0.225704</td>
+      <td>0.455862</td>
+      <td>-0.95513</td>
+      <td>-0.55844</td>
+      <td>0.61754</td>
+      <td>-0.240447</td>
+      <td>-0.401832</td>
+      <td>0.301535</td>
+      <td>0.894259</td>
+      <td>0.356956</td>
+      <td>-0.399832</td>
+      <td>0.575175</td>
+      <td>0.894022</td>
+      <td>-0.128303</td>
+      <td>0.422069</td>
+      <td>0.688614</td>
+      <td>0.817967</td>
+      <td>-0.709692</td>
+      <td>0.407924</td>
+      <td>-0.593179</td>
+      <td>0.931204</td>
+      <td>0.337036</td>
+      <td>0.812526</td>
+      <td>0.721937</td>
+      <td>0.590431</td>
+      <td>-0.283071</td>
+      <td>0.036479</td>
+      <td>0.480814</td>
+      <td>0.771909</td>
+      <td>0.15346</td>
+      <td>0.920392</td>
+      <td>0.34112</td>
+      <td>0.555418</td>
+      <td>0.0125</td>
+      <td>-0.808695</td>
+      <td>-0.872919</td>
+      <td>-0.041575</td>
+      <td>-0.163644</td>
+    </tr>
+  </tbody>
+</table>
+</div>#extracts the indices from the correlation matrix
+lblVals = cor_matrix.index.values#Changes from dataframe to matrix, so it is easier to create a graph with networkx
+cor_matrix = np.asmatrix(cor_matrix)cor_matrixmatrix([[ 1.        ,  0.01486326, -0.11917925, ..., -0.87291859,
+         -0.04157519, -0.16364442],
+        [ 0.01486326,  1.        , -0.73682806, ..., -0.32818969,
+         -0.34654921, -0.28677534],
+        [-0.11917925, -0.73682806,  1.        , ...,  0.08730828,
+         -0.25687775,  0.81935146],
+        ...,
+        [-0.87291859, -0.32818969,  0.08730828, ...,  1.        ,
+          0.43279691, -0.09677958],
+        [-0.04157519, -0.34654921, -0.25687775, ...,  0.43279691,
+          1.        , -0.7540497 ],
+        [-0.16364442, -0.28677534,  0.81935146, ..., -0.09677958,
+         -0.7540497 ,  1.        ]])<h2>b. Create graph</h2>
+#Crates graph using the data of the correlation matrix
+G = nx.from_numpy_matrix(cor_matrix)
+
+#relabels the nodes to match the  stocks names
+G = nx.relabel_nodes(G,lambda x: lblVals[x])
+
+#Shows the first 5 edges with their corresponding edges
+# OLD: G.edges(data=True)[:5]
+list(G.edges(data=True))[0:5][('Allendale/Irvington/S. Hilton',
+  'Allendale/Irvington/S. Hilton',
+  {'weight': 1.0}),
+ ('Allendale/Irvington/S. Hilton',
+  'Beechfield/Ten Hills/West Hills',
+  {'weight': 0.0148632552338115}),
+ ('Allendale/Irvington/S. Hilton',
+  'Belair-Edison',
+  {'weight': -0.11917925099179705}),
+ ('Allendale/Irvington/S. Hilton',
+  'Brooklyn/Curtis Bay/Hawkins Point',
+  {'weight': 0.09541481724704895}),
+ ('Allendale/Irvington/S. Hilton', 'Canton', {'weight': 0.4700577440487724})]<h2>Part 5: Styling the nodes based on the number of edges linked (degree)</h2>
+#export 
+#function to create and display networks from the correlatin matrix. 
+
+def create_corr_network_5(G, corr_direction, min_correlation):
+    ##Creates a copy of the graph
+    H = G.copy()
+    
+    ##Checks all the edges and removes some based on corr_direction
+    for stock1, stock2, weight in G.edges(data=True):
+        ##if we only want to see the positive correlations we then delete the edges with weight smaller than 0        
+        if corr_direction == "positive":
+            ####it adds a minimum value for correlation. 
+            ####If correlation weaker than the min, then it deletes the edge
+            if weight["weight"] <0 or weight["weight"] < min_correlation:
+                H.remove_edge(stock1, stock2)
+        ##this part runs if the corr_direction is negative and removes edges with weights equal or largen than 0
+        else:
+            ####it adds a minimum value for correlation. 
+            ####If correlation weaker than the min, then it deletes the edge
+            if weight["weight"] >=0 or weight["weight"] > min_correlation:
+                H.remove_edge(stock1, stock2)
+                
+    
+    #crates a list for edges and for the weights
+    edges,weights = zip(*nx.get_edge_attributes(H,'weight').items())
+    
+    ### increases the value of weights, so that they are more visible in the graph
+    weights = tuple([(1+abs(x))**2 for x in weights])
+    
+    #####calculates the degree of each node
+    d = nx.degree(H)
+    #####creates list of nodes and a list their degrees that will be used later for their sizes
+    nodelist, node_sizes = zip(*d)
+
+    #positions
+    positions=nx.circular_layout(H)
+    
+    #Figure size
+    plt.figure(figsize=(15,15))
+
+    #draws nodes
+    nx.draw_networkx_nodes(H,positions,node_color='#DA70D6',nodelist=nodelist,
+                           #####the node size will be now based on its degree
+                           node_size=tuple([x**3 for x in node_sizes]),alpha=0.8)
+    
+    #Styling for labels
+    nx.draw_networkx_labels(H, positions, font_size=8, 
+                            font_family='sans-serif')
+    
+    ###edge colors based on weight direction
+    if corr_direction == "positive":
+        edge_colour = plt.cm.GnBu 
+    else:
+        edge_colour = plt.cm.PuRd
+        
+    #draws the edges
+    nx.draw_networkx_edges(H, positions, edges,style='solid',
+                          ###adds width=weights and edge_color = weights 
+                          ###so that edges are based on the weight parameter 
+                          ###edge_cmap is for the color scale based on the weight
+                          ### edge_vmin and edge_vmax assign the min and max weights for the width
+                          width=weights, edge_color = weights, edge_cmap = edge_colour,
+                          edge_vmin = min(weights), edge_vmax=max(weights))
+
+    # displays the graph without axis
+    plt.axis('off')
+    #saves image
+    plt.savefig("part5" + corr_direction + ".png", format="PNG")
+    plt.show() 
+create_corr_network_5(G, corr_direction="positive",min_correlation=0.7)<Figure size 1080x1080 with 1 Axes>create_corr_network_5(G, corr_direction="negative",min_correlation=-0.7)<Figure size 1080x1080 with 1 Axes>

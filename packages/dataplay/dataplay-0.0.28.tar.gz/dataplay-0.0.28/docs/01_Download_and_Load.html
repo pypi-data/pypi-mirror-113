@@ -1,0 +1,1029 @@
+# default_exp intaker<p>⚠️ This writing is a work in progress. The functions work. ⚠️</p>
+<p>This Coding Notebook is the <strong>1.5th</strong> in a series.</p>
+<p>An Interactive version can be found here <a href="https://colab.research.google.com/github/karpatic/dataplay/blob/master/notebooks/01_5_Explore_and_Download.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.</p>
+<p>This colab and more can be found on our <a href="https://karpatic.github.io/dataplay/">webpage</a>. </p>
+<ul>
+<li>
+<p>Content covered in previous tutorials will be used in later tutorials. </p>
+</li>
+<li>
+<p><strong>New code and or  information <em>should</em> have explanations and or descriptions</strong> attached. </p>
+</li>
+<li>
+<p>Concepts or code covered in previous tutorials will be used without being explaining in entirety.</p>
+</li>
+<li>
+<p>The <a href="https://karpatic.github.io/dataplay/">Dataplay</a> Handbook development techniques covered in the <a href="https://karpatic.github.io/datalabs/">Datalabs</a> Guidebook</p>
+</li>
+<li>
+<p><strong>If content can not be found in the current tutorial and is not covered in previous tutorials, please let me know.</strong></p>
+</li>
+<li>
+<p>This notebook has been optimized for Google Colabs ran on a Chrome Browser. </p>
+</li>
+<li>
+<p>Statements found in the index page on view expressed, responsibility, errors and ommissions, use at risk, and licensing  extend throughout the tutorial.</p>
+</li>
+</ul>
+<p><a href="https://mybinder.org/v2/gh/karpatic/datalab/master?filepath=%2Fnotebooks%2F01_5_Explore_and_Download.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a>
+<a href="https://colab.research.google.com/github/karpatic/datalab/blob/master/notebooks/01_5_Explore_and_Download.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/colab.svg" alt="Binder" /></a>
+<a href="https://github.com/karpatic/datalab/tree/master/notebooks/01_5_Explore_and_Download.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/github.svg" alt="Binder" /></a>
+<a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love svg3" /></a></p>
+<p><a href="https://github.com/karpatic/dataplay/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/all-contributors.svg?style=flat" alt="NPM License" /></a>
+<a href="https://karpatic.github.io"><img src="http://img.shields.io/badge/Status-Active-green.svg" alt="Active" /></a>
+<a href="https://pypi.python.org/pypi/dataplay/"><img src="https://img.shields.io/pypi/pyversions/dataplay.svg" alt="Python Versions" /></a>
+<a href=""><img src="https://img.shields.io/github/last-commit/karpatic/dataplay.svg?style=flat" alt="GitHub last commit" /></a>
+<a href="http://unmaintained.tech/"><img src="http://unmaintained.tech/badge.svg" alt="No Maintenance Intended" /></a> </p>
+<p><a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/stars/karpatic/dataplay.svg?style=social&amp;label=Star" alt="GitHub stars" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/watchers/karpatic/dataplay.svg?style=social&amp;label=Watch" alt="GitHub watchers" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/forks/karpatic/dataplay.svg?style=social&amp;label=Fork" alt="GitHub forks" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/followers/karpatic.svg?style=social&amp;label=Follow" alt="GitHub followers" /></a> </p>
+<p><a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20%E2%9C%A8%20colab%20by%20@bniajfi%20https://github.com/karpatic/dataplay%20%F0%9F%A4%97"><img src="https://img.shields.io/twitter/url/https/github.com/karpatic/dataplay.svg?style=social" alt="Tweet" /></a>
+<a href="https://twitter.com/bniajfi"><img src="https://img.shields.io/twitter/follow/bniajfi.svg?style=social" alt="Twitter Follow" /></a></p>
+<h2>About this Tutorial:</h2>
+<h3>Whats inside?</h3>
+<h4><strong>The Tutorial</strong></h4>
+<p>In this notebook, the basics of data-intake are introduced.</p>
+<ul>
+<li>Data will be imported using Colabs Terminal Commands then load this data into pythons pandas</li>
+<li>We will import geospatial data from Esri then load this data into geo-pandas.</li>
+<li>A variety of data formats will be imported.</li>
+</ul>
+<h4><strong>Objectives</strong></h4>
+<p>By the end of this tutorial users should have an understanding of:</p>
+<ul>
+<li>Importing data with pandas and geopandas</li>
+<li>Querying data from Esri</li>
+<li>Retrieveing data programmatically</li>
+<li>This module assumes the data needs no handling prior to intake</li>
+<li>Loading data in a variety of formats</li>
+</ul>
+<h1>Background</h1>
+<h2>Importing Data with Colabs:</h2>
+<p><strong>Instructions:</strong> Read all text and execute all code in order.  </p>
+<p><strong>How  XYZ :</strong></p>
+<ul>
+<li>TODO</li>
+</ul>
+<p>If you would like to ...</p>
+<p>For this next example to work, we will need to import hypothetical csv files</p>
+<p><strong>Try It!</strong> Go ahead and try running the cell below.</p>
+#hide
+!pip install nbdev
+from nbdev.showdoc import *<h1>Advanced</h1>
+#export 
+import geopandas as gpd
+import numpy as np
+import pandas as pd
+from dataplay import geoms# hide
+pd.set_option('max_colwidth', 20)
+pd.set_option('display.expand_frame_repr', False)
+pd.set_option('display.precision', 2)# Can read in a CSV URL but uses dataplay.geom.readInGeometryData() for Geojson endpoints.
+# Otherwise this tool assumes shp or pgeojson files have geom='geometry', in_crs=2248. 
+# Depending on interactivity the values should be 
+# coerce fillna(-1321321321321325)
+# Returns # export
+class Intake:
+
+  # 1. Recursively calls self/getData until something valid is given.
+  #    Returns df or False. Calls readInGeometryData. or pulls csv directly.
+  # Returns df or False.
+  def getData(url, interactive=False):
+    escapeQuestionFlags = ["no", '', 'none']
+    if ( Intake.isPandas(url) ): return url
+    if (str(url).lower() in escapeQuestionFlags ): return False
+    if interactive: print('Getting Data From: ', url)
+    try:
+      if ([ele for ele in ['pgeojson', 'shp', 'geojson'] if(ele in url)]):
+        df = geoms.readInGeometryData(url=url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=2248, out_crs=False)
+      elif  ('csv' in url): df = pd.read_csv( url )
+      return df
+    except:
+      if interactive: return Intake.getData(input("Error: Try Again?  ( URL/ PATH or  'NO'/ <Empty> ) " ), interactive)
+      return False
+
+  # 1ai. A misnomer. Returns Bool.
+  def isPandas(df): return isinstance(df, pd.DataFrame) or isinstance(df, gpd.GeoDataFrame) or isinstance(df, tuple)
+
+
+  # a1. Used by Merge Lib. Returns valid (df, column) or (df, False) or (False, False).
+  def getAndCheck(url, col='geometry', interactive=False):
+    df = Intake.getData(url, interactive) # Returns False or df
+    if ( not Intake.isPandas(df) ):
+      if(interactive): print('No data was retrieved.', df)
+      return False, False
+    if (isinstance(col, list)):
+      for colm in col:
+        if not Intake.getAndCheckColumn(df, colm):
+          if(interactive): print('Exiting. Error on the column: ', colm)
+          return df, False
+    newcol = Intake.getAndCheckColumn(df, col, interactive) # Returns False or col
+    if (not newcol):
+      if(interactive): print('Exiting. Error on the column: ', col)
+      return df, col
+    return df, newcol
+
+  # a2. Returns Bool
+  def checkColumn(dataset, column): return {column}.issubset(dataset.columns)
+
+  # b1. Used by Merge Lib. Returns Both Datasets and Coerce Status
+  def coerce(ds1, ds2, col1, col2, interactive):
+    ds1, ldt, lIsNum = Intake.getdTypeAndFillNum(ds1, col1, interactive)
+    ds2, rdt, rIsNum  = Intake.getdTypeAndFillNum(ds2, col2, interactive)
+
+    ds2 = Intake.coerceDtypes(lIsNum, rdt, ds2, col2, interactive)
+    ds1 = Intake.coerceDtypes(rIsNum, ldt, ds1, col1, interactive)
+
+    # Return the data and the coerce status
+    return ds1, ds2, (ds1[col1].dtype == ds2[col2].dtype)
+
+   # b2. Used by Merge Lib. fills na with crazy number
+  def getdTypeAndFillNum(ds, col, interactive):
+    dt = ds[col].dtype
+    isNum = dt == 'float64' or dt == 'int64'
+    if isNum: ds[col] = ds[col].fillna(-1321321321321325)
+    return ds, dt, isNum
+
+   # b3. Used by Merge Lib.
+  def coerceDtypes(isNum, dt, ds, col, interactive):
+    if isNum and dt == 'object':
+      if(interactive): print('Converting Key from Object to Int' )
+      ds[col] = pd.to_numeric(ds[col], errors='coerce')
+      if interactive: print('Converting Key from Int to Float' )
+      ds[col] = ds[col].astype(float)
+    return ds
+
+  # a3. Returns False or col. Interactive calls self
+  def getAndCheckColumn(df, col, interactive):
+    if Intake.checkColumn(df, col) : return col
+    if (not interactive): return False
+    else:
+        print("Invalid column given: ", col);
+        print(df.columns);
+        print("Please enter a new column fom the list above.");
+        col = input("Column Name: " )
+        return Intake.getAndCheckColumn(df, col, interactive);u = Intake
+rdf = Intake.getData('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhchpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+rdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>CSA2010</th>
+      <th>hhchpov15</th>
+      <th>hhchpov16</th>
+      <th>hhchpov17</th>
+      <th>hhchpov18</th>
+      <th>hhchpov19</th>
+      <th>Shape__Area</th>
+      <th>Shape__Length</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Allendale/Irving...</td>
+      <td>38.93</td>
+      <td>34.73</td>
+      <td>32.77</td>
+      <td>35.27</td>
+      <td>32.6</td>
+      <td>6.38e+07</td>
+      <td>38770.17</td>
+      <td>POLYGON ((-76.65...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>Here we can save the data so that it may be used in later tutorials. </p>
+# string = 'test_save_data_with_geom_and_csa'
+# .to_csv(string+'.csv', encoding="utf-8", index=False, quoting=csv.QUOTE_ALL)<p>Download data by: </p>
+<ul>
+<li>Clicking the 'Files' tab in the left hand menu of this screen. Locate your file within the file explorer that appears directly under the 'Files' tab button once clicked. Right click the file in the file explorer and select the 'download' option from the dropdown.  </li>
+</ul>
+<p>You can upload this data into the next tutorial in one of two ways.</p>
+<ol>
+<li>
+</li>
+</ol>
+<ul>
+<li>uploading the saved file to google Drive and connecting to your drive path</li>
+</ul>
+<p>OR. </p>
+<ol start="2">
+<li>
+</li>
+</ol>
+<ul>
+<li>'by first downloading the dataset as directed above, and then navigating to the next tutorial. Go to their page and:</li>
+<li>Uploading data using an file 'upload' button accessible within the 'Files' tab in the left hand menu of this screen. The next tutorial will teach you how to load this data so that it may be mapped.</li>
+</ul>
+<p>Here are some examples:</p>
+<p>Using Esri and the Geoms handler directly:</p>
+import dataplay
+geoloom_gdf_url = "https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson"
+geoloom_gdf = dataplay.geoms.readInGeometryData(url=geoloom_gdf_url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=4326, out_crs=False)
+geoloom_gdf = geoloom_gdf.dropna(subset=['geometry']) 
+geoloom_gdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>ProjNm</th>
+      <th>Descript</th>
+      <th>Location</th>
+      <th>URL</th>
+      <th>Name</th>
+      <th>PhEmail</th>
+      <th>Comments</th>
+      <th>POINT_X</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>Joe</td>
+      <td>Test</td>
+      <td>123 Market Pl, B...</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-8.53e+06</td>
+      <td>4.76e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>Again but with the Intake class:</p>
+u = Intake
+Geoloom_Crowd, rcol = u.getAndCheck('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+Geoloom_Crowd.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>ProjNm</th>
+      <th>Descript</th>
+      <th>Location</th>
+      <th>URL</th>
+      <th>Name</th>
+      <th>PhEmail</th>
+      <th>Comments</th>
+      <th>POINT_X</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>Joe</td>
+      <td>Test</td>
+      <td>123 Market Pl, B...</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-8.53e+06</td>
+      <td>4.76e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>This getAndCheck function is usefull for checking for a required field.</p>
+Hhpov, rcol = u.getAndCheck('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson', 'hhpov19', True)
+Hhpov = Hhpov[['CSA2010', 'hhpov15',	'hhpov16',	'hhpov17',	'hhpov18',	'hhpov19']]
+# Hhpov.to_csv('Hhpov.csv')
+Hhpov.head()Getting Data From:  https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CSA2010</th>
+      <th>hhpov15</th>
+      <th>hhpov16</th>
+      <th>hhpov17</th>
+      <th>hhpov18</th>
+      <th>hhpov19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Allendale/Irving...</td>
+      <td>24.15</td>
+      <td>21.28</td>
+      <td>20.70</td>
+      <td>23.00</td>
+      <td>19.18</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Beechfield/Ten H...</td>
+      <td>11.17</td>
+      <td>11.59</td>
+      <td>10.47</td>
+      <td>10.90</td>
+      <td>8.82</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Belair-Edison</td>
+      <td>18.61</td>
+      <td>19.59</td>
+      <td>20.27</td>
+      <td>22.83</td>
+      <td>22.53</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Brooklyn/Curtis ...</td>
+      <td>28.36</td>
+      <td>26.33</td>
+      <td>24.21</td>
+      <td>21.54</td>
+      <td>24.60</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Canton</td>
+      <td>3.00</td>
+      <td>2.26</td>
+      <td>3.66</td>
+      <td>2.05</td>
+      <td>2.22</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>We could also retrieve from a file.</p>
+u = Intake
+# rdf = u.getData('Hhpov.csv')
+rdf.head()<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>CSA2010</th>
+      <th>hhpov15</th>
+      <th>hhpov16</th>
+      <th>hhpov17</th>
+      <th>hhpov18</th>
+      <th>hhpov19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>Allendale/Irving...</td>
+      <td>24.15</td>
+      <td>21.28</td>
+      <td>20.70</td>
+      <td>23.00</td>
+      <td>19.18</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Beechfield/Ten H...</td>
+      <td>11.17</td>
+      <td>11.59</td>
+      <td>10.47</td>
+      <td>10.90</td>
+      <td>8.82</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Belair-Edison</td>
+      <td>18.61</td>
+      <td>19.59</td>
+      <td>20.27</td>
+      <td>22.83</td>
+      <td>22.53</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>Brooklyn/Curtis ...</td>
+      <td>28.36</td>
+      <td>26.33</td>
+      <td>24.21</td>
+      <td>21.54</td>
+      <td>24.60</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>Canton</td>
+      <td>3.00</td>
+      <td>2.26</td>
+      <td>3.66</td>
+      <td>2.05</td>
+      <td>2.22</td>
+    </tr>
+  </tbody>
+</table>
+</div># default_exp intaker<p>⚠️ This writing is a work in progress. The functions work. ⚠️</p>
+<p>This Coding Notebook is the <strong>1.5th</strong> in a series.</p>
+<p>An Interactive version can be found here <a href="https://colab.research.google.com/github/karpatic/dataplay/blob/master/notebooks/01_5_Explore_and_Download.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>.</p>
+<p>This colab and more can be found on our <a href="https://karpatic.github.io/dataplay/">webpage</a>. </p>
+<ul>
+<li>
+<p>Content covered in previous tutorials will be used in later tutorials. </p>
+</li>
+<li>
+<p><strong>New code and or  information <em>should</em> have explanations and or descriptions</strong> attached. </p>
+</li>
+<li>
+<p>Concepts or code covered in previous tutorials will be used without being explaining in entirety.</p>
+</li>
+<li>
+<p>The <a href="https://karpatic.github.io/dataplay/">Dataplay</a> Handbook development techniques covered in the <a href="https://karpatic.github.io/datalabs/">Datalabs</a> Guidebook</p>
+</li>
+<li>
+<p><strong>If content can not be found in the current tutorial and is not covered in previous tutorials, please let me know.</strong></p>
+</li>
+<li>
+<p>This notebook has been optimized for Google Colabs ran on a Chrome Browser. </p>
+</li>
+<li>
+<p>Statements found in the index page on view expressed, responsibility, errors and ommissions, use at risk, and licensing  extend throughout the tutorial.</p>
+</li>
+</ul>
+<p><a href="https://mybinder.org/v2/gh/karpatic/datalab/master?filepath=%2Fnotebooks%2F01_5_Explore_and_Download.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a>
+<a href="https://colab.research.google.com/github/karpatic/datalab/blob/master/notebooks/01_5_Explore_and_Download.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/colab.svg" alt="Binder" /></a>
+<a href="https://github.com/karpatic/datalab/tree/master/notebooks/01_5_Explore_and_Download.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/github.svg" alt="Binder" /></a>
+<a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love svg3" /></a></p>
+<p><a href="https://github.com/karpatic/dataplay/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/all-contributors.svg?style=flat" alt="NPM License" /></a>
+<a href="https://karpatic.github.io"><img src="http://img.shields.io/badge/Status-Active-green.svg" alt="Active" /></a>
+<a href="https://pypi.python.org/pypi/dataplay/"><img src="https://img.shields.io/pypi/pyversions/dataplay.svg" alt="Python Versions" /></a>
+<a href=""><img src="https://img.shields.io/github/last-commit/karpatic/dataplay.svg?style=flat" alt="GitHub last commit" /></a>
+<a href="http://unmaintained.tech/"><img src="http://unmaintained.tech/badge.svg" alt="No Maintenance Intended" /></a> </p>
+<p><a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/stars/karpatic/dataplay.svg?style=social&amp;label=Star" alt="GitHub stars" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/watchers/karpatic/dataplay.svg?style=social&amp;label=Watch" alt="GitHub watchers" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/forks/karpatic/dataplay.svg?style=social&amp;label=Fork" alt="GitHub forks" /></a>
+<a href="https://github.com/karpatic/dataplay"><img src="https://img.shields.io/github/followers/karpatic.svg?style=social&amp;label=Follow" alt="GitHub followers" /></a> </p>
+<p><a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20%E2%9C%A8%20colab%20by%20@bniajfi%20https://github.com/karpatic/dataplay%20%F0%9F%A4%97"><img src="https://img.shields.io/twitter/url/https/github.com/karpatic/dataplay.svg?style=social" alt="Tweet" /></a>
+<a href="https://twitter.com/bniajfi"><img src="https://img.shields.io/twitter/follow/bniajfi.svg?style=social" alt="Twitter Follow" /></a></p>
+<h2>About this Tutorial:</h2>
+<h3>Whats inside?</h3>
+<h4><strong>The Tutorial</strong></h4>
+<p>In this notebook, the basics of data-intake are introduced.</p>
+<ul>
+<li>Data will be imported using Colabs Terminal Commands then load this data into pythons pandas</li>
+<li>We will import geospatial data from Esri then load this data into geo-pandas.</li>
+<li>A variety of data formats will be imported.</li>
+</ul>
+<h4><strong>Objectives</strong></h4>
+<p>By the end of this tutorial users should have an understanding of:</p>
+<ul>
+<li>Importing data with pandas and geopandas</li>
+<li>Querying data from Esri</li>
+<li>Retrieveing data programmatically</li>
+<li>This module assumes the data needs no handling prior to intake</li>
+<li>Loading data in a variety of formats</li>
+</ul>
+<h1>Background</h1>
+<h2>Importing Data with Colabs:</h2>
+<p><strong>Instructions:</strong> Read all text and execute all code in order.  </p>
+<p><strong>How  XYZ :</strong></p>
+<ul>
+<li>TODO</li>
+</ul>
+<p>If you would like to ...</p>
+<p>For this next example to work, we will need to import hypothetical csv files</p>
+<p><strong>Try It!</strong> Go ahead and try running the cell below.</p>
+#hide
+!pip install nbdev
+from nbdev.showdoc import *<h1>Advanced</h1>
+#export 
+import geopandas as gpd
+import numpy as np
+import pandas as pd
+from dataplay import geoms# hide
+pd.set_option('max_colwidth', 20)
+pd.set_option('display.expand_frame_repr', False)
+pd.set_option('display.precision', 2)# Can read in a CSV URL but uses dataplay.geom.readInGeometryData() for Geojson endpoints.
+# Otherwise this tool assumes shp or pgeojson files have geom='geometry', in_crs=2248. 
+# Depending on interactivity the values should be 
+# coerce fillna(-1321321321321325)
+# Returns # export
+class Intake:
+
+  # 1. Recursively calls self/getData until something valid is given.
+  #    Returns df or False. Calls readInGeometryData. or pulls csv directly.
+  # Returns df or False.
+  def getData(url, interactive=False):
+    escapeQuestionFlags = ["no", '', 'none']
+    if ( Intake.isPandas(url) ): return url
+    if (str(url).lower() in escapeQuestionFlags ): return False
+    if interactive: print('Getting Data From: ', url)
+    try:
+      if ([ele for ele in ['pgeojson', 'shp', 'geojson'] if(ele in url)]):
+        df = geoms.readInGeometryData(url=url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=2248, out_crs=False)
+      elif  ('csv' in url): df = pd.read_csv( url )
+      return df
+    except:
+      if interactive: return Intake.getData(input("Error: Try Again?  ( URL/ PATH or  'NO'/ <Empty> ) " ), interactive)
+      return False
+
+  # 1ai. A misnomer. Returns Bool.
+  def isPandas(df): return isinstance(df, pd.DataFrame) or isinstance(df, gpd.GeoDataFrame) or isinstance(df, tuple)
+
+
+  # a1. Used by Merge Lib. Returns valid (df, column) or (df, False) or (False, False).
+  def getAndCheck(url, col='geometry', interactive=False):
+    df = Intake.getData(url, interactive) # Returns False or df
+    if ( not Intake.isPandas(df) ):
+      if(interactive): print('No data was retrieved.', df)
+      return False, False
+    if (isinstance(col, list)):
+      for colm in col:
+        if not Intake.getAndCheckColumn(df, colm):
+          if(interactive): print('Exiting. Error on the column: ', colm)
+          return df, False
+    newcol = Intake.getAndCheckColumn(df, col, interactive) # Returns False or col
+    if (not newcol):
+      if(interactive): print('Exiting. Error on the column: ', col)
+      return df, col
+    return df, newcol
+
+  # a2. Returns Bool
+  def checkColumn(dataset, column): return {column}.issubset(dataset.columns)
+
+  # b1. Used by Merge Lib. Returns Both Datasets and Coerce Status
+  def coerce(ds1, ds2, col1, col2, interactive):
+    ds1, ldt, lIsNum = Intake.getdTypeAndFillNum(ds1, col1, interactive)
+    ds2, rdt, rIsNum  = Intake.getdTypeAndFillNum(ds2, col2, interactive)
+
+    ds2 = Intake.coerceDtypes(lIsNum, rdt, ds2, col2, interactive)
+    ds1 = Intake.coerceDtypes(rIsNum, ldt, ds1, col1, interactive)
+
+    # Return the data and the coerce status
+    return ds1, ds2, (ds1[col1].dtype == ds2[col2].dtype)
+
+   # b2. Used by Merge Lib. fills na with crazy number
+  def getdTypeAndFillNum(ds, col, interactive):
+    dt = ds[col].dtype
+    isNum = dt == 'float64' or dt == 'int64'
+    if isNum: ds[col] = ds[col].fillna(-1321321321321325)
+    return ds, dt, isNum
+
+   # b3. Used by Merge Lib.
+  def coerceDtypes(isNum, dt, ds, col, interactive):
+    if isNum and dt == 'object':
+      if(interactive): print('Converting Key from Object to Int' )
+      ds[col] = pd.to_numeric(ds[col], errors='coerce')
+      if interactive: print('Converting Key from Int to Float' )
+      ds[col] = ds[col].astype(float)
+    return ds
+
+  # a3. Returns False or col. Interactive calls self
+  def getAndCheckColumn(df, col, interactive):
+    if Intake.checkColumn(df, col) : return col
+    if (not interactive): return False
+    else:
+        print("Invalid column given: ", col);
+        print(df.columns);
+        print("Please enter a new column fom the list above.");
+        col = input("Column Name: " )
+        return Intake.getAndCheckColumn(df, col, interactive);u = Intake
+rdf = Intake.getData('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhchpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+rdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>CSA2010</th>
+      <th>hhchpov15</th>
+      <th>hhchpov16</th>
+      <th>hhchpov17</th>
+      <th>hhchpov18</th>
+      <th>hhchpov19</th>
+      <th>Shape__Area</th>
+      <th>Shape__Length</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Allendale/Irving...</td>
+      <td>38.93</td>
+      <td>34.73</td>
+      <td>32.77</td>
+      <td>35.27</td>
+      <td>32.6</td>
+      <td>6.38e+07</td>
+      <td>38770.17</td>
+      <td>POLYGON ((-76.65...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>Here we can save the data so that it may be used in later tutorials. </p>
+# string = 'test_save_data_with_geom_and_csa'
+# .to_csv(string+'.csv', encoding="utf-8", index=False, quoting=csv.QUOTE_ALL)<p>Download data by: </p>
+<ul>
+<li>Clicking the 'Files' tab in the left hand menu of this screen. Locate your file within the file explorer that appears directly under the 'Files' tab button once clicked. Right click the file in the file explorer and select the 'download' option from the dropdown.  </li>
+</ul>
+<p>You can upload this data into the next tutorial in one of two ways.</p>
+<ol>
+<li>
+</li>
+</ol>
+<ul>
+<li>uploading the saved file to google Drive and connecting to your drive path</li>
+</ul>
+<p>OR. </p>
+<ol start="2">
+<li>
+</li>
+</ol>
+<ul>
+<li>'by first downloading the dataset as directed above, and then navigating to the next tutorial. Go to their page and:</li>
+<li>Uploading data using an file 'upload' button accessible within the 'Files' tab in the left hand menu of this screen. The next tutorial will teach you how to load this data so that it may be mapped.</li>
+</ul>
+<p>Here are some examples:</p>
+<p>Using Esri and the Geoms handler directly:</p>
+import dataplay
+geoloom_gdf_url = "https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson"
+geoloom_gdf = dataplay.geoms.readInGeometryData(url=geoloom_gdf_url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=4326, out_crs=False)
+geoloom_gdf = geoloom_gdf.dropna(subset=['geometry']) 
+geoloom_gdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>ProjNm</th>
+      <th>Descript</th>
+      <th>Location</th>
+      <th>URL</th>
+      <th>Name</th>
+      <th>PhEmail</th>
+      <th>Comments</th>
+      <th>POINT_X</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>Joe</td>
+      <td>Test</td>
+      <td>123 Market Pl, B...</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-8.53e+06</td>
+      <td>4.76e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>Again but with the Intake class:</p>
+u = Intake
+Geoloom_Crowd, rcol = u.getAndCheck('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson')
+Geoloom_Crowd.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>ProjNm</th>
+      <th>Descript</th>
+      <th>Location</th>
+      <th>URL</th>
+      <th>Name</th>
+      <th>PhEmail</th>
+      <th>Comments</th>
+      <th>POINT_X</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>Joe</td>
+      <td>Test</td>
+      <td>123 Market Pl, B...</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-8.53e+06</td>
+      <td>4.76e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>This getAndCheck function is usefull for checking for a required field.</p>
+Hhpov, rcol = u.getAndCheck('https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson', 'hhpov19', True)
+Hhpov = Hhpov[['CSA2010', 'hhpov15',	'hhpov16',	'hhpov17',	'hhpov18',	'hhpov19']]
+# Hhpov.to_csv('Hhpov.csv')
+Hhpov.head()Getting Data From:  https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Hhpov/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CSA2010</th>
+      <th>hhpov15</th>
+      <th>hhpov16</th>
+      <th>hhpov17</th>
+      <th>hhpov18</th>
+      <th>hhpov19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Allendale/Irving...</td>
+      <td>24.15</td>
+      <td>21.28</td>
+      <td>20.70</td>
+      <td>23.00</td>
+      <td>19.18</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Beechfield/Ten H...</td>
+      <td>11.17</td>
+      <td>11.59</td>
+      <td>10.47</td>
+      <td>10.90</td>
+      <td>8.82</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Belair-Edison</td>
+      <td>18.61</td>
+      <td>19.59</td>
+      <td>20.27</td>
+      <td>22.83</td>
+      <td>22.53</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Brooklyn/Curtis ...</td>
+      <td>28.36</td>
+      <td>26.33</td>
+      <td>24.21</td>
+      <td>21.54</td>
+      <td>24.60</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Canton</td>
+      <td>3.00</td>
+      <td>2.26</td>
+      <td>3.66</td>
+      <td>2.05</td>
+      <td>2.22</td>
+    </tr>
+  </tbody>
+</table>
+</div><p>We could also retrieve from a file.</p>
+u = Intake
+# rdf = u.getData('Hhpov.csv')
+rdf.head()<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Unnamed: 0</th>
+      <th>CSA2010</th>
+      <th>hhpov15</th>
+      <th>hhpov16</th>
+      <th>hhpov17</th>
+      <th>hhpov18</th>
+      <th>hhpov19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>Allendale/Irving...</td>
+      <td>24.15</td>
+      <td>21.28</td>
+      <td>20.70</td>
+      <td>23.00</td>
+      <td>19.18</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>Beechfield/Ten H...</td>
+      <td>11.17</td>
+      <td>11.59</td>
+      <td>10.47</td>
+      <td>10.90</td>
+      <td>8.82</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>Belair-Edison</td>
+      <td>18.61</td>
+      <td>19.59</td>
+      <td>20.27</td>
+      <td>22.83</td>
+      <td>22.53</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>Brooklyn/Curtis ...</td>
+      <td>28.36</td>
+      <td>26.33</td>
+      <td>24.21</td>
+      <td>21.54</td>
+      <td>24.60</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>Canton</td>
+      <td>3.00</td>
+      <td>2.26</td>
+      <td>3.66</td>
+      <td>2.05</td>
+      <td>2.22</td>
+    </tr>
+  </tbody>
+</table>
+</div>

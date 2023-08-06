@@ -1,0 +1,823 @@
+<p>The <a href="https://bnia.github.io/dataplay/">Dataplay</a> Handbook uses functions founnd in our <a href="https://bnia.github.io/datalabs/">VitalSigns</a> Module.</p>
+<img align="right" src="https://raw.githubusercontent.com/bniajfi/bniajfi/main/bnia_logo_new.png" height="160px" width="auto">
+<h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2>
+<p>This Library was made to help with data handling.</p>
+<p><strong>Included</strong></p>
+<ul>
+<li>IPYNB/ Google Colab notebooks with function creation notes and scripts.</li>
+<li>Online documentation and PyPi libraries created from the notebooks.</li>
+</ul>
+<p><a href="https://mybinder.org/v2/gh/bnia/datalab/master?filepath=%2Fnotebooks%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a>
+<a href="https://colab.research.google.com/github/bnia/datalab/blob/master/notebooks/index.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/colab.svg" alt="Binder" /></a>
+<a href="https://github.com/bnia/datalab/tree/master/notebooks/index.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/github.svg" alt="Binder" /></a>
+<a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love svg3" /></a></p>
+<p><a href="https://github.com/bnia/dataplay/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/all-contributors.svg?style=flat" alt="NPM License" /></a>
+<a href="https://bnia.github.io"><img src="http://img.shields.io/badge/Status-Active-green.svg" alt="Active" /></a>
+<a href="https://pypi.python.org/pypi/dataplay/"><img src="https://img.shields.io/pypi/pyversions/dataplay.svg" alt="Python Versions" /></a>
+<a href=""><img src="https://img.shields.io/github/last-commit/bnia/dataplay.svg?style=flat" alt="GitHub last commit" /></a>
+<a href="http://unmaintained.tech/"><img src="http://unmaintained.tech/badge.svg" alt="No Maintenance Intended" /></a> </p>
+<p><a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/stars/bnia/dataplay.svg?style=social&amp;label=Star" alt="GitHub stars" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/watchers/bnia/dataplay.svg?style=social&amp;label=Watch" alt="GitHub watchers" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/forks/bnia/dataplay.svg?style=social&amp;label=Fork" alt="GitHub forks" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/followers/bnia.svg?style=social&amp;label=Follow" alt="GitHub followers" /></a> </p>
+<p><a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20%E2%9C%A8%20colab%20by%20@bniajfi%20https://github.com/bnia/dataplay%20%F0%9F%A4%97"><img src="https://img.shields.io/twitter/url/https/github.com/bnia/dataplay.svg?style=social" alt="Tweet" /></a>
+<a href="https://twitter.com/bniajfi"><img src="https://img.shields.io/twitter/follow/bniajfi.svg?style=social" alt="Twitter Follow" /></a></p>
+<h2 align="left">Create Networks, Maps, and Gifs!</h2>
+<img src="https://bniajfi.org/images/mermaid/vitalSignsCorrelations.png" width="500px">
+<img src="https://bniajfi.org/images/mermaid/vitalSignsGif.gif" width="500px"><h2>Install</h2>
+<p>The code is on <a href="https://pypi.org/project/test-template/">PyPI</a> so you can install the scripts as a python library using the command:</p>
+<p><code>!pip install dataplay geopandas</code></p>
+<blockquote>
+<p>Important: Contributers should follow the maintanance instructions and will not need to run this step. </p>
+<p>Their modules will be retrieved from the VitalSigns-GDrive repo they have mounted into their Colabs Enviornment. </p>
+</blockquote>
+#hide
+! pip install VitalSigns geopandas #dataplay<p>Then...</p>
+<h3>Examples</h3>
+<p>Import your modules</p>
+<ol>
+<li>Import the installed module into your code:</li>
+</ol>
+<pre><code>from VitalSigns.acsDownload import retrieve_acs_data 
+</code></pre>
+<ol start="2">
+<li>use it</li>
+</ol>
+<pre><code>retrieve_acs_data(state, county, tract, tableId, year, saveAcs)
+</code></pre>
+<p>Now you could do something like merge it to another dataset! </p>
+<pre><code>from dataplay.merge import mergeDatasets
+mergeDatasets(left_ds=False, right_ds=False, crosswalk_ds=False,  use_crosswalk = True, left_col=False, right_col=False, crosswalk_left_col = False, crosswalk_right_col = False, merge_how=False, interactive=True)
+</code></pre>
+<p>You can get information on the package by using the help command.</p>
+import dataplay
+help(dataplay)Help on package dataplay:
+
+NAME
+    dataplay
+
+PACKAGE CONTENTS
+    _nbdev
+    corr
+    geoms
+    gifmap
+    html
+    intaker
+    merge
+
+VERSION
+    0.0.27
+
+FILE
+    /content/drive/My Drive/Software Development Documents/dataplay/dataplay/__init__.py
+
+
+help(dataplay.geoms)Help on module dataplay.geoms in dataplay:
+
+NAME
+    dataplay.geoms - # AUTOGENERATED! DO NOT EDIT! File to edit: notebooks/03_Map_Basics_Intake_and_Operations.ipynb (unless otherwise specified).
+
+FUNCTIONS
+    map_points(data, lat_col='POINT_Y', lon_col='POINT_X', zoom_start=11, plot_points=True, cluster_points=False, pt_radius=15, draw_heatmap=False, heat_map_weights_col=None, heat_map_weights_normalize=True, heat_map_radius=15, popup=False)
+        Creates a map given a dataframe of points. Can also produce a heatmap overlay
+        
+        Arg:
+            df: dataframe containing points to maps
+            lat_col: Column containing latitude (string)
+            lon_col: Column containing longitude (string)
+            zoom_start: Integer representing the initial zoom of the map
+            plot_points: Add points to map (boolean)
+            pt_radius: Size of each point
+            draw_heatmap: Add heatmap to map (boolean)
+            heat_map_weights_col: Column containing heatmap weights
+            heat_map_weights_normalize: Normalize heatmap weights (boolean)
+            heat_map_radius: Size of heatmap point
+        
+        Returns:
+            folium map object
+    
+    readInGeometryData(url=False, porg=False, geom=False, lat=False, lng=False, revgeocode=False, save=False, in_crs=4326, out_crs=False)
+        # reverseGeoCode, readFile, getGeoParams, main
+    
+    workWithGeometryData(method=False, df=False, polys=False, ptsCoordCol=False, polygonsCoordCol=False, polyColorCol=False, polygonsLabel='polyOnPoint', pntsClr='red', polysClr='white', interactive=False)
+        # Cell
+        #
+        # Work With Geometry Data
+        # Description: geomSummary, getPointsInPolygons, getPolygonOnPoints, mapPointsInPolygons, getCentroids
+
+DATA
+    __all__ = ['workWithGeometryData', 'map_points', 'readInGeometryData']
+    __warningregistry__ = {'version': 749, ('    You are passing non-geome...
+
+FILE
+    /content/drive/My Drive/Software Development Documents/dataplay/dataplay/geoms.py
+
+
+help(VitalSigns.acsDownload.retrieve_acs_data)Help on function retrieve_acs_data in module VitalSigns.acsDownload:
+
+retrieve_acs_data(state, county, tract, tableId, year, save)
+
+<p>So heres an example:</p>
+<p>Import your modules</p>
+%%capture 
+import pandas as pd
+from VitalSigns.acsDownload import retrieve_acs_data 
+from dataplay.geoms import workWithGeometryData
+from dataplay.geoms import map_points
+from dataplay.intaker import Intake#hide
+pd.set_option('display.max_rows', 10)
+pd.set_option('display.max_columns', 6)
+pd.set_option('display.width', 10)
+pd.set_option('max_colwidth', 20)<p>Read in some data</p>
+<p>Define our download parameters.</p>
+<p>More information on these parameters can be found in the tutorials!</p>
+tract = '*'
+county = '510'
+state = '24'
+tableId = 'B19001'
+year = '17'
+saveAcs = Falsedf = retrieve_acs_data(state, county, tract, tableId, year, saveAcs)Number of Columns 17
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>B19001_001E_Total</th>
+      <th>B19001_002E_Total_Less_than_$10,000</th>
+      <th>B19001_003E_Total_$10,000_to_$14,999</th>
+      <th>...</th>
+      <th>state</th>
+      <th>county</th>
+      <th>tract</th>
+    </tr>
+    <tr>
+      <th>NAME</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Census Tract 2710.02</th>
+      <td>1510</td>
+      <td>209</td>
+      <td>73</td>
+      <td>...</td>
+      <td>24</td>
+      <td>510</td>
+      <td>271002</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 20 columns</p>
+</div><p>Here we can import and display a dataset</p>
+<p>Now in this example we will load in a bunch of coorinates</p>
+geoloom_gdf_url = "https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson"
+geoloom_gdf = readInGeometryData(url=geoloom_gdf_url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=4326, out_crs=False)
+geoloom_gdf = geoloom_gdf.dropna(subset=['geometry'])
+# geoloom_gdf = geoloom_gdf.drop(columns=['POINT_X','POINT_Y'])
+geoloom_gdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>...</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>...</td>
+      <td>4.762932e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 14 columns</p>
+</div>geoloom_w_csas = workWithGeometryData(method='pinp', df=geoloom_gdf, polys=csa_gdf, ptsCoordCol='geometry', polygonsCoordCol='geometry', polyColorCol='hhchpov18', polygonsLabel='CSA2010', pntsClr='red', polysClr='white')geoloom_w_csas.plot( column='pointsinpolygon', legend=True)<matplotlib.axes._subplots.AxesSubplot at 0x7f64e63f9950><Figure size 432x288 with 2 Axes>geoloom_w_csas = workWithGeometryData(method='ponp', df=geoloom_gdf, polys=csa_gdf, ptsCoordCol='geometry', polygonsCoordCol='geometry', polyColorCol='hhchpov18', polygonsLabel='CSA2010', pntsClr='red', polysClr='white')geoloom_w_csas['POINT_Y'] = geoloom_w_csas.centroid.y
+geoloom_w_csas['POINT_X'] = geoloom_w_csas.centroid.x
+
+# We already know the x and y columns because we just saved them as such.
+geoloom_w_csas['POINT_X'] = pd.to_numeric(geoloom_w_csas['POINT_X'], errors='coerce')
+geoloom_w_csas['POINT_Y'] = pd.to_numeric(geoloom_w_csas['POINT_Y'], errors='coerce')
+# df = df.replace(np.nan, 0, regex=True)
+
+# And filter out for points only in Baltimore City. 
+geoloom_w_csas = geoloom_w_csas[ geoloom_w_csas['POINT_Y'] > 39.3  ]
+geoloom_w_csas = geoloom_w_csas[ geoloom_w_csas['POINT_Y'] < 39.5  ]map_points(geoloom_w_csas, lat_col='POINT_Y', lon_col='POINT_X', zoom_start=11, plot_points=True, cluster_points=False,
+               pt_radius=1, draw_heatmap=True, heat_map_weights_col=None, heat_map_weights_normalize=True,
+               heat_map_radius=15, popup='CSA2010')<h2 align="left">Have Fun!</h2>
+<img src="https://bniajfi.org/images/mermaid/vitalSignsCorrelations.png" width="500px">
+<img src="https://bniajfi.org/images/mermaid/vitalSignsGif.gif" width="500px"><h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2>
+<h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2><p>vitalSignsCorrelations.png</p>
+<p>vitalSignsGif.gif</p>
+<h2>Legal</h2>
+<p><strong>Disclaimer</strong></p>
+<p><strong>Views Expressed</strong>:
+All views expressed in this tutorial are the authors own and do not represent the opinions of any entity whatsover with which they have been, are now, or will be affiliated.</p>
+<p><strong>Responsibility, Errors and Ommissions</strong>:
+The author makes no assurance about the reliability of the information. The author makes takes no responsibility for updating the tutorial nor maintaining it porformant status. Under no circumstances shall the Author or its affiliates be liable for any indirect incedental, consequential, or special and or exemplary damages arising out of or in connection with this tutorial. Information is provided 'as is' with distinct plausability of errors and ommitions. Information found within the contents is attached with an <strong>MIT license</strong>. Please refer to the License for more information. </p>
+<p><strong>Use at Risk</strong>:
+Any action you take upon the information on this Tutorial is strictly at your own risk, and the author will not be liable for any losses and damages in connection with the use of this tutorial and subsequent products.</p>
+<p><strong>Fair Use</strong>
+this site contains copyrighted material the use of which has not always been specifically authorized by the copyright owner. While no intention is made to unlawfully use copyrighted work, circumstanes may arise in which such material is made available in effort to advance scientific literacy. We believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Titile 17 U.S.C. Section 108, the material on this tutorial is distributed without profit to those who have expressed a prior interest in receiving the included information for research and education purposes. </p>
+<p>for more information go to: http://www.law.cornell.edu/uscode/17/107.shtml. If you wish to use copyrighted material from this site for purposes of your own that go beyond 'fair use', you must obtain permission from the copyright owner.</p>
+<p><strong>License</strong></p>
+<p>Copyright © 2019 BNIA-JFI</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<h2>FOR CONTRIBUTERS</h2>
+<h3>Dev Instructions</h3>
+<p>From a local copy of the git repo:
+0. <strong>Clone</strong> the repo local onto GDrive </p>
+<ul>
+<li>Via Direct-DL&amp;Drive-Upload or Colab/Terminal/Git</li>
+<li><code>git clone https://github.com/BNIA/dataplay.git</code></li>
+</ul>
+<ol>
+<li><strong>Update</strong> the the IPYNB </li>
+</ol>
+<ul>
+<li>From the GDrive dataplay folder via Colabs</li>
+</ul>
+<ol start="2">
+<li><strong>Build</strong> the new libraries from these NBs </li>
+</ol>
+<ul>
+<li>Using this <em>index.ipynb</em></li>
+<li>
+<ul>
+<li>Mount the Colabs Enviornment (and navigate to) the GDrive dataplay folder</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>run <code>!nbdev_build_lib</code> to build .py modules.</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li><strong>Test</strong> the Library/ Modules</li>
+</ol>
+<ul>
+<li>Using the same runtime as step 2's <em>index.ipynb</em>.</li>
+<li>
+<ul>
+<li>Do not install the module from PyPi (if published) and then...</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Import your module (
+from your dataplay/dataplay)</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>If everything runs properly, go to step 5.</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li><strong>Edit</strong> modules directly</li>
+</ol>
+<ul>
+<li>Within the same runtime as step 2/3's <em>index.ipynb</em>...</li>
+<li>
+<ul>
+<li>Locate the dataplay/dataplay using the colab file nav</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>double-click the .py modules in the file nav to open them in an in-browser editor</li>
+</ul>
+</li>
+<li>Make changes and return to step 3 with the following caveat:</li>
+<li>
+<ul>
+<li>Use the hot module reloading to ensure updates are auto-re-imported </li>
+</ul>
+</li>
+<li>
+<ul>
+<li><code>%load_ext autoreload %autoreload 2</code></li>
+</ul>
+</li>
+<li>Then when finished, persist the changes from the .py modules back to the .ipynb docs </li>
+<li>
+<ul>
+<li>via <code>!nbdev_update_lib</code> and <code>!relimport2name</code></li>
+</ul>
+</li>
+</ul>
+<ol start="5">
+<li><strong>Create</strong> Docs, <strong>Push</strong> to Github, and <strong>Publish</strong> to PyPI</li>
+</ol>
+<ul>
+<li>All done via <a href="https://nbdev.fast.ai/">nbdev</a> </li>
+<li>Find more notes I made on that here: <a href="https://github.com/bnia/dataplay">dataplay</a> &gt; nbdev <a href="https://bnia.github.io/datalabs/nbdev/index.html">notes</a> </li>
+<li><code>!nbdev_build_docs --force_all True --mk_readme True </code></li>
+<li><code>!git commit -m ...</code></li>
+<li><code>%%capture ! pip install twine</code></li>
+<li><code>!nbdev_bump_version</code></li>
+<li><code>! make pypi</code></li>
+</ul>
+# https://nbdev.fast.ai/tutorial.html#Set-up-prerequisites
+# settings.ini > requirements = fastcore>=1.0.5 torchvision<0.7
+# https://nbdev.fast.ai/tutorial.html#View-docs-locally
+# console_scripts = nbdev_build_lib=nbdev.cli:nbdev_build_lib
+# https://nbdev.fast.ai/search<h3>Dev Scripts</h3>
+#hide
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/
+%cd dataplay 
+%lsMounted at /content/drive
+/content/drive/My Drive/Software Development Documents
+/content/drive/My Drive/Software Development Documents/dataplay
+[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+#hide
+# this will reload imported modules whenever the .py file changes. 
+# whenever the .py file changes via nbdev_build_lib or _update_lib. 
+%load_ext autoreload
+%autoreload 2#hide
+# !nbdev_build_lib
+# !nbdev_build_docs --force_all True --mk_readme True
+# !nbdev_nb2md 'notebooks/index.ipynb' > README.md#hide
+# https://nbdev.fast.ai/tutorial.html#Add-in-notebook-export-cell
+# https://nbdev.fast.ai/sync#nbdev_update_lib
+# first. builds the .py files from from .ipynbs
+# ____ !nbdev_build_lib #  --fname filename.ipynb
+# second. Push .pu changes back to their original .ipynbs
+# ____ !nbdev_update_lib 
+# sometimes. Update .ipynb import statements if the .py filename.classname changes. 
+# ____ !relimport2name
+# nbdev_build_docs builds the documentation from the notebooks
+# ____ !nbdev_build_docs --force_all True --mk_readme True #hide
+"""
+! git add *
+! git config --global user.name "bnia"
+! git config --global user.email "charles.karpati@gmail.com"
+! git commit -m "initial commit"
+# git push -f origin master 
+! git push -u ORIGIN main
+"""#hide
+! pip install twine
+# ! nbdev_bump_version
+! make pypi<p>The <a href="https://bnia.github.io/dataplay/">Dataplay</a> Handbook uses functions founnd in our <a href="https://bnia.github.io/datalabs/">VitalSigns</a> Module.</p>
+<img align="right" src="https://raw.githubusercontent.com/bniajfi/bniajfi/main/bnia_logo_new.png" height="160px" width="auto">
+<h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2>
+<p>This Library was made to help with data handling.</p>
+<p><strong>Included</strong></p>
+<ul>
+<li>IPYNB/ Google Colab notebooks with function creation notes and scripts.</li>
+<li>Online documentation and PyPi libraries created from the notebooks.</li>
+</ul>
+<p><a href="https://mybinder.org/v2/gh/bnia/datalab/master?filepath=%2Fnotebooks%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Binder" /></a>
+<a href="https://colab.research.google.com/github/bnia/datalab/blob/master/notebooks/index.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/colab.svg" alt="Binder" /></a>
+<a href="https://github.com/bnia/datalab/tree/master/notebooks/index.ipynb"><img src="https://pete88b.github.io/fastpages/assets/badges/github.svg" alt="Binder" /></a>
+<a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" alt="Open Source Love svg3" /></a></p>
+<p><a href="https://github.com/bnia/dataplay/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/all-contributors.svg?style=flat" alt="NPM License" /></a>
+<a href="https://bnia.github.io"><img src="http://img.shields.io/badge/Status-Active-green.svg" alt="Active" /></a>
+<a href="https://pypi.python.org/pypi/dataplay/"><img src="https://img.shields.io/pypi/pyversions/dataplay.svg" alt="Python Versions" /></a>
+<a href=""><img src="https://img.shields.io/github/last-commit/bnia/dataplay.svg?style=flat" alt="GitHub last commit" /></a>
+<a href="http://unmaintained.tech/"><img src="http://unmaintained.tech/badge.svg" alt="No Maintenance Intended" /></a> </p>
+<p><a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/stars/bnia/dataplay.svg?style=social&amp;label=Star" alt="GitHub stars" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/watchers/bnia/dataplay.svg?style=social&amp;label=Watch" alt="GitHub watchers" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/forks/bnia/dataplay.svg?style=social&amp;label=Fork" alt="GitHub forks" /></a>
+<a href="https://github.com/bnia/dataplay"><img src="https://img.shields.io/github/followers/bnia.svg?style=social&amp;label=Follow" alt="GitHub followers" /></a> </p>
+<p><a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20%E2%9C%A8%20colab%20by%20@bniajfi%20https://github.com/bnia/dataplay%20%F0%9F%A4%97"><img src="https://img.shields.io/twitter/url/https/github.com/bnia/dataplay.svg?style=social" alt="Tweet" /></a>
+<a href="https://twitter.com/bniajfi"><img src="https://img.shields.io/twitter/follow/bniajfi.svg?style=social" alt="Twitter Follow" /></a></p>
+<h2 align="left">Create Networks, Maps, and Gifs!</h2>
+<img src="https://bniajfi.org/images/mermaid/vitalSignsCorrelations.png" width="500px">
+<img src="https://bniajfi.org/images/mermaid/vitalSignsGif.gif" width="500px"><h2>Install</h2>
+<p>The code is on <a href="https://pypi.org/project/test-template/">PyPI</a> so you can install the scripts as a python library using the command:</p>
+<p><code>!pip install dataplay geopandas</code></p>
+<blockquote>
+<p>Important: Contributers should follow the maintanance instructions and will not need to run this step. </p>
+<p>Their modules will be retrieved from the VitalSigns-GDrive repo they have mounted into their Colabs Enviornment. </p>
+</blockquote>
+#hide
+! pip install VitalSigns geopandas #dataplay<p>Then...</p>
+<h3>Examples</h3>
+<p>Import your modules</p>
+<ol>
+<li>Import the installed module into your code:</li>
+</ol>
+<pre><code>from VitalSigns.acsDownload import retrieve_acs_data 
+</code></pre>
+<ol start="2">
+<li>use it</li>
+</ol>
+<pre><code>retrieve_acs_data(state, county, tract, tableId, year, saveAcs)
+</code></pre>
+<p>Now you could do something like merge it to another dataset! </p>
+<pre><code>from dataplay.merge import mergeDatasets
+mergeDatasets(left_ds=False, right_ds=False, crosswalk_ds=False,  use_crosswalk = True, left_col=False, right_col=False, crosswalk_left_col = False, crosswalk_right_col = False, merge_how=False, interactive=True)
+</code></pre>
+<p>You can get information on the package by using the help command.</p>
+import dataplay
+help(dataplay)Help on package dataplay:
+
+NAME
+    dataplay
+
+PACKAGE CONTENTS
+    _nbdev
+    corr
+    geoms
+    gifmap
+    html
+    intaker
+    merge
+
+VERSION
+    0.0.27
+
+FILE
+    /content/drive/My Drive/Software Development Documents/dataplay/dataplay/__init__.py
+
+
+help(dataplay.geoms)Help on module dataplay.geoms in dataplay:
+
+NAME
+    dataplay.geoms - # AUTOGENERATED! DO NOT EDIT! File to edit: notebooks/03_Map_Basics_Intake_and_Operations.ipynb (unless otherwise specified).
+
+FUNCTIONS
+    map_points(data, lat_col='POINT_Y', lon_col='POINT_X', zoom_start=11, plot_points=True, cluster_points=False, pt_radius=15, draw_heatmap=False, heat_map_weights_col=None, heat_map_weights_normalize=True, heat_map_radius=15, popup=False)
+        Creates a map given a dataframe of points. Can also produce a heatmap overlay
+        
+        Arg:
+            df: dataframe containing points to maps
+            lat_col: Column containing latitude (string)
+            lon_col: Column containing longitude (string)
+            zoom_start: Integer representing the initial zoom of the map
+            plot_points: Add points to map (boolean)
+            pt_radius: Size of each point
+            draw_heatmap: Add heatmap to map (boolean)
+            heat_map_weights_col: Column containing heatmap weights
+            heat_map_weights_normalize: Normalize heatmap weights (boolean)
+            heat_map_radius: Size of heatmap point
+        
+        Returns:
+            folium map object
+    
+    readInGeometryData(url=False, porg=False, geom=False, lat=False, lng=False, revgeocode=False, save=False, in_crs=4326, out_crs=False)
+        # reverseGeoCode, readFile, getGeoParams, main
+    
+    workWithGeometryData(method=False, df=False, polys=False, ptsCoordCol=False, polygonsCoordCol=False, polyColorCol=False, polygonsLabel='polyOnPoint', pntsClr='red', polysClr='white', interactive=False)
+        # Cell
+        #
+        # Work With Geometry Data
+        # Description: geomSummary, getPointsInPolygons, getPolygonOnPoints, mapPointsInPolygons, getCentroids
+
+DATA
+    __all__ = ['workWithGeometryData', 'map_points', 'readInGeometryData']
+    __warningregistry__ = {'version': 749, ('    You are passing non-geome...
+
+FILE
+    /content/drive/My Drive/Software Development Documents/dataplay/dataplay/geoms.py
+
+
+help(VitalSigns.acsDownload.retrieve_acs_data)Help on function retrieve_acs_data in module VitalSigns.acsDownload:
+
+retrieve_acs_data(state, county, tract, tableId, year, save)
+
+<p>So heres an example:</p>
+<p>Import your modules</p>
+%%capture 
+import pandas as pd
+from VitalSigns.acsDownload import retrieve_acs_data 
+from dataplay.geoms import workWithGeometryData
+from dataplay.geoms import map_points
+from dataplay.intaker import Intake#hide
+pd.set_option('display.max_rows', 10)
+pd.set_option('display.max_columns', 6)
+pd.set_option('display.width', 10)
+pd.set_option('max_colwidth', 20)<p>Read in some data</p>
+<p>Define our download parameters.</p>
+<p>More information on these parameters can be found in the tutorials!</p>
+tract = '*'
+county = '510'
+state = '24'
+tableId = 'B19001'
+year = '17'
+saveAcs = Falsedf = retrieve_acs_data(state, county, tract, tableId, year, saveAcs)Number of Columns 17
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>B19001_001E_Total</th>
+      <th>B19001_002E_Total_Less_than_$10,000</th>
+      <th>B19001_003E_Total_$10,000_to_$14,999</th>
+      <th>...</th>
+      <th>state</th>
+      <th>county</th>
+      <th>tract</th>
+    </tr>
+    <tr>
+      <th>NAME</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Census Tract 2710.02</th>
+      <td>1510</td>
+      <td>209</td>
+      <td>73</td>
+      <td>...</td>
+      <td>24</td>
+      <td>510</td>
+      <td>271002</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 20 columns</p>
+</div><p>Here we can import and display a dataset</p>
+<p>Now in this example we will load in a bunch of coorinates</p>
+geoloom_gdf_url = "https://services1.arcgis.com/mVFRs7NF4iFitgbY/ArcGIS/rest/services/Geoloom_Crowd/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&f=pgeojson"
+geoloom_gdf = readInGeometryData(url=geoloom_gdf_url, porg=False, geom='geometry', lat=False, lng=False, revgeocode=False,  save=False, in_crs=4326, out_crs=False)
+geoloom_gdf = geoloom_gdf.dropna(subset=['geometry'])
+# geoloom_gdf = geoloom_gdf.drop(columns=['POINT_X','POINT_Y'])
+geoloom_gdf.head(1)<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>OBJECTID</th>
+      <th>Data_type</th>
+      <th>Attach</th>
+      <th>...</th>
+      <th>POINT_Y</th>
+      <th>GlobalID</th>
+      <th>geometry</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Artists &amp; Resources</td>
+      <td>None</td>
+      <td>...</td>
+      <td>4.762932e+06</td>
+      <td>e59b4931-e0c8-4d...</td>
+      <td>POINT (-76.60661...</td>
+    </tr>
+  </tbody>
+</table>
+<p>1 rows × 14 columns</p>
+</div>geoloom_w_csas = workWithGeometryData(method='pinp', df=geoloom_gdf, polys=csa_gdf, ptsCoordCol='geometry', polygonsCoordCol='geometry', polyColorCol='hhchpov18', polygonsLabel='CSA2010', pntsClr='red', polysClr='white')geoloom_w_csas.plot( column='pointsinpolygon', legend=True)<matplotlib.axes._subplots.AxesSubplot at 0x7f64e63f9950><Figure size 432x288 with 2 Axes>geoloom_w_csas = workWithGeometryData(method='ponp', df=geoloom_gdf, polys=csa_gdf, ptsCoordCol='geometry', polygonsCoordCol='geometry', polyColorCol='hhchpov18', polygonsLabel='CSA2010', pntsClr='red', polysClr='white')geoloom_w_csas['POINT_Y'] = geoloom_w_csas.centroid.y
+geoloom_w_csas['POINT_X'] = geoloom_w_csas.centroid.x
+
+# We already know the x and y columns because we just saved them as such.
+geoloom_w_csas['POINT_X'] = pd.to_numeric(geoloom_w_csas['POINT_X'], errors='coerce')
+geoloom_w_csas['POINT_Y'] = pd.to_numeric(geoloom_w_csas['POINT_Y'], errors='coerce')
+# df = df.replace(np.nan, 0, regex=True)
+
+# And filter out for points only in Baltimore City. 
+geoloom_w_csas = geoloom_w_csas[ geoloom_w_csas['POINT_Y'] > 39.3  ]
+geoloom_w_csas = geoloom_w_csas[ geoloom_w_csas['POINT_Y'] < 39.5  ]map_points(geoloom_w_csas, lat_col='POINT_Y', lon_col='POINT_X', zoom_start=11, plot_points=True, cluster_points=False,
+               pt_radius=1, draw_heatmap=True, heat_map_weights_col=None, heat_map_weights_normalize=True,
+               heat_map_radius=15, popup='CSA2010')<h2 align="left">Have Fun!</h2>
+<img src="https://bniajfi.org/images/mermaid/vitalSignsCorrelations.png" width="500px">
+<img src="https://bniajfi.org/images/mermaid/vitalSignsGif.gif" width="500px"><h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2>
+<h2 align="left"><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="30px">Hi! We are <a href="https://bniajfi.org/">BNIA-JFI</a>.</h2><p>vitalSignsCorrelations.png</p>
+<p>vitalSignsGif.gif</p>
+<h2>Legal</h2>
+<p><strong>Disclaimer</strong></p>
+<p><strong>Views Expressed</strong>:
+All views expressed in this tutorial are the authors own and do not represent the opinions of any entity whatsover with which they have been, are now, or will be affiliated.</p>
+<p><strong>Responsibility, Errors and Ommissions</strong>:
+The author makes no assurance about the reliability of the information. The author makes takes no responsibility for updating the tutorial nor maintaining it porformant status. Under no circumstances shall the Author or its affiliates be liable for any indirect incedental, consequential, or special and or exemplary damages arising out of or in connection with this tutorial. Information is provided 'as is' with distinct plausability of errors and ommitions. Information found within the contents is attached with an <strong>MIT license</strong>. Please refer to the License for more information. </p>
+<p><strong>Use at Risk</strong>:
+Any action you take upon the information on this Tutorial is strictly at your own risk, and the author will not be liable for any losses and damages in connection with the use of this tutorial and subsequent products.</p>
+<p><strong>Fair Use</strong>
+this site contains copyrighted material the use of which has not always been specifically authorized by the copyright owner. While no intention is made to unlawfully use copyrighted work, circumstanes may arise in which such material is made available in effort to advance scientific literacy. We believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Titile 17 U.S.C. Section 108, the material on this tutorial is distributed without profit to those who have expressed a prior interest in receiving the included information for research and education purposes. </p>
+<p>for more information go to: http://www.law.cornell.edu/uscode/17/107.shtml. If you wish to use copyrighted material from this site for purposes of your own that go beyond 'fair use', you must obtain permission from the copyright owner.</p>
+<p><strong>License</strong></p>
+<p>Copyright © 2019 BNIA-JFI</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<h2>FOR CONTRIBUTERS</h2>
+<h3>Dev Instructions</h3>
+<p>From a local copy of the git repo:
+0. <strong>Clone</strong> the repo local onto GDrive </p>
+<ul>
+<li>Via Direct-DL&amp;Drive-Upload or Colab/Terminal/Git</li>
+<li><code>git clone https://github.com/BNIA/dataplay.git</code></li>
+</ul>
+<ol>
+<li><strong>Update</strong> the the IPYNB </li>
+</ol>
+<ul>
+<li>From the GDrive dataplay folder via Colabs</li>
+</ul>
+<ol start="2">
+<li><strong>Build</strong> the new libraries from these NBs </li>
+</ol>
+<ul>
+<li>Using this <em>index.ipynb</em></li>
+<li>
+<ul>
+<li>Mount the Colabs Enviornment (and navigate to) the GDrive dataplay folder</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>run <code>!nbdev_build_lib</code> to build .py modules.</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li><strong>Test</strong> the Library/ Modules</li>
+</ol>
+<ul>
+<li>Using the same runtime as step 2's <em>index.ipynb</em>.</li>
+<li>
+<ul>
+<li>Do not install the module from PyPi (if published) and then...</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Import your module (
+from your dataplay/dataplay)</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>If everything runs properly, go to step 5.</li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li><strong>Edit</strong> modules directly</li>
+</ol>
+<ul>
+<li>Within the same runtime as step 2/3's <em>index.ipynb</em>...</li>
+<li>
+<ul>
+<li>Locate the dataplay/dataplay using the colab file nav</li>
+</ul>
+</li>
+<li>
+<ul>
+<li>double-click the .py modules in the file nav to open them in an in-browser editor</li>
+</ul>
+</li>
+<li>Make changes and return to step 3 with the following caveat:</li>
+<li>
+<ul>
+<li>Use the hot module reloading to ensure updates are auto-re-imported </li>
+</ul>
+</li>
+<li>
+<ul>
+<li><code>%load_ext autoreload %autoreload 2</code></li>
+</ul>
+</li>
+<li>Then when finished, persist the changes from the .py modules back to the .ipynb docs </li>
+<li>
+<ul>
+<li>via <code>!nbdev_update_lib</code> and <code>!relimport2name</code></li>
+</ul>
+</li>
+</ul>
+<ol start="5">
+<li><strong>Create</strong> Docs, <strong>Push</strong> to Github, and <strong>Publish</strong> to PyPI</li>
+</ol>
+<ul>
+<li>All done via <a href="https://nbdev.fast.ai/">nbdev</a> </li>
+<li>Find more notes I made on that here: <a href="https://github.com/bnia/dataplay">dataplay</a> &gt; nbdev <a href="https://bnia.github.io/datalabs/nbdev/index.html">notes</a> </li>
+<li><code>!nbdev_build_docs --force_all True --mk_readme True </code></li>
+<li><code>!git commit -m ...</code></li>
+<li><code>%%capture ! pip install twine</code></li>
+<li><code>!nbdev_bump_version</code></li>
+<li><code>! make pypi</code></li>
+</ul>
+# https://nbdev.fast.ai/tutorial.html#Set-up-prerequisites
+# settings.ini > requirements = fastcore>=1.0.5 torchvision<0.7
+# https://nbdev.fast.ai/tutorial.html#View-docs-locally
+# console_scripts = nbdev_build_lib=nbdev.cli:nbdev_build_lib
+# https://nbdev.fast.ai/search<h3>Dev Scripts</h3>
+#hide
+!pip install nbdev
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My Drive/'Software Development Documents'/
+%cd dataplay 
+%lsMounted at /content/drive
+/content/drive/My Drive/Software Development Documents
+/content/drive/My Drive/Software Development Documents/dataplay
+[0m[01;34mbuild[0m/           [01;34mdataplay[0m/  [01;34mdocs[0m/    Makefile     [01;34mnotebooks[0m/  settings.ini
+CONTRIBUTING.md  [01;34mdist[0m/      LICENSE  MANIFEST.in  README.md   setup.py
+#hide
+# this will reload imported modules whenever the .py file changes. 
+# whenever the .py file changes via nbdev_build_lib or _update_lib. 
+%load_ext autoreload
+%autoreload 2#hide
+# !nbdev_build_lib
+# !nbdev_build_docs --force_all True --mk_readme True
+# !nbdev_nb2md 'notebooks/index.ipynb' > README.md#hide
+# https://nbdev.fast.ai/tutorial.html#Add-in-notebook-export-cell
+# https://nbdev.fast.ai/sync#nbdev_update_lib
+# first. builds the .py files from from .ipynbs
+# ____ !nbdev_build_lib #  --fname filename.ipynb
+# second. Push .pu changes back to their original .ipynbs
+# ____ !nbdev_update_lib 
+# sometimes. Update .ipynb import statements if the .py filename.classname changes. 
+# ____ !relimport2name
+# nbdev_build_docs builds the documentation from the notebooks
+# ____ !nbdev_build_docs --force_all True --mk_readme True #hide
+"""
+! git add *
+! git config --global user.name "bnia"
+! git config --global user.email "charles.karpati@gmail.com"
+! git commit -m "initial commit"
+# git push -f origin master 
+! git push -u ORIGIN main
+"""#hide
+! pip install twine
+# ! nbdev_bump_version
+! make pypi

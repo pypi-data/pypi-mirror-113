@@ -1,0 +1,9 @@
+/.idea
+/venv
+__pycache__
+/.coverage
+*.egg-info
+/dist
+/settings.ini
+/logging.ini
+/build

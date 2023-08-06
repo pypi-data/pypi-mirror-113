@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+graphmlp_flax/__init__.py
+graphmlp_flax/models.py
+graphmlp_flax.egg-info/PKG-INFO
+graphmlp_flax.egg-info/SOURCES.txt
+graphmlp_flax.egg-info/dependency_links.txt
+graphmlp_flax.egg-info/requires.txt
+graphmlp_flax.egg-info/top_level.txt
+graphmlp_flax.egg-info/zip-safe

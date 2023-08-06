@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: mlp_tracking
+Version: 0.0.1
+Summary: mlp_tracking
+Home-page: UNKNOWN
+Author: hazoth, LowinLi
+Author-email: hazoth@hotmail.com, idealway9@gmail.com
+License: UNKNOWN
+Description: # REQUIREMENTS
+        ```
+        pip install ml_platform_client>=0.3.18.5
+        pip install confluent_kafka==1.7.0
+        ```
+        # USAGE EXAMPLE
+        
+        ```python
+        from mlp_tracking import MlpTracker, PipeType, IssueModule
+        import os
+        
+        
+        # initialize 
+        tracker = MlpTracker(
+            pipe_type=PipeType.FAQ_PREDIC_PIPE.value,
+            issue_module=IssueModule.ML.value,
+            # you may get kafka_servers from environments
+            kafka_servers=os.environ.get('KAFKA_SERVERS', ''),
+            kafka_username=os.environ.get('KAFKA_USERNAME', ''),
+            kafka_password=os.environ.get('KAFKA_PASSWORD', ''),
+        )
+        
+        
+        # send event
+        tracker.send(
+            message='predict error',
+            reason='model not found',
+        )
+        ```
+        
+Keywords: kafka issue tracking
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

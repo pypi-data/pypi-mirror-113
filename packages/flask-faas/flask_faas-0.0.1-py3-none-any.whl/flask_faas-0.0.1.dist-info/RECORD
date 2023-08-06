@@ -1,0 +1,8 @@
+flask_faas/aws.py,sha256=Eu0TbAORC71bDVscjsFdKww_6Ci2sYNIeXJw_Wj907g,1509
+flask_faas/azure.py,sha256=XaL9o5I9NXSr7jzMkimncDwp6E7bmNGfVIAJ9xzppAw,152
+flask_faas/gcp.py,sha256=2P8t6qBNDV8LW-DVyp1Vh4OHZ3wKSNzdglIkqwusEbw,256
+flask_faas-0.0.1.dist-info/LICENSE.txt,sha256=UXanFuanY8WDh7P8iKjGMs7rtrGt3Ojp8K-I54hBd9g,1077
+flask_faas-0.0.1.dist-info/METADATA,sha256=euuTl_5k53POsLJlexNgv9yOoKzm3MhuJYbEpD5pn_M,3026
+flask_faas-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flask_faas-0.0.1.dist-info/top_level.txt,sha256=99wzlB-cETu863Jknm6pbdC-YGH9_bg2QlMRTpjbnJo,11
+flask_faas-0.0.1.dist-info/RECORD,,

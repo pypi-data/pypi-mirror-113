@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+call_detector/__init__.py
+call_detector/__main__.py
+call_detector/camera.py
+call_detector/microphone.py
+call_detector/publishers.py
+call_detector.egg-info/PKG-INFO
+call_detector.egg-info/SOURCES.txt
+call_detector.egg-info/dependency_links.txt
+call_detector.egg-info/entry_points.txt
+call_detector.egg-info/requires.txt
+call_detector.egg-info/top_level.txt
+call_detector.egg-info/zip-safe

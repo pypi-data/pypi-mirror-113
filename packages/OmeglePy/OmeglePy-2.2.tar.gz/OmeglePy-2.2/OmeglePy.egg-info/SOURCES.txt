@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+OmeglePy/AbstractEventHandler.py
+OmeglePy/EventHandler.py
+OmeglePy/OmegleClient.py
+OmeglePy/OmeglePy.py
+OmeglePy/ProxyChecking.py
+OmeglePy/__init__.py
+OmeglePy.egg-info/PKG-INFO
+OmeglePy.egg-info/SOURCES.txt
+OmeglePy.egg-info/dependency_links.txt
+OmeglePy.egg-info/not-zip-safe
+OmeglePy.egg-info/requires.txt
+OmeglePy.egg-info/top_level.txt

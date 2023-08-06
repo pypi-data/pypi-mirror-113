@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+DSAs.egg-info/PKG-INFO
+DSAs.egg-info/SOURCES.txt
+DSAs.egg-info/dependency_links.txt
+DSAs.egg-info/top_level.txt

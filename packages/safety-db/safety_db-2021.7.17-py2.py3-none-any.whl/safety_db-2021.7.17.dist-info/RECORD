@@ -1,0 +1,8 @@
+safety_db/__init__.py,sha256=cGRA1HrCrtPvIdLc7sC88ypY3bP6gfEjpZisYy-mgoo,568
+safety_db/insecure.json,sha256=c-5bfP5JUDHS8CN1COvpaMNAgH_pR7vDRQn0YWHRH-k,85640
+safety_db/insecure_full.json,sha256=lLvSZScdNgKfrTbIN4RzEfz8Xqs0bRD7cL-kbDfJwY4,1195610
+safety_db-2021.7.17.dist-info/LICENSE.txt,sha256=Ot_PV5yxIp7-I2WOJAdf52ofyQmwnCl3pKTD9NNJ5yo,19341
+safety_db-2021.7.17.dist-info/METADATA,sha256=IWelrtYA24W5kP4NY7aDQdW2UgTA48LjXIJqKlHIfBA,3293
+safety_db-2021.7.17.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+safety_db-2021.7.17.dist-info/top_level.txt,sha256=4AElM0wvVlRhDsd7dnhZC55rm5axjnjZ8HQCZ3G7OCg,10
+safety_db-2021.7.17.dist-info/RECORD,,

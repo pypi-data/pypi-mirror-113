@@ -1,0 +1,9 @@
+README.md
+setup.py
+bamboo-sql/__init__.py
+bamboo-sql/__main__.py
+bamboo_sql.egg-info/PKG-INFO
+bamboo_sql.egg-info/SOURCES.txt
+bamboo_sql.egg-info/dependency_links.txt
+bamboo_sql.egg-info/requires.txt
+bamboo_sql.egg-info/top_level.txt

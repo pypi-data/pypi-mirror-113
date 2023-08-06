@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: pygh
+Version: 0.1.0a1
+Summary: UNKNOWN
+Home-page: http://github.com/fourlight/pygh
+Author: Jiachen Zou
+Author-email: 873039943@QQ.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: pyecharts (==1.9.0)
+
+# pygh库介绍
+## 简介
+### 功能
+* _目前版本暂时仅有wordcloud类功能_
+### 版本更新
+#### 0.1.0α1版本（当前版本）
+* _wordcloud类的多重方法让人感到繁杂，于是我们添加了一个方法go()自动化所有操作_
+* _对于wordcloud类，我们发现冗余的代码数量太多了，绝大部分是因为count中的两个参数引起的；于是我们自动化了两个参数，让这两个参数永远为True；取而代之的是ignore参数，请在“使用方法”内查看_
+#### 0.0.1α1版本
+* _继hyc库之后，pygh库正式发布到Pypi（目前处于α测试阶段），目前有wordcloud词云类_
+
+__[点我跳转到GitHub界面哦~](http://github.com/fourlight/pygh)__
+
+## 下载方法
+```
+pip install pygh
+```
+
+## 导入方法
+### 1.
+```
+from pygh import art
+```
+### 2.
+```
+import pygh.art
+```
+
+### 3.
+```
+from pygh.art import *
+```
+
+## pygh库内部结构
+```
+pygh
+└─art
+    └─wordcloud()类
+```
+
+## 使用方法
+### wordcloud()类
+* _该class类是基于jieba库（0.42.1版本）、os库、webrrowser库、pyecharts库（1.9.0版本）衍生出的一个通过txt文件制作词云的类_
+#### 示例
+* _注：该文件是在以下目录中运行_
+```
+桌面
+ ├─xx.txt
+ └─xx.py（该文件）
+```
+先使用`from pygh.art import *`导入
+
+并使用`a = wordcloud('xx.txt')`创建对象
+
+请注意，`a = wordcloud()`的括号中填入您要绘制词云的txt文件
+```
+# 统计，ignore表示您要屏蔽的词语，初始屏蔽['我们', '你们', '他们', '就是', '不是', '什么', '虽然', '但是', '可是', '因为', '所以', '没有', '不是', '可能', '自己']，本方法自动屏蔽单个字（符）
+a.count() # ignore不填默认为空列表
+
+# 后两步分别为绘制与打开，name表示词云图标题
+a.draw(name='xxx的词云统计')
+a.open()
+```
+注：以上代码等价于`a.go('xxx的词云统计)`
+
+## 源代码
+```
+import jieba
+
+# 词云
+class wordcloud():
+    def __init__(self, txt):
+        with open(txt, 'r', encoding="utf-8") as f:
+            text = f.read()
+            self.words = jieba.lcut(text)
+
+    # 统计
+    def count(self, ignore=[]):
+        words_dict = {}
+        # 默认忽略词语
+        drop = ['我们', '你们', '他们', '就是', '不是', '什么', '虽然', '但是', '可是', '因为', '所以', '没有', '不是', '可能', '自己']
+        drop += ignore
+        for word in self.words:
+            if word not in drop and '一' not in word and len(word) > 1:
+                if word in words_dict:
+                    words_dict[word] += 1
+                else:
+                    words_dict[word] = 1
+
+        # 字典转列表
+        key = list(words_dict.keys())
+        value = list(words_dict.values())
+        self.words_list = []
+        for i in range(len(words_dict)):
+            self.words_list.append((key[i], value[i]))
+
+    # 最终绘制
+    def draw(self, name):
+        from pyecharts.charts import WordCloud
+        wordcloud = WordCloud()
+        wordcloud.add(series_name=name, data_pair=self.words_list)
+        wordcloud.render()
+
+    # 打开
+    def open(self):
+        import os, webbrowser
+        webbrowser.open('file://' + os.path.realpath('render.html'))
+
+    # 一次性操作（该操作下，忽略词语默认为空，不可更改）
+    def go(self, name):
+        self.count()
+        self.draw(name)
+        self.open()
+```
+

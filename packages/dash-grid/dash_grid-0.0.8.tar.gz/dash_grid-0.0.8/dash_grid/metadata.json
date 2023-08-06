@@ -1,0 +1,370 @@
+{
+  "src/lib/components/DashGrid.react.js": {
+    "description": "GridComponent is an dash component.\r\nIt takes a property, `id`, and children to\r\ndisplays it.",
+    "displayName": "DashGrid",
+    "methods": [
+      {
+        "name": "generateLayout",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "makeditable",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onLayoutChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "layout",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "stringifyLayout",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "onBreakpointChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "breakpoint",
+            "type": null
+          },
+          {
+            "name": "cols",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "(string) The ID used to identify this component in Dash callbacks.\r\nThe id is also used to automatically save the layout on client side."
+      },
+      "children": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "arrayOf",
+              "value": {
+                "name": "node"
+              }
+            },
+            {
+              "name": "node"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Children is a list of the elements to drag and resize on the dashboard.\r\nIt can be a list of dash Components and/or DashboardItem.",
+        "defaultValue": {
+          "value": "[]",
+          "computed": false
+        }
+      },
+      "editable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "(bool) If False, then the layout is editable in the browser.\r\nDefault value is True."
+      },
+      "position": {
+        "type": {
+          "name": "any"
+        },
+        "required": false,
+        "description": "The layout of the  components displayed inside the grid."
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "(number) width (in px).\r\nDefault value is 1200."
+      },
+      "gridCols": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "(number) number of columns in the grid layout.\r\nDefault value is 12."
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "(number) height of a row (in px).\r\nDefault value is 30."
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "(string) class passed to the react-grid-layout component",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "(dict) css style passed to the react-grid-layout component",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "autoSize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "draggableCancel": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "draggableHandle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "verticalCompact": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "compactType": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "'vertical'",
+          "computed": false
+        }
+      },
+      "margin": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "[10, 10]",
+          "computed": false
+        }
+      },
+      "containerPadding": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "[10, 10]",
+          "computed": false
+        }
+      },
+      "isDraggable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "isResizable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "isBounded": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "useCSSTransforms": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "transformScale": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "1",
+          "computed": false
+        }
+      },
+      "preventCollision": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "isDroppable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "resizeHandles": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "enum",
+            "value": [
+              {
+                "value": "'s'",
+                "computed": false
+              },
+              {
+                "value": "'w'",
+                "computed": false
+              },
+              {
+                "value": "'e'",
+                "computed": false
+              },
+              {
+                "value": "'n'",
+                "computed": false
+              },
+              {
+                "value": "'sw'",
+                "computed": false
+              },
+              {
+                "value": "'nw'",
+                "computed": false
+              },
+              {
+                "value": "'se'",
+                "computed": false
+              },
+              {
+                "value": "'ne'",
+                "computed": false
+              }
+            ]
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "['se']",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

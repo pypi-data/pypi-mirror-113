@@ -1,0 +1,10 @@
+README.md
+setup.py
+file2tree/__init__.py
+file2tree/file2tree.py
+file2tree.egg-info/PKG-INFO
+file2tree.egg-info/SOURCES.txt
+file2tree.egg-info/dependency_links.txt
+file2tree.egg-info/entry_points.txt
+file2tree.egg-info/not-zip-safe
+file2tree.egg-info/top_level.txt

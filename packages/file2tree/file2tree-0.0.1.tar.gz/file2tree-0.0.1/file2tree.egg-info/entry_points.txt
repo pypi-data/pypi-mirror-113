@@ -1,0 +1,3 @@
+[console_scripts]
+file2tree = file2tree.file2tree:main
+

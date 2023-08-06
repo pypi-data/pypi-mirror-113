@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+jsvn_qa_utils_rest/__init__.py
+jsvn_qa_utils_rest.egg-info/PKG-INFO
+jsvn_qa_utils_rest.egg-info/SOURCES.txt
+jsvn_qa_utils_rest.egg-info/dependency_links.txt
+jsvn_qa_utils_rest.egg-info/not-zip-safe
+jsvn_qa_utils_rest.egg-info/top_level.txt

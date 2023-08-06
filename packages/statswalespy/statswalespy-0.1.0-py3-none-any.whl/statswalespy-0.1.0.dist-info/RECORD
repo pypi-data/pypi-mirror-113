@@ -1,0 +1,9 @@
+statswalespy/__init__.py,sha256=NNtYg9aU88HQWXuHbqR7V00SY6cjtJ4BhSl73ioGHOs,297
+statswalespy/check_internet_connection.py,sha256=UzV3_bT0Ss2ddE8Q0sB5vF6cf4KuQ9NygPWX2wXAbd8,219
+statswalespy/download_data.py,sha256=cWgeRvJ_OlF7qoIHef51kIayuljH29D7YB8IyZexT10,4240
+statswalespy/search.py,sha256=lQIDT-0owsNax-LN1DZ7TxmwQqsy9apvrmeq_9Wjsew,1511
+statswalespy-0.1.0.dist-info/LICENSE.txt,sha256=SEjyBIXCoEmhBdwoO73SvR5pHd06y_DFbZzlfviaAaY,1081
+statswalespy-0.1.0.dist-info/METADATA,sha256=WhaBFuBapVbvMnrOXgssiRlJJ9ltc6Z5AbIK-rVFJRk,2211
+statswalespy-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+statswalespy-0.1.0.dist-info/top_level.txt,sha256=yrPNNeqy8TyV60j-x1u1w1SZTtBYRiuNGs1Pm3-hTh0,13
+statswalespy-0.1.0.dist-info/RECORD,,

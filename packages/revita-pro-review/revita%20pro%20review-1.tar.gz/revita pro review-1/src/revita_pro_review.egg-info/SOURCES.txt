@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/revita_pro_review.egg-info/PKG-INFO
+src/revita_pro_review.egg-info/SOURCES.txt
+src/revita_pro_review.egg-info/dependency_links.txt
+src/revita_pro_review.egg-info/top_level.txt

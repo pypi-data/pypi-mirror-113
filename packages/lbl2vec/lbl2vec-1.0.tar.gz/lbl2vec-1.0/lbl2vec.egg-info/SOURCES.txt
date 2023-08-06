@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./lbl2vec/__init__.py
+./lbl2vec/lbl2vec.py
+lbl2vec.egg-info/PKG-INFO
+lbl2vec.egg-info/SOURCES.txt
+lbl2vec.egg-info/dependency_links.txt
+lbl2vec.egg-info/requires.txt
+lbl2vec.egg-info/top_level.txt

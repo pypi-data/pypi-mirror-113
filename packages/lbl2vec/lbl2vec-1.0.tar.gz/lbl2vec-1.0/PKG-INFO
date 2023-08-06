@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lbl2vec
+Version: 1.0
+Summary: Lbl2Vec learns jointly embedded label, document and word vectors to retrieve documents with predefined topics from an unlabeled document corpus.
+Home-page: https://github.com/sebischair/Lbl2Vec
+Author: Tim Schopf
+Author-email: tim.schopf@tum.de
+License: BSD 3-Clause "New" or "Revised" License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+

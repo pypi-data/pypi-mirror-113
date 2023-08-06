@@ -1,0 +1,12 @@
+README.md
+setup.py
+mlxpose/__init__.py
+mlxpose/_nbdev.py
+mlxpose.egg-info/PKG-INFO
+mlxpose.egg-info/SOURCES.txt
+mlxpose.egg-info/dependency_links.txt
+mlxpose.egg-info/entry_points.txt
+mlxpose.egg-info/not-zip-safe
+mlxpose.egg-info/top_level.txt
+xpose/__init__.py
+xpose/_nbdev.py

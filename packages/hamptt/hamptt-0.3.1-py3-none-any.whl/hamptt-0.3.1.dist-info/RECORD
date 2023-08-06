@@ -1,0 +1,11 @@
+hamptt/__init__.py,sha256=ISqW9mlgD15PoW9nSUBJblW28lWtQkRMPIhL_Z-A8yc,417
+hamptt/boards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamptt/boards/abstptt.py,sha256=7J-gvW4Z7pB-HWqF86Qohfd817x2EZHA3gXkRZxhRPM,242
+hamptt/boards/btptt.py,sha256=gGrZMrQCRKAVmd9IpMOeXTSkHxKKGDArzI1wbQBelVo,1814
+hamptt/boards/gpiobtt.py,sha256=x6ynSvkWH8HCWiKkStqBMev2-wvfeaak1AqRJayl1gM,318
+hamptt/pttchooser.py,sha256=lskoST61EqvfbKVQdPPHSO0hfCj6jH0mw_0P6pJZ78w,1283
+hamptt/utils.py,sha256=L10aqkcyWk5yvF0XNuMxFoLnWFah9EjrRxhnyMHFPrA,696
+hamptt-0.3.1.dist-info/LICENSE.md,sha256=s1NH2HntgNxOT-ZHMjB-F0VUOTkmhC7gcg8pkyBBoSA,1074
+hamptt-0.3.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+hamptt-0.3.1.dist-info/METADATA,sha256=96m_zid0Slldi2Sxa-Z-MFwmZiaAoTR2PbPDI--3ryE,3169
+hamptt-0.3.1.dist-info/RECORD,,

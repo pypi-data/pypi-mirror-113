@@ -1,0 +1,10 @@
+click
+inotify
+opencv-python-headless
+pillow
+pytelegraf
+requests
+tqdm
+influxdb-client[ciso]
+b2sdk
+rawpy

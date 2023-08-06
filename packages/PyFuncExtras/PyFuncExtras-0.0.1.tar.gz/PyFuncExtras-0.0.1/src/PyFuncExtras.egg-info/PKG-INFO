@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: PyFuncExtras
+Version: 0.0.1
+Summary: extra python functions
+Home-page: https://github.com/EnderBender08/pyfextras
+Author: EnderBender
+Author-email: arjunrules55@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/EnderBender08/pyfextras/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyFExtras
+
+PyFExtras is a Python-Function-Extras package that provides you with functions that automate certain tasks such as:
+>> wiping a console screen
+>> typewriting messages
+>> waiting a duration
+>> creating custom errors
+>> creating error text
+>> printing debug text
+>> finding all indexes of item in list
+>> install and uninstalling packages
+>> and much more!
+# Commands
+
+> These are the functions provided:
+>
+>> wipe()
+>> countTo()
+>> osfind()
+>> errorCreate()
+>> install()
+>> uninstall()
+>> wait()
+>> call()
+>> findIndexes()
+>> debugPrint()
+>> failText()
+>> typewrite()
+# ToDo:
+
+> list of things to do:
+>
+>> add more functions
+>> clean up the entire README
+>> update PyPi
+

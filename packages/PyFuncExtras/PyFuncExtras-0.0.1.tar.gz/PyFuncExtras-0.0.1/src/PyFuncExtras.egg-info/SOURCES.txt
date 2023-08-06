@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PyFuncExtras.egg-info/PKG-INFO
+src/PyFuncExtras.egg-info/SOURCES.txt
+src/PyFuncExtras.egg-info/dependency_links.txt
+src/PyFuncExtras.egg-info/top_level.txt
+src/package/__init__.py
+src/package/main.py

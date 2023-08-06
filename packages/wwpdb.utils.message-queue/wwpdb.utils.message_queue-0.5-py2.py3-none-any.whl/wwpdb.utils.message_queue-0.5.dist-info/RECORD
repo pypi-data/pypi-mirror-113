@@ -1,0 +1,12 @@
+wwpdb/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+wwpdb/utils/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+wwpdb/utils/message_queue/DetachedMessageConsumerExample.py,sha256=0XzGtUVfvCV_ch3cLdcSZf2RFDxshWUV0BZeUDPHY1w,6685
+wwpdb/utils/message_queue/MessageConsumerBase.py,sha256=rFlsw1tu5wxLigBIyzA2BTaNmFL1eGf9YecQ28tVMwI,16531
+wwpdb/utils/message_queue/MessagePublisher.py,sha256=Ix9mt4q7NzWI9hSXdDwxMQ2LN7ODNZXe-qVzpFdc2Es,2593
+wwpdb/utils/message_queue/MessageQueueConnection.py,sha256=65L0hv1dwWi90q_e7M9KGA_PZM0N0HRPY90A5vVzADo,4898
+wwpdb/utils/message_queue/__init__.py,sha256=jzldHBBBMB0HYDB2on3lSnp1fWt2YSvc5ZBR4VTU-gk,153
+wwpdb.utils.message_queue-0.5.dist-info/METADATA,sha256=JZyId0KgWrCvRq5_naD-QEafBoIFX2FmrvFDyOE6HwA,939
+wwpdb.utils.message_queue-0.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+wwpdb.utils.message_queue-0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+wwpdb.utils.message_queue-0.5.dist-info/top_level.txt,sha256=VOqoBkidtXKrZLpILya7wxsJEvv6Yt6xTThKoW9TBG4,6
+wwpdb.utils.message_queue-0.5.dist-info/RECORD,,

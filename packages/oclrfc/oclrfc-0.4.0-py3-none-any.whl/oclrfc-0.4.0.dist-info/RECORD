@@ -1,0 +1,11 @@
+oclrfc/__init__.py,sha256=2herjiAtvGd8V8VBws7wVjEBD1jm2O-sGAD2Z5ySPj0,244
+oclrfc/_classifier.py,sha256=eATozihrSo7kzremONDQlVGyzMzKzkQ5zbHWwO6uCIA,7981
+oclrfc/_converter.py,sha256=4l__bRq3KjjlBlqnmSZqHerSJeMyYO5R39ICVlWqw2o,4166
+oclrfc/_feature_sets.py,sha256=qnqRKIyzHfAcPRdptUbrUA4wtX7MMffibXInWnuLHrY,2315
+oclrfc/_label_classifier.py,sha256=rjE-SCbqpvx2DMZOIgw8d73lJfzErpWMz0Qkr3psZTE,6576
+oclrfc/_utils.py,sha256=RcZTgxTGkQUslVuGbe9b_s1K7aIUL5htnacwUo9psY0,4132
+oclrfc-0.4.0.dist-info/LICENSE,sha256=XBD98bEOOVJFbig0LJ8Mm4dCNuxfPELMJWGJ36LZMLQ,1687
+oclrfc-0.4.0.dist-info/METADATA,sha256=Wtm2sgMZ8EiujMnZmxTTrm7A2LNyWTxciQkkJRQeG5w,1884
+oclrfc-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+oclrfc-0.4.0.dist-info/top_level.txt,sha256=Idi6p7cVRoneM4LE9DQMUUgj6tr8APdfpW5kv_NUluE,7
+oclrfc-0.4.0.dist-info/RECORD,,

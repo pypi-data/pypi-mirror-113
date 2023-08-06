@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PyPiDemoProject.egg-info/PKG-INFO
+src/PyPiDemoProject.egg-info/SOURCES.txt
+src/PyPiDemoProject.egg-info/dependency_links.txt
+src/PyPiDemoProject.egg-info/requires.txt
+src/PyPiDemoProject.egg-info/top_level.txt
+src/example_package/__init__.py
+src/example_package/example.py
+src/example_package/utils/__init__.py
+src/example_package/utils/str_utils.py

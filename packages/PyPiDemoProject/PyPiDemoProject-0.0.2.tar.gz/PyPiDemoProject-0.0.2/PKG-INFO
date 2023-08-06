@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: PyPiDemoProject
+Version: 0.0.2
+Summary: PyPI Demo Project
+Home-page: https://github.com/muyinliu/PyPiDemoProject
+Author: author
+Author-email: author@example.com
+License: MIT
+Description: # PyPiDemoProject
+        
+        PyPI Demo Project shows how to use PyPI
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

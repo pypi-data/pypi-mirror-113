@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dswPY
+Version: 0.0.1
+Summary: wrapper utilities
+Home-page: https://github.com/trevorlolsen/dsw
+Author: Trevor Olsen
+Author-email: <trevorlewisolsen@gmail.com>
+License: LICENSE.txt
+Description: # dswPY
+        
+        Python package for working with pyRserve & rpy2 in a research/dev environment (i.e. not for production)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+dswPY/__init__.py
+dswPY/info.py
+dswPY.egg-info/PKG-INFO
+dswPY.egg-info/SOURCES.txt
+dswPY.egg-info/dependency_links.txt
+dswPY.egg-info/top_level.txt
+dswPY/tests/__init__.py
+dswPY/tests/test_info.py

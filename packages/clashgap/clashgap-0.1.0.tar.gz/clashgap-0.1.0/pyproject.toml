@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "clashgap"
+version = "0.1.0"
+description = "A per-charecter diff/compression algorithm in python"
+license = "MIT"
+authors = ["NioGreek <GreekNio@gmail.com>"]
+readme = "README.md"
+
+homepage = "https://pypi.org/project/clashgap/"
+repository = "https://github.com/NioGreek/Clashgap"
+documentation = "https://pypi.org/project/clashgap/"
+
+keywords = ["diff"]
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+

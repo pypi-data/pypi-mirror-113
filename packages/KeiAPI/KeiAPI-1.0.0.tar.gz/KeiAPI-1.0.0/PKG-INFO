@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: KeiAPI
+Version: 1.0.0
+Summary: Kei is an unofficial, Pure Python API for gogoanime2.org. It uses BeautifulSoup4 for scraping data from the website.
+Home-page: https://github.com/onkardahale/kei
+Author: Onkar Dahale
+Author-email: dahaleonkar@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/onkardahale/kei/issues
+Description: # Kei
+        
+        **Kei** is an unofficial, Pure Python API for [gogoanime2.org](https://gogoanime2.org).\
+        It uses BeautifulSoup4 for scraping data from the website.
+        
+        ----
+        ### Features
+        - Get download link for video by passing episode_url
+        - Get working link for gogoanime (scraps Bing results)
+        - Get search results data in JSON format for:
+          - Series title
+          - Episode count of Series
+          - Series URL
+          - Cover Image URL
+        - Get info(series_title, episode_url) about all newly updated series(pagewise) in JSON
+        - Get info(series_title, series_url) about all ongoing series in JSON
+        
+        ----
+        ### Contributing
+        
+        - Fork it!
+        - Create your feature branch: `git checkout -b my-new-feature`
+        - Commit your changes: `git commit -m 'Add some feature'`
+        - Push to the branch: `git push origin my-new-feature`
+        - Submit a pull request
+        
+Keywords: api,BeautifulSoup,gogoanime,webscraper,JSON
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9.5
+Description-Content-Type: text/markdown

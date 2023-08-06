@@ -1,0 +1,3 @@
+[console_scripts]
+create_int_level = ldtk_intgrid_creator.__main__:main
+

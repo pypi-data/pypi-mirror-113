@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/renderbox.egg-info/PKG-INFO
+src/renderbox.egg-info/SOURCES.txt
+src/renderbox.egg-info/dependency_links.txt
+src/renderbox.egg-info/top_level.txt

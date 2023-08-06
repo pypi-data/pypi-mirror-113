@@ -1,0 +1,9 @@
+mldictionary/__init__.py,sha256=4-TBl8a2HYvrWaKqQEKHumgp6DBMkuTbnBP-HWoZbRw,292
+mldictionary/dictionary.py,sha256=qxWXZScx6v-6q4f_IciIXD5lQJTqjQPAGMDGcQTOuIU,2689
+mldictionary/english.py,sha256=lVEn3Y7HM_YT_MNB8fqbjKaqLGxRMQHqV72mTXVzmE4,1162
+mldictionary/portuguese.py,sha256=l7jGy0Xl1CmhG--Mm_pOO6G0yFLU1A0AaPcFPa96Rnc,1685
+mldictionary/spanish.py,sha256=xGFOIH8TjSV_BTpr0DQXgLfU2I3-u-Bn9cGEe-orKCw,873
+mldictionary-0.2.2.dist-info/LICENSE.md,sha256=EhWkApmvnmgkJb6BWv9x9ehH-STAOJmGsccx4x-smIo,1085
+mldictionary-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mldictionary-0.2.2.dist-info/METADATA,sha256=Bt_yMBohzHq9Xt3OhjEh9PY3DEUqc05WAeCb0yiIzhA,3201
+mldictionary-0.2.2.dist-info/RECORD,,

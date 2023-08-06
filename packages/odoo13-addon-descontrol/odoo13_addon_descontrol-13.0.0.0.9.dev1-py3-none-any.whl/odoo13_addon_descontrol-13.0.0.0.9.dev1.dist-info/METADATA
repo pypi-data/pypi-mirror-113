@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: odoo13-addon-descontrol
+Version: 13.0.0.0.9.dev1
+Summary: Personalització per a Descontrol SCCL
+Home-page: http://localhost
+Author: Devcontrol
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Python: >=3.5
+Requires-Dist: odoo (<13.1dev,>=13.0a)
+
+
+        Mòdul de personalització amb dependències, configuracions i productes
+    
+

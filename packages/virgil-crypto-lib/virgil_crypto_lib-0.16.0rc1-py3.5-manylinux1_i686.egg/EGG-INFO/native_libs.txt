@@ -1,0 +1,14 @@
+virgil_crypto_lib/_libs/libvsc_common.dylib
+virgil_crypto_lib/_libs/libvsc_common.so
+virgil_crypto_lib/_libs/libvsc_foundation.dylib
+virgil_crypto_lib/_libs/libvsc_foundation.so
+virgil_crypto_lib/_libs/libvsc_phe.dylib
+virgil_crypto_lib/_libs/libvsc_phe.so
+virgil_crypto_lib/_libs/libvsc_pythia.dylib
+virgil_crypto_lib/_libs/libvsc_pythia.so
+virgil_crypto_lib/_libs/libvsc_ratchet.dylib
+virgil_crypto_lib/_libs/libvsc_ratchet.so
+virgil_crypto_lib/_libs/vsc_common.dll
+virgil_crypto_lib/_libs/vsc_foundation.dll
+virgil_crypto_lib/_libs/vsc_phe.dll
+virgil_crypto_lib/_libs/vsc_ratchet.dll

@@ -1,0 +1,45 @@
+import os
+from subprocess import call
+from .arg_parser import parse_arguments
+
+
+def command_generator(account_feature_groups):
+    args = parse_arguments()
+    process_name = account_feature_groups[0][0]
+
+    account = account_feature_groups[0][1].split()
+    feature_set = account_feature_groups[1]
+
+    # construct the behave command
+    results_json = None
+    commands = []
+    for env in args.env:
+        optional_retry = f'-D retry="{args.retry}" ' if args.retry else ''
+        optional_browser = f'-D browser="{args.browser}" -D headless="{args.headless}" ' if args.browser else ''
+        tags = f'--tags="{" and ".join(args.itags)} and ({" or ".join(feature_set)}){f"".join(" and not {}".format(t) for t in args.etags)}" '
+
+        results_json = f'reports/parallel_results/{env}_process_{process_name}.json'
+        results_html = f'reports/parallel_results/{env}_process_{process_name}.html'
+
+        cmd = (
+                f'behave '
+                f'-D is_parallel="True" ' +             # parallel
+                f'-D env="{env}" ' +                    # environment
+                f'-D course="{args.course}" ' +         # course (mcat, lsat, etc)
+                optional_retry +
+                optional_browser +                      # browser (basically always chrome)
+                f'-D user="{account[0]}" ' +            # account user name
+                f'-D pass="{account[1]}" ' +            # account password
+                tags +                                  # tags (include and exclude)
+                f'-f json.pretty -o {results_json} ' +  # formatter for results
+                # f'-f html -o {results_html} ' +         # formatter for html results
+                args.dir
+        )
+        commands.append(cmd)
+
+    for command in commands:
+        print(f'\t\tProcess <{process_name}> running ...')
+        print(command, '\n')
+        # r = call(command, shell=True)
+
+    return results_json

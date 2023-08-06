@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: bpp-anubis
+Version: 0.1.0
+Summary: Framework for running bpp qa
+Home-page: https://tools.blueprintlsat.com/qa/anubis
+Author: matthew bahloul
+Author-email: matthew.bahloul@blueprintprep.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+anubis
+======
+
+.. image:: https://img.shields.io/pypi/v/anubis.svg
+    :target: https://pypi.python.org/pypi/anubis
+    :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal.png
+   :target: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal
+   :alt: Latest Travis CI build status
+
+Framework for running bpp qa
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`anubis` was written by `matthew bahloul <matthew.bahloul@blueprintprep.com>`_.
+
+

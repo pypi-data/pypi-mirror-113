@@ -1,0 +1,6 @@
+setuptools
+numpy
+scipy
+# opencv  We need opencv, but the opencv package is broken and can't be installed with pip. Install it with conda.
+bob.io.base
+bob.io.image

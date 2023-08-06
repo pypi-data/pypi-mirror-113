@@ -1,0 +1,5 @@
+setuptools
+numpy
+scipy
+bob.io.base
+bob.io.image

@@ -1,0 +1,3 @@
+include README.rst buildout.cfg COPYING version.txt requirements.txt
+recursive-include doc *.py *.rst *.png *.ico *.txt
+recursive-include bob/io/stream *.h5 *.png *.json *.npy

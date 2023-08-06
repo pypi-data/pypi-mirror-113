@@ -1,0 +1,188 @@
+{
+    "color": 
+    {
+        "array_format": 
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3,
+            "flip": ["channel"]
+        },
+        "rotation": 0,
+        "camera": "color",
+        "path": "/BASLER_BGR"
+    },
+
+    "nir_left": 
+    {
+        "array_format": 
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3
+        },
+        "rotation": 0,
+        "camera": "nir_left",
+        "path": "/BASLER_LEFT_NIR_Dark"
+    },
+
+    "nir_left_1050nm": 
+    {
+        "path": "/BASLER_LEFT_NIR_1050nm",
+        "use_config_from": "nir_left"
+    },
+
+    "nir_left_735nm": 
+    {
+        "path": "/BASLER_LEFT_NIR_735nm",
+        "use_config_from": "nir_left"
+    },
+
+    "nir_left_850nm": 
+    {
+        "path": "/BASLER_LEFT_NIR_850nm",
+        "use_config_from": "nir_left"
+    },
+
+    "nir_left_940nm": 
+    {
+        "path": "/BASLER_LEFT_NIR_940nm",
+        "use_config_from": "nir_left"
+    },
+
+    "nir_left_stereo": 
+    {
+        "path": "/BASLER_LEFT_NIR_stereo",
+        "use_config_from": "nir_left"
+    },
+
+    "nir_right": 
+    {
+        "array_format":
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3
+        },
+        "rotation": 0,
+        "camera": "nir_right",
+        "path": "/BASLER_RIGHT_NIR_Dark"
+    },
+
+    "nir_right_1050nm": 
+    {
+        "path": "/BASLER_RIGHT_NIR_1050nm",
+        "use_config_from": "nir_right"
+    },
+    "nir_right_735nm": 
+    {
+        "path": "/BASLER_RIGHT_NIR_735nm",
+        "use_config_from": "nir_right"
+    },
+
+    "nir_right_850nm": 
+    {
+        "path": "/BASLER_RIGHT_NIR_850nm",
+        "use_config_from": "nir_right"
+    },
+
+    "nir_right_940nm": 
+    {
+        "path": "/BASLER_RIGHT_NIR_940nm",
+        "use_config_from": "nir_right"
+    },
+
+    "nir_right_stereo": 
+    {
+        "path": "/BASLER_RIGHT_NIR_stereo",
+        "use_config_from": "nir_right"
+    },
+
+    "swir": 
+    {
+        "array_format":
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3
+        },
+        "rotation": 0,
+        "camera": "swir",
+        "path": "/BOBCAT_SWIR_Dark"
+    },
+
+    "swir_1050nm": 
+    {
+        "path": "/BOBCAT_SWIR_1050nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_1200nm": 
+    {
+        "path": "/BOBCAT_SWIR_1200nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_1300nm": 
+    {
+        "path": "/BOBCAT_SWIR_1300nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_1450nm": 
+    {
+        "path": "/BOBCAT_SWIR_1450nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_1550nm": 
+    {
+        "path": "/BOBCAT_SWIR_1550nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_1650nm": 
+    {
+        "path": "/BOBCAT_SWIR_1650nm",
+        "use_config_from": "swir"
+    },
+
+    "swir_940nm": 
+    {
+        "path": "/BOBCAT_SWIR_940nm",
+        "use_config_from": "swir"
+    },
+
+    "thermal": 
+    {
+        "array_format": 
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3
+        },
+        "rotation": 0,
+        "camera": "thermal",
+        "path": "/GOBI_THERMAL"
+    },
+
+    "intel_depth": 
+    {
+        "array_format": 
+        {
+            "frame": 0,
+            "channel": 1,
+            "height": 2,
+            "width": 3
+        },
+        "rotation": 0,
+        "camera": "intel_depth",
+        "path": "/REALSENSE_D415_DEPTH"
+    }
+}
+

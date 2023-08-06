@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: RsAreg
+Version: 4.80.70.13
+Summary: AREG100A automotive radar echo generator Remote-control Module
+Home-page: UNKNOWN
+Author: Rohde & Schwarz GmbH & Co. KG
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyVisa
+
+Rohde & Schwarz AREG100A automotive radar echo generator RsAreg instrument driver.
+
+Supported instruments: AREG
+
+The package is hosted here: https://pypi.org/project/RsAreg/
+
+Documentation: https://RsAreg.readthedocs.io/
+
+Examples: https://github.com/Rohde-Schwarz/Examples/
+
+----------------------------------------------------------------------------------
+
+Release Notes:
+
+Latest release notes summary: First release for FW 4.80.070
+
+Version 4.80.70.13
+
+- First release for FW 4.80.070
+
+

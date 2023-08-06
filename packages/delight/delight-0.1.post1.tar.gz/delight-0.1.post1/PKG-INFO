@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: delight
+Version: 0.1.post1
+Summary: Modular RL framework
+Home-page: UNKNOWN
+Author: delight developers
+License: MIT
+Description: # Delight: modular RL library
+        
+        ## Installation
+        
+        
+Keywords: Deep Learning,Machine Learning,Reinforcement Learning,Computer Vision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

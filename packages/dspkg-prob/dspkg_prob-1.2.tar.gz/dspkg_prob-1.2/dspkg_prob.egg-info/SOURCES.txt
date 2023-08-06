@@ -1,0 +1,10 @@
+setup.py
+dspkg_prob/Binomialdistribution.py
+dspkg_prob/Gaussiandistribution.py
+dspkg_prob/Generaldistribution.py
+dspkg_prob/__init__.py
+dspkg_prob.egg-info/PKG-INFO
+dspkg_prob.egg-info/SOURCES.txt
+dspkg_prob.egg-info/dependency_links.txt
+dspkg_prob.egg-info/not-zip-safe
+dspkg_prob.egg-info/top_level.txt

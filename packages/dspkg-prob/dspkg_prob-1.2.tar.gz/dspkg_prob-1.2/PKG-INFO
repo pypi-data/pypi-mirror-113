@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dspkg_prob
+Version: 1.2
+Summary: Gaussian and Binomial Distributions
+Home-page: UNKNOWN
+Author: Kaustubh Mishra(chromerai)
+Author-email: kaustubhmishra983@gmail.com
+License: UNKNOWN
+Description: This package is used to find the Gaussian and Binomial Distribution probabilities
+Platform: UNKNOWN

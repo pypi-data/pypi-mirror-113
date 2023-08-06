@@ -1,0 +1,9 @@
+cg_learning_client/CGLearningClient.py,sha256=c_JvQJmttWnNWVOKdIkfRKpjKIN55El3KqqxfvnbiRQ,2473
+cg_learning_client/DataSet.py,sha256=sTodhtlkMr9zPDw8rwLlv03Q_QhJ1vzIko3l1tsXBFg,6024
+cg_learning_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cg_learning_client/utils/HttpUtil.py,sha256=1pfcvmDb3fxBrsFhDoW2SXJsun1vYzcvkhNjVYTIaFM,1834
+cg_learning_client/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cg_learning_client-0.0.4.1.dist-info/METADATA,sha256=4sgLypJ6sz54g58nULrrxnIJMrgel8WZmcXcPCdmd7A,374
+cg_learning_client-0.0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cg_learning_client-0.0.4.1.dist-info/top_level.txt,sha256=NUXEQbXwnejfXz8YIjA-KFphQHOOLyx2FMn587DvcoU,19
+cg_learning_client-0.0.4.1.dist-info/RECORD,,

@@ -1,0 +1,10 @@
+pystable/__init__.py,sha256=Pchcs6jrjL2fSvBTpqW6juiwwO4MEJfUGWopYm9m7J0,24
+pystable/_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pystable/pystable.py,sha256=V2SenfiUCNvjOVaRQIXxI7QDh5cruDNbAg-xQSl_BNo,6517
+pystable/stable_dist.py,sha256=JOIWy40D91tkScZp0gqTLhyfZvrKVcOhDNNJFCcwhFY,593
+pystable/utils.py,sha256=Q6FQIiuh1DYVE25jMSy-pBAGgOQGgP_I1HE6y3L9ajI,335
+libstable.cpython-37m-darwin.so,sha256=vEdPdyk1jA8o2zStx-PqqtThQmhB_1_B5VOWXf5MVKI,91216
+pystable-0.1.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pystable-0.1.5.dist-info/WHEEL,sha256=gBa5UfYhrwFt7dNGkxMaW3D3WWLDOyjTfHsCizBoCkI,102
+pystable-0.1.5.dist-info/METADATA,sha256=whQMpCZXO4jzgQl60GnbMnK5LzqJggEG7kUM3Seii-Y,2158
+pystable-0.1.5.dist-info/RECORD,,

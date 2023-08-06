@@ -1,0 +1,16 @@
+toml_adapt/ChangeLine.py,sha256=nva57UiB9RcZGuoSFTdjN5kzO1aPESUi0ciA1madIf0,540
+toml_adapt/ManipulateToml.py,sha256=oOXgJ2_YSlCUmiFPnJP30MfP0vBkgkebQTdWb6pWk0U,2640
+toml_adapt/__init__.py,sha256=x3dSfTNsbf2ePICABYxdieJB0p9q53HRp6OSifLEWjQ,174
+toml_adapt/main.py,sha256=R85-UvJyIvqBa5o_pSC9grWUxL4gmGviXWvsYez-x-s,1369
+toml_adapt/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toml_adapt/tests/conftest.py,sha256=bJ5rf1LB-tI7LIFMTHd2ADQ_XyPeevKJ-vBm-C4L8y8,144
+toml_adapt/tests/data/pyproject.toml,sha256=HtgnUT45MrOI6NSCqQzpbeLzhZkFdu6Mblbs9z8YqO8,974
+toml_adapt/tests/data/pyproject2.toml,sha256=4xGDBOHp_sw-YDUq02qmBxofPEiGZSgsdclqwcCB2oI,975
+toml_adapt/tests/data/requirements.txt,sha256=bXbeeIS1ccoBqZCvAfwVgc2ITzbtVFl0ZwFG24KgUEQ,27
+toml_adapt/tests/test_toml.py,sha256=1VsuXmLkmtVVuSwFmlpLTT0d3YhGAp4JDjeWf9HbgK0,598
+toml_adapt/tests/test_version_change.py,sha256=Cig-7lrX9Saddn-JHcD3NZxJisd0N68T8Fc23kpe8Ak,591
+toml_adapt-0.1.4.dist-info/entry_points.txt,sha256=OPjeQgmcHXW9s5tEfvtscfn_YPHS7nJobUC2aV7ltqo,52
+toml_adapt-0.1.4.dist-info/LICENSE,sha256=ym65OjeRCuoPh3zPRTxTOL7vylPXGc5_T4z1KjZnLWo,1069
+toml_adapt-0.1.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+toml_adapt-0.1.4.dist-info/METADATA,sha256=-MPsFzhRE2RUtQOOHqqH1R2CVDix1HjczaGMSjfvNcY,283
+toml_adapt-0.1.4.dist-info/RECORD,,

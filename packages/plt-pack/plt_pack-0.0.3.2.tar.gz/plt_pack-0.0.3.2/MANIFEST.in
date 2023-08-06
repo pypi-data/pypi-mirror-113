@@ -1,0 +1,5 @@
+include requirements.txt
+include pytest.ini
+include README.md
+include .coveragerc
+include LICENSE.txt

@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+FruitScript.egg-info/PKG-INFO
+FruitScript.egg-info/SOURCES.txt
+FruitScript.egg-info/dependency_links.txt
+FruitScript.egg-info/top_level.txt
+ext/FruitScript.py
+ext/__init__.py
+ext/__main__.py
+ext/external.py
+ext/manage.py

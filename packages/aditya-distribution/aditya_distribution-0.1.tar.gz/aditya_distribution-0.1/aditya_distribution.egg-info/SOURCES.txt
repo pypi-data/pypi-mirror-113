@@ -1,0 +1,9 @@
+setup.py
+aditya_distribution/Gaussiandistribution.py
+aditya_distribution/Generaldistribution.py
+aditya_distribution/__init__.py
+aditya_distribution.egg-info/PKG-INFO
+aditya_distribution.egg-info/SOURCES.txt
+aditya_distribution.egg-info/dependency_links.txt
+aditya_distribution.egg-info/not-zip-safe
+aditya_distribution.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: DiscordEmojiHandler
+Version: 1.8
+Summary: Work with messages that contain emojis that your bot can't see? Emoji Handler will take care of the problem.
+Home-page: https://github.com/treehousekingcomic/DiscordEmojiHandler
+Author: Ali S.
+Author-email: discordemojihandler@thkc.space
+License: MIT
+Download-URL: https://github.com/treehousekingcomic/DiscordEmojiHandler/archive/v1.8.tar.gz
+Description: UNKNOWN
+Keywords: discord.py,emojis,handler
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities

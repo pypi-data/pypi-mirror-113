@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: VitalSigns
+Version: 0.0.5
+Summary: Python Scripts for BNIA-JFI's Vital Signs Data
+Home-page: https://github.com/bniajfi/VitalSigns/tree/master/
+Author: Charles Karpati
+Author-email: charles.karpati@gmail.com
+License: Apache Software License 2.0
+Keywords: Community Data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+

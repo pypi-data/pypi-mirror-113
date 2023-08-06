@@ -1,0 +1,9 @@
+sprockets_statsd/__init__.py,sha256=zqcpyVHCI32cUKitbZ4tRywUU2oGTTVlgkWT7TeQml8,74
+sprockets_statsd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sprockets_statsd/statsd.py,sha256=HHiJQIIQgR9CDUeBXjDYTQ1quR_2hhcXZOEgjyCY4bA,23002
+sprockets_statsd/tornado.py,sha256=d3eyHdbLGiZgPtc8hNr7l-t6rI6Y6wn3dZB2tubb54o,10493
+sprockets_statsd-1.0.0.dist-info/LICENSE,sha256=u_aSo64xJ-Ul1KarNryHi1Az_HQSBEivDMrgdk1Iwxs,1488
+sprockets_statsd-1.0.0.dist-info/METADATA,sha256=3OEQlffJ1Mi982t4QzAiI-OProrFfyE_b8owFPNAcNM,10412
+sprockets_statsd-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sprockets_statsd-1.0.0.dist-info/top_level.txt,sha256=0JDF9aIVFLWQeNj6SHFYJcMtjqTs0RMZWrzKUHPiEqU,17
+sprockets_statsd-1.0.0.dist-info/RECORD,,

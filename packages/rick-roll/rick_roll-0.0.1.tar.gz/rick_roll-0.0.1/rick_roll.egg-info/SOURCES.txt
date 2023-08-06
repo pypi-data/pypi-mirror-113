@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rick_roll.egg-info/PKG-INFO
+rick_roll.egg-info/SOURCES.txt
+rick_roll.egg-info/dependency_links.txt
+rick_roll.egg-info/top_level.txt

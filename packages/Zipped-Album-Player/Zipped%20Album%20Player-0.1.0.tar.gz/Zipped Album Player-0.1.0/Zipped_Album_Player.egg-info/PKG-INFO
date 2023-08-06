@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Zipped-Album-Player
+Version: 0.1.0
+Summary: Zipped Album Player (ZAP) - A simple Python-based cross-platform player for the Zipped Album format
+Home-page: https://github.com/zipped-album/zap
+Author: Florian Krause
+Author-email: florian.krause@fladd.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

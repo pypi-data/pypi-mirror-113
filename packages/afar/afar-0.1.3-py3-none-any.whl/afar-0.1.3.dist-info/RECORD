@@ -1,0 +1,11 @@
+afar/__init__.py,sha256=-tTy4W-KWf3se84NLJBPIZHbtgKGK21DIojOxX82LbM,148
+afar/_version.py,sha256=lwajL4w44I3ZumXUD2iX_PQVH5B8CkVdBAqyyG1l2Z8,497
+afar/core.py,sha256=3zoK3kIHpEUDGNdPtxwvZz5XaqWMGFNBeEX3RlHwnD8,6967
+afar/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afar/tests/test_core.py,sha256=pJYtG1YD905EMODCp3b3vn48t59OXBi_mYcoPTR8zVs,1742
+afar/tests/test_remotely.py,sha256=oYMgQK-2Tdy0lwwD3_y_RVB4gmvASMjS8bU5I-bHzRI,520
+afar-0.1.3.dist-info/LICENSE,sha256=S72P_KInKLBlWkpr933OWzdH4Ll83ac9pK4MzxwJU1c,1486
+afar-0.1.3.dist-info/METADATA,sha256=g0Ccj7Q2T0c6gQwJNA47TJWcmnrICJAA1dN4P5K6rJs,3952
+afar-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+afar-0.1.3.dist-info/top_level.txt,sha256=vlXZ38JfcQdRM8oVzAn2fz9U8V7ZL9qHTcWY-kgjiNQ,5
+afar-0.1.3.dist-info/RECORD,,

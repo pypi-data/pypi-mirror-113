@@ -1,0 +1,9 @@
+README.md
+reporter.py
+setup.py
+python_reporter.egg-info/PKG-INFO
+python_reporter.egg-info/SOURCES.txt
+python_reporter.egg-info/dependency_links.txt
+python_reporter.egg-info/entry_points.txt
+python_reporter.egg-info/requires.txt
+python_reporter.egg-info/top_level.txt

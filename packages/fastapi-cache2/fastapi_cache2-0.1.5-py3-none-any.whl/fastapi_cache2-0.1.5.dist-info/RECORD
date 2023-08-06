@@ -1,0 +1,14 @@
+LICENSE,sha256=TMAPDjOsjgibN9ihR0vkQbJjEb3Bb-A1x1tRIBUV9hc,11338
+README.md,sha256=JWBP6EkMyDjUtCKie_T5-n-VJpz7irQjovAcXfviAcU,3657
+fastapi_cache/__init__.py,sha256=bDx7AydMj8wfVLUsBYf7VTH7wCatt6-tMvDnmhwoqmk,1352
+fastapi_cache/backends/__init__.py,sha256=VpE0hZ2jXzOF3aLuajHmIrm7aiKT9A6rPGrmOd1Vfi4,534
+fastapi_cache/backends/inmemory.py,sha256=EbG6121AMWhraDzonhjjLouWSeKW53lE2CyXWdeQxuI,1518
+fastapi_cache/backends/memcached.py,sha256=pu8xaaJI4k71g0UlQMqGp3OocpQOtP-63EWq3dKxd5c,674
+fastapi_cache/backends/redis.py,sha256=FY4K-UCmyGH-kEbqg_jZkqPMoyApx51Nz1eddkFcSmI,889
+fastapi_cache/coder.py,sha256=8aefzWH5rGpnZvFH15MMZfGtBAig6DM5gsP7RSm_xdE,1802
+fastapi_cache/decorator.py,sha256=iV1xJ6w2hCFxSX5lnAi7MOTDttrp6HWsAyBmvhBi9Bs,2397
+fastapi_cache/key_builder.py,sha256=blYgbcBSiZu1wmtBGCVspjUIv6RpMGJew-XiPV7qxdo,633
+fastapi_cache2-0.1.5.dist-info/LICENSE,sha256=TMAPDjOsjgibN9ihR0vkQbJjEb3Bb-A1x1tRIBUV9hc,11338
+fastapi_cache2-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+fastapi_cache2-0.1.5.dist-info/METADATA,sha256=jZANK0aPSctZ_FcJY1acCZuS8a-0d4tXfm_aElYqdQA,4649
+fastapi_cache2-0.1.5.dist-info/RECORD,,

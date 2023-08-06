@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cck=concoursekit.concoursekit:main
+    

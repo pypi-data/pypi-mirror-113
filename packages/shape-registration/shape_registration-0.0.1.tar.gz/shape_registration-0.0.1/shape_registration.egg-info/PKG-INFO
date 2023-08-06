@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: shape-registration
+Version: 0.0.1
+Summary: Shape Fitting for medical image data
+Home-page: https://github.com/justusschock/shape_fitting_v3
+Author: Justus Schock
+Author-email: justus.schock@med.uni-duesseldorf.de
+License: UNKNOWN
+Download-URL: https://github.com/justusschock/shape_fitting_v3/archive/master.zip
+Keywords: deep learning,machine learning,pytorch,metrics,AI
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+

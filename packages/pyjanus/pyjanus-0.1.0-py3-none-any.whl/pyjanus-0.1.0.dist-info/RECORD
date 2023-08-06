@@ -1,0 +1,12 @@
+pyjanus/__init__.py,sha256=4v9XAOfntKC_OpInEgn_QzvA0SAH5YEvLa3bLPfi_nY,120
+pyjanus/client.py,sha256=ZxmV1O7Q4XMSE4zlEQ1OJcoat91P0yI9tuzmkFQ3fKU,3442
+pyjanus/handle.py,sha256=GNjU0CR5U7_ndBMNn1_imnDXF3Xk5upI2tRxfB8E2C0,605
+pyjanus/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyjanus/plugins/videoroom.py,sha256=5hDOfVTz4PFX7EAI4oZXHaU6PFIinG-PXmIh0PGiLBM,13540
+pyjanus/session.py,sha256=aYEw5cNe4uaOCgVGmM2nUw2TRkaBIQcSMFtf_gdJW0Q,2040
+pyjanus/transaction.py,sha256=wYLJAIe6U-iobgffVXXSfC3CU2X_3sWiKtTyU8Zc8To,237
+pyjanus/utils.py,sha256=Le6E_vOU5fVlNGM2EJjIdnbasnxVGYZQQqxAjMV2Hmc,444
+pyjanus-0.1.0.dist-info/LICENSE,sha256=HGkAnqXO8_KNUAczTmml3F2gv8PmNo9CWkVzQW-gnVo,1066
+pyjanus-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyjanus-0.1.0.dist-info/METADATA,sha256=vMwe3WXy3yXq9_Vdib921YHlsaokyr7mgBfNNC7vC8U,1236
+pyjanus-0.1.0.dist-info/RECORD,,

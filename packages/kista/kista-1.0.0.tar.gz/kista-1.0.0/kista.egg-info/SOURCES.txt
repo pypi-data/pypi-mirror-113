@@ -1,0 +1,8 @@
+README.md
+setup.py
+kista/__init__.py
+kista.egg-info/PKG-INFO
+kista.egg-info/SOURCES.txt
+kista.egg-info/dependency_links.txt
+kista.egg-info/not-zip-safe
+kista.egg-info/top_level.txt

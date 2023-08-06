@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "scipy_magic"
+version = "1.0.0"
+description = "SciPy Magic"
+authors = ["Pamphile Roy <roy.pamphile@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/tupui/scipy-magic"
+keywords = ["scipy", "ipython"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+scipy = "^1.7.0"
+matplotlib = "^3.4.2"
+ipython = "^7.23.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-xdist = "^2.2.1"
+pytest-cov = "^2.11.1"
+coverage = {extras = ["all"], version = "^5.5"}
+pre-commit = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--durations=10 --color=yes --code-highlight=yes -rA"
+testpaths = [
+    "tests"
+]
+
+[tool.coverage.run]
+source = ["scipy_magic"]
+
+[tool.coverage.report]
+skip_covered = true
+skip_empty = true
+
+[tool.isort]
+profile = "black"
+line_length = 79
+atomic = true
+include_trailing_comma = true
+lines_after_imports = 2
+lines_between_types = 1
+use_parentheses = true
+src_paths = ["scipy_magic", "tests"]
+filter_files = true
+known_first_party = "scipy_magic"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''

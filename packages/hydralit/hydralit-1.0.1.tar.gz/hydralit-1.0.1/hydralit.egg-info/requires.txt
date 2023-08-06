@@ -1,0 +1,7 @@
+streamlit>=0.84
+hotstepper
+altair
+pandas
+validators
+bokeh
+scipy

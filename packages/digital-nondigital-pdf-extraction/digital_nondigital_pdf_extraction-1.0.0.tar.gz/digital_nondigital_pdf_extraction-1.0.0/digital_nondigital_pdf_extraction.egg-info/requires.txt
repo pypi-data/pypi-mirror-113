@@ -1,0 +1,8 @@
+pathlib
+PyPDF2
+pdfplumber
+shutil
+fitz
+easyocr
+glob
+oswarnings

@@ -1,0 +1,6 @@
+README.md
+setup.py
+onboot.egg-info/PKG-INFO
+onboot.egg-info/SOURCES.txt
+onboot.egg-info/dependency_links.txt
+onboot.egg-info/top_level.txt

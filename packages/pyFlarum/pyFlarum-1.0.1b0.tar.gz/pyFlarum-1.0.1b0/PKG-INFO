@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyFlarum
+Version: 1.0.1b0
+Summary: An unofficial Python package for manipulating with Flarum's API
+Home-page: https://github.com/CWKevo/pyflarum
+Author: SKevo
+Author-email: me@kevo.link
+License: GPLv3
+Description: pyFlarum Python package - provides an easy access to Flarum's API.
+        
+        (c) Kevo 2021
+        
+        You are allowed to modify any parts of this program, as long as this
+        notice stays on its place, without any modifications. It is that simple
+        to support my hard work. Thank you for using this.
+        
+        - PyPi: https://pypi.org/project/pyFlarum/
+        - Official Flarum website: https://flarum.org
+        
+Keywords: Flarum,forum software,api,Flarum api,bot,userbot,database,flarum database,server,client
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

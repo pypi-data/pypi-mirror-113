@@ -1,0 +1,3 @@
+[console_scripts]
+appinspect_submit = appinspect_submit.__main__:cli
+

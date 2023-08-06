@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: primenumbersfunction
+Version: 1.0
+Summary: A tool to determine prime numbers.
+Home-page: UNKNOWN
+Author: Ana García
+Author-email: anagr.2812@gmail.com
+License: GNU GPLv3
+Keywords: prime numbers function
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+PRIME NUMBERS
+*********************
+
+En este paquete se incluye una funciÃ³n para determinar todos los nÃºmeros primos entre 1 y el nÃºmero dado como argumento.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+

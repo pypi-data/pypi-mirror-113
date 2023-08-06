@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+aletheia_dnn.egg-info/PKG-INFO
+aletheia_dnn.egg-info/SOURCES.txt
+aletheia_dnn.egg-info/dependency_links.txt
+aletheia_dnn.egg-info/not-zip-safe
+aletheia_dnn.egg-info/requires.txt
+aletheia_dnn.egg-info/top_level.txt

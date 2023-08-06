@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django_authmiddleware
+Version: 0.0.3
+Summary: Django middleware to enforce login before accessing certain URL's
+Home-page: https://github.com/AvishrantsSh/AuthRequiredMiddleware
+Author: AvishrantSh (Avishrant Sharma)
+Author-email: <avishrants@gmail.com>
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AvishrantsSh/AuthRequiredMiddleware/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AuthMiddleware
+A Django middleware to enforce login before accessing certain urls
+
+<p align="center">
+
+[![image](https://img.shields.io/pypi/v/django-authmiddleware.svg?style=for-the-badge)](https://pypi.org/project/django-authmiddleware/)
+
+[![image](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge)](https://github.com/psf/black)
+
+</p>
+
+

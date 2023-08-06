@@ -1,0 +1,10 @@
+name: nr.pylang.utils
+version: 0.1.2
+description: Package description here.
+requirements:
+- python ^3.6
+test-requirements:
+- pytest
+test-driver:
+  type: pytest
+typed: true

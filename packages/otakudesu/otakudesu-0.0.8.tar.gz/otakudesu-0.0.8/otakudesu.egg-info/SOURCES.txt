@@ -1,0 +1,11 @@
+README.md
+setup.py
+otakudesu/__init__.py
+otakudesu/__main__.py
+otakudesu/otaku.py
+otakudesu/utils.py
+otakudesu.egg-info/PKG-INFO
+otakudesu.egg-info/SOURCES.txt
+otakudesu.egg-info/dependency_links.txt
+otakudesu.egg-info/requires.txt
+otakudesu.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+spacings/__init__.py
+spacings/moran.py
+spacings/rps.py
+spacings.egg-info/PKG-INFO
+spacings.egg-info/SOURCES.txt
+spacings.egg-info/dependency_links.txt
+spacings.egg-info/not-zip-safe
+spacings.egg-info/requires.txt
+spacings.egg-info/top_level.txt
+spacings/rps_tables/RPS_norm_edge_table_fit_spline__p_to_x.csv
+spacings/rps_tables/RPS_norm_edge_table_fit_spline__x_to_p.csv

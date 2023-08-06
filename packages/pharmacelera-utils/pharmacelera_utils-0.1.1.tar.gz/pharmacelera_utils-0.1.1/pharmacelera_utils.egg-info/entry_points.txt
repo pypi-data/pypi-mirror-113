@@ -1,0 +1,3 @@
+[console_scripts]
+pharmacelera-launch = src.launch:run
+

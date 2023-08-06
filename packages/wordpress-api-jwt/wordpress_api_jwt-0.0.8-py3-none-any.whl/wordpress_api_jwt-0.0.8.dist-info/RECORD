@@ -1,0 +1,9 @@
+wpapijwt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wpapijwt/wp_api.py,sha256=qWWE0IgQK4S7mqJ7aAbsojz3d6lIUS3_1ZzzqznOSsY,3845
+wpapijwt/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wpapijwt/resources/functions.py,sha256=5xRE6FeaQ91JEiwcMoZMnEGkrEHbv73QiH8ppRT588o,277
+wordpress_api_jwt-0.0.8.dist-info/LICENSE,sha256=WOOhwprXR6Z2k8vPVpEvsoiIKCWPx0IC2PTDytzRRA8,1099
+wordpress_api_jwt-0.0.8.dist-info/METADATA,sha256=x6q5fdIx0lO5Qz-00O0ApQR-Ejwal9PrT7jL2_e3QJY,742
+wordpress_api_jwt-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wordpress_api_jwt-0.0.8.dist-info/top_level.txt,sha256=WzV_PF4ol4_uosrbGHmJPP7YEYS_3MlhIzjzFkj07W4,9
+wordpress_api_jwt-0.0.8.dist-info/RECORD,,

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dyce/__init__.py
+dyce/experimental.py
+dyce/h.py
+dyce/numtypes.py
+dyce/p.py
+dyce/plt.py
+dyce/symmetries.py
+dyce/version.py
+dycelib.egg-info/PKG-INFO
+dycelib.egg-info/SOURCES.txt
+dycelib.egg-info/dependency_links.txt
+dycelib.egg-info/requires.txt
+dycelib.egg-info/top_level.txt

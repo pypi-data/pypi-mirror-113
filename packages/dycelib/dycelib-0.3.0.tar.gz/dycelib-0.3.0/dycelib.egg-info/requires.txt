@@ -1,0 +1,13 @@
+
+[dev]
+mike
+mkdocs!=1.2
+mkdocs-exclude
+mkdocs-material
+mkdocstrings
+numpy
+pre-commit
+pytest-gitignore
+sympy
+tox
+twine

@@ -1,0 +1,81 @@
+<!-- INDEX PAGE microsip-base -->
+{% extends "main/base.html" %}
+{% block title %}
+Microsip
+{% endblock %}
+{% block js_code %}
+<script type="text/javascript">
+
+$("#enviar").click(function(e){
+
+	var email=$("#email").val();
+	var archivo=document.getElementById('archivo').title;
+	console.log(email)
+	console.log(archivo)
+	if(email =='')
+	{
+		alert("No hay correo para enviar");
+	}
+	else if(archivo=='')
+	{
+		alert("No hay archivo para enviar");
+	}
+	else
+	{
+		$.ajax({
+			url: '/enviar_llave/',
+			type: 'get',
+			data: {
+				'email': email,
+				'archivo': archivo,
+			},
+			success: function (data) {
+				if(data.bandera)
+				{
+					alert("Archivo enviado")
+				}
+			}
+		});		
+	}
+
+
+
+	});
+</script>
+{% endblock %}
+{% block content %}
+<div class="row">
+<div class="col-lg-12">
+	<h1 align="center">Entrada y salida de saldo</h1>
+	<br>
+	<br>
+</div>
+<div class="col-md-12">
+    <form method="post" class="form" action=""  enctype='multipart/form-data'>
+      {% csrf_token %}    
+      {{ form.errors }}
+      <div class="row">
+      <div class="col-lg-12">
+      	<div class="col-lg-3">{{form.tipo}}</div>
+      	<div class="col-lg-3">{{form.cliente}}</div>
+      	<div class="col-lg-3">{{form.cantidad}}</div>
+      	<button class="btn btn-success">Agregar</button>
+      </div>
+      </div>
+    </form>
+</div>
+<div class="col-lg-12">
+	{%if archivo%}
+		<div class="col-lg-3"><a href="{{MEDIA_URL}}{{archivo}}" title="{{nom_archivo}}" id="archivo" download="{{nom_archivo}}">Download Text</a></div>
+		<div class="col-lg-3"><input id="email" value="{{email}}" type="text"></><a class="btn btn-success" id="enviar" >Enviar Llave</a></div>
+	{%endif%}
+	
+</div>
+<div class="col-lg-12">
+	{%if mensaje%}
+		<h1 align="center">No hay suficiente saldo</h1>
+	{%endif%}
+	
+</div>
+</div>
+{% endblock %}

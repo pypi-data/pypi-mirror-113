@@ -1,0 +1,42 @@
+{% extends "main/base.html" %}
+{% block title %}
+CRM
+{% endblock %}
+<!-- CSS Code -->
+{% block style_css %}{% endblock %}
+{% block modulestyle_css %}
+{% endblock %}
+<!-- JavaScript Code -->
+{% block js_code %}
+
+{% endblock %}
+{% block selected_module %} Microsip {% endblock %}
+{% block breadcrumb %}
+{{ block.super }}
+<li><a>PREFERENCIAS</a></li>
+{% endblock %}
+{% block content %}
+<div class="row">
+	<br>
+	<br>
+	<div class="col-lg-12">
+	<form method="post" class="form-horizontal" action=""  enctype='multipart/form-data'>
+	  {% csrf_token %}
+	    {{ form.errors }}
+  
+	    <div class="row">
+	    	<div class="col-md-3"><label>Correo</label>{{form.email}}</div>
+	    	<div class="col-md-3"><label>Contraseña</label>{{form.password}}</div>
+	    	<div class="col-md-3"><label>Servidor de Correo</label>{{form.servidor_correo}}</div>
+	    	<div class="col-md-3"><label>Puerto</label>{{form.puerto}}</div>
+	    	
+	    </div>
+
+		<br>
+	   <div class="row">
+		<div class="col-md-3"><input type="submit" class="btn btn-primary" value="Guardar"  id="guardar" /></div>
+		</div>
+    </form>
+    </div>
+</div>
+{% endblock %}

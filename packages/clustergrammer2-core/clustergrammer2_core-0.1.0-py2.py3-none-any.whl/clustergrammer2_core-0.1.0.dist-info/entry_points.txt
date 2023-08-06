@@ -1,0 +1,3 @@
+[console_scripts]
+clustergrammer2_core = clustergrammer2_core.cli:main
+

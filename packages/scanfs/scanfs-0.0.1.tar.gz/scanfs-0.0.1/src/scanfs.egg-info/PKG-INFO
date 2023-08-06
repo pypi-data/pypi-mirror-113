@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scanfs
+Version: 0.0.1
+Summary: File system scanner in Python
+Home-page: https://github.com/cpuinfo/scanfs
+Author: CPU Info
+Author-email: cpuinfo10@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

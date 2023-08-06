@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+detect_direct_checkins.py
+setup.py
+detect_direct_checkins.egg-info/PKG-INFO
+detect_direct_checkins.egg-info/SOURCES.txt
+detect_direct_checkins.egg-info/dependency_links.txt
+detect_direct_checkins.egg-info/entry_points.txt
+detect_direct_checkins.egg-info/top_level.txt

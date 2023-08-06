@@ -1,0 +1,4 @@
+CacheControl==0.12.6
+PyJWT<2.2.0,>=1.5.2
+cryptography<3.5.0,>=3.3.2
+requests<3.0.0,>=2.8.1

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bincraft
+Version: 0.1.1_dev3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Author: Anciety <anciety@starcross.cn>, ios <ios@starcross.cn>
+Author-email: Anciety <anciety@starcross.cn>, ios <ios@starcross.cn>

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/codes/CreateBoxes.py
+src/codes/GraficPlot.py
+src/codes/ImageFilters.py
+src/codes/__init__.py
+src/giptools.egg-info/PKG-INFO
+src/giptools.egg-info/SOURCES.txt
+src/giptools.egg-info/dependency_links.txt
+src/giptools.egg-info/requires.txt
+src/giptools.egg-info/top_level.txt

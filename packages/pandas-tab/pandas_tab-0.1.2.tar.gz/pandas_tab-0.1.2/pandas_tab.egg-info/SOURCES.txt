@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pandas_tab/__init__.py
+pandas_tab/__main__.py
+pandas_tab/cli.py
+pandas_tab/core.py
+pandas_tab.egg-info/PKG-INFO
+pandas_tab.egg-info/SOURCES.txt
+pandas_tab.egg-info/dependency_links.txt
+pandas_tab.egg-info/entry_points.txt
+pandas_tab.egg-info/requires.txt
+pandas_tab.egg-info/top_level.txt
+pandas_tab/scripts/jupyter_init.py.jinja

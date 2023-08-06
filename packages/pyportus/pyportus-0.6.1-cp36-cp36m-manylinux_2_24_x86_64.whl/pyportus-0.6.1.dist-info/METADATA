@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyportus
+Version: 0.6.1
+Summary: A Congestion Control Plane
+Home-Page: https://ccp-project.github.io
+Author: Frank Cangialosi <frankc@csail.mit.edu>
+Author-email: Frank Cangialosi <frankc@csail.mit.edu>
+License: ISC
+Project-URL: Source Code, https://github.com/ccp-project/portus

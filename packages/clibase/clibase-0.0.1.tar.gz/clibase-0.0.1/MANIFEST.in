@@ -1,0 +1,4 @@
+include *.rst *.txt *.cfg *.ini *.json *.yaml
+recursive-include clibase *.ico *.png *.gif *.jpg
+recursive-include clibase *.less *.css *.js *.html *.hbs *.pt *.mak *.mako
+recursive-include clibase *.json *.yaml *.xml

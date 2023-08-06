@@ -1,0 +1,13 @@
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+VERSION.txt
+setup.cfg
+setup.py
+clibase.egg-info/PKG-INFO
+clibase.egg-info/SOURCES.txt
+clibase.egg-info/dependency_links.txt
+clibase.egg-info/entry_points.txt
+clibase.egg-info/top_level.txt
+clibase.egg-info/zip-safe

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/LivestockCV/__init__.py
+src/LivestockCV.egg-info/PKG-INFO
+src/LivestockCV.egg-info/SOURCES.txt
+src/LivestockCV.egg-info/dependency_links.txt
+src/LivestockCV.egg-info/top_level.txt
+src/LivestockCV/_core/__init__.py
+src/LivestockCV/_core/_dimensions.py
+src/LivestockCV/_core/_plot.py
+src/LivestockCV/_core/_version.py

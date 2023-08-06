@@ -1,0 +1,3 @@
+[console_scripts]
+yaag_mme = yaag_mme.cli:main
+

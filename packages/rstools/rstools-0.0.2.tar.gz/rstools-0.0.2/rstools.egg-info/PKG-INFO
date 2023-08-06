@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: rstools
+Version: 0.0.2
+Summary: RoomSage library with data science tools
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6

@@ -1,0 +1,12 @@
+pynaco/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+pynaco/naco.py,sha256=VZvzgXHHnLoAW0HJDKK-mdELq_nZMdzfJFI-wDqGMZg,10432
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/naco_test.py,sha256=jQn3J5_0msxiGxoVSZtNWmPqjV-hMlir_coaquMEzhY,3233
+tests/data/NACO.script,sha256=0sEeEKCxa9sXCSlVqVQ2bwxGml0jehEzad4eybixcOI,216781
+tests/data/NACOsimplified.check,sha256=q74Pe-VObnpFG5wLKXhXhX7IThY3Rti4Wx1WFNyAo_o,10811
+tests/data/NACOstandard.check,sha256=UkrRI6WLG1BJ41aAlos8kDlIvjy43ReGn8wjOFI_kEg,12143
+pynaco-1.0.0.dist-info/LICENSE,sha256=qLIRD00t5cGtqeAnEOpdRKGt6b430H8asU6zJxsAWOg,852
+pynaco-1.0.0.dist-info/METADATA,sha256=Zohju-icDUfY3u-vOQ7rYNp7bx-i-uwttCvfhu6hAso,1207
+pynaco-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pynaco-1.0.0.dist-info/top_level.txt,sha256=zxxBXIiVJho4aGnLRP57zjYcCmvDpl4Cx_7TnI_ecj0,13
+pynaco-1.0.0.dist-info/RECORD,,

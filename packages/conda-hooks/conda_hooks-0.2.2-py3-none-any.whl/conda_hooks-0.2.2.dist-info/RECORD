@@ -1,0 +1,9 @@
+conda_hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conda_hooks/env_store.py,sha256=Y17IZ7qilrNc1uuFwx2zs_OYG9bpg6Tca7SVkBln13o,453
+conda_hooks/env_update.py,sha256=EoXGWns1Ku9Yq8jNYa9oeXknCePicr_KNLCspkRkEYE,95
+conda_hooks/util.py,sha256=cTkmcLiz-1Jp4GdPWq0UkxgMoAR1fN0ZRGRrm5vJIwA,3637
+conda_hooks-0.2.2.dist-info/entry_points.txt,sha256=VEmWTrWZz-L1vrdSpw9bua-zMmzWeEdHfxoZycCmmEg,62
+conda_hooks-0.2.2.dist-info/LICENSE,sha256=h2O3-Aa9U52OlbhXN_LODMiJM-V0grgalhi08C4rNFM,1085
+conda_hooks-0.2.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+conda_hooks-0.2.2.dist-info/METADATA,sha256=lsRmntn82sOtbr7CRjHjI5uVoL1CkaqPAHsQrtj6Bf4,410
+conda_hooks-0.2.2.dist-info/RECORD,,

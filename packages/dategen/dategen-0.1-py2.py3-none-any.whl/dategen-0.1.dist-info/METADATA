@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: dategen
+Version: 0.1
+Summary: A datetime generator, backward from yesterday.
+Home-page: http://none
+Author: cmc2
+Author-email: changming.chen.1970@gmail.com
+Classifier: License :: OSI Approved :: MIT License

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mapexcept
+Version: 0.1.0
+Summary: Exception? Just keep mapping.
+Home-page: UNKNOWN
+Author: Perzan
+Author-email: PerzanDevelopment@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+Recommended example usage
+-------------------------
+```python
+import mapexcept
+
+for i in mapexcept(int, ['1', '53', '-42', 'a', '33'])[ValueError]:
+  print(i)
+
+# 1
+# 53
+# -42
+# 33
+```
+
+

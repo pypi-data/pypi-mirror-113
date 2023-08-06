@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cubicweb-editorjs
+Version: 0.1.2
+Summary: Add editorjs format for RichString
+Home-page: http://www.cubicweb.org/project/cubicweb-editorjs
+Author: LOGILAB S.A. (Paris, FRANCE)
+Author-email: contact@logilab.fr
+License: LGPL
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: JavaScript
+Requires-Dist: cubicweb (>=3.30.0)
+
+Summary
+-------
+Add editorjs format for RichString
+
+

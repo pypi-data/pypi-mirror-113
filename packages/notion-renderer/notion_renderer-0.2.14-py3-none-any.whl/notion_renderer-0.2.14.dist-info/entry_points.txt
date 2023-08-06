@@ -1,0 +1,3 @@
+[console_scripts]
+notion_renderer=notion_renderer.__main__:app
+

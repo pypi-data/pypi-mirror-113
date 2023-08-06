@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/NSOQCNM/TocaFita.py
+src/NSOQCNM/__init__.py
+src/TocaFita.egg-info/PKG-INFO
+src/TocaFita.egg-info/SOURCES.txt
+src/TocaFita.egg-info/dependency_links.txt
+src/TocaFita.egg-info/top_level.txt

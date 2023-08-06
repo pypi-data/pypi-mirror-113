@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autobert
+Version: 0.0.1
+Summary: AutoBert_pytorch
+Home-page: https://github.com/JunnYu/AutoBert_pytorch
+Author: Jun Yu
+Author-email: 573009727@qq.com
+License: MIT
+Keywords: autobert,pytorch
+Platform: UNKNOWN
+Requires-Dist: transformers (>=4.8.0)
+
+UNKNOWN
+
+

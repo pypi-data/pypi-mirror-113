@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: xhdata
+Version: 0.0.3
+Summary: XhData is an elegant and simple financial data interface library for Python
+Home-page: https://github.com/
+Author: xh
+Author-email: admin@xuheen.com
+License: MIT
+Keywords: stock,quant,data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: quantaxis
+Requires-Dist: akshare
+Requires-Dist: python-dotenv
+
+## Overview
+
+[xhdata](https://github.com/) requires Python(64 bit) 3.7 or greater, aims to make fetch financial data as convenient as possible.
+
+**Write less, get more!**
+
+- Documentation: [中文文档](https://akshare.readthedocs.io/zh_CN/latest/)
+
+
+

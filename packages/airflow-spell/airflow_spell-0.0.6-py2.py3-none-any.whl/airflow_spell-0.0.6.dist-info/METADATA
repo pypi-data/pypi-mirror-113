@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: airflow-spell
+Version: 0.0.6
+Summary: Apache Airflow integration for spell.run
+Home-page: UNKNOWN
+Author: Dan O'Donovan
+Author-email: dan.odonovan@healx.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: apache-airflow (<3.0,>=2.0)
+Requires-Dist: spell (<1.0,>=0.38.4)
+
+UNKNOWN
+
+

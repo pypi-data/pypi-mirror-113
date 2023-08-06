@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/QWeaver/__Init__.py
+src/QWeaver/example.py
+src/QWeaver.egg-info/PKG-INFO
+src/QWeaver.egg-info/SOURCES.txt
+src/QWeaver.egg-info/dependency_links.txt
+src/QWeaver.egg-info/top_level.txt

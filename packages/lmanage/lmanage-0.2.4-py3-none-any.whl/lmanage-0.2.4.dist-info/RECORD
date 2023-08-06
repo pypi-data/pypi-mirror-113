@@ -1,0 +1,12 @@
+lmanage/__init__.py,sha256=yxeR1qDUNgfdFKTJWEmQ08Ry-QR3D_Iow5vmaUnSwSY,598
+lmanage/cli.py,sha256=bD53S-i06BxyvbzvyaaXHku1VXYUJrbmetNJYyJd2r4,2148
+lmanage/get_content_with_views.py,sha256=uWXUfwxW9WcXTIwMu-AovN2CsT5XDIfVA3lRVkLhmOY,15569
+lmanage/utils/__init__.py,sha256=xQb1J9alwVjoewxARAMHDWrnHPyxyhyG_eQETBH-v-M,576
+lmanage/utils/create_df.py,sha256=_qmAoUVdl3fxvFsAkg1FOSxb_iF8GB7G-owf_wlpqCE,1306
+lmanage/utils/parsing_sql.py,sha256=Go4lt0EcLocum58EsZUJHLnWIw2a9izOeabCj6FpNeo,5248
+lmanage/workspace.code-workspace,sha256=MzD3NkYD3JpxhWTqmbvAdRMOxLATyY6igMON0J7gdf8,93
+lmanage-0.2.4.dist-info/entry_points.txt,sha256=bcjxX_clEVeQsZu9IpmhKusMGn3sI0MqPJK3QJwLkfE,47
+lmanage-0.2.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+lmanage-0.2.4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+lmanage-0.2.4.dist-info/METADATA,sha256=mzpP6IH-m-Czu99xvUxtyhfRifVmUXFsm49Q7Teviwc,7705
+lmanage-0.2.4.dist-info/RECORD,,

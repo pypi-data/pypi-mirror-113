@@ -1,0 +1,424 @@
+interactions:
+- request:
+    body: '{"location": "westus", "identity": {"type": "SystemAssigned"}, "properties":
+      {"containers": [{"name": "pycontainer26441510", "properties": {"image": "alpine:latest",
+      "resources": {"requests": {"memoryInGB": 1.0, "cpu": 1.0}}, "volumeMounts":
+      [{"name": "empty-volume", "mountPath": "/mnt/mydir"}], "livenessProbe": {"exec":
+      {"command": ["cat/tmp/healthy"]}, "periodSeconds": 5}}}], "restartPolicy": "OnFailure",
+      "osType": "Linux", "volumes": [{"name": "empty-volume", "emptyDir": {}}], "diagnostics":
+      {"logAnalytics": {"workspaceId": "workspaceId", "workspaceKey": "workspaceKey"}}}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '582'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510?api-version=2021-03-01
+  response:
+    body:
+      string: '{"properties":{"sku":"Standard","provisioningState":"Pending","containers":[{"name":"pycontainer26441510","properties":{"image":"alpine:latest","ports":[],"environmentVariables":[],"resources":{"requests":{"memoryInGB":1.0,"cpu":1.0}},"volumeMounts":[{"name":"empty-volume","mountPath":"/mnt/mydir"}],"livenessProbe":{"exec":{"command":["cat/tmp/healthy"]},"periodSeconds":5}}}],"initContainers":[],"restartPolicy":"OnFailure","osType":"Linux","volumes":[{"name":"empty-volume","emptyDir":{}}],"instanceView":{"events":[],"state":"Pending"},"diagnostics":{"logAnalytics":{"workspaceId":"workspaceId"}}},"identity":{"principalId":"905e647d-8bf7-4b1a-ae9b-cb62d2869d33","tenantId":"00000000-0000-0000-0000-000000000000","type":"SystemAssigned"},"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","name":"pycontainer26441510","type":"Microsoft.ContainerInstance/containerGroups","location":"westus"}'
+    headers:
+      azure-asyncoperation:
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.ContainerInstance/locations/westus/operations/2d5145b3-8b0d-48ce-8db9-645d3504448c?api-version=2018-06-01
+      cache-control:
+      - no-cache
+      content-length:
+      - '1058'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:20 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-resource-requests-pt1h:
+      - '299'
+      x-ms-ratelimit-remaining-subscription-resource-requests-pt5m:
+      - '99'
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1199'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.ContainerInstance/locations/westus/operations/2d5145b3-8b0d-48ce-8db9-645d3504448c?api-version=2018-06-01
+  response:
+    body:
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","status":"Succeeded","startTime":"2021-07-20T02:49:20.3556574Z","properties":{"events":[{"count":1,"firstTimestamp":"2021-07-20T02:49:25Z","lastTimestamp":"2021-07-20T02:49:25Z","name":"Pulling","message":"pulling
+        image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:29Z","lastTimestamp":"2021-07-20T02:49:29Z","name":"Pulled","message":"Successfully
+        pulled image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"}]}}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '781'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:50 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510?api-version=2021-03-01
+  response:
+    body:
+      string: '{"properties":{"sku":"Standard","provisioningState":"Succeeded","containers":[{"name":"pycontainer26441510","properties":{"image":"alpine:latest","ports":[],"environmentVariables":[],"instanceView":{"restartCount":0,"currentState":{"state":"Terminated","startTime":"2021-07-20T02:49:34.85Z","exitCode":0,"finishTime":"2021-07-20T02:49:35.246Z","detailStatus":"Completed"},"events":[{"count":1,"firstTimestamp":"2021-07-20T02:49:25Z","lastTimestamp":"2021-07-20T02:49:25Z","name":"Pulling","message":"pulling
+        image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:29Z","lastTimestamp":"2021-07-20T02:49:29Z","name":"Pulled","message":"Successfully
+        pulled image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:34Z","lastTimestamp":"2021-07-20T02:49:34Z","name":"Started","message":"Started
+        container","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:35Z","lastTimestamp":"2021-07-20T02:49:35Z","name":"Killing","message":"Killing
+        container with id d0d8126b64ac15ca4010fd579c4f7fc634a0063d2c9e6e7011a5cbbc0d65185f.","type":"Normal"}]},"resources":{"requests":{"memoryInGB":1.0,"cpu":1.0}},"volumeMounts":[{"name":"empty-volume","mountPath":"/mnt/mydir"}],"livenessProbe":{"exec":{"command":["cat/tmp/healthy"]},"periodSeconds":5}}}],"initContainers":[],"restartPolicy":"OnFailure","osType":"Linux","volumes":[{"name":"empty-volume","emptyDir":{}}],"instanceView":{"events":[],"state":"Succeeded"},"diagnostics":{"logAnalytics":{"workspaceId":"workspaceId"}}},"identity":{"principalId":"905e647d-8bf7-4b1a-ae9b-cb62d2869d33","tenantId":"00000000-0000-0000-0000-000000000000","type":"SystemAssigned"},"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","name":"pycontainer26441510","type":"Microsoft.ContainerInstance/containerGroups","location":"westus"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '2122'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:50 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510?api-version=2021-03-01
+  response:
+    body:
+      string: '{"properties":{"sku":"Standard","provisioningState":"Succeeded","containers":[{"name":"pycontainer26441510","properties":{"image":"alpine:latest","ports":[],"environmentVariables":[],"instanceView":{"restartCount":0,"currentState":{"state":"Terminated","startTime":"2021-07-20T02:49:34.85Z","exitCode":0,"finishTime":"2021-07-20T02:49:35.246Z","detailStatus":"Completed"},"events":[{"count":1,"firstTimestamp":"2021-07-20T02:49:25Z","lastTimestamp":"2021-07-20T02:49:25Z","name":"Pulling","message":"pulling
+        image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:29Z","lastTimestamp":"2021-07-20T02:49:29Z","name":"Pulled","message":"Successfully
+        pulled image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:34Z","lastTimestamp":"2021-07-20T02:49:34Z","name":"Started","message":"Started
+        container","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:35Z","lastTimestamp":"2021-07-20T02:49:35Z","name":"Killing","message":"Killing
+        container with id d0d8126b64ac15ca4010fd579c4f7fc634a0063d2c9e6e7011a5cbbc0d65185f.","type":"Normal"}]},"resources":{"requests":{"memoryInGB":1.0,"cpu":1.0}},"volumeMounts":[{"name":"empty-volume","mountPath":"/mnt/mydir"}],"livenessProbe":{"exec":{"command":["cat/tmp/healthy"]},"periodSeconds":5}}}],"initContainers":[],"restartPolicy":"OnFailure","osType":"Linux","volumes":[{"name":"empty-volume","emptyDir":{}}],"instanceView":{"events":[],"state":"Succeeded"},"diagnostics":{"logAnalytics":{"workspaceId":"workspaceId"}}},"identity":{"principalId":"905e647d-8bf7-4b1a-ae9b-cb62d2869d33","tenantId":"00000000-0000-0000-0000-000000000000","type":"SystemAssigned"},"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","name":"pycontainer26441510","type":"Microsoft.ContainerInstance/containerGroups","location":"westus"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '2122'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:50 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups?api-version=2021-03-01
+  response:
+    body:
+      string: '{"value":[{"properties":{"sku":"Standard","provisioningState":"Succeeded","containers":[{"name":"pycontainer26441510","properties":{"image":"alpine:latest","ports":[],"environmentVariables":[],"resources":{"requests":{"memoryInGB":1.0,"cpu":1.0}},"volumeMounts":[{"name":"empty-volume","mountPath":"/mnt/mydir"}],"livenessProbe":{"exec":{"command":["cat/tmp/healthy"]},"periodSeconds":5}}}],"initContainers":[],"restartPolicy":"OnFailure","osType":"Linux","volumes":[{"name":"empty-volume","emptyDir":{}}],"diagnostics":{"logAnalytics":{"workspaceId":"workspaceId"}}},"identity":{"principalId":"905e647d-8bf7-4b1a-ae9b-cb62d2869d33","tenantId":"00000000-0000-0000-0000-000000000000","type":"SystemAssigned"},"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","name":"pycontainer26441510","type":"Microsoft.ContainerInstance/containerGroups","location":"westus"}]}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '1025'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:50 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"command": "/bin/bash", "terminalSize": {"rows": 24, "cols": 80}}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: POST
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510/containers/pycontainer26441510/exec?api-version=2021-03-01
+  response:
+    body:
+      string: '{"webSocketUri":"wss://sbzlo7b7w3huyqy.westus.atlas.cloudapp.azure.com:19390/execstream/sessionId/0b241b8e-d45e-424b-9c1f-fdddb531fad1?api-version=1.0&rows=24&cols=80","password":"3Xm;4#d>kfyTb6QpuN-c*DYP][[EOM]]"}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '214'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:51 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1199'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510/containers/pycontainer26441510/logs?api-version=2021-03-01
+  response:
+    body:
+      string: '{"content":""}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '14'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:49:51 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+      accept-language:
+      - en-US
+    method: POST
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510/restart?api-version=2021-03-01
+  response:
+    body:
+      string: ''
+    headers:
+      azure-asyncoperation:
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.ContainerInstance/locations/westus/operations/7126f1bd-37fb-4197-9e0f-ab7c880ccd25?api-version=2018-06-01
+      cache-control:
+      - no-cache
+      date:
+      - Tue, 20 Jul 2021 02:49:52 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 204
+      message: No Content
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python/3.8.11 (Linux-5.8.0-1036-azure-x86_64-with-glibc2.2.5) msrest/0.6.21
+        VSTS_0fb41ef4-5012-48a9-bf39-4ee3de03ee35_build_2500_0 msrest_azure/0.6.4
+        azure-mgmt-containerinstance/3.0.0 Azure-SDK-For-Python
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.ContainerInstance/locations/westus/operations/7126f1bd-37fb-4197-9e0f-ab7c880ccd25?api-version=2018-06-01
+  response:
+    body:
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_containerinstance_test_container_instance26441510/providers/Microsoft.ContainerInstance/containerGroups/pycontainer26441510","status":"Succeeded","startTime":"2021-07-20T02:49:53.0794808Z","properties":{"events":[{"count":1,"firstTimestamp":"2021-07-20T02:49:25Z","lastTimestamp":"2021-07-20T02:49:25Z","name":"Pulling","message":"pulling
+        image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:29Z","lastTimestamp":"2021-07-20T02:49:29Z","name":"Pulled","message":"Successfully
+        pulled image \"alpine@sha256:1775bebec23e1f3ce486989bfc9ff3c4e951690df84aa9f926497d82f2ffca9d\"","type":"Normal"},{"count":2,"firstTimestamp":"2021-07-20T02:49:34Z","lastTimestamp":"2021-07-20T02:49:55Z","name":"Started","message":"Started
+        container","type":"Normal"},{"count":1,"firstTimestamp":"2021-07-20T02:49:35Z","lastTimestamp":"2021-07-20T02:49:35Z","name":"Killing","message":"Killing
+        container with id d0d8126b64ac15ca4010fd579c4f7fc634a0063d2c9e6e7011a5cbbc0d65185f.","type":"Normal"}]}}'
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '1163'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Tue, 20 Jul 2021 02:50:22 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+version: 1

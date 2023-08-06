@@ -1,0 +1,6 @@
+setuptools
+requests
+six
+json_minify
+websockets
+websocket-client==0.57.0aiohttp

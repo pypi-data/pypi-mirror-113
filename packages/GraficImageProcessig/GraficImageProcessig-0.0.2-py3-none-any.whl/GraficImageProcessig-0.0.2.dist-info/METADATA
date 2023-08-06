@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: GraficImageProcessig
+Version: 0.0.2
+Summary: Gip is a library that aims to simplify the functionality of other existing libraries for image processing.
+Home-page: https://github.com/KillerGlass/-graphic-image-processing.git
+Author: Francisco Jose, Mateus Assis
+Author-email: franciscojose17@ufpi.edu.br, mateusveloso@ufpi.edu.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: scikit-image (==0.17.2)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: imageio (==2.9.0)
+Requires-Dist: opencv-python (==4.5.2.54)
+Requires-Dist: argparse (==1.4.0)
+Requires-Dist: pandas (==1.1.3)
+
+# -graphic-image-processing
+GIP (Graphic Image Processing) aims to facilitate both Pre-processing and graphic plot of images, using libraries already available in the literature.
+     It will provide functions that have summarized multiple lines of code into just one, as well as making it easy for those looking to enter the 
+     world of image processing to get started.
+   
+
+## GraficPlot
+ This module aims to simplify the plot of graphics in order to make it more 
+intuitive and practical, plotting several images in user-defined axis, 
+as well as plotting their histogram. It will also display several graphs 
+of the same image and finally create line graphs of the learning metrics
+ 
+## ImageFilters
+ImageFilters comes to facilitate the application of filters in an entire 
+image dataset, being able to apply a filter to a certain color channel, 
+also performing the division of an image base in test, train and validation, 
+saving the images in folders so make life easier for the user.
+
+## CreateBox
+This module offers the possibility of creating masks and plotting bounding 
+boxes on this mask, passed through an xml and csv file, being also able to 
+plot the boxes in an image.
+
+

@@ -1,0 +1,10 @@
+uchu-cli/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+uchu-cli/__main__.py,sha256=1sazAEWrkFkX4NjvAQ2-UaMGPw2ozJYr0ndRCUPZq7s,5137
+uchu-cli/commands.py,sha256=jw6nhIfv1EhmFOH89JEId-7OII5dpBXrsQFsBZoxZPo,1271
+uchu-cli/utils.py,sha256=ep90tujSZJ6AJOlXekDa4o_r7PTr0KPYwp8-euDgRCE,1243
+uchu-cli/worlds.py,sha256=i2loJcbLMGbCNBCAjaI85VUN1Ug-n0xIXUBC2jeRg4U,2590
+uchu_cli-0.3.6.dist-info/LICENSE,sha256=2W4ZYjbD3haru4TNc_So2Xox-i11GREXZjk7efqKEcc,1064
+uchu_cli-0.3.6.dist-info/METADATA,sha256=yUlzHuuRdRv7XSjYFx237PpZh0mlXEdMIrU4v56BKRw,410
+uchu_cli-0.3.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+uchu_cli-0.3.6.dist-info/top_level.txt,sha256=yubSLB9ovgMLbxJxSs7KHkypVpUqNTGyiulO_n34m8w,9
+uchu_cli-0.3.6.dist-info/RECORD,,

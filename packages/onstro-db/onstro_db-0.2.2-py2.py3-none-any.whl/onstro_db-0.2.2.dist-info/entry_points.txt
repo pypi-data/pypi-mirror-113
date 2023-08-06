@@ -1,0 +1,3 @@
+[console_scripts]
+onstro = onstrodb.cli.main:main
+

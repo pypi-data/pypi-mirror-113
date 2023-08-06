@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: staby
+Version: 0.1.6
+Summary: Django based CMS
+Home-page: https://github.com/netgarden/staby
+Author: Qilx
+Author-email: qilx@netgarden.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 2.2
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Django (<2.3)
+Requires-Dist: Pillow (==7.0.0)
+Requires-Dist: django-admin-sortable2 (==0.7.6)
+Requires-Dist: django-debug-toolbar (==2.2)
+Requires-Dist: django-js-asset (==1.2.2)
+Requires-Dist: django-mptt (==0.11.0)
+Requires-Dist: django-polymorphic-tree (==1.5.1)
+Requires-Dist: django-polymorphic (==2.1.2)
+Requires-Dist: django-tag-parser (==3.2)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: sqlparse (==0.3.1)
+
+# staby
+Django based CMS
+
+

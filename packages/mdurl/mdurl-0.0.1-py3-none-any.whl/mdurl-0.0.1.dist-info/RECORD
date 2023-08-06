@@ -1,0 +1,10 @@
+mdurl/__init__.py,sha256=Txf9KdtgzlWg0kTPZDGR5d-4aWRHkZFdPJo2NkaSaWU,509
+mdurl/_decode.py,sha256=fYXXwuhM0DooubnresJIQS4MjP7R9FXAqXlkq1ze7Kc,3221
+mdurl/_encode.py,sha256=4jrg-mH0lWp_vH0VA7A8xAA6vGvj0TJUc-ko5Z3ik8c,2569
+mdurl/_format.py,sha256=1jnKsCfCaJarj0daODqknTOeTQRlNDfc0jbN-XHeHqM,594
+mdurl/_parse.py,sha256=sX4-DWFFb7_P5uXd53-W7zDMWG8ucVwegXYYRHV12h4,11073
+mdurl/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+mdurl-0.0.1.dist-info/LICENSE,sha256=fGBd9uKGZ6lgMRjpgnT2SknOPu0NJvzM6VNKNF4O-VU,2338
+mdurl-0.0.1.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+mdurl-0.0.1.dist-info/METADATA,sha256=O_vKn8Bx52w9zVS0DnBhPbeYHGezXtHXPxyhmJaMk88,4718
+mdurl-0.0.1.dist-info/RECORD,,

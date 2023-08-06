@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-heptapod-runner
+Version: 0.2.0.dev0
+Summary: Heptapod Runner: Python utilities and subsystems
+Home-page: https://foss.heptapod.net/heptapod/runner
+Author: Georges Racinet
+Author-email: georges.racinet@octobus.net
+License: GPLv3+
+Description: # Python utilities and subsytems for Heptapod Runner
+        
+        [Heptapod Runner](https://foss.heptapod.net/heptapod/heptapod-runner)
+        is the fork of [GitLab Runner](https://docs.gitlab.com/runner/) meant to
+        work for [Heptapod](https://heptapod.net) and [GitLab](https://gitlab.com)
+        instances.
+        
+        The facilities provided in this package are part of the Heptapod Runner
+        extended distribution, aiming to provide additional options. They also
+        share the same
+        [source code repository](https://foss.heptapod.net/heptapod/heptapod-runner)
+        with Heptapod Runner.
+        
+        They are not to be confused with the main Heptapod Runner program, which
+        is a standalone programm written in Go (like GitLab Runner) that does not have
+        any dependency on `python-heptapod-runner`.
+        
+        Python was selected for fast prototyping and because it is lingua franca in
+        the Mercurial community, but It is possible that some of facilities end up
+        being rewritten in another language.
+        
+Keywords: hg mercurial git heptapod gitlab
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

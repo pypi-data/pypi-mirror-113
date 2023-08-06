@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: feffery_antd_components
+Version: 0.0.1a28
+Summary: Best implementation of Antd components in Plotly Dash.
+Home-page: https://github.com/CNFeffery/feffery-antd-components
+Author: CNFeffery <fefferypzy@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

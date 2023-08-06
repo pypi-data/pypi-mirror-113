@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: javi-primo
+Version: 0.5
+Summary: Calcular "n" si es un número primo o no.
+Home-page: https://www.javilazaro.es
+Author: Francisco Javier Lázaro
+Author-email: hola@javilazaro.es
+License: MIT
+Keywords: numeros primos,primos,primes numbers
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+
+

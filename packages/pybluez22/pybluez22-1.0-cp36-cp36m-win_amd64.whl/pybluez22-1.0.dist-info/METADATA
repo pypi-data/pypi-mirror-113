@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybluez22
+Version: 1.0
+Summary: Bluetooth Python extension module based on Pybluez 0.22
+Home-page: https://github.com/salman2135/pybluez22
+Author: salman rahman
+Author-email: salman2135@gmail.com
+Maintainer: salman rahman
+License: GPL
+Download-URL: https://github.com/pybluez/pybluez
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications
+Provides-Extra: ble
+Requires-Dist: gattlib (==0.20150805) ; extra == 'ble'
+
+Bluetooth Python extension module to allow Python developers to use system Bluetooth resources. PyBluez works with GNU/Linux, macOS, and Windows.
+
+

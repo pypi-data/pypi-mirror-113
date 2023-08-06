@@ -1,0 +1,11 @@
+tensorflow_mri-0.1.0a5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tensorflow_mri-0.1.0a5.dist-info/METADATA,sha256=YC00PVnm5G7S6UBlnTa3zhDcotwGCatndxjksjzghQc,1317
+tensorflow_mri-0.1.0a5.dist-info/top_level.txt,sha256=J9cB23OSde_xn4Q_VverlOlOCiI-9cvKMoa5Msz4rIQ,15
+tensorflow_mri-0.1.0a5.dist-info/RECORD,,
+tensorflow_mri-0.1.0a5.dist-info/WHEEL,sha256=2R091Yw4KyYpPRWurYLI13P5couY5AMwxl7kvxKMQ9Y,148
+tensorflow_mri/__init__.py,sha256=9biUdTxpnNoSipkB4Vn8_PEcV32-kY1rU5X6N4bEEL4,925
+tensorflow_mri/VERSION,sha256=E62SHgZJ3oXvG-MVV3t6Vl0CMbR4Z-jDS1wxqSKQC6g,14
+tensorflow_mri/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_mri/python/ops/traj_ops.py,sha256=lvjN8PJ8tv8VFLOcH8nFyUz4gH6bS6htdJTMGiHPtw4,16257
+tensorflow_mri/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_mri/python/ops/_mri_ops.so,sha256=UOgDfN7ASjW9eblvwRoM44IXbAhKGuYLO8ZQnEE-qF8,65408

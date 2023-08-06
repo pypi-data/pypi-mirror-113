@@ -1,0 +1,5 @@
+include readme.md
+include license
+recursive-include projmenu/gmenu/migrations *
+recursive-include projmenu/templates *
+recursive-include projmenu/static *

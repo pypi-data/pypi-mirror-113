@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gmenu
+Version: 0.0.2
+Summary: Global menu
+Home-page: https://github.com/ione03/gmenu
+Author: Iwan Setiawan
+Author-email: suratiwan03@gmail.com
+License: MIT
+Keywords: menu,admin,frontend
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: license
+
+UNKNOWN
+

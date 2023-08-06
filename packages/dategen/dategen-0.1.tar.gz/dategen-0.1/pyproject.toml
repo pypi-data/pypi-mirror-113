@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "dategen"
+author = "cmc2"
+author-email = "changming.chen.1970@gmail.com"
+home-page = "http://none"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cg-learning-client
+Version: 0.0.4.1
+Summary: A client for connecting to LRS of cg
+Home-page: UNKNOWN
+Author: yml
+Author-email: windcome@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+
+UNKNOWN
+

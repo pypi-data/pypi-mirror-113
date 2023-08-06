@@ -1,0 +1,11 @@
+setup.py
+cg_learning_client/CGLearningClient.py
+cg_learning_client/DataSet.py
+cg_learning_client/__init__.py
+cg_learning_client.egg-info/PKG-INFO
+cg_learning_client.egg-info/SOURCES.txt
+cg_learning_client.egg-info/dependency_links.txt
+cg_learning_client.egg-info/requires.txt
+cg_learning_client.egg-info/top_level.txt
+cg_learning_client/utils/HttpUtil.py
+cg_learning_client/utils/__init__.py

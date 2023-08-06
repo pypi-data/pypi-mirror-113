@@ -1,0 +1,15 @@
+yourtube/YourTube.ipynb,sha256=Y6TUQCPsuV0kNC6xKoKa4nAlBUkrjWvmcSGYrfnxNPU,12104
+yourtube/__init__.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+yourtube/__main__.py,sha256=k4JcLYCATw1BFV5Z6wVcg8IZkct6DAZtr86OeQ6hORU,195
+yourtube/clustering_helpers.py,sha256=9dxkYpHr3l_jpav7y-3tF9PW7Qoxy2iXWlPPT_D_-WM,7980
+yourtube/common.py,sha256=pk3WdMIhL3_depDW8ukkjhf28vtgkjop0ZgCi1svfhY,1059
+yourtube/failed/_HCS.ipynb,sha256=QWD5BBvq6x7Zr23AHb7xYxGUth2MI9-3KhaRu7_jyHg,3811
+yourtube/failed/_louvain.ipynb,sha256=S48ToYWu5tqYYhKTnl2X1E_ja3mkt7srdD85X0_jU3U,2283
+yourtube/krakow.py,sha256=8kgKA4ZVA_bc1DML-UvmJuF5pnL71zA9hx87hI-ce6w,4331
+yourtube/scrape.ipynb,sha256=BdI0UMkALyQx4Jh6IbqwshhqxI2o2INPKdiC6_1W8h4,31275
+yourtube/scrape_helpers.py,sha256=xy__XigOAftrm1-PTDpx424fKJ5GhZ08Dgs7UERW09E,3956
+yourtube-0.1.3.dist-info/entry_points.txt,sha256=nkoOIt6fKvGzqa0pHFm9a6kcRSArGmy9UGmsrz51YZY,111
+yourtube-0.1.3.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+yourtube-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+yourtube-0.1.3.dist-info/METADATA,sha256=5UpTHv-z4W9HrgnrbKXl_Sk0A6fIjk0z3PcVSmzZTJg,661
+yourtube-0.1.3.dist-info/RECORD,,

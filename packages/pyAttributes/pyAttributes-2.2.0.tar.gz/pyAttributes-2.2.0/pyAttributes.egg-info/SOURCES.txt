@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+pyAttributes/ArgParseAttributes.py
+pyAttributes/__init__.py
+pyAttributes.egg-info/PKG-INFO
+pyAttributes.egg-info/SOURCES.txt
+pyAttributes.egg-info/dependency_links.txt
+pyAttributes.egg-info/requires.txt
+pyAttributes.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/ArgParse.py
+tests/unit/Attributes.py
+tests/unit/__init__.py

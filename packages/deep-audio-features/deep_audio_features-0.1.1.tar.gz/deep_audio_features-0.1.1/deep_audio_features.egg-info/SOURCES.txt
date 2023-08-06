@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+deep_audio_features/__init__.py
+deep_audio_features.egg-info/PKG-INFO
+deep_audio_features.egg-info/SOURCES.txt
+deep_audio_features.egg-info/dependency_links.txt
+deep_audio_features.egg-info/not-zip-safe
+deep_audio_features.egg-info/requires.txt
+deep_audio_features.egg-info/top_level.txt

@@ -1,0 +1,46 @@
+Metadata-Version: 1.2
+Name: anycrypt
+Version: 0.0.2a1
+Summary: anycrypt is an information encryption and decryption utility.
+Home-page: http://www.codetrax.org/projects/anycrypt
+Author: George Notaras
+Author-email: george@gnotaras.com
+Maintainer: George Notaras
+Maintainer-email: george@gnotaras.com
+License: Proprietary
+Download-URL: https://source.codetrax.org/anycrypt
+Description: 
+        ======
+        README
+        ======
+        
+        anycrypt is an information encryption and decryption utility.
+        
+        This project is at a very early stage of development and the
+        source code is only released for functionality evaluation purposes.
+        
+        Please note that this project is currently proprietary work.
+        Distributing the source code or building upon it are currently
+        disallowed.
+        
+        Contributions are currently not accepted.
+        
+        The release of the source code under a Free license will be
+        considered at a later point in the development roadmap.
+        
+        The distribution points of the source code are:
+        
+          * https://codetrax.org/projects/anycrypt/files
+          * https://source.codetrax.org/gnotaras/anycrypt
+          * https://pypi.org/project/anycrypt
+        
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/calculator/__init__.py
+src/calculator/calculator.py
+src/calculator_halimah.egg-info/PKG-INFO
+src/calculator_halimah.egg-info/SOURCES.txt
+src/calculator_halimah.egg-info/dependency_links.txt
+src/calculator_halimah.egg-info/top_level.txt

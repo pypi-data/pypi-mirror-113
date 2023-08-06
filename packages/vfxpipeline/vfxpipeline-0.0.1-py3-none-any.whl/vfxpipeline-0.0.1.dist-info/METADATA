@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vfxpipeline
+Version: 0.0.1
+Summary: A studio Pipeline for 3d animation and VFX studios
+Home-page: https://github.com/vfxpipeline/vfxpipeline
+Author: Rajiv Sharma
+Author-email: rajiv.vfx@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vfxpipeline/vfxpipeline/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VFX Pipeline
+### VFX Pipeline Core Package
+
+A studio Pipeline for 3d animation and VFX studios
+
+

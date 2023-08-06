@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+flask_faas/aws.py
+flask_faas/azure.py
+flask_faas/gcp.py
+flask_faas.egg-info/PKG-INFO
+flask_faas.egg-info/SOURCES.txt
+flask_faas.egg-info/dependency_links.txt
+flask_faas.egg-info/requires.txt
+flask_faas.egg-info/top_level.txt

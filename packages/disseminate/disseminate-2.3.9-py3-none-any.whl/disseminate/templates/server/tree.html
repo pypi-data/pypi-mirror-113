@@ -1,0 +1,48 @@
+{% comment Tornado template %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Disseminate Document Listing</title>
+  <meta name="description" content="Disseminate Project Index">
+  <meta name="author" content="Disseminate">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="/media/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/media/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/media/css/tree.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.29.5/js/jquery.tablesorter.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#index").tablesorter(
+        {sortList: [[0,0],]}
+    );
+      }
+    );
+    </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Document Listing</h2>
+    <div class="tableset">
+      {% for project in projects %}
+      <table class="tablesorter" id="index">
+        <caption>
+          {{ project['title'] }}
+        </caption>
+        <tr>
+          <thead>
+          <th class="num">num</th>
+          <th class="src">source</th>
+          <th class="tgt">targets</th>
+          <th class="date">last saved</th>
+          </thead>
+        </tr>
+        {% module Template("tree_item.html", doc=project, level=1) %}
+      </table>
+      {% end %}
+    </div>
+  </div>
+  {% include "footer.html" %}
+</body>
+</html>

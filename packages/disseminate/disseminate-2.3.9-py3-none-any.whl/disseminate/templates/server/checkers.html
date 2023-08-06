@@ -1,0 +1,27 @@
+{% comment Tornado template %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disseminate Dependency Checks</title>
+  <meta name="description" content="Dependency Checks">
+  <meta name="author" content="Disseminate">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="/media/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/media/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/media/css/listing.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Dependency Checks</h2>
+    <div class="listing">
+      <ol>
+      {% for checker in checkers %}
+      {% module Template("checker_item.html", checker=checker) %}
+      {% end %}
+      </ol>
+    </div>
+  </div>
+  {% include "footer.html" %}
+</body>
+</html>

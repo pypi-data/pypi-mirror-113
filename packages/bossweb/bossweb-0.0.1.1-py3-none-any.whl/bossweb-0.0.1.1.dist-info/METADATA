@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bossweb
+Version: 0.0.1.1
+Summary: GUI framework to develop web and desktop apps in pure python using html, css and scripting. Powered by PyQt5, flask, Brython, selenium and libsass
+Home-page: https://github.com/atharva-naik/BossWeb
+Author: Atharva Naik
+Author-email: atharvanaik2018@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: flask
+Requires-Dist: PyQt5
+Requires-Dist: brython
+Requires-Dist: libsass
+Requires-Dist: selenium
+Requires-Dist: PyQtWebEngine
+
+# BossWeb
+A GUI framework that uses web technologies (html, css and javascript) for developing desktop and web apps. It is similar to flexx but differs in the sense that it uses QtWebEngineView as a renderer to make proper GUI apps in Qt using web technologies. Brython is used for developing the frontend (to replace the Javascript).
+
+

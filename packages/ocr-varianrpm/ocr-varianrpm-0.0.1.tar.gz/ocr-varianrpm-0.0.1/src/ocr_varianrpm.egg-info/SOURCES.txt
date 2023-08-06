@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ocr_varianrpm.egg-info/PKG-INFO
+src/ocr_varianrpm.egg-info/SOURCES.txt
+src/ocr_varianrpm.egg-info/dependency_links.txt
+src/ocr_varianrpm.egg-info/top_level.txt

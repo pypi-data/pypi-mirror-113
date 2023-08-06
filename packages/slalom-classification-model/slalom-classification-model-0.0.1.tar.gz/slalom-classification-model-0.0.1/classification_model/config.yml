@@ -1,0 +1,65 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# Target variable
+target: Churn
+
+pipeline_name: classification_model
+pipeline_save_file: classification_model_output_v
+
+# set train/test split
+test_size: 0.1
+
+# to set the random seed
+random_state: 0
+
+# to set the C value for logit predictor
+alpha: 0.0005
+
+# numerical variables with expected missing values 
+numerical_vars_with_na:
+  - TotalCharges
+
+features:
+  - gender
+  - SeniorCitizen
+  - Partner
+  - Dependents
+  - tenure
+  - PhoneService
+  - MultipleLines
+  - InternetService
+  - OnlineSecurity
+  - OnlineBackup
+  - DeviceProtection
+  - TechSupport
+  - StreamingTV
+  - StreamingMovies
+  - Contract
+  - PaperlessBilling
+  - PaymentMethod
+  - MonthlyCharges
+  - TotalCharges
+
+categorical_vars:
+  - gender
+  - Partner
+  - Dependents
+  - PhoneService
+  - MultipleLines
+  - InternetService
+  - OnlineSecurity
+  - OnlineBackup
+  - DeviceProtection
+  - TechSupport
+  - StreamingTV
+  - StreamingMovies
+  - Contract
+  - PaperlessBilling
+  - PaymentMethod
+

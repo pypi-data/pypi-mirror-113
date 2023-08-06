@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/lichvPy3utils/__init__.py
+src/lichvPy3utils/utils.py
+src/lichvPy3utils.egg-info/PKG-INFO
+src/lichvPy3utils.egg-info/SOURCES.txt
+src/lichvPy3utils.egg-info/dependency_links.txt
+src/lichvPy3utils.egg-info/requires.txt
+src/lichvPy3utils.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: DeleteFilesRapidly
+Version: 0.0.2
+Summary: Tool for quickly deleting files on a remote server via threading
+Home-page: https://github.com/brianmanderson/Dicom_RT_and_Images_to_Mask
+Author: Brian Mark Anderson
+Author-email: b5anderson@health.ucsd.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Just a quick tool to use threading to delete files faster on a server"# DeleteFilesRapidly" 
+
+

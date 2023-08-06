@@ -1,0 +1,15 @@
+kaldifeat-1.4.data/data/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldifeat-1.4.data/data/README.md,sha256=FHfsJu5eUqkLEyYV9ngFqMbuJoG8ypX65XXMlm4XVBE,6623
+kaldifeat-1.4.data/platlib/_kaldifeat.cpython-37m-x86_64-linux-gnu.so,sha256=gl4_QCHGC2bHN3BcsF_-OSe2FlQy8cFtBDFIgW5Gz1s,237408
+kaldifeat-1.4.data/platlib/libkaldifeat_core.so,sha256=qx08cyFQQwEu5vWwL5jxyX2XopojHxsNWjni96WDcCw,161696
+kaldifeat-1.4.data/platlib/kaldifeat/__init__.py,sha256=THUbAJFI4fhmSTxyiI66VOq-uExbzjsHKldB9u6BXec,291
+kaldifeat-1.4.data/platlib/kaldifeat/fbank.py,sha256=-ALHxLLgndJTyN7dSS1bDtz_3AizTckXb560B-bzUxE,296
+kaldifeat-1.4.data/platlib/kaldifeat/mfcc.py,sha256=GvDQq_3cze8SG4vdsAo5o_ae5zoQ1f9-Jsdleil8exs,293
+kaldifeat-1.4.data/platlib/kaldifeat/offline_feature.py,sha256=zfGvUru5uoxG-wBIT8wVreZm9D8cbcqLEoRGyALA2uI,5283
+kaldifeat-1.4.data/platlib/kaldifeat/plp.py,sha256=Rb5VUR1vDYj4R2spiDUFU_Ctf1WsiE_hl9W-P_egrnY,290
+kaldifeat-1.4.data/platlib/kaldifeat/spectrogram.py,sha256=hmuiAdv5Dd3vLQPe6a4XL9dycW1NMoQwaJmo6vOpifA,314
+kaldifeat-1.4.dist-info/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+kaldifeat-1.4.dist-info/METADATA,sha256=lcpBgKcxA7NPMpQPqE36jibAR49xwt--UWFdh4hZZsc,7323
+kaldifeat-1.4.dist-info/WHEEL,sha256=xpWd874vjxk-rlDUiSLccticwhjoUitFv4Zo1xTPV2U,93
+kaldifeat-1.4.dist-info/top_level.txt,sha256=XnoTU4vd522nBkQS_T0GQvQuP9jOgb4-L8LITbyD2k4,21
+kaldifeat-1.4.dist-info/RECORD,,

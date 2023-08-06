@@ -1,0 +1,13 @@
+sxm_discord/__init__.py,sha256=rzf3IkeM9_hI98J-bZ06_RFeW4gVqlAfO3KjwbZO0_I,221
+sxm_discord/bot.py,sha256=76Ll_aRE17jOweWGtx0WDAE8J3SQWsPR-npqgLYM1n8,18506
+sxm_discord/checks.py,sha256=l1pZLFu9qvt8Oflj8w2wuQJZFzwW9iFrJJ0TWLR_fOc,1909
+sxm_discord/converters.py,sha256=MkqjyQvXCSSkRBXv1WjrFQe_WETKLKzKUtCvHnXbnCE,1872
+sxm_discord/models.py,sha256=1swY7uOhSr5liWVuBcQ-6xuFWc6sZpmGjjoOruafLgI,8381
+sxm_discord/music.py,sha256=xH9RG0cCtNUN11KNgPJHgya53TjmnqGaBqfl9ewKFcg,11076
+sxm_discord/player.py,sha256=asdjBu9HHvRSPYm1YRJJlTxQL_2ZzbJb6koh8dAXORw,2405
+sxm_discord/sxm.py,sha256=kdV4ToMNDCVjDIHW331wvJuE4QLfBCqnYnZZuKsYEcQ,12833
+sxm_discord/utils.py,sha256=gAC2W1jD_aAauBfMCWIVzAOUwYK1ljMJf21WCwhqtN8,5740
+sxm_discord-0.2.3.dist-info/LICENSE,sha256=CwQPccDDyFekbtJ2VyTo6N24sCV2dOd55G0CrRyFyWo,1077
+sxm_discord-0.2.3.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+sxm_discord-0.2.3.dist-info/METADATA,sha256=I7f-4Av_lb6XLcg1B6mU66LkC4_Wdn-8FW6jRZ5tF34,4316
+sxm_discord-0.2.3.dist-info/RECORD,,

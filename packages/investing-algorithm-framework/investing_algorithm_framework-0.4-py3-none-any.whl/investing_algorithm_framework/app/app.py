@@ -1,0 +1,122 @@
+from flask import Flask
+
+from investing_algorithm_framework.configuration import Config, create_app, \
+    setup_config
+from investing_algorithm_framework.context import Singleton
+from investing_algorithm_framework.core.context import algorithm
+from investing_algorithm_framework.core.exceptions import OperationalException
+from investing_algorithm_framework.core.models import create_all_tables, \
+    initialize_db
+from investing_algorithm_framework.extensions import scheduler
+from investing_algorithm_framework.configuration.constants import \
+    RESOURCES_DIRECTORY
+
+
+class App(metaclass=Singleton):
+    _algorithm = algorithm
+    _flask_app: Flask = None
+    _configured: bool
+    _started = False
+    _config = None
+    _resource_directory = None
+
+    def __init__(
+            self, resources_directory: str = None, config=None, arg=None
+    ):
+        if resources_directory is not None:
+            self._resource_directory = resources_directory
+
+        self._initialize_flask_app()
+        self._initialize_config(config)
+
+    def initialize(
+            self, resources_directory: str = None, config=None, arg=None
+    ):
+        if not self.started:
+
+            if resources_directory is not None:
+                self._resource_directory = resources_directory
+
+            self._initialize_flask_app()
+            self._initialize_config(config)
+
+    def _initialize_algorithm(self):
+        self._algorithm.initialize(config=self.config)
+
+    def _initialize_config(self, config=None):
+
+        if config is not None:
+            assert issubclass(config, Config), (
+                "Config is not an instance of config"
+            )
+            self._config = config()
+
+            if self._resource_directory is not None:
+                self._config[RESOURCES_DIRECTORY] = self._resource_directory
+
+            setup_config(self._flask_app, self.config)
+
+    def _initialize_flask_app(self):
+
+        if self._flask_app is None:
+            self._flask_app = create_app()
+
+    def start(self):
+        self._initialize_flask_app()
+
+        if self.config is None:
+            self._initialize_config(Config)
+
+        self._initialize_algorithm()
+        self.start_database()
+        self.start_scheduler()
+        self.start_algorithm()
+
+        # Start the app
+        self._flask_app.run(
+            debug=True,
+            threaded=True,
+            use_reloader=False
+        )
+
+    def start_database(self):
+        initialize_db(self._flask_app)
+        create_all_tables()
+
+    def start_scheduler(self):
+
+        # Initialize the schedulers
+        if not scheduler.running:
+            scheduler.init_app(self._flask_app)
+            scheduler.start()
+
+    def start_algorithm(self):
+
+        if not scheduler.running:
+            raise OperationalException(
+                "Could not start algorithm because the scheduler "
+                "is not running"
+            )
+
+        # Start the algorithm
+        self._algorithm.start()
+
+    def stop_algorithm(self):
+
+        if self._algorithm.running:
+            self._algorithm.stop()
+
+    @property
+    def algorithm(self):
+        return self._algorithm
+
+    @property
+    def started(self):
+        return self._started
+
+    @property
+    def config(self):
+        return self._config
+
+    def register_blueprint(self, blueprint):
+        self._flask_app.register_blueprint(blueprint)

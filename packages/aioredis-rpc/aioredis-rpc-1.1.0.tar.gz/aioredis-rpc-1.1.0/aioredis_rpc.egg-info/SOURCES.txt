@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+aioredis_rpc/__init__.py
+aioredis_rpc/msgpack_ext.py
+aioredis_rpc.egg-info/PKG-INFO
+aioredis_rpc.egg-info/SOURCES.txt
+aioredis_rpc.egg-info/dependency_links.txt
+aioredis_rpc.egg-info/requires.txt
+aioredis_rpc.egg-info/top_level.txt
+aioredis_rpc.egg-info/zip-safe

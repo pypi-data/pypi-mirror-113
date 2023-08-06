@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+sentiment_investor.egg-info/PKG-INFO
+sentiment_investor.egg-info/SOURCES.txt
+sentiment_investor.egg-info/dependency_links.txt
+sentiment_investor.egg-info/requires.txt
+sentiment_investor.egg-info/top_level.txt
+sentipy/__init__.py
+sentipy/sentipy.py
+sentipy/ws.py

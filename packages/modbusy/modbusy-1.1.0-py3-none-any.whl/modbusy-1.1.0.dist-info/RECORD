@@ -1,0 +1,9 @@
+modbusy/__init__.py,sha256=Z40MN6N2glTbA8EHCIOQuC2X-tMI43qvxIyNP4YuxNI,23373
+modbusy/csvslave.py,sha256=jHq8q71QZBbSGCXGLAmWUMNekl3l99FdbxZ-3XhCdOQ,11682
+modbusy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modbusy-1.1.0.dist-info/LICENSE,sha256=IyMc8aILGv4Aprz1xn1WPrTd1JPrcI0N-kKs6AI8tlA,1532
+modbusy-1.1.0.dist-info/METADATA,sha256=gnTOq_mQfrsNmVhaQvEaUPAFvEPKeg7FU83jujP63dU,9321
+modbusy-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+modbusy-1.1.0.dist-info/top_level.txt,sha256=8d8VugUccYGcFVy9WOhErbxV37AitYncAOHNqKLyZ8s,8
+modbusy-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+modbusy-1.1.0.dist-info/RECORD,,

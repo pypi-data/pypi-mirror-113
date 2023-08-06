@@ -1,0 +1,350 @@
+{
+  "debug": {
+    "host": "detail033044142153.center.na620@33.44.142.153",
+    "app": "alidetail"
+  },
+  "vertical": {
+    "askAll": {
+      "askText": "宝贝好不好，问问已买的人",
+      "title": "问大家",
+      "linkUrl": "//market.m.taobao.com/app/mtb/questions-and-answers/pages/list/index.html?refId=629044347913",
+      "questNum": "0",
+      "askIcon": "https://img.alicdn.com/tps/TB1tVU6PpXXXXXFaXXXXXXXXXXX-102-60.png",
+      "showNum": "2"
+    }
+  },
+  "props2": {},
+  "item": {
+    "favcount": "144",
+    "moduleDescUrl": "//hws.m.taobao.com/d/modulet/v5/WItemMouldDesc.do?id=629044347913&f=icoss17669072882d8ee90f671f4d04",
+    "taobaoPcDescUrl": "//h5.m.taobao.com/app/detail/desc.html?_isH5Des=true#!id=629044347913&type=1&f=icoss4180991106e18342a19cc6dfff&sellerType=C",
+    "taobaoDescUrl": "//h5.m.taobao.com/app/detail/desc.html?_isH5Des=true#!id=629044347913&type=0&f=icoss40028375676e4f390c2fa7815b&sellerType=C",
+    "brandValueId": "1127172974",
+    "openDecoration": false,
+    "h5moduleDescUrl": "//mdetail.tmall.com/templates/pages/itemDesc?id=629044347913",
+    "skuText": "请选择颜色 尺码 ",
+    "commentCount": "8",
+    "rootCategoryId": "30",
+    "countMultiple": [],
+    "title": "WINDERFLIES 20 A/W 拼色蝴蝶刺绣圆领毛衣男宽松休闲套头毛衫",
+    "categoryId": "50000557",
+    "tmallDescUrl": "//mdetail.tmall.com/templates/pages/desc?id=629044347913",
+    "itemId": "629044347913",
+    "exParams": {},
+    "images": [
+      "//img.alicdn.com/imgextra/i1/2053922816/O1CN01E22Ly21Wfm0Yg5u9Q_!!2053922816.jpg",
+      "//img.alicdn.com/imgextra/i3/2053922816/O1CN01YN6FAr1Wflwp17ohX_!!2053922816.jpg",
+      "//img.alicdn.com/imgextra/i4/2053922816/O1CN01LE8XNu1Wflwd6qHGY_!!2053922816.jpg",
+      "//img.alicdn.com/imgextra/i3/2053922816/O1CN01NAUaUN1WflwhlieqW_!!2053922816.jpg",
+      "//img.alicdn.com/imgextra/i4/2053922816/O1CN01FkPkQg1WflwlOg7E1_!!2053922816.jpg"
+    ],
+    "cartUrl": "https://h5.m.taobao.com/awp/base/cart.htm",
+    "moduleDescParams": {
+      "f": "desc/icoss17669072882d8ee90f671f4d04",
+      "id": "629044347913"
+    }
+  },
+  "propsCut": "品牌 材质 尺码 图案 领型 颜色 上市时间 细分风格 基础风格 适用季节 袖长 厚薄 适用场景 版型 款式细节 适用对象 款式 ",
+  "skuBase": {
+    "skus": [
+      {
+        "propPath": "20509:28314;1627207:30158",
+        "skuId": "4633174262883"
+      },
+      {
+        "propPath": "20509:28315;1627207:30158",
+        "skuId": "4633174262884"
+      },
+      {
+        "propPath": "20509:28316;1627207:30158",
+        "skuId": "4633174262885"
+      },
+      {
+        "propPath": "20509:28317;1627207:30158",
+        "skuId": "4633174262886"
+      }
+    ],
+    "props": [
+      {
+        "pid": "20509",
+        "values": [
+          {
+            "vid": "28314",
+            "name": "S"
+          },
+          {
+            "vid": "28315",
+            "name": "M"
+          },
+          {
+            "vid": "28316",
+            "name": "L"
+          },
+          {
+            "vid": "28317",
+            "name": "XL"
+          }
+        ],
+        "name": "尺码"
+      },
+      {
+        "pid": "1627207",
+        "values": [
+          {
+            "image": "//img.alicdn.com/imgextra/i4/2053922816/O1CN01PPnXqi1WflwlJ30Mo_!!2053922816.jpg",
+            "vid": "30158",
+            "name": "浅棕色"
+          }
+        ],
+        "name": "颜色"
+      }
+    ]
+  },
+  "params": {
+    "trackParams": {
+      "brandId": "1127172974",
+      "categoryId": "50000557",
+      "BC_type": "C"
+    }
+  },
+  "props": {
+    "groupProps": [
+      {
+        "基本信息": [
+          {
+            "品牌": "WINDERFLIES"
+          },
+          {
+            "材质": "纯棉（95%以上）"
+          },
+          {
+            "尺码": "S,M,L,XL"
+          },
+          {
+            "图案": "动物图案"
+          },
+          {
+            "领型": "圆领"
+          },
+          {
+            "颜色": "浅棕色"
+          },
+          {
+            "上市时间": "2020年"
+          },
+          {
+            "细分风格": "潮"
+          },
+          {
+            "基础风格": "青春流行"
+          },
+          {
+            "适用季节": "秋季"
+          },
+          {
+            "袖长": "长袖"
+          },
+          {
+            "厚薄": "常规"
+          },
+          {
+            "适用场景": "休闲"
+          },
+          {
+            "版型": "宽松"
+          },
+          {
+            "款式细节": "撞色"
+          },
+          {
+            "适用对象": "青少年"
+          },
+          {
+            "款式": "套头"
+          }
+        ]
+      }
+    ]
+  },
+  "rate": {
+    "propRate": [],
+    "totalCount": "8",
+    "utFeedId": "1118137920556",
+    "rateList": [
+      {
+        "content": "感觉质量挺好的，孩子喜欢，货到了，我儿子还没放假，回来试穿后再评价。 ",
+        "dateTime": "2021-01-11",
+        "skuInfo": "颜色:浅棕色;尺码:S",
+        "isVip": "false",
+        "tmallMemberLevel": "2",
+        "headPic": "//wwc.alicdn.com/avatar/getAvatar.do?userIdStr=vGNuOHcWv88YXF-HPmvbM0gSMF*IMH8WvHlzX8QSM8Z-v8c4vmh-PFx4vGgyO88L&width=40&height=40&type=sns",
+        "createTimeInterval": "5个月前",
+        "feedId": "1118137920556",
+        "memberLevel": "6",
+        "userName": "生**8"
+      }
+    ]
+  },
+  "resource": {
+    "entrances": {
+      "askAll": {
+        "icon": "https://img.alicdn.com/tps/TB1tVU6PpXXXXXFaXXXXXXXXXXX-102-60.png",
+        "link": "//market.m.taobao.com/app/mtb/questions-and-answers/pages/list/index.html?refId=629044347913",
+        "text": "对宝贝有疑问？可以向已买的人求助"
+      }
+    }
+  },
+  "feature": {
+    "showSkuProRate": true
+  },
+  "seller": {
+    "newItemCount": "15",
+    "shopType": "C",
+    "atmophereMask": true,
+    "goodRatePercentage": "99.77%",
+    "shopIcon": "//img.alicdn.com/imgextra//5e/b7/TB19J6MRFXXXXaQXpXXSutbFXXX.jpg",
+    "showShopLinkIcon": false,
+    "creditLevel": "15",
+    "shopId": "110112287",
+    "fans": "66.8万",
+    "shopName": "WINDERFLIES AND WINDINESS",
+    "atmosphereColor": "#ffffff",
+    "starts": "2014-04-10 21:43:13",
+    "shopVersion": "0",
+    "evaluates": [
+      {
+        "title": "宝贝描述",
+        "tmallLevelTextColor": "#FF0036",
+        "score": "4.8 ",
+        "levelBackgroundColor": "#FFF1EB",
+        "levelText": "高",
+        "tmallLevelBackgroundColor": "#FFF1EB",
+        "type": "desc",
+        "level": "1",
+        "levelTextColor": "#FF5000"
+      },
+      {
+        "title": "卖家服务",
+        "tmallLevelTextColor": "#FF0036",
+        "score": "4.8 ",
+        "levelBackgroundColor": "#FFF1EB",
+        "levelText": "高",
+        "tmallLevelBackgroundColor": "#FFF1EB",
+        "type": "serv",
+        "level": "1",
+        "levelTextColor": "#FF5000"
+      },
+      {
+        "title": "物流服务",
+        "tmallLevelTextColor": "#FF0036",
+        "score": "4.8 ",
+        "levelBackgroundColor": "#FFF1EB",
+        "levelText": "高",
+        "tmallLevelBackgroundColor": "#FFF1EB",
+        "type": "post",
+        "level": "1",
+        "levelTextColor": "#FF5000"
+      }
+    ],
+    "userId": "2053922816",
+    "simpleShopDOStatus": "1",
+    "atmosphereMaskColor": "#59000000",
+    "fbt2User": "a2331614447",
+    "shopCard": "掌柜近期上新15件宝贝，速览",
+    "allItemCount": "252",
+    "atmosphereImg": "https://img.alicdn.com/imgextra/i1/2053922816/O1CN01wXgSs11WflufzfkB6_!!2053922816.png",
+    "shopTextColor": "#ffffff",
+    "entranceList": [
+      {
+        "backgroundColor": "#59000000",
+        "textColor": "#ffffff",
+        "action": [
+          {
+            "params": {
+              "url": "//shop.m.taobao.com/shop/shop_index.htm?user_id=2053922816&item_id=629044347913&currentClickTime=-1"
+            },
+            "key": "open_url"
+          },
+          {
+            "params": {
+              "trackName": "Button-NewShopcard-ShopPage",
+              "trackParams": {
+                "spm": "a.2141.7631564.shoppage"
+              }
+            },
+            "key": "user_track"
+          }
+        ],
+        "borderColor": "#59ffffff",
+        "text": "进店逛逛"
+      },
+      {
+        "backgroundColor": "#59000000",
+        "textColor": "#ffffff",
+        "action": [
+          {
+            "params": {
+              "url": "//shop.m.taobao.com/shop/shop_index.htm?user_id=2053922816&item_id=629044347913&shop_navi=allitems"
+            },
+            "key": "open_url"
+          },
+          {
+            "params": {
+              "trackName": "Button-NewShopcard-AllItem",
+              "trackParams": {
+                "spm": "a.2141.7631564.allitem"
+              }
+            },
+            "key": "user_track"
+          }
+        ],
+        "borderColor": "#59ffffff",
+        "text": "全部宝贝"
+      }
+    ],
+    "shopUrl": "tmall://page.tm/shop?item_id=629044347913&shopId=110112287",
+    "sellerType": "C",
+    "creditLevelIcon": "//gw.alicdn.com/tfs/TB1uyMhisLJ8KJjy0FnXXcFDpXa-132-24.png",
+    "evaluates2": [
+      {
+        "title": "宝贝描述",
+        "titleColor": "#ffffff",
+        "levelTextColor": "#f0f0f0",
+        "level": "1",
+        "type": "desc",
+        "levelText": "高",
+        "scoreTextColor": "#ffffff",
+        "score": "4.8 "
+      },
+      {
+        "title": "卖家服务",
+        "titleColor": "#ffffff",
+        "levelTextColor": "#f0f0f0",
+        "level": "1",
+        "type": "serv",
+        "levelText": "高",
+        "scoreTextColor": "#ffffff",
+        "score": "4.8 "
+      },
+      {
+        "title": "物流服务",
+        "titleColor": "#ffffff",
+        "levelTextColor": "#f0f0f0",
+        "level": "1",
+        "type": "post",
+        "levelText": "高",
+        "scoreTextColor": "#ffffff",
+        "score": "4.8 "
+      }
+    ],
+    "sellerNick": "a2331614447",
+    "taoShopUrl": "//shop.m.taobao.com/shop/shop_index.htm?user_id=2053922816&item_id=629044347913"
+  },
+  "apiStack": [
+    {
+      "value": "{\"delivery\":{\"from\":\"浙江湖州\",\"to\":\"苏州张家港\",\"completedTo\":\"苏州 张家港 杨舍\",\"areaId\":\"320582\",\"postage\":\"快递: 快递包邮\",\"extras\":{},\"overseaContraBandFlag\":\"false\",\"addressWeexUrl\":\"https://market.m.taobao.com/apps/market/detailrax/address-picker.html?spm=a2116h.app.0.0.16d957e9nDYOzv&wh_weex=true\"},\"item\":{\"titleIcon\":\"\",\"showShopActivitySize\":\"2\",\"vagueSellCount\":\"0\",\"skuText\":\"请选择 颜色 尺码 \",\"picGallaryOverScroll\":{\"mainPic\":{\"text\":\"滑\\n动\\n查\\n看\\n更\\n多\\n宝\\n贝\",\"action\":[{\"type\":\"open_url\",\"fields\":{\"url\":\"https://market.m.taobao.com/app/detail-project/pages/pages/banner-recommend?wx_navbar_hidden=true&_wx_statusbar_hidden=true&wh_weex=true&sellerId=2053922816&shopId=110112287&itemId=629044347913&spm=a2141.7631564&detailUniqueId=4b08b82155047da636045603f1b7b9de\"}},{\"type\":\"user_track\",\"fields\":{\"trackParams\":{\"spm\":\"a2141.7631564\"},\"trackName\":\"Page_Detail_Button-ItemDetailRecommend\"}}]}}},\"debug\":{\"host\":\"alidetail033044249070.center.na620@33.44.249.70\",\"app\":\"alidetail\"},\"traceDatas\":{\"dinamic+TB_detail_ask_all_two_questions\":{\"module\":\"tb_detail_ask_all_two_questions\"},\"dinamic+TB_detail_brand_info\":{\"module\":\"tb_detail_brand_info\"},\"dinamic+TB_detail_endorsement\":{\"module\":\"tb_detail_endorsement\"},\"dinamic+TB_detail_tip_presale\":{\"module\":\"tb_detail_tip_presale\"},\"dinamic+TB_detail_subInfo_superMarket\":{\"module\":\"tb_detail_subInfo_superMarket\"},\"bizTrackParams\":{\"aliBizCodeToken\":\"YWxpLmNoaW5hLnRhb2Jhbw==\",\"aliBizCode\":\"ali.china.taobao\"},\"dinamic+TB_detail_ask_all_no_question\":{\"module\":\"tb_detail_ask_all_no_question\"},\"dinamic+TB_detail_kernel_params\":{\"module\":\"tb_detail_kernel_params\"},\"dinamic_o2o+TB_detail_o2o\":{\"module\":\"TB_detail_o2o\"},\"dinamic+TB_detail_subInfo_jhs_normal\":{\"module\":\"tb_detail_subInfo_jhs_normal\"},\"dinamic+TB_detail_new_person_bag_banner\":{\"module\":\"tb_detail_new_person_bag_banner\"},\"dinamic+TB_detail_title_tmallMarket\":{\"module\":\"tb_detail_title_tmallMarket\"},\"dinamic+TB_detail_buyer_photo\":{\"module\":\"tb_detail_buyer_photo\"},\"dinamic+TB_detail_subInfo_preSellForTaobaoB\":{\"module\":\"tb_detail_subInfo_preSellForTaobaoB\"},\"dinamic+TB_detail_title_xinxuan\":{\"module\":\"tb_detail_title_xinxuan\"},\"dinamic+TB_detail_subInfo_preSellForTaobaoC\":{\"module\":\"tb_detail_subInfo_preSellForTaobaoC\"},\"dinamic+TB_detail_tmallfeature\":{\"module\":\"tb_detail_tmallfeature\"},\"dinamic+TB_detail_sub_logistics\":{\"module\":\"tb_detail_sub_logistics\"},\"dinamic+TB_detail_price_coupon\":{\"module\":\"tb_detail_price_coupon\"},\"dinamic+TB_detail_coupon\":{\"module\":\"tb_detail_coupon\"},\"dinamic+TB_detail_tip_presale2\":{\"module\":\"tb_detail_tip_presale2\"},\"dinamic+TB_detail_tip_price\":{\"module\":\"tb_detail_tip_price\"},\"dinamic+TB_detail_delivery\":{\"module\":\"tb_detail_delivery\"},\"dinamic+TB_detail_ship_time\":{\"module\":\"tb_detail_ship_time\"},\"dinamic+TB_detail_ask_all_aliMedical\":{\"module\":\"tb_detail_ask_all_aliMedical\"},\"dinamic+TB_detail_priced_coupon\":{\"module\":\"tb_detail_priced_coupon\"},\"dinamic+TB_detail_tax\":{\"module\":\"tb_detail_tax\"},\"dinamic+TB_detail_comment_empty\":{\"module\":\"tb_detail_comment_empty\"},\"dinamic+TB_detail_logistics\":{\"module\":\"tb_detail_logistics\"}},\"resource\":{\"newBigPromotion\":{},\"entrances\":{\"taobaoSqyk\":{\"bizKey\":\"taobaoSqyk\",\"icon\":\"https://gw.alicdn.com/tfs/TB1JDXQpJTfau8jSZFwXXX1mVXa-270-52.png\",\"text\":\"开卡领5元通用红包！\",\"link\":\"https://market.m.taobao.com/app/tmall-def/hbsqk/pages/new/index.html?disableNav=YES&from=Cdetail01_common\"},\"double11Banner\":{\"icon\":\"//gw.alicdn.com/imgextra/i4/O1CN01RnsxTf1Irlkr7DfDo_!!6000000000947-2-tps-1125-144.png\"}},\"taobaoAppActivities\":[{\"bizKey\":\"taobaoSqyk\",\"icon\":\"https://gw.alicdn.com/tfs/TB1JDXQpJTfau8jSZFwXXX1mVXa-270-52.png\",\"text\":\"开卡领5元通用红包！\",\"action\":[{\"key\":\"open_url\",\"params\":{\"params\":{\"needLogin\":\"false\"},\"url\":\"https://market.m.taobao.com/app/tmall-def/hbsqk/pages/new/index.html?disableNav=YES&from=Cdetail01_common\"}},{\"key\":\"user_track\",\"params\":{\"trackNamePre\":\"Button-\",\"trackName\":\"taobaoSqyk\"}}]},{\"icon\":\"//gw.alicdn.com/imgextra/i4/O1CN01RnsxTf1Irlkr7DfDo_!!6000000000947-2-tps-1125-144.png\",\"action\":[{\"key\":\"open_url\",\"params\":{\"params\":{\"needLogin\":\"false\"},\"url\":null}},{\"key\":\"user_track\",\"params\":{\"trackNamePre\":\"Button-\",\"trackName\":\"taobaoSqyk\"}}]}],\"coupon\":{\"h5LinkUrl\":\"//h5.m.taobao.com/jxt/coupon-tb.html\"},\"shopProm\":[{\"iconText\":\"跨店满减\",\"content\":[\"6/16-6/20每满199减20,上不封顶\"]},{\"iconText\":\"本店活动\",\"icon\":\"//img.alicdn.com/tfs/TB1CDp8QFXXXXakXpXXXXXXXXXX-112-32.png\",\"actionUrl\":\"//h5.m.taobao.com/shopb/shopactivity.html?activityId=28450206486&sellerId=2053922816&source=2&spm=W-a211f8.1043143&scm=20140619.detail.dpb.0\",\"title\":\"满2件打9.50折,满3件打9.00折,满4件打8.50折\",\"uuid4Cal\":\"28450206486\",\"content\":[\"满2件打9.50折,满3件打9.00折,满4件打8.50折\"]}],\"floatView\":{\"list\":[]}},\"consumerProtection\":{\"items\":[{\"title\":\"7天无理由\",\"desc\":\"满足7天无理由退换货申请的前提下，包邮商品需要买家承担退货邮费，非包邮商品需要买家承担发货和退货邮费。\"},{\"title\":\"蚂蚁花呗\"},{\"title\":\"信用卡支付\"},{\"title\":\"集分宝\"}],\"passValue\":\"all\"},\"skuCore\":{\"sku2info\":{\"0\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"quantity\":\"38\"},\"4633174262883\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"quantity\":\"3\"},\"4633174262886\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"quantity\":\"3\"},\"4633174262884\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"quantity\":\"17\"},\"4633174262885\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"quantity\":\"15\"}},\"skuItem\":{\"location\":\"苏州张家港\",\"recommendTip\":\"抱歉，当前宝贝暂无尺码推荐\",\"buttonText\":\"查看尺码\"},\"abSwitch\":{},\"atmosphere\":{}},\"vertical\":{\"groupChat\":{\"image\":\"//gw.alicdn.com/tfs/TB1Kg_MdoGF3KVjSZFmXXbqPXXa-164-52.png\",\"fansCount\":\"多\",\"title\":\"群主不定时发放专享福利\",\"url\":\"//h5.m.taobao.com/global/open_group_chat/index.html?from=default_detailcard&mixSellerId=X8QWPmv4PkkSPm7-XFHuP8QSPkc0Mm*zPGPzPFI4Xm8T\",\"desc\":\"加入群\"},\"askAll\":{\"askText\":\"宝贝好不好，问问已买的人\",\"askIcon\":\"https://img.alicdn.com/tps/TB1tVU6PpXXXXXFaXXXXXXXXXXX-102-60.png\",\"linkUrl\":\"//market.m.taobao.com/app/mtb/questions-and-answers/pages/list/index.html?refId=629044347913\",\"title\":\"问大家\",\"questNum\":\"0\",\"showNum\":\"2\"}},\"params\":{\"trackParams\":{\"spm\":null,\"aliBizCodeToken\":\"YWxpLmNoaW5hLnRhb2Jhbw==\",\"detailabtestdetail\":\"53966_16451.91613_38126.5154_4504.62734_26416.88548_100513.64356_24229\",\"businessTracks\":\"%7B%2253966%22%3A%2216451%22%2C%2291613%22%3A%2238126%22%2C%2262734%22%3A%2226416%22%2C%2288548%22%3A%22100513%22%2C%2264356%22%3A%2224229%22%7D\",\"detailUniqueId\":\"81c52d28bdcb6508695cc1b44885e46d\",\"layoutId\":\"2027\",\"aliBizCode\":\"ali.china.taobao\"},\"aliAbTestTrackParams\":{\"recommend2018\":\"[{\\\"abtest\\\":\\\"5154_4504\\\",\\\"component\\\":\\\"recommendNewVersion\\\",\\\"releaseId\\\":5154,\\\"module\\\":\\\"2018\\\",\\\"cm\\\":\\\"recommendNewVersion_2018\\\",\\\"experimentId\\\":2021,\\\"bucketId\\\":4504,\\\"trackConfigs\\\":\\\"[]\\\"}]\"},\"umbParams\":{\"aliBizName\":\"ali.china.taobao\",\"aliBizCode\":\"ali.china.taobao\"}},\"promotionFloatingData\":{\"showWarm\":\"true\",\"showNow\":\"true\"},\"layout\":{\"layoutId\":\"TB1CqubkY1YBuNjSszehA1blFXa\",\"templateDBId\":\"2027\",\"config\":{\"dependComponentConfigID\":\"TB166Osa5IRMeJjy0FbhA2nqXXa\",\"dependActionConfigID\":\"TB1CKiJk4WYBuNjy1zkhA0GGpXa\",\"dependThemeConfigID\":\"TB1O1LwiCCWBuNjy0FhhA26EVXa\"}},\"weappData\":{},\"hybrid\":{\"shopRecommendItems\":{\"url\":\"https://market.m.taobao.com/apps/market/detailrax/recommend-shop-bigpage.html?spm=a2116h.app.0.0.16d957e9B7oLGw&wh_weex=true&sellerId=2053922816&itemId=629044347913&selfRmdFlag=true\",\"height\":\"445\",\"spm\":\"\"}},\"trade\":{\"buyEnable\":\"true\",\"cartEnable\":\"true\",\"buyParam\":{},\"cartParam\":{},\"isBanSale4Oversea\":\"false\",\"cartJumpUrl\":\"https://h5.m.taobao.com/awp/base/cart.htm\"},\"feature\":{\"openAddOnTools\":\"false\",\"enableDpbModule\":\"false\",\"showGroupChat\":\"true\",\"hasSku\":\"true\",\"hasNewCombo\":\"false\",\"freshmanRedPacket\":\"true\",\"noShareGroup\":\"true\",\"openNewSku\":\"true\",\"superActTime\":\"false\",\"newPrice\":\"false\",\"newTaobaoActivity\":\"true\",\"openGradient\":\"true\",\"cainiaoNoramal\":\"true\",\"showSku\":\"true\",\"guessYouLike\":\"true\",\"bigImageSkuProp\":\"true\",\"showYaoDai\":\"true\",\"newAddress\":\"true\",\"UTABForceNewSku\":\"true\"},\"price\":{\"price\":{\"priceMoney\":\"26900\",\"priceText\":\"269\",\"type\":\"1\"},\"extraPrices\":[{\"priceMoney\":\"39900\",\"priceText\":\"399\",\"priceTitle\":\"价格\",\"type\":\"2\",\"lineThrough\":\"true\"}],\"priceTag\":[{\"icon\":\"//gw.alicdn.com/imgextra/i1/O1CN01nu3lcu1vpj09TGp1t_!!6000000006222-2-tps-132-36.png\"},{\"text\":\"淘金币可抵8.07元\",\"bgColor\":\"#ff9204\"}],\"transmitPrice\":{\"priceText\":\"269\"}},\"diversion\":{\"detailTopSearch\":{\"url\":\"https://s.m.taobao.com/h5entry?g_channelSrp=detail&placeholder=宽松套头毛衫&showText=宽松套头毛衫&g_historyOn=true&g_csearchdoor_spm=a2141.13130650&itemId=629044347913&detailShopId=110112287\"},\"productRecommend\":{\"request\":{\"api\":\"mtop.relationrecommend.WirelessRecommend.recommend\",\"params\":{\"params\":\"{\\\"itemid\\\":629044347913,\\\"spm\\\":\\\"0.0.0.0.hUro0P\\\",\\\"sellerid\\\":2053922816,\\\"appId\\\":\\\"10777\\\"}\",\"from\":\"dinamicX\",\"appId\":\"10777\"},\"version\":\"2.0\"},\"template\":{\"android\":\"https://ossgw.alicdn.com/rapid-oss-bucket/template_online/tb_shop_recommend/64005743/tb_shop_recommend_android.xml\",\"name\":\"tb_shop_recommend\",\"ios\":\"https://ossgw.alicdn.com/rapid-oss-bucket/template_online/tb_shop_recommend/64005743/tb_shop_recommend_ios.plist\",\"version\":\"37\"},\"preloadUrl\":\"https://gw.alicdn.com/tfs/TB1PS8nBAPoK1RjSZKbXXX1IXXa-1125-1335.png?getAvatar=avatar\"}},\"gallery\":{},\"extendedData\":{},\"skuVertical\":{\"installment\":{\"enable\":\"true\",\"title\":\"花呗分期(可选)\",\"period\":[{\"ratio\":\"0.023\",\"count\":\"3\",\"couponPrice\":\"0\"},{\"ratio\":\"0.045\",\"count\":\"6\",\"couponPrice\":\"0\"},{\"ratio\":\"0.075\",\"count\":\"12\",\"couponPrice\":\"0\"}]}}}",
+      "name": "esi"
+    }
+  ],
+  "mockData": "{\"delivery\":{},\"trade\":{\"buyEnable\":true,\"cartEnable\":true},\"feature\":{\"hasSku\":true,\"showSku\":true},\"price\":{\"price\":{\"priceText\":\"399.00\"}},\"skuCore\":{\"sku2info\":{\"0\":{\"price\":{\"priceMoney\":39900,\"priceText\":\"399.00\",\"priceTitle\":\"价格\"},\"quantity\":400},\"4633174262883\":{\"price\":{\"priceMoney\":39900,\"priceText\":\"399.00\",\"priceTitle\":\"价格\"},\"quantity\":100},\"4633174262886\":{\"price\":{\"priceMoney\":39900,\"priceText\":\"399.00\",\"priceTitle\":\"价格\"},\"quantity\":100},\"4633174262884\":{\"price\":{\"priceMoney\":39900,\"priceText\":\"399.00\",\"priceTitle\":\"价格\"},\"quantity\":100},\"4633174262885\":{\"price\":{\"priceMoney\":39900,\"priceText\":\"399.00\",\"priceTitle\":\"价格\"},\"quantity\":100}},\"skuItem\":{\"hideQuantity\":true}}}"
+}

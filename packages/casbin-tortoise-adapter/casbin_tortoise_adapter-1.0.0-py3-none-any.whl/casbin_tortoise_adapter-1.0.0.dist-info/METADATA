@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: casbin-tortoise-adapter
+Version: 1.0.0
+Summary: Tortoise ORM for AsyncCasbin
+License: Apache-2.0
+Author: Elias Gabriel
+Author-email: me@eliasfgabriel.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: linting
+Requires-Dist: asynccasbin (>=1.1.2,<2.0.0)
+Requires-Dist: black (>=21.7b0,<22.0); extra == "linting"
+Requires-Dist: flake8 (>=3.9.2,<4.0.0); extra == "linting"
+Requires-Dist: isort (>=5.9.2,<6.0.0); extra == "linting"
+Requires-Dist: mypy (>=0.910,<0.911); extra == "linting"
+Requires-Dist: tortoise-orm (>=0.16.6)

@@ -1,0 +1,7 @@
+django_json_logging/__init__.py,sha256=gJaJzJrx_bb2-Bo04cEfc9LcQqETDw28l7toA989yzc,86
+django_json_logging/_stub_settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_logging/logging.py,sha256=ePDtbHb8Vlk-cd4p652ZOXwnVNMd-hlrtydwrJ8d8Ow,531
+django_json_logging/middleware.py,sha256=k6CMEGQH7U4xEAw5pLyoxUJTnuub3LKNYz8y4axxoTw,3285
+django_json_logging-0.0.5.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+django_json_logging-0.0.5.dist-info/METADATA,sha256=XU-9M5QTMYdGkPK0SWtOO9m7mYvcA9ZGnKGKK72P63c,1435
+django_json_logging-0.0.5.dist-info/RECORD,,

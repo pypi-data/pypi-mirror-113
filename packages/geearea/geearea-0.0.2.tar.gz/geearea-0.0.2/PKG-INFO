@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: geearea
+Version: 0.0.2
+Summary: Managing GEE data easily
+Home-page: UNKNOWN
+Author: Jon Rosario
+Author-email: <jonf.rosario@gmail.com>
+License: UNKNOWN
+Description: A Python package for easily managing and downloading Google Earth Engine data defined over geographical area.
+Keywords: python,google earth engine,gee,area
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License

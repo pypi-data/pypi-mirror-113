@@ -1,0 +1,8 @@
+setup.py
+natclip/__init__.py
+natclip/natclip.py
+natclip.egg-info/PKG-INFO
+natclip.egg-info/SOURCES.txt
+natclip.egg-info/dependency_links.txt
+natclip.egg-info/requires.txt
+natclip.egg-info/top_level.txt

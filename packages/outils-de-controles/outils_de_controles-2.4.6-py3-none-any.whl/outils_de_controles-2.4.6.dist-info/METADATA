@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: outils-de-controles
+Version: 2.4.6
+Summary: Outils_de_controles permet de vérifier que des objets sont valides.
+Home-page: UNKNOWN
+Author: Cyprien BONTRON
+Author-email: c.b.e.python@gmail.com
+Maintainer: Cyprien BONTRON
+Maintainer-email: c.b.e.python@gmail.com
+License: CC-BY-NC (Creative Commons, attribution et non commerciale).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: French
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Requires-Python: >=3.7
+
+# Outils_de_controles
+
+[![version](https://img.shields.io/pypi/v/outils-de-controles.svg)](https://pypi.org/project/outils-de-controles/) [![PyVersion](https://img.shields.io/pypi/pyversions/outils-de-controles.svg)](https://pypi.org/project/outils-de-controles/) [![Docs](https://img.shields.io/readthedocs/outils-de-controles)](https://aide-autostats.webnode.fr)
+
+## Project's description
+
+Outils_de_controles is a package to check if objects are valid or not. Currantly the package's documentation is writen in french, but the README file is also in english.
+The "outils de controles" package is a high level way to check and control python's object. The package's objective is  to prevent your program from detecting errors during the process. For exemple, by checking arguments before the method calling, your programm doesn't start modifying the object when it may not be able to finish the expected modifications.
+
+Le package "outils de controles" permet d'avoir des moyens de haut niveaux pour controler et vérifier que certaines conditions sont remplies, dans l'objectif d'eviter que votre programme ne lève des erreurs en cours de processus. Par exemple, en controlant les arguments à l'appel de la methode, votre programme ne commence pas à modifier l'objet alors qu'il risque de pas pouvoir finir les modifications attendues.
+
+## Classes
+Ce package contient plusieurs classes qui vérifient que des objets sont valides :
+- Verificateur qui vérifie qu'un objet non conteneur respecte certains critères (type, minimum, maximum, …)
+- VerificateurConteneurs qui vérifie que les objets conteneurs sont composés d'éléments valides. (Pour chaque élément attendu, il est fourni un ou des identifiants ainsi qu'un objet verificateur.)
+- VerificateurListes qui vérifie qu'une liste est bien valide : on contrôle le nombre d’éléments de la liste et les éléments de la liste. Hérite de VerificateurConteneurs.
+- VerificateurDict qui vérifie qu'un dictionnaire est bien conforme vis-à-vis de l'objet attendu. Hérite de VerificateurConteneurs. (classe prévue pour une version ultérieure)
+- VerificateurStr qui vérifie qu’une chaîne de caractère est bien valide. Hérite de Verificateur.
+- VerificateurTableaux qui vérifie que des tableaux (c'est à dire une liste contenant d'autres listes, qui forme un tableau bi-dimensionnel) sont bien valides. Hérite de VerificateurListes.
+- VerificateurArgumments qui vérifie que les arguments fournis sont bien valides. Hérite de VerificateurConteneurs.
+
+## Décorateurs
+Ce package contient aussi un module avec des décorateurs. Parmi eux, on trouve le décorateur "controle_types" qui vérifie que les arguments passées à des fonctions ou méthodes sont du bon type. Un autre décorateur ("controle_arguments") permet que les arguments vérifient tous les critères de validités définis par les objets vérificateurs.
+
+## License
+**Creative Commons Attribution-NonCommercial (CC-BY-NC)**
+©Cyprien BONTRON (c.b.e.python@gmail.com)
+
+
+

@@ -1,0 +1,8 @@
+requests>=2.0.0
+beautifulsoup4>=4.0.0
+youtube-dl>=2021.6.0
+pdfkit>=0.6.0
+tqdm>=4.0.0
+
+[keyring]
+secretstorage>=3.1.0

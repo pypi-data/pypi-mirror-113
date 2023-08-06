@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+djangorestframework_swagger.egg-info/PKG-INFO
+djangorestframework_swagger.egg-info/SOURCES.txt
+djangorestframework_swagger.egg-info/dependency_links.txt
+djangorestframework_swagger.egg-info/requires.txt
+djangorestframework_swagger.egg-info/top_level.txt
+drfswagger/__init__.py
+drfswagger/urls.py
+drfswagger/templates/swagger-ui.html

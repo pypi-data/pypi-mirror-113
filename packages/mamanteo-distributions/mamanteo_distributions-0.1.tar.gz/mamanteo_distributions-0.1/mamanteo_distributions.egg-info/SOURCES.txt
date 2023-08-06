@@ -1,0 +1,10 @@
+setup.py
+mamanteo_distributions/Binomialdistribution.py
+mamanteo_distributions/Gaussiandistribution.py
+mamanteo_distributions/Generaldistribution.py
+mamanteo_distributions/__init__.py
+mamanteo_distributions.egg-info/PKG-INFO
+mamanteo_distributions.egg-info/SOURCES.txt
+mamanteo_distributions.egg-info/dependency_links.txt
+mamanteo_distributions.egg-info/not-zip-safe
+mamanteo_distributions.egg-info/top_level.txt

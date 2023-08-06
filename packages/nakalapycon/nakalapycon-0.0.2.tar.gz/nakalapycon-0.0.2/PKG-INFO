@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nakalapycon
+Version: 0.0.2
+Summary: Librairie Python pour interagir avec Nakala (Nakala est un entrepôt de données de recherche en SHS développé par Huma-Num)
+Home-page: https://gitlab.huma-num.fr/mshs-poitiers/plateforme/nakalapycon
+Author: Michael Nauge
+License: UNKNOWN
+Project-URL: Issues, https://gitlab.huma-num.fr/mshs-poitiers/plateforme/nakalapycon/-/issues
+Project-URL: CI, https://gitlab.huma-num.fr/mshs-poitiers/plateforme/nakalapycon/-/pipelines
+Project-URL: Changelog, https://gitlab.huma-num.fr/mshs-poitiers/plateforme/nakalapycon/-/blob/master/CHANGELOG.md
+Description: # NakalaPycon
+        
+        Librairie Python pour interagir avec Nakala (Nakala : entrepôt de données de recherche en SHS développé par Huma-Num).
+        
+        ## Cas d'usages
+        
+        ### 1. Intéragir avec Nakala depuis un notebook Jupyter
+        
+        - Générer un rapport de donnnées intéractif en ciblant une collection depuis un notebook jupyter.
+        
+        
+        ### 2. Développer sa chaîne de traitement semi-automatisé intégrant Nakala dans la chaîne
+        
+        - Fabriquer son outils de dépôt et MAJ "sur-mesure" intégrant Nakala.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

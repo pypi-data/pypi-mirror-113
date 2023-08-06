@@ -1,0 +1,12 @@
+README.md
+setup.py
+nakalapycon/src/nakalapycon.egg-info/PKG-INFO
+nakalapycon/src/nakalapycon.egg-info/SOURCES.txt
+nakalapycon/src/nakalapycon.egg-info/dependency_links.txt
+nakalapycon/src/nakalapycon.egg-info/requires.txt
+nakalapycon/src/nakalapycon.egg-info/top_level.txt
+nakalapycon/src/NklTarget.py
+nakalapycon/src/constantes.py
+nakalapycon/src/nakalapycon.py
+nakalapycon/src/nklPullCorpus.py
+nakalapycon/src/nakalapycon.egg-info/SOURCES.txt

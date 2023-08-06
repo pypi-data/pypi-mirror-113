@@ -1,0 +1,16 @@
+nmatheg/__init__.py,sha256=B-RULROrBjGjRS-29jmeV4jSnQrMalJ6i3fjmQ4-aj8,41
+nmatheg/configs.py,sha256=vaXI_A9FDTuy4UbwNTZ-Z9S8kJNrHiDUB2fEjg4rNZw,1519
+nmatheg/dataset.py,sha256=B673OI8HjsG74Dloe8oYSMajMDvjvMCbzG42Z2LZKqw,4670
+nmatheg/datasets.ini,sha256=i1sXrNgzcLoJy5ypeqLN4Y6jhKi2NyHIBoGqFNS4OVU,953
+nmatheg/models.py,sha256=KWc5JnNB70-hoxk_fi2mWx8cfEsw4Q81WCvPxP95wtc,14208
+nmatheg/ner_utils.py,sha256=y2b6vll84omtwIFjiUfgDngCWQaDIb_EhlHl6GRumdg,714
+nmatheg/nmatheg.py,sha256=tf9bpAnPDKc2Wq1OGjvDpTAMwfXzM1H0G7KIIx9HILA,2986
+nmatheg/preprocess_ner.py,sha256=FNd-I_XKKFziov1XNBeTLjmG_OCLBG09hS9-Pb7jZJs,2325
+nmatheg/preprocess_qa.py,sha256=L35QUjLhVd7zpt0z3SYXvOEJpFro0WKUmUBGEei0cho,4987
+nmatheg/qa_utils.py,sha256=0xHnxdThUnYgPgyzp8S28_sf5WsLFdmuGaIayMwjj80,12986
+nmatheg/tests.py,sha256=ipZ-sypLA9RmpNjGrIwGsju0E6YD2DnLSJ189tMu-HY,124
+nmatheg/utils.py,sha256=lPNU6P3fSatcAA6HsROQiy82EOXpAy7S1EpqPJIZlJQ,703
+nmatheg-0.0.4.dist-info/METADATA,sha256=UFTXa2lhrXRTmmvvBp2vZaR8CGBho7SxGwgXZHkyQ8Y,5487
+nmatheg-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nmatheg-0.0.4.dist-info/top_level.txt,sha256=jvyp_1q9n3QSM2k4ah8ev91RT9gVzLPUboSaN5OfGr4,8
+nmatheg-0.0.4.dist-info/RECORD,,

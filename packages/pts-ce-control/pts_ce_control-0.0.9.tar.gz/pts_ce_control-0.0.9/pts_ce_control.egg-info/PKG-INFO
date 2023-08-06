@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pts-ce-control
+Version: 0.0.9
+Summary: Controls the PTS Cell Emulator
+Home-page: https://gitlab.com/julianpass/cell-emulator-control-app
+Author: Pass Testing Solutions GmbH
+Author-email: info@pass-testing.de
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# PTS CE Control Application
+
+
+## Installation
+
+install with
+
+pip install pts-ce-control
+
+
+## Run
+ start with
+
+ pts-ce-control
+
+
+ go to your webbrowser under localhost:8050 to open the webfrontend
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+calRate = proguard_rate.__main__:main
+

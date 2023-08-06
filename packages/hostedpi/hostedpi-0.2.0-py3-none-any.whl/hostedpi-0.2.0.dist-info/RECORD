@@ -1,0 +1,14 @@
+hostedpi/__init__.py,sha256=wc-cTwbT43kMEMOpSG7b2EnwACCy6rKGPzKzUcOpiJw,114
+hostedpi/__version__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+hostedpi/auth.py,sha256=88xJs0LU2O2QFeKOFbzRCJAC10helMGXDevt6zmB91A,1628
+hostedpi/cli.py,sha256=7iv_IpviGH1HqFWD8EHaIaKWJ7fI_9CRDETd04i44Ng,20945
+hostedpi/exc.py,sha256=Ykpt2AKbRhU3nOR_l_cFg7vWOmUEU-pXdrBYvhpCbbo,197
+hostedpi/pi.py,sha256=PjkwnJDvnQyKiMVymCkUcH1VkIeUS4RdbWAphodlzsU,13791
+hostedpi/picloud.py,sha256=_BkLR5ucPE8EeVHgiIs62qjEvbuGIKwmKIYNIwzV4zY,9244
+hostedpi/utils.py,sha256=ilQOMAufFn4eh6Iqo4HOHd0SqEwwMSLCqYLYJhOy_OA,1901
+hostedpi-0.2.0.dist-info/LICENSE.txt,sha256=aX3b0H1cvIyQogMaOCbBf_B3eQKp8TbomkWkhSr4ddo,1571
+hostedpi-0.2.0.dist-info/METADATA,sha256=UIGphb5qlF5pcpC-rmGfqoLE-M4pQr8yxaHkcP_CrF0,4143
+hostedpi-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hostedpi-0.2.0.dist-info/entry_points.txt,sha256=Y48887ElltUcNWHE3PXP4N2A1h5vOW8YoESXPZkLmhE,48
+hostedpi-0.2.0.dist-info/top_level.txt,sha256=Zngc9Qwpv9kC2P4y2BFvnpbOHfh-pO2kkRmDj77r9io,9
+hostedpi-0.2.0.dist-info/RECORD,,

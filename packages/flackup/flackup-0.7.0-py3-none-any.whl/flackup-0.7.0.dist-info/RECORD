@@ -1,0 +1,10 @@
+flackup/__init__.py,sha256=ajTK5wfIoYH8aWQwP_zJwo3EbdBalwQXjY0rhcbfYCU,18
+flackup/cli.py,sha256=Hb-LLuE81KJxgVv1iW4jz75i6zStAAuZw5dQbbM6LOI,11177
+flackup/convert.py,sha256=ju4vdzn5KWiP6vd3RfVkjC9cDOZ2evosS80fM0uRVQo,7698
+flackup/fileinfo.py,sha256=3hrkWXTtoPSK6_q52apB6O4JaQuL7BlfKtUWDYWhXw0,9929
+flackup/musicbrainz.py,sha256=Xd7BKmhukZ6nlc2TQm47k041ZKLcHUMUQiJVaHda3CQ,10500
+flackup-0.7.0.dist-info/METADATA,sha256=icOMkUErlz7ahsjleAV_Scp_GBzKI3XGUt3DrAjUcyI,1820
+flackup-0.7.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+flackup-0.7.0.dist-info/entry_points.txt,sha256=VRo9n3lcNkOT3UB6cFMPOpGsW1kfSs5IPe37u_mugYc,49
+flackup-0.7.0.dist-info/top_level.txt,sha256=eXX7LWTPO1MHJ5SpOshayM5M8G4k45QzLso-gLZikQg,8
+flackup-0.7.0.dist-info/RECORD,,

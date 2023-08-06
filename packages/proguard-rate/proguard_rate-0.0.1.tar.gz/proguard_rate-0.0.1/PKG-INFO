@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: proguard_rate
+Version: 0.0.1
+Summary: 计算代码混淆率
+Home-page: https://github.com/weidongjian/proguardRate
+Author: weidongjian
+Author-email: weidongjian@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/weidongjian/proguardRate/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# proguardRate
+## 计算混淆率
+
+```
+weigan@weigandeMacBook-Pro ~ % python3 proguard.py 
+请输入mapping文件地址：/Users/weigan/Downloads/mapping.txt     
+总的有效行数: 186001 已混淆的行数 120641 混淆率 0.6486040397632271
+```
+
+

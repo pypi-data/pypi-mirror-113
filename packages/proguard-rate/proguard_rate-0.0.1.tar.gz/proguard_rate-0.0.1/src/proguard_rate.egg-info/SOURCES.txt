@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/proguard_rate/__init__.py
+src/proguard_rate/rate.py
+src/proguard_rate.egg-info/PKG-INFO
+src/proguard_rate.egg-info/SOURCES.txt
+src/proguard_rate.egg-info/dependency_links.txt
+src/proguard_rate.egg-info/top_level.txt

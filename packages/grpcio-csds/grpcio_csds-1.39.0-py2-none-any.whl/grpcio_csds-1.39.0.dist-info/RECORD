@@ -1,0 +1,5 @@
+grpc_csds/__init__.py,sha256=MNW9rV4vFMp1jIrPNBlyKY77u-LY1Wifzy0pyohWoDE,2215
+grpcio_csds-1.39.0.dist-info/METADATA,sha256=GgdSMzt-AltUe4A3EJ718xtr58PrsvtFiKj6EnjyRQg,1108
+grpcio_csds-1.39.0.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+grpcio_csds-1.39.0.dist-info/top_level.txt,sha256=PJzJSgTo5iTHN2QkatBtfgM8sE4P4Bz5vVhFeXdq5Bw,10
+grpcio_csds-1.39.0.dist-info/RECORD,,

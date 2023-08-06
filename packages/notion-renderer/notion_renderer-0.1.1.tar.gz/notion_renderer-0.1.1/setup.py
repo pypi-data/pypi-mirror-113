@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['notion_renderer']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['rich>=10.6.0,<11.0.0', 'typer[all]>=0.3.2,<0.4.0']
+
+entry_points = \
+{'console_scripts': ['notion_renderer = notion_renderer.__main__:app']}
+
+setup_kwargs = {
+    'name': 'notion-renderer',
+    'version': '0.1.1',
+    'description': 'Awesome `notion_renderer` is a Python cli/package created with https://github.com/TezRomacH/python-package-template',
+    'long_description': '# notion_renderer\n',
+    'author': 'notion_renderer',
+    'author_email': 'ruucm.a@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/notion_renderer/notion_renderer',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.9,<4.0',
+}
+
+
+setup(**setup_kwargs)

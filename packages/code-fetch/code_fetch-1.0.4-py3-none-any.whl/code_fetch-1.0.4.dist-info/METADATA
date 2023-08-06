@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: code-fetch
+Version: 1.0.4
+Summary: A package to fetch single files from Github repos instead of cloning the whole thing
+Home-page: https://github.com/mordy-python/code-fetch
+Author: Mordy Waldo
+Author-email: imky171@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mordy-python/code-fetch/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+
+# Code Fetch
+
+[![PyPi Version](https://img.shields.io/pypi/v/code_fetch)](https://img.shields.io/pypi/v/code_fetch)&Tab;[![Maintained](https://img.shields.io/maintenance/yes/2021)](https://img.shields.io/maintenance/yes/2021)&Tab;[![Top Languages](https://img.shields.io/github/languages/top/mordy-python/code-fetch)](https://img.shields.io/github/languages/top/mordy-python/code-fetch)
+
+Code fetch is a command line tool for fetching code from a single file on GitHub instead of cloning the whole repository.
+
+## Installation
+
+Install the package from PyPi:
+
+`pip install code_fetch` or `pip3 install code_fetch`
+
+Install the package from source:
+
+`git clone https://github.com/mordy-python/code-fetch.git`
+
+`cd code-fetch`
+
+`python setup.py install`
+
+## Usage
+
+```
+python -m code_fetch [OPTIONS] USER REPO FILE
+
+Options:
+  --save            Save the file to disk
+  --save-file TEXT  The output file
+  --help            Show this message and exit.
+```
+
+

@@ -1,0 +1,9 @@
+unifyconnectorframework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unifyconnectorframework/connector.py,sha256=SAiIjbQBcUUXI2AB3XqU9_MrrJlb0I4edi4w9vBmnPg,6086
+unifyconnectorframework/organization_client.py,sha256=falS4ZR_pPb9YNptij8sFBhY8bBJwYT2_OaDenYTwDE,7967
+unifyconnectorframework/utils.py,sha256=vtPqfUvCRemn-5na2MfpTZFMPvsMmAIXggHAOL0pgpQ,1347
+unify_connector_framework-0.1.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+unify_connector_framework-0.1.4.dist-info/METADATA,sha256=Uom7YOFlHrcx5aBI5LJ9BPoP8m_aSU6rc671x9ZRFQQ,3004
+unify_connector_framework-0.1.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+unify_connector_framework-0.1.4.dist-info/top_level.txt,sha256=G3taEJ_T5MLiNNeqNS6lIRawDlIhXfBx7AcB9HcXNyo,24
+unify_connector_framework-0.1.4.dist-info/RECORD,,

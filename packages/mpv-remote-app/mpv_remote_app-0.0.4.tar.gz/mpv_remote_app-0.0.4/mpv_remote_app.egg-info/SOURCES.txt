@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mpv_remote_app/__init__.py
+mpv_remote_app/media_controllers.py
+mpv_remote_app/media_server.py
+mpv_remote_app.egg-info/PKG-INFO
+mpv_remote_app.egg-info/SOURCES.txt
+mpv_remote_app.egg-info/dependency_links.txt
+mpv_remote_app.egg-info/entry_points.txt
+mpv_remote_app.egg-info/requires.txt
+mpv_remote_app.egg-info/top_level.txt

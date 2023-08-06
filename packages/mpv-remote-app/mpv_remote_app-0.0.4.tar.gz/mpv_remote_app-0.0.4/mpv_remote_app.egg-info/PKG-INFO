@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mpv-remote-app
+Version: 0.0.4
+Summary: Server for the Android application
+Home-page: https://github.com/mcastorina/mpv-remote-app
+Author: miccah
+Author-email: m.castorina93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mpv-remote-app
+Server for an Android application to control the [mpv media player](https://mpv.io/)
+running on a separate computer.
+
+Source: [mcastorina/mpv-remote-app](https://github.com/mcastorina/mpv-remote-app)
+
+## Features
+
+* play / pause
+* fast forward / rewind
+* volume slider
+* fullscreen
+* subtitles toggle
+* audio / subtitle selection
+* file browsing
+* automatically find server
+
+## Donate
+
+I develop this software in my spare time. If you find it useful, consider
+buying me a coffee! Thank you!
+
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/O5O0LAWC)
+
+

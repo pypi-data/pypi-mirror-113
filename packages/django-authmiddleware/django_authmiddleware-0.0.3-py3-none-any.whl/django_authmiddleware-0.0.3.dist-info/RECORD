@@ -1,0 +1,7 @@
+AuthMiddleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AuthMiddleware/middleware.py,sha256=anj5QRjHDNbTE-E0ILioqYDANYom9oNnXVBfNWkEfa0,1342
+django_authmiddleware-0.0.3.dist-info/LICENSE,sha256=jAK_dpfgziuGWCC7CbwI1o64KZcArN9DdV33GasPtn8,1072
+django_authmiddleware-0.0.3.dist-info/METADATA,sha256=UXMaVWBH_rztHgAhRRGZuIwl4vCGWLMMRDAN3Z8PpQc,962
+django_authmiddleware-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_authmiddleware-0.0.3.dist-info/top_level.txt,sha256=2AXw-n20z4d35QrjI9gm3PDGVQgmVFjYa_52SrnUOf0,15
+django_authmiddleware-0.0.3.dist-info/RECORD,,

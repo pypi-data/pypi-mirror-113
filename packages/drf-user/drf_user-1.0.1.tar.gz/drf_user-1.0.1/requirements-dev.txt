@@ -1,0 +1,13 @@
+-r requirements.txt
+black
+Faker
+flake8
+ipython
+model_bakery
+pre-commit
+pytest
+pytest-cov
+pytest-django
+sphinx
+sphinxcontrib_httpdomain
+tox

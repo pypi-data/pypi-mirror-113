@@ -1,0 +1,7 @@
+middle_auth_client/__init__.py,sha256=TkBDgqD9gROinZWg3mAhV8IgxbAU0aqaANVhygqB5Xk,162
+middle_auth_client/decorators.py,sha256=trqd1HyaKA3O6ebHLk28glJpF8mY1tAw37dtDh26tgI,15510
+middle_auth_client/ratelimit.py,sha256=FDQHzFpR6FZdChIsaqPUAXtMliLrprDOG-acuhwUHyY,1082
+middle_auth_client-3.7.0.dist-info/METADATA,sha256=vUiNpauipSbFbewkLW-kwIXhBQz8QRZeAhlCN8DEnDM,441
+middle_auth_client-3.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+middle_auth_client-3.7.0.dist-info/top_level.txt,sha256=1rRM0sDkGAs1cSl1H4T3SbkSmvDfr5URHFjpzx1rIAQ,19
+middle_auth_client-3.7.0.dist-info/RECORD,,

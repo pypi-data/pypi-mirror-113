@@ -1,0 +1,19 @@
+{
+    "xbar":
+    {
+        "capability": true,
+        "max_locs": null,
+        "options":
+        [
+            "meanline",
+            "violin"
+        ]
+    },
+    "capability":
+    {
+        "capability":true,
+        "max_locs": 2,
+        "options":[]
+    }
+
+}

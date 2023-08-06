@@ -1,0 +1,10 @@
+Release
+dist
+build
+*.egg-info
+git_*
+.*project
+.settings
+__pycache__
+*.pyc
+*~

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+foliant/preprocessors/metagraph/__init__.py
+foliant/preprocessors/metagraph/draw.py
+foliant/preprocessors/metagraph/metagraph.py
+foliantcontrib.metagraph.egg-info/PKG-INFO
+foliantcontrib.metagraph.egg-info/SOURCES.txt
+foliantcontrib.metagraph.egg-info/dependency_links.txt
+foliantcontrib.metagraph.egg-info/requires.txt
+foliantcontrib.metagraph.egg-info/top_level.txt

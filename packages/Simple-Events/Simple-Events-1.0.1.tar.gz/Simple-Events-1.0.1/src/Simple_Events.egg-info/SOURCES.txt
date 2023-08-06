@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleEvents/SimpleEvents.py
+src/SimpleEvents/__init__.py
+src/Simple_Events.egg-info/PKG-INFO
+src/Simple_Events.egg-info/SOURCES.txt
+src/Simple_Events.egg-info/dependency_links.txt
+src/Simple_Events.egg-info/top_level.txt

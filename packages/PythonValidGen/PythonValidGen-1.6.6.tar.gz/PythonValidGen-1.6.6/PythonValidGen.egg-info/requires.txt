@@ -1,0 +1,6 @@
+jsonschema
+xmltodict
+datetime
+cbor
+cose
+cryptography

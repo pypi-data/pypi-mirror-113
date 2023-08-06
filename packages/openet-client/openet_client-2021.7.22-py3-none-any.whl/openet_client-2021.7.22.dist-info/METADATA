@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openet-client
+Version: 2021.7.22
+Summary: UNKNOWN
+Home-page: https://github.com/water3d/openet/
+Author: nickrsan
+Author-email: nsantos5@ucmerced.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+

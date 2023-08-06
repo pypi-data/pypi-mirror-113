@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pack-python
+Version: 0.1
+Summary: Projeto Open Source Python
+Home-page: https://github.com/cleysoncassio/Open
+Author: Cleyson Cassio
+Author-email: cleysoncassio@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # **Open**
+        **Opensource Python**
+        
+        Versão do Pyhton:
+        - 3.9.6
+        
+        Link de integração:
+        
+        [![Build Status](https://travis-ci.com/cleysoncassio/Open.svg?branch=master)](https://travis-ci.com/cleysoncassio/Open)
+        
+        [![Updates](https://pyup.io/repos/github/cleysoncassio/Open/shield.svg)](https://pyup.io/repos/github/cleysoncassio/Open/)
+        
+        [![Python 3](https://pyup.io/repos/github/cleysoncassio/Open/python-3-shield.svg)](https://pyup.io/repos/github/cleysoncassio/Open/)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown

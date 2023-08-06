@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pack_python/__init__.py
+pack_python/github_api.py
+pack_python.egg-info/PKG-INFO
+pack_python.egg-info/SOURCES.txt
+pack_python.egg-info/dependency_links.txt
+pack_python.egg-info/not-zip-safe
+pack_python.egg-info/requires.txt
+pack_python.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+ama.requirements.txt
+fclib.requirements.txt
+requirements.txt
+setup.py
+ai-python/__init__.py
+ai-python/fsi/risk.requirements.txt
+ai-python/maro/maro.requirements.txt
+ai_python.egg-info/PKG-INFO
+ai_python.egg-info/SOURCES.txt
+ai_python.egg-info/dependency_links.txt
+ai_python.egg-info/not-zip-safe
+ai_python.egg-info/requires.txt
+ai_python.egg-info/top_level.txt
+test/requirements.txt

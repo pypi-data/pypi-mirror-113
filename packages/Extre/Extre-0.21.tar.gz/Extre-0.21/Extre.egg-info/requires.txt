@@ -1,0 +1,8 @@
+telethon
+python-decouple==3.3
+TgCrypto
+python-dotenv==0.15.0
+cloudscraper
+ExtreMods==2.5
+pymongo
+redis

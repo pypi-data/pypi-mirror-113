@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: figrecipes
+Version: 0.0.5
+Summary: figrecipes is a tool for quickly creating interactive plots for data science.
+Home-page: https://github.com/hackingmaterials/figrecipes
+Author: Anubhav Jain
+Author-email: anubhavster@gmail.com
+License: modified BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE
+
+# FigRecipes
+
+![overview](./docs_rst/_static/overview.png)
+
+A repo to help with interactive plotting in data mining applications. 
+
+Originally packaged with the [matminer code](https://github.com/hackingmaterials/matminer).
+
+- [Source](https://github.com/hackingmaterials/figrecipes)
+- [Docs](https://hackingmaterials.github.io/figrecipes)
+- [Matminer code](https://github.com/hackingmaterials/matminer)
+
+
+Find examples on the [matminer examples repo](https://github.com/hackingmaterials/matminer_examples). 
+

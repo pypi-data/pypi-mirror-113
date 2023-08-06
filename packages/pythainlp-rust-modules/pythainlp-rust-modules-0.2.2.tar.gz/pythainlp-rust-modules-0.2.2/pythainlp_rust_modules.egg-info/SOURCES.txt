@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pythainlp_rust_modules.egg-info/PKG-INFO
+pythainlp_rust_modules.egg-info/SOURCES.txt
+pythainlp_rust_modules.egg-info/dependency_links.txt
+pythainlp_rust_modules.egg-info/requires.txt
+pythainlp_rust_modules.egg-info/top_level.txt

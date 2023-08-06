@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pythainlp-rust-modules
+Version: 0.2.2
+Summary: pythainlp-rust-modules is now nlpo3
+Home-page: https://github.com/PyThaiNLP/nlpo3/
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pythainlp-rust-modules is now nlpo3
+
+This package has been renamed. Use `pip install nlpo3` instead.
+
+New package: https://pypi.org/project/nlpo3/
+
+## Migration
+
+For existing code, change `import oxidized_thainlp` to `import nlpo3`.
+
+All the function names remain the same.
+
+

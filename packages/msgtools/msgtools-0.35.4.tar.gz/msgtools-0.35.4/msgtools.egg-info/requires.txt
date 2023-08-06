@@ -1,0 +1,13 @@
+janus
+jinja2
+numpy==1.18
+pyyaml
+websockets
+
+[gui]
+pyqt5
+pyqtgraph
+qscintilla
+
+[serverserial]
+pyqtserial

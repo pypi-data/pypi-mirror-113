@@ -1,0 +1,13 @@
+ldtk_intgrid_creator/__init__.py,sha256=8ZMv8CsGCaUL-n6QsqdTK7OqvlXrXsqSnlrMm8S-GHo,88
+ldtk_intgrid_creator/__main__.py,sha256=285te-7Zbqnc0JuadYm9Pr_dx0wBJsg5Wpy_M5fc6JE,1596
+ldtk_intgrid_creator/dict_templates.py,sha256=6zu4WR2orh2aUr1nAernQz5vRcXRVLrmNzonZkCbhOY,1447
+ldtk_intgrid_creator/group_creator.py,sha256=DiIqdELCAXllnzhTJMYjIsuWMBCVWCViu8lZJ8Gf_jQ,3304
+ldtk_intgrid_creator/level_creator.py,sha256=s-3oJRIUBi_l-dIyE-v6B96gxLwkQVdL7hnga1pXoG8,5173
+ldtk_intgrid_creator/rule_creator.py,sha256=TsWX0DR56xQqM7NMJ0GVLBhqsXdYhZLwsh7jpGfQcO8,3062
+ldtk_intgrid_creator/simplifier.py,sha256=pgKQkZIx1N7KbC6k1GFGNO_41LMhx-FGPl4scbZDkJI,4371
+ldtk_intgrid_creator/utilities.py,sha256=8PaaOll8O21kgVGGKe3zusvNn_9jWoGdPeYbJxz6xkE,99
+ldtk_intgrid_creator-0.2.0.dist-info/METADATA,sha256=--O5ygIGigd5IvFSyMDXiKFdf0UHAbthjp_zesby0k0,1797
+ldtk_intgrid_creator-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ldtk_intgrid_creator-0.2.0.dist-info/entry_points.txt,sha256=g_ZNh1OZKTgoUr2yamG5j6vQNmVwPl0DvceCmrta50E,73
+ldtk_intgrid_creator-0.2.0.dist-info/top_level.txt,sha256=Ls1Wqj19zk9KyrTo_l5eli8gFQjhxVMDiA9qHBfr6cw,21
+ldtk_intgrid_creator-0.2.0.dist-info/RECORD,,

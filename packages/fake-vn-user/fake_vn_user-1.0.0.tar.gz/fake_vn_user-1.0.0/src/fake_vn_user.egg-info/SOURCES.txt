@@ -1,0 +1,8 @@
+License.txt
+README.md
+pyproject.toml
+setup.py
+src/fake_vn_user.egg-info/PKG-INFO
+src/fake_vn_user.egg-info/SOURCES.txt
+src/fake_vn_user.egg-info/dependency_links.txt
+src/fake_vn_user.egg-info/top_level.txt

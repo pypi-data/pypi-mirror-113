@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: toml-adapt
+Version: 0.1.4
+Summary: 
+Author: iztokf
+Author-email: iztokf@fedoraproject.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: toml (>=0.10.2,<0.11.0)

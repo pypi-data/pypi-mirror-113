@@ -1,0 +1,16 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/play_games.py,sha256=BBuehm3_qVcDyY84bCVo5T8c9xoxwiwEmAzijgdpn78,1042
+src/2048/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/2048/game.py,sha256=CZtL644jE5Wp6ntWtB4ElbJfAHTJx1yAXeAhUShj98E,1126
+src/2048/game_bot_automaticplay.py,sha256=zHpzUF5GEh8FOcLlNgLs4sC9r_0s6yxBNj0Tso1dU9o,619
+src/2048/logic_2048.py,sha256=B-DG3Y8MksxOdFe29Lewjtd1m5S4tAXf6nqt6rJisvU,2594
+src/2048/start_play.py,sha256=47tdneuc4kWY5MT9pAdBmxeQLTfb2WdUOjOcEAAWL_Q,479
+src/MineSweeper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/MineSweeper/minesweeper.py,sha256=uTaXBhRioWVXoN71sdehUm5gUtsTC5Wmiqutpt08Se4,5151
+src/TicTacToe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/TicTacToe/tic_tac_toe_bot.py,sha256=BFyM3DH9Np560e9-DgV0Y0mjpMt7H-tj4c099M1hIdM,5110
+fun_games_0.2-0.2.dist-info/METADATA,sha256=ZTDLYtUpHziI4RlSqpct67_iduIKH37wldtEGERbY-4,136
+fun_games_0.2-0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fun_games_0.2-0.2.dist-info/entry_points.txt,sha256=yIoaTc9Kki89x75ZdpgSdP6enUmXlOfoB45ol-TqQfY,47
+fun_games_0.2-0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+fun_games_0.2-0.2.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+termvid/__init__.py,sha256=XBjlx7CnQ8KxMk2XPzOohnTrA_Yuw_ZaOAnM-fZ2-n0,36
+termvid/__main__.py,sha256=hqDCptw56WF30WGKfUIbpsgd11691huZkeV69qf-jFg,2003
+termvid/client.py,sha256=QQjH216zmt8_2ldk3zFGd5-utOcam0CibXuLuOOZFXc,786
+termvid/frame.py,sha256=-dxztkomHXIpclEudAjMmv1hLAiTicLEelHInA0WU_I,2548
+termvid/norma.py,sha256=04ecZDsYjQDw3S96S3VCAeDC11FTQXUxQaLHiFh8rfs,95
+termvid/player.py,sha256=IYaYUZ683vkdRxldgpFunz9hKoFzR7XkK6_dpPkcFrA,325
+termvid/runner.py,sha256=eABFCON9IiU-zbSHbCw5Z4Erkox8vj6pwmt669ZkXxM,1796
+termvid-0.0.4.data/scripts/termvid,sha256=A6QVsziM-NNgdAn5oOfK-gDEvgWSevHGnIRY1ciV0Ps,41
+termvid-0.0.4.dist-info/LICENSE,sha256=fy4EAfCSAPatAiYlAjD-fL3oBsR6vlP96blvILgU6jc,122
+termvid-0.0.4.dist-info/METADATA,sha256=bFyQgMYq-AERSngYI5Z1horr6x0WtRSwpGGuR2dVTAQ,465
+termvid-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+termvid-0.0.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+termvid-0.0.4.dist-info/top_level.txt,sha256=8jMIQ6Z0blyt-2K0zJknk64kLHcZxs0iisnYfQ4cxlc,8
+termvid-0.0.4.dist-info/RECORD,,

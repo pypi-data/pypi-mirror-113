@@ -1,0 +1,3 @@
+[console_scripts]
+fword = hello_world:hw
+

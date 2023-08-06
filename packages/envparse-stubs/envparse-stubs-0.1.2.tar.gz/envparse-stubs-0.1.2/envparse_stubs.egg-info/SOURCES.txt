@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+envparse-stubs/__init__.pyi
+envparse_stubs.egg-info/PKG-INFO
+envparse_stubs.egg-info/SOURCES.txt
+envparse_stubs.egg-info/dependency_links.txt
+envparse_stubs.egg-info/requires.txt
+envparse_stubs.egg-info/top_level.txt

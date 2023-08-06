@@ -1,0 +1,17 @@
+foliant/backends/confluence/__init__.py,sha256=3V5aLYdrjlKdXb692sn82qOH2yfMl_3EZmX_bHrCuYc,32
+foliant/backends/confluence/confluence.py,sha256=J12nT03uU67IGTVUlFgm_l3h5oHznh0aPSEFCVIewXw,10467
+foliant/backends/confluence/constants.py,sha256=Djs7ZibJBPZtMb5xnSCYaf36c2Z7drq1NSNjvn2eNDk,176
+foliant/backends/confluence/convert.py,sha256=lSqvVpv5l9odLLyAu67sQEr5GJ1Gng4vMIQMfIXINw8,9982
+foliant/backends/confluence/extracter.py,sha256=0ebn976Ipk6Qr8-eamdO7vKte7XON-TX2hFi1ekxOJg,3405
+foliant/backends/confluence/ref_diff.py,sha256=Ih1NLHzxFigYwW-hFXciw6PfSVZ49QOfNxcxl_ijMXo,17510
+foliant/backends/confluence/uploader.py,sha256=AhraLT7L-9ao2TyqgYMGwE4zwn1p7NLfS9LdL-QBfmo,9078
+foliant/backends/confluence/wrapper.py,sha256=FvcKTW6XNvDEVmvDUerewf3tCyncJH0AOV5sPK5dlPw,11789
+foliant/preprocessors/confluence.py,sha256=mPXzXe1IV5bf6RFSMsODXBKQXTnppysNRY1387-KA1Q,9067
+foliant/preprocessors/confluence_final/__init__.py,sha256=ER8Sn5o24iCGgFKe62aSs3jZcm2jIMm0k1YU7Lvi_vc,43
+foliant/preprocessors/confluence_final/confluence_final.py,sha256=Qz0aHsPcgQ6GKogVOe0Jd29HWSdf9-TZoi8uqVzkYDQ,2947
+foliant/preprocessors/confluence_final/process.py,sha256=4-u9Or4QkRO-s3Qr4CtLxoUcVOdtfcDHCTXaC_ShUYE,9601
+foliantcontrib.confluence-0.6.19.dist-info/LICENSE,sha256=PcpIEXOcZ-oV3M2SNR9hp93rNJiGp6IPAElRlkoQs0g,1069
+foliantcontrib.confluence-0.6.19.dist-info/METADATA,sha256=1olDhv2j6blput73iWt2rKedRaOMy1IMjiKwNWJhUTE,22697
+foliantcontrib.confluence-0.6.19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+foliantcontrib.confluence-0.6.19.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.confluence-0.6.19.dist-info/RECORD,,

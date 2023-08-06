@@ -1,0 +1,5 @@
+tinydb
+requests
+pydantic
+python-dotenv
+ebooklib

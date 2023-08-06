@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dashtx/__init__.py
+dashtx/version.py
+dashtx/wallet.py
+dashtx/core/__init__.py
+dashtx/core/script.py
+dashtx/tests/__init__.py
+dashtx/tests/test_wallet.py
+python_dashtx.egg-info/PKG-INFO
+python_dashtx.egg-info/SOURCES.txt
+python_dashtx.egg-info/dependency_links.txt
+python_dashtx.egg-info/not-zip-safe
+python_dashtx.egg-info/requires.txt
+python_dashtx.egg-info/top_level.txt

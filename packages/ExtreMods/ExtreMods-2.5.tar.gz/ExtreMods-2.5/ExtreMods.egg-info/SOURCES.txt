@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ExtreMods.egg-info/PKG-INFO
+ExtreMods.egg-info/SOURCES.txt
+ExtreMods.egg-info/dependency_links.txt
+ExtreMods.egg-info/requires.txt
+ExtreMods.egg-info/top_level.txt
+userbot/__init__.py
+userbot/__main__.py

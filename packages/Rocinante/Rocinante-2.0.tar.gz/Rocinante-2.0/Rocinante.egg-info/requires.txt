@@ -1,0 +1,5 @@
+Werkzeug
+gevent
+gevent-websocket
+Jinja2
+loguru

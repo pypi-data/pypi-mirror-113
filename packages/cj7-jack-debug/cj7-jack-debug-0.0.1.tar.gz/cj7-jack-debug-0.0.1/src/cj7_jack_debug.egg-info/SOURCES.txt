@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cj7/__init__.py
+src/cj7/cj7.py
+src/cj7_jack_debug.egg-info/PKG-INFO
+src/cj7_jack_debug.egg-info/SOURCES.txt
+src/cj7_jack_debug.egg-info/dependency_links.txt
+src/cj7_jack_debug.egg-info/top_level.txt

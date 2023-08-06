@@ -1,0 +1,6 @@
+serialio.c
+setup.py
+ns_serial.egg-info/PKG-INFO
+ns_serial.egg-info/SOURCES.txt
+ns_serial.egg-info/dependency_links.txt
+ns_serial.egg-info/top_level.txt

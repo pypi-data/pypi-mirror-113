@@ -1,0 +1,9 @@
+aniparser/__init__.py,sha256=WP_llJYShh_8NTTUiSvlnkHa_knUq1j-i1rvZ3BabwA,71
+aniparser/constants.py,sha256=l9cI9Ivj6Tw7zAEpTIt4uthLvXtuFB3eWVYnZeQsl8s,1350
+aniparser/parser.py,sha256=Nd1vseWrQFRCCKMpcPBj6mva_QNnLsqT3SPL0C-CBCk,8261
+aniparser/regexes.py,sha256=qs27k1rpuDT5jNxnEWpwWY8Y97nYhI0W_OMUnU0CWrI,1576
+aniparser-0.0.1.dist-info/LICENSE,sha256=dn2HEotyg-7eroayh75ITdMDQPMNlHCvYmFQSTjwHZY,1065
+aniparser-0.0.1.dist-info/METADATA,sha256=7wf6s-vy9A3F5n0vN6P_4kZsE0VPTcignoIJGITHPM8,1936
+aniparser-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aniparser-0.0.1.dist-info/top_level.txt,sha256=EICFcTvr1ENF1hIapqvpXvJMOfUbL3XECCsLsoEE9o8,10
+aniparser-0.0.1.dist-info/RECORD,,

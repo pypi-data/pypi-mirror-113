@@ -1,0 +1,16 @@
+surepy/__init__.py,sha256=p_WHZTpQv5oNva4bxOy2WqhjSGsJgSJG3NolBDnGNrg,13103
+surepy/client.py,sha256=lUwMEMVwEmuT5SVhIF9U6jiZCAc8Kc0fTwG_xOrype0,11800
+surepy/const.py,sha256=_rdmMZoKG8EjmVtliMTBy0AzzcZbKwq2COxJRHMItes,1529
+surepy/entities/__init__.py,sha256=WZiPDSntXQ5mYpU2LnOX0VM9-LB82eJE1XlYnpRnnx4,1805
+surepy/entities/devices.py,sha256=EInfZPBnv3A9oSxn1jr0jq-sjVbkBce_vX8ILaQoV38,5761
+surepy/entities/pet.py,sha256=EY1qaqQA7Dedq-GkXSoUQevJ5b8cTztVfmpTaHULdDA,4031
+surepy/entities/states.py,sha256=nmFQPgFbBwze0u0eLcULgSaRU478VO4PBT5ZGPVcaTw,2018
+surepy/enums.py,sha256=vqEPCmRmfGei920jwd7ceby2h5p9i8t4s2u59JL0cUA,1202
+surepy/exceptions.py,sha256=ynIWhRq7q6WL6GkvFQMKNfHgI68xRhom131p5NutqgY,309
+surepy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+surepy/surecli/__init__.py,sha256=vEp3wVoFo6p-fG9bRQn48CP72VbmMzt6X0TnhwHG17s,14931
+surepy-0.7.0.dist-info/entry_points.txt,sha256=RRwtLTOBJVdiDGIE7Ww5H79o23noTzBgAhyEUswEOW4,45
+surepy-0.7.0.dist-info/LICENSE,sha256=aZCMOdV0XPB6_xx3pViOO7OFYDwl6kRVzSlvPAnkFRM,1068
+surepy-0.7.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+surepy-0.7.0.dist-info/METADATA,sha256=9CgK4lFKtwDkuYNH-UKf2cFEeGWFmmMqRfLtoafn6qQ,8229
+surepy-0.7.0.dist-info/RECORD,,

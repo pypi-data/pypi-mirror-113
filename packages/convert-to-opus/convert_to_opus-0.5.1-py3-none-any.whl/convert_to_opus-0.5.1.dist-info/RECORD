@@ -1,0 +1,8 @@
+convert_to_opus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convert_to_opus/__main__.py,sha256=xv9RL_ubiO_eUUeBQVkuGD6EjwJN_pBcTkCU_d4tLNU,3851
+convert_to_opus/converter.py,sha256=CKV0koNfUOkFxHiu1Is5YQ8FjlgWJgE7QazhGyZV0GM,1420
+convert_to_opus-0.5.1.dist-info/LICENSE,sha256=9_Ugh-L1166Q2wqhQriA0BWoNmpm4eLnuv9Kptxc4Ps,1082
+convert_to_opus-0.5.1.dist-info/METADATA,sha256=Mwj9xE3ARB9rX2EzGnf5Yx3SllKPOaSGl-KNpvvH4Pc,1311
+convert_to_opus-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+convert_to_opus-0.5.1.dist-info/top_level.txt,sha256=iATfrQYBcovRv345T8VDU22ATKYBDdOm1VXmsfY2cvE,16
+convert_to_opus-0.5.1.dist-info/RECORD,,

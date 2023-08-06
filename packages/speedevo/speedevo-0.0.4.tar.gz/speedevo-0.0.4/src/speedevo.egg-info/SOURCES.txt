@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/speedevo/__init__.py
+src/speedevo/speedevo.py
+src/speedevo.egg-info/PKG-INFO
+src/speedevo.egg-info/SOURCES.txt
+src/speedevo.egg-info/dependency_links.txt
+src/speedevo.egg-info/requires.txt
+src/speedevo.egg-info/top_level.txt

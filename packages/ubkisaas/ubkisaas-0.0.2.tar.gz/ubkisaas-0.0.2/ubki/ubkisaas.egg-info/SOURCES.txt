@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ubki/ubkisaas.egg-info/PKG-INFO
+ubki/ubkisaas.egg-info/SOURCES.txt
+ubki/ubkisaas.egg-info/dependency_links.txt
+ubki/ubkisaas.egg-info/requires.txt
+ubki/ubkisaas.egg-info/top_level.txt

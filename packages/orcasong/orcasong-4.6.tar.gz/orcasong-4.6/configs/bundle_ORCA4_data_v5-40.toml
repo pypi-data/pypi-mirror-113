@@ -1,0 +1,6 @@
+# for atmospheric muon bundles, data ORCA4, graph network
+mode = "graph"
+extractor = "bundle_data"
+
+[extractor_config]
+only_downgoing_tracks = true

@@ -1,0 +1,5 @@
+setup.py
+create_hashtag_script.egg-info/PKG-INFO
+create_hashtag_script.egg-info/SOURCES.txt
+create_hashtag_script.egg-info/dependency_links.txt
+create_hashtag_script.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+bigquery_validator/__init__.py,sha256=duu4Rg6C5GLJTYp5-tZZmkC-PiojWXBS_pcRKAquNP8,81
+bigquery_validator/__main__.py,sha256=8Vd7R9wAI2TQ8YKWXX0SIBknMAIXm9uZxjCQ4Q8yfIk,1495
+bigquery_validator/bigquery_validator.py,sha256=k56skC_RBvFu2E3dfUEjLhNccFWKj4APNWrkpAmZ0mw,6536
+bigquery_validator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigquery_validator/tests/bigquery_validator_test.py,sha256=Ta_PebusCNO9X-dVXjREa8qsrj2PB8WTkqtkHPMKx14,2016
+bigquery_validator/tests/query_validator_config.py,sha256=g8oJe-1_l39GFxjAxTKIr9AGPIm50L15lmPTlf5Tl8Q,39
+config/__init__.py,sha256=u0xxb2ZYQsNPGEUgCJBUPkGM5fTf81Fx9m-pz85WFPs,39
+config/config.py,sha256=jqzyc7WdSW29R5OHbqcskfbzqmRg0lCrq6-ytevtDi4,487
+python_bigquery_validator-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+python_bigquery_validator-0.0.4.dist-info/METADATA,sha256=EwOlLCT1FyHz_R-mslLDUd5Zw3K0S_YMaRxFY7LmPa8,2569
+python_bigquery_validator-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_bigquery_validator-0.0.4.dist-info/top_level.txt,sha256=8NedJNCAojgqC4ywxmwWK8nNICjCY3Gvh4DKn6j9Y_A,26
+python_bigquery_validator-0.0.4.dist-info/RECORD,,

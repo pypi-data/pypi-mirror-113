@@ -1,0 +1,4 @@
+[console_scripts]
+loq = loqet.loq_cli:loq_cli
+loqet = loqet.loqet_cli:loqet_cli
+

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: backup-runner
+Version: 0.2.0
+Summary: Run a backup script on your local server
+Home-page: https://github.com/Senth/backup-runner
+Author: Matteus Magnusson
+Author-email: senth.wallace@gmail.com
+License: MIT
+Description: # Backup Runner
+        
+        Run a backup script on your local server
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

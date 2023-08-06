@@ -1,0 +1,3 @@
+[console_scripts]
+tfresurrect=tfresurrect.cli:cli
+

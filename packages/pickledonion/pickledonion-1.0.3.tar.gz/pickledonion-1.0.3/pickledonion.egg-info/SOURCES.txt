@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pickledonion/__init__.py
+pickledonion/decorators.py
+pickledonion/hashing.py
+pickledonion.egg-info/PKG-INFO
+pickledonion.egg-info/SOURCES.txt
+pickledonion.egg-info/dependency_links.txt
+pickledonion.egg-info/top_level.txt

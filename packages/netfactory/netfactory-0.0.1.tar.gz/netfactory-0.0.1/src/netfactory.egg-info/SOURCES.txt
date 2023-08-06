@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/netfactory.egg-info/PKG-INFO
+src/netfactory.egg-info/SOURCES.txt
+src/netfactory.egg-info/dependency_links.txt
+src/netfactory.egg-info/top_level.txt

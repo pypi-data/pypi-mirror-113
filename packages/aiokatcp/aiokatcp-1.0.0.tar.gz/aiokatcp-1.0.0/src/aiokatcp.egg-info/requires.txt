@@ -1,0 +1,14 @@
+decorator>=4.1
+async-timeout
+
+[doc]
+sphinx
+sphinx-autodoc-typehints
+sphinxcontrib-asyncio
+sphinx-rtd-theme
+
+[test]
+async-solipsism
+pytest
+pytest-asyncio
+pytest-mock

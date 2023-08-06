@@ -1,0 +1,7 @@
+README.md
+setup.py
+miniwdl_gwfcore_studio/miniwdl_aws_studio.egg-info/PKG-INFO
+miniwdl_gwfcore_studio/miniwdl_aws_studio.egg-info/SOURCES.txt
+miniwdl_gwfcore_studio/miniwdl_aws_studio.egg-info/dependency_links.txt
+miniwdl_gwfcore_studio/miniwdl_aws_studio.egg-info/requires.txt
+miniwdl_gwfcore_studio/miniwdl_aws_studio.egg-info/top_level.txt

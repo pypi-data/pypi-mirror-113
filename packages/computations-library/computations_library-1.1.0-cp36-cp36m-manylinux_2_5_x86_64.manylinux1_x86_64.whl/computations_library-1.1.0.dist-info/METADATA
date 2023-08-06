@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: computations-library
+Version: 1.1.0
+Summary: A classification library used to compute ravi strategy for now
+Home-page: UNKNOWN
+Author: Mohit Sharma
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.18.1)
+Requires-Dist: Cython (>=0.29.22)
+
+# Computations Library
+
+*A computations library to compute historical data using RAVI strategy for now. More will be coming later.*
+
+## Installation
+
+Try:
+
+```
+pip install computations_library
+```
+

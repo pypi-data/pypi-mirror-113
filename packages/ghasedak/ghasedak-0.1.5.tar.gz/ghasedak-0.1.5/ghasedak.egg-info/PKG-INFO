@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ghasedak
+Version: 0.1.5
+Summary: Ghasedak sms webservice api wrapper for python.
+Home-page: http://github.com/ghasedakapi/ghasedak-python
+Author: Dariush Abbasi
+Author-email: poshtehani@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Ghasedak-python
+
+[Ghasedak sms webservice](https://ghasedak.me) python package.
+
+## installation
+
+You can simply install ghasedak python package with `pip`:
+
+```shell
+pip install ghasedak
+```
+
+## usage
+
+
+```python
+import ghasedak
+
+sms = ghasedak.Ghasedak("Your APIKEY")
+
+sms.send({'message':'hello, world!', 'receptor' : '09xxxxxxxxx', 'linenumber': 'xxxx', 'senddate': '', 'checkid': ''})
+
+sms.bulk1({'message':'hello, world!', 'receptor' : '09xxxxxxxxx,09xxxxxxxxx,09xxxxxxxxx', 'linenumber': 'xxxx', 'senddate': '', 'checkid': ''})
+```
+
+## license
+
+Released under the MIT License.
+
+

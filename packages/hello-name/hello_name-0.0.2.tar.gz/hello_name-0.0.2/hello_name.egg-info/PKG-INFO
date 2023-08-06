@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: hello-name
+Version: 0.0.2
+Summary: python package to print name with hello
+Home-page: https://github.com/PrathamBapat/hello_name/tree/main/
+Author: Prathamesh Bapat
+Author-email: pbapat3@uic.edu
+License: Apache Software License 2.0
+Keywords: hello world
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hello Name
+> Print names with HelloSayer class using say() method
+
+
+## Install
+
+`pip install hello_name`
+
+## How to use
+
+#### from hello_name.core import *
+
+`Now use HelloSayer('a').say`
+
+## Examples
+
+```python
+a = HelloSayer('a')
+a.say()
+```
+
+
+
+
+    'hello a'
+
+
+
+

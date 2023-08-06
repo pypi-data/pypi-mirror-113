@@ -1,0 +1,4 @@
+foliant>=1.0.5
+jinja2
+pydbml>=0.4.1
+foliantcontrib.utils>=1.0.2

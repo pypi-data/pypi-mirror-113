@@ -1,0 +1,13 @@
+glycopeptidepy/_c/collectiontools.pyd
+glycopeptidepy/_c/count_table.pyd
+glycopeptidepy/_c/parser.pyd
+glycopeptidepy/_c/structure/base.pyd
+glycopeptidepy/_c/structure/constants.pyd
+glycopeptidepy/_c/structure/fragment.pyd
+glycopeptidepy/_c/structure/sequence_methods.pyd
+glycopeptidepy/_c/structure/fragmentation_strategy/base.pyd
+glycopeptidepy/_c/structure/fragmentation_strategy/glycan.pyd
+glycopeptidepy/_c/structure/fragmentation_strategy/peptide.pyd
+glycopeptidepy/_c/structure/modification/modification.pyd
+glycopeptidepy/_c/structure/modification/rule.pyd
+glycopeptidepy/_c/structure/modification/source.pyd

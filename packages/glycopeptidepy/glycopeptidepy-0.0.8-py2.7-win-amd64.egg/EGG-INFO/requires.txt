@@ -1,0 +1,5 @@
+glypy
+six
+lxml
+rdflib
+SPARQLWrapper

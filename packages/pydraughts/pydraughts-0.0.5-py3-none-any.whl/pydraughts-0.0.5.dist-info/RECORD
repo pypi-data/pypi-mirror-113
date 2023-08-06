@@ -1,0 +1,11 @@
+draughts/__init__.py,sha256=QRLcDz2rmAgOVDfPlRaUlS6tZtnQbJaqQsjIthsp2EM,45
+draughts/board.py,sha256=8fwn41ovKK6mCy2q7mGE-ELjRUjvyiwrs76ymq6hV4A,5106
+draughts/board_initializer.py,sha256=rUFjjLlm2JtS1jCdtIRVsLAb-_S-GT_fqvRHeC7LmHg,2300
+draughts/board_searcher.py,sha256=pjAlt5BmqLbcNYHmynWM37C-3o7r3ST18TpgiHEwR78,2261
+draughts/game.py,sha256=X-vdwUr9cyXVTfiajLcLsMxN2bpgePQu6a8JsmKMC1g,13939
+draughts/piece.py,sha256=QtgHafXdvhyOkJEUt3un65p1WNdsjKvDAV-dHgImcc8,20923
+pydraughts-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydraughts-0.0.5.dist-info/METADATA,sha256=2O6byU5ejNet8uzQdeyJ8aExwNpnYcY3qtLpwfxJaSA,1623
+pydraughts-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pydraughts-0.0.5.dist-info/top_level.txt,sha256=5loL7QGIeHGTHRrdYLghS98s--iSeM-BHD0dQ_7KJo8,9
+pydraughts-0.0.5.dist-info/RECORD,,

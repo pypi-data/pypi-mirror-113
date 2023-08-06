@@ -1,0 +1,10 @@
+girder_client_mount/__init__.py,sha256=9aX-Kh9RYwBRLu8C6FV7qbNhcKEu0aBFITDPxQ5WhIk,43
+girder_client_mount/girder_client_mount.py,sha256=sAWwJWYvcGahI9KJshdCPtWzOrG6XtHnCzLzv_g-NHs,23536
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mount.py,sha256=Vul1zK4S7O_Kw4R1jst0v2yEs6EMNZ6giR-EFJ9nbSo,2449
+girder_client_mount-0.1.8.dev6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+girder_client_mount-0.1.8.dev6.dist-info/METADATA,sha256=Sc7bCCB5jEL_ENG4O_IceydIJ1Wyl2ST4KBCLX3lu98,1717
+girder_client_mount-0.1.8.dev6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+girder_client_mount-0.1.8.dev6.dist-info/entry_points.txt,sha256=dz4TTSB6hEq7RTttm7vp39677hTcg8x7brxWAVu_yL0,66
+girder_client_mount-0.1.8.dev6.dist-info/top_level.txt,sha256=J4_5zHWr_bcFLs2X_kryNrmFzhFrLvGIGG2MMSoyoTE,26
+girder_client_mount-0.1.8.dev6.dist-info/RECORD,,

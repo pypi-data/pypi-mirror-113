@@ -1,0 +1,143 @@
+import asyncio
+import json
+import websockets
+
+from ..models import Post
+
+
+class Client:
+    def __init__(self, host, port):
+        self.uri = f"ws://{host}:{port}"
+
+    async def _send(self, data):
+        # Encode data into utf-8 json
+        data = json.dumps(data)
+
+        async with websockets.connect(self.uri) as websocket:
+            await websocket.send(data)
+
+            response = await websocket.recv()
+            return json.loads(response)
+
+    def send(self, data: dict):
+        return asyncio.get_event_loop().run_until_complete(self._send(data))
+
+    def login(self, username, password):
+        response = self.send({
+            "ACTION": "LOGIN",
+            "USERNAME": username,
+            "PASSWORD": password
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return response
+
+    def create_post(self, title, content, username, user_id):
+        response = self.send({
+            "ACTION": "CREATE_POST",
+            "TITLE": title,
+            "CONTENT": content,
+            "USERNAME": username,
+            "USER_ID": user_id
+        })
+
+        return response["STATUS"] == "SUCCESSFUL"
+
+    def get_user_by_username(self, username):
+        response = self.send({
+            "ACTION": "GET_USER_USERNAME",
+            "USERNAME": username
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return response
+
+    def get_user_by_email(self, email):
+        response = self.send({
+            "ACTION": "GET_USER_EMAIL",
+            "EMAIL": email
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return response
+
+    def get_user_by_id(self, user_id):
+        response = self.send({
+            "ACTION": "GET_USER_ID",
+            "USER_ID": user_id
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return response
+
+    def get_post(self, post_id, user_id):
+        response = self.send({
+            "ACTION": "GET_USER",
+            "POST_ID": post_id,
+            "USER_ID": user_id
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return response
+
+    def get_all_posts(self, user_id):
+        response = self.send({
+            "ACTION": "GET_ALL_POSTS",
+            "USER_ID": user_id
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            out = []
+            for post in json.loads(response["POSTS_JSON"]):
+                p = Post()
+                p.from_json(post)
+                out.append(p)
+            return out
+
+    def update_user(self, user_id, new_values):
+        payload = {
+            "ACTION": "UPDATE_USER",
+            "USER_ID": user_id
+        }
+        payload.update(new_values)
+
+        response = self.send(payload)
+
+        return response["STATUS"] == "SUCCESSFUL"
+
+    def delete_post(self, post_id, user_id):
+        response = self.send({
+            "ACTION": "DELETE_POST",
+            "POST_ID": post_id,
+            "USER_ID": user_id
+        })
+
+        return response["STATUS"] == "SUCCESSFUL"
+
+    def verify_email(self, email, username):
+        response = self.send({
+            "ACTION": "VERIFY_EMAIL",
+            "EMAIL": email,
+            "USERNAME": username,
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return True
+
+        return None
+
+    def check_verification_code(self, email, username, password, age, major, code):
+        response = self.send({
+            "ACTION": "CHECK_VERIFICATION_CODE",
+            "EMAIL": email,
+            "USERNAME": username,
+            "PASSWORD": password,
+            "AGE": age,
+            "MAJOR": major,
+            "CODE": code
+        })
+
+        if response["STATUS"] == "SUCCESSFUL":
+            return True
+
+        return response["ERROR_CODE"]

@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: vltk
+Version: 1.0.3
+Summary: The Vision-Language Toolkit (VLTK)
+Home-page: UNKNOWN
+Author: Antonio Mendoza
+Author-email: antonio36764@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: appdirs
+Requires-Dist: astroid
+Requires-Dist: black
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: click
+Requires-Dist: cycler
+Requires-Dist: Cython
+Requires-Dist: datasets (==1.9.0)
+Requires-Dist: dill
+Requires-Dist: einops
+Requires-Dist: filelock
+Requires-Dist: fire
+Requires-Dist: flake8
+Requires-Dist: GPUtil
+Requires-Dist: idna
+Requires-Dist: isort
+Requires-Dist: joblib
+Requires-Dist: jsonlines
+Requires-Dist: kiwisolver
+Requires-Dist: lazy-object-proxy
+Requires-Dist: matplotlib
+Requires-Dist: mccabe
+Requires-Dist: multiprocess
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: pathspec
+Requires-Dist: pep8
+Requires-Dist: Pillow
+Requires-Dist: pyaml
+Requires-Dist: pyarrow
+Requires-Dist: pycocotools
+Requires-Dist: pycodestyle
+Requires-Dist: pyflakes
+Requires-Dist: pylint
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: sacremoses
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: termcolor
+Requires-Dist: timm
+Requires-Dist: tokenizers
+Requires-Dist: toml
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformers (==4.8.2)
+Requires-Dist: typed-ast
+Requires-Dist: urllib3
+Requires-Dist: wget
+Requires-Dist: wrapt
+Requires-Dist: xxhash
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: recommonmark
+
+# vltk
+to install (add editable for personal custimization)
+```
+git clone https://github.com/eltoto1219/vltk.git && cd vltk && pip install -e .
+```
+
+

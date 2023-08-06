@@ -1,0 +1,3 @@
+[console_scripts]
+keycloak-scanner = keycloak_scanner.main:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+s3v = s3vaultlib.cli:main
+s3vaultcli = s3vaultlib.cli:main
+

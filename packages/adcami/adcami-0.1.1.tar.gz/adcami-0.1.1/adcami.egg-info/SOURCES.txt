@@ -1,0 +1,10 @@
+README.md
+setup.py
+adcami/__init__.py
+adcami/adcami.py
+adcami.egg-info/PKG-INFO
+adcami.egg-info/SOURCES.txt
+adcami.egg-info/dependency_links.txt
+adcami.egg-info/entry_points.txt
+adcami.egg-info/requires.txt
+adcami.egg-info/top_level.txt

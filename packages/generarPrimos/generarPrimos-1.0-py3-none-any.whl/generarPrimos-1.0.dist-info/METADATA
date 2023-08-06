@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: generarPrimos
+Version: 1.0
+Summary: Herramienta para generar números primos
+Home-page: UNKNOWN
+Author: Enrique A.R
+Author-email: UNKNOWN
+License: GNU/GPL
+Keywords: primos,matemáticas,operaciones elementales
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Este proyecto es un pequeÃ±o ejemplo de un paquete Python.
+
+Contiene una funciÃ³n que permite generar un conjunto de nÃºmeros primos comprendidos 
+entre 2 y un valor introducido por el usuario (este Ãºltimo no incluido).
+License
+=======
+
+numerosPrimos Copyright 2021, Enrique A.R
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+
+

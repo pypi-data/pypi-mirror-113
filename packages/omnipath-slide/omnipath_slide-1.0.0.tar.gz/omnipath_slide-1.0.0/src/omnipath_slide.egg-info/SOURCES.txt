@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/ic_slide/__init__.py
+src/ic_slide/api_urls.py
+src/ic_slide/auth.py
+src/ic_slide/config.py
+src/ic_slide/slide_source.py
+src/ic_slide/time_utils.py
+src/omnipath_slide.egg-info/PKG-INFO
+src/omnipath_slide.egg-info/SOURCES.txt
+src/omnipath_slide.egg-info/dependency_links.txt
+src/omnipath_slide.egg-info/requires.txt
+src/omnipath_slide.egg-info/top_level.txt

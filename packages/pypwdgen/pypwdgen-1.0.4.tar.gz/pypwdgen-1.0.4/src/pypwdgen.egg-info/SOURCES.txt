@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pypwdgen/__init__.py
+src/pypwdgen/__main__.py
+src/pypwdgen/cli.py
+src/pypwdgen/config.py
+src/pypwdgen/core.py
+src/pypwdgen.egg-info/PKG-INFO
+src/pypwdgen.egg-info/SOURCES.txt
+src/pypwdgen.egg-info/dependency_links.txt
+src/pypwdgen.egg-info/top_level.txt

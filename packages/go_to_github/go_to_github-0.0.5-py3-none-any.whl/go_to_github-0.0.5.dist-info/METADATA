@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: go_to_github
+Version: 0.0.5
+Summary: `go_to_github` is a tool to test whether `github.com` is reachable right now. If not, it will work it out automatically.
+Home-page: https://github.com/KateWang2016/go_to_github
+Keywords: python, github, web connection, local host
+Author: Kate Wang
+Author-email: kate.wang2018@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: lxml
+Requires-Dist: fake_user_agent
+Requires-Dist: requests
+
+`go_to_github` is a tool to test whether `github.com` is reachable right now. If not, it will work it out automatically.
+
+# Notice
+This project only applies to `macOS` and `Linux`.
+It might be in need for people who come from coutries blocking github.
+
+# Usage
+On your terminal:
+```python
+# don't forget `sudo`
+# since github ip will be updated if it cannot connect to github.com
+# in your `\private\etc\hosts` file, which requires root user 
+sudo gotogithub
+```
+# Installation
+```python
+pip install go_to_github
+```
+
+
+

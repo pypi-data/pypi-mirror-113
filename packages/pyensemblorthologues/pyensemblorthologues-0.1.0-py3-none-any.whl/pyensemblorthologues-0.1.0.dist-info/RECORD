@@ -1,0 +1,11 @@
+pyensemblorthologues/MSARegions.py,sha256=DIZ0eLmqZlF1i59jp2tO6j5EgnHV_8Y376wiKtlru-c,1670
+pyensemblorthologues/__init__.py,sha256=9IJ5W1VEm5pngu6ewwhkmLLMEo72xBh_5uX7sK6zg_0,169
+pyensemblorthologues/cli.py,sha256=7B_9PUhufNdPqnlPRaV5JrnVgyiwmqBjz9BzyrK56rY,7002
+pyensemblorthologues/compara_consumer.py,sha256=_yKsGLEk9h-NNwvV4qX4P3DW7H5iOUOdPTg_ZqdYs3w,2536
+pyensemblorthologues/ensembl_pairwise_alignment.py,sha256=6ZZWrz_zCGkXbVc9khU2D6oDncmxRxgxqCpGz_umbTU,9082
+pyensemblorthologues/pyensemblorthologues.py,sha256=mJERxaagq4Qnap2g7r7yEeJEdeIHtXbxtOAXrffwg2w,219
+pyensemblorthologues-0.1.0.dist-info/entry_points.txt,sha256=SP6rEPqm--e8xMnIZz836ASoR-9osYVGyPmNcy3m3EU,70
+pyensemblorthologues-0.1.0.dist-info/LICENSE,sha256=sodE20YqVuK8Kt5o2kBusp8eoyrdoSSnvyIPdXNsT28,1085
+pyensemblorthologues-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pyensemblorthologues-0.1.0.dist-info/METADATA,sha256=wH9IqoaD-_cCTCSgtDU8SzWzFChJ0Tf6U4h2BWZsUv4,3064
+pyensemblorthologues-0.1.0.dist-info/RECORD,,

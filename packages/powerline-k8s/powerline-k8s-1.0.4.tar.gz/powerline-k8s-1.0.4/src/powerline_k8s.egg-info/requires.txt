@@ -1,0 +1,6 @@
+kubernetes>=17.17.0
+powerline-status>=2.7
+
+[test]
+pytest
+pytest-cov

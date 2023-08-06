@@ -1,0 +1,4 @@
+[console_scripts]
+gdown = avcv.utils:download_file_from_google_drive
+i2v = avcv.utils:images_to_video
+

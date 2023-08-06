@@ -1,0 +1,4 @@
+[console_scripts]
+cheomseongdae-ping = cheomseongdae:cmd_ping
+csd-ping = cheomseongdae:cmd_ping
+

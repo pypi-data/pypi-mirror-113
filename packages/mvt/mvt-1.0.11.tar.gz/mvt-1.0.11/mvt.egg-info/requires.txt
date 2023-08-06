@@ -1,0 +1,10 @@
+click
+rich
+tld
+tqdm
+requests
+simplejson
+biplist
+iOSbackup
+adb-shell
+libusb1

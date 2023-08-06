@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: vedro-valera-validator
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/nikitanovosibirsk/vedro-valera-validator
+Author: Nikita Tsvetkov
+Author-email: nikitanovosibirsk@yandex.com
+License: Apache-2.0
+Description: # Vedro Valera Validator
+        
+        [![PyPI](https://img.shields.io/pypi/v/vedro-valera-validator.svg?style=flat-square)](https://pypi.python.org/pypi/vedro-valera-validator/)
+        [![PyPI - Downloads](https://img.shields.io/pypi/dm/vedro-valera-validator?style=flat-square)](https://pypi.python.org/pypi/vedro-valera-validator/)
+        [![Python Version](https://img.shields.io/pypi/pyversions/vedro-valera-validator.svg?style=flat-square)](https://pypi.python.org/pypi/vedro-valera-validator/)
+        
+        ## Installation
+        
+        ```shell
+        $ pip3 install vedro-valera-validator
+        ```
+        
+        ```python
+        # ./bootstrap.py
+        import vedro
+        from vedro_valera_validator import ValeraValidator
+        
+        vedro.run(plugins=[ValeraValidator()])
+        ```
+        
+        ## Usage
+        
+        ### Run tests
+        
+        ```shell
+        $ python3 bootstrap.py -vv
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=Uaf0SPt65tv6zH0oFcCuuxRunKeh6WEP9z72p-uQPHs,9949
+xmlrecords/__init__.py,sha256=BY95PRxHS0rJGOZB0cvMKTypIxK7GQ7Sq273rmHpyfE,91
+xmlrecords/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmlrecords/src/xmlrecords.py,sha256=OwASkFTzgUTX6NZiemOOFUIYWUilL2YDuwVsvxUnUtI,9095
+xmlrecords-0.2.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xmlrecords-0.2.5.dist-info/METADATA,sha256=baMK00gUuDN9uc8CFXHAiFkuR4JJZ-I5nl4DYqAVPs4,4414
+xmlrecords-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xmlrecords-0.2.5.dist-info/top_level.txt,sha256=Mhpt_21zL5dcEiOuCpDFodhwe13G77RkCWq791Tye4Y,17
+xmlrecords-0.2.5.dist-info/RECORD,,

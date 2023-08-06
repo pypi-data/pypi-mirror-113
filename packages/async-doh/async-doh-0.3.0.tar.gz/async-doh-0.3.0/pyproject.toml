@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "async-doh"
+version = "0.3.0"
+description = "DNS over HTTPS based on aiohttp and async_dns"
+authors = ["Gerald <gera2ld@live.com>"]
+license = "MIT"
+keywords = ["async", "dns", "asyncio", "doh"]
+repository = "https://github.com/gera2ld/async-doh"
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.6.2"
+async_dns = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+jedi = "^0.17.2"
+pylint = "^2.6.0"
+rope = "^0.18.0"
+yapf = "^0.30.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

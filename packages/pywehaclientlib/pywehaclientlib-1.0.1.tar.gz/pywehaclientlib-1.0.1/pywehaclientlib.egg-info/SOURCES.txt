@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pywehaclientlib.egg-info/PKG-INFO
+pywehaclientlib.egg-info/SOURCES.txt
+pywehaclientlib.egg-info/dependency_links.txt
+pywehaclientlib.egg-info/top_level.txt
+wehaclientlibrary/__init__.py
+wehaclientlibrary/db_helper.py
+wehaclientlibrary/return_handling.py

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ide50
+Version: 1.0.5
+Summary: This is CS50 CLI, with which you can mount a directory inside of an Ubuntu container.
+Home-page: https://github.com/cs50/ide50
+Author: CS50
+Author-email: sysadmins@cs50.harvard.edu
+License: GPLv3
+Keywords: ide50
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: inflect
+Requires-Dist: requests
+
+UNKNOWN
+

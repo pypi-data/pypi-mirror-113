@@ -1,0 +1,9 @@
+README.md
+setup.py
+bamboo-csv/__init__.py
+bamboo-csv/__main__.py
+bamboo_csv.egg-info/PKG-INFO
+bamboo_csv.egg-info/SOURCES.txt
+bamboo_csv.egg-info/dependency_links.txt
+bamboo_csv.egg-info/requires.txt
+bamboo_csv.egg-info/top_level.txt

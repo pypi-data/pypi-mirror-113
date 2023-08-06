@@ -1,0 +1,5 @@
+cffi
+django<4.0,>=2.2.24
+djangosaml2>=1.0.0
+pysaml2@ git+https://github.com/peppelinux/pysaml2.git@pplnx-7.0.1#pysaml2
+requests

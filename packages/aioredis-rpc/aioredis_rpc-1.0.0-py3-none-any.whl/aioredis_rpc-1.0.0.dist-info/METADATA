@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: aioredis-rpc
+Version: 1.0.0
+Summary: An RPC library based on aioredis, msgpack, and pydantic.
+Home-page: http://github.com/matutter/aioredis-rpc
+Author: Mathew Utter
+Author-email: mcutter.svc@gmail.com
+License: MIT
+Keywords: aioredis msgpack python redis rpc
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: Microsoft :: Windows :: Windows Vista
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: Utilities
+Requires: pydantic
+Requires: msgpack
+Requires: aioredis
+Requires: hiredis
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: msgpack (==1.0.2)
+Requires-Dist: aioredis (==2.0.0a1)
+Requires-Dist: hiredis (==2.0.0)
+
+# aioredis-rpc
+
+[![ci](https://github.com/matutter/aioredis-rpc/workflows/CI/badge.svg?event=push)](https://github.com/matutter/aioredis-rpc/actions?query=event%3Apush+branch%3Amaster+workflow%3ACI)
+[![coverage](https://codecov.io/gh/matutter/aioredis-rpc/branch/master/graph/badge.svg)](https://codecov.io/gh/matutter/aioredis-rpc)
+[![pypi](https://img.shields.io/pypi/v/aioredis-rpc.svg)](https://pypi.python.org/pypi/aioredis-rpc)
+[![downloads](https://img.shields.io/pypi/dm/aioredis-rpc.svg)](https://pypistats.org/packages/aioredis-rpc)
+[![versions](https://img.shields.io/pypi/pyversions/aioredis-rpc.svg)](https://github.com/matutter/aioredis-rpc)
+[![license](https://img.shields.io/github/license/matutter/aioredis-rpc.svg)](https://github.com/matutter/aioredis-rpc/blob/master/LICENSE)
+
+A RPC interface using [aioredis](https://github.com/aio-libs/aioredis-py)
+and [pydantic](https://github.com/samuelcolvin/pydantic).
+
+## Usage
+
+```bash
+pip install aioredis-rpc
+```
+
+`pydantic` is used to model complex objects which are transparently serialized
+and packed into messages.
+
+```python
+# Define Pydantic models
+class FileData(BaseModel):
+  filename: str
+  data: bytes
+```
+
+Define a class using the `@endpoint` decorator to specify which methods will be
+accessible over the rpc interface.
+
+```python
+from redisrpc import endpoint
+
+# Define an RPC class
+class Dropbox:
+  files: Dict[str, FileData]
+  max_files: int
+
+  def __init__(self, max_files: int = 1000):
+    self.files = dict()
+    self.max_files = max_files
+
+  @endpoint
+  async def upload_file(self, file: FileData) -> int:
+    if len(self.files) >= self.max_files:
+      # Errors are propagated to the client-side
+      raise Exception('too many files')
+    self.files[file.name] = file
+    return len(file.data)
+
+  @endpoint
+  async def download_file(self, name: str) -> FileData:
+    return self.files[name]
+```
+
+Use `create_server` function to create an instance of your server-side rpc
+class. The server instance will be assigned an `rpc: RpcProvider` attribute to
+access server functions like `connect` and `disconnect`. Once `connect` is
+called methods decorated with `@endpoint` will be invoked automatically by
+client RPC messages.
+
+Also note that `connect` is non-blocking.
+
+```python
+server = create_server(Dropbox, max_files=2)
+# Returns once connected to redis
+await server.rpc.connect(dsn="redis://localhost")
+```
+
+The `create_client` function create a faux instance of the rpc class with only
+the methods decorated by `@endpoint` present. When these methods are called by
+the client the function arguments are serialized and published to redis.
+
+```python
+client = create_client(Dropbox)
+await client.rpc.connect(dsn="redis://localhost")
+```
+
+Now that both ends are connected the the `@endpoint` decorated methods may be
+called like they are accessing the actual class passed to `create_client`.
+
+```python
+file1 = FileData(name='file1', data=b'1234')
+size = await client.upload_file(file1)
+```
+
+## Development
+
+The following items will be handled in future revisions.
+
+- Support generic return-types so `list` and other container types may be
+  returned from endpoints.
+

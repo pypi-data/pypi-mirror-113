@@ -1,0 +1,8 @@
+aioredis_rpc/__init__.py,sha256=awYlORkptWfMHZdGKfqwII18KaJcDjEQLuNIwSIDgeE,14812
+aioredis_rpc/msgpack_ext.py,sha256=vj7o9sWkuJd3FWj6MjD4cXitKww93wqhW9d6xdUUdPk,982
+aioredis_rpc-1.0.0.dist-info/LICENSE.txt,sha256=4mk09OqhVDYJF1sGPxyebUnoOw27jWwOO4mvnvRzDiY,1069
+aioredis_rpc-1.0.0.dist-info/METADATA,sha256=ayR_e94Wi8YA3T0_UoB9P7jBPasCeIRB9hfyVikKXps,4995
+aioredis_rpc-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aioredis_rpc-1.0.0.dist-info/top_level.txt,sha256=y7bOwBLLGdiqDG4q7yVutgdEulZaxw4WV_BM5vO3Ces,13
+aioredis_rpc-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aioredis_rpc-1.0.0.dist-info/RECORD,,

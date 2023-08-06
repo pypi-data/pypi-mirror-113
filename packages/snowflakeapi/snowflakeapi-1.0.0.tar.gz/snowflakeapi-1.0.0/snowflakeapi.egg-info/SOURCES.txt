@@ -1,0 +1,8 @@
+README.md
+setup.py
+snowflakeapi/__init__.py
+snowflakeapi/snowflakeapi.py
+snowflakeapi.egg-info/PKG-INFO
+snowflakeapi.egg-info/SOURCES.txt
+snowflakeapi.egg-info/dependency_links.txt
+snowflakeapi.egg-info/top_level.txt

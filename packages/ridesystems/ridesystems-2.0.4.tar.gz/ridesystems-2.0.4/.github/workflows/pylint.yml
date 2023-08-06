@@ -1,0 +1,12 @@
+name: Ridesystems module post commit steps
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-python@v1
+      - name: Tox
+        run: |
+          pip install tox
+          tox -- --username ${{ secrets.RIDESYSTEMS_USERNAME }} --password ${{ secrets.RIDESYSTEMS_PASSWORD }}

@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+awsm_cli/__init__.py
+awsm_cli/awsm_cli.py
+awsm_cli/test_awsm_cli.py
+awsm_cli.egg-info/PKG-INFO
+awsm_cli.egg-info/SOURCES.txt
+awsm_cli.egg-info/dependency_links.txt
+awsm_cli.egg-info/entry_points.txt
+awsm_cli.egg-info/requires.txt
+awsm_cli.egg-info/top_level.txt

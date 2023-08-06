@@ -1,0 +1,8 @@
+cfpm/__init__.py,sha256=U-OZvIZ8cYzqGjpRQFNCXfO5uPIAOAKIuX_kVPbzf80,89
+cfpm/console.py,sha256=--3Z-ZwMKxSpXnLh5WD5rDg1czXqSCIO5PbaLxQUpBc,517
+cfpm/log.py,sha256=pi_2zESRbTCXaFsaByqNQzQHqehcTuhaP9R275q3Vww,1243
+cfpm-0.0.0.dist-info/entry_points.txt,sha256=2VqElaZ4LfFaNZZBZv5-J70G4AQR0t5Za7nc1oSRcBM,41
+cfpm-0.0.0.dist-info/LICENSE,sha256=U9Xob_dS2Bhzke1TH0N9RuxHVyKp7z3lCgNJdqpAI6M,1063
+cfpm-0.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cfpm-0.0.0.dist-info/METADATA,sha256=jXX7kZlaM2jLZuCKZB8LHCyfFRNyGTDy8dShFH3NP0U,907
+cfpm-0.0.0.dist-info/RECORD,,

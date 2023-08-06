@@ -1,0 +1,3 @@
+[console_scripts]
+cfpm=cfpm.console:cli
+

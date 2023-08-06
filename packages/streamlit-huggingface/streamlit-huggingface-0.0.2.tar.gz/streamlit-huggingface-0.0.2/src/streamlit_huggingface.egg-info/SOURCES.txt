@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/streamlit_huggingface/__init__.py
+src/streamlit_huggingface/_about.py
+src/streamlit_huggingface.egg-info/PKG-INFO
+src/streamlit_huggingface.egg-info/SOURCES.txt
+src/streamlit_huggingface.egg-info/dependency_links.txt
+src/streamlit_huggingface.egg-info/not-zip-safe
+src/streamlit_huggingface.egg-info/requires.txt
+src/streamlit_huggingface.egg-info/top_level.txt

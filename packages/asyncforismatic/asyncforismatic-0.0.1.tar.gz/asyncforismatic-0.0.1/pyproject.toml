@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "asyncforismatic"
+version = "0.0.1"
+description = "A library for getting quotes from the Forismatic API. Supports asynchronous syntax. Библиотека для получения цитат из Forismatic API. Поддерживает асинхронный синтаксис."
+authors = ["EgorBron"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

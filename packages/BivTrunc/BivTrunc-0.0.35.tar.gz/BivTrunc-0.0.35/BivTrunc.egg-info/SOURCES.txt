@@ -1,0 +1,14 @@
+BivTruncF.f90
+LICENSE
+MANIFEST.in
+README.txt
+pyproject.toml
+setup.py
+../BivTruncF.f90
+BivTrunc/BivTruncPy.py
+BivTrunc/__init__.py
+BivTrunc.egg-info/PKG-INFO
+BivTrunc.egg-info/SOURCES.txt
+BivTrunc.egg-info/dependency_links.txt
+BivTrunc.egg-info/requires.txt
+BivTrunc.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+exclude BivTrunc/BivTruncF.cpython-37m-darwin.so
+
+include BivTruncF.f90

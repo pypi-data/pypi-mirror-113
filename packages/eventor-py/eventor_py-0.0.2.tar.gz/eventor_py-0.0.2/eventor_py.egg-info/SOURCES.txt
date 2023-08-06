@@ -1,0 +1,12 @@
+README.md
+setup.py
+eventor_py/__init__.py
+eventor_py.egg-info/PKG-INFO
+eventor_py.egg-info/SOURCES.txt
+eventor_py.egg-info/dependency_links.txt
+eventor_py.egg-info/requires.txt
+eventor_py.egg-info/top_level.txt
+tests/__init__.py
+tests/test.py
+tests/test2.py
+tests/test_parse_files.py

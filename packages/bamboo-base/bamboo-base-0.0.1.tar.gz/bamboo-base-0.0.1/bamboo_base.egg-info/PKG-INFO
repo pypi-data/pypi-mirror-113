@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bamboo-base
+Version: 0.0.1
+Summary: Persistent Pandas api package.
+Home-page: https://github.com/eddiethedean/bamboo-base
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

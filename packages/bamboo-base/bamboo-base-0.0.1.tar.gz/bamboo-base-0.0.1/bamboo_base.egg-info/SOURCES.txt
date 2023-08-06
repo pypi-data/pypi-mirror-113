@@ -1,0 +1,9 @@
+README.md
+setup.py
+bamboo-base/__init__.py
+bamboo-base/__main__.py
+bamboo_base.egg-info/PKG-INFO
+bamboo_base.egg-info/SOURCES.txt
+bamboo_base.egg-info/dependency_links.txt
+bamboo_base.egg-info/requires.txt
+bamboo_base.egg-info/top_level.txt

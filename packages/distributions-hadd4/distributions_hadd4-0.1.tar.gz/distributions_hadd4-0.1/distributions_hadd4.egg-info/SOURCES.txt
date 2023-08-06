@@ -1,0 +1,10 @@
+setup.py
+distributions_hadd4/Binomialdistribution.py
+distributions_hadd4/Gaussiandistribution.py
+distributions_hadd4/Generaldistribution.py
+distributions_hadd4/__init__.py
+distributions_hadd4.egg-info/PKG-INFO
+distributions_hadd4.egg-info/SOURCES.txt
+distributions_hadd4.egg-info/dependency_links.txt
+distributions_hadd4.egg-info/not-zip-safe
+distributions_hadd4.egg-info/top_level.txt

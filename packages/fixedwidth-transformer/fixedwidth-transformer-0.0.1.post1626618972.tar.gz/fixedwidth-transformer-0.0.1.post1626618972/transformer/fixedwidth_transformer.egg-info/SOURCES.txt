@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+transformer/fixedwidth_transformer.egg-info/PKG-INFO
+transformer/fixedwidth_transformer.egg-info/SOURCES.txt
+transformer/fixedwidth_transformer.egg-info/dependency_links.txt
+transformer/fixedwidth_transformer.egg-info/top_level.txt

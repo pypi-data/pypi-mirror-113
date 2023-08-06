@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pppoe-pass
+Version: 0.0.1
+Summary: Router_pppoe
+Home-page: UNKNOWN
+Author: Nair
+Author-email: 
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+PPPOE GRABBER
+
+Change Log
+==========
+
+0.0.1 (19/07/2021)
+-------------------
+- First Release
+

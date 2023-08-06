@@ -1,0 +1,4 @@
+setuptools~=57.1.0
+ipaddress~=1.0.23
+requests~=2.26.0
+beautifulsoup4~=4.9.3

@@ -1,0 +1,8 @@
+include README.md
+include RANDME.rst
+include pyroject.toml
+graft spideradmin/static
+graft spideradmin/templates
+global-include *.py
+global-include *.txt
+global-exclude *.pyc

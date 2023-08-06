@@ -1,0 +1,264 @@
+Metadata-Version: 2.1
+Name: termpair
+Version: 0.2.0.0
+Summary: View and control remote terminals from your browser with end-to-end encryption
+Home-page: https://github.com/cs01/termpair
+Author: Chad Smith
+Author-email: grassfedcode@gmail.com
+License: License :: OSI Approved :: MIT License
+Keywords: e2ee,secure,terminal,share,broadcast,pty,websockets
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles (==0.7.0)
+Requires-Dist: asgiref (==3.3.4)
+Requires-Dist: cffi (==1.14.5)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: cryptography (==3.4.7)
+Requires-Dist: fastapi (==0.65.1)
+Requires-Dist: h11 (==0.12.0)
+Requires-Dist: httptools (==0.2.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: python-dotenv (==0.17.1)
+Requires-Dist: pyyaml (==5.4.1)
+Requires-Dist: starlette (==0.14.2)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: uvicorn[standard] (==0.14.0)
+Requires-Dist: uvloop (==0.15.2)
+Requires-Dist: watchgod (==0.7)
+Requires-Dist: websockets (==9.1)
+
+<div style="text-align: center">
+    <img src="https://github.com/cs01/termpair/raw/master/termpair/frontend_src/src/logo.png"/>
+    <p>View and control remote terminals from your browser with end-to-end encryption</p>
+</div>
+
+**Documentation**: [https://cs01.github.io/termpair](https://cs01.github.io/termpair)
+
+**Source Code**: [https://github.com/cs01/termpair](https://github.com/cs01/termpair)
+
+**Try It**: [https://chadsmith.dev/termpair](https://chadsmith.dev/termpair)
+
+<p align="center">
+<a href="https://badge.fury.io/py/termpair"><img src="https://badge.fury.io/py/termpair.svg" alt="PyPI version" height="18"></a>
+
+<a href="https://github.com/cs01/termpair/actions?query=workflow%3Atests">
+<img src="https://github.com/cs01/termpair/actions/workflows/tests.yml/badge.svg?branch=master" alt="PyPI version" height="18"></a>
+</p>
+
+
+## What is TermPair?
+
+TermPair lets developers securely share and control terminals in real time.
+
+<div style="text-align: center">
+   <a href="https://github.com/cs01/termpair/raw/master/termpair_browser.gif"> <img src="https://github.com/cs01/termpair/raw/master/termpair_browser.gif"/></a>
+</div>
+
+## Usage
+
+First start the TermPair server with `termpair serve`, or use the one already running at [https://chadsmith.dev/termpair](https://chadsmith.dev/termpair).
+
+The server is used to route encrypted data between terminals and connected browsers.
+
+```
+> termpair serve --port 8000
+INFO:     Started server process [25289]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:8000 (Press CTRL+C to quit)
+INFO:     ('127.0.0.1', 51924) - "WebSocket /connect_to_terminal" [accepted]
+```
+
+Then share your terminal by running `termpair share`.
+
+This connects your terminal to the server, and allows browsers to access the terminal.
+
+```
+> termpair share --port 8000
+--------------------------------------------------------------------------------
+Connection established with end-to-end encryption 🔒
+Sharing '/bin/bash' at
+
+http://localhost:8000/?terminal_id=fd96c0f84adc6be776872950e19caecc#GyMlK2LLTqvoyTNzJ+qwLg==
+
+Type 'exit' or close terminal to stop sharing.
+--------------------------------------------------------------------------------
+```
+
+The URL printed contains a unique terminal ID and an encryption key. You can share that URL with whoever you want. Anyone who has it can access your terminal while the `termpair share` process is running.
+
+The server multicasts terminal output to all browsers that connect to the session.
+
+## Security
+
+TermPair uses 128 bit end-to-end encryption for all terminal input and output.
+
+The browser must be running in a [secure context](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts). This typically means running on localhost, or with secure http traffic (https).
+
+## How it Works
+
+<div style="text-align: center">
+    <a href="https://github.com/cs01/termpair/raw/master/docs/termpair_architecture.png">
+    <img src="https://github.com/cs01/termpair/raw/master/docs/termpair_architecture.png"/></a>
+</div>
+
+TermPair consists of three pieces:
+
+1. terminal client
+2. server
+3. browser client(s)
+
+First, the termpair server is started (`termpair serve`). The server acts as a router that blindly forwards encrypted data between TermPair terminal clients and connected browsers.
+
+It listens for termpair websocket connections from unix terminal clients, and maintains a mapping to any connected browsers.
+
+Before the TermPair client sends terminal output to the server, it encrypts it using a secret key so the server cannot read it. The server forwards that data to connected browsers. When the browsers receive the data, they use the secret key to decrypt and display the terminal output. The browser obtains the secret key via a [part of the url](https://developer.mozilla.org/en-US/docs/Web/API/HTMLHyperlinkElementUtils/hash) that is not sent to the server.
+
+Likewise, when a browser sends input to the terminal, it is encrypted in the browser, forwarded from the server to the terminal, then decrypted in the terminal by TermPair, and finally written to the terminal's input.
+
+
+## Run With Latest Version
+
+Use [pipx](https://github.com/pipxproject/pipx) to run the latest version without installing:
+
+Serve:
+```
+> pipx run termpair serve
+```
+
+Then share:
+```
+> pipx run termpair share --open-browser
+```
+
+Note: pipx caches installations for a few days. To ignore the cache and force a fresh installation, use `pipx run --no-cache termpair ...`.
+
+## Installation
+
+You can install using [pipx](https://github.com/pipxproject/pipx):
+
+```
+> pipx install termpair
+```
+
+or install with [pip](https://pip.pypa.io/en/stable/)
+
+```
+> pip install termpair
+```
+
+## Serving with NGINX
+Running behind an nginx proxy can be done with the following configuration.
+
+The TermPair server must be started with `termpair serve`, and the port being run on must be specified in the `upstream` configuration.
+
+```nginx
+upstream termpair_app {
+  # Make sure the port matches the port you are running on
+  server 127.0.0.1:8000;
+}
+
+server {
+    server_name myserver.com;
+
+    # I recommend Certbot if you don't have SSL set up
+    listen 443 ssl;
+    ssl_certificate fullchain.pem;
+    ssl_certificate_key privkey.pem;
+
+    location /termpair/ {
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header Host $host;
+
+        proxy_pass http://termpair_app/;
+
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+    }
+}
+```
+
+## CLI API
+
+```
+> termpair --help
+usage: termpair [-h] [--version] {share,serve} ...
+
+View and control remote terminals from your browser
+
+positional arguments:
+  {share,serve}
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --version
+```
+
+To start the TermPair server:
+```
+> termpair serve --help
+usage: termpair serve [-h] [--port PORT] [--host HOST] [--certfile CERTFILE]
+                      [--keyfile KEYFILE]
+
+Run termpair server to route messages between unix terminals and browsers. Run
+this before connecting any clients. It is recommended to encrypt communication
+by using SSL/TLS. To generate an SSL certificate and private key, run `openssl
+req -newkey rsa:2048 -nodes -keyout host.key -x509 -days 365 -out host.crt`.
+To skip questions and use defaults, add the `-batch` flag. You can ignore
+warnings about self-signed certificates since you know you just made it. Then
+use them, pass the '--certfile' and '--keyfile' arguments.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --port PORT, -p PORT  Port to run the server on (default: 8000)
+  --host HOST           Host to run the server on (0.0.0.0 exposes publicly)
+                        (default: localhost)
+  --certfile CERTFILE, -c CERTFILE
+                        Path to SSL certificate file (commonly .crt extension)
+                        (default: None)
+  --keyfile KEYFILE, -k KEYFILE
+                        Path to SSL private key .key file (commonly .key
+                        extension) (default: None)
+```
+
+To share a terminal using the TermPair client:
+```
+> termpair share --help
+usage: termpair share [-h] [--cmd CMD] [--port PORT] [--host HOST]
+                      [--no-browser-control] [--open-browser]
+
+Share your terminal session with one or more browsers. A termpair server must
+be running before using this command.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --cmd CMD             The command to run in this TermPair session. Defaults
+                        to the SHELL environment variable (default: /bin/bash)
+  --port PORT, -p PORT  port server is running on (default: None)
+  --host HOST           host server is running on (default: http://localhost)
+  --no-browser-control, -n
+                        Do not allow browsers to control your terminal
+                        remotely (default: False)
+  --open-browser, -b    Open a browser tab to the terminal after you start
+                        sharing (default: False)
+
+```
+
+## System Requirements
+
+Python: 3.6+
+
+Operating System:
+
+- To view/control from the browser: All operating systems are supported.
+- To run the server, `termpair serve`: Tested on Linux. Should work on macOS. Might work on Windows.
+- To share your terminal, `termpair share`: Tested on Linux. Should work on macOS. Probably doesn't work on Windows.
+
+

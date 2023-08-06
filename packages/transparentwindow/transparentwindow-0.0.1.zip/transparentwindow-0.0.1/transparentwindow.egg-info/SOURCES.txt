@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/resource.h
+src/resource.rc
+src/screenshot.c
+src/transparentwindow.c
+transparentwindow/__init__.py
+transparentwindow.egg-info/PKG-INFO
+transparentwindow.egg-info/SOURCES.txt
+transparentwindow.egg-info/dependency_links.txt
+transparentwindow.egg-info/not-zip-safe
+transparentwindow.egg-info/requires.txt
+transparentwindow.egg-info/top_level.txt

@@ -1,0 +1,91 @@
+#pragma code_page(65001)
+
+#include <windows.h>
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version Information
+//
+
+#define VER_FILEVERSION              1,0,0,0
+#define VER_FILEVERSION_STR         "1.0.0.0"
+#define VER_PRODUCTVERSION           1,0,0,0
+#define VER_PRODUCTVERSION_STR      "1.0.0.0"
+
+VS_VERSION_INFO    VERSIONINFO
+FILEVERSION        VER_FILEVERSION
+PRODUCTVERSION     VER_PRODUCTVERSION
+FILEFLAGSMASK      0x00000000L
+FILEFLAGS          0x00000000L
+FILEOS             VOS_UNKNOWN
+FILETYPE           VFT_UNKNOWN
+FILESUBTYPE        VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "CompanyName",      ""
+            VALUE "FileDescription",  ""
+            VALUE "FileVersion",      VER_FILEVERSION_STR
+            VALUE "InternalName",     ""
+            VALUE "LegalCopyright",   ""
+            VALUE "OriginalFilename", ""
+            VALUE "ProductName",      ""
+            VALUE "ProductVersion",   VER_PRODUCTVERSION_STR
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_CONTEXTMENU MENU
+BEGIN
+    POPUP "コンテキストメニュー"
+    BEGIN
+        MENUITEM "ウィンドウの位置とサイズ\tCtrl+R",  IDM_PROPERTY
+        MENUITEM "閉じる",                       IDM_CLOSE
+    END
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_ACCELERATORS ACCELERATORS
+BEGIN
+    "R",            IDM_PROPERTY,              VIRTKEY, CONTROL, NOINVERT
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 116, 128
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "位置とサイズ"
+FONT 9, "Segoe UI", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,54,108,50,14
+    GROUPBOX        "位置",IDC_STATIC,6,6,102,48
+    GROUPBOX        "サイズ",IDC_STATIC,6,54,102,48
+    LTEXT           "X:",IDC_STATIC,18,18,30,12,SS_CENTERIMAGE
+    LTEXT           "Y:",IDC_STATIC,18,36,30,12,SS_CENTERIMAGE
+    LTEXT           "Width:",IDC_STATIC,18,66,30,12,SS_CENTERIMAGE
+    LTEXT           "Height:",IDC_STATIC,18,84,30,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_X,54,18,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,54,36,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_W,54,66,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_H,54,84,48,12,ES_AUTOHSCROLL
+END

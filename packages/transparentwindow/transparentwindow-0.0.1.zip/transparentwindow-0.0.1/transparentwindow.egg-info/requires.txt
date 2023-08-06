@@ -1,0 +1,4 @@
+
+[screencapture]
+numpy
+opencv-python

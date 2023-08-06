@@ -1,0 +1,35 @@
+# for help, see documentation (docs)
+version: int(min=1, max=1)
+settings:
+  cache: any(null(), enum("default"), include('cache_details'))
+storages: map(include('local'), include('custom'), include('cloud'), min=1)
+---
+# cache settings structure:
+cache_details:
+  path: include('path_details')
+  on_shutdown: include('cache_clean_mod')
+cache_clean_mod: any(enum('clean'), null())
+path_details: any(enum('default'), str(min=1))
+########
+engine_common: &common
+  is_default: bool(required=False)
+  link: str(min=1, required=False)
+  other: map(required=False)
+engine_remote: &remote
+  cache_dir: str(min=1, required=False)
+  remote: map(required=False)
+########
+local:
+  type: enum('local')
+  is_default: bool(required=False)
+  link: str(min=1)
+  other: map(required=False)
+cloud:
+  type: enum('aws', 'gcloud')
+  <<: *common
+  <<: *remote
+custom:
+  type: enum('custom')
+  module: regex(r'^[A-Za-z0-9_.]*$', name='python package path')
+  <<: *common
+  <<: *remote

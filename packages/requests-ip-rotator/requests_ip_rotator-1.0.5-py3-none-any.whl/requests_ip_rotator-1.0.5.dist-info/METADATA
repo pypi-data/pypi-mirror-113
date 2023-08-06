@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: requests-ip-rotator
+Version: 1.0.5
+Summary: Rotate through IPs in Python using AWS API Gateway.
+Home-page: https://github.com/Ge0rg3/requests-ip-rotator
+Author: George Omnet
+Author-email: pypi@georgeom.net
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: boto3
+
+# requests-ip-rotator
+A Python library to utilize AWS API Gateway's large IP pool as a proxy to generate pseudo-infinite IPs for web scraping and brute forcing.
+
+

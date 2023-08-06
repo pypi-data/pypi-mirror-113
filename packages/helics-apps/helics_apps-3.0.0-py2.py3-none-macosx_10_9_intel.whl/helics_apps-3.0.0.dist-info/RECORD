@@ -1,0 +1,16 @@
+helics_apps/_version.py,sha256=sqmVdVNC9Kt7l6fTy6_isLolnsUwCK0zDDPAgjujCTk,498
+helics_apps/__init__.py,sha256=eV52dKGBw_YS_vtDbg-2ZCCp0Zzq_Z7tgRSOAPvvYYc,750
+helics_apps/.dylibs/libzmq.5.2.4.dylib,sha256=n-PdYJ-Ov3I0QeLvhSAS7EILGvG8YHJYquzrSbx2CGY,664376
+helics_apps/data/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helics_apps/data/bin/helics_player,sha256=eXHECE5zW6gYXgrOhhEPYjJ-4Je2EUjNbOC1Qn5XPDs,6587048
+helics_apps/data/bin/helics_app,sha256=YVUCQ0CE4BCghfsqep0vX5xDn0joTGUr2AfLDOs6Q64,6982208
+helics_apps/data/bin/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helics_apps/data/bin/helics_broker_server,sha256=MXJ1vAPoUjV4tkkfSlLG6DhFe-EQg760dgTYaHcfCpo,7957976
+helics_apps/data/bin/helics_broker,sha256=BStxfnITFOFRB2qdSFiwY-80IrownbMNibFWpGPVpgc,7933784
+helics_apps/data/bin/helics_recorder,sha256=diuoIpYKxLfnm0qUVuYIDLK7Xor9CZU0zPYRangLrdg,6635920
+helics_apps-3.0.0.dist-info/RECORD,,
+helics_apps-3.0.0.dist-info/LICENSE,sha256=vHsRG5RV8yFPSY0pfJbi3-mXctogx4jD5v1nneuA3Fg,1607
+helics_apps-3.0.0.dist-info/WHEEL,sha256=WhV592rYl1FisNh1rA0bDVGDANZTAoU0tiDb4tUY69s,139
+helics_apps-3.0.0.dist-info/entry_points.txt,sha256=ykM1xwDWxRA3VQCOzbbNAa8XNuutKVhIK-5TJXJq8Tg,241
+helics_apps-3.0.0.dist-info/top_level.txt,sha256=oBfcm7uGaXt5UESaxru_5NFpao1V8izk1bTOT4WOcfQ,19
+helics_apps-3.0.0.dist-info/METADATA,sha256=pz-0B36Be9mz-FFJU6-6mXkcYXGW4hj_dO5CMyJ1cEs,2894

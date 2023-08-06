@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+random_strings.py
+setup.py
+random_strings.egg-info/PKG-INFO
+random_strings.egg-info/SOURCES.txt
+random_strings.egg-info/dependency_links.txt
+random_strings.egg-info/top_level.txt

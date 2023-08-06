@@ -1,0 +1,10 @@
+atoti_azure/LICENSE,sha256=xkndD_LVYRDiwPInejy1wR5voliJ6Oal1eOpQATAIxI,23068
+atoti_azure/__init__.py,sha256=swDaNyo3nhWX56d68ivv8fyi-5ida3RFLZ7RvW1SOQo,765
+atoti_azure/_plugin.py,sha256=lWmfK_TkNSxz_L-e0HmF6ebt-SNoem6vqoNhR9PmKSs,769
+atoti_azure/_version.py,sha256=fgpH2mNkY70VKiK8Ya92A9QcTU4Zfz_3qyhGJzHzVxY,20
+atoti_azure/data/atoti-azure.jar,sha256=QirX8sM1u6KJpx2Y_5ZZNOYNyCpSgLgSVIV5gInFimE,24579401
+atoti_azure-0.6.0.dist-info/LICENSE,sha256=xkndD_LVYRDiwPInejy1wR5voliJ6Oal1eOpQATAIxI,23068
+atoti_azure-0.6.0.dist-info/METADATA,sha256=1nY_HLQ0O4uMiJkqftmSBzE442hj1UNuMLTRz73i_RE,816
+atoti_azure-0.6.0.dist-info/WHEEL,sha256=8mbI0SfGSLWrHUn5U04xTBpRjfzYSkfszirtIOBRLfg,109
+atoti_azure-0.6.0.dist-info/top_level.txt,sha256=HyIWFhoSiCFLWXVILOpyIbN0Eg2CJeSUo2JzbmiMMF8,12
+atoti_azure-0.6.0.dist-info/RECORD,,

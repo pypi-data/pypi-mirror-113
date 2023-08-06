@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tickinfo/__init__.py
+tickinfo/tickinfo.py
+tickinfo.egg-info/PKG-INFO
+tickinfo.egg-info/SOURCES.txt
+tickinfo.egg-info/dependency_links.txt
+tickinfo.egg-info/not-zip-safe
+tickinfo.egg-info/requires.txt
+tickinfo.egg-info/top_level.txt

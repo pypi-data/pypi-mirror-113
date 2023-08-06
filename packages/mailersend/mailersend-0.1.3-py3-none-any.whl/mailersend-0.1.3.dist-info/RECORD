@@ -1,0 +1,17 @@
+mailersend/__init__.py,sha256=mYApHZQKggwnArSq7DkMWPLBHzEi78OcO5JC8supe2A,186
+mailersend/activity/__init__.py,sha256=WgIr11oLpKE6SQUAGBbmojMWSt5aZyv8yln-LZL7y2g,876
+mailersend/analytics/__init__.py,sha256=5yOVUMrZXpZztszMyzOiUBgZtk0QAoEPwepSdg-AKj4,2547
+mailersend/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mailersend/base/base.py,sha256=q_t72pdKAgnVpFgZHV35FyWZxdcfFR8w0MsZ2Mm4CQI,801
+mailersend/domains/__init__.py,sha256=v0n2FCZvUuyS1i0rVCtwAp-cphtLwLNI_evl5i3RiqY,1407
+mailersend/emails/__init__.py,sha256=8_EGnz9Yf9q8_HUPnA9Mn5Bn-dPYR1NfyFv4LufuJ1M,1623
+mailersend/messages/__init__.py,sha256=-WIoR6RG4AS_i2rmJddQH6Xp6DOw8k2gRiHn0PIY3S0,712
+mailersend/recipients/__init__.py,sha256=K21NcPp2pZAym1n1qhQdp9EpuZrfStiGiiRq-fCKWJs,944
+mailersend/templates/__init__.py,sha256=bWPNSsWU5JLp5ojICbYxnUm9CP1w4zJKk8bOHK1tkEA,922
+mailersend/tokens/__init__.py,sha256=nYp2u8LjEtcme_VYBK2RR2e22HZgcTddGNa1R1N1s6k,1241
+mailersend/utils/__init__.py,sha256=li98UK0Xyf5_WqBluZTBEWWZRP_lT5C5GGzaqGK7vYI,883
+mailersend/webhooks/__init__.py,sha256=wNVLpUILgn0DdJQ2zmHvP0ixY3JEI_UhQBpiPQc9qV0,1833
+mailersend-0.1.3.dist-info/LICENSE,sha256=eG7YOu9SAOxhAZz5WT_CAj5iWJ8q8qtrZ_ojP71JSRg,1066
+mailersend-0.1.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+mailersend-0.1.3.dist-info/METADATA,sha256=f9LGYCJz4t-rtqgSEZg8GOy1RiQrRgXfDo_hd1e0Pro,475
+mailersend-0.1.3.dist-info/RECORD,,

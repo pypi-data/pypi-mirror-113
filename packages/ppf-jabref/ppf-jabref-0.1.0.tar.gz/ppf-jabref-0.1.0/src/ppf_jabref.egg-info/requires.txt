@@ -1,0 +1,11 @@
+sqlalchemy
+
+[dev]
+check-manifest
+
+[test]
+pytest
+twine
+check-manifest
+flake8
+coverage

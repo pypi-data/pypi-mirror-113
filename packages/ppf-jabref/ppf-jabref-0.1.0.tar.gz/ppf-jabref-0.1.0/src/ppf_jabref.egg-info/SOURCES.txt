@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+src/ppf/jabref/__init__.py
+src/ppf/jabref/jabref.py
+src/ppf/jabref/utils.py
+src/ppf_jabref.egg-info/PKG-INFO
+src/ppf_jabref.egg-info/SOURCES.txt
+src/ppf_jabref.egg-info/dependency_links.txt
+src/ppf_jabref.egg-info/requires.txt
+src/ppf_jabref.egg-info/top_level.txt

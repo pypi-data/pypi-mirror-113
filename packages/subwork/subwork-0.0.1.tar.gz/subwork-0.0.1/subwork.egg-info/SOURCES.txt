@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+subwork/__init__.py
+subwork/subwork.py
+subwork/utils.py
+subwork/version.py
+subwork.egg-info/PKG-INFO
+subwork.egg-info/SOURCES.txt
+subwork.egg-info/dependency_links.txt
+subwork.egg-info/top_level.txt

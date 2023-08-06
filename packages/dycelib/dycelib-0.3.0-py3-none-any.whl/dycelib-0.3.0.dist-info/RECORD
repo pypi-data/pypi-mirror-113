@@ -1,0 +1,13 @@
+dyce/__init__.py,sha256=OJejeIvABid2D_lHVCiuu3yHQ32HwhM6Kd6wCXcgMIM,780
+dyce/experimental.py,sha256=n_v_vkX0Or-hwdKNQVYPz8PJe4QQxqYNvJXBqtfslrg,1659
+dyce/h.py,sha256=KH37JWGxnLZrFMSSUeFHIw1QauEEwINLweHj4PvVU8g,57797
+dyce/numtypes.py,sha256=Jg50IZPv3I1-jFuiOCRi1YQ2rvLIANuBVXS6EVDi6KE,4435
+dyce/p.py,sha256=2V-SVUH_FqFJERsvXf88Q8V94AoGpIJBz4shjllREbs,37757
+dyce/plt.py,sha256=oiME67NukmKn1T32lcQdBNRhXbN5KGSgqrBgu7UZCes,6514
+dyce/symmetries.py,sha256=bJd3C-axv7L1zu-RxXSzF7MAU8BHNiR8Lj6mluMMOnE,934
+dyce/version.py,sha256=MVyTKE0n0y9wCFh19CR7z3L_4QtC7zdNbVuMGvqWIEQ,868
+dycelib-0.3.0.dist-info/LICENSE,sha256=wO5sp9ez2BZmGxo183cLMOpWUKo5kVk1hnhzExoZ8oU,2126
+dycelib-0.3.0.dist-info/METADATA,sha256=5_IJaJKpuvOFm2CIEgcqG0r6kYSkueDwx21LGoKndMc,14713
+dycelib-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dycelib-0.3.0.dist-info/top_level.txt,sha256=zp1IGWxuFFhoGaYiMicYyjDwvYArkxZl5iM_XUGZnsE,5
+dycelib-0.3.0.dist-info/RECORD,,

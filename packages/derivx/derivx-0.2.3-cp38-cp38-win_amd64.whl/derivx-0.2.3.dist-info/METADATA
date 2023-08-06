@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: derivx
+Version: 0.2.3
+Summary: Derivatives Pricing Engine
+Home-page: https://github.com/xurendong/derivx
+Author: Xu Rendong
+Author-email: xrd@ustc.edu
+Maintainer: Xu Rendong
+Maintainer-email: xrd@ustc.edu
+License: BSD
+Project-URL: Source, https://github.com/xurendong/derivx
+Project-URL: Tracker, https://github.com/xurendong/derivx/issues
+Keywords: options,futures,derivatives,derivatives-pricing,vanilla,autocall
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >= 3.6
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.0.0)
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+discord_passport/__init__.py
+discord_passport.egg-info/PKG-INFO
+discord_passport.egg-info/SOURCES.txt
+discord_passport.egg-info/dependency_links.txt
+discord_passport.egg-info/requires.txt
+discord_passport.egg-info/top_level.txt

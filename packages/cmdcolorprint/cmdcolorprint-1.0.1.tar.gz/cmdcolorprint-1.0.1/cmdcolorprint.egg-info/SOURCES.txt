@@ -1,0 +1,9 @@
+README.md
+setup.py
+cmdcolorprint/__init__.py
+cmdcolorprint/color_print.py
+cmdcolorprint.egg-info/PKG-INFO
+cmdcolorprint.egg-info/SOURCES.txt
+cmdcolorprint.egg-info/dependency_links.txt
+cmdcolorprint.egg-info/entry_points.txt
+cmdcolorprint.egg-info/top_level.txt

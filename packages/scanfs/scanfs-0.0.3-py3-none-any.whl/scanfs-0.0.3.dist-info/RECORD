@@ -1,0 +1,8 @@
+scanfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scanfs/filesystemscanner.py,sha256=JqF-accOZ-0dNeFukYLTIFaRViD8LEjvmXobxwKSvi8,2721
+scanfs/filesystemscannerexception.py,sha256=FTlvFswyEHHevisKPngCtqQvbMiJWx5E3EdaJ2W1LMk,200
+scanfs-0.0.3.dist-info/LICENSE.txt,sha256=gxeXntJw3YdrvMwdEn_MBvgZUqTvlAW-ERzrTTaF2vk,1068
+scanfs-0.0.3.dist-info/METADATA,sha256=7F-2yx_evS1iUmcjB7eYKExRjNadu6IwIlVoSumBcVQ,1149
+scanfs-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scanfs-0.0.3.dist-info/top_level.txt,sha256=sdcIurE04OAsVC5-oZPgQCAjZd5REApve_wrwnaderM,7
+scanfs-0.0.3.dist-info/RECORD,,

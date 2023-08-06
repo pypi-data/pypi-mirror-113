@@ -1,0 +1,9 @@
+xgboost>=0.90
+catboost>=0.26
+bayesian-optimization>=1.2.0
+numpy>=1.19.5
+pandas>=1.1.5
+matplotlib>=3.2.2
+seaborn>=0.11.1
+plotly>=4.4.1
+pyyaml>=5.4.1

@@ -1,0 +1,50 @@
+Metadata-Version: 1.1
+Name: bonsai-tree
+Version: 1.2
+Summary: Bayesian Optimization + Gradient Boosted Trees
+Home-page: https://github.com/magi-1/bonsai
+Author: Landon Buechner
+Author-email: mechior.magi@gmail.com
+License: MIT
+Description: # Bonsai: Gradient Boosted Trees + Bayesian Optimization
+        
+        Bonsai is a wrapper for the XGBoost and Catboost model training pipelines that leverages Bayesian optimization for computationally efficient hyperparameter tuning. 
+        
+        Depsite it being a very small package, it has access to nearly all of the configurable parameters in XGBoost and CatBoost as well as the Bayesian Optimization package allowing users to configure unique objectives, metrics, parameter search ranges, and search policies. This is made possible thanks to the strong similaries between both libraries.
+        
+        ## Why use Bonsai?
+        
+        Grid search and random search are the most commonly used algorithms for exploring the hyperparameter space for a wide range of machine learning models. While effective for optimizing over low dimensional hyperparameter spaces (ex: few regularization terms), these methods do not scale well to tuning models with a large number of hyperparameters. 
+        
+        Bayesian optimization on the other hand *dynamically* samples from the hyperparameter space with the goal of minimizing uncertaintly about the underlying objective function. For the case of model optimization, this is consists of *iteratively* building a prior distribution of functions over the hyperparameter space and sampling with the goal of minimizing the posterior variance of the loss surface.
+        
+        ## Tutorial
+        
+        At the moment Bonsai is solely a wrapper for XGBoost and CatBoost. Naturally, to use either library you must do the usual preprocessing so that your training data is compatible. Below are few examples that demonstrate a basic work flow with Bonsai.
+        
+        ### Encodings
+        
+        Words
+        
+        ### Model Configuration
+        
+        Bonsai provides this functionality while allowing users to easily set up gradient boosted tree models via 3 simple parameter dictionarys: model_config, cv_config, and pbounds.
+        
+        ### Tuning and Predictions
+        
+        optimize + predict + results df display
+        
+        ### Additional Features
+        
+        parallel coordinates + ask for contributors
+        
+        <div align="center">
+        <img src="https://github.com/magi-1/bonsai/blob/199a4aa92d4ffcba98ec259671413d711ebe8f70/images/bebop1.gif" style="max-height:50%;max-width:50%"></img>
+        </div>
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

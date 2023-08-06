@@ -1,0 +1,3 @@
+psutil>=5.4.2
+PyYAML
+requests>=0.8.0

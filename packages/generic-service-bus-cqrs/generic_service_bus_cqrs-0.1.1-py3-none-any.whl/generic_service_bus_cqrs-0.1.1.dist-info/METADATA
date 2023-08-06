@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: generic-service-bus-cqrs
+Version: 0.1.1
+Summary: Generic Service Bus Implementing CQRS Pattern
+Home-page: UNKNOWN
+Author: Manuel Rodriguez
+Author-email: rdgztorres19@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: redis
+
+UNKNOWN
+
+

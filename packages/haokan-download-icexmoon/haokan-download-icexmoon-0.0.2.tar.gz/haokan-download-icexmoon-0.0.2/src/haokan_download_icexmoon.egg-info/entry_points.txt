@@ -1,0 +1,3 @@
+[console_scripts]
+pyhkdownload = haokan_download.__main__:main
+

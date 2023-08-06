@@ -1,0 +1,3 @@
+url,path
+https://dl.dropboxusercontent.com/s/9db3acvtk4sy4an/UNetSP_FlapRecWithShapePriorDoubleOut.zip?dl=1,UNetSP_FlapRecWithShapePriorDoubleOut/model/default.pt
+https://dl.dropboxusercontent.com/s/ofxzios0m7vn4ex/atlas_304_224.zip?dl=1,assets/atlas/reg/atlas_304_224.nii.gz

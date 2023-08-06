@@ -1,0 +1,3 @@
+[console_scripts]
+tubby = tubby.__main__:main
+

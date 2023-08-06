@@ -1,0 +1,1 @@
+(self.webpackChunkatoti_jupyterlab=self.webpackChunkatoti_jupyterlab||[]).push([[1034],{11034:(a,t,e)=>{"use strict";e.r(t),e.d(t,{default:()=>n}),e(56271);var u=e(8336),s=e(7560),l=(e(47564),e(83850),e(66434),e(87349),e(9049),e(55188),e(41305),e(61570),e(32362),e(6381),e(14314),e(66146),e(48578));const n=a=>(0,u.jsx)(l.default,(0,s.Z)({},a,{options:{language:"markdown"}}))}}]);

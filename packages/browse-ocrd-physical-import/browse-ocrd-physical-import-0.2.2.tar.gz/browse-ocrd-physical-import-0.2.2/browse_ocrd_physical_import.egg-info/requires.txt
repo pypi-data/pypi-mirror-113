@@ -1,0 +1,10 @@
+Pillow
+PyGObject
+browse-ocrd
+numpy
+ocrd
+opencv-python-headless
+pure-python-adb
+pyvoussoir>=0.3.0
+retrying
+wheel

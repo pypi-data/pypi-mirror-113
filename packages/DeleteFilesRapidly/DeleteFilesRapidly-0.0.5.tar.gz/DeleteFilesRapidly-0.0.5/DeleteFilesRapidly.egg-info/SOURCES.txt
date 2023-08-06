@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+DeleteFilesRapidly/DeleteFilesWithThreading.py
+DeleteFilesRapidly/__init__.py
+DeleteFilesRapidly.egg-info/PKG-INFO
+DeleteFilesRapidly.egg-info/SOURCES.txt
+DeleteFilesRapidly.egg-info/dependency_links.txt
+DeleteFilesRapidly.egg-info/top_level.txt

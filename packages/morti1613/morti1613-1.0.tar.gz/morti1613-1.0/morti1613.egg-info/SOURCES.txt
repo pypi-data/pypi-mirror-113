@@ -1,0 +1,9 @@
+README.md
+setup.py
+morti1613.egg-info/PKG-INFO
+morti1613.egg-info/SOURCES.txt
+morti1613.egg-info/dependency_links.txt
+morti1613.egg-info/top_level.txt
+mortipdf/__init__.py
+mortipdf/image2pdf.py
+mortipdf/pdf2text.py

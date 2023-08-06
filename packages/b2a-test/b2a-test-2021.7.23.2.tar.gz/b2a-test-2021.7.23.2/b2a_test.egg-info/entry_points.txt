@@ -1,0 +1,3 @@
+[console_scripts]
+b2a-test = b2a:main
+

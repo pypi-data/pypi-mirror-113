@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: time-stamped-model
+Version: 0.0.1
+Summary: Django app to render menus and load tabs with Ajax
+Home-page: https://github.com/django-advance-utils/time-stamped-model
+Author: Tom Turner
+License: UNKNOWN
+Description: # time_stamped_model
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

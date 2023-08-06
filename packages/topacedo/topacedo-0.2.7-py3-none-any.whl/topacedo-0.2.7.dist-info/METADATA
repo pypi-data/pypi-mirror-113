@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: topacedo
+Version: 0.2.7
+Summary: topacedo
+Home-page: https://github.com/parashardhapola/topacedo
+Author: Parashar Dhapola
+Author-email: parashar.dhapola@gmail.com
+License: UNKNOWN
+Keywords: store
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.md
+
+# TopACeDo
+#### Topology Assisted Cell Downsampling
+
+Topacedo works with Scarf to perform memory efficient downsampling of single-cell genomics data.
+Using a pre-built neighbourhood graph of cells, Topacedo aims to sample cells from the graph such 
+that the manifold is preserved. Topecedo's algorithm can be diveded into two phases:
+
+- assigning prizes to cells and penalties to edges
+- running a fast approximate prize-collecting steiner tree  
+
+

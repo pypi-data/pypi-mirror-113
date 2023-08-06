@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: v-tag
+Version: 0.1.0
+Summary: The simplest of the simplest file version tagging system.
+Home-page: https://github.com/Adwaith-Rajesh/v-tag
+Author: Adwaith Rajesh
+Author-email: adwaithrajesh3180@gmail.com
+License: MIT
+Keywords: tagging,version,python
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: typer
+
+# V-Tag
+
+Easily create and store different version of you file on the fly.
+
+## Installation
+
+```commandline
+pip install v-tag
+```
+
+## Usage / Docs
+
+After installation run the following command
+
+```
+vtag --help
+```
+
+This will a list of all the commands and their functions.
+
+

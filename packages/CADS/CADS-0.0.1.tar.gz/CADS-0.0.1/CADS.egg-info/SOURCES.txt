@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+CADS/__init__.py
+CADS/__main__.py
+CADS.egg-info/PKG-INFO
+CADS.egg-info/SOURCES.txt
+CADS.egg-info/dependency_links.txt
+CADS.egg-info/entry_points.txt
+CADS.egg-info/not-zip-safe
+CADS.egg-info/requires.txt
+CADS.egg-info/top_level.txt

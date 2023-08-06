@@ -1,0 +1,3 @@
+[console_scripts]
+CADS = CADS.__main__:main
+

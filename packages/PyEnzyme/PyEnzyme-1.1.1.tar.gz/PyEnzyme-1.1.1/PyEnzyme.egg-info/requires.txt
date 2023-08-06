@@ -1,0 +1,16 @@
+flask
+flask-restful
+flask-apispec
+flask-cors
+python-libsbml
+numpy
+pandas
+python-libcombine
+python-copasi
+openpyxl
+marshmallow
+scipy
+apispec
+
+[test]
+pytest

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PyEnzyme
+Version: 1.1.1
+Summary: Handling of EnzymeML files
+Home-page: https://github.com/EnzymeML/PyEnzyme
+Author: Range, Jan
+Author-email: jan.range@simtech.uni-stuttgart.de
+License: BSD2 Clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test

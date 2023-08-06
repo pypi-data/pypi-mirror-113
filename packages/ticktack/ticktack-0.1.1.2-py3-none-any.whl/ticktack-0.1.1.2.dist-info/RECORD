@@ -1,0 +1,11 @@
+ticktack/__init__.py,sha256=rRXMxiJb6Uy40LD8uk4gpDcZR_VC80PCqHYLIwfrYNg,67
+ticktack/ticktack.py,sha256=oNoOmBbciSX9Zf81fsW-zAq66MNMU5HCWSqrJ6y7qdM,14152
+ticktack/data/Brehm21.hd5,sha256=JITdSqI47P3qVx1hUSXf2vZsi-jzEta2fxxNyVxV814,20256
+ticktack/data/Buntgen18.hd5,sha256=RZtG0D6tL5fJKrEafTZWadwzKA7FBhX0l27L1_h8FTI,14112
+ticktack/data/Guttler14.hd5,sha256=ZUQFrX5AVExwWyAxKMOY8yKn3jkB_DMlFEgjT6emSWY,20480
+ticktack/data/Miyake17.hd5,sha256=16piDy2Ogc5FFOmQKbtBKPj3A1wjq0JDK1ciPWvpF9w,10240
+ticktack-0.1.1.2.dist-info/LICENSE,sha256=4ikBA2yt3rJVtIfHex8s86fdYmhSRWQ09JNylQLXtD0,1071
+ticktack-0.1.1.2.dist-info/METADATA,sha256=7bPiEeF_aPIX4HPm9Q2wb6zqf9LxetFpvif7IRcZiBU,839
+ticktack-0.1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ticktack-0.1.1.2.dist-info/top_level.txt,sha256=z4XS4FkpOzxhH0jSNwLAuib2dsH4GWLB8E33XBUd6QE,9
+ticktack-0.1.1.2.dist-info/RECORD,,

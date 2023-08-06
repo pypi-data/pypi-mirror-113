@@ -1,0 +1,13 @@
+ic_slide/__init__.py,sha256=Qyrp8qDMB4JxYxj50_L6E1zu64cwTwsHTHVSnocU-9g,396
+ic_slide/api_urls.py,sha256=rq8kl7IKhEOVSEAeRHFtV1nsJXJk9BonRFV5seNhMoc,555
+ic_slide/auth.py,sha256=zOJB_KiWxQz4Sej6jpqoHjzJEK1UdMB29qVZpQlTsZ4,2098
+ic_slide/config.py,sha256=iL-4DB4UQPpYZ0Vs8ga9hWZAbnu1lZhZ8oDog6mG6dU,2134
+ic_slide/slide_index.py,sha256=ejvrH9HAbRP-y38efeSYqFJ6dWpPd1xDO6Pu2VfzSzs,10285
+ic_slide/slide_source.py,sha256=9cIlJZ-zU8rq0cCTKLHpMESSW2t3nFmtNCvJ0t68DzY,17476
+ic_slide/time_utils.py,sha256=zQokPR9yy2sokM07VhjvdYXu9_6ejtW4yuVpV9Yiavw,474
+ic_slide/try_pickle.py,sha256=-uu0nSKaIQ_QCyARbx4myVZEp5lYsUe6c54JbWqZju4,1348
+omnipath_slide-1.0.0.dist-info/LICENSE,sha256=z8IfXovWVa6ZfuyRYTi3B7HSkLgycsAqlcn4IbjIcxA,1116
+omnipath_slide-1.0.0.dist-info/METADATA,sha256=p1gfrbrDrI4rr-_XVZT6z5fZF9283XtsdWxH_xCkG4E,2273
+omnipath_slide-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+omnipath_slide-1.0.0.dist-info/top_level.txt,sha256=MgB2eHim3DyS73rzEYM9xubXu4vW6zXXV--8WAIuKVA,9
+omnipath_slide-1.0.0.dist-info/RECORD,,

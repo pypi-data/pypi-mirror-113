@@ -1,0 +1,7 @@
+setup.py
+PyPorts.egg-info/PKG-INFO
+PyPorts.egg-info/SOURCES.txt
+PyPorts.egg-info/dependency_links.txt
+PyPorts.egg-info/top_level.txt
+libname/__init__.py
+libname/ports.py

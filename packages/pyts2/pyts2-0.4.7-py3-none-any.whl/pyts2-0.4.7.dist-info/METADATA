@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyts2
+Version: 0.4.7
+Summary: pyts2: Next-generation utilities and a python library for manipulating timelapses in the TimeStream format 
+Home-page: https://gitlab.com/appf-anu/pyts2
+Author: Kevin Murray
+Author-email: foss@kdmurray.id.au
+License: UNKNOWN
+Keywords: timestream,timelapse,photography,video
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+License-File: LICENSE
+Requires-Dist: msgpack
+Requires-Dist: imageio
+Requires-Dist: numpy
+Requires-Dist: piexif
+Requires-Dist: pytz
+Requires-Dist: scikit-image
+Provides-Extra: extended
+Requires-Dist: click ; extra == 'extended'
+Requires-Dist: inotify ; extra == 'extended'
+Requires-Dist: opencv-python-headless ; extra == 'extended'
+Requires-Dist: pillow ; extra == 'extended'
+Requires-Dist: pytelegraf ; extra == 'extended'
+Requires-Dist: requests ; extra == 'extended'
+Requires-Dist: tqdm ; extra == 'extended'
+Requires-Dist: influxdb-client[ciso] ; extra == 'extended'
+Requires-Dist: b2sdk ; extra == 'extended'
+Requires-Dist: rawpy ; extra == 'extended'
+
+UNKNOWN
+

@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+test_addict.py
+.github/workflows/python-package.yml
+addicty/__init__.py
+addicty/addict.py
+addicty/s3.py
+addicty/yaml_checker.py
+addicty.egg-info/PKG-INFO
+addicty.egg-info/SOURCES.txt
+addicty.egg-info/dependency_links.txt
+addicty.egg-info/requires.txt
+addicty.egg-info/top_level.txt

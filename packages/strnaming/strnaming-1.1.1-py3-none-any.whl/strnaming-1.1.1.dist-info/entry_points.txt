@@ -1,0 +1,3 @@
+[console_scripts]
+strnaming = strnaming.strnaming:main
+

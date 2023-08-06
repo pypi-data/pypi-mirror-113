@@ -1,0 +1,5 @@
+#!/usr/run/env python3.7
+
+from anchorage.cli import interface
+
+interface()

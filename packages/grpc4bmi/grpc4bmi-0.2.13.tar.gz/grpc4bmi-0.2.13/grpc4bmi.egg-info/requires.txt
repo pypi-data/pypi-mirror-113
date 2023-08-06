@@ -1,0 +1,11 @@
+grpcio
+grpcio-reflection
+protobuf
+numpy
+docker
+basic-modeling-interface
+semver>=2.10.0
+typeguard
+
+[R]
+rpy2

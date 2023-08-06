@@ -1,0 +1,10 @@
+cp2kparser/__init__.py,sha256=yT3SVnJ7I_KEPIdP6Rb2WsZ-aTzz3GRbtQlDmwqiXV0,3807
+cp2kparser/__version__.py,sha256=ejIAN7kDKdRAyke1hf3VOo1thiE2oiu-9jp3DuNVtN0,54
+cp2kparser/parser.py,sha256=EuzXOUnmDgFC6PqGmlTxLYCu8pR-6W1OaP1cgaaGKWs,10943
+cp2kparser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CP2K_Parser-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+CP2K_Parser-2.0.0.dist-info/METADATA,sha256=A7sSclIIbKeImfcCIIrEnYSSHJ6WuuHzZbIfsKHHVj8,4399
+CP2K_Parser-2.0.0.dist-info/NOTICE,sha256=QGSaF6UuoAkvweMzNz3IvwzjOxfD4qLgx5EWL83xqt0,71
+CP2K_Parser-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CP2K_Parser-2.0.0.dist-info/top_level.txt,sha256=Wt3FdsfjwnBmdaScnMAxIqqPgs2bbaPEkhVT2tr9DT8,11
+CP2K_Parser-2.0.0.dist-info/RECORD,,

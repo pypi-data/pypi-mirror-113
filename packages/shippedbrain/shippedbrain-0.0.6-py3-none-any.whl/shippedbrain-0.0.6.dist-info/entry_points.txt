@@ -1,0 +1,3 @@
+[console_scripts]
+shippedbrain = shippedbrain.cli:cli
+

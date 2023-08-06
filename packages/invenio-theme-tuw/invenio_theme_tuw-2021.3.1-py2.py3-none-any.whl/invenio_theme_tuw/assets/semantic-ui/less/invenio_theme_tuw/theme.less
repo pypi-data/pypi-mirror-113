@@ -1,0 +1,408 @@
+/*
+ *   Copyright (C) 2020 - 2021 TU Wien.
+ *
+ * Invenio Theme TUW is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+@import "variables.less";
+
+/* override the navbar styling */
+
+.cover-page,
+body.cover-page {
+  background-image: @navbar_background_image;
+  background-color: @navbar_background_color;
+  border-color: transparent;
+}
+
+.outer-navbar {
+  background-image: @navbar_background_image;
+  background-color: @navbar_background_color;
+  border-color: transparent;
+  padding: 2em;
+
+  #invenio-nav {
+    background: transparent;
+    padding: 5px 0;
+  }
+
+  #frontpage-search-bar{
+    background: transparent;
+  }
+
+  a{
+    color: #dbeaff;
+  }
+}
+
+/* additions */
+
+.section-title.small {
+  font-size: 1.5em;
+}
+
+.brought-to-you-section {
+  height: 100%;
+}
+
+img.ui.image.rdm-logo {
+  height: 8rem;
+  width: 8rem;
+  padding: 1.25rem;
+}
+
+img.ui.medium.image.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.ui.label.access-right.embargoed,
+span.ui.label.access-right.embargoed {
+  background-color:#ffbf00
+}
+
+div.ui.pagination.menu,
+#jump-btn {
+  margin: 2em auto;
+}
+
+.hidden {
+  display: none;
+}
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted currentColor;
+  text-decoration-line: none;
+}
+
+.navbar-menu.right {
+  justify-content: right;
+}
+
+.navbar-item.navbar-button {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  flex-grow: 0;
+}
+
+.navbar-item.navbar-search-bar {
+  flex-grow: 1;
+}
+
+#header-search-bar .ui.input {
+  width: auto !important;
+  min-width: 200px !important;
+}
+
+
+/* new theme */
+
+:root {
+  --blue1: #006699;
+  --blue2: #72ADD5;
+  --blue3: #DFF2FD;
+  --grey1: #646363;
+  --orange1: #E18922;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.box-shaddow {
+  box-shadow: 0px 3px 5px gray;
+}
+
+button.bg-orange {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height:1.15;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  font-family: "Arial";
+}
+
+body {
+  padding: 0pt;
+  margin: 0pt;
+}
+
+/* font definition */
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: var(--blue1);
+}
+
+.grey {
+  color: var(--grey1);
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+h2 {
+  font-size: 24pt;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: center;
+}
+
+h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+p {
+  font-size: 12pt;
+  font-family: "Arial";
+}
+
+a {
+  font-size: 12pt;
+  font-family: "Arial";
+}
+
+/* staging banner */
+
+#staging-banner {
+  position: fixed;
+  top:0px;
+  width:100%;
+  z-index: 1000;
+  background-color: red;
+  text-align: center;
+}
+
+#staging-banner p {
+  color:white;
+}
+
+#staging-banner a {
+  color:white;
+  text-decoration: underline;
+}
+
+/* header */
+
+header {
+  background-color: var(--blue1);
+}
+
+#main-nav{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-right:40px;
+  padding-left:40px;
+  flex-wrap: nowrap;
+  width: 100% !important;
+}
+
+#main-nav a{
+  color: white;
+}
+
+#signet,
+#signet div {
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.signet-image {
+  width: 80;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#searchbar {
+  width:720px;
+  max-width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+#searchbutton,
+button.ui.icon.search.button {
+  background-color: var(--orange1);
+}
+
+#header-search-bar {
+  min-width: 250px;
+  width: 100%;
+}
+
+#login {
+  float:right;
+}
+
+/* welcome section */
+
+#welcome {
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+/* feature list */
+
+#features {
+  margin-bottom: 50px;
+}
+
+.feature-icon {
+  background-color: var(--blue2);
+  border-radius: 20px;
+  width:130px;
+  height:130px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+}
+
+.feature-icon img {
+  width:100px;
+  height:100px;
+  margin:15px;
+}
+
+.feature-text p {
+  margin-top: 30px;
+  text-align: center;
+  color: var(--grey1);
+}
+
+
+/* planned features */
+
+#pf-list {
+  margin-bottom: 50px;
+}
+
+#pf-list h2 {
+  color: var(--grey1);
+  text-align: left;
+  font-size: 14pt;
+  margin:0px;
+}
+
+#pf-link {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#pf-link a {
+  cursor: pointer;
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#pf-link a:hover {
+  font-size: 14pt;
+  font-weight: bold;
+  color: var(--grey1);
+}
+
+#pf-hide-link a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+#pf-hide-link a:hover {
+  color: var(--grey1);
+}
+
+.planned-feature-icon {
+  width:130px;
+  height:130px;
+  padding:15px;
+}
+
+.planned-feature-text {
+  text-align: center;
+  border-radius: 20px;
+  padding:10px;
+  background-color: var(--blue3);
+}
+
+/* footer */
+
+#sitemap {
+  background-color: var(--blue2);
+}
+
+#sitemap ul {
+  list-style-type:none;
+  padding: 0px;
+}
+
+#sitemap li {
+  padding-bottom:0.2em;
+}
+
+#sitemap a{
+  color: white;
+}
+
+#sitemap a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.submenu-short {
+  float:left;
+  width:250px;
+}
+
+.submenu-long {
+  float:left;
+  width:350px;
+}
+
+#logos {
+  background-color: var(--blue1);
+}
+
+.textlogo a {
+  display:block;
+  font-size: 9pt;
+  font-family: "Arial";
+  color:white;
+}
+
+.textlogo img {
+  width:100px;
+}
+
+.ui.container.grid > * {
+  flex: auto;
+}
+
+#logos .ui.container.grid > * {
+  flex: 0 0 auto;
+  min-width: fit-content;
+  min-width: -moz-fit-content;
+}

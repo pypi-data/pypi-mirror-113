@@ -1,0 +1,7 @@
+PyYAML
+msgpack
+python-box
+toml
+
+[dev]
+pytest>=3

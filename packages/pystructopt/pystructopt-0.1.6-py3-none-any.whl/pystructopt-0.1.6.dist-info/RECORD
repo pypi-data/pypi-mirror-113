@@ -1,0 +1,8 @@
+pystructopt/VERSION.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+pystructopt/__init__.py,sha256=cGeDY-qVafhv3TQoTwGdObEFb0PT0ooXrjCPWaNRitY,699
+pystructopt/_dataclass_parser.py,sha256=bgNk-7njXgeLn4y-08gZvjUX_PIinue05vMPnOSLRZY,433
+pystructopt/_parse.py,sha256=29M2f8pXqNtVY4bG9BXUkc6IW7UiP6IFCmRvkIB4Qr4,6341
+pystructopt/_utils.py,sha256=Kow86drTmyb1lnZ8Nm3-8Kybs0JilLVEdDa3lm9XFsc,1330
+pystructopt-0.1.6.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+pystructopt-0.1.6.dist-info/METADATA,sha256=FqKOnGZD1mhZYbXu5Ubg9y5mTAJZrEeatoAenXSi-yw,440
+pystructopt-0.1.6.dist-info/RECORD,,

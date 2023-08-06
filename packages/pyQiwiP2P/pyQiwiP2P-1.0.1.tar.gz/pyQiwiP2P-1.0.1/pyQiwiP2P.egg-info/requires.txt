@@ -1,0 +1,4 @@
+cherrypy
+phonenumbers
+email_validator
+requests

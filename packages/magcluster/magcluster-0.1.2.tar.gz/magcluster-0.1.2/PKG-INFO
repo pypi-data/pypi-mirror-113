@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: magcluster
+Version: 0.1.2
+Summary: Magnetosome gene cluster annotation, screening and mapping tool
+Home-page: https://github.com/RunJiaJi/magcluster
+Author: Runjia Ji
+Author-email: jirunjia@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# magcluster
+Magnetosome gene cluster annotation, screening and mapping tool
+## Installation
+Run the following to install:
+pip install magcluster
+## General Usage
+Magnetosome gene annotation:  
+  $ magcluster maga XXX.fa  
+
+Magnetosome gene screen:  
+  $ magcluster magsc XXX.faa XXX.gbk  
+  
+Magnetosome gene cluster mapping:  
+  $ magcluster magm XXX_screened.gbk  
+

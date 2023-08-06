@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: lotame
+Version: 2.0.0
+Summary: Simple python wrapper for LOTAME API
+Home-page: https://github.com/paulokuong/lotame
+Author: Paulo Kuong
+Author-email: paulo.kuong@gmail.com
+License: MIT
+Description: | |Build Status|
+        
+        Lotame API Wrapper
+        ------------------
+        
+        Wrapper Class for Lotame API.
+        
+            | Wrapper class for Lotame REST API.
+            | https://api.lotame.com/docs
+            | https://github.com/paulokuong/lotame
+        
+        Requirements
+        ------------
+        
+        -  Python 3.6 (tested)
+        
+        Goal
+        ----
+        
+        | To provide a generic wrapper Lotame API
+        
+        Code sample
+        -----------
+        
+        | Instantiate
+        
+        .. code:: python
+        
+          from lotame import Api, Credentials, FirehoseService, BehaviorService
+          api = Api(Credentials(client_id='xxx', token='yyy', access='zzz'))
+        
+        .. code:: python
+        
+          fs = FirehoseService(api=api)
+          updates = fs.getUpdates(hours=1)
+        
+        .. code:: python
+        
+          b = BehaviorService(api=api)
+          b.get('types')
+        
+        Contributors
+        ------------
+        
+        -  Paulo Kuong (`@pkuong`_)
+        
+        .. _@pkuong: https://github.com/paulokuong
+        
+        .. |Build Status| image:: https://travis-ci.org/paulokuong/lotame.svg?branch=master
+        .. target: https://travis-ci.org/paulokuong/lotame
+        
+Keywords: lotame python wrapper client audience behavior api sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

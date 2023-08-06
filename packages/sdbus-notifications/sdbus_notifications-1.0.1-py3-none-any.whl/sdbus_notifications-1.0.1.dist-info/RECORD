@@ -1,0 +1,10 @@
+sdbus_async/notifications/__init__.py,sha256=RRb7BcE8CwSr9zgO_ZbTi_WtKjh1_73JmlBdFefBO40,10072
+sdbus_async/notifications/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdbus_block/notifications/__init__.py,sha256=89tJe4JwY_C6njhIG5qELf1IGDad8Nu-X9_t5Sz5Lb0,9057
+sdbus_block/notifications/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdbus_notifications-1.0.1.dist-info/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+sdbus_notifications-1.0.1.dist-info/COPYING.LESSER,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+sdbus_notifications-1.0.1.dist-info/METADATA,sha256=cjt5-UnYMgk3BW6p2kH8ohYDQPOkm_YX8sXIhGiTZgo,2126
+sdbus_notifications-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sdbus_notifications-1.0.1.dist-info/top_level.txt,sha256=IngtJ1316t2WMn8EXIN5T-relQcWhiwRSPa1YHyyx-c,24
+sdbus_notifications-1.0.1.dist-info/RECORD,,

@@ -1,0 +1,15 @@
+_pyagorasdk.cp38-win_amd64.pyd,sha256=6cadSvaAG9b74iiU7JMMAJ2PtkXcxQ8e1NojYWFWiIQ,55808
+pyagora.py,sha256=fxNhWnsvldzvMjCtNneX3cjSoZ9WmBrvaF1dKLIQPP4,5936
+PyAgora-0.0.1.data/data/agora_rtc_sdk.dll,sha256=HlywOxeB3MFXhhNNsfm2fyHMxz5cy7Nvu1fO29v3Oek,28025440
+PyAgora-0.0.1.data/data/libagora-fdkaac.dll,sha256=b6nlv4EKJz1eAdZe-jmsB5YWFtelECAEqvVj22Nwkdk,1449056
+PyAgora-0.0.1.data/data/libagora-ffmpeg.dll,sha256=sxQrtHnjWHF6ZwoDvuPzMg17mbpXUf5N8eYFCqJOXqE,5729888
+PyAgora-0.0.1.data/data/libagora-mpg123.dll,sha256=ZPF8LSUDfFSewfRv4foe1al3lCJvQNVNOAg0uT60lpQ,985696
+PyAgora-0.0.1.data/data/libagora-soundtouch.dll,sha256=Ouct74oEjPvJ76Oce78XwFNmt0oWkGG35ecz7FJgX0Q,607840
+PyAgora-0.0.1.data/data/libhwcodec.dll,sha256=NJgW-VMaSC14C0QTZOuUd2AWLJz2A5AW9Jqh_O8VBQM,783968
+PyAgora-0.0.1.data/data/data/wudao-2-48.wav,sha256=L9N_PVOCPsWL_Yvg8IV9f1YwXPco39Do7_HZsrnNQgg,19197222
+PyAgora-0.0.1.data/data/data/wudao.mp4,sha256=2daQFX1TnKITckFnmCfMO46Hm-v0uWkE12qWgrAAChs,7497059
+PyAgora-0.0.1.data/data/example/agora.py,sha256=09owco-FYpTun44IwCoKYI0SpKhJiZzjSHGPusjKWT4,7938
+PyAgora-0.0.1.dist-info/METADATA,sha256=aStN_FiLe-jkhTPwBoU7rtG3gFShQ181iNtemRrEXHo,1281
+PyAgora-0.0.1.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+PyAgora-0.0.1.dist-info/top_level.txt,sha256=OgOTfwy2BZJnXmOodn-NY4yTRdZs3L03kc1d4XU6Prg,20
+PyAgora-0.0.1.dist-info/RECORD,,

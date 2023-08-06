@@ -1,0 +1,3 @@
+[console_scripts]
+srun-bit = srunbit.cli:execute
+

@@ -1,0 +1,9 @@
+foliant>=1.0.5
+foliantcontrib.utils>=1.0.2
+foliantcontrib.plantuml>=1.0.10
+psycopg2-binary
+cx_Oracle
+pyodbc
+mysqlclient
+jinja2
+PyYAML

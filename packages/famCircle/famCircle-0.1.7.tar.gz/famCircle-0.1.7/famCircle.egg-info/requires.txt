@@ -1,0 +1,7 @@
+pandas
+numpy
+biopython
+matplotlib
+scipy
+interval
+seaborn>=0.10.1

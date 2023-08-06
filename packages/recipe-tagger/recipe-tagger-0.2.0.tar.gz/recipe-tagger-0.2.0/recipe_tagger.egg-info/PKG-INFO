@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: recipe-tagger
+Version: 0.2.0
+Summary: A library for tagging and classify recipes
+Home-page: https://github.com/TurconiAndrea/recipe-tagger
+Author: Andrea Turconi
+License: MIT
+Download-URL: https://github.com/TurconiAndrea/recipe-tagger/archive/refs/tags/0.2.0.tar.gz
+Keywords: food,recipe,tag,tagging,ingredient
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+

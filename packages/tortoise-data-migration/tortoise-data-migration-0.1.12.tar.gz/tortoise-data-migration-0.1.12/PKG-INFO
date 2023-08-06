@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tortoise-data-migration
+Version: 0.1.12
+Summary: Tortoise migrations for data, not structure
+License: MIT
+Author: Guillermo Manzato
+Author-email: manzato@ekumenlabs.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tortoise-orm (>=0.17.5,<0.18.0)

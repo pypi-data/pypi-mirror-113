@@ -1,0 +1,3 @@
+[console_scripts]
+hgco_download = hgco_download.download_cli:main
+

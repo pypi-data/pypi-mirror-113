@@ -1,0 +1,9 @@
+ansible/plugins/inventory/roster.py,sha256=DX--4pL_3zbyLXntpT05ak109zAXlWabLLc4NaYrAPo,1757
+ansible_roster/lib/inventory.py,sha256=yCCPXJ7zxz8YkTEDQ7i18q7x-9jEgpqD2wRg2-Wwl8U,3723
+ansible_roster/plugins/inventory/roster.py,sha256=6RA8s6P_GWBouxMzt4LLy38YMxUmv1x1DCLnm0__dlE,17807
+ansible_roster-0.7.1.dist-info/LICENSE,sha256=_evFV7IszDp4w80Fe8ILKuAFPDFgbbdmnsAVZbh2jjk,1086
+ansible_roster-0.7.1.dist-info/METADATA,sha256=oDrKNmLACgGRKsYizdmJLMALkd4XmDyDYQPQuXKfR7E,4826
+ansible_roster-0.7.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ansible_roster-0.7.1.dist-info/top_level.txt,sha256=82q7WKtTywOH7YVh8671DzAGReQR-ZdNgf1-4gMXCyk,23
+ansible_roster-0.7.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ansible_roster-0.7.1.dist-info/RECORD,,

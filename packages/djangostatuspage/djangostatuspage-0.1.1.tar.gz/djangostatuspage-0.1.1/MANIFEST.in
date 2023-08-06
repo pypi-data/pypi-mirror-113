@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+include requirements.txt
+recursive-include djangostatuspage/**/static *
+recursive-include djangostatuspage/**/templates *
+recursive-include docs *

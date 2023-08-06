@@ -1,0 +1,8 @@
+README.md
+friendlycrypto.py
+setup.py
+friendlycrypto.egg-info/PKG-INFO
+friendlycrypto.egg-info/SOURCES.txt
+friendlycrypto.egg-info/dependency_links.txt
+friendlycrypto.egg-info/requires.txt
+friendlycrypto.egg-info/top_level.txt

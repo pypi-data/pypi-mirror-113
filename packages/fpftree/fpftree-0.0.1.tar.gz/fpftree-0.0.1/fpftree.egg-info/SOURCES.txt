@@ -1,0 +1,6 @@
+README.txt
+setup.py
+fpftree.egg-info/PKG-INFO
+fpftree.egg-info/SOURCES.txt
+fpftree.egg-info/dependency_links.txt
+fpftree.egg-info/top_level.txt

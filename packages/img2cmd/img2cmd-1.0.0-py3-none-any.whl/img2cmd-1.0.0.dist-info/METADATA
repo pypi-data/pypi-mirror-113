@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: img2cmd
+Version: 1.0.0
+Summary: Functions: drawimg(depth, image_path) | You must install "Color-It" and "Pillow" too
+Author: Mitikas
+Author-email: mitikas333@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

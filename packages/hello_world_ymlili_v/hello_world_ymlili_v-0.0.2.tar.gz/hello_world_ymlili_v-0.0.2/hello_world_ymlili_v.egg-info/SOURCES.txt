@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+hello_world/__init__.py
+hello_world/lili_2021_0722_hw.py
+hello_world_ymlili_v.egg-info/PKG-INFO
+hello_world_ymlili_v.egg-info/SOURCES.txt
+hello_world_ymlili_v.egg-info/dependency_links.txt
+hello_world_ymlili_v.egg-info/entry_points.txt
+hello_world_ymlili_v.egg-info/not-zip-safe
+hello_world_ymlili_v.egg-info/requires.txt
+hello_world_ymlili_v.egg-info/top_level.txt

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: transparentwindow
+Version: 0.0.1
+Summary: show a transparentwindow
+Home-page: https://github.com/m-m-git/transparentwindow
+License: BSD Zero Clause License
+Keywords: windows,transparentwindow
+Platform: windows
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: screencapture
+Requires-Dist: numpy ; extra == 'screencapture'
+Requires-Dist: opencv-python ; extra == 'screencapture'
+
+# transparentwindow
+
+show a transparent window and screenshot.
+
+
+## Installation
+
+```
+pip install transparentwindow
+```
+
+## Example
+
+```python
+import transparentwindow as tw
+
+tw.SetProcessDpiAwarenessContext()
+tw.show()
+```
+
+![sample.png](https://github.com/m-m-git/transparentwindow/blob/main/sample.png)
+
+## License
+
+BSD Zero Clause License
+
+see LICENSE.txt.
+
+

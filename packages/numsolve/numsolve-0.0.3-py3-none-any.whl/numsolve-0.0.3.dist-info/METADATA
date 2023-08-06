@@ -1,0 +1,225 @@
+Metadata-Version: 2.1
+Name: numsolve
+Version: 0.0.3
+Summary: Numerical Methods to solve various equation
+Home-page: UNKNOWN
+Author: Harshal Dupare
+Author-email: <harshal3hd@gmail.com>
+License: UNKNOWN
+Keywords: python,numerical methods,equation solver
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# NumSolve
+
+
+
+Package to solve various equations using Numerical Methods
+
+
+
+## List of Methods Implemented
+
+
+
+* Euler Forward method
+
+* Newton Raphson Method 1D
+
+* Euler Backward method 
+
+* Modified Euler method
+
+* Euler Cauchy Method/Hune Method
+
+* Ranga Kutta method of thita
+
+* General 2nd Order method
+
+* Nystrom 3rd order method
+
+* Hune 3rd order method
+
+* Classical 3rd Order method
+
+* Nearly optimal 3rd Order method
+
+* Kutta Method 4th order method
+
+* Classical 4th Order method
+
+* General Explicit Ranga Kutta method
+
+* Newton Raphson Method for solving for y for a given x in F(x,y) = 0
+
+* Implicit RK Method of order 2
+
+* Implicit RK Method of order 4
+
+* Forward Difference operator
+
+* Backward Difference operator
+
+* Adam Bashford method
+
+* Adam Moulton method
+
+* Newton Raphson Method for solving for y for a given x in y-coeff* F(x,y) = intercept
+
+* Milne Simpson method
+
+* Adams Bashforth Moulton PC method
+
+* Milne PC method
+
+* Euler PC method
+
+* Thomas Algorithm for solving tridiagonal system
+
+* Finite Difference Method to solve general 2nd order BVP
+
+
+
+## Further scope
+
+
+
+* Methods to solve PDEs
+
+
+
+## Examples
+
+
+
+import the package
+
+```
+
+>>> import numsolve as ns
+
+```
+
+
+
+define the functions needed for the equation
+
+```
+
+>>> # function
+
+>>> def h(x,y):
+
+...     return -2*x*y*y
+
+...
+
+>>> # partial derivative wrt y
+
+>>> def dhy(x,y):
+
+...     return -4*x*y
+
+...
+
+>>> # partial derivative wrt x
+
+>>> def dhx(x,y):
+
+...     return -2*y*y
+
+```
+
+
+
+check the doc strings and run the methods
+
+```
+
+>>> help(ns.ECM)
+
+Help on function ECM in module numsolve:
+
+
+
+ECM(n, F, y_init, limit=[0, 1])
+
+    Euler Cauchy Method or Hune Method for solution of
+
+    y' = F(x,y)
+
+
+
+    n : number of steps
+
+    F : F(x,y) takes 2 input as x and y then outputs the value for this equation
+
+    y_init = initial value at point x=a
+
+    limit : [a,b], region on x to solve the equation for
+
+
+
+>>> ns.ECM(5,F=h,y_init=1)
+
+[1, 0.96, 0.86029775536128, 0.7350425008089037, 0.6115716703493418]
+
+```
+
+
+
+```
+
+>>> help(ns.General_Explicit)
+
+Help on function General_Explicit in module numsolve:
+
+
+
+General_Explicit(order, W, A, n, F, y_init, limit=[0, 1], C=None)
+
+    General Explicit Ranga Kutta method for solution of
+
+    y' = F(x,y)
+
+
+
+    order : order of method say m
+
+    W = weight numpy Array for, y_n+1 = y_n + ( w1*k1 + w2*k2.....+ wm*km ), here W = [w1,w2..,wm]
+
+    A = weight numpy matrix Matrix for, ki = h*F(x_n + ci*h,y_n + ( a_{i,i}*k1 + a_{i,2}*k2 + ...+ a_{i,i-1}*k_i-1 )) for i = 0...m, h is step size = (b-a/n)
+
+        note values beyound i-1 are all supposed to be zero for Explicit method
+
+    n : number of steps
+
+    F : F(x,y) takes 2 input as x and y then outputs the value for this equation
+
+    y_init = initial value at point x=a
+
+    limit : [a,b], region on x to solve the equation for
+
+    C : weight numpy Array [c1,c2...c], usually ci = a_{i,1}+ a_{i,2}+..+  a_{i,i-1}
+
+        this can be changed with help of this input
+
+
+
+>>>
+
+>>> ns.General_Explicit(3,[0.5,0.3,0.2],[[0,0,0],[1,0,0],[0.5,0.2,0]],5,F=h,y_init=1)
+
+[1, 0.9651555328, 0.8676644565853738, 0.7409120390270509, 0.6143029355673265]
+
+```
+

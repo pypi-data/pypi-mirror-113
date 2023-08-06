@@ -1,0 +1,16 @@
+atomicwrites
+humbug
+libcst
+pygit2
+pydantic
+
+[dev]
+black
+mypy
+wheel
+types-atomicwrites
+
+[distribute]
+setuptools
+twine
+wheel

@@ -1,0 +1,6 @@
+m-singleton
+m-monitor
+m-validator
+Flask>=1.1.2
+configparser==3.5.0
+logstash_formatter==0.5.17

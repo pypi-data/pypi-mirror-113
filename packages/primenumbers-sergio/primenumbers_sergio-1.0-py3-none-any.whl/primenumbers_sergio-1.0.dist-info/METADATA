@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: primenumbers-sergio
+Version: 1.0
+Summary: A tool to calc prime numbers.
+Home-page: UNKNOWN
+Author: Sergio Arcila
+Author-email: sergioarcila1998@hotmail.com
+License: GNU GPLv3
+Keywords: pyoperaciones mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+PRIME NUMBERS SERGIO
+======================
+Este es un ejemplo simplre de un paquete de Python. Este paquete contiene una funcion para calcular los numeros primos que existen desde 1 hasta el numero pasado a la funcion.
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+

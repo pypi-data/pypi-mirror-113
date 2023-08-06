@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AIFactoryDS
+Version: 0.1.13
+Summary: AI Project Skeleton and Utilities
+Home-page: https://github.com/YooSunYoung
+Author: yoosunyoung
+Author-email: luysunyoung9@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: numpy (~=1.19.2)
+
+UNKNOWN
+
+

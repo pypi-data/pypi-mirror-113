@@ -1,0 +1,9 @@
+aadict>=0.2.2
+asset>=0.6.13
+clibase>=0.0.2
+epoch>=0.1.5
+morph>=0.1.4
+numpy>=1.16.6
+python-gnupg>=0.3.6
+six>=1.10.0
+weave>=0.17.0

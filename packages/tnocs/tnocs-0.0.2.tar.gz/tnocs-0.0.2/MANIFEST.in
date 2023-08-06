@@ -1,0 +1,4 @@
+include *.rst *.txt *.cfg *.ini *.json *.yaml
+recursive-include tnocs *.ico *.png *.gif *.jpg
+recursive-include tnocs *.less *.css *.js *.html *.hbs *.pt *.mak *.mako
+recursive-include tnocs *.json *.yaml *.xml

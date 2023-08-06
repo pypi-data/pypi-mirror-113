@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sagemaker-studio-analytics-extension
+Version: 0.0.1.2
+Summary: SageMaker Studio Analytics Extension.
+Home-page: https://github.com/edward.psun@gmail.com/sagemaker-studio-analytics-extension
+Author: 
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown
+
+# SageMaker Studio Analytics Extension
+
+> 
+
+[![Latest Version on PyPI](https://img.shields.io/pypi/v/sagemaker-studio-analytics-extension.svg)](https://pypi.python.org/pypi/sagemaker-studio-analytics-extension/)
+[![Supported Implementations](https://img.shields.io/pypi/pyversions/sagemaker-studio-analytics-extension.svg)](https://pypi.python.org/pypi/sagemaker-studio-analytics-extension/)
+[![Build Status](https://secure.travis-ci.org/edward.psun@gmail.com/.svg?branch=master)](http://travis-ci.org/christophevg/)
+[![Documentation Status](https://readthedocs.org/projects/sagemaker-studio-analytics-extension/badge/?version=latest)](https://sagemaker-studio-analytics-extension.readthedocs.io/en/latest/?badge=latest)
+[![Coverage Status](https://coveralls.io/repos/github/edward.psun@gmail.com//badge.svg?branch=master)](https://coveralls.io/github/edward.psun@gmail.com/?branch=master)
+[![Built with PyPi Template](https://img.shields.io/badge/PyPi_Template-v0.1.4-blue.svg)](https://github.com/christophevg/pypi-template)
+
+
+
+## Documentation
+
+Visit [Read the Docs](https://sagemaker-studio-analytics-extension.readthedocs.org) for the full documentation, including overviews and several examples.
+
+
+
+

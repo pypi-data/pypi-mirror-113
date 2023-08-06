@@ -1,0 +1,11 @@
+majormode/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/constant/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/constant/place.py,sha256=ae0K4E-MzpNq4tWf4FOsBTIAKD-acNowCVCN7fqsVxo,5620
+majormode/mercurius/model/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/model/address.py,sha256=zzS72yd0XV93c9IFshrR3PxxHXaQvp6A1iP5w-tA62A,8679
+majormode/mercurius/model/place.py,sha256=H-kx3z4EANHR7tI0R6DeuAjmx0aexUDiY-0g0PaCwhc,19153
+mercurius_core_library-1.0.7.dist-info/METADATA,sha256=1DoftY8Z4_3an_iOHAjq-3jj5d-BsNLwgYG2vGMxH4w,1198
+mercurius_core_library-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mercurius_core_library-1.0.7.dist-info/top_level.txt,sha256=qLr6h4oeLqaugRahQG2kHWqnLf2QDgu8LP6VtCUDw7M,10
+mercurius_core_library-1.0.7.dist-info/RECORD,,

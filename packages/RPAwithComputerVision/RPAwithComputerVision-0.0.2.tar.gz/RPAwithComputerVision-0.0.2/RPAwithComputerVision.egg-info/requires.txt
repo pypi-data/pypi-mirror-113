@@ -1,0 +1,16 @@
+easyocr
+tensorflow
+sklearn
+pandas
+fuzzywuzzy
+pytesseract
+pycryptodome
+selenium
+keyboard
+pyautogui
+pywinauto
+pywin32==300
+pandas
+opencv-python
+imutils
+webdriver_manager

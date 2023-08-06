@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pygll
+Version: 0.1
+Summary: Pygments syntax highlighting styles for dark and light backgrounds
+Home-page: https://github.com/LivingLogic/LivingLogic.Python.PygLL
+Author: Walter Doerwald
+Author-email: walter@livinglogic.de
+License: MIT
+Download-URL: https://pypi.org/project/pygll/#files
+Keywords: syntax highlighting,pygments style
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Requires-Dist: pygments (>=2.0)
+
+Pygments__ syntax highlighting styles for dark and light backgrounds
+
+__ https://pygments.org/
+
+.. image:: https://raw.githubusercontent.com/LivingLogic/LivingLogic.Python.PygLL/master/PygLL.png
+
+
+Installation
+============
+
+Install with::
+
+	$ pip install pygll
+
+
+After installation, two new Pygments styles are available:
+
+=============================== =====================
+Python class                    Plugin name
+=============================== =====================
+``pygll.LivingLogicLightStyle`` ``livinglogic-light``
+``pygll.LivingLogicDarkStyle``  ``livinglogic-dark``
+=============================== =====================
+
+
+Usage with Sphinx
+=================
+
+If you want to use this Pygments style with Sphinx put the following in your
+``conf.py``::
+
+	pygments_style = 'livinglogic-light'
+
+Whether and how you can specify both styles to let the browser automatically
+switch them depending on the current OS color scheme depends on the HTML theme
+you're using.
+
+
+History
+=======
+
+0.1 (2021-07-23)
+----------------
+
+Initial release.
+

@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+binencrypt/__init__.py
+binencrypt.egg-info/PKG-INFO
+binencrypt.egg-info/SOURCES.txt
+binencrypt.egg-info/dependency_links.txt
+binencrypt.egg-info/top_level.txt
+old_/__init__.py
+old_version/__init__.py

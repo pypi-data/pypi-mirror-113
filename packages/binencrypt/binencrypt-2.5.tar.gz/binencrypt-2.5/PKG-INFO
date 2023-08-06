@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: binencrypt
+Version: 2.5
+Summary: FILE ENCRYPTION EXEC
+Home-page: UNKNOWN
+Author: K.A.ISHAN OSHADA
+Author-email: <ic31908@gmail.com>
+License: UNKNOWN
+Description: 
+        #### USE #####
+        
+         ## crypter file encrypt  ##
+         
+          call = binencrypt.crypter(data,output_file)
+          call.encrypt()
+         
+         ## crypter_V2 text decrypt only exec  ##
+         
+          call = binencrypt.crypter_V2(data)
+          out = call.encrypt()
+          print(out)
+          callde = binencrypt.crypter_V2(data)
+          oytde = callde.decrypt()
+          exec(oytde)
+          
+          ' this out not print only exec '
+        
+        
+        
+Keywords: binencrypt.crypter(),encrypt(),binencrypt.crypter_V2(),encrypt(),decrypt()
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown

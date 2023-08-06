@@ -1,0 +1,9 @@
+archfinder/__init__.py,sha256=SbmntP9lnlanVuJl4GVeMemHusVnoDR0gyXam81w4rQ,79
+archfinder/__main__.py,sha256=ujzlQqgvBLqJhC9xJqrbyb3gPbgfrJI8h_14TYzUlZM,36
+archfinder/archfinder.py,sha256=rZ7oSbZiaAB9nGMkAVK51-fQUGvfRpdLjQEe4ud5v_k,25457
+archfinder-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+archfinder-0.0.3.dist-info/METADATA,sha256=LlrjL0qZdew1fPqizdKO-wTBnjht9xH5AOPPHike0Fo,3527
+archfinder-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+archfinder-0.0.3.dist-info/entry_points.txt,sha256=UhDmfQB35kApNLSa2jH2_PvOVCTwZ5WoR6qmhs-dzTM,59
+archfinder-0.0.3.dist-info/top_level.txt,sha256=fcoXGPehvRBSV-4zfQmKgPU60bsGEl5SlKpfQ6XL9xQ,11
+archfinder-0.0.3.dist-info/RECORD,,

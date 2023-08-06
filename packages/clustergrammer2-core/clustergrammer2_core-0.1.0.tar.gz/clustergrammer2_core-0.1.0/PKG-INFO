@@ -1,0 +1,67 @@
+Metadata-Version: 1.2
+Name: clustergrammer2_core
+Version: 0.1.0
+Summary: Core functionality for Cthe Clustergrammer2 widget
+Home-page: https://github.com/cornhundred/clustergrammer2_core
+Author: Nicolas Fernandez
+Author-email: nickfloresfernandez@gmail.com
+License: MIT license
+Description: ====================
+        clustergrammer2_core
+        ====================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/clustergrammer2_core.svg
+                :target: https://pypi.python.org/pypi/clustergrammer2_core
+        
+        .. image:: https://img.shields.io/travis/cornhundred/clustergrammer2_core.svg
+                :target: https://travis-ci.com/cornhundred/clustergrammer2_core
+        
+        .. image:: https://readthedocs.org/projects/clustergrammer2-core/badge/?version=latest
+                :target: https://clustergrammer2-core.readthedocs.io/en/latest/?version=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Core functionality for Cthe Clustergrammer2 widget
+        
+        
+        * Free software: MIT license
+        * Documentation: https://clustergrammer2-core.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2021-07-21)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: clustergrammer2_core
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6

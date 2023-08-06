@@ -1,0 +1,14 @@
+LICENSE
+README.md
+package.sh
+setup.py
+getosm/VERSION
+getosm/__init__.py
+getosm/getosm.py
+getosm/osmtk.py
+getosm/osmwx.py
+getosm.egg-info/PKG-INFO
+getosm.egg-info/SOURCES.txt
+getosm.egg-info/dependency_links.txt
+getosm.egg-info/entry_points.txt
+getosm.egg-info/top_level.txt

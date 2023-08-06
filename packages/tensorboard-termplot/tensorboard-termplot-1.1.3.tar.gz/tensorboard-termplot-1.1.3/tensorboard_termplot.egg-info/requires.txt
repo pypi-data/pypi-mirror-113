@@ -1,0 +1,6 @@
+tensorboard
+plotext
+mock
+
+[matplotlib-backend]
+matplotlib

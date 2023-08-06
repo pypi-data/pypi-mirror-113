@@ -1,0 +1,81 @@
+{% extends 'djmicrosip_orden_trabajo/base.html' %}
+{% block title %}
+CRM
+{% endblock %}
+{% block style_css %}
+
+{% endblock %}
+{% block js_code %}
+{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+    <form method="get" class="form" action=""  enctype='multipart/form-data'>
+      {% csrf_token %}    
+      {{ form_busqueda.errors }}
+      <div class="row">
+      <div class="col-lg-12">
+        <div class="col-lg-12">
+        
+          <div class="col-lg-3 col-md-3 col-xs-6 col-sm-6"><label>Busqueda</label>{{ form_busqueda.busqueda }}</div>
+    
+          <div class="col-lg-1 col-md-1 col-xs-4 col-sm-4"><label>Fecha inicio</label>{{ form_busqueda.inicio }}</div>
+          <div class="col-lg-1 col-md-1 col-xs-4 col-sm-4"><label>Fecha fin</label>{{ form_busqueda.fin }}</div>
+          <div class="col-lg-1 col-md-1 col-xs-4 col-sm-4"><label></label><button class="btn btn-success" value="Buscar"  id="guardar">Buscar</button></div>
+        </div>
+        </div>
+      </div>
+      </div>
+    {% if pedidos.has_other_pages %}
+    <div class="text-center">
+    <ul class="pagination">
+      {% if pedidos.has_previous %}
+        <li><a href="?page={{ pedidos.previous_page_number }}&busqueda={{busqueda}}&inicio={{inicio|date:'d/m/Y'}}&fin={{fin|date:'d/m/Y'}}">&laquo;</a></li>
+      {% else %}
+        <li class="disabled"><span>&laquo;</span></li>
+      {% endif %}
+      {% for i in pedidos.paginator.page_range %}
+        {% if pedidos.number == i %}
+          <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+        {% else %}
+          <li><a href="?page={{ i }}&busqueda={{busqueda}}&inicio={{inicio|date:'d/m/Y'}}&fin={{fin|date:'d/m/Y'}}">{{ i }}</a></li>
+        {% endif %}
+      {% endfor %}
+      {% if pedidos.has_next %}
+        <li><a href="?page={{ pedidos.next_page_number }}&busqueda={{busqueda}}&inicio={{inicio|date:'d/m/Y'}}&fin={{fin|date:'d/m/Y'}}">&raquo;</a></li>
+      {% else %}
+        <li class="disabled"><span>&raquo;</span></li>
+      {% endif %}
+    </ul>
+  </div>
+  {% endif %}
+    </form>
+  </div>
+  <div class="col-md-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Cliente</th>  
+          <th>Fecha</th>  
+          <th>Descripcion</th>  
+          <th>Persona solicito</th>  
+        </tr>
+        
+      </thead>
+      <tbody>
+
+        {%for pedido in pedidos%}
+        <tr>
+          <td>{{pedido.venta.cliente}}</td>
+          <td>{{pedido.fecha_registro|date:"d/M/Y"}}</td>
+          <td>{{pedido.descripcion_solicitud}}</td>
+          <td>{{pedido.persona_solicito}}</td>
+        </tr>
+        
+        {% endfor %}
+      </tbody>
+    </table> 
+  </div> 
+</div>
+
+{% endblock %}

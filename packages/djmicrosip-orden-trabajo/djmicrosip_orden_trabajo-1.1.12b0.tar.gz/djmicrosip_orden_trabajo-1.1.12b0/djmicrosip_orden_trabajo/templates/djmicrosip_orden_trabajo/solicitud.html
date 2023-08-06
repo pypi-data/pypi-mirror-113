@@ -1,0 +1,114 @@
+{% extends 'djmicrosip_orden_trabajo/base.html' %}
+{% block title %}
+Solictud
+{% endblock %}
+{% block style_css %} 
+{{ form.media.css }}
+<style type="text/css">
+	label{
+		width: 100%;
+	}
+</style>
+{% endblock %}
+
+<!-- JavaScript Code -->
+{% block js_code %}
+{{ form.media.js }}
+
+<script type="text/javascript">
+
+	$("#id_cliente").prop( "disabled", true );
+</script>
+{% endblock %}
+{% block breadcrumb %}
+{{ block.super }}
+<li><a>Solictud</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+<form method="post" class="form" action=""  enctype='multipart/form-data'>
+  {% csrf_token %}    
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        {{ form.errors }}
+    	
+                <div class="col-lg-3 col-md-3 col-sm-2 col-xs-5 hidden">
+                    <label>Clave</label>
+                    {{form.cliente_clave}}{{ form.media.css }}
+                </div>
+        		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            		<label>Cliente</label>
+            		{{form.cliente}}
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden">
+                    <div class="inf_cliente">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6">
+                            <label>Direcciones</label>
+                            {{form.cliente_direccion}}
+                        </div>          
+                    
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                            <label>Condiciones</label>
+                            {{form.condicion_pago}}                
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-5">
+                            <label>Descuento tipo</label>
+                            {{form.descuento_tipo}}
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7">
+                            <label id="lbl_descuento_porcentaje">Descuento Porcentaje</label>
+                            {{form.descuento_porcentaje}}
+                            <label id="lbl_descuento_importe">Descuento Importe</label>
+                            {{form.descuento_importe}}
+                        </div>
+                    
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <label>Moneda</label>
+                            {{form.moneda}}
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <label>Almacen</label>
+                            {{form.almacen}}
+                        </div>
+                    </div>
+            		{{form.descripcion}}
+            		{{form.tipo_cambio}}
+            		{{form.direccion_consignatario}}
+                </div>
+    </div>
+
+
+</div>
+	<div class="col-md-12">
+		{{form_crm.errors}}
+		<label>Nombre de quien solicita</label> {{form_orden.persona_solicito}}
+		<label>Descripcion de Solicitud</label> {{form_orden.descripcion_solicitud}}
+		<div class="hidden">
+			<label>tipo_servicio</label> {{form_orden.tipo_servicio}}
+			<label>tipo_llamada</label> {{form_orden.tipo_llamada}}
+			
+		</div>
+	</div>
+	<div class="col-md-12">
+			<div class="col-md-2 hidden">
+
+		<label>Importe</label>
+		<input type="text" readonly="" value="0" id="importe_sin_descuento" class="form-control text-right">
+		<br>
+		<br>
+		<label >Descuento Importe</label>
+		<input type="text" readonly="" value="0" id="descuento_importe" class="form-control text-right">
+		<br>
+		<br>
+		<label>Importe Neto</label>
+		{{form.importe_neto}}
+	</div>	
+		<div class="col-md-2">
+			<input style="float: right;" type="submit" class="btn btn-primary" value="Guardar"  id="guardar" />
+		</div>
+	</div>
+
+</form>	
+</div>
+{% endblock %}

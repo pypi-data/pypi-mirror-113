@@ -1,0 +1,5 @@
+venv/
+dist/
+assm/__pycache__
+images/
+logo.png

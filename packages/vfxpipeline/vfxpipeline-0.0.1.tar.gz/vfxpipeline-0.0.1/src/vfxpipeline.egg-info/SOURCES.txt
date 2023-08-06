@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/core/__init__.py
+src/core/sysInfo.py
+src/vfxpipeline.egg-info/PKG-INFO
+src/vfxpipeline.egg-info/SOURCES.txt
+src/vfxpipeline.egg-info/dependency_links.txt
+src/vfxpipeline.egg-info/top_level.txt

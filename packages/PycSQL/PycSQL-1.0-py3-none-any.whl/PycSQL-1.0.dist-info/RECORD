@@ -1,0 +1,13 @@
+pycsql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycsql/access.py,sha256=HNMWrV3FrojflCUmmkOEQzJbOKkPzM9SKwyCKuh-o_Q,171
+pycsql/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycsql/config/config.py,sha256=HdzVuw1FniuXIU78R6JH3X-nc5JZ_XB7w7bpjcOYbKM,662
+pycsql/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycsql/core/manager.py,sha256=tFJImy3qsCZd2p-Mi199Hq4yU_pH-_pT3oS4NTBLiTU,18849
+pycsql/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycsql/db/pycsql.py,sha256=kz9hQdDij6FGXKXkKfSewOyT6JGvQfkuvJI2Ksrp9C8,16801
+PycSQL-1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+PycSQL-1.0.dist-info/METADATA,sha256=MbF9_O325Jd-dCSeFrRZZdscgi2lLjDgHrYyhJdGFV8,899
+PycSQL-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PycSQL-1.0.dist-info/top_level.txt,sha256=4SwMRYSNr2ijexznF1aE4N2CQaJDoJajEyfmvQ-phO8,7
+PycSQL-1.0.dist-info/RECORD,,

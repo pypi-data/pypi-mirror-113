@@ -1,0 +1,17 @@
+README.md
+setup.py
+lib/__init__.py
+lib/elemnet_network.py
+lib/elemnet_network_classfn.py
+lib/elpasolite_network.py
+skipatom/__init__.py
+skipatom/induced.py
+skipatom/model.py
+skipatom/trainer.py
+skipatom/training_data.py
+skipatom/util.py
+skipatom.egg-info/PKG-INFO
+skipatom.egg-info/SOURCES.txt
+skipatom.egg-info/dependency_links.txt
+skipatom.egg-info/requires.txt
+skipatom.egg-info/top_level.txt

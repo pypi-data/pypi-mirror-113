@@ -1,0 +1,3 @@
+[console_scripts]
+filmtrfkeras = filmtrfkeras.cli:main
+

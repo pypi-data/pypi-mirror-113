@@ -1,0 +1,14 @@
+excel/__init__.py,sha256=sTTrjmq2YL9DNxUCjP_6bV9mO1NzT6yM8dMWdZG4DmQ,1137
+excel/main.py,sha256=ZP-yElVb72KL-fOM9NObmoaJPTPnX7RIc5TJ5fi93dA,1640
+excel/splitter.py,sha256=kjFoGa-YEGA3ZDlwHKmJT4v58Fa21K65Q1KMnictpZw,4258
+excel/utils.py,sha256=1QeOVUo_6QG5WyQsnzRc5nukl75kNqLyTkRoN-wmY6s,2096
+excel/configs/__init__.py,sha256=rg-0D5uJamNQhAE7bZod5fptToqSlX-d16SAwuiBhKA,1114
+excel/configs/default.py,sha256=ULDcYcxLj90ZinHIgSmIEtzrTHX6aD-mlV5EbReW918,1241
+excel/tests/__init__.py,sha256=rg-0D5uJamNQhAE7bZod5fptToqSlX-d16SAwuiBhKA,1114
+excel/tests/sample_config/default.yml,sha256=KLLilbgZr_GpphQrDzZQSu09ezuIFAYOEpH1WqeB94Y,844
+sc_excel_splitter-0.0.8.dist-info/LICENSE,sha256=qE1ONTqO-JURigwx0cciswGHX9-E7RkwoDtJCqnqBT4,1076
+sc_excel_splitter-0.0.8.dist-info/METADATA,sha256=4kpF8S9bq5lsGPLkZFpZMY6ob-wUF7txVaRVKq7sgl4,3182
+sc_excel_splitter-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sc_excel_splitter-0.0.8.dist-info/entry_points.txt,sha256=vNRueV9jTDWVSlXRJjRfMJv6YE2SUIBOzfudKrksCbY,55
+sc_excel_splitter-0.0.8.dist-info/top_level.txt,sha256=7_nWYac3ThQWUQu0DTojYVya8xOoly1eHIEse9sZHEQ,6
+sc_excel_splitter-0.0.8.dist-info/RECORD,,

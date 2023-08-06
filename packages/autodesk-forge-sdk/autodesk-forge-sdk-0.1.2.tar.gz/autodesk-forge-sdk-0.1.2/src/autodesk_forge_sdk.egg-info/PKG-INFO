@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: autodesk-forge-sdk
+Version: 0.1.2
+Summary: Unofficial Autodesk Forge SDK for Python.
+Home-page: https://github.com/petrbroz/forge-sdk-python
+Author: Petr Broz
+Author-email: petr.broz@autodesk.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/petrbroz/forge-sdk-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# autodesk-forge-sdk
+
+Unofficial [Autodesk Forge](https://forge.autodesk.com) SDK for Python (3.*).
+
+## Usage
+
+Install the package from PyPI:
+
+```bash
+pip3 install autodesk-forge-sdk
+```
+
+### Authentication
+
+```python
+import os
+from autodesk_forge_sdk import AuthenticationClient, Scope
+
+client = AuthenticationClient()
+auth = client.authenticate(os.environ["FORGE_CLIENT_ID"], os.environ["FORGE_CLIENT_SECRET"], [Scope.VIEWABLES_READ])
+print(auth["access_token"])
+```
+
+### Data Management
+
+```python
+import os
+from autodesk_forge_sdk import OSSClient, OAuthTokenProvider
+
+client = OSSClient(OAuthTokenProvider(os.environ["FORGE_CLIENT_ID"], os.environ["FORGE_CLIENT_SECRET"]))
+buckets = client.get_all_buckets()
+print(buckets)
+```
+
+Or, if you already have an access token:
+
+```python
+import os
+from autodesk_forge_sdk import OSSClient, SimpleTokenProvider
+
+client = OSSClient(SimpleTokenProvider(os.environ["FORGE_ACCESS_TOKEN"]))
+buckets = client.get_all_buckets()
+print(buckets)
+```
+
+

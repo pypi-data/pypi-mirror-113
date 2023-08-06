@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/autodesk_forge_sdk/__init__.py
+src/autodesk_forge_sdk/auth.py
+src/autodesk_forge_sdk/base.py
+src/autodesk_forge_sdk/dm.py
+src/autodesk_forge_sdk/md.py
+src/autodesk_forge_sdk.egg-info/PKG-INFO
+src/autodesk_forge_sdk.egg-info/SOURCES.txt
+src/autodesk_forge_sdk.egg-info/dependency_links.txt
+src/autodesk_forge_sdk.egg-info/top_level.txt

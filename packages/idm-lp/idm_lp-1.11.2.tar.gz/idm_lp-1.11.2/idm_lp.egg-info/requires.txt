@@ -1,0 +1,6 @@
+aiohttp
+pydantic
+python-rucaptcha
+sentry-sdk
+vkbottle==2.7.8
+requests

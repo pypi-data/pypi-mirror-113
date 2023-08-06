@@ -1,0 +1,10 @@
+README.rst
+setup.py
+django_magento.egg-info/PKG-INFO
+django_magento.egg-info/SOURCES.txt
+django_magento.egg-info/dependency_links.txt
+django_magento.egg-info/requires.txt
+django_magento.egg-info/top_level.txt
+magento/connector.py
+magento/handler.py
+magento/settings.py

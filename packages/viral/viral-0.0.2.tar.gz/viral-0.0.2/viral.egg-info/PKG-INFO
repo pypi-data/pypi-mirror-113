@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: viral
+Version: 0.0.2
+Summary: Acquiring and analyzing covid-19 (coronavirus) statistics data
+Home-page: https://github.com/thorwhalen/viral
+Author: Thor Whalen
+License: apache-2.0
+Description: 
+        # viral
+        Acquiring and analyzing covid-19 (coronavirus) statistics data
+        
+        
+        To install:	```pip install viral```
+        
+Platform: any
+Description-Content-Type: text/markdown

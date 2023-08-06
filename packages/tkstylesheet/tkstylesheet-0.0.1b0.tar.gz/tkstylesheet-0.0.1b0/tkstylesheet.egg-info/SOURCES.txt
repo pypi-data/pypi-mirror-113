@@ -1,0 +1,7 @@
+setup.py
+tkstylesheet/__init__.py
+tkstylesheet/tkstylesheet.py
+tkstylesheet.egg-info/PKG-INFO
+tkstylesheet.egg-info/SOURCES.txt
+tkstylesheet.egg-info/dependency_links.txt
+tkstylesheet.egg-info/top_level.txt

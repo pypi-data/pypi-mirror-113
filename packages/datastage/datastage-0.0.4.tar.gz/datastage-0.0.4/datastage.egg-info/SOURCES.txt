@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+datastage/__init__.py
+datastage/common.py
+datastage/datastage_v3.py
+datastage/version.py
+datastage.egg-info/PKG-INFO
+datastage.egg-info/SOURCES.txt
+datastage.egg-info/dependency_links.txt
+datastage.egg-info/requires.txt
+datastage.egg-info/top_level.txt
+datastage.egg-info/zip-safe

@@ -1,0 +1,16 @@
+numpy==1.21.1
+scipy==1.7.0
+matplotlib==3.4.2
+pymatgen==2022.0.10
+BoltzTraP2==20.7.1
+trimesh==3.9.23
+meshcut==0.2.1
+scikit-image==0.18.2
+monty==2021.7.8
+spglib==1.16.1
+plotly==5.1.0
+pyfftw==0.12.0
+psutil==5.8.0
+click==8.0.1
+networkx==2.5.1
+tabulate==0.8.9

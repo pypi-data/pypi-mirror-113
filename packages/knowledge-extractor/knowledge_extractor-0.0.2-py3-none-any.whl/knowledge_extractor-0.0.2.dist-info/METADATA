@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: knowledge-extractor
+Version: 0.0.2
+Summary: We can extract knowledge from text and make it accessible to the world.
+Home-page: https://github.com/ankur3107/knowledge_extractor/tree/master/
+Author: Ankur Singh
+Author-email: ankur310794@gmail.com
+License: Apache Software License 2.0
+Keywords: transformers,keywords,knowledge,deep learning,machine learning,deep NLP,NLP,natural language processing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: transformers
+Requires-Dist: spacy
+Provides-Extra: dev
+
+# Knowledge Extractor
+> Extract knowledge from text and make it accessible to the world
+
+
+## Install
+
+`pip install knowledge_extractor`
+
+

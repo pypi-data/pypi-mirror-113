@@ -1,0 +1,10 @@
+numpy
+treeswift
+torch
+torchvision
+pandas
+pytorch-lightning==1.0.5
+biopython
+omegaconf
+apples
+dendropy

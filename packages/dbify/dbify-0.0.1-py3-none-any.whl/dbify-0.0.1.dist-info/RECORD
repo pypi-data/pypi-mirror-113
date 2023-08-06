@@ -1,0 +1,9 @@
+dbify/__init__.py,sha256=B3GlemoOSR_9qrrxLEAswYKIwinj6nNywAnV6G6tbWE,52
+dbify/config_file.py,sha256=zHPevypKOp7AQD16xDl-Kx_88PlJ25teDvbjZG3l3Xo,1501
+dbify/connections.py,sha256=lnMgq9EqyPBz2vr6hywmHR4reEmRAM3uWN4YvSgdMWs,3494
+dbify/dbify.py,sha256=FkAV2ClfQkomzq1kXVUH7bnjaRydLtSfh4_GQP60d6s,6581
+dbify-0.0.1.dist-info/LICENSE,sha256=h3mOoIEvVpm82_nscWsepfphOIbXN3ZEKgcIsh0XtbE,1066
+dbify-0.0.1.dist-info/METADATA,sha256=0WfYoOUzHg4Tp2tPEiQcjTgB13mcYZzLM5iSPwZIBu8,4664
+dbify-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dbify-0.0.1.dist-info/top_level.txt,sha256=yzCaSO9eyx63IDGaySOJikbLWCHPrMtbDgsX_hjTQ2o,6
+dbify-0.0.1.dist-info/RECORD,,

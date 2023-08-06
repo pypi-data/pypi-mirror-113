@@ -1,0 +1,10 @@
+README.md
+setup.py
+pippo_fc/__init__.py
+pippo_fc/data.py
+pippo_fc/pippo_fc.py
+pippo_fc/version.py
+pippofc.egg-info/PKG-INFO
+pippofc.egg-info/SOURCES.txt
+pippofc.egg-info/dependency_links.txt
+pippofc.egg-info/top_level.txt

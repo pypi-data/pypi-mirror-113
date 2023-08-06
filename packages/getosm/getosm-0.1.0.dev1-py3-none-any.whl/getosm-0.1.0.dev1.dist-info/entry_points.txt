@@ -1,0 +1,4 @@
+[console_scripts]
+osmtk = osmtk:main
+osmwx = osmwx:main
+

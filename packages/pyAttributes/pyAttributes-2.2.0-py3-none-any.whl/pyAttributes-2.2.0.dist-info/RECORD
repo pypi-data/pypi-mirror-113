@@ -1,0 +1,11 @@
+pyAttributes/ArgParseAttributes.py,sha256=4CUEl6rjfkn8QfcoAbF9la_tIzS-jhL1zIuUtPebH5g,10225
+pyAttributes/__init__.py,sha256=4gaU9Qr9wKoLmABx3QX-7RRwVBE9FjNpWp_yiz-8GDU,7582
+tests/__init__.py,sha256=BjeQzbOdt8mYyOr_fYDnvNIZBlXW7UNrILsZPxZdb_Y,1709
+tests/unit/ArgParse.py,sha256=ZGhlV7M5nugh_xC9Jic4sDuMyCa1t0WEHugaUbbBMnw,7213
+tests/unit/Attributes.py,sha256=P2lpSEfKEgFgwv1KvO_2PsmE6w6iMRIsT4peYh7rNKY,11565
+tests/unit/__init__.py,sha256=dqflLjGAtb8t9XIjX7MSonn2pp5I-Pyg5KzlwmBuXoU,2705
+pyAttributes-2.2.0.dist-info/LICENSE.md,sha256=DF4r-Jbsz_ZASY4VjV0ZZVaaHYkH9a20BkVExpq8doE,10571
+pyAttributes-2.2.0.dist-info/METADATA,sha256=RFDFvFeMSc72oXEoTaosHbfMabhPQoE-AVHkezGFJ7o,7041
+pyAttributes-2.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyAttributes-2.2.0.dist-info/top_level.txt,sha256=4WX64WiTEAorHcaf2M1a9Fv8c6Y-kQnDSteGeo8L3Ig,19
+pyAttributes-2.2.0.dist-info/RECORD,,

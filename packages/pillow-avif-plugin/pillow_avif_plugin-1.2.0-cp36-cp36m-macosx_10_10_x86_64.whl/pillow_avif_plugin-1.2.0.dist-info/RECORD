@@ -1,0 +1,11 @@
+pillow_avif_plugin-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pillow_avif_plugin-1.2.0.dist-info/RECORD,,
+pillow_avif_plugin-1.2.0.dist-info/LICENSE,sha256=Y-GPM2BDn_PNAiKqwHfB2ubsfRy0GSy4Y_0XqT_80Sg,23691
+pillow_avif_plugin-1.2.0.dist-info/WHEEL,sha256=MwzKLg1gfnkTaxHT-zvvxEC3ujhyL5hMz2MD_lPmdmg,111
+pillow_avif_plugin-1.2.0.dist-info/top_level.txt,sha256=xrg4zRnqDyl_JEyEQh3oCcAU4BHneocD-DCFDzf4g9E,12
+pillow_avif_plugin-1.2.0.dist-info/METADATA,sha256=AQm2nYJsRHQaLgzltUKQZIHqmfpXSzUPfGcxNbZlFw0,1585
+pillow_avif/AvifImagePlugin.py,sha256=124fbl71KhbkCF_c-mwPahkiuwTKYuPAcxizngpCWiE,7523
+pillow_avif/_avif.cpython-36m-darwin.so,sha256=OzwqXAdbxWWNmTjx_fS5wsWuUMxiXCFG7zXwCZFj10A,58784
+pillow_avif/__init__.py,sha256=CCPvZa9-qSeBj1oDrnjW9YV-TwEnWQcBHQM4QaFiOkw,84
+pillow_avif/.dylibs/libaom.3.1.1.dylib,sha256=Po-yPUKYQvcUWr-5zCUmQ-rY_AVFQKtLpZwS6Py3YHE,5282272
+pillow_avif/.dylibs/libavif.12.0.0.dylib,sha256=qm2OEa0EDzHuTp_ESjKNj72YdwzRzRZzO4PxCJqy6CI,14403216

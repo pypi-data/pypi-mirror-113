@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: calitp
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/cal-itp/calitp-py
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gcsfs
+Requires-Dist: pandas
+Requires-Dist: pandas-gbq
+Requires-Dist: pybigquery
+Requires-Dist: google-cloud-bigquery
+
+UNKNOWN
+
+

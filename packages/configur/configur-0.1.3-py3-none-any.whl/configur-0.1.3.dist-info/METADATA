@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: configur
+Version: 0.1.3
+Summary: TOML-based configuration for Python
+License: MIT
+Author: Ryan Whitten
+Author-email: rw@heyrw.dev
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.18.4,<2.0.0)
+Requires-Dist: python-box (>=5.3.0,<6.0.0)
+Requires-Dist: python-dotenv (>=0.18.0,<0.19.0)
+Requires-Dist: tomlkit (>=0.7.2,<0.8.0)

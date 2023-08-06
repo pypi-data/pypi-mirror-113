@@ -1,0 +1,17 @@
+dapr_api_wrapper/__init__.py,sha256=cCl0Pkwr59RJPDPMLH56pZt3HINlhiO9_ceV72jxuzQ,251
+dapr_api_wrapper/requests/__init__.py,sha256=11MlB5GoY2ceZ358_qbXZp5QdM1E-HqUciOAfKjDm1A,241
+dapr_api_wrapper/requests/api.py,sha256=AiLnGyezcYgIeQS7G-OWWh6V7w1vt-gRU9zz5n5TaKQ,668
+dapr_api_wrapper/requests/exceptions.py,sha256=ghpk_brhIg6fXWoW3ERABHQjM38tXCcHK0QLkU8oBtA,47
+dapr_api_wrapper/requests/request.py,sha256=Ev07VzNEJsd0OX6ohdax2mqwPQCQEUFHW1lR_7P4Gx8,4978
+dapr_api_wrapper/samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dapr_api_wrapper/samples/binder.py,sha256=sEvW2bBBwXbyEtABVrhIL21YO6QNuB6mlUZXptcxDWY,332
+dapr_api_wrapper/samples/demo_actor.py,sha256=ont-MR8QVwDWO0-ZsDFNrmCHoi6IGFWFi4fwOS1X2q8,4043
+dapr_api_wrapper/samples/demo_actor_interface.py,sha256=CqYVr47OHACZT0v0PJO6-tjKVB6lAYg5orEHyVHdjR4,539
+dapr_api_wrapper/samples/listen.py,sha256=NRjiuYlbb9akA9om18F0OR1nKxhEmPnOok-WwQSlcBE,506
+dapr_api_wrapper/samples/subscribe.py,sha256=mGwXuuvVyFmjjIH_qEWqEmEZm9UoWb31IRt-mmyCOls,387
+dapr_api_wrapper/setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dapr_api_wrapper-1.2.1.dist-info/LICENSE,sha256=svDsWwxnxBS0nekJeGALtvMPIWlZMd_8I0m6t2bPH_4,1095
+dapr_api_wrapper-1.2.1.dist-info/METADATA,sha256=6T_jjUYtPDSPhhAb3zMcPKyqUapfecmAguB_KTMuph4,3544
+dapr_api_wrapper-1.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dapr_api_wrapper-1.2.1.dist-info/top_level.txt,sha256=FuzyfDJM1jqKmskAdqalg4zagBxEKR_NS7i1FJmBeiY,17
+dapr_api_wrapper-1.2.1.dist-info/RECORD,,

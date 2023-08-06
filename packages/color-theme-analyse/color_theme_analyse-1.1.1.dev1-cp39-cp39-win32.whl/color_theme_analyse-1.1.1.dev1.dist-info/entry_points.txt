@@ -1,0 +1,3 @@
+[console_scripts]
+RunMMCQsc = MMCQsc.scp.main:mainFunc
+

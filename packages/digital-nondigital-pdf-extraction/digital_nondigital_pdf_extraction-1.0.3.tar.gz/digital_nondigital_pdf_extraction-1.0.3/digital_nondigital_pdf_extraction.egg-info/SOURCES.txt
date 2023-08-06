@@ -1,0 +1,8 @@
+setup.py
+digital_nondigital_pdf_extraction/__init__.py
+digital_nondigital_pdf_extraction/pdf_extractor.py
+digital_nondigital_pdf_extraction.egg-info/PKG-INFO
+digital_nondigital_pdf_extraction.egg-info/SOURCES.txt
+digital_nondigital_pdf_extraction.egg-info/dependency_links.txt
+digital_nondigital_pdf_extraction.egg-info/requires.txt
+digital_nondigital_pdf_extraction.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+screeningBuilding/configFilesBuilding.py,sha256=mLP2-y8TKi_9b5zBh7c8GdMoEh-KUq_oVEfTv5Qnh2Q,12187
+screeningBuilding/screeningBuildingTabs.py,sha256=DA_yHeSzhgNILOyR8ZyBFcGu-B7byBvRay1HHAvistk,6915
+screeningBuilding/confFiles/calculatedVars.csv,sha256=6RVPFBtbsw2RJ1zoOkWWMwIU74JymCrog8Xv3JE3h6E,57
+screeningBuilding/confFiles/compteurs.csv,sha256=SvlFZmas0MDy9vP8Sm2V8qB3Ud3UvBWt0noavG4BWYY,748
+screeningBuilding/confFiles/configurationMeteo.csv,sha256=9LvESgcsK9GO6Iu9EzbWOoWxPH_zuTXQMgZ_fdESybU,3342
+screeningBuilding/confFiles/predefinedCategories.csv,sha256=kLw8_FqNSXspkGvnTcNRc_Zcoa8CWZp3h0czep58LmI,388
+screeningBuilding/confFiles/screenBuilding-10001-001-ConfigurationPLC.csv,sha256=44Q8hNOHsrTLY2iPkIFrDtgBJNivUF9b4fPXN9p25_4,17562
+screeningBuilding/confFiles/variables.csv,sha256=_GHqwkEBGIaYXplHC75I1Pij41ajtxARPGUhIhiWEoA,471
+screeningBuilding-3.4.2.dist-info/METADATA,sha256=9daEXSBSuqZ6QwC_csLZzKGZZ9TdcXQJARfW2ogZsD8,505
+screeningBuilding-3.4.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+screeningBuilding-3.4.2.dist-info/top_level.txt,sha256=cWWeypj0NStiXqOcLwQPXfZEnZvfElQXijU5tcO2bLU,18
+screeningBuilding-3.4.2.dist-info/RECORD,,

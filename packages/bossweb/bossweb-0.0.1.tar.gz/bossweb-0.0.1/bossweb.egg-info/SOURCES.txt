@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+BossWeb/__init__.py
+bossweb.egg-info/PKG-INFO
+bossweb.egg-info/SOURCES.txt
+bossweb.egg-info/dependency_links.txt
+bossweb.egg-info/entry_points.txt
+bossweb.egg-info/requires.txt
+bossweb.egg-info/top_level.txt

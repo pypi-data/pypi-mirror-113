@@ -1,0 +1,6 @@
+bs4
+flask
+PyQt5
+brython
+libsass
+selenium

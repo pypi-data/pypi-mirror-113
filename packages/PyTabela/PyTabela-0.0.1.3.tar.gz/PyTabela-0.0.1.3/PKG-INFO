@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: PyTabela
+Version: 0.0.1.3
+Summary: Pacote utilizado para criação de tabelas no python
+Home-page: https://github.com/Pepyn0/PyTabela
+Author: Pepyn0 & Vitoria Karolina Ferreira Sousa
+Author-email: brpepy@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Pepyn0/PyTabela
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pytabela
+
+Uma biblioteca com o intuito de gerar tabelas automaticamente.
+
+## Instalação
+
+### Instalação via pip:
+
+```sh
+python -m pip install -U PyTabela
+```
+## Como Usar
+
+### Importação
+```python
+from pyTabela import pyTabela
+x = pyTabela.PyTabela()
+```
+### Adição dos campos
+```python
+x.addCampos(["id", "nome", "sobrenome"])
+```
+### Adição das linhas
+```python
+x.addLinha([1, "Pablo", "Silva"])
+```
+
+Voce pode adicionar uma linha a qualquer momento, mas é necessario adicionar o nome dos campos primeiramente com `addCampos`.
+```python
+x = pyTabela.PyTabela()
+x.addCampos(["id", "nome", "sobrenome"])
+x.addLinha([1, "Pablo", "Silva"])
+x.addLinha([2, "Vitória", "Karolina"])
+x.addLinha([3, "Fulano", "de Tal"])
+print(x)
+```
+
+### Exemplo de Mostragem
+
+```txt
++----+---------+-----------+
+| id | nome    | sobrenome |
++----+---------+-----------+
+| 1  | Pablo   | Silva     |
+| 2  | Vitória | Karolina  |
+| 3  | Fulano  | de Tal    |
++----+---------+-----------+
+```
+
+### Exportar para CSV
+```python
+a.saveTabela("Nome_Do_Arquivo.csv")
+```
+### Importar de um arquivo CSV
+```python
+a.loadTabela("Nome_Do_Arquivo.csv")
+```
+
+
+

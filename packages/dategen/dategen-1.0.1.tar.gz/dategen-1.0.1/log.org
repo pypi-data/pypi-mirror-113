@@ -1,0 +1,605 @@
+
+* dategen
+
+  
+** 0
+
+   | 10 | status      |       |
+   |    |             |       |
+   | 20 | __init__.py |       |
+   |    |             |       |
+   | 30 | dategen.py  | 1.0.0 |
+   |    |             |       |
+   | 40 |             |       |
+   |    |             |       |
+   
+
+** 10
+
+   
+** 20
+
+   
+#+HEADER: :tangle  dategen/__init__.py
+#+HEADERS: :results silent
+#+HEADERS: :results raw
+#+begin_src python
+  """A date generator."""
+  __version__ = "1.0.1"
+
+#+end_src
+
+
+** 30
+
+   
+#+HEADER: :tangle  dategen/dategen.py
+#+HEADERS: :results silent
+#+HEADERS: :results raw
+#+begin_src python
+
+
+  from datetime import datetime, timedelta
+
+
+  def backward( n_day = 5000 ):
+      """
+      yield a generator of datetime, moving backward, from yesterday.
+
+      n_day: number of days, default 5000.
+      """
+    
+      n = 0
+      x = datetime.now() 
+
+      while n < n_day:
+	x = x - timedelta( days=1 )
+	n += 1
+	yield x
+
+
+#+end_src
+
+   
+* versions
+
+** 1.0.1 [2021-07-23 Fri 17:47]
+
+   add .gitignore, tests
+
+
+** 1.0.0 [2021-07-22 Thu 15:09]
+
+   add README.md
+  
+
+** Versioning Your Package
+
+   Increment the MAJOR version when you make incompatible API changes.
+   Increment the MINOR version when you add functionality in a backwards-compatible manner.
+   Increment the PATCH version when you make backwards-compatible bug fixes. (Source)
+
+   __init__.py
+
+   setup.py
+
+   
+
+* flit
+
+  
+** 0
+
+   
+   | 10 | status       |
+   |    |              |
+   | 20 | references   |
+   |    |              |
+   | 30 | pip          |
+   |    |              |
+   | 40 | flit init    |
+   |    |              |
+   | 50 | flit publish |
+   |    |              |
+
+
+** 10
+
+
+   | requirements for flit          |
+   |--------------------------------|
+   |                                |
+   | a docstring in __init__.py     |
+   |                                |
+   | clean up the source directory. |
+
+   
+** 20
+
+   
+   https://github.com/takluyver/flit
+
+   
+   https://codeberg.org/cmc/dategen
+
+   
+   changming.chen.1970@gmail.com
+
+
+** 30
+
+   
+    python3 -m pip install --user flit
+
+    
+** 40
+
+   
+   cd 
+
+
+   flit init
+
+
+   #   pyproject.toml generated
+
+   
+** 50
+
+   
+   flit publish
+
+   
+   # Flit cannot package module without docstring, or empty docstring. Please add a docstring to your module (dategen/__init__.py).
+
+   # Untracked or deleted files in the source directory. Commit, undo or ignore these files in your VCS. (.)
+
+
+* folder structures
+
+  
+** 0
+
+   | 10 | tree |
+   |    |      |
+   | 20 |      |
+   |    |      |
+   | 30 |      |
+   
+
+** 10
+
+
+#+HEADERS: :results raw
+#+BEGIN_SRC sh
+
+  date
+
+  tree
+
+#+END_SRC
+
+#+RESULTS:
+Fri Jul 23 17:57:13 CST 2021
+.
+├── #log.org#
+├── LICENSE
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── Untitled.ipynb
+├── Untitled1.ipynb
+├── dategen
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-39.pyc
+│   └── dategen.py
+├── log.org
+├── pyproject.toml
+└── tests
+    └── dategen.ipynb
+
+3 directories, 13 files
+Fri Jul 23 16:32:24 CST 2021
+.
+├── #log.org#
+├── LICENSE
+├── README.md
+├── dategen
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-39.pyc
+│   └── dategen.py
+├── log.org
+└── pyproject.toml
+
+
+* README
+
+  
+** 0
+
+  | 10 |                  |
+  |    |                  |
+  | 20 | references       |
+  |    |                  |
+  | 30 | EXPORT_FILE_NAME |
+  |    |                  |
+  | 40 | README.md        |
+
+
+** 10
+
+   
+** 20
+
+   
+   https://github.com/takluyver/flit
+   
+   
+** 30
+:PROPERTIES:
+:EXPORT_FILE_NAME: README.md
+:END:
+
+
+   
+   
+
+** 40
+:PROPERTIES:
+:EXPORT_FILE_NAME: README.md
+:END:
+
+
+Dategen is a python package that yield a generator of dates.
+
+*** Install
+
+#+BEGIN_EXAMPLE
+$ python3 -m pip install dategen
+#+END_EXAMPLE
+
+*** Usage
+
+#+BEGIN_SRC
+import dategen
+g = dategen.dategen.backward
+help(g)
+#+END_SRC
+
+#+BEGIN_SRC
+x=g()
+#+END_SRC
+
+#+BEGIN_SRC
+# only the last command will be displayed.
+
+# type( x )  # generator
+
+# list( x )  # 5000 datetime, a very long list.
+
+# next( x )  # one datetime form the generator
+
+# len( list(x) )  # 5000
+#+END_SRC
+    
+
+*** folder structures
+
+
+ #+HEADERS: :results raw
+ #+BEGIN_SRC sh
+
+   date
+
+   tree
+
+ #+END_SRC
+
+ #+RESULTS:
+ Fri Jul 23 17:57:13 CST 2021
+ .
+ ├── LICENSE
+ ├── Pipfile
+ ├── Pipfile.lock
+ ├── README.md
+ ├── Untitled.ipynb
+ ├── Untitled1.ipynb
+ ├── dategen
+ │   ├── __init__.py
+ │   └── dategen.py
+ ├── log.org
+ ├── pyproject.toml
+ └── tests
+     └── dategen.ipynb
+
+
+* export markdown
+
+  
+** 0
+
+   | 10 | status               |             |
+   |    |                      |             |
+   | 20 | example              | recommended |
+   |    |                      |             |
+   | 30 | verse, quote, center |             |
+   |    |                      |             |
+   | 40 |                      |             |
+   |    |                      |             |
+
+   
+** 20
+
+#+BEGIN_EXAMPLE
+begin example
+Some example from a text file.
+
+dategen/
+├── dategen/
+├── test/
+├── LICENSE
+├── README.md
+├── log.org
+└──
+
+end example  
+#+END_EXAMPLE
+
+https://orgmode.org/manual/Literal-Examples.html
+
+
+** 30
+
+#+BEGIN_VERSE
+begin verse
+Great clouds overhead
+Tiny black birds rise and fall
+Snow covers Emacs
+
+    ---AlexSchroeder
+
+    
+dategen/
+├── dategen/
+├── test/
+├── LICENSE
+├── README.md
+├── log.org
+└── 
+end verse  
+#+END_VERSE
+
+
+#+BEGIN_QUOTE
+begin quote
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+
+  dategen/
+  ├── dategen/
+  ├── test/
+  ├── LICENSE
+  ├── README.md
+  ├── log.org
+  └── 
+end quote
+#+END_QUOTE
+
+
+#+BEGIN_CENTER
+begin center
+Everything should be made as simple as possible, \\
+but not any simpler
+
+  dategen/
+  ├── dategen/
+  ├── test/
+  ├── LICENSE
+  ├── README.md
+  ├── log.org
+  └──
+
+end center
+#+END_CENTER
+   
+https://orgmode.org/manual/Paragraphs.html
+
+
+
+* names
+
+  | pypi name     | dategen |
+  |               |         |
+  | folder name   | dategen |
+  |               |         |
+  | package name  | dategen |
+  |               |         |
+  | git repo name | dategen |
+  
+
+* test
+
+  
+** 0
+
+   
+   | 10 | status              |
+   |    |                     |
+   | 20 | references          |
+   |    |                     |
+   | 30 | pipenv              |
+   |    |                     |
+   | 40 | jupyterlab          |
+   |    |                     |
+   | 50 | jupyterlab run      |
+   |    |                     |
+   | 60 | ox-ipynb            |
+   |    |                     |
+   | 70 | tests/dategen.ipynb |
+   |    |                     |
+
+   
+
+** 10
+
+   
+** 20
+
+   
+   https://realpython.com/pipenv-guide/#example-usage
+
+   
+   https://realpython.com/effective-python-environment/#pipenv_1
+
+   
+
+** 30
+
+
+#+HEADERS: :results silent
+#+BEGIN_SRC sh
+
+
+  pip install pipenv
+
+
+#+END_SRC
+
+
+** 40
+
+
+#+HEADERS: :results silent
+#+BEGIN_SRC sh
+
+
+  pipenv install --dev jupyterlab
+
+
+#+END_SRC
+
+
+
+** 50
+
+
+#+HEADERS: :results silent
+#+BEGIN_SRC sh
+
+
+  pipenv run jupyter-lab &
+
+
+#+END_SRC
+
+
+jupyter-lab
+
+
+** 60
+
+
+
+   zaeph/ox-ipynb
+
+
+   https://github.com/zaeph/ox-ipynb
+
+(use-package ox-ipynb
+  :load-path "~/.emacs.d/lisp") ;Modify with your own path
+  
+   
+#  jkitchin/ox-ipynb, failed, no export available
+(add-to-list 'load-path "~/.emacs.d/lisp")
+(require 'ox-ipynb)
+
+# depricated  https://github.com/jkitchin/ox-ipynb
+
+
+
+** 70
+:PROPERTIES:
+:EXPORT_FILE_NAME: tests/dategen.ipynb
+:END:
+
+*** pip install and import
+   
+    
+#+BEGIN_SRC
+import sys
+!{sys.executable} -m pip install dategen
+
+import dategen
+g = dategen.dategen.backward
+help(g)
+#+END_SRC
+
+    
+
+*** import locally
+   
+    
+#+BEGIN_SRC
+import os, sys
+p = os.path.abspath('..')
+sys.path.insert(1, p)
+
+import dategen
+g = dategen.dategen.backward
+help(g)
+#+END_SRC
+
+    
+*** type list next len
+
+
+#+BEGIN_SRC
+x=g()
+#+END_SRC
+
+#+BEGIN_SRC
+# only the last command will be displayed.
+
+# type( x )  # generator
+
+# list( x )  # 5000 datetime, a very long list.
+
+# next( x )  # one datetime form the generator
+
+# len( list(x) )  # 5000
+#+END_SRC
+    
+
+* logs
+
+  
+** test [2021-07-23 Fri 16:31]
+   
+
+** flit [2021-07-23 Fri 11:35]
+      
+
+** README [2021-07-22 Thu 15:12]
+   
+
+** dategen.py [2021-07-22 Thu 14:41]
+   
+
+** Versioning Your Package [2021-07-22 Thu 13:55]
+   
+
+
+
+** export markdown [2021-07-22 Thu 07:59]
+
+   
+  
+** names [2021-07-21 Wed 18:26]
+   
+   
+** folder structures [2021-07-21 Wed 17:28]
+
+
+   

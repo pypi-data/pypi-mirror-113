@@ -1,0 +1,63 @@
+
+# Table of Contents
+
+1.  [Install](#org8aefc3e)
+2.  [Usage](#org563c87e)
+3.  [folder structures](#org539ec0b)
+
+Dategen is a python package that yield a generator of dates.
+
+
+<a id="org8aefc3e"></a>
+
+# Install
+
+    $ python3 -m pip install dategen
+
+
+<a id="org563c87e"></a>
+
+# Usage
+
+    import dategen
+    g = dategen.dategen.backward
+    help(g)
+
+    x=g()
+
+    # only the last command will be displayed.
+    
+    # type( x )  # generator
+    
+    # list( x )  # 5000 datetime, a very long list.
+    
+    # next( x )  # one datetime form the generator
+    
+    # len( list(x) )  # 5000
+
+
+<a id="org539ec0b"></a>
+
+# folder structures
+
+    
+    date
+    
+    tree
+
+Fri Jul 23 17:57:13 CST 2021
+.
+├── LICENSE
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── Untitled.ipynb
+├── Untitled1.ipynb
+├── dategen
+│   ├── <span class="underline"><span class="underline">init</span></span>.py
+│   └── dategen.py
+├── log.org
+├── pyproject.toml
+└── tests
+    └── dategen.ipynb
+

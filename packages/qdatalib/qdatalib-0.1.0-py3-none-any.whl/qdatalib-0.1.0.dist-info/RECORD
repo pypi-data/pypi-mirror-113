@@ -1,0 +1,13 @@
+qdatalib/__init__.py,sha256=VR6CPXuUgko_rbhJk68CKcNLBRSiGG3EwQQRgpY1kvI,600
+qdatalib/_version.py,sha256=jxPv1wQjFSABwBSC3yxxc4UIkR-isBIg6zi_5gPFk6w,518
+qdatalib/mongo_conf.py,sha256=vRAORRjJyYC7L_VX_EdWTURIBy--7p-qz6rJEVtS6jk,2932
+qdatalib/tolib.py,sha256=B_WTgCz8xIDwrykyvK4RSW08SyTzlceQFaKAEBwOO7M,9761
+qdatalib/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qdatalib/conf/telemetry.ini,sha256=vQBVJ9Wawuf2mNr5cpNbI-bNcYCgxvBvShrXNunyQro,53
+qdatalib/telemetry/__init__.py,sha256=wm60BRGL4WXwdyL3rBbvVRaZfq2MtgoOA-jzTU2DvsY,74
+qdatalib/telemetry/telemetry_functions.py,sha256=G3z9JAmGlp8pbWQE2HPSM3rAvKrKRgxjUSLd7XiJSe0,3024
+qdatalib-0.1.0.dist-info/LICENSE.rst,sha256=E1_CipBTaL-LvgPNRgCQ9FatAMrq20g8UNImzaB30kU,1190
+qdatalib-0.1.0.dist-info/METADATA,sha256=ncdqK4wo0NBT5vPaZr3VuiQzIYLcSvKbW7WUNVpsZX0,2188
+qdatalib-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qdatalib-0.1.0.dist-info/top_level.txt,sha256=srb9iZ4LmAKSeeu6xg1vTNhXwbaz9Aq6e8tHTHCH0NA,9
+qdatalib-0.1.0.dist-info/RECORD,,

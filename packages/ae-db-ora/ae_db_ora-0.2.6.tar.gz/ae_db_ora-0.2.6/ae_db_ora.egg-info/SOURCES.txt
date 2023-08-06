@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+ae/db_ora.py
+ae_db_ora.egg-info/PKG-INFO
+ae_db_ora.egg-info/SOURCES.txt
+ae_db_ora.egg-info/dependency_links.txt
+ae_db_ora.egg-info/requires.txt
+ae_db_ora.egg-info/top_level.txt
+ae_db_ora.egg-info/zip-safe

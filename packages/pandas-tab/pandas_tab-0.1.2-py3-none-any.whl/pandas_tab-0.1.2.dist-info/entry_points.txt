@@ -1,0 +1,3 @@
+[console_scripts]
+pandas_tab = pandas_tab.cli:cli
+

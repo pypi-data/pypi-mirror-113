@@ -1,0 +1,3 @@
+[console_scripts]
+morpheus-data-api = morpheus_data_api:console_main
+

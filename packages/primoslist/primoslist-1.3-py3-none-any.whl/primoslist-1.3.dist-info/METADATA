@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: primoslist
+Version: 1.3
+Summary: Simple tool to perform mathematical operations.
+Home-page: UNKNOWN
+Author: Ppi
+Author-email: UNKNOWN
+License: GNU GPLv3
+Keywords: pyoperaciones mathematical operations
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+NUMBER UTILS
+==============
+
+Este es un ejemplo simple de un paquete Python. Este paquete contiene una funcion para obetener los numero primos de una lista
+
+This program is free software: You can redistribute it and/or modify it under the terms of license by the Free Software Foundation, either version 3 of the License(at your option) any other version.
+
+
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+proguard_rate/proguard_rate.egg-info/PKG-INFO
+proguard_rate/proguard_rate.egg-info/SOURCES.txt
+proguard_rate/proguard_rate.egg-info/dependency_links.txt
+proguard_rate/proguard_rate.egg-info/entry_points.txt
+proguard_rate/proguard_rate.egg-info/top_level.txt

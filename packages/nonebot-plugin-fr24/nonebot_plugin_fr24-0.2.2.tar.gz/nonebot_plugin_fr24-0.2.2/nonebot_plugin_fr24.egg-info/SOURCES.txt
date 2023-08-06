@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+handlers/__init__.py
+handlers/filter.py
+handlers/help.py
+handlers/now.py
+handlers/pre.py
+libs/__init__.py
+libs/info.py
+libs/request.py
+nonebot_plugin_fr24.egg-info/PKG-INFO
+nonebot_plugin_fr24.egg-info/SOURCES.txt
+nonebot_plugin_fr24.egg-info/dependency_links.txt
+nonebot_plugin_fr24.egg-info/requires.txt
+nonebot_plugin_fr24.egg-info/top_level.txt

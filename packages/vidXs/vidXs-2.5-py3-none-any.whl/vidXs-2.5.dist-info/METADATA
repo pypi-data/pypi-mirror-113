@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: vidXs
+Version: 2.5
+Summary: Streaming video data via networks
+Home-page: UNKNOWN
+Author: shashankx86 (Shashank Pandey)
+Author-email: <shashankspis20@gmail.com>
+License: UNKNOWN
+Keywords: python,camera stream,stream,video stream,video,sockets,screen sharing
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: pyaudio
+Requires-Dist: Pillow
+
+
+# vidXs
+
+Developed by Shashank Pandey from shashankx86 (c) 2021
+
+# Update Info
+
+- Bugs Fixed
+
+## Examples of How To Use 
+
+Creating A Server
+
+```python
+from vidXs import StreamingServer
+
+server = StreamingServer('127.0.0.1', 9999)
+server.start_server()
+
+# Other Code
+
+# When You Are Done
+server.stop_server()
+```
+
+Creating A Client
+```python
+from vidXs import CameraClient
+from vidXs import VideoClient
+from vidXs import ScreenShareClient
+
+# Choose One
+client1 = CameraClient('127.0.0.1', 9999)
+client2 = VideoClient('127.0.0.1', 9999, 'video.mp4')
+client3 = ScreenShareClient('127.0.0.1', 9999)
+
+client1.start_stream()
+client2.start_stream()
+client3.start_stream()
+```
+# Links
+
+- [Developer Github](https://github.com/shashankx86)
+

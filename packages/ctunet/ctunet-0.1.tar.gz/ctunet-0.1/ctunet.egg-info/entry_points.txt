@@ -1,0 +1,3 @@
+[console_scripts]
+ctunet = ctunet.pytorch.train_test:cli
+

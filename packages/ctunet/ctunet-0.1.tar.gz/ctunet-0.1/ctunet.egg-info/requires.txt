@@ -1,0 +1,11 @@
+numpy
+torch
+SimpleITK
+pynrrd
+medpy
+raster_geometry
+requests
+typer
+tensorboard
+pandas
+scikit-image

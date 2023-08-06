@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yamlmaker/__init__.py
+src/yamlmaker.egg-info/PKG-INFO
+src/yamlmaker.egg-info/SOURCES.txt
+src/yamlmaker.egg-info/dependency_links.txt
+src/yamlmaker.egg-info/requires.txt
+src/yamlmaker.egg-info/top_level.txt

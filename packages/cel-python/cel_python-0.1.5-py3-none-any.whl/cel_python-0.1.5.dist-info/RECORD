@@ -1,0 +1,15 @@
+celpy/__init__.py,sha256=smGVDMVlt9kIaQLqbDaougOFJd5r1_sZ44DzR34gjng,10262
+celpy/__main__.py,sha256=-7dQaVdKy75unVP9uf-FrBpJo53kPQE7LPJeOJW1VWU,16680
+celpy/adapter.py,sha256=bmsP8GdAvQDUHIqCrDlC23TGUyzeD99VSoTLQWlDtms,5435
+celpy/c7nlib.py,sha256=7qsHZ6tKaGxHyRYb5LCDyaJfHBMYGlYmw9oVUgjmBEk,53370
+celpy/cel.lark,sha256=gLc1UE_N-OmNfo0W7U-Qt00pBk5qymaLwt5aKXpQsA8,6246
+celpy/celparser.py,sha256=UdiI1HSsg01hCLeYR7WmiIzO1rXYSbcPqPmgwSEO21U,12917
+celpy/celtypes.py,sha256=uiMvsJubWEQ6ASKTm_nTK4g2wwCQFsxAUZbJAkyIrvM,49420
+celpy/evaluation.py,sha256=chrdvr5xgM2C6B-XXpG0U6YT1hq6VKqj6LzHlqy1mGE,96948
+xlate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlate/c7n_to_cel.py,sha256=B955H-1JqCYdX4hIhpeA2uXmVnVvzBhgOuaOkn0qcJU,67319
+cel_python-0.1.5.dist-info/LICENSE,sha256=jK6QWvmedAMKK3fZ0futhSo-sj6eMKMnuCx7EVx_4Ig,11355
+cel_python-0.1.5.dist-info/METADATA,sha256=rGYHplBKEfCVGe6NNuHdrazx1MUxAzXZEc1Eq9arvQs,5591
+cel_python-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cel_python-0.1.5.dist-info/top_level.txt,sha256=00nhMOr2EKSBKhczciAMhXwlDkUI51LJ1U7nueo3NLQ,12
+cel_python-0.1.5.dist-info/RECORD,,

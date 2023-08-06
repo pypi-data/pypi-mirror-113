@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "optimap"
+version = "0.1.0"
+description = "Optimized integrated intensity map method for spectral cubes"
+authors = ["Akio Taniguchi <taniguchi@a.phys.nagoya-u.ac.jp>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/astropenguin/optimap"
+
+[tool.poetry.dependencies]
+python = ">= 3.7, < 3.9"
+astropy = "^4.2"
+numpy = "^1.19"
+matplotlib = "^3.2"
+scikit-image = "^0.16"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b"
+flake8 = "^3.9"
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

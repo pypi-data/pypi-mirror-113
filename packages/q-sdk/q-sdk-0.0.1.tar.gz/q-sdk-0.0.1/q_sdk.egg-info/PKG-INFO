@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: q-sdk
+Version: 0.0.1
+Summary: Default API implementation of Q
+Home-page: https://github.com/myOmikron/q-sdk/
+Author:  Niklas Pfister
+Author-email: kontakt@omikron.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Reference implementation of the API of Q
+
+[Q](https://github.com/myOmikron/Q)
+
+

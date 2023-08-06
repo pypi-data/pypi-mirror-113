@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+PyCurseForge.egg-info/PKG-INFO
+PyCurseForge.egg-info/SOURCES.txt
+PyCurseForge.egg-info/dependency_links.txt
+PyCurseForge.egg-info/top_level.txt
+curseforge/__init__.py
+curseforge/api.py
+curseforge/enums.py
+curseforge/utils.py

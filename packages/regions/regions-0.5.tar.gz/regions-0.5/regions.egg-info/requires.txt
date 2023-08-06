@@ -1,0 +1,15 @@
+numpy>=1.16
+astropy>=3.2
+
+[all]
+matplotlib
+shapely
+
+[docs]
+matplotlib
+shapely
+sphinx-astropy
+
+[test]
+pytest-astropy
+pytest-arraydiff

@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pylineartools
+Version: 0.2
+Summary: Python Library for Linear Algebra Problems
+Home-page: https://github.com/gahvs/pylineartools
+Author: Gabriel Vinícius Souto Abreu
+Author-email: ga.vs_@outlook.com
+License: MIT
+Download-URL: https://github.com/gahvs/pylineartools/archive/refs/heads/main.zip
+Description: UNKNOWN
+Keywords: MATH,ALGEBRA,LINEAR,LINEAR ALGEBRA,MATEMATICA
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9

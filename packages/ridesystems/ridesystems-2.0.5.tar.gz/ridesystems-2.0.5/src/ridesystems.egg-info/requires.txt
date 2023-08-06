@@ -1,0 +1,13 @@
+pandas
+mechanize
+requests
+beautifulsoup4
+tenacity
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov

@@ -1,0 +1,48 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    i18n_domain="collective.discussion.mentioning">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <include file="permissions.zcml" />
+  <include file="upgrades.zcml" />
+  <include file="events.zcml" />
+
+  <include package=".browser" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.discussion.mentioning"
+      directory="profiles/default"
+      description="Installs the collective.discussion.mentioning add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.discussion.mentioning (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the collective.discussion.mentioning add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.uninstall"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="collective.discussion.mentioning-hiddenprofiles"
+      />
+
+    <include package="collective.monkeypatcher" />
+
+    <monkey:patch
+        description="Add possibility to substitute member id with his fullname and link to author page"
+        class="plone.app.discussion.comment.Comment"
+        original="getText"
+        replacement=".comment.getText"
+        />
+</configure>

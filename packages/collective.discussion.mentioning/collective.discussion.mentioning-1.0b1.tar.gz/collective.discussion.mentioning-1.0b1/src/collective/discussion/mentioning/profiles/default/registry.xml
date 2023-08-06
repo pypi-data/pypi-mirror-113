@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records interface="plone.app.discussion.interfaces.IDiscussionSettings">
+    <value key="globally_enabled">True</value>
+  </records>
+
+  <records prefix="plone.resources/collective-discussion-mentioning"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+     <value key="js">++plone++collective.discussion.mentioning/dist/indexcompiled.js</value>
+     <value key="css">
+        <element>++plone++collective.discussion.mentioning/dist/tribute.css</element>
+     </value>
+  </records>
+
+  <records prefix="plone.bundles/collective-discussion-mentioning"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources" purge="false">
+      <element>collective-discussion-mentioning</element>
+    </value>
+    <value key="jscompilation">++plone++collective.discussion.mentioning/dist/indexcompiled.min.js</value>
+    <value key="csscompilation">++plone++collective.discussion.mentioning/dist/tribute.css</value>
+    <value key="enabled">True</value>
+    <value key="last_compilation">2018-04-02 00:00:00</value>
+    <value key="compile">True</value>
+    <value key="depends">plone</value>
+  </records>
+</registry>

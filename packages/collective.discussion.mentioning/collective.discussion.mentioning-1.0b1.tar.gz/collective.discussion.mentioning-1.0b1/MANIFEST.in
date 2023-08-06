@@ -1,0 +1,7 @@
+graft src/collective
+graft docs
+include LICENSE.GPL
+include *.rst
+global-exclude *.pyc
+exclude .gitlab-ci.yml
+exclude requirements.txt

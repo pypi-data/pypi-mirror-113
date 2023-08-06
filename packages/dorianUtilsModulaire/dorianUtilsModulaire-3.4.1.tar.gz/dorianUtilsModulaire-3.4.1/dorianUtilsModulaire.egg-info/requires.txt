@@ -1,0 +1,8 @@
+IPython
+dash
+dash_bootstrap_components
+flask_caching
+matplotlib
+pandas==1.3.0
+psycopg2-binary
+scipy

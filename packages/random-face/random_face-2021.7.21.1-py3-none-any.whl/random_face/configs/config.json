@@ -1,0 +1,11 @@
+{
+    "mnet_xml": "data/MappingNetwork.xml",
+    "mnet_bin": "data/MappingNetwork.bin",
+    "snet_xml": "data/SynthesisNetwork.xml",
+    "snet_bin": "data/SynthesisNetwork.bin",
+    "style_dim": 512,
+    "n_samples": 4096,
+    "img_normalize": true,
+    "img_range": [-1.0, 1.0],
+    "img_rgb2bgr": true
+}

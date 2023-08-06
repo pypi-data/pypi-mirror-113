@@ -1,0 +1,20 @@
+{
+    "openvino": [
+        {
+            "name": "MappingNetwork.xml",
+            "url": "https://drive.google.com/uc?id=1HL0BkZtKo22cThTVXpPqOBZG6a__OI_s"
+        },
+        {
+            "name": "MappingNetwork.bin",
+            "url": "https://drive.google.com/uc?id=1B8i2bSxfCAu9jKSQouN2rY7hqEQQemU9"
+        },
+        {
+            "name": "SynthesisNetwork.xml",
+            "url": "https://drive.google.com/uc?id=1iLiwYRHwwrTnwHCYsMNBAlAINdjnr_Dc"
+        },
+        {
+            "name": "SynthesisNetwork.bin",
+            "url": "https://drive.google.com/uc?id=1A2DhRm3ys_9P86qQh-zrX6QA4JfZN7A8"
+        }
+    ]
+}

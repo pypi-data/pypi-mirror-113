@@ -1,0 +1,9 @@
+requests>=2.0.0
+
+[test]
+black
+isort
+flake8
+flake8-bugbear
+mypy
+types-requests

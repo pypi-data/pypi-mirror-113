@@ -1,0 +1,3 @@
+[console_scripts]
+jsonschema-marshmallow = jsonschema_marshmallow.codegen:codegen
+

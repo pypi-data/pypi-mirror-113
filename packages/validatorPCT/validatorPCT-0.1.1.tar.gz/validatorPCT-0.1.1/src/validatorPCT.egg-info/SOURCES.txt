@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/validatorPCT.egg-info/PKG-INFO
+src/validatorPCT.egg-info/SOURCES.txt
+src/validatorPCT.egg-info/dependency_links.txt
+src/validatorPCT.egg-info/top_level.txt

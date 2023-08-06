@@ -1,0 +1,7 @@
+hgco_download/__init__.py,sha256=Dyg5moZc_Eq_wbE8PXpn15cHZimuyq4Cr4O9AWgIj5M,50
+hgco_download/download_cli.py,sha256=jYVrKv5D9blds0onF1a_BLF0gU7v7wSYQmnGTkCnMvs,1192
+hgco_download-0.0.1.dist-info/METADATA,sha256=ticXQHspPlLuUVI0BAfuMqbiXSk47_Xe3wyVlA3Qa90,177
+hgco_download-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hgco_download-0.0.1.dist-info/entry_points.txt,sha256=taSwJLOTxRLIdJp0nnxt0ZAV2oBqYMB3kQ1chi_uTdY,67
+hgco_download-0.0.1.dist-info/top_level.txt,sha256=rK6YvJB0GqvC-Qzhw1VKtXJMbBNIPcJoJcpcbW79UaQ,14
+hgco_download-0.0.1.dist-info/RECORD,,

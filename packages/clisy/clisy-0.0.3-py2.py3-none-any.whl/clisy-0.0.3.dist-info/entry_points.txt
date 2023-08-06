@@ -1,0 +1,3 @@
+[console_scripts]
+clisycp = clisy.skeleton:run
+

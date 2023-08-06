@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./pyspbla/__init__.py
+./pyspbla/__main__.py
+./pyspbla/bridge.py
+./pyspbla/gviz.py
+./pyspbla/io.py
+./pyspbla/matrix.py
+./pyspbla/utils.py
+./pyspbla/wrapper.py
+pyspbla.egg-info/PKG-INFO
+pyspbla.egg-info/SOURCES.txt
+pyspbla.egg-info/dependency_links.txt
+pyspbla.egg-info/top_level.txt

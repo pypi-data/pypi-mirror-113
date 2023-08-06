@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+bols/__init__.py
+bols/regression.py
+bols/tests.py
+bols.egg-info/PKG-INFO
+bols.egg-info/SOURCES.txt
+bols.egg-info/dependency_links.txt
+bols.egg-info/requires.txt
+bols.egg-info/top_level.txt

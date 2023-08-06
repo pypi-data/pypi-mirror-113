@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mwx
+Version: 1.5.2
+Summary: MWXGAF's personal library
+Home-page: http://mwxgaf.ir
+Author: MWX
+Author-email: mwxgaf@yahoo.com
+License: MIT
+Download-URL: https://github.com/mwxgaf/mwxpy/archive/v1.5.2.tar.gz
+Keywords: python,mwxgaf,mwx
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+In the name of Allah
+
+MWXpy
+
+Documentation available at:
+
+https://github.com/mwxgaf/mwxpy
+

@@ -1,0 +1,29 @@
+# Author: Erik Winfree
+# For Competition 3 onlX -- total sum of rates <= 200
+
+X + 0 -> 1 + X (70)
+X + 1 -> 1 + X (1)
+X + 2 -> 2 + X (1)
+X + 3 -> 3 + X (1)
+X + 4 -> 4 + X (1)
+X + 5 -> 5 + X (1)
+X + 6 -> 6 + X (1)
+X + 7 -> 7 + X (1)
+X + 8 -> 8 + X (10)
+X + 8 -> 1 + X (2)
+X + 9 -> 8 + X (20)
+
+XB + 0 -> 9 + XB (10)
+XB + 1 -> 9 + XB (10)
+XB + 2 -> 9 + XB (10)
+XB + 3 -> 9 + XB (10)
+XB + 4 -> 9 + XB (10)
+XB + 5 -> 9 + XB (10)
+XB + 6 -> 9 + XB (10)
+XB + 7 -> 9 + XB (10)
+XB + 8 -> 9 + XB (10)
+XB + 9 -> 9 + XB (1)
+
+# After a sprint into new territorX to trX to get the ball,
+# this strategX tries to attract all of the plaXers on the team to surround 
+# the plaXer carrXing the ball, protecting the ball carrier from having the ball stolen.

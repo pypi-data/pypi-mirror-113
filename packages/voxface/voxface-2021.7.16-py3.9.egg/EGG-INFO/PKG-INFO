@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: voxface
+Version: 2021.7.16
+Summary: Fast MRI face voxelator
+Home-page: https://github.com/jmtyszka/voxface
+Author: Julian Michael Tyszka
+Author-email: jmt@caltech.edu
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jmtyszka/voxface/issues
+Project-URL: Funding, http://conte.caltech.edu/
+Project-URL: Source, https://github.com/jmtyszka/voxface/
+Keywords: neuroimaging MRI Nifti deface deidentify
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Voxface
+
+Facial voxelation for 3D structural MRI
+
+
+ 
+
+

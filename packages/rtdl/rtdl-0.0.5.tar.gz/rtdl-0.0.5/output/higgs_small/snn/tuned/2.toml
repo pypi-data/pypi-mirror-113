@@ -1,0 +1,18 @@
+seed = 2
+
+[data]
+normalization = 'quantile_normal'
+path = 'data/higgs_small'
+
+[model]
+d_layers = [ 175, 41, 41, 41, 41, 365 ]
+dropout = 0.09935244742468077
+
+[training]
+eval_batch_size = 8192
+lr = 0.001347233048740362
+lr_n_decays = 0
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 0.0007525824643333251

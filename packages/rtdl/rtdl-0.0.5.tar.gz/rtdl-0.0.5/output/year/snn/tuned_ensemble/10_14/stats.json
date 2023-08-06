@@ -1,0 +1,29 @@
+{
+    "dataset": "year",
+    "algorithm": "snn",
+    "config": {
+        "source": "output/year/snn/tuned_adamw",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 7.532313247564609,
+            "score": -7.532313247564609
+        },
+        "val": {
+            "rmse": 8.398316809384351,
+            "score": -8.398316809384351
+        },
+        "test": {
+            "rmse": 8.748197272800244,
+            "score": -8.748197272800244
+        }
+    }
+}

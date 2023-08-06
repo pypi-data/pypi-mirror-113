@@ -1,0 +1,90 @@
+{
+    "dataset": "yahoo",
+    "algorithm": "snn",
+    "config": {
+        "data": {
+            "normalization": "quantile_normal",
+            "path": "data/yahoo",
+            "y_policy": "mean_std"
+        },
+        "model": {
+            "d_layers": [
+                203,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                107
+            ],
+            "dropout": 0.0
+        },
+        "seed": 12,
+        "training": {
+            "eval_batch_size": 8192,
+            "lr": 0.0005959127667158075,
+            "lr_n_decays": 0,
+            "n_epochs": 1000000000,
+            "optimizer": "adamw",
+            "patience": 16,
+            "weight_decay": 0
+        }
+    },
+    "environment": {
+        "devices": {
+            "CUDA_VISIBLE_DEVICES": "0",
+            "torch.version.cuda": "10.1",
+            "torch.backends.cudnn.version()": 7603,
+            "torch.cuda.nccl.version()": 2708,
+            "driver": "450.80.02",
+            "0": {
+                "name": "Tesla V100-PCIE-32GB",
+                "total_memory": 34089730048
+            }
+        }
+    },
+    "batch_size": 1024,
+    "epoch_size": 463,
+    "n_parameters": 484996,
+    "best_epoch": 28,
+    "metrics": {
+        "train": {
+            "rmse": 0.7138663227779023,
+            "score": -0.7138663227779023
+        },
+        "val": {
+            "rmse": 0.7867124164808547,
+            "score": -0.7867124164808547
+        },
+        "test": {
+            "rmse": 0.7731783048566192,
+            "score": -0.7731783048566192
+        }
+    },
+    "time": "0:11:47"
+}

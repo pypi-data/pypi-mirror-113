@@ -1,0 +1,29 @@
+{
+    "dataset": "yahoo",
+    "algorithm": "snn",
+    "config": {
+        "source": "output/yahoo/snn/tuned_adamw",
+        "seeds": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "count": 5
+    },
+    "metrics": {
+        "train": {
+            "rmse": 0.7140128848676772,
+            "score": -0.7140128848676772
+        },
+        "val": {
+            "rmse": 0.7775818955596367,
+            "score": -0.7775818955596367
+        },
+        "test": {
+            "rmse": 0.7643322903649755,
+            "score": -0.7643322903649755
+        }
+    }
+}

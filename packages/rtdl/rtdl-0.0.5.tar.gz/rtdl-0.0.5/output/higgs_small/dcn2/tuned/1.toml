@@ -1,0 +1,22 @@
+seed = 1
+
+[data]
+normalization = 'quantile_normal'
+path = 'data/higgs_small'
+
+[model]
+cross_dropout = 0.0
+d = 256
+hidden_dropout = 0.2908717689210804
+n_cross_layers = 1
+n_hidden_layers = 3
+stacked = false
+
+[training]
+batch_size = 512
+eval_batch_size = 8192
+lr = 0.0002474814811373671
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 0.0

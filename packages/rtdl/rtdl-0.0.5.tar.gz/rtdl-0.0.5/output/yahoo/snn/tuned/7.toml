@@ -1,0 +1,52 @@
+seed = 7
+
+[data]
+normalization = 'quantile_normal'
+path = 'data/yahoo'
+y_policy = 'mean_std'
+
+[model]
+d_layers = [
+    203,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    103,
+    107
+]
+dropout = 0.0
+
+[training]
+eval_batch_size = 8192
+lr = 0.0005959127667158075
+lr_n_decays = 0
+n_epochs = 1000000000
+optimizer = 'adamw'
+patience = 16
+weight_decay = 0

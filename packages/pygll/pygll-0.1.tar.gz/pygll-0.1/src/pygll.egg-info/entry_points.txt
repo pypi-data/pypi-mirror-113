@@ -1,0 +1,4 @@
+[pygments.styles]
+livinglogic-dark = pygll:LivingLogicDarkStyle
+livinglogic-light = pygll:LivingLogicLightStyle
+

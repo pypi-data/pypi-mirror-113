@@ -1,0 +1,7 @@
+ormsgpack-0.3.3.dist-info/METADATA,sha256=M9PXgVVED9Z6fK5CUCTlOk6WSuslFMlamgh4WwE1APE,42886
+ormsgpack-0.3.3.dist-info/WHEEL,sha256=tTCqSgEPVkgvQNES3brNt2Q_Dv_mTQk32OHQFZvjZO0,95
+ormsgpack/__init__.py,sha256=ugZruk7u3UjZ3JmrvKtc7QN88AUbyTTpZ9_4HvltPuc,25
+ormsgpack/__init__.pyi,sha256=Hn6pNXEJfiTWvB81y3n1vvQNmRoBLvc_keTxuSBxmbc,634
+ormsgpack/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ormsgpack/ormsgpack.pyd,sha256=avBt3ZCuKAlHfU5wWuBBx1Ry1FhzBme2dtz2SL0KW0c,280064
+ormsgpack-0.3.3.dist-info/RECORD,,

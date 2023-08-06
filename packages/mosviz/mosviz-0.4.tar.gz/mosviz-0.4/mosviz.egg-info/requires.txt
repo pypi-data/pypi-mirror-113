@@ -1,0 +1,7 @@
+
+[docs]
+sphinx-astropy
+sphinx-rtd-theme
+
+[tests]
+pytest-astropy

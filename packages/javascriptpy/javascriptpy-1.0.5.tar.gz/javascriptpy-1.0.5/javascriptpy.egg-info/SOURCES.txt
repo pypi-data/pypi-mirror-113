@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+javascript/__init__.py
+javascript/console.py
+javascript/jstypes.py
+javascriptpy.egg-info/PKG-INFO
+javascriptpy.egg-info/SOURCES.txt
+javascriptpy.egg-info/dependency_links.txt
+javascriptpy.egg-info/top_level.txt

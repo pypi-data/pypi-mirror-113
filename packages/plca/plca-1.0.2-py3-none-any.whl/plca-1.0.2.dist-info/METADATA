@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: plca
+Version: 1.0.2
+Summary: Dynamic Life-cycle assessment
+Home-page: UNKNOWN
+Author: Hedi ROMDHANA
+Author-email: hedi.romdhana@agroparistech.fr
+License: GPLv3
+Keywords: LCA dynamic Life-cycle assessment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: prettytable
+Requires-Dist: tqdm
+
+# Dynamic Life-cycle assessment
+
+

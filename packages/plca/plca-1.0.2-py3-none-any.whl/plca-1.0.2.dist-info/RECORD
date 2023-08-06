@@ -1,0 +1,11 @@
+plca/__init__.py,sha256=1QSr3Xwewck9CkDS8Yh8l8gP_9GJZejWOQ5OEWPO04s,504
+plca/__main__.py,sha256=qVPcan5hLwlicebgRVamCK_4Ck05Iex081F8SM-7iu0,185
+plca/__version__.py,sha256=JV4sLXw49i7_yip2xWnM9tXjAlUsAeqWeqkvH11-BiQ,121
+plca/elcd.json,sha256=5M63JHNOtJn060uN-NSjg3S1BuQTL5o0PiX3zXMHY5Y,80508350
+plca/plca.py,sha256=N0GO2E0bQQivgy5TfSOpd6eFiwl_LQpXnZylPWoYbbo,8936
+plca/__pycache__/__version__.cpython-38.pyc,sha256=YwzRG2XMjmBn7PRWk0QNr2mIVjNuUm4ai_933wwTcBQ,211
+plca-1.0.2.dist-info/LICENSE.txt,sha256=B3fCAEJtPCxMcRb9k_d9CAyJZPllK9Rbuha-DDgg_zE,1093
+plca-1.0.2.dist-info/METADATA,sha256=Kq3_7ryYHBaK6E_t2QspU5BPC38GSH81GFY1FIsbBO0,763
+plca-1.0.2.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+plca-1.0.2.dist-info/top_level.txt,sha256=WSZbmUWPlEKve-guqAHBYdWbaq_s0tdsgMnNhWEPtJs,5
+plca-1.0.2.dist-info/RECORD,,

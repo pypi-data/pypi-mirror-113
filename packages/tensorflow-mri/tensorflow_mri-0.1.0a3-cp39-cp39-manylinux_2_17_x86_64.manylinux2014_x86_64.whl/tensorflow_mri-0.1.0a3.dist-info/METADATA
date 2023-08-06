@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tensorflow-mri
+Version: 0.1.0a3
+Summary: TensorFlow MRI.
+Home-page: https://github.com/mrphys/tensorflow_nufft
+Author: Javier Montalt-Tordera
+Author-email: javier.montalt@outlook.com
+License: Apache 2.0
+Keywords: tensorflow,mri
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow (>=2.1.0)
+Requires-Dist: tensorflow-graphics
+
+TensorFlow MRI is a package implementing functionality relevant to ML in
+Magnetic Resonance Imaging (MRI).
+
+

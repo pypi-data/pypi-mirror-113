@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "how-short"
+version = "0.1.1"
+description = "A simple decorator to measure a function excecution time. Clone of https://pypi.org/project/how-long/."
+authors = ["Aleksey Semenov <alexsemenov1610@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/borgishmorg/how-short"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.2"
+black = "^21.7b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

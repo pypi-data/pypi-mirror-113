@@ -1,0 +1,9 @@
+hello_name/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+hello_name/_nbdev.py,sha256=BAsjfLognuzsQiSIpToB4zgzKQD5oXmmAPkLkaJF9p0,370
+hello_name/core.py,sha256=w7DziSeVMk-cSlOVRyQZH5A7yY7SKJeJ5CuB8kxOaec,383
+hello_name-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+hello_name-0.0.1.dist-info/METADATA,sha256=ehzy-lcs3dEysHr1KvTTPaWNPYGn_xMuIke9cYs3i4s,1092
+hello_name-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hello_name-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+hello_name-0.0.1.dist-info/top_level.txt,sha256=N7o-DzjcLzkqZVvdnmGFtJToNlL_fnrSQoNAg3BbgKM,11
+hello_name-0.0.1.dist-info/RECORD,,

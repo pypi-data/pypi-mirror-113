@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonpro_tardelli/__init__.py
+libpythonpro_tardelli/github_api.py
+libpythonpro_tardelli.egg-info/PKG-INFO
+libpythonpro_tardelli.egg-info/SOURCES.txt
+libpythonpro_tardelli.egg-info/dependency_links.txt
+libpythonpro_tardelli.egg-info/not-zip-safe
+libpythonpro_tardelli.egg-info/requires.txt
+libpythonpro_tardelli.egg-info/top_level.txt

@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: itk-pocus
+Version: 0.1rc1
+Summary: ITKPOCUS - an open source library for image processing and AI of point-of-care ultrasound, based on ITK (https://pypi.org/project/itk/)
+Home-page: https://github.com/KitwareMedical/ITKPOCUS
+Author: Brad T. Moore
+Author-email: brad.moore@kitware.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: itk>=5.2.0.post2
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: sk-video
+
+# ITKPOCUS (ITK Point-of-Care Ultrasound) Python Library
+
+## Documentation
+[https://itkpocus.readthedocs.io/en/latest/](https://itkpocus.readthedocs.io/en/latest/)
+
+## Installation
+1. Install <https://www.ffmpeg.org/>
+2. Add ffmpeg binary directory to your PATH
+    1. Note: errors in this step will result in exceptions from _skvideo_
+3. Activate your virtual environment
+4. `pip install itk-pocus`
+
+## Usage
+The scripts provided convert manufacturer video files to ITK Image objects.  They may also remove overlays from the ultrasound image and set the physical dimension of the image by processing the overlay ruler (when applicable).
+
+```
+import itkpocus.clarius as clarius
+import matplotlib.pyplot as plt
+import itk
+
+img_fp=PATH_TO_FILE
+video_fp=PATH_TO_FILE
+
+img, meta = load_and_preprocess_image(img_fp)
+plt.imshow(img)
+print(img, meta)
+
+vid, vid_meta = load_and_preprocess_video(video_fp)
+plt.imshow(itk.array_from_image(vid)[0,:,:]) # plot first frame
+print(vid, vid_meta)
+```

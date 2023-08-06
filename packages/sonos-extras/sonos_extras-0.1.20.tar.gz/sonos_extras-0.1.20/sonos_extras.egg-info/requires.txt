@@ -1,0 +1,2 @@
+python-dateutil
+soco==0.19

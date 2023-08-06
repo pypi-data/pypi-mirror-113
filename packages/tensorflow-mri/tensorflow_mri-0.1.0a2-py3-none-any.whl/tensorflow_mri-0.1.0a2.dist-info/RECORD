@@ -1,0 +1,10 @@
+tensorflow_mri/__init__.py,sha256=L0A30jCnybqL4-YYet8_ot_aWh-ECOUpvQbQks_jFxk,760
+tensorflow_mri/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_mri/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorflow_mri/python/ops/traj_ops.py,sha256=Am1vrrjCdyK7_5kDXsMs4GirGYfmleb1_chhKh5lTD0,11819
+tensorflow_mri-0.1.0a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tensorflow_mri-0.1.0a2.dist-info/METADATA,sha256=RxhJQ0t9Y82CT24liiAlKKnp6YFeN07cULq1ar8FTJQ,1246
+tensorflow_mri-0.1.0a2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tensorflow_mri-0.1.0a2.dist-info/top_level.txt,sha256=J9cB23OSde_xn4Q_VverlOlOCiI-9cvKMoa5Msz4rIQ,15
+tensorflow_mri-0.1.0a2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tensorflow_mri-0.1.0a2.dist-info/RECORD,,

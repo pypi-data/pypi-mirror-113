@@ -1,0 +1,9 @@
+libslide_io.dylib,sha256=A1EbOOOzT6ObJN5z3OrSwFJ1eojbT63FNszOBzyI_fc,59259520
+slideiopybind.cpython-39-darwin.so,sha256=3icB1P8tFPOGO_gvcpoeESKNe5p7_hAwuQqZcWOivxc,232364
+slideio/__init__.py,sha256=-mYF3uAT_vENMs8F6bY7Xd7-w2MEIHWryVscGdHCWHo,226
+slideio/py_slideio.py,sha256=1nyQHvws8lZcwixrTuvhViHcN3ongFsCq0YTLW8wOdg,8168
+slideio-0.6.0.data/data/requirements-dev.txt,sha256=88hd6JBxfTwnj69wkk9kE6O8Apk7ybLAtvAwsF8wyS4,28
+slideio-0.6.0.dist-info/METADATA,sha256=PvXqMyEL-cn2IeBdWvYpSN8r4088OeEYjAVXaIo1uxQ,1200
+slideio-0.6.0.dist-info/WHEEL,sha256=3FJFrWj3N25u06WXdTN6PwDo1viKMTVIfJVbMCz5YvM,110
+slideio-0.6.0.dist-info/top_level.txt,sha256=GjKvFJIq0ND8NFcAt3GozneEwtsW0rX09rDW1CrPGcI,8
+slideio-0.6.0.dist-info/RECORD,,

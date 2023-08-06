@@ -1,0 +1,3 @@
+[console_scripts]
+yqn-model = yqn_ops.download_resource:main
+

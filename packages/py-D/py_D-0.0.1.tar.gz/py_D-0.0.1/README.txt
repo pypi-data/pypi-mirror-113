@@ -1,0 +1,1 @@
+This is a library for downloading simple documents like pdf, jpg, png, gif etc.

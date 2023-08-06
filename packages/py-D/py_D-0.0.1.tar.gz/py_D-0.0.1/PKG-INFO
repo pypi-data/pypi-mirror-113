@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: py_D
+Version: 0.0.1
+Summary: Simple Downloader
+Home-page: UNKNOWN
+Author: Muhammad Muzammil Alam
+Author-email: muzammil.alam231@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: downloader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

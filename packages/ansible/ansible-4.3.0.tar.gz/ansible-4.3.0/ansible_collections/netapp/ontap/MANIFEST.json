@@ -1,0 +1,32 @@
+{
+ "collection_info": {
+  "namespace": "netapp",
+  "name": "ontap",
+  "version": "21.8.1",
+  "authors": [
+   "NetApp Ansible Team <ng-ansibleteam@netapp.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "storage",
+   "ontap",
+   "netapp"
+  ],
+  "description": "NetApp ONTAP Collection",
+  "license": [],
+  "license_file": "COPYING",
+  "dependencies": {},
+  "repository": "https://github.com/ansible-collections/netapp.ontap",
+  "documentation": null,
+  "homepage": "https://netapp.io/configuration-management-and-automation/",
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "f1d8bd4fda3a0b7580b4ff7ccb211ba88edf09d04f6708b27e084ff4809b162b",
+  "format": 1
+ },
+ "format": 1
+}

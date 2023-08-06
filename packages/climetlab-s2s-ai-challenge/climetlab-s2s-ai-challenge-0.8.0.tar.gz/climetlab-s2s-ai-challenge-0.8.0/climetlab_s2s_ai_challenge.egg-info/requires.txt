@@ -1,0 +1,5 @@
+climetlab>=0.8.6
+
+[zarr]
+zarr
+s3fs

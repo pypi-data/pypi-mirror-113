@@ -1,0 +1,11 @@
+madan/__int__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan/cv/README.md,sha256=FsEGjzA3-ltm5r2qoviTj4EHwSYSrEfeEq8ktGh5ink,731
+madan/cv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan/cv/inference.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan/inference.py,sha256=8moYxpGM5XpT7K7Pc6tKWHMDCSruaADyayYZgxEFKwY,263
+madan/math/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan/ml/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan/nlp/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+madan-0.1.0.dist-info/WHEEL,sha256=MyIjaRglnKvxtgGXLbj0ZYwRIpKJzMIEcf1_g2pW9II,85
+madan-0.1.0.dist-info/METADATA,sha256=h3d2_UQR9zEn2WHcWhyXjayVUm8qqCPDgwDlVWYIq1g,1903
+madan-0.1.0.dist-info/RECORD,,

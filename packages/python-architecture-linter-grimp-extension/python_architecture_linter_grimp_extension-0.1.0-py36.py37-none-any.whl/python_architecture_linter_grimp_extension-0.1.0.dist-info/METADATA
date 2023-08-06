@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-architecture-linter-grimp-extension
+Version: 0.1.0
+Summary: Plug grimp into python-architecture-linter
+Home-page: UNKNOWN
+Author: Brian Graham
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: grimp (<2.0.0,>=1.2.3)
+Requires-Dist: python-architecture-linter (==0.1.3)
+
+UNKNOWN
+
+

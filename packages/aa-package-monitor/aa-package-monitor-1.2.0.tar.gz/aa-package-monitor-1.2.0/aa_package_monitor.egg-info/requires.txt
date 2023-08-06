@@ -1,0 +1,5 @@
+allianceauth>=2.8.0
+importlib_metadata
+packaging<21,>=20.1
+allianceauth-app-utils>=1.8
+requests

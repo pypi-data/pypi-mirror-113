@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+whisper_pandas.py
+whisper_pandas.egg-info/PKG-INFO
+whisper_pandas.egg-info/SOURCES.txt
+whisper_pandas.egg-info/dependency_links.txt
+whisper_pandas.egg-info/entry_points.txt
+whisper_pandas.egg-info/requires.txt
+whisper_pandas.egg-info/top_level.txt

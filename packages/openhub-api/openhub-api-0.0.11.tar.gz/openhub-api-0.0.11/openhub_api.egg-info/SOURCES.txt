@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+setup.py
+openhub_api.egg-info/PKG-INFO
+openhub_api.egg-info/SOURCES.txt
+openhub_api.egg-info/dependency_links.txt
+openhub_api.egg-info/requires.txt
+openhub_api.egg-info/top_level.txt

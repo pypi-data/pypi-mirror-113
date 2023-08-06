@@ -1,0 +1,16 @@
+Skydipper-sdk/Skydipper.py,sha256=HQRM8Wc1GE7sVBpvY-HVjQc-9GFkhkUXFjcz2RIAau4,12114
+Skydipper-sdk/__init__.py,sha256=eHTitc9Wcvgtn5gBgaAFPGZ-i7uIyRgv5qD-iBB7HSo,386
+Skydipper-sdk/collection.py,sha256=Hj80KzsVKbU6cuzneh94S3h1F84wOGt8L6pbf37TARY,9682
+Skydipper-sdk/dataset.py,sha256=NAVF5xD8cjLDKXxCKkCrXk3m7rtzkbITSfkg9SCfNdk,27169
+Skydipper-sdk/geometry.py,sha256=S3WSAWAd776F3R8Vj1bLuDlh2oMjdNdpsVZh7c6UpgM,12165
+Skydipper-sdk/image.py,sha256=MpsGfLa0GLgRlulvX6olg9i7N-Wn6Y2xaVLka2DDbUQ,8646
+Skydipper-sdk/imageCollection.py,sha256=W6S5442ATnDgrhx-ogn9csEbGKqDCxUDdPp2NcHOmj8,6675
+Skydipper-sdk/layer.py,sha256=bS4xwJqFnXVyq_mpaEiZxRVoV-genWF6qhLxRDO14uE,23832
+Skydipper-sdk/manifest.py,sha256=AXMhUaYMWLgkc_pt6g1PKwn5PCUUOYNaD-V8Egi_Chg,32014
+Skydipper-sdk/user.py,sha256=Aa6esnD0oC_W4gJ0NKj9hlE8SyLZW3eaS5tCHdeD27k,3525
+Skydipper-sdk/utils.py,sha256=wzV_eRQTkFQqyTyA53_EBaLTAg5Ahgi1PY9iJdXlQh0,24878
+Skydipper_sdk-1.0.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+Skydipper_sdk-1.0.0.dist-info/METADATA,sha256=_gbIb5Tqdgo7QrzhGHR8IhawII83WXDdRUijFZTUiI8,2776
+Skydipper_sdk-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Skydipper_sdk-1.0.0.dist-info/top_level.txt,sha256=-TO7ZzixK_H0Glo-1G001RIU-0ZdLkgphDX-axYvt8U,14
+Skydipper_sdk-1.0.0.dist-info/RECORD,,

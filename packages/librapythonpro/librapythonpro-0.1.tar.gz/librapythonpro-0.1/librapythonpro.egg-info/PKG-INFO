@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: librapythonpro
+Version: 0.1
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/Ioboss/librapythonpro
+Author: Vitor Lobo
+Author-email: vtloboss@hotmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# librapythonpro
+Modulo para exemplificar construÃ§ao de projetos python no curso Pytools
+
+Nesse curso Ã© ensinado como contribuir com projetos de codigo aberto
+
+Link do curso [Python Pro](https://plataforma.dev.pro.br/)
+
+[![Build Status](https://travis-ci.com/Ioboss/librapythonpro.svg?branch=main)](https://travis-ci.com/Ioboss/librapythonpro)
+[![Updates](https://pyup.io/repos/github/Ioboss/librapythonpro/shield.svg)](https://pyup.io/repos/github/Ioboss/librapythonpro/)
+[![Python 3](https://pyup.io/repos/github/Ioboss/librapythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Ioboss/librapythonpro/)
+
+Suportado Python 3
+
+Para instalar:
+
+''' Console
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install -r requirements-dev.txt
+'''
+
+Para conferir qualidade de codigo:
+
+''' Console
+
+flake8
+'''
+
+Topicos a serem abordados:
+1. Git
+2. Virtualenv
+3. Pip
+
+

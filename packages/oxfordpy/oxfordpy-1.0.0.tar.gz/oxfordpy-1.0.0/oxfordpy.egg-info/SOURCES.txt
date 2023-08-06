@@ -1,0 +1,10 @@
+README.md
+setup.py
+oxfordpy/__init__.py
+oxfordpy/oxfordpy.py
+oxfordpy.egg-info/PKG-INFO
+oxfordpy.egg-info/SOURCES.txt
+oxfordpy.egg-info/dependency_links.txt
+oxfordpy.egg-info/requires.txt
+oxfordpy.egg-info/top_level.txt
+test/test1.py

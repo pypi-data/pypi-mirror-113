@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/f_R.egg-info/PKG-INFO
+src/f_R.egg-info/SOURCES.txt
+src/f_R.egg-info/dependency_links.txt
+src/f_R.egg-info/top_level.txt
+src/teste/__init__.py
+src/teste/f_r.py

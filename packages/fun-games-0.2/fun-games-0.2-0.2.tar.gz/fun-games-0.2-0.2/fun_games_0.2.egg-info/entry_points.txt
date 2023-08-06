@@ -1,0 +1,3 @@
+[console_scripts]
+games = src.play_games:main
+

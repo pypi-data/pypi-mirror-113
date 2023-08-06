@@ -1,0 +1,4 @@
+[console_scripts]
+yourtube=yourtube.__init__:run
+yourtube-scrape=yourtube.scrape_helpers:scrape_all_playlists
+

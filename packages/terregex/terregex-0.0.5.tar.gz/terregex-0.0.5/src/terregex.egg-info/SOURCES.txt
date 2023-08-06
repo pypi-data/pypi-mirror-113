@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/terregex/__init__.py
+src/terregex/_sre_dump.py
+src/terregex/mlr.py
+src/terregex/transform.py
+src/terregex.egg-info/PKG-INFO
+src/terregex.egg-info/SOURCES.txt
+src/terregex.egg-info/dependency_links.txt
+src/terregex.egg-info/top_level.txt

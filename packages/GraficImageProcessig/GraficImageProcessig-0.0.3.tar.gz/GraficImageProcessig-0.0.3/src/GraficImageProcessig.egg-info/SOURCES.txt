@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GraficImageProcessig.egg-info/PKG-INFO
+src/GraficImageProcessig.egg-info/SOURCES.txt
+src/GraficImageProcessig.egg-info/dependency_links.txt
+src/GraficImageProcessig.egg-info/requires.txt
+src/GraficImageProcessig.egg-info/top_level.txt
+src/GraphicImageProcessing/__init__.py
+src/GraphicImageProcessing/gip.py
+src/GraphicImageProcessing/test.py

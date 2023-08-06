@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PyTabela.egg-info/PKG-INFO
+src/PyTabela.egg-info/SOURCES.txt
+src/PyTabela.egg-info/dependency_links.txt
+src/PyTabela.egg-info/top_level.txt
+src/pyTabela/__init__.py
+src/pyTabela/pyTabela.py

@@ -1,0 +1,7 @@
+src/opentelemetry/exporter/jaeger/version.py,sha256=Xxk1fXmkcKc4BS4h7I_0vKnq5fgRVyol-HFZzka-n8Y,644
+tests/test_jaeger.py,sha256=x8oGgCpEiFgmAibCkvru3T7I2U07s3j7rJm_rx-qO9M,1115
+opentelemetry_exporter_jaeger-1.4.0.dist-info/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+opentelemetry_exporter_jaeger-1.4.0.dist-info/METADATA,sha256=fanxJ_uew6SZ-pevs79sGMQF6goqB1d6DLlyNQ_HUXE,1938
+opentelemetry_exporter_jaeger-1.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+opentelemetry_exporter_jaeger-1.4.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+opentelemetry_exporter_jaeger-1.4.0.dist-info/RECORD,,

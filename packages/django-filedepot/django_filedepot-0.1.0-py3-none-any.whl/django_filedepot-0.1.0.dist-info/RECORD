@@ -1,0 +1,12 @@
+filedepot/__init__.py,sha256=xb5uaLj6OpC0uKaWG48Set-luafuiQtm20AS1hwez5g,68
+filedepot/mixins.py,sha256=Y-jlxeXfdYP1RdaPcI9DhwKrdqLxQ0PPuC529H551Oo,3571
+filedepot/models.py,sha256=LtvwpoiADCEjvbaz3oO8CYuy-MGANvFuPR4c2XukxEg,4405
+filedepot/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filedepot/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filedepot/management/commands/filedepot_clean.py,sha256=-dRhu3tPFm5i0xb5AUnuMg963VxWII3xBBI1Wp6J1Ps,766
+filedepot/migrations/0001_initial.py,sha256=7iN8V11wBXp9nF-9HB3BsAg-hw0Dr_KcykLa3LUVc_o,1355
+filedepot/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filedepot-0.1.0.dist-info/METADATA,sha256=H_hpXsjd6UarXyLoVXepzxrnNSM_f_pdBe0nsfNfNS4,873
+django_filedepot-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_filedepot-0.1.0.dist-info/top_level.txt,sha256=12JCvLbY73L4ESmVyvSvR9TgUaMzmk2FlSDkBFXyArg,10
+django_filedepot-0.1.0.dist-info/RECORD,,

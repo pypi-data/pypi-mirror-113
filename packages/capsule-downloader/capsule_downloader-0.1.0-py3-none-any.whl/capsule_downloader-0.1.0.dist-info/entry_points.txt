@@ -1,0 +1,3 @@
+[console_scripts]
+capsule_downloader=capsule_downloader:main
+

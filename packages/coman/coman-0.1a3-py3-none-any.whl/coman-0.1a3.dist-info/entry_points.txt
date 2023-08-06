@@ -1,0 +1,4 @@
+[console_scripts]
+cm = coman:cli
+coman = coman:cli
+

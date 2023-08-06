@@ -1,0 +1,3 @@
+[console_scripts]
+vtag = v_tag:main
+

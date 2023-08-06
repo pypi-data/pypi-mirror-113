@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/kobacktranslation/__init__.py
+src/kobacktranslation.egg-info/PKG-INFO
+src/kobacktranslation.egg-info/SOURCES.txt
+src/kobacktranslation.egg-info/dependency_links.txt
+src/kobacktranslation.egg-info/not-zip-safe
+src/kobacktranslation.egg-info/top_level.txt

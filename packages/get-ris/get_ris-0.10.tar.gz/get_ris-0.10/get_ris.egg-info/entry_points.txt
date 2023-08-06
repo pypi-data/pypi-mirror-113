@@ -1,0 +1,4 @@
+[console_scripts]
+get_ris -f = get_ris.get_ris:start_pdf
+get_ris = get_ris.get_ris:start
+

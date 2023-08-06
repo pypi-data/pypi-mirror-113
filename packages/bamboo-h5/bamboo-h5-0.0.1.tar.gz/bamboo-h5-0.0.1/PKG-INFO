@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bamboo-h5
+Version: 0.0.1
+Summary: Persistent Pandas api package with hdf5 DataFrame storage.
+Home-page: https://github.com/eddiethedean/bamboo-h5
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

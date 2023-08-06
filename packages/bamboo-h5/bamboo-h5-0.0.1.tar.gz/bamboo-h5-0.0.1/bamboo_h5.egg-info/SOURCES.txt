@@ -1,0 +1,9 @@
+README.md
+setup.py
+bamboo-h5/__init__.py
+bamboo-h5/__main__.py
+bamboo_h5.egg-info/PKG-INFO
+bamboo_h5.egg-info/SOURCES.txt
+bamboo_h5.egg-info/dependency_links.txt
+bamboo_h5.egg-info/requires.txt
+bamboo_h5.egg-info/top_level.txt

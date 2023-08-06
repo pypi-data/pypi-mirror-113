@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "i18npy"
+version = "1.0.0"
+description = "Internationalization library. Python implementation of roddeh/i18njs"
+authors = [
+    "Marek Sierociński <mareksierocinski@gmail.com>"
+]
+license = "MIT"
+
+readme = "README.md"
+
+repository = "https://github.com/marverix/i18npy"
+homepage = "https://github.com/marverix/i18npy"
+
+keywords = ["i18n", "i18npy", "internationalization", "translate", "translation", "translating"]
+
+classifiers = [
+    "Topic :: Software Development :: Internationalization",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+pycodestyle = "^2.7.0"
+coverage = "^5.5"
+tox = "^3.24.0"
+tox-poetry = "^0.4.0"
+codecov = "^2.1.11"
+tox-gh-actions = "^2.6.0"
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

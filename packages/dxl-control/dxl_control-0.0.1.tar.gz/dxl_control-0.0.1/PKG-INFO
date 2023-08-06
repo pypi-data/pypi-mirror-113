@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dxl_control
+Version: 0.0.1
+Summary: Dynamixel control with Raspberry Pi
+Home-page: https://github.com/Nik-Pod/dxl_control
+Author: Nikolay Podkolzin
+Author-email: nickolay.podkolzin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Nik-Pod/dxl_control/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dynamixel control with Raspberry Pi
+
+

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: GraficImagemProcessig
+Version: 0.0.1
+Summary: Gip is a library that aims to simplify the functionality of other existing libraries for image processing.
+Home-page: https://github.com/KillerGlass/-graphic-image-processing.git
+Author: Francisco Jose, Mateus Assis
+Author-email: franciscojose17@ufpi.edu.br, mateusveloso@ufpi.edu.br
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/KillerGlass/-graphic-image-processing.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: scikit-image (==0.17.2)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: imageio (==2.9.0)
+Requires-Dist: opencv-python (==4.5.2.54)
+Requires-Dist: argparse (==1.4.0)
+
+# -graphic-image-processing
+GIP (Graphic Image Processing) aims to facilitate both Pre-processing and graphic plot of images, using libraries already available in the literature.
+     It will provide functions that have summarized multiple lines of code into just one, as well as making it easy for those looking to enter the 
+     world of image processing to get started.
+   
+
+## GraficPlot
+ Plot multiple graphs
+ 
+## ImageFilters
+Apply different filters to images
+
+## CreateBox
+Create boxes on images
+
+

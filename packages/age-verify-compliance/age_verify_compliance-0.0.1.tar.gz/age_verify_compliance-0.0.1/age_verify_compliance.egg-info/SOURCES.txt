@@ -1,0 +1,5 @@
+setup.py
+age_verify_compliance.egg-info/PKG-INFO
+age_verify_compliance.egg-info/SOURCES.txt
+age_verify_compliance.egg-info/dependency_links.txt
+age_verify_compliance.egg-info/top_level.txt

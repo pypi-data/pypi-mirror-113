@@ -1,0 +1,4 @@
+markdown>=3.3
+beautifulsoup4>=4
+httpx<1.0,>=0.18
+tenacity

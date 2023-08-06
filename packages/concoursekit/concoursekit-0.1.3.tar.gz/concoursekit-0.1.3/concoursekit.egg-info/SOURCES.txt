@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+concoursekit/__init__.py
+concoursekit.egg-info/PKG-INFO
+concoursekit.egg-info/SOURCES.txt
+concoursekit.egg-info/dependency_links.txt
+concoursekit.egg-info/entry_points.txt
+concoursekit.egg-info/requires.txt
+concoursekit.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+btk=btk.__main__:run
+

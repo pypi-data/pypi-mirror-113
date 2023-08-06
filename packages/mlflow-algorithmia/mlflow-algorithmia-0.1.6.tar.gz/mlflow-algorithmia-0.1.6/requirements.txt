@@ -1,0 +1,24 @@
+# It should match environment.yml
+
+# Development deps
+setuptools
+setuptools-scm
+pylint
+black
+flake8
+isort
+twine
+wheel
+pytest
+pytest-cov
+
+# Package deps
+mlflow
+algorithmia
+requests
+ruamel.yaml
+gitpython
+jinja2
+
+# Examples
+scikit-learn

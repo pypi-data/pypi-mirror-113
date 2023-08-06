@@ -1,0 +1,31 @@
+# Should match requirements.txt
+name: mlflow-algorithmia
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+
+  # Development deps
+  - setuptools
+  - setuptools_scm
+  - pylint
+  - flake8
+  - black
+  - isort
+  - twine
+  - wheel
+  - pytest
+  - pytest-cov
+
+  # Examples
+  - scikit-learn
+
+  - pip:
+    # Package deps
+    - mlflow
+    - algorithmia
+    - requests
+    - ruamel.yaml
+    - gitpython
+    - jinja2

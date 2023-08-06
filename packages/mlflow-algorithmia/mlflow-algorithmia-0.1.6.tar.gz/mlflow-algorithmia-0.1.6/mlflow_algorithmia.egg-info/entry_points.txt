@@ -1,0 +1,3 @@
+[mlflow.deployments]
+algorithmia=mlflow_algorithmia.deployment
+

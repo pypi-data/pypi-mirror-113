@@ -1,0 +1,25 @@
+regression:
+  model_config:
+    objective: 'rmse'
+  cv_config:
+    metrics: ''
+    nfold: 5,
+  pbounds:
+    eta: [0.1, 0.4]
+    n_estimators: [400,800]
+    lambda: [0.01, 1]
+    gamma: [0.01, 1]
+    max_depth: [4, 10]
+
+binary:
+  model_config:
+    objective: 'binary'
+  cv_config:
+    metrics: ''
+    nfold: 5
+  pbounds:
+    eta: [0.1, 0.4]
+    n_estimators: [400,800]
+    lambda: [0.01, 1]
+    gamma: [0.01, 1]
+    max_depth: [4, 10]

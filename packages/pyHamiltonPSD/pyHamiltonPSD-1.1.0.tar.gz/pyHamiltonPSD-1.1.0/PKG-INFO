@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: pyHamiltonPSD
+Version: 1.1.0
+Summary: Basic Hamilton CE PSD Application
+Home-page: UNKNOWN
+Author: Hamilton CE - developed by Camil Milos
+Author-email: contact.hce.ro@hamilton-ce.com
+License: MIT
+Description: The Precision Syringe Drive (PSD) is a compact syringe pump designed to perform
+        all liquid handling operations including dispensing, serial dispensing and diluting.
+        There are four types of PSD: 4/6/4 smooth flow/6 smooth flow.
+        The intention of this library is to provide a simple form of interaction with the pump.
+        The pump is capable to execute various commands, which can be found in the manual. 
+        The pyHamiltonPSD library goal is to make this commands easy to be used in a Python environment.
+        The library can be used to run commands in the command line, or to create programs that agregate 
+        multiple commands as scenarios.
+        
+        Change Log
+        ===========
+        
+        1.0.0 (21/05/2021)
+        ------------------
+        - First Release
+        
+        1.0.1 (09/06/2021)
+        ------------------
+        - Small correction
+        
+        1.0.2 (15/06/2021)
+        ------------------
+        - Small correction
+        
+        1.1.0 (23/07/2021)
+        ------------------
+        - Adding new scripts for syringe movement and velocity speed
+          -> syringeMovement(..)
+          -> velocityConfiguration(..)
+          -> setMaximumMicroStepVelocityPerMinute(..) - used only for PSD smooth flow
+        - Method definePump is updated, it has a new parameter called 'syringe'
+Keywords: Hamilton PSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+cc12703_pychrome-0.2.4.dist-info/METADATA,sha256=hbizVqy7Vnr9BbGxORvKuxd1F3eiQnSkY3jyOAPkm8U,4268
+cc12703_pychrome-0.2.4.dist-info/RECORD,,
+cc12703_pychrome-0.2.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cc12703_pychrome-0.2.4.dist-info/entry_points.txt,sha256=Bxk8WwMsdNjlJF1EPQp7a9ztd9lfcOH2o-39Ya5r0jM,48
+cc12703_pychrome-0.2.4.dist-info/top_level.txt,sha256=grI_W9PxWLskQV4myyGXdG6k6cXt4nZs837EFjbP224,9
+pychrome/__init__.py,sha256=yWflCuecm3B7hWRzHRyUCvrFCV33uS-DLCsoqb_yUiA,180
+pychrome/browser.py,sha256=KisbTohNRrxkwBf3YUkX-m-a2wEM_m301l9EzO93Ac8,2133
+pychrome/cli.py,sha256=6eWLNw4U9K5tRrxdfquIemGBcvCLfkJdZih9BUXEeSs,2940
+pychrome/exceptions.py,sha256=q30Yy1VsGXYGItUIQ_7qOPUd7T1sBlYVAfhpgOcOxts,416
+pychrome/tab.py,sha256=OgYpiK3gJKD81Mr-Wm5B3uSwlxWLAMQ3c3unQaDHINQ,7158

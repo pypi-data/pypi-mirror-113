@@ -1,0 +1,9 @@
+pyExceptions/__init__.py,sha256=z-sNMz6Mh7oQX5oI3b0sGleZ3RQm7C26USj-F4IcL3g,2846
+tests/__init__.py,sha256=cqOg9GGi-uxI6q1wSvy_JPtNyZWRKgwjd539Jss5pJw,1720
+tests/unit/Exceptions.py,sha256=68wdaV5h-_zH5yVW3XQ8HVjEyeKcRmZE4IW4TmNFymI,3082
+tests/unit/__init__.py,sha256=uN5w3Zp4JHxi_8kentEecV_eteK2u7TkG3tPiemKXW4,1668
+pyExceptions-1.1.0.dist-info/LICENSE.md,sha256=DF4r-Jbsz_ZASY4VjV0ZZVaaHYkH9a20BkVExpq8doE,10571
+pyExceptions-1.1.0.dist-info/METADATA,sha256=CDtVzN8SmTudjLewDQSIwejwl6M5J8w7TDs9WXtBTKk,4152
+pyExceptions-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyExceptions-1.1.0.dist-info/top_level.txt,sha256=MZ6KB-wkLnhLKlMbA4UWXO19MotVLvfWnp-vwTv4uqA,19
+pyExceptions-1.1.0.dist-info/RECORD,,

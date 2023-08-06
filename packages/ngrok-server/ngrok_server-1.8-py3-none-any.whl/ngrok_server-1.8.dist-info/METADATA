@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ngrok-server
+Version: 1.8
+Summary: simple project, simple life
+Home-page: UNKNOWN
+Author: madhavth
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyclip
+Requires-Dist: requests
+
+just a simple project
+
+

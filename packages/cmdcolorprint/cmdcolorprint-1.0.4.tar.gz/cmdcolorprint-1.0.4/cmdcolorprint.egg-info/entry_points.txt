@@ -1,0 +1,4 @@
+[console_scripts]
+cmdcolorprint = colorprint:cprint
+cprint = colorprint:cprint
+

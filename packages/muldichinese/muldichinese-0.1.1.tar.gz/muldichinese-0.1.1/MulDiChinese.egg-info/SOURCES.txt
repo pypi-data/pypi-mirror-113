@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+MulDiChinese.egg-info/PKG-INFO
+MulDiChinese.egg-info/SOURCES.txt
+MulDiChinese.egg-info/dependency_links.txt
+MulDiChinese.egg-info/top_level.txt
+muldichinese.egg-info/PKG-INFO
+muldichinese.egg-info/SOURCES.txt
+muldichinese.egg-info/dependency_links.txt
+muldichinese.egg-info/top_level.txt

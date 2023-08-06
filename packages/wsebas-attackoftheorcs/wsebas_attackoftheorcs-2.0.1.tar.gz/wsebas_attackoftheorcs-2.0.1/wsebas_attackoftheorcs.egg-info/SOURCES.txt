@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README
+setup.py
+wargame/__init__.py
+wargame/abstractgameunit.py
+wargame/attackoftheorcs.py
+wargame/gameuniterror.py
+wargame/gameutils.py
+wargame/hut.py
+wargame/knight.py
+wargame/orcrider.py
+wsebas_attackoftheorcs.egg-info/PKG-INFO
+wsebas_attackoftheorcs.egg-info/SOURCES.txt
+wsebas_attackoftheorcs.egg-info/dependency_links.txt
+wsebas_attackoftheorcs.egg-info/top_level.txt

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wsebas_attackoftheorcs
+Version: 2.0.1
+Summary: Updated fantasy game
+Home-page: https://pypi.org/project/wsebas_attackoftheorcs/
+Author: William
+Author-email: william@gmail.com
+License: LICENSE.txt
+Description: Attack of the Orcs
+        ==================
+        
+        Introduction
+        -------------
+        This is a command line fantasy war game!
+        
+        Documentation
+        --------------
+        Documentation can be found at...
+        
+        Example Usage
+        -------------
+        Here is an example to import the modules from this package.
+        .. code:: python
+            
+            from wargame.attackoftheorcs import AttackOfTheOrcs
+            game = AttackOfTheOrcs()
+            game.play()
+        
+        LICENSE
+        -------
+        See LICENSE.txt file.
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst

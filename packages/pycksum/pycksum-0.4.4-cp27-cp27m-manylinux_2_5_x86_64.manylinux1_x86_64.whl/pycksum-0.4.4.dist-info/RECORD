@@ -1,0 +1,9 @@
+_pycksum.so,sha256=7RP_2J9gKw1vGFDO0acdVPa77RPz7Gs60i1LHb6mkJU,53141
+pycksum-0.4.4.dist-info/WHEEL,sha256=lyXoYxKBVcwPJYlIHxv-Q4R08fL7ukX7xhGvKttKMpM,146
+pycksum-0.4.4.dist-info/entry_points.txt,sha256=b7cpg5b2KQO_HmNwiMdxvG-co6T9_l9emreYueUnfMc,47
+pycksum-0.4.4.dist-info/top_level.txt,sha256=OLi7-o30SwdN4I6gzgSBoPbGZlefNc1h8_NkUH3f4Yw,17
+pycksum-0.4.4.dist-info/LICENSE,sha256=XsYjgHwVRUYzh0SHCtgMUZvzrhXAww8JM4m6NpJiJNI,1067
+pycksum-0.4.4.dist-info/METADATA,sha256=zrhOKJCRsjBlnqWbbigOZtl2f0-oJE7_SimFPIaMkVA,2574
+pycksum-0.4.4.dist-info/RECORD,,
+pycksum/__init__.py,sha256=CLLMtF0FMLFj8LGFFm82QLFXZQkQCL7PDrBDtz8LBec,4905
+pycksum/main.py,sha256=smVdJWYYabxgz1s35xC20jKN32zPMwVtW_n3DTn8ObA,612

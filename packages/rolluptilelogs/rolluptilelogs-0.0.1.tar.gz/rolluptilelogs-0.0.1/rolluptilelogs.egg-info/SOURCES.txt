@@ -1,0 +1,9 @@
+setup.py
+rolluptilelogs/__init__.py
+rolluptilelogs.egg-info/PKG-INFO
+rolluptilelogs.egg-info/SOURCES.txt
+rolluptilelogs.egg-info/dependency_links.txt
+rolluptilelogs.egg-info/entry_points.txt
+rolluptilelogs.egg-info/not-zip-safe
+rolluptilelogs.egg-info/requires.txt
+rolluptilelogs.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: rolluptilelogs
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/pnorman/rolluptilelogs
+Author: Paul Norman
+Author-email: osm@paulnorman.ca
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: ~=3.6

@@ -1,0 +1,3 @@
+[console_scripts]
+rolluptilelogs = rolluptilelogs:cli
+

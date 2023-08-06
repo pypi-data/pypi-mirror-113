@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+autoreduce_rest_api.egg-info/PKG-INFO
+autoreduce_rest_api.egg-info/SOURCES.txt
+autoreduce_rest_api.egg-info/dependency_links.txt
+autoreduce_rest_api.egg-info/entry_points.txt
+autoreduce_rest_api.egg-info/requires.txt
+autoreduce_rest_api.egg-info/top_level.txt

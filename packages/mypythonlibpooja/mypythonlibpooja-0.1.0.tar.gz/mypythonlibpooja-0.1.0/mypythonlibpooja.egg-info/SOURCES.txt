@@ -1,0 +1,8 @@
+README.md
+setup.py
+mypythonlib/__init__.py
+mypythonlib/myfunctions.py
+mypythonlibpooja.egg-info/PKG-INFO
+mypythonlibpooja.egg-info/SOURCES.txt
+mypythonlibpooja.egg-info/dependency_links.txt
+mypythonlibpooja.egg-info/top_level.txt

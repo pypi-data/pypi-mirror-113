@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+witmotion/__init__.py
+witmotion/protocol.py
+witmotion.egg-info/PKG-INFO
+witmotion.egg-info/SOURCES.txt
+witmotion.egg-info/dependency_links.txt
+witmotion.egg-info/entry_points.txt
+witmotion.egg-info/not-zip-safe
+witmotion.egg-info/requires.txt
+witmotion.egg-info/top_level.txt
+witmotion/cmd/__init__.py
+witmotion/cmd/debug.py

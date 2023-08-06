@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: py-releases
+Version: 0.1.0
+Summary: A package that get the avaliable python versions
+Home-page: https://github.com/kuticoski/py-releases
+Author: Gr Kuticoski
+License: GPL-2.0
+Description: # *py-releases*
+        
+        This package shows available python versions and your download links.
+        
+        ## Installation
+        
+        Use the [pip](https://pip.pypa.io/en/stable/) to install.
+        
+        ```bash
+        pip install py-releases
+        ```
+        
+        ## Usage
+        
+        ```python
+        from python_releases import Releases
+        
+        releases = Releases()
+        # most recent stable version
+        stable = releases.last_stable
+        
+        # version under development
+        dev = releases.dev
+        
+        # a dict with all python versions
+        all_versions = releases.all
+        
+        # Returns the download link to a specified version
+        releases.search("3.9.6")
+        ```
+        
+        ## License
+        [GPL-2.0](https://github.com/kuticoski/python-releases/blob/main/LICENSE)
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown

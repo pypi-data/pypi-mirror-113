@@ -1,0 +1,12 @@
+README.md
+setup.py
+py_releases.egg-info/PKG-INFO
+py_releases.egg-info/SOURCES.txt
+py_releases.egg-info/dependency_links.txt
+py_releases.egg-info/requires.txt
+py_releases.egg-info/top_level.txt
+python_releases/__init__.py
+python_releases/infos.py
+python_releases/releases.py
+python_releases/scrapper.py
+python_releases/releases_infos/infos.json

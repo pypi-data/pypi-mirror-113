@@ -1,0 +1,10 @@
+aletheia/__init__.cp38-win_amd64.pyd,sha256=kF-_zsU235ofLu3XZHYbal0XTcplihTC0nSplMSSsE8,22528
+aletheia/aletheia.cp38-win_amd64.pyd,sha256=0MvzkMxxHt1q2TAeaf4bApIg6v6JiUk1OpEqFuXxmOk,592384
+aletheia/flatten.cp38-win_amd64.pyd,sha256=BSOZatU8HARRpL8wePs_npD5TBSWkDfN_VmnicQhl-E,91648
+aletheia/merge.cp38-win_amd64.pyd,sha256=3mpvs737RV2jAmPWTE_OMy7ArAX42faC7LM7sGe8FK8,477184
+aletheia/prune.cp38-win_amd64.pyd,sha256=QA7ebawPykTHgENGsIILEjSp_wdQLx3bKKabe3OM4ik,153600
+aletheia_dnn-1.3.3.dist-info/LICENSE,sha256=Yi6Z7US3ygfeP3GRJ0UjeVmQpYkh9NB9_gEUQ664R4w,1516
+aletheia_dnn-1.3.3.dist-info/METADATA,sha256=T6aOsEBhs62oX2IpHCav9eh5lpWvkqQQ6vSgaz2_s_4,951
+aletheia_dnn-1.3.3.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+aletheia_dnn-1.3.3.dist-info/top_level.txt,sha256=FET9FwOvIT5gLgJ3NOkKC90IS3vFNyUDzqvKaiS6jhM,9
+aletheia_dnn-1.3.3.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/PycSQL.egg-info/PKG-INFO
+src/PycSQL.egg-info/SOURCES.txt
+src/PycSQL.egg-info/dependency_links.txt
+src/PycSQL.egg-info/top_level.txt
+src/pycsql/__init__.py
+src/pycsql/access.py
+src/pycsql/config/__init__.py
+src/pycsql/config/config.py
+src/pycsql/core/__init__.py
+src/pycsql/core/manager.py
+src/pycsql/db/__init__.py
+src/pycsql/db/pycsql.py

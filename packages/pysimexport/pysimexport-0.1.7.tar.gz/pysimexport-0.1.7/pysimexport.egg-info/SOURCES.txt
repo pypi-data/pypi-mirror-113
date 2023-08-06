@@ -1,0 +1,10 @@
+LICENCE
+README.rst
+setup.py
+pysimexport/__init__.py
+pysimexport/core.py
+pysimexport.egg-info/PKG-INFO
+pysimexport.egg-info/SOURCES.txt
+pysimexport.egg-info/dependency_links.txt
+pysimexport.egg-info/requires.txt
+pysimexport.egg-info/top_level.txt

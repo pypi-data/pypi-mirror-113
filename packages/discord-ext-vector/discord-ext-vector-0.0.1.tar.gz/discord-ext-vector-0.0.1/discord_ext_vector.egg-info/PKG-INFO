@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: discord-ext-vector
+Version: 0.0.1
+Summary: An extension module with COOL stuff!
+Home-page: https://github.com/Vector-Development1/discord-ext-vector
+Author: drapes
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# discord-ext-vector
+
+
+A COOL package to help with discord.py bots and shit!!!!
+
+

@@ -1,0 +1,5 @@
+markdown>=3.3
+beautifulsoup4>=4
+httpx<1.0,>=0.18
+tenacity>=8
+python-dateutil>=2.8

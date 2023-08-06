@@ -1,0 +1,10 @@
+tfli2c/__init__.py,sha256=ujY-isGL0JSsI47ULfz2GbtgOUykE1g1piopDQzwr6M,12268
+tfli2c/docs/__init__.py,sha256=6rstwSCsqXIIHwT5_CTEJhOXDX_i_0nGC_0q6u8dq3Q,60
+tfli2c/tests/__init__.py,sha256=i_V7zXyy6Qf-C4L95Zt9R0aNrfBLiqdbFEd1NiwRmFg,161
+tfli2c/tests/tfli2c_simple.py,sha256=r9yBAXC-5a6AXTpamKoZYP48N8t_2E-SHUqSam2qWPM,1918
+tfli2c/tests/tfli2c_test.py,sha256=gLxrFzxUw8vBB73S7BdbUV_ZjWDtjnD3AdJMZ5WX0JA,5791
+tfli2c-0.0.1.dist-info/LICENSE,sha256=gLEz0x4pNe04cducXy4kGfoTWZB8i_QCazh1HyWN13E,1070
+tfli2c-0.0.1.dist-info/METADATA,sha256=L_5cN5fpElF8tvoEp7G9QdQvTqN5sOkrtOk6XfXWazo,5790
+tfli2c-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfli2c-0.0.1.dist-info/top_level.txt,sha256=fmXfJZq1g48GaSlej_f2RC0VwFD8EtsZcOA8oB2SWkI,7
+tfli2c-0.0.1.dist-info/RECORD,,

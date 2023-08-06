@@ -1,0 +1,12 @@
+sqlalchemy_openmldb/__init__.py,sha256=D2OhZCo3uStuAUkuqqhsUOGDcqQW8q__QoLiog4ydHI,670
+sqlalchemy_openmldb/saopenmldb.py,sha256=bWdiitk4DirqONQ3Dz9BeJ7nUaxJqedQte5sHRN75ck,6009
+sqlalchemy_openmldb/openmldbapi/__init__.py,sha256=6GUtHl5X-OtQz4qqOYKRSkIipUmeZkcxoZPt4ziFFUA,647
+sqlalchemy_openmldb/openmldbapi/_openmldbapi.py,sha256=n6GDn738x7CeY3hPSgwB7ZDyXC7CLjG5-AibvY2Enog,13962
+sqlalchemy_openmldb/openmldbapi/_sql_router_sdk.so,sha256=iOtHZOf46TtKPH-L0OWP1EGKQe9cX7Eu-cuxXVh34ps,247155080
+sqlalchemy_openmldb/openmldbapi/driver.py,sha256=noi29PYOQVqvNr8A6-bfN_AWD3PWoF3FjPGR1EV6DHM,9397
+sqlalchemy_openmldb/openmldbapi/sql_router_sdk.py,sha256=lRDbM5CX0JDvYQ4lP4CeEx2dXJqbggrd_qD-Blqw6AA,41294
+openmldb-0.2.0.dist-info/METADATA,sha256=6o5Xc7dIkjxfGzmdWCCKfqfRPOQJgTIVFPhzgCY5X8g,312
+openmldb-0.2.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+openmldb-0.2.0.dist-info/entry_points.txt,sha256=rAOSz4PUjnx0E6sqbsfay3qs7bb6lLttCv03yVmHxtQ,81
+openmldb-0.2.0.dist-info/top_level.txt,sha256=WwmlULtVH9-lXhONSeHqELM53OsiTbxSz1jxJILf1o8,20
+openmldb-0.2.0.dist-info/RECORD,,

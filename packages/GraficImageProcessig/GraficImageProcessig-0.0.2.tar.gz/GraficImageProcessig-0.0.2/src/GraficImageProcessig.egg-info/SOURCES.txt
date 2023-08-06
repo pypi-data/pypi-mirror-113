@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/GraficImageProcessig.egg-info/PKG-INFO
+src/GraficImageProcessig.egg-info/SOURCES.txt
+src/GraficImageProcessig.egg-info/dependency_links.txt
+src/GraficImageProcessig.egg-info/requires.txt
+src/GraficImageProcessig.egg-info/top_level.txt
+src/GraphicImageProcessing/CreateBoxes.py
+src/GraphicImageProcessing/GraficPlot.py
+src/GraphicImageProcessing/ImageFilters.py
+src/GraphicImageProcessing/__init__.py

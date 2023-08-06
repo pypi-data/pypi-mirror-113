@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+schooloam/__init__.py
+schooloam/newschool.py
+schooloam/school.py
+schooloam.egg-info/PKG-INFO
+schooloam.egg-info/SOURCES.txt
+schooloam.egg-info/dependency_links.txt
+schooloam.egg-info/top_level.txt

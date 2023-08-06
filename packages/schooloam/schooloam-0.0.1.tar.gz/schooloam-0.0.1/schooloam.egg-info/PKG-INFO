@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: schooloam
+Version: 0.0.1
+Summary: Libaries OOP by Chaiyapat Oam
+Home-page: https://github.com/chaiyapatoam/schooloam
+Author: Chaiyapat Oam
+Author-email: chaiyapatoam12@gmail.com
+License: MIT
+Download-URL: https://github.com/chaiyapatoam/schooloam/archive/0.0.1.zip
+Description: (School oam) libaries OOP by Chaiyapat Oam
+        ==========================================
+        
+        PyPI: https://pypi.org/project/schooloam/
+        
+        วิธีติดตั้ง
+        ~~~~~~~~~~~
+        
+        เปิด CMD / Terminal
+        
+        .. code:: python
+        
+            pip install schooloam
+        
+        วิธีใช้
+        ~~~~~~~
+        
+        -  Import
+        
+        .. code:: python
+        
+            from schooloam import Student,SpecialStudent,Tesla,Teacher
+        
+        REF
+        ===
+        
+        Dev:Chaiyapat Oam พัฒนาโดย: ลุงวิศวกร สอนคำนวณ FB:
+        https://www.facebook.com/UncleEngineer YouTube:
+        https://www.youtube.com/UncleEngineer
+        
+Keywords: OOP,school,Chaiyapat Oam
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

@@ -1,0 +1,4 @@
+gdal>=2.2.0
+watertools>=0.0.26
+numpy
+pandas

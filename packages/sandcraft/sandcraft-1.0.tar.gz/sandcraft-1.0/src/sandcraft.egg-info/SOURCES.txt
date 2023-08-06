@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sandcraft.egg-info/PKG-INFO
+src/sandcraft.egg-info/SOURCES.txt
+src/sandcraft.egg-info/dependency_links.txt
+src/sandcraft.egg-info/requires.txt
+src/sandcraft.egg-info/top_level.txt

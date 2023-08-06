@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: angeutils
+Version: 1.0.1
+Summary: For software development.
+Home-page: https://github.com/AngeXie/ange_pyutils
+Author: AngeXie
+Author-email: 52370ht@sina.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

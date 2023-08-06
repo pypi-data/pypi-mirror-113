@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+dj_statuspage.egg-info/PKG-INFO
+dj_statuspage.egg-info/SOURCES.txt
+dj_statuspage.egg-info/dependency_links.txt
+dj_statuspage.egg-info/requires.txt
+dj_statuspage.egg-info/top_level.txt

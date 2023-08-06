@@ -1,0 +1,10 @@
+witmotion/__init__.py,sha256=_6DyI9Lr5dOhaWjktte6w6DExeYRuZNQTiNvIcftOi8,12647
+witmotion/protocol.py,sha256=Q-NzX8B_67fOy1NWxe5FDTQ7gKZfVwwJBnihgNt3dhk,6237
+witmotion/cmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+witmotion/cmd/debug.py,sha256=al4tkfnAGJGfMiwM5mWwA4tm6Bm-_Gt2IgCQr9jaJZI,4516
+witmotion-0.0.1.dev0.dist-info/LICENSE,sha256=T_Mk1-Bt_7cgG1kDHqx0b5fWNAnnB8P1oWd4u125_rY,1090
+witmotion-0.0.1.dev0.dist-info/METADATA,sha256=lCJB_sUEtWUTzxNCbM3xtoJ36i7wjGXoGF0RSTfm4vs,473
+witmotion-0.0.1.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+witmotion-0.0.1.dev0.dist-info/entry_points.txt,sha256=qzmWA4__NkNnHGa9XxOr462eLdgxeR_jpSTfD3JDueA,79
+witmotion-0.0.1.dev0.dist-info/top_level.txt,sha256=lqE_y867JCtBYw78pMxTVFRszbakgRLSwhTMIAgUnbQ,10
+witmotion-0.0.1.dev0.dist-info/RECORD,,

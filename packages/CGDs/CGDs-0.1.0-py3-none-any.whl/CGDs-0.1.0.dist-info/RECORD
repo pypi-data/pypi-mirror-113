@@ -1,0 +1,9 @@
+CGDs/__init__.py,sha256=R13ruX0K0tbJse626KJbR5pmWjj5Nz70clpBZg9UbEA,77
+CGDs/acgd.py,sha256=ASZbOIbxlBBNxQrTMhbm9nw5lho8Djrz62KyklTDNU0,7611
+CGDs/cgd.py,sha256=KJlYPtcA8AWXUYfXw8K4Jy0iPGfT3l0tZ-YC2qSguP4,10063
+CGDs/cgd_utils.py,sha256=f8qHivBPQTkFG1K9lEh9oX3I7_3E3y5MDfhOdsrkKg0,6363
+CGDs-0.1.0.dist-info/LICENSE,sha256=M10P3745uWZxbo9PxJvE1oBxIqYAglWwtj1ydDoeV0c,1084
+CGDs-0.1.0.dist-info/METADATA,sha256=4MW7tq2VzlZP1kV-x58d6HpIoIbllaRPCBbKKoaDl40,3827
+CGDs-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CGDs-0.1.0.dist-info/top_level.txt,sha256=ZH0SbkGuGcLG9kbk8S8c6IDv4CIo-X9vJfQQV_cy2SA,5
+CGDs-0.1.0.dist-info/RECORD,,

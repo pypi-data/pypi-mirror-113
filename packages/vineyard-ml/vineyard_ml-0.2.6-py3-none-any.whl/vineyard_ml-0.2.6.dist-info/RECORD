@@ -1,0 +1,10 @@
+vineyard/contrib/ml/__init__.py,sha256=sjKemFal9OMZ0ESym8X_P1pTvILycJrbDZPEp0wQz2M,650
+vineyard/contrib/ml/mxnet.py,sha256=YSN7sso0Ytl0WcFfZhBLkUnQwHgAYCU0Voch5px6H-Q,670
+vineyard/contrib/ml/pytorch.py,sha256=7qw_b8aUezYdV84nVKKgYBCxElAI-W-daqLu4fmXT3M,664
+vineyard/contrib/ml/tensorflow.py,sha256=d3qAx3bH3H1Iww4pzZzPi1IfSzBCq1iHbTLEoTJxXFI,675
+vineyard_ml-0.2.6.dist-info/LICENSE,sha256=utBssnCOCpccvvCiohbpHGOSZk08F1XCgfRrM_tQuMw,50495
+vineyard_ml-0.2.6.dist-info/METADATA,sha256=QzpYcR5ZQay6CLOQJ0dH_Cf27_OGmBy2iY78S1XHyiA,16172
+vineyard_ml-0.2.6.dist-info/NOTICE.txt,sha256=XADHgTr9YMptM7YUwoND7oILmmOLZmcSo7LrUxW2CJU,1783
+vineyard_ml-0.2.6.dist-info/WHEEL,sha256=4nchxM5aEXlnzu6QMdB54gBrKXtJOpzMnFskIDsgNhY,93
+vineyard_ml-0.2.6.dist-info/top_level.txt,sha256=eZrYkLRbDypCZAYVfMwFNTMYj4dRG-c-6B5uV6vu4Sk,9
+vineyard_ml-0.2.6.dist-info/RECORD,,

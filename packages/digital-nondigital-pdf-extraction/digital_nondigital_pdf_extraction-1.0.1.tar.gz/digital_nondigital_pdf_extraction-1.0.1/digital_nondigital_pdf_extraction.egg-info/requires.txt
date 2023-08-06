@@ -1,0 +1,6 @@
+PyPDF2
+pdfplumber
+shutil
+fitz
+easyocr
+warnings

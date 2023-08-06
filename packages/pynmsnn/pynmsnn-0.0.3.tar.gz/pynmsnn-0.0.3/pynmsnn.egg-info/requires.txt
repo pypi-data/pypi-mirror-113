@@ -1,0 +1,11 @@
+pandas
+numpy
+torch
+seaborn
+xgboost
+scipy
+tqdm
+scikit_learn
+matplotlib
+plot-metric
+regressormetricgraphplot

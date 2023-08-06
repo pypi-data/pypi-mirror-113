@@ -1,0 +1,3 @@
+[console_scripts]
+becky = becky_cli.run:main
+

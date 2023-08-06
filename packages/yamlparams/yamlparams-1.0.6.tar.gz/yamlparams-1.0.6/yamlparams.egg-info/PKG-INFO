@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yamlparams
+Version: 1.0.6
+Summary: Python library for dot-access to parameters in yaml file
+Home-page: https://github.com/ARQtty/yamlparams
+Author: Ilya Shamov
+Author-email: ShamovIA@yandex.ru
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

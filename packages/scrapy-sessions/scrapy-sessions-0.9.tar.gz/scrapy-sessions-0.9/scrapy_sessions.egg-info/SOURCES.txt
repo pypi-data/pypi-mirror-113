@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scrapy_sessions/__init__.py
+scrapy_sessions/middleware.py
+scrapy_sessions/objects.py
+scrapy_sessions/utils.py
+scrapy_sessions.egg-info/PKG-INFO
+scrapy_sessions.egg-info/SOURCES.txt
+scrapy_sessions.egg-info/dependency_links.txt
+scrapy_sessions.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+scripts/StringFix.egg-info/PKG-INFO
+scripts/StringFix.egg-info/SOURCES.txt
+scripts/StringFix.egg-info/dependency_links.txt
+scripts/StringFix.egg-info/top_level.txt

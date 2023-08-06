@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: korsair-api
+Version: 1.0.7
+Summary: We provide korsair-api to help you query and retrieve KORSAIR directly on your python code.
+Home-page: UNKNOWN
+Author: junehawk
+Author-email: juneh@kisti.re.kr
+License: UNKNOWN
+Keywords: korsair_api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+
+# Korsair
+
+### Project description
+
+---
+
+korsair-api is a library package providing APIs to query the KORSAIR database(http://korsair.kisti.re.kr/), Korean Reference SNP and Indel Repository. We provide korsair-api to help you query and retrieve KORSAIR directly on your python code. With korsairlib, users can filter the query result based on the variant's information annotated with VEP, such as CADD score. korsair-api communicates with KORSAIR by REST APIs provided by KORSAIR.
+
+### Install and Import
+
+---
+
+Install with pip
+
+```python
+python3 -m pip install korsair-api
+```
+
+Import korsair
+
+```python
+from korsair_api import korsair
+```
+
+### **Functions**
+
+---
+
+- get_variant(chro, pos, ref, alt)
+- get_variant_id(rsid)
+- get_gene_v1(gene_id)
+- get_gene_v2(gene_id)
+- get_region_v1(chro, start, end)
+- get_region_v2(chro, start, end)
+
+### Simple Example
+
+---
+
+```python
+Gene Symbol: TP53 
+Variant format: 7-140787574-C-T
+dbSNP: rs397507456, Region: 17-7676272-7675994
+Ensembl Gene: ENSG00000133703
+Ensembl Transcript: ENST00000311936
+```
+
+1. get_variant
+
+    ```python
+    korsair.get_vaiant('chr7', 140787574, 'C', 'T')
+    ```
+
+2. get_variant_id
+
+    ```python
+    korsair.get.get_variant_id('rs397507456')
+    ```
+
+3. get_gene_v1
+
+    ```python
+    korsair.get_gene_v1('CHD8')
+    ```
+
+4. get_gene_v2
+
+    ```python
+    korsair.get_gene_v2('CHD8')
+    ```
+
+5. get_region_v1
+
+    ```python
+    korsair.get_region_v1(17, 7676272, 7675994)
+    ```
+
+6. get_region_v2
+
+    ```python
+    korsair.get_region_v2(17, 7676272, 7675994)
+    ```
+
+### Site
+
+---
+
+[KORSAIR](http://korsair.kisti.re.kr/)
+

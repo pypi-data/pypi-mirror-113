@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: coptr
+Version: 1.1.2
+Summary: Accurate and robust inference of microbial growth dynamics from metagenomic sequencing reads.
+Home-page: https://github.com/tyjo/coptr
+Author: Tyler Joseph
+Author-email: tj2357@columbia.edu
+License: GPL-3.0-or-later
+Download-URL: https://pypi.org/project/coptr/
+Project-URL: Source Code, https://github.com/tyjo/coptr
+Project-URL: Documentation, https://coptr.readthedocs.io
+Project-URL: Bug Tracker, https://github.com/tyjo/coptr/issues
+Keywords: growth rate,peak-to-trough ratio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: development
+License-File: COPYING
+
+CoPTR is a tool for estimating peak-to-trough ratios from metagenomic sequencing.
+
+You can find our documentation on Read The Docs: <https://coptr.readthedocs.io>
+

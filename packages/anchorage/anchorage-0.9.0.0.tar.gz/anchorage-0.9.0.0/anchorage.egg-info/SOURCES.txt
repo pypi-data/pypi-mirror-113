@@ -1,0 +1,12 @@
+README.md
+setup.py
+anchorage/__init__.py
+anchorage/anchor.py
+anchorage/bookmarks.py
+anchorage/cli.py
+anchorage.egg-info/PKG-INFO
+anchorage.egg-info/SOURCES.txt
+anchorage.egg-info/dependency_links.txt
+anchorage.egg-info/entry_points.txt
+anchorage.egg-info/requires.txt
+anchorage.egg-info/top_level.txt

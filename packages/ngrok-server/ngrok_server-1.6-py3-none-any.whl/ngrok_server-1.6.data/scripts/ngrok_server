@@ -1,0 +1,204 @@
+#!/bin/bash
+
+version="1.6"
+
+linux=0
+windows=0
+macos=0
+
+device=$(uname)
+
+if [[ "$device" == "Linux" ]]; then
+    #echo "linux detected"
+    linux=1
+elif [[ "$device" == "Darwin"  ]]; then
+    macos=1
+else
+    windows=1
+fi
+
+adb_path=""
+
+adb_darwin="https://github.com/madhavth/pip_packages/raw/master/adb_darwin"
+adb_windows="https://github.com/madhavth/pip_packages/raw/master/adb.exe"
+adb_linux="https://github.com/madhavth/pip_packages/raw/master/adb_linux"
+
+home=~
+mkdir -p "$home/.ngrok_server/"
+my_path="$home/.ngrok_server"
+cd $my_path
+
+function download_adb()
+{
+  if [[ "$linux" == "1" ]]; then
+    curl -L  $adb_linux -o adb
+  elif [[ "$macos" == "1" ]]; then
+    curl -L $adb_darwin -o adb
+  else
+    curl -L  $adb_windows -o adb
+  fi
+
+  adb_path="./adb"
+  chmod +x adb
+}
+
+if [[ -f "adb" ]]; then
+  adb_path="./adb"
+  echo "adb already downloaded file found"
+elif which adb >/dev/null; then
+    adb_path=$(which adb)
+else
+  echo "adb not found... attempting to download adb"
+  download_adb
+fi
+
+function adb()
+{
+  $adb_path $@
+}
+
+
+down_linux="https://github.com/madhavth/pip_packages/raw/master/ngrok_linux"
+down_windows="https://github.com/madhavth/pip_packages/raw/master/ngrok_windows.exe"
+down_darwin="https://github.com/madhavth/pip_packages/raw/master/ngrok_darwin"
+
+ngrok_path=""
+
+function download_ngrok()
+{
+  if [[ "$linux" == "1" ]]; then
+    curl -L  $down_linux -o ngrok
+  elif [[ "$macos" == "1" ]]; then
+    curl -L  $down_darwin -o ngrok
+  else
+    curl -L $down_windows -o ngrok
+  fi
+
+  ngrok_path="./ngrok"
+  chmod +x ngrok
+}
+
+if [[ -f "ngrok" ]]; then
+  ngrok_path="./ngrok"
+  echo "ngrok already downloaded file found"
+elif which ngrok >/dev/null; then
+    ngrok_path=$(which ngrok)
+else
+  echo "ngrok not found... attempting to download ngrok"
+  download_ngrok
+fi
+
+function ngrok()
+{
+  $ngrok_path $@
+}
+
+
+function advl_get()
+{
+  select=0
+
+  output=$(adb devices)
+
+  devices=(${output/"List of devices attached"/""})
+
+  if [[ -z $devices ]]; then
+    echo "-itsover9000wtf"
+    exit 1
+  fi
+
+  devicesLength=${#devices[@]}
+
+  final=()
+
+  count=0
+
+  for i in ${devices[@]}; do
+    if [[ $i != "device" ]]; then
+  #    echo "device == $i"
+      final+=" $i"
+    fi
+  done
+
+  	echo ${final[@]}
+}
+
+function adb_device_select()
+{
+  title=""
+  first=0
+  devices=($(advl_get))
+
+  my_device_count=${#devices[@]}
+
+  if [[ "$my_device_count" == "1" ]]; then
+    echo ${devices[0]}
+  else
+  count=0
+  for device in ${devices[@]}; do
+  	((++count))
+  	echo "$count) $device" >&2
+  done
+
+  read -p "Enter a device number:- " number
+  echo ${devices[((--number))]}
+fi
+}
+
+selected_device=$(adb_device_select)
+
+if [[ $selected_device == "-itsover9000wtf" ]]; then
+  echo "No device connected. Connect a device to forward IP"
+  exit 1
+fi
+
+wifi_device_selected=0
+
+function connect_by_ip()
+{
+  my_device=$1
+  routes=($(adb -s $my_device shell ip route))
+  len=${#routes[@]}
+  ((--len))
+  con_device=${routes[$len]}
+  echo "trying to connect device $con_device by ip"
+  adb -s $my_device tcpip 5555
+  sleep 0.3
+  selected_device=${con_device}:5555
+  adb connect $selected_device
+}
+
+function is_device_selected_wifi()
+{
+  if [[ ! $selected_device =~ "192.168" ]]; then
+    connect_by_ip $selected_device
+  else
+    echo "device already connected by wifi"
+  fi
+}
+
+
+function cpyaddr() {
+  #echo "Fetching ngork address..."
+
+  sleep_duration=3
+
+  sleep $sleep_duration
+
+  # address=$(curl -s localhost:4040/api/tunnels | jq '.tunnels[].public_url')
+  # refined=${address/"tcp://"/}
+  # final2=$(echo $refined | tr -d \'\")
+	# final=$(echo $final2 | cut -d ' ' -f1)
+  get_ngrok_address.py | python -m pyclip copy
+
+  if [[ ! -z $final ]]; then
+    #statements
+    echo "$final copied to clipboard"
+  else
+    echo "make sure server is running"
+  fi
+}
+
+
+is_device_selected_wifi
+ngrok tcp $selected_device -region in | cpyaddr

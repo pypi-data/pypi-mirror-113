@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pybuildme
+Version: 0.1.0
+Summary: PyBuild is a build environment for Python that starts from the virtual environment upwards, must be installed on base system prior to running.
+Home-page: https://github.com/IAmAbszol/PyBuild
+Author: Kyle Darling
+Author-email: kdarling95@yahoo.com
+License: MIT
+Keywords: build,python,automation,git
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
+

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: onboot
+Version: 0.2
+Summary: cross-platform onboot installers
+Home-page: https://github.com/nbdy/onboot
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Description: # pyautorun
+        cross-platform autostart installer(s)
+        ## usage
+        ### try all available installers for a certain os
+        
+        ```python
+        from onboot import install_linux, InstallerConfiguration
+        
+        # install
+        install_successful, used_installer = install_linux(InstallerConfiguration("/home/user/", "myapp"))
+        
+        # uninstall
+        if install_successful:
+            used_installer.uninstall()
+        ```
+        ### only use a specific installer
+        
+        ```python
+        from onboot.Windows import HKCUInstaller, InstallerConfiguration
+        
+        # install
+        installer = HKCUInstaller(InstallerConfiguration("C:\\", "myapp"))
+        installer.install()
+        
+        # uninstall
+        installer.uninstall()
+        ```
+        
+Keywords: cross-platform onboot installer
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

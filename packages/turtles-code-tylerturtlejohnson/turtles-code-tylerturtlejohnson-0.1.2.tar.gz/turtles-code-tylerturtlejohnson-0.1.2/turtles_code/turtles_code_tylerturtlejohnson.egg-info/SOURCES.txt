@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+turtles_code/turtles_code_tylerturtlejohnson.egg-info/PKG-INFO
+turtles_code/turtles_code_tylerturtlejohnson.egg-info/SOURCES.txt
+turtles_code/turtles_code_tylerturtlejohnson.egg-info/dependency_links.txt
+turtles_code/turtles_code_tylerturtlejohnson.egg-info/top_level.txt

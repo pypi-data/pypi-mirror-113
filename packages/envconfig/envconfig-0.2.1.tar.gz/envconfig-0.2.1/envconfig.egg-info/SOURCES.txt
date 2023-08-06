@@ -1,0 +1,11 @@
+HISTORY.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+test_envconfig.py
+envconfig/__init__.py
+envconfig.egg-info/PKG-INFO
+envconfig.egg-info/SOURCES.txt
+envconfig.egg-info/dependency_links.txt
+envconfig.egg-info/top_level.txt

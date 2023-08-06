@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cfpm
+Version: 0.0.0
+Summary: The C-Family Package Manager.
+Home-page: https://github.com/project-cfpm/cfpm
+License: MIT
+Author: Yi Cao
+Author-email: caoyi06@qq.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: click-log (>=0.3.2,<0.4.0)
+Requires-Dist: semver (>=2.13.0,<3.0.0)
+Requires-Dist: tomli (>=1.0.4,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/project-cfpm/cfpm/issues
+Project-URL: Repository, https://github.com/project-cfpm/cfpm

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: neo-toolbox
+Version: 0.1.4
+Summary: Tools for working with the Neo N3 blockchain.
+License: Apache-2.0
+Author: Adrian Fjellberg
+Author-email: adrian@adapted.no
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+
+# Neo Toolbox
+
+Small toolkit for interacting with the Neo N3 blockchain.
+
+*Created and maintained by Adapted AS (Norway).*

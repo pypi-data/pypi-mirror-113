@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gandi_api_livedns/__init__.py
+src/gandi_api_livedns/const.py
+src/gandi_api_livedns/gandi.py
+src/gandi_api_livedns.egg-info/PKG-INFO
+src/gandi_api_livedns.egg-info/SOURCES.txt
+src/gandi_api_livedns.egg-info/dependency_links.txt
+src/gandi_api_livedns.egg-info/requires.txt
+src/gandi_api_livedns.egg-info/top_level.txt

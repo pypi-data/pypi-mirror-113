@@ -1,0 +1,10 @@
+cepimose/__init__.py,sha256=r96ttt5LNzIeXhP2xSbLvtvYqcLvm2o0lD4qtgp9mvc,24698
+cepimose/commands.py,sha256=K0w0GO27YQONEyXYJFj4vKWnOfpzPGExKG2a4fASMZs,15728
+cepimose/data.py,sha256=ovnwGH6ZwC3UGqWKSDjJwCOzx28mzM3Ehu-BAafLRYc,122500
+cepimose/enums.py,sha256=RbIn8SPdoaCqr9Gr03aTcwaeqgPDxEjpY38B-mCwlHc,1105
+cepimose/parser.py,sha256=plr0pHnY0Zvflt9sRIXfuae14Zygf-gp4mW06jB2YEA,19692
+cepimose/types.py,sha256=PBBeAej2Agv8yzDDFnr5sqWpYq3DkfORQ2ZUaQeMq04,3696
+cepimose-0.1.24.dist-info/METADATA,sha256=Wc7kYilvedPKyuSqQq-qL758bHAdixavQXpDP9tKVw4,2200
+cepimose-0.1.24.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cepimose-0.1.24.dist-info/top_level.txt,sha256=mvLpROsYuD_XP55VHhGMpjkgYLGZNKjFmZ17uNaRxLA,9
+cepimose-0.1.24.dist-info/RECORD,,

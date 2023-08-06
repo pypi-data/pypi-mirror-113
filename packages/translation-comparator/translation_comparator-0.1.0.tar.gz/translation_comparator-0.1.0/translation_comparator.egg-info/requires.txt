@@ -1,0 +1,4 @@
+
+[cython]
+beautifulsoup4>=4.7.0
+cython>=0.22

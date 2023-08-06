@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+aidea/__init__.py
+aidea/main.py
+aidea/tools.py
+aidea.egg-info/PKG-INFO
+aidea.egg-info/SOURCES.txt
+aidea.egg-info/dependency_links.txt
+aidea.egg-info/entry_points.txt
+aidea.egg-info/requires.txt
+aidea.egg-info/top_level.txt

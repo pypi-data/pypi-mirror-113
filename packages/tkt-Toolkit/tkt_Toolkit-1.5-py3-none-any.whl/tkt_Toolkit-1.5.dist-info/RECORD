@@ -1,0 +1,17 @@
+Toolkit/Base.py,sha256=jGDT3UJtNan_Buq-v5ScYzGHx2Qcql8mA5HDrd4oE_I,78
+Toolkit/Crypto.py,sha256=qwy-ZfGWcR_xI237U1HgDT1-e1pYNFyz9Npr7OWQKus,775
+Toolkit/Script_1.py,sha256=zmRV5u8r16WTM6cheu9CLGop8FgKfVsNnwD45faW38A,724
+Toolkit/Script_2.py,sha256=ni-Dx8ghpsnQl37BknyLhPXe-J78KhRrY3HRA_IjC0o,118
+Toolkit/SpeechRecongition.py,sha256=-7h2xUC4grBMdD5rYrN2xp_xMartQTphvYt-el9tHAQ,1601
+Toolkit/Youtube.py,sha256=22MiqoOrZW3QbAy2yPEfxYUIKMRP0Qr9gnTSiEECAqI,1159
+Toolkit/__init__.py,sha256=bgk565dXRQhGZLKv_eZr3ax3CGqy23obcSdit4F91Y8,2571
+Toolkit/errors.py,sha256=wLKiY_zbg5lxdxNqmDBQXvb5z_VDIgq9UTvCg7Rxy58,161
+Toolkit/texttospeech.py,sha256=JdPgb4dKso9qA0qe_t5U04X5EcQR8W_mi9p0bPMgjJs,253
+Toolkit/tktUtil.py,sha256=HtLr1KzfwW7s4Izg1w8j9tUFFKex9yu1CTQy4BqAfYs,1611
+Toolkit/translator.py,sha256=xjz5jPgaBFCWgyA8qhweB8L_X-oPtNlZKXC5rua8zlk,1009
+Toolkit/weather.py,sha256=kFGbPepCCv6-NBjS4q2RvmAJx01tM2TLyVprZUeX4tw,263
+tkt_Toolkit-1.5.dist-info/METADATA,sha256=mPAg7xYmUp9RcVqsx_1fk90uofViqyvnUeR7YAShWKY,1747
+tkt_Toolkit-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tkt_Toolkit-1.5.dist-info/license,sha256=gA2peRdNbxq7imknj5fPYn-OpCmad91KmluEqW-6cjA,1500
+tkt_Toolkit-1.5.dist-info/top_level.txt,sha256=cKjviaBLRETsMROe5HlwWTQ8XtrBd5T9-c_g8j_Hz7w,8
+tkt_Toolkit-1.5.dist-info/RECORD,,

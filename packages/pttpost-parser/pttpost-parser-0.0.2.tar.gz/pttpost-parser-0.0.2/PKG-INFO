@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pttpost-parser
+Version: 0.0.2
+Summary: A Python library for collecting articles from ptt website
+Home-page: https://github.com/rayhzh/pttpost-parser
+Author: rayhzh
+Author-email: ray2012789852@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

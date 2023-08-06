@@ -1,0 +1,11 @@
+ccvtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccvtools/__main__.py,sha256=fIe5N-0hWfERMFWBUPeBW9HnKRrDssDTe7HU-SIWakw,73
+ccvtools/ccv.py,sha256=Vw5uc0RJUd2LpLb-6H11wnp_dWZp1YDwo4SORiZ4cP0,4785
+ccvtools/rawio/CamCommandoFormat.py,sha256=NPIN98NRVkz-TjNB8uaHwYlV4OMo6S4Y3nkK1GMWg3w,4288
+ccvtools/rawio/Filters.py,sha256=Gn1NZw8Rr_J-Kl4iQAQwQH5EbxLy8SzJiiuEvfGGddk,566
+ccvtools/rawio/__init__.py,sha256=8ZIGoCLnXQPmJtbrG9VG4XeQag6le_nkYGMUqi_xn78,391
+bbo_ccvtools-1.0.0.dist-info/LICENSE,sha256=GoFiE674pYA0pmIfP56tMBInTbbUhrAKjM5CmIpar1g,1515
+bbo_ccvtools-1.0.0.dist-info/METADATA,sha256=MNq--JqaOfa7HEhZ_ZooQSAJ70E4XTtfiQyzazbVM98,714
+bbo_ccvtools-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bbo_ccvtools-1.0.0.dist-info/top_level.txt,sha256=xYEm8jFlovH45fPuO7ERlu611N0osafqLIOxCUzYemk,9
+bbo_ccvtools-1.0.0.dist-info/RECORD,,

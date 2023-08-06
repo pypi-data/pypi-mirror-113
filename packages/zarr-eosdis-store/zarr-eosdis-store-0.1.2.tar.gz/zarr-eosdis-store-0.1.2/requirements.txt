@@ -1,0 +1,6 @@
+CacheControl>=0.12.6
+requests>=2.23.0
+requests-futures>=1.0.0
+zarr>=2.7.1
+ipypb~=0.5
+xarray~=0.16

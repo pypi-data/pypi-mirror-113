@@ -1,0 +1,15 @@
+nr/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+nr/parsing/__init__.py,sha256=iOEMwnlORWezdO8-2vxBIPSR37D7JGjluZ8f55vzxls,81
+nr/parsing/core/__init__.py,sha256=ndF988lS63b1z9sPKx08-ze-3GYiXyDcFMWjpytLwmY,389
+nr/parsing/core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nr/parsing/core/rules.py,sha256=ytpD-u6sPsmCAVsn9-km_1A1NgPNophcrR7rUxR5624,2185
+nr/parsing/core/scanner.py,sha256=x3cDykAkcPLs2YpgGs_Us31GXgSB4WC_SCgckR1nX24,6266
+nr/parsing/core/tokenizer/__init__.py,sha256=EK5DQyPcaND-XTCq3s7PMoGLpMy85AnzTh-jzWbmezI,161
+nr/parsing/core/tokenizer/extractor.py,sha256=QmDBGUXL6gf_GX5s965hAxdR3kFYjsdJKPuO5WJu1aA,1450
+nr/parsing/core/tokenizer/ruleset.py,sha256=m-tza9FghQuEfBgaFQcjYUvfgRW5e-KusBMIppaKhTg,3800
+nr/parsing/core/tokenizer/tokenizer.py,sha256=TgIDls07CsEQKw9n9JUnj2EEr5OfzAG0Gz8A4DfEKvY,11857
+nr.parsing.core-2.0.4.dist-info/LICENSE.txt,sha256=PTMA8TgKd7TibXuKbMOGlqATHes1D76uP9dAlPyqdEk,1002
+nr.parsing.core-2.0.4.dist-info/METADATA,sha256=tUWPHDMINzwEWe2K39XiE227uhp0LtWt7CXlx2s-bX8,1516
+nr.parsing.core-2.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nr.parsing.core-2.0.4.dist-info/top_level.txt,sha256=8ipe96hphd64fYwhLcJmehxJ5lvqPpqOvSWVv-HcPnI,3
+nr.parsing.core-2.0.4.dist-info/RECORD,,

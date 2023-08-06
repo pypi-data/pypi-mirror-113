@@ -1,0 +1,7 @@
+setup.py
+PyDeepAI/__init__.py
+PyDeepAI.egg-info/PKG-INFO
+PyDeepAI.egg-info/SOURCES.txt
+PyDeepAI.egg-info/dependency_links.txt
+PyDeepAI.egg-info/requires.txt
+PyDeepAI.egg-info/top_level.txt

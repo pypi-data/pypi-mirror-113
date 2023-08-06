@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: trashparse
+Version: 0.1.4
+Summary: simple tool for analyzing Windows Recycle.Bin
+Home-page: https://github.com/hanasuru/TrashParse
+Author: hanasuru
+Author-email: faqih.insani@ymail.com
+License: MIT
+Download-URL: https://github.com/hanasuru/TrashParse/archive/0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: forensic,recycle-bin,windows
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

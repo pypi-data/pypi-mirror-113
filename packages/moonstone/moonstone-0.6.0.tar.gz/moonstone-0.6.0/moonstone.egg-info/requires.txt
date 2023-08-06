@@ -1,0 +1,10 @@
+pandas==1.0.1
+matplotlib
+plotly
+statsmodels
+python-slugify
+pyaml
+numpy==1.18.1
+scikit-bio
+scikit-learn
+hdmedians==0.13

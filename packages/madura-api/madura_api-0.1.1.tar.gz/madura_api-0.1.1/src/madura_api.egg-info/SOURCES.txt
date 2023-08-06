@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/madura_api/__init__.py
+src/madura_api/main.py
+src/madura_api.egg-info/PKG-INFO
+src/madura_api.egg-info/SOURCES.txt
+src/madura_api.egg-info/dependency_links.txt
+src/madura_api.egg-info/requires.txt
+src/madura_api.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+scikit_surgerytorsosimulator.egg-info/PKG-INFO
+scikit_surgerytorsosimulator.egg-info/SOURCES.txt
+scikit_surgerytorsosimulator.egg-info/dependency_links.txt
+scikit_surgerytorsosimulator.egg-info/entry_points.txt
+scikit_surgerytorsosimulator.egg-info/requires.txt
+scikit_surgerytorsosimulator.egg-info/top_level.txt
+skstorsosim/__init__.py
+skstorsosim/_version.py
+skstorsosim/empty.py

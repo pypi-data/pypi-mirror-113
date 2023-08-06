@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Tinge
+Version: 0.0.1
+Summary: Colored text for terminal
+Home-page: https://github.com/g-paras/tinge
+Author: Paras Gupta
+Author-email: guptaparas039@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+
+
+ANSII color formattion for terminal output
+
+

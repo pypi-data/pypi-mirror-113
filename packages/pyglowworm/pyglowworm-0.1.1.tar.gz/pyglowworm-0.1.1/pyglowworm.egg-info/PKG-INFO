@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pyglowworm
+Version: 0.1.1
+Summary: to assist finding examples for api of all kinds of libraries
+Home-page: https://github.com/jackzhenguo/python-small-examples
+Author: zhenguo
+Author-email: guozhennianhua@163.com
+License: MIT
+Description: 文档API案例帮助利器
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

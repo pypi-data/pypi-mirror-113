@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: SparseCOOTensorMulPyTorch
+Version: 0.0.1
+Summary: Pytorch based sparse coo tensor multiplication (returns same elements with torch.matmul function but returns torch.tensor)
+Home-page: https://github.com/dqj5182/Sparse_COO_Tensor_Multiplication_Pytorch
+Author: Daniel Jung
+Author-email: dqj5182@psu.edu
+License: MIT
+Description: UNKNOWN
+Keywords: graph,matrix-multiplication,sparse-matrix,sparse-tensors,gnn
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

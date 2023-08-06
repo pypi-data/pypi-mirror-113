@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: idiomatch
+Version: 1.0.1
+Summary: A SpaCy Matcher for identifying idioms
+Home-page: https://github.com/eubinecto/idiomatch
+Author: Eu-Bin KIM
+Author-email: tlrndk123@gmail.com
+License: MIT LICENSE
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+

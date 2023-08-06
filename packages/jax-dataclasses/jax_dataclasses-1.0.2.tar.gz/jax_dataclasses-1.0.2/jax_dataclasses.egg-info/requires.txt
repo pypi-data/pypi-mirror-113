@@ -1,0 +1,10 @@
+flax
+jax
+jaxlib
+
+[:python_version < "3.7.0"]
+dataclasses
+
+[testing]
+pytest
+pytest-cov

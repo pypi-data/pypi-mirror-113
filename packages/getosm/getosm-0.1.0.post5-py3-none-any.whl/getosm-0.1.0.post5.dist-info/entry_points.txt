@@ -1,0 +1,4 @@
+[console_scripts]
+osmtk = getosm.osmtk:main
+osmwx = getosm.osmwx:main
+

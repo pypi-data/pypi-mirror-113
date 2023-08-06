@@ -1,0 +1,4 @@
+include requirements.txt
+include test/requirements.txt
+
+recursive-include ai-python/ *.txt

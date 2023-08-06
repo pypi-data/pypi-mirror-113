@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: metadata-from-url
+Version: 0.0.5
+Summary: Extract metadata from url
+Home-page: UNKNOWN
+Author: hectortav (Ektoras Tavoularis)
+Author-email: <tavhector@gmail.com>
+License: UNKNOWN
+Keywords: python,metadata,extract
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+A package that allows you to extract metadata from static webpages.
+

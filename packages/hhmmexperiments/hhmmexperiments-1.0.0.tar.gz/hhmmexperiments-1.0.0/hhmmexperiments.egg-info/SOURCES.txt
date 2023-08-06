@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+hhmmexperiments.egg-info/PKG-INFO
+hhmmexperiments.egg-info/SOURCES.txt
+hhmmexperiments.egg-info/dependency_links.txt
+hhmmexperiments.egg-info/top_level.txt

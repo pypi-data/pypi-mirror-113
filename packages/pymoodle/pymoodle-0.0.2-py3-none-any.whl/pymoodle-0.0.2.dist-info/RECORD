@@ -1,0 +1,9 @@
+moodle/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+moodle/constants.py,sha256=bM-kv33uT5SzvM18BxvR9ub13mh906vQhUJ5iKDuBUE,253
+moodle/session.py,sha256=pQxGz-4HAzjuqcuCQ36KMTML8vzZ7QJHDJAaZO2nYz4,4175
+moodle/util.py,sha256=iy45JvGSBZ0f7As5Tf7_vdxCvFBS6KeMfhJklOr2LCU,851
+pymoodle-0.0.2.dist-info/LICENSE,sha256=i0cANppjEorJMOrGcGlKyF_vb_Kuz5mC0558vOIjoWE,1072
+pymoodle-0.0.2.dist-info/METADATA,sha256=rCWHyGvt2tM_BsealtmtXmDU41pUIH1TMN1NqKwM-yo,834
+pymoodle-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymoodle-0.0.2.dist-info/top_level.txt,sha256=INdbDGImqvXBIIZ9hrttCW2UlCBn4gT81GWCS5Dc-IU,7
+pymoodle-0.0.2.dist-info/RECORD,,

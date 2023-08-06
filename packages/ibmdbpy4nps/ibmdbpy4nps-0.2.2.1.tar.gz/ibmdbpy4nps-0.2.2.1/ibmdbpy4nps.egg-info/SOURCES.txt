@@ -1,0 +1,7 @@
+README.md
+setup.py
+ibmdbpy4nps.egg-info/PKG-INFO
+ibmdbpy4nps.egg-info/SOURCES.txt
+ibmdbpy4nps.egg-info/dependency_links.txt
+ibmdbpy4nps.egg-info/requires.txt
+ibmdbpy4nps.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ibmdbpy4nps
+Version: 0.2.2.1
+Summary: ibmdbpy4nps is now nzpyida
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # ibmdbpy4nps is now nzpyida
+        
+        This package has been renamed. Use `pip install nzpyida` instead.
+        
+        New package: https://pypi.org/project/nzpyida/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown

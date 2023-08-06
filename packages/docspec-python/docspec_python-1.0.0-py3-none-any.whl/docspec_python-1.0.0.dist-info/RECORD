@@ -1,0 +1,13 @@
+docspec_python/__init__.py,sha256=4nuVFcRVg2Y8XLnJk6OpRBFef4n2jcVTZybkQao6QCc,8266
+docspec_python/__main__.py,sha256=d7-vUvgPTTKpkSdVqbT18BaIA-iP4yF7u35ZrF1TTAc,4111
+docspec_python/parser.py,sha256=kW1UFJDuCnDiDluqrk2UJLt_nfIrUVnV4Eanps6obQw,19101
+docspec_python/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docspec_python/test/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+docspec_python/test/test_loader.py,sha256=bPzm_uI4VeIqjklaF5QdF78j0PupCuyreDeTMM4jeiE,2591
+docspec_python/test/test_parser.py,sha256=TeN3Zk3UnkdVWv8Ei6i7OzJgj2O8WxnlnVjcupBYHEY,8250
+docspec_python-1.0.0.dist-info/LICENSE.txt,sha256=DWcTMuhLaPQZurKHQT2h7S8qmLCOEKgGuZ_kTIgjSiI,1002
+docspec_python-1.0.0.dist-info/METADATA,sha256=ZcPYOZIlTO1oIDY7xt1jiNnsvCo5XflzCDayit1BNGI,1045
+docspec_python-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+docspec_python-1.0.0.dist-info/entry_points.txt,sha256=PS0UHcjMG2PAAzuc4nYwr9qJf80RNQ6uB4qvYyDgr1c,65
+docspec_python-1.0.0.dist-info/top_level.txt,sha256=8t5bLRf2sasqidrFlOXw20ekh2lMHXzdKnPwhmmjfmg,15
+docspec_python-1.0.0.dist-info/RECORD,,

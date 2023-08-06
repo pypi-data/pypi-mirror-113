@@ -1,0 +1,6 @@
+[console_scripts]
+lsdtt_grabopentopographydata = lsdviztools.scripts.grabopentopographydata:main
+lsdtt_plotbasicrasters = lsdviztools.scripts.plotbasicrasters:main
+lsdtt_plotchianalysis = lsdviztools.scripts.plotchianalysis:main
+lsdtt_plotmovernanalysis = lsdviztools.scripts.plotmovernanalysis:main
+

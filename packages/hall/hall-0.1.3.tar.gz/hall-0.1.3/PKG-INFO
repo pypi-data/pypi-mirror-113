@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: hall
+Version: 0.1.3
+Summary: Hall - Probability theory using pythonic and (almost) mathematical notation.
+License: BSD-3-Clause
+Author: Joren Hammudoglu
+Author-email: jhammudoglu@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Requires-Dist: gmpy2 (>=2.0.8,<3.0.0)
+Requires-Dist: mpmath (>=1.2,<2.0)
+Project-URL: Bug Tracker, https://github.com/jorenham/hall/issues
+Project-URL: homepage, https://pypi.org/project/hall/
+Project-URL: repository, https://github.com/jorenham/hall
+Description-Content-Type: text/markdown
+
+Probability theory using pythonic and (almost) mathematical notation.
+
+## Help
+
+See [documentation](https://jorenham.github.io/hall/) for more details.
+
+## A simple example: Intelligence quotient
+
+```pycon
+>>> from hall import P, E, Std, Normal
+>>> IQ = ~Normal(100, 15)
+>>> E[IQ]
+100.0
+>>> Std[IQ]
+15.0
+>>> P(X >= 130)
+0.0227501319481792
+```
+
+So the chance of having an IQ (normally distributed with μ=100 and σ=15) of at 
+least 130 is approximately 2.3%.
+
+## A simple example: Monty ~~Python~~ Hall 
+
+`TODO`
+
+## Contributing
+
+For guidance on setting up a development environment and how to make a
+contribution to *hall*, see
+[Contributing to Pydantic](https://jorenham.github.io/hall/#contributing).

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: flake8-typehinting
+Version: 0.1.0
+Summary: Type Hinting Flake8 Extension
+Home-page: https://github.com/gagelarsen/flake8-typehinting
+Author: Gage Larsen
+Author-email: gagelarsen53@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance

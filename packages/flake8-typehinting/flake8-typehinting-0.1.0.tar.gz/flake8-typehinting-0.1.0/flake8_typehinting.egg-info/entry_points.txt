@@ -1,0 +1,3 @@
+[flake8.extension]
+TH = flake8_typehinting:Plugin
+

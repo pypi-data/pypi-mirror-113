@@ -1,0 +1,9 @@
+pytest_motor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_motor/mongod_binary.py,sha256=30wOYRIXIjW4Yvja6BU-w1RckUa1yNDo1mJkr-8n868,6234
+pytest_motor/plugin.py,sha256=nOoxSyyWcKS6d_3Rfx6S927tGoy2GLp19yxjCK3vJE4,3201
+pytest_motor-0.3.0.dist-info/LICENSE.txt,sha256=saLXjfQWlpHb7IAJ3_XgZHK2YblP69n8P5qd9Vf2xyc,1084
+pytest_motor-0.3.0.dist-info/METADATA,sha256=R5B8ZOFJ8NIPpdRaTNUzV-U6h1Fxq8-dLu5El6dEhqI,2736
+pytest_motor-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_motor-0.3.0.dist-info/entry_points.txt,sha256=_XeewxK1kZrxw119TyHBa5HLAFVL1CiDjXRmgs5u6Lg,47
+pytest_motor-0.3.0.dist-info/top_level.txt,sha256=wvXkD61f9oFbnw67WGiSbracndF4G3a2seACy6nmau0,13
+pytest_motor-0.3.0.dist-info/RECORD,,
